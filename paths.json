@@ -1,0 +1,1138 @@
+{
+  "misscasts": [
+    {
+      "000": "No additional effects."
+    },
+    {
+      "111": "The Casting Attempt is considered to be failed (apply Fizzle as normal)."
+    },
+    {
+      "222": "After resolving the spell effect (including any Attribute Spell), the Caster’s unit suffers 1D6 hits with Armour Penetration 2, Magical Attacks and a Strength equal to the number of Magic Dice that were used for the casting roll."
+    },
+    {
+      "333": "After resolving the spell effect (including any Attribute Spell), the Caster’s unit suffers 2D6 hits with Armour Penetration 2, Magical Attacks and a Strength equal to the number of Magic Dice that were used for the casting roll."
+    },
+    {
+      "444": "After resolving the spell effect (including any Attribute Spell), the Caster cannot cast the Miscast spell anymore this game."
+    },
+    {
+      "555": "After resolving the spell effect (including any Attribute Spell), the Caster suffers 2 hits that wound on 4+ with Armour Penetration 10 and Magical Attacks."
+    },
+    {
+      "666": "After resolving the spell effect (including any Attribute Spell), the Caster suffers 4 hits that wound on 4+ with Armour Penetration 10 and Magical Attacks."
+    },
+    {
+      "777": "After resolving the spell effect (including any Attribute Spell), the Caster’s model dies. Remove it from the game as a casualty (no saves of any kind allowed)."
+    }
+  ],
+  "flux": [
+    {
+      "number": 1,
+      "dices": 4,
+      "veils": 3,
+      "text": "All misscasts this phase gain a +1 Miscast modifier"
+    },
+    {
+      "number": 2,
+      "dices": 5,
+      "veils": 2,
+      "text": ""
+    },
+    {
+      "number": 3,
+      "dices": 5,
+      "veils": 5,
+      "text": ""
+    },
+    {
+      "number": 4,
+      "dices": 5,
+      "veils": 7,
+      "text": ""
+    },
+    {
+      "number": 5,
+      "dices": 5,
+      "veils": 9,
+      "text": ""
+    },
+    {
+      "number": 6,
+      "dices": 6,
+      "veils": 5,
+      "text": ""
+    },
+    {
+      "number": 7,
+      "dices": 6,
+      "veils": 7,
+      "text": ""
+    },
+    {
+      "number": 8,
+      "dices": 7,
+      "veils": 7,
+      "text": "All misscasts this phase gain a -1 Miscast modifier"
+    }
+  ],
+  "durations": [
+    {
+      "1": "One turn"
+    },
+    {
+      "2": "Instant"
+    },
+    {
+      "3": "Permanent"
+    }
+  ],
+  "types": [
+    {
+      "1": "Augment"
+    },
+    {
+      "2": "Focused"
+    },
+    {
+      "3": "Hex"
+    },
+    {
+      "4": "Direct"
+    },
+    {
+      "5": "Damage"
+    },
+    {
+      "6": "Missile"
+    },
+    {
+      "7": "Universal"
+    },
+    {
+      "8": "Ground"
+    },
+    {
+      "9": "Aura"
+    },
+    {
+      "10": "Caster"
+    },
+    {
+      "11": "Caster's Unit"
+    },
+    {
+      "12": "Range X"
+    }
+  ],
+  "paths": [
+    {
+      "effect": "",
+      "name": "Alchemy",
+      "color": "#F2F5A9",
+      "spells": [
+        {
+          "value": "A",
+          "name": "Alchemical Fire",
+          "duration": "1",
+          "effect": "The target gains Flammable against Melee Attacks.",
+          "castingvalue": "-",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "name": "Quicksilver Lash",
+          "duration": "2",
+          "effect": "The target suffers D3+1 hits with Flaming Attacks, Magical Attacks, and Armour Penetration 10. These hits always wound on a roll equal to or greater than 7 - the target’s Armour. An unmodified ‘6’ always wounds and an unmodified ‘1’ always fails to wound.",
+          "castingvalue": "7+",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+        {
+          "value": "2",
+          "name": "Word of Iron",
+          "duration": "1",
+          "effect": "The target gains +1/[+2] Armour.",
+          "castingvalue": "5+/[9+]",
+          "range": "24",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "name": "Glory of Gold",
+          "duration": "1",
+          "effect": "The target gains +1 Armour Penetration, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "8+",
+          "range": "18",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "4",
+          "name": "Molten Copper",
+          "duration": "2",
+          "effect": "The target suffers 2D6 [3D6] hits with Strength 3, Armour Penetration 3, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "7+/[10+]",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+        {
+          "value": "5",
+          "name": "Corruption of Tin",
+          "duration": "3",
+          "effect": "The target suffers -1 Armour",
+          "castingvalue": "8+",
+          "range": "36",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },
+        {
+          "value": "6",
+          "name": "Silver Spike",
+          "duration": "2",
+          "effect": "The target suffers 1 hit with Strength 3 [6], Armour Penetration 10, Magical Attacks, Multiple Wounds (D3), and Penetrating.",
+          "castingvalue": "6+/[9+]",
+          "range": "18/[36]",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": ": Spells from Divination gain +3″ Range for each other friendly Wizard with non-Bound Spells from Divination within 12″ of the Caster.",
+      "name": "Divination",
+      "color": "#81BEF7",
+      "spells": [
+        {
+          "value": "A",
+          "name": "Guiding Light",
+          "duration": "1",
+          "effect": "Discipline Tests of units with all models affected by the spell are subject to Minimised Roll. A unit cannot be affected by this spell more than once per Magic Phase.",
+          "castingvalue": "-",
+          "range": "12",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "name": "Know the Enemy",
+          "duration": "1",
+          "effect": "The target gains +2 Offensive Skill, +2 Defensive Skill, and +2 Agility",
+          "castingvalue": "7+/[11+]",
+          "range": "18/[6 aura]",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "2",
+          "name": "Fate's Judgement",
+          "duration": "2",
+          "effect": "The target suffers D3 [D6] hits with Magical Attacks that wound automatically, with no Special Saves allowed (note that Armour Saves are allowed).",
+          "castingvalue": "5+/[9+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "name": "Scrying",
+          "duration": "1",
+          "effect": "The target gains Distracting and Hard Target.",
+          "castingvalue": "7+/[10+]",
+          "range": "18/[6 aura]",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "4",
+          "name": "The Stars Align",
+          "duration": "1",
+          "effect": "The target gains Divine Attacks, and must reroll failed to-hit rolls with Close Combat and Shooting Attacks.",
+          "castingvalue": "9+/[12+]",
+          "range": "18/[6 aura]",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "5",
+          "name": "Unerring Strike",
+          "duration": "2",
+          "effect": "The target suffers 2D6[3D6] hits that wound on 4+, with Armour Penetration 1, Divine Attacks, and Magical Attacks.",
+          "castingvalue": "7+/[10+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+        {
+          "value": "6",
+          "name": "Portent of Doom",
+          "duration": "1",
+          "effect": "For each Character in the target when the spell is cast, the target suffers -1 to Advance Rate, March Rate, Offensive Skill, Defensive Skill, casting rolls, and to-hit rolls with Shooting Attacks.",
+          "castingvalue": "9+",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "All Wizards that know at least one Druidism spell (excluding Bound Spells) know the Learned Spell The Oaken Throne in addition to their other spells.",
+      "name": "Druidism",
+      "color": "#A9F5A9",
+      "spells": [
+        {
+          "value": "A",
+          "name": "Fountain of Youth",
+          "duration": "2",
+          "effect": "The target or its unit <Recovers> [Raises] 1 Health Point. No single model can Recover (or Raise) more than 1 Health Point per Phase from this spell",
+          "castingvalue": "-",
+          "range": "12",
+          "types": [
+            {
+              "type": "1"
+            },
+            {
+              "type": "2"
+            }
+          ]
+        },
+        {
+          "value": "0",
+          "name": "The Oaken Throne",
+          "duration": "3",
+          "effect": "If the caster has The Oaken Throne in play when certain spells are cast by the caster, the augmented version is used. In that case, use any text marked with { } and ignore any text marked with < >. The Oaken Throne must already be in play when a spell is cast in order to use the amplified Attribute. This spell is ended if the Caster attempts to cast The Oaken Throne again, or if the opponent removes a dice from their Magic Dice pool at the end of step 3 of any Magic Phase sequence (after Siphon the Veil).",
+          "castingvalue": "4+",
+          "range": "Caster",
+          "types": [
+            {}
+          ]
+        },
+        {
+          "value": "1",
+          "name": "Healing Waters",
+          "duration": "1",
+          "effect": "The Range of this spell can be measured from the caster or from any Water Terrain Feature on the table. The target gains Regeneration <(5+)>{(4+)}.",
+          "castingvalue": "<7+>/{6+}",
+          "range": "12",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "2",
+          "name": "Master of Earth",
+          "duration": "2",
+          "effect": "The Range of this spell can be measured from the caster, or from any Cliffs Terrain Feature on the table. The target suffers D6 hits with Str <4>{5} and AP <1>{2}. ",
+          "castingvalue": "<6+>/{5+}",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "name": "Entwining Roots",
+          "duration": "1",
+          "effect": "The Range of this spell can be measured from the caster or from any Forest Terrain Feature on the table. The target suffers <-1>{-2} Offensive Skill, Defensive Skill and to hit with Shooting Attacks",
+          "castingvalue": "<6+>/{5+}",
+          "range": "12",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },
+        {
+          "value": "4",
+          "name": "Summer Growth",
+          "duration": "2",
+          "effect": "This spell has different effects depending on the target: Standard Infantry/Beast : Raise <4> {6} Health Points. Towering Presence : Raise<1>{1} Health Point. Anything else : Raise<2>{3} Health Points.",
+          "castingvalue": "11+/{10+}",
+          "range": "24",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "5",
+          "name": "Stone Skin",
+          "duration": "1",
+          "effect": "The Range of this spell can be measured from the caster or from any Hill Terrain Feature on the table. The target gains <+2>{+3} Resilience.",
+          "castingvalue": "<9+>/{8+}",
+          "range": "12",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "6",
+          "name": "Spirits of the Wood",
+          "duration": "1",
+          "effect": "Place a Forest underneath the target (this can be substituted by placing a marker or the spell card next to the unit). This Forests always extends to the edges of the unit’s Boundary Rectangle (even if the unit moves or changes formation).{If the target is a friendly unit, it gains Strider (Forest).}",
+          "castingvalue": "<7+>/{6+}",
+          "range": "12",
+          "types": [
+            {
+              "type": "1"
+            },
+            {
+              "type": "{7}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "",
+      "name": "Evocation",
+      "color": "#424242",
+      "spells": [
+        {
+          "value": "A",
+          "name": "Evocation of Souls",
+          "duration": "2",
+          "effect": "If your Veil Token pool contains less than 3 Veil Tokens, you gain one Veil Token. No more than 1 Veil Token can be gained from this spell each Phase",
+          "castingvalue": "-",
+          "range": "",
+          "types": [
+          ]
+        },
+        {
+          "value": "1",
+          "name": "Spectral Blades",
+          "duration": "1",
+          "effect": "The target must reroll failed to-wound rolls in Close Combat. [The target gains Lethal Strike]",
+          "castingvalue": "5+/[9+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "2",
+          "name": "Whispers of the Veil",
+          "duration": "1",
+          "effect": "The target suffers -2 Offensive Skill and -2 Defensive Skill. In addition, a unit with at least one model affected by the spell suffers -1 Discipline.",
+          "castingvalue": "7+",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "name": "Hasten the Hour",
+          "duration": "2",
+          "effect": "Choose 1 [up to 3] models in the target unit (which may be Characters or Champions). Each of them suffers 1 hit that wounds automatically with Armour Penetration 10 and Magical Attacks.",
+          "castingvalue": "7+/[10+]",
+          "range": "24/[18]",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "4"
+            },
+            {
+              "type": "5"
+            }
+          ]
+        },
+        {
+          "value": "4",
+          "name": "Ancestral Aid",
+          "duration": "1",
+          "effect": "The target must reroll failed to-hit rolls with its Close Combat [and Shooting] Attacks",
+          "castingvalue": "6+/[9+]",
+          "range": "12/[18]",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "5",
+          "name": "Touch of the Reaper",
+          "duration": "2",
+          "effect": "The target suffers D3 hits with Strength 10 and , Armour Penetration 10 and Magical Attacks. When rolling to wound with this attack, use the opponent’s Discipline instead of the opponent’s Resilience. ",
+          "castingvalue": "6+/[9+]",
+          "range": "12/[24]",
+          "types": [
+            {
+              "type": "2"
+            },
+            {
+              "type": "3"
+            },
+            {
+              "type": "4"
+            },
+            {
+              "type": "5"
+            }
+          ]
+        },
+        {
+          "value": "6",
+          "name": "Danse Macabre",
+          "duration": "2",
+          "effect": "The target may perform an 8 [6]  Magical Move and gains Ghost Step during this move.",
+          "castingvalue": "5+/[10+]",
+          "range": "12/[9 aura]",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "When casting a non-Bound Spell from this Path, right after the casting roll, but before any Dispel Attempt, the Active Player may choose to inflict X hits on the Caster’s unit or another friendly unengaged unit within 24. Each unit may only be targeted by this ability once per Magic Phase. X is equal to the number of Ranks in the targeted unit, down to a minimum of 2, and up to a maximum of 5. These hits wound automatically and no save of any kind is allowed against them. The last model in a unit can never be removed as a casualty using this ability (any wound that would reduce its Health Point pool to 0 is discarded). Units never take Panic Tests for losing Health Points from The Sacrifice. If at least one wound was caused, the spell is cast with the amplified version. In that case, use any text marked with { } and ignore any text marked with < >.",
+      "name": "Occultism",
+      "color": "#013ADF",
+      "spells": [
+        {
+          "value": "1",
+          "name": "Pentagram of Pain",
+          "duration": "2",
+          "effect": "The target suffers D6 hits with Strength 4, Armour Penetration 1, and Magical Attacks. [The Caster’s unit is unaffected.] {If one or more unsaved Wounds are caused with this spell, the Caster Recovers 1 Wound.} ",
+          "castingvalue": "5+/[6+]",
+          "range": "24/[12 aura]",
+          "types": [
+            {
+              "type": "7"
+            }
+          ]
+        },
+        {
+          "value": "2",
+          "name": "Hand of Glory",
+          "duration": "1",
+          "effect": "The target {and all models in the same unit} gains Aegis (6+) and Aegis (+1, max 3+). ",
+          "castingvalue": "7+",
+          "range": "caster",
+          "types": [
+            {}
+          ]
+        },
+        {
+          "value": "3",
+          "name": "The Rot Within",
+          "duration": "3",
+          "effect": "The target suffers -1 Offensive Skill and -1 Defensive Skill. {The Caster gains +1 Offensive Skill and +1 Defensive Skill.} ",
+          "castingvalue": "7+",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },
+        {
+          "value": "4",
+          "name": "Breath of Corruption",
+          "duration": "1",
+          "effect": "The target gains Breath Attack (Magical Attacks, Toxic Attacks). {If the Breath Weapon is used as a Shooting Attack, its Range is increased to 18ps.} ",
+          "castingvalue": "5+",
+          "range": "caster",
+          "types": [
+            {
+              "type": "2"
+            }
+          ]
+        },
+        {
+          "value": "5",
+          "name": "Marked for Doom",
+          "duration": "2",
+          "effect": "The target suffers 1  hit with Strength 10, Armour Penetration 10, Multiple Wounds (D3), and Magical Attacks. {If the target is within 12″ of the Caster, the spell targets a single Character or Champion joined to the target unit}",
+          "castingvalue": "8+",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "4"
+            },
+            {
+              "type": "5"
+            }
+          ]
+        },
+        {
+          "value": "6",
+          "name": "The Grave Calls",
+          "duration": "2",
+          "effect": "The target suffers 2D6 hits with Strength 5{6}, Armour Penetration 2{3}, and Magical Attacks.",
+          "castingvalue": "11+",
+          "range": "12",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "4"
+            },
+            {
+              "type": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "",
+      "name": "Pyromancy",
+      "color": "#F78181",
+      "spells": [
+        {
+          "value": "A",
+          "name": "Blaze",
+          "duration": "2",
+          "effect": "The target suffers D3 hits with Strength 4, Armour Penetration 0, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "-",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "name": "Fireball",
+          "duration": "2",
+          "effect": "The target suffers D6 hits with Strength 4, Armour Penetration 0, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "4",
+          "range": "36",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+        {
+          "value": "2",
+          "name": "Cascading Fire",
+          "duration": "2",
+          "effect": "Choose an enemy unit in base contact with the target. This unit suffers D6 [2D6] hits with Strength 4, Armour Penetration 0, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "5+/[8+]",
+          "range": "24/[12]",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "name": "Flaming Swords",
+          "duration": "1",
+          "effect": "The target’s Melee and Shooting Attacks gain a +1 towound modifier, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "8+/[11+]",
+          "range": "18/[6 aura]",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "4",
+          "name": "Pyroclastic Flow",
+          "duration": "2",
+          "effect": "The target suffers 2D6/[3D6] hits with Strength 4, Armour Penetration 0, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "7+/[10+]",
+          "range": "24/[12]",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+        {
+          "value": "5",
+          "name": "Scroching Salvo",
+          "duration": "2",
+          "effect": "The target suffers D3+1 hits with Strength 4, Armour Penetration 0, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "10+",
+          "range": "24 aura",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            }
+          ]
+        },
+        {
+          "value": "6",
+          "name": "Enveloping Embers",
+          "duration": "2",
+          "effect": "Each model in the target unit suffers 1 hit with Strength 3, Armour Penetration 0, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "11+",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "4"
+            },
+            {
+              "type": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "",
+      "name": "Shamanism",
+      "color": "#088A08",
+      "spells": [
+        {
+          "value": "A",
+          "name": "Scarification",
+          "duration": "1",
+          "effect": "Melee Attacks against the target cannot wound on better than 5+.",
+          "castingvalue": "-",
+          "range": "caster",
+          "types": [
+            {}
+          ]
+        },{
+          "value": "1",
+          "name": "Awaken the Beast",
+          "duration": "1",
+          "effect": "The target gains +1 Strength and Armour Penetration [+1 Resilience].",
+          "castingvalue": "5+/[7+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },{
+          "value": "2",
+          "name": "Swarm of Insects",
+          "duration": "3",
+          "effect": "Immediately after successfully casting this spell, the target suffers 5D6 hits with Strength 1, Armour Penetration 0, and Magical Attacks. If one or more unsaved wounds are caused, the target suffers -1 to hit with its Shooting Attacks. This spell is immediately ended when the target performs an Advance, March, Charge, or Pursuit Move.",
+          "castingvalue": "5+/[8+]",
+          "range": "24/[48]",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },{
+          "value": "3",
+          "name": "Savage Fury",
+          "duration": "1",
+          "effect": "The target gains Frenzy and Battle Focus",
+          "castingvalue": "5+/[8+]",
+          "range": "9/[18]",
+          "types": [
+            {
+              "type": "7"
+            }
+          ]
+        },
+		{
+          "value": "4",
+          "name": "Chilling Howl",
+          "duration": "1",
+          "effect": "All units within 6 [12] of the target when the spell is cast suffer a -1 to-wound modifier on their Shooting [Ranged] Attacks [including spell effects].",
+          "castingvalue": "6+/[10+]",
+          "range": "36",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },{
+          "value": "5",
+          "name": "Totemic Summon",
+          "duration": "2",
+          "effect": "Summon a Totemic Beast (profile below). It must be placed within 1 [10] of the Board Edge.",
+          "castingvalue": "10+/[12+]",
+          "range": "96",
+          "types": [
+            {
+              "type": "8"
+            }
+          ]
+        },
+		{
+          "value": "6",
+          "name": "Break the Spirit",
+          "duration": "1",
+          "effect": "The target suffers a -1 to-hit modifier and treats all Terrain (including Open Terrain) as Dangerous Terrain (2).",
+          "castingvalue": "8+/[11+]",
+          "range": "18/[36]",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "When casting non-Bound Spells from this Path, all Magic Dice that result in ‘1’ must be rerolled. Dice causing a Miscast cannot be rerolled. If a Caster Miscasts when casting a spell from this Path, add a +1 Miscast Modifier.",
+      "name": "Thaumaturgy",
+      "color": "#F5D0A9",
+      "spells": [
+        {
+          "value": "1",
+          "name": "Hand of Heaven",
+          "duration": "2",
+          "effect": "The target suffers D6 [D6+1] hits with Strength D6 [D6+1], Armour Penetration 2 [3], and Magical Attacks.",
+          "castingvalue": "5+/[8+]",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },{
+          "value": "2",
+          "name": "Smite the Unbeliever",
+          "duration": "1",
+          "effect": "Immediately after successfully casting this spell, roll a D6. [Choose which effect to apply when casting the spell.] If 1-3 is rolled, the target suffers -1 Resilience. If 4-6 is rolled, the target suffers -1 Strength and -1 Armour Penetration.",
+          "castingvalue": "7+/[9+]",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },{
+          "value": "3",
+          "name": "Speaking in Tongues",
+          "duration": "1",
+          "effect": "Units with at least one model affected by the spell cannot benefit from Commanding Presence [Rally around the Flag].",
+          "castingvalue": "8+/[8+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },{
+          "value": "4",
+          "name": "Cleansing Fire",
+          "duration": "1",
+          "effect": "The target gains Breath Attack (Strength D3+2, Armour Penetration 1, Magical Attacks). (Roll the D3 immediately after successfully casting this spell.)[This spell may only target Characters, Champions, and single model units.]",
+          "castingvalue": "5+/[8+]",
+          "range": "caster/[24]",
+          "types": [
+            {
+              "type": "2"
+            },
+            {
+              "type": "[1]"
+            }
+          ]
+        },{
+          "value": "5",
+          "name": "Wrath of God",
+          "duration": "3",
+          "effect": "Choose a point within range on the table and place a counter there. At the end of each subsequent Magic Phase roll a D6; if 1-3 is rolled, add another counter on the same spot. If 4-6 is rolled, each unit within (2D6+X)″, where X is equal to the number of counters, suffers 2D6 hits with Strength 5, Armour Penetration 2, and Magical Attacks. The spell then ends, remove all counters.",
+          "castingvalue": "12+",
+          "range": "96",
+          "types": [
+            {
+              "type": "8"
+            }
+          ]
+        },{
+          "value": "6",
+          "name": "Trial of Faith",
+          "duration": "2",
+          "effect": "The Caster rolls D3+1 and the target rolls D3. If the Caster’s roll is higher, the target suffers a number of hits equal to the difference between their respective rolls. These hits wound automatically with Armour Penetration 10 and Magical Attacks.",
+          "castingvalue": "7+/[10+]",
+          "range": "12/[18]",
+          "types": [
+            {
+              "type": "2"
+            },
+            {
+              "type": "3"
+            },
+            {
+              "type": "4"
+            },
+            {
+              "type": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "",
+      "name": "Witchcraft",
+      "color": "#D0A9F5",
+      "spells": [
+        {
+          "value": "A",
+          "name": "Evil Eye",
+          "duration": "1",
+          "effect": "If this spell targets a friendly unit, the target gains +1 Advance Rate and +2 March Rate. If this spell targets an enemy unit, the target suffers -1 Advance Rate and -2 March Rate, to a minimum of 3 and 6 respectively. A unit cannot be affected by this spell more than twice in the same Magic Phase.",
+          "castingvalue": "-",
+          "range": "24",
+          "types": [
+            {
+              "type": "7"
+            }
+          ]
+        },{
+          "value": "1",
+          "name": "Raven's Wing",
+          "duration": "2",
+          "effect": "The target may perform a 8 [12] Magical Move and gains Fly during this move. Nominate a single model part affected by the spell. This model part may perform a Sweeping Attack during the move (possibly in addition to other Sweeping Attacks). This Sweeping Attack causes D6 hits with Strength 4, Armour Penetration 1, and Magical Attacks.",
+          "castingvalue": "5+/[9+]",
+          "range": "24",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },{
+          "value": "2",
+          "name": "Deceptive Glamour",
+          "duration": "1",
+          "effect": "The target suffers -1 [-2] Offensive Skill, -1 [-2] Defensive Skill, and -1 [-2] Agility.",
+          "castingvalue": "4+/[7+]",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },{
+          "value": "3",
+          "name": "Twisted Effigy",
+          "duration": "1",
+          "effect": "The target cannot use Shooting Attacks [and suffers a -2 modifier to its casting rolls].",
+          "castingvalue": "6+/8+",
+          "range": "36",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },{
+          "value": "4",
+          "name": "The Wheel Turns",
+          "duration": "1",
+          "effect": "Close Combat Attacks made by [and allocated against] R&F models in the target unit will successfully roll to hit and to wound on a 4+, regardless of Offensive Skill, Defensive Skill, Strength, and Resilience (apply this before applying any other to-hit and towound modifiers).",
+          "castingvalue": "8+/[10+]",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "[1]"
+            }
+          ]
+        },{
+          "value": "5",
+          "name": "Will-o'-the-Wisp",
+          "duration": "1",
+          "effect": "The target gains Random Movement (2D6 [3D6]).",
+          "castingvalue": "8+/[8+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "7"
+            }
+          ]
+        },{
+          "value": "6",
+          "name": "Bewitching Glare",
+          "duration": "2",
+          "effect": "Immediately after successfully casting this spell, the target must choose to either: take a Panic Test at -2 Discipline or be Shaken until the end of its next Player Turn",
+          "castingvalue": "8+",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "All Cosmology spells are divided into two versions, representing opposing aspects; Cosmos and Chaos. When casting Cosmology spells, always declare which version of the spell you are using. Whenever the Caster successfully casts a non-Bound Cosmology spell, the next Cosmology spell it attempts to cast has its Casting Value reduced by 1, provided this spell is a Cosmology spell of the opposing aspect.",
+      "name": "Cosmology",
+      "color": "#D0A9F5",
+      "spells": [
+        {
+          "value": "A",
+          "name": "spell",
+          "duration": "1",
+          "effect": "effect",
+          "castingvalue": "1+",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "",
+      "name": "Bound Spells",
+      "color": "#FFFFFF",
+      "spells": [
+        {
+          "value": "A",
+          "name": "spell",
+          "duration": "1",
+          "effect": "effect",
+          "castingvalue": "1+",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

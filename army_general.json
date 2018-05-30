@@ -1,0 +1,68 @@
+{
+    "types": [
+      {
+        "id": "1",
+        "name": "Infantry"
+      },
+      {
+        "id": "2",
+        "name": "Beast"
+      },
+      {
+        "id": "3",
+        "name": "Cavalry"
+      },
+      {
+        "id": "4",
+        "name": "Construct"
+      }
+    ],
+  "sizes" : [
+      {
+        "id": "1",
+        "name": "Standard"
+      },
+    {
+      "id": "2",
+      "name": "Large"
+    },
+    {
+      "id": "3",
+      "name": "Gigantic"
+    }
+    ],
+    "bases": [
+      {
+        "id": "1",
+        "name": "20x20"
+      },
+      {
+        "id": "2",
+        "name": "25x50"
+      },
+      {
+        "id": "3",
+        "name": "40x40"
+      },
+      {
+        "id": "4",
+        "name": "50x100"
+      },
+      {
+        "id": "5",
+        "name": "50x75"
+      },
+      {
+        "id": "6",
+        "name": "40x60"
+      },
+      {
+        "id": "7",
+        "name": "50x50"
+      },
+      {
+        "id": "8",
+        "name": "25x25"
+      }
+    ]
+  }

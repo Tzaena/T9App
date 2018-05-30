@@ -1,0 +1,2687 @@
+{
+  "organisation": [
+    {
+      "id": "1",
+      "name": "Characters",
+      "percent": 40,
+      "type": "max"
+    },
+    {
+      "id": "2",
+      "name": "Core",
+      "percent": 25,
+      "type": "min"
+    },
+    {
+      "id": "3",
+      "name": "Special",
+      "percent": 100,
+      "type": "max"
+    },
+    {
+      "id": "4",
+      "name": "Unseen Arrows",
+      "percent": 35,
+      "type": "max"
+    }
+  ],
+  "magicitems": {
+    "weapons": [
+      {
+        "name": "Bough of Wyscan",
+        "cost": 90,
+        "description": "Sylvan Longbow enchantment. Replace this Sylvan Longbow’s profile with: Range 30, Shots as user’s Shooting Weapon, Str 3, AP 0, Volley Fire, and Magical Attacks. Attacks made with this weapon gain +1 to wound when shooting from Long Range or +2 to wound when shooting from Short Range (may be combined with Master Archer)."
+      },
+      {
+        "name": "Lifeseed Feathers",
+        "cost": 90,
+        "description": "Sylvan Longbow enchantment. Shots always 1. Attacks made with this Sylvan Bow gains Magical Attacks. Instead of firing this Sylvan Longbow as usual, the wielder may apply the following rules instead: - When fired at a target within 10 of the bearer, this Shooting Attack's Strength is set to 4 and Armour Penetration to 1. - When fired at a target more than 10 and up to and including 20 away from the bearer, its Strength is set to 5 and Armour Penetration to 2. - When fired at a target more than 20 and up to and including 30 away from the bearer, its Strength is set to 6 and Armour Penetration to 3 and it gains Multiple Wounds (2)."
+      },
+      {
+        "name": "Spirit of the Whirlwind",
+        "cost": 60,
+        "description": " Sylvan Blades enchantment. The bearer gains +1 Attack Value, and Attacks made with this weapon gain +1 Strength, Lethal Strike, and Magical Attacks"
+      },
+      {
+        "name": "Hunter's Honour ",
+        "cost": 75,
+        "description": "Spear enchantment. Attacks made with this weapon gain +1 Strength, +1 Armour Penetration, and Magical Attacks. If the bearer causes at least one unsaved wound with this weapon, the bearer and all R&F models in the bearer's unit gain Distracting until the end of the Melee Phase."
+      }
+    ],
+    "armours": [
+      {
+        "name": "Shielding Bark",
+        "cost": 70,
+        "description": "Infantry models only. Cannot be taken by models with Elven Cloak. Light Armour enchantment. The wearer gains +2 Armour, Aegis (5+), Fearless, Flammable, and Magical Attacks."
+      },
+      {
+        "name": "Curse of the Black Stag",
+        "cost": 50,
+        "description": "Cannot be taken by models with Elven Cloak. Light Armour enchantment. The bearer gains +1 Armour and Devastating Charge (+1 Str, +1 Att)."
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Hail Shot",
+        "cost": 75,
+        "description": "Cannot be taken by Druids One use only. When this Artefact is used, it is a Shooting Weapon with the following profile: Range 30, Shots 3D6, Str 4, AP 1, Magical Attacks. Aim is set to 2+. When fired from Short Range it gains +1 Armour Penetration. Master Archer cannot be used in conjunction with Hail Shot."
+      },
+      {
+        "name": "Mist Walker's Mirror ",
+        "cost": 75,
+        "description": "Models on foot only. One use only. If the bearer’s unit consists entirely of Standard Size Infantry models, is unengaged, and is entirely within a Forest Terrain Feature that doesn’t contain any enemy models, the unit may teleport to any other Forest Terrain Feature on the Battlefield. This special movement is resolved at the end of the player’s Movement Phase. When teleporting, the unit must be placed entirely within the target Forest. It may appear in any legal formation but must follow the Unit Spacing rule. The unit counts as having performed a March Move."
+      },
+      {
+        "name": "Sacred Seeds",
+        "cost": 70,
+        "description": "Models on foot only. One use only. The player may activate this Artefact at the end of any friendly Movement Phase and place a Forest Terrain Feature in contact with the bearer and at least 1 away from any enemy units and other Terrain Features. The Forest may not be larger than 6 in diameter."
+      },
+      {
+        "name": "Drums of Cenyrn",
+        "cost": 45,
+        "description": "- Models on foot only. One use only. May be activated when the bearer’s unit Declares a Charge. The target of the charge may only declare Hold as its Charge Reaction unless it is already fleeing. The enemy unit may still declare Charge Reactions as normal if it is subsequently charged by other units."
+      },
+      {
+        "name": "Horn of the Wild Hunt",
+        "cost": 45,
+        "description": "One use only. May be activated at the start of any friendly Charge Phase. Nominate a single friendly unit within 12 of the bearer. Any failed rolls for Charge Range by that unit may be rerolled during this phase."
+      },
+      {
+        "name": "Glyph of Amryl",
+        "cost": 40,
+        "description": "Cannot be taken by models with Sylvan Spirit. The bearer gains Aegis (+1, max 4+)."
+      }
+    ],
+    "standards": [
+      {
+        "name": "Banner of Silent Mist",
+        "cost": 50,
+        "limitation": "2",
+        "description": "The bearer's unit gains Soft Cover. Enemy units within 3 of the bearer's unit may not gain any benefit from a Musician."
+      },
+      {
+        "name": "Banner of Deception",
+        "cost": 50,
+        "description": "At the end of step 4 of the Deployment Phase Sequence (before deploying Scouts), the owning player may remove the bearer's unit from the Battlefield and deploy it again elsewhere (any Characters joined to the unit must remain in the unit; this does not affect the number of Undeployed Units for calculating the starting roll-off bonus)."
+      },
+      {
+        "name": "Predator Pennant ",
+        "cost": 50,
+        "description": "The bearer's unit gains Devastating Charge (Distracting) if it was in contact with any Forest Terrain Feature at the start or the end of the Charge Move."
+      }
+    ]
+  },
+  "mounts": [
+    {
+      "id": "1",
+      "name": "Elven Horse",
+      "type": "2",
+      "category": "5",
+      "categoryallunit": true,
+      "base": "2",
+      "rules": [
+        {
+          "name": "Barded Warhorse",
+          "ADV": "9",
+          "MAR": "18",
+          "DEF": "C",
+          "OFF": "3",
+          "ARM": "C+1",
+          "AP": "0",
+          "S": "3",
+          "T": "C",
+          "W": "C",
+          "I": "4",
+          "A": "1",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Strider (Forest)"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Forest Eagle",
+      "categoryallunit": true,
+      "type": "3",
+      "category": "5",
+      "base": "8",
+      "rules": [
+        {
+          "name": "Forest Eagle",
+          "ADV": "2 (9)",
+          "MAR": "4 (18)",
+          "DEF": "C",
+          "OFF": "4",
+          "ARM": "C+1",
+          "AP": "1",
+          "S": "4",
+          "T": "4",
+          "W": "4",
+          "I": "4",
+          "A": "2",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fly (9, 18)"
+            },
+            {
+              "specialrule": "Strider (Forest)"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Great Elk",
+      "category": "5",
+      "categoryallunit": true,
+      "type": "3",
+      "base": "3",
+      "rules": [
+        {
+          "name": "Great Elk",
+          "ADV": "8",
+          "MAR": "16",
+          "DEF": "C",
+          "OFF": "4",
+          "ARM": "C+1",
+          "AP": "1",
+          "S": "4",
+          "T": "5",
+          "W": "C",
+          "I": "4",
+          "A": "2",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Strider (Forest)"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Unicorn",
+      "category": "5",
+      "categoryallunit": true,
+      "type": "5",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Unicorn",
+          "ADV": "10",
+          "MAR": "20",
+          "DEF": "C",
+          "OFF": "5",
+          "ARM": "C+1",
+          "AP": "1",
+          "S": "4",
+          "T": "4",
+          "W": "C",
+          "I": "5",
+          "A": "2",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Strider (Forest)"
+            },
+            {
+              "specialrule": "Magical Attacks"
+            },
+            {
+              "specialrule": "Magic Resistance (2)"
+            },
+            {
+              "specialrule": "Devastating Charge (+1 Str, +1 AP)"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Dragon",
+      "limitation": 1,
+      "category": "6",
+      "type": "3",
+      "base": "7",
+      "rules": [
+        {
+          "name": "Dragon",
+          "ADV": " 6 (7)",
+          "MAR": "12 (14)",
+          "DEF": "5",
+          "OFF": "5",
+          "ARM": "4",
+          "AP": "3",
+          "S": "6",
+          "T": "6",
+          "W": "6",
+          "I": "3",
+          "A": "5",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fly (7, 14)"
+            },
+            {
+              "specialrule": "Strider (Forest)"
+            },
+            {
+              "specialrule": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    }
+  ],
+  "army": [
+    {
+      "organisation": "1",
+      "units": [
+        {
+          "name": "Forest Prince",
+          "cost": 200,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Forest Prince",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "7",
+              "OFF": "7",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "3",
+              "W": "3",
+              "I": "9",
+              "A": "4",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Forest Walker"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Accurate"
+                }
+              ],
+              "equipments": [
+                {}
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Sylvan Longbow (0+)",
+                  "cost": 0
+                },
+                {
+                  "name": "Light Armour",
+                  "cost": 5
+                },
+                {
+                  "name": "Elven Cloak",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Spear",
+                  "cost": 5
+                },
+                {
+                  "name": "Sylvan Blades",
+                  "cost": 5
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 15
+                },
+                {
+                  "name": "Lance",
+                  "cost": 15
+                },
+                {
+                  "name": "Sylvan Lance",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Kinkreds",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Blade Dancer",
+                  "cost": 45
+                },
+                {
+                  "name": "Forest Guardian",
+                  "cost": 50
+                },
+                {
+                  "name": "Pathfinder",
+                  "cost": 75
+                },
+                {
+                  "name": "Wild Hunter",
+                  "cost": 90
+                },
+                {
+                  "name": "Shapeshifter",
+                  "cost": 95
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 70
+                },
+                {
+                  "mount": "2",
+                  "cost": 110
+                },
+                {
+                  "mount": "3",
+                  "cost": 140
+                },
+                {
+                  "mount": "5",
+                  "cost": 475
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chieftain",
+          "cost": 145,
+          "type": "1",
+          "base": "1",
+          "size": "1",
+          "rules": [
+            {
+              "name": "Chieftain",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "6",
+              "OFF": "6",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "3",
+              "W": "3",
+              "I": "7",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Forest Walker"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                }
+              ],
+              "equipments": [
+                {}
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Sylvan Longbow (1+)",
+                  "cost": 5
+                },
+                {
+                  "name": "Light Armour",
+                  "cost": 5
+                },
+                {
+                  "name": "Elven Cloak",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Spear",
+                  "cost": 5
+                },
+                {
+                  "name": "Sylvan Blades",
+                  "cost": 5
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 10
+                },
+                {
+                  "name": "Lance",
+                  "cost": 10
+                },
+                {
+                  "name": "Sylvan Lance",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Kinkreds",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Blade Dancer",
+                  "cost": 45
+                },
+                {
+                  "name": "Forest Guardian",
+                  "cost": 50
+                },
+                {
+                  "name": "Pathfinder",
+                  "cost": 75
+                },
+                {
+                  "name": "Wild Hunter",
+                  "cost": 90
+                },
+                {
+                  "name": "Shapeshifter",
+                  "cost": 95
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 70
+                },
+                {
+                  "mount": "2",
+                  "cost": 110
+                },
+                {
+                  "mount": "3",
+                  "cost": 140
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Druid",
+          "cost": 140,
+          "type": "1",
+          "base": "1",
+          "size": "1",
+          "rules": [
+            {
+              "name": "Druid",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "3",
+              "W": "3",
+              "I": "7",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Forest Walker"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Wizard Apprentice"
+                },
+                {
+                  "specialrule": "Tree Singing"
+                }
+              ],
+              "equipments": [
+                {}
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Shadowpath",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Sylvan Longbow (3+)",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Level",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "globalid": "11",
+                  "cost": 75
+                },
+                {
+                  "name": "Wizard Master",
+                  "globalid": "12",
+                  "cost": 225
+                }
+              ]
+            },
+            {
+              "name": "Paths",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Druidism",
+                  "cost": 0
+                },
+                {
+                  "name": "Chamanism",
+                  "cost": 0
+                },
+                {
+                  "name": "Cosmology",
+                  "cost": 0
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 40
+                },
+                {
+                  "mount": "2",
+                  "cost": 60
+                },
+                {
+                  "mount": "4",
+                  "cost": 75
+                },
+                {
+                  "mount": "5",
+                  "cost": 475,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Treefather Ancient",
+          "cost": 460,
+          "type": "1",
+          "size": "3",
+          "limitation": 1,
+          "category": "6",
+          "base": "5",
+          "rules": [
+            {
+              "name": "Treefather Ancient",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "4",
+              "AP": "2",
+              "S": "5",
+              "T": "6",
+              "W": "6",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Forest Walker"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Crush Attack"
+                },
+                {
+                  "specialrule": "Stubborn"
+                },
+                {
+                  "specialrule": "Flammable"
+                },
+                {
+                  "specialrule": "Impaling Roots"
+                },
+                {
+                  "specialrule": "Tree Singing"
+                },
+                {
+                  "specialrule": "Sylvan Spirit"
+                },
+                {
+                  "specialrule": "Aegis (5+)"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Impaling Roots (4+)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Dominant Artefact",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "17",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Treefather Patriarch (Wizard Master only)",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "17",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wizard",
+              "onechoice": true,
+              "choices": [
+                {
+                  "globalid": "17",
+                  "name": "Wizard Apprentice",
+                  "cost": 40
+                },
+                {
+                  "globalid": "17",
+                  "name": "Wizard Adept",
+                  "cost": 115
+                },
+                {
+                  "globalid": "17",
+                  "name": "Wizard Master",
+                  "cost": 265
+                }
+              ]
+            },
+            {
+              "name": "Paths",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Druidism",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "17",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Aspect of Nature",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Entangling Vines",
+                  "cost": 70,
+                  "globalid": "301",
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Toxic Spores",
+                  "cost": 50,
+                  "globalid": "306",
+                  "condition": [
+                    {
+                      "option": "306",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Scarred Bark",
+                  "cost": 80,
+                  "globalid": "302",
+                  "condition": [
+                    {
+                      "option": "302",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Entwined Roots",
+                  "cost": 10,
+                  "globalid": "304",
+                  "condition": [
+                    {
+                      "option": "304",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avatar of Nature",
+          "cost": 670,
+          "type": "1",
+          "size": "3",
+          "limitation": 1,
+          "category": "6",
+          "base": "5",
+          "rules": [
+            {
+              "name": "Avatar of Nature",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "6",
+              "OFF": "6",
+              "ARM": "4",
+              "AP": "4",
+              "S": "7",
+              "T": "6",
+              "W": "6",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Forest Walker"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Crush Attack"
+                },
+                {
+                  "specialrule": "Stubborn"
+                },
+                {
+                  "specialrule": "Flammable"
+                },
+                {
+                  "specialrule": "Impaling Roots"
+                },
+                {
+                  "specialrule": "Tree Singing"
+                },
+                {
+                  "specialrule": "Sylvan Spirit"
+                },
+                {
+                  "specialrule": "Aegis (5+)"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Impaling Roots (3+)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Aspect of Nature",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Entangling Vines",
+                  "cost": 70,
+                  "globalid": "301",
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Toxic Spores",
+                  "cost": 50,
+                  "globalid": "306",
+                  "condition": [
+                    {
+                      "option": "306",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Scarred Bark",
+                  "cost": 80,
+                  "globalid": "302",
+                  "condition": [
+                    {
+                      "option": "302",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Entwined Roots",
+                  "cost": 10,
+                  "globalid": "304",
+                  "condition": [
+                    {
+                      "option": "304",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dryad Ancient",
+          "cost": 110,
+          "type": "1",
+          "size": "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Dryad Ancient",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "6",
+              "OFF": "6",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "7",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Forest Walker"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Tree Singing"
+                },
+                {
+                  "specialrule": "Sylvan Spirit"
+                },
+                {
+                  "specialrule": "Hatred"
+                },
+                {
+                  "specialrule": "Magic Attacks"
+                }
+              ],
+              "equipments": [
+                {}
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Dryad Matriarch",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "19",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wizard",
+              "onechoice": true,
+              "choices": [
+                {
+                  "globalid": "19",
+                  "name": "Wizard Apprentice",
+                  "cost": 40
+                },
+                {
+                  "globalid": "19",
+                  "name": "Wizard Adepte",
+                  "cost": 115
+                }
+              ]
+            },
+            {
+              "name": "Paths",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Druidism",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "19",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Aspect of Nature",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Entangling Vines",
+                  "cost": 70,
+                  "globalid": "301",
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Toxic Spores",
+                  "cost": 50,
+                  "globalid": "306",
+                  "condition": [
+                    {
+                      "option": "306",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Scarred Bark",
+                  "cost": 80,
+                  "globalid": "302",
+                  "condition": [
+                    {
+                      "option": "302",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Entwined Roots",
+                  "cost": 10,
+                  "globalid": "304",
+                  "condition": [
+                    {
+                      "option": "304",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Thicket Shepherd",
+          "cost": 240,
+          "limitation": 2,
+          "type": "1",
+          "size": "2",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Thicket Shepherd",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "3",
+              "AP": "3",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Forest Walker"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Flammable"
+                },
+                {
+                  "specialrule": "Armour Piercing (1)"
+                },
+                {
+                  "specialrule": "Sylvan Spirit"
+                },
+                {
+                  "specialrule": "Aegis (5+)"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Emboldening Boughs"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    },
+                    {
+                      "option": "303",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Aspect of Nature",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Entangling Vines",
+                  "cost": 70,
+                  "globalid": "301",
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Toxic Spores",
+                  "cost": 50,
+                  "globalid": "306",
+                  "condition": [
+                    {
+                      "option": "306",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Scarred Bark",
+                  "cost": 80,
+                  "globalid": "302",
+                  "condition": [
+                    {
+                      "option": "302",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Entwined Roots",
+                  "cost": 10,
+                  "globalid": "304",
+                  "condition": [
+                    {
+                      "option": "304",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "2",
+      "units": [
+        {
+          "name": "Forest Guards",
+          "cost": 180,
+          "size": "1",
+          "unitsize": 15,
+          "modelcost": 15,
+          "maxmodels": 35,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Forest Guards",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Forest Walker"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Spear"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": false,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Replace Shield and Spear for Elven Cloak and Sylvan Blades",
+                  "cost": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Forest Archers",
+          "cost": 250,
+          "unitsize": 10,
+          "modelcost": 25,
+          "maxmodels": 20,
+          "organisation": "4",
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Forest Archers",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Forest Walker"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Longbow (3+)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Heath Riders",
+          "cost": 180,
+          "unitsize": 5,
+          "modelcost": 30,
+          "maxmodels": 10,
+          "limitation": 3,
+          "type": "5",
+          "size": "1",
+          "base": "2",
+          "rules": [
+            {
+              "name": "Riders",
+              "ADV": "9",
+              "MAR": "18",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "5",
+              "A": "1",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Forest Walker"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Sylvan Lance"
+                },
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            },
+            {
+              "name": "Elven Horse",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "4",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": 20,
+                  "globalid": "100"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": false,
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "globalid": "21",
+                  "name": "Heath Hunters",
+                  "organisation": "4",
+                  "maxmodels": 10,
+                  "cost": 5
+                },
+                {
+                  "name": "Shield",
+                  "cost": 0
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": false,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Ambush",
+                  "cost": 2,
+                  "condition": [
+                    {
+                      "option": "21",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dryads",
+          "cost": 150,
+          "unitsize": 8,
+          "size": "1",
+          "modelcost": 18,
+          "maxmodels": 18,
+          "limitation": 4,
+          "type": "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Dryads",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "5",
+              "A": "2",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Forest Walker"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Sylvan Spirit"
+                },
+                {
+                  "specialrule": "Aegis (5+)"
+                },
+                {
+                  "specialrule": "Magic Attacks"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Skirmishers",
+              "type": "permodel",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "lose Scoring and gain Skirmishers",
+                  "cost": 6,
+                  "maxmodels": 15
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "3",
+      "units": [
+        {
+          "name": "Forest Rangers",
+          "cost": 230,
+          "unitsize": 10,
+          "modelcost": 21,
+          "maxmodels": 20,
+          "limitation": 5,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Forest Rangers",
+              "ADV": "6",
+              "MAR": "10",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "0",
+              "AP": "1",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "5",
+              "A": "2",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Forest Walker"
+                },
+                {
+                  "specialrule": "Fearless"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Elven Cloak"
+                },
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Great Weapon"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "23",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "23",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Vanguard",
+              "onechoice": false,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Vanguard",
+                  "cost": 2
+                }
+              ]
+            }
+          ]
+        },
+            {
+              "name": "Thicket Beasts",
+              "cost": 200,
+              "unitsize": 3,
+              "modelcost": 70,
+              "maxmodels": 3,
+              "limitation": 3,
+              "type": "1",
+              "size": "2",
+              "base": "2",
+              "rules": [
+                {
+                  "name": "Thicket Beasts",
+                  "ADV": "5",
+                  "MAR": "10",
+                  "DEF": "4",
+                  "OFF": "4",
+                  "ARM": "3",
+                  "AP": "2",
+                  "S": "4",
+                  "T": "5",
+                  "W": "3",
+                  "I": "3",
+                  "A": "3",
+                  "Ld": "8",
+                  "specialrules": [
+                    {
+                      "specialrule": "Fearless"
+                    },
+                    {
+                      "specialrule": "Flammable"
+                    },
+                    {
+                      "specialrule": "Scoring"
+                    },
+                    {
+                      "specialrule": "Aegis (5+)"
+                    },
+                    {
+                      "specialrule": "Sylvan Spirit"
+                    },
+                    {
+                      "specialrule": "Magic Attacks"
+                    },
+                    {
+                      "specialrule": "Emboldening Boughts"
+                    },
+                    {
+                      "specialrule": "Forest Walker"
+                    },
+                    {
+                      "specialrule": "Bodyguard (Thicket Shepherd)"
+                    }
+                  ],
+                  "equipments": [
+                  ]
+                }
+              ],
+              "options": [
+                {
+                  "name": "Options",
+                  "onechoice": false,
+                  "choices": [
+                    {
+                      "name": "Champion",
+                      "cost": 20
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Forest Eagle",
+              "cost": 100,
+              "unitsize": 1,
+              "modelcost": 45,
+              "maxmodels": 4,
+              "limitation": 2,
+              "type": "2",
+              "size": "2",
+              "base": "3",
+              "rules": [
+                {
+                  "name": "Forest Eagle",
+                  "ADV": "2 (9)",
+                  "MAR": "4 (18)",
+                  "DEF": "5",
+                  "OFF": "5",
+                  "ARM": "0",
+                  "AP": "1",
+                  "S": "4",
+                  "T": "4",
+                  "W": "3",
+                  "I": "4",
+                  "A": "2",
+                  "Ld": "8",
+                  "specialrules": [
+                    {
+                      "specialrule": "Strider (Forest)"
+                    },
+                    {
+                      "specialrule": "Fly (9, 18)"
+                    }
+                  ],
+                  "equipments": [
+                  ]
+                }
+              ],
+              "options": [
+                {}
+              ]
+            },
+            {
+              "name": "Blade Dancers",
+              "cost": 225,
+              "unitsize": 7,
+              "modelcost": 30,
+              "maxmodels": 8,
+              "limitation": 3,
+              "type": "1",
+              "size": "1",
+              "base": "1",
+              "rules": [
+                {
+                  "name": "Blade Dancers",
+                  "ADV": "5",
+                  "MAR": "10",
+                  "DEF": "6",
+                  "OFF": "5",
+                  "ARM": "0",
+                  "AP": "1",
+                  "S": "4",
+                  "T": "3",
+                  "W": "1",
+                  "I": "5",
+                  "A": "1",
+                  "Ld": "8",
+                  "specialrules": [
+                    {
+                      "specialrule": "Forest Walker"
+                    },
+                    {
+                      "specialrule": "Lightning Reflexes"
+                    },
+                    {
+                      "specialrule": "Light Troops"
+                    },
+                    {
+                      "specialrule": "Hard Target"
+                    },
+                    {
+                      "specialrule": "Fearless"
+                    },
+                    {
+                      "specialrule": "Aegis (6+)"
+                    },
+                    {
+                      "specialrule": "Magic Resistance (1)"
+                    },
+                    {
+                      "specialrule": "Dances of Cenyrn"
+                    }
+                  ],
+                  "equipments": [
+                    {
+                      "equipment": "Sylvain Blades"
+                    }
+                  ]
+                }
+              ],
+              "options": [
+                {
+                  "name": "Options",
+                  "onechoice": false,
+                  "choices": [
+                    {
+                      "name": "Champion",
+                      "cost": 20
+                    },
+                    {
+                      "name": "Musician",
+                      "cost": 20
+                    },
+                    {
+                      "globalid": "19",
+                      "name": "Standard Bearer",
+                      "cost": 20
+                    },
+                    {
+                      "type": "magicitems",
+                      "name": "magic items",
+                      "cost": 100,
+                      "condition": [
+                        {
+                          "option": "19",
+                          "global": false,
+                          "exist": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Treefather",
+              "cost": 465,
+              "limitation": 2,
+              "type": "1",
+              "size": "3",
+              "base": "75x50",
+              "rules": [
+                {
+                  "name": "Treefather",
+                  "ADV": "5",
+                  "MAR": "10",
+                  "DEF": "5",
+                  "OFF": "5",
+                  "ARM": "4",
+                  "AP": "3",
+                  "S": "6",
+                  "T": "6",
+                  "W": "5",
+                  "I": "2",
+                  "A": "5",
+                  "Ld": "8",
+                  "specialrules": [
+                    {
+                      "specialrule": "Forest Walker"
+                    },
+                    {
+                      "specialrule": "Fearless"
+                    },
+                    {
+                      "specialrule": "Crush Attack"
+                    },
+                    {
+                      "specialrule": "Stubborn"
+                    },
+                    {
+                      "specialrule": "Sylvan Spirit"
+                    },
+                    {
+                      "specialrule": "Aegis (5+)"
+                    },
+                    {
+                      "specialrule": "Magic Attacks"
+                    },
+                    {
+                      "specialrule": "Flammable"
+                    },
+                    {
+                      "specialrule": "Impaling Roots (3+)"
+                    },
+                    {
+                      "specialrule": "Tree Singing"
+                    }
+                  ],
+                  "equipments": [
+                  ]
+                }
+              ],
+              "options": []
+            },
+            {
+              "name": "Wild Huntsmen",
+              "cost": 300,
+              "unitsize": 5,
+              "modelcost": 55,
+              "maxmodels": 7,
+              "limitation": 3,
+              "type": "3",
+              "size": "1",
+              "base": "2",
+              "rules": [
+                {
+                  "name": "Rider",
+                  "ADV": "9",
+                  "MAR": "18",
+                  "DEF": "3",
+                  "OFF": "5",
+                  "ARM": "1",
+                  "AP": "1",
+                  "S": "4",
+                  "T": "3",
+                  "W": "1",
+                  "I": "5",
+                  "A": "1",
+                  "Ld": "9",
+                  "specialrules": [
+                    {
+                      "specialrule": "Forest Walker"
+                    },
+                    {
+                      "specialrule": "Lightning Reflexes"
+                    },
+                    {
+                      "specialrule": "Light Troops"
+                    },
+                    {
+                      "specialrule": "Frenzy"
+                    },
+                    {
+                      "specialrule": "Devastating Charge (+1 Att)"
+                    },
+                    {
+                      "specialrule": "Aegis (6+)"
+                    },
+                    {
+                      "specialrule": "Battle Focus"
+                    }
+                  ],
+                  "equipments": [
+                    {
+                      "equipment": "Sylvain Lance"
+                    },
+                    {
+                      "equipment": "Light Armour"
+                    }
+                  ]
+                },
+                {
+                  "name": "Elven Deer",
+                  "ADV": "-",
+                  "MAR": "-",
+                  "DEF": "-",
+                  "OFF": "3",
+                  "ARM": "-",
+                  "AP": "1",
+                  "S": "4",
+                  "T": "3",
+                  "W": "-",
+                  "I": "4",
+                  "A": "1",
+                  "Ld": "-",
+                  "specialrules": [
+                    {
+                      "specialrule": "Harnessed"
+                    }
+                  ],
+                  "equipments": [
+                  ]
+                }
+              ],
+              "options": [
+                {
+                  "name": "Options",
+                  "onechoice": false,
+                  "choices": [
+                    {
+                      "name": "Champion",
+                      "cost": 20
+                    },
+                    {
+                      "name": "Musician",
+                      "cost": 20
+                    },
+                    {
+                      "globalid": "18",
+                      "name": "Standard Bearer",
+                      "cost": 20
+                    },
+                    {
+                      "type": "magicitems",
+                      "name": "magic items",
+                      "cost": 100,
+                      "condition": [
+                        {
+                          "option": "18",
+                          "global": false,
+                          "exist": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Weapons",
+                  "onechoice": false,
+                  "type": "permodel",
+                  "choices": [
+                    {
+                      "name": "Shield",
+                      "cost": 5
+                    },
+                    {
+                      "name": "Swap Sylvan Lance for Sylvan Blades",
+                      "cost": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Kestrel Knights",
+              "cost": 295,
+              "unitsize": 3,
+              "size": "2",
+              "modelcost": 75,
+              "maxmodels": 3,
+              "limitation": 3,
+              "type": "3",
+              "base": "3",
+              "rules": [
+                {
+                  "name": "Rider",
+                  "ADV": "2 (9)",
+                  "MAR": "4 (18)",
+                  "DEF": "5",
+                  "OFF": "5",
+                  "ARM": "1",
+                  "AP": "1",
+                  "S": "4",
+                  "T": "4",
+                  "W": "2",
+                  "I": "5",
+                  "A": "1",
+                  "Ld": "9",
+                  "specialrules": [
+                    {
+                      "specialrule": "Forest Walker"
+                    },
+                    {
+                      "specialrule": "Lightning Reflexes"
+                    },
+                    {
+                      "specialrule": "Hard Target"
+                    },
+                    {
+                      "specialrule": "Feigned Flight"
+                    },
+                    {
+                      "specialrule": "Vanguard"
+                    },
+                    {
+                      "specialrule": "Fly (9, 18)"
+                    },
+                    {
+                      "specialrule": "Devastating Charge (+1 Att)"
+                    }
+                  ],
+                  "equipments": [
+                    {
+                      "equipment": "Sylvain Lance"
+                    },
+                    {
+                      "equipment": "Light Armour"
+                    },
+                    {
+                      "equipment": "Shield"
+                    }
+                  ]
+                },
+                {
+                  "name": "Kestrel",
+                  "ADV": "-",
+                  "MAR": "-",
+                  "DEF": "-",
+                  "OFF": "5",
+                  "ARM": "-",
+                  "AP": "2",
+                  "S": "4",
+                  "T": "-",
+                  "W": "-",
+                  "I": "4",
+                  "A": "2",
+                  "Ld": "-",
+                  "specialrules": [
+                    {
+                      "specialrule": "Harnessed"
+                    }
+                  ],
+                  "equipments": [
+                  ]
+                }
+              ],
+              "options": [
+                {
+                  "name": "Options",
+                  "onechoice": false,
+                  "choices": [
+                    {
+                      "name": "Champion",
+                      "cost": 20
+                    },
+                    {
+                      "name": "Musician",
+                      "cost": 20
+                    },
+                    {
+                      "globalid": "17",
+                      "name": "Standard Bearer",
+                      "cost": 20
+                    },
+                    {
+                      "type": "magicitems",
+                      "name": "magic items",
+                      "cost": 100,
+                      "condition": [
+                        {
+                          "option": "17",
+                          "global": false,
+                          "exist": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Weapons",
+                  "onechoice": false,
+                  "type": "permodel",
+                  "choices": [
+                    {
+                      "name": "Swap Shield for Longbow (3+)",
+                      "cost": 10
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "organisation": "4",
+          "units": [
+            {
+              "name": "Briar Maidens",
+              "cost": 205,
+              "unitsize": 5,
+              "modelcost": 41,
+              "maxmodels": 5,
+              "limitation": 2,
+              "type": "3",
+              "size": "1",
+              "base": "2",
+              "rules": [
+                {
+                  "name": "Rider",
+                  "ADV": "9",
+                  "MAR": "18",
+                  "DEF": "4",
+                  "OFF": "4",
+                  "ARM": "1",
+                  "AP": "0",
+                  "S": "3",
+                  "T": "3",
+                  "W": "1",
+                  "I": "5",
+                  "A": "1",
+                  "Ld": "9",
+                  "specialrules": [
+                    {
+                      "specialrule": "Forest Walker"
+                    },
+                    {
+                      "specialrule": "Lightning Reflexes"
+                    },
+                    {
+                      "specialrule": "Light Troops"
+                    },
+                    {
+                      "specialrule": "Poison Attacks"
+                    },
+                    {
+                      "specialrule": "Aegis (4+)"
+                    },
+                    {
+                      "specialrule": "Wizard Conclave(Master of Earth - Druidism, Break the Spirit - Shamanism, Truth of Time - Cosmology, Mist Walker - Hereditary Spell)"
+                    }
+                  ],
+                  "equipments": [
+                    {
+                      "equipment": "Poison Thorn (2+)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Elven Deer",
+                  "ADV": "-",
+                  "MAR": "-",
+                  "DEF": "-",
+                  "OFF": "3",
+                  "ARM": "-",
+                  "AP": "0",
+                  "S": "4",
+                  "T": "-",
+                  "W": "-",
+                  "I": "4",
+                  "A": "1",
+                  "Ld": "-",
+                  "specialrules": [
+                    {}
+                  ],
+                  "equipments": [
+                  ]
+                }
+              ],
+              "options": [
+                {
+                  "name": "Options",
+                  "onechoice": false,
+                  "choices": [
+                    {
+                      "name": "Champion (Wizard Conclave,  Master of Earth, Break the Spirit)",
+                      "cost": 120
+                    },
+                    {
+                      "name": "Musician",
+                      "cost": 20
+                    },
+                    {
+                      "globalid": "16",
+                      "name": "Standard Bearer",
+                      "cost": 20
+                    },
+                    {
+                      "type": "magicitems",
+                      "name": "magic items",
+                      "cost": 100,
+                      "condition": [
+                        {
+                          "option": "16",
+                          "global": false,
+                          "exist": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sylvan Sentinels",
+              "cost": 170,
+              "unitsize": 5,
+              "modelcost": 33,
+              "maxmodels": 5,
+              "limitation": 2,
+              "type": "1",
+              "size": "1",
+              "base": "1",
+              "rules": [
+                {
+                  "name": "Sylvan Sentinels",
+                  "ADV": "5",
+                  "MAR": "10",
+                  "DEF": "4",
+                  "OFF": "4",
+                  "ARM": "0",
+                  "AP": "0",
+                  "S": "3",
+                  "T": "3",
+                  "W": "1",
+                  "I": "5",
+                  "A": "1",
+                  "Ld": "8",
+                  "specialrules": [
+                    {
+                      "specialrule": "Forest Walker"
+                    },
+                    {
+                      "specialrule": "Lightning Reflexes"
+                    },
+                    {
+                      "specialrule": "Skirmisherds"
+                    },
+                    {
+                      "specialrule": "Poison Attacks"
+                    }
+                  ],
+                  "equipments": [
+                    {
+                      "equipment": "Longbow (3+)"
+                    }
+                  ]
+                }
+              ],
+              "options": [
+                {
+                  "name": "Champion",
+                  "onechoice": false,
+                  "choices": [
+                    {
+                      "name": "Champion",
+                      "cost": 20
+                    }
+                  ]
+                },
+                {
+                  "name": "Options",
+                  "onechoice": false,
+                  "type": "permodel",
+                  "choices": [
+                    {
+                      "name": "Sylvan Blades",
+                      "cost": 3
+                    },
+                    {
+                      "name": "Scout",
+                      "limitation": 1,
+                      "cost": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pathfinders",
+              "cost": 230,
+              "unitsize": 5,
+              "modelcost": 40,
+              "maxmodels": 5,
+              "limitation": 2,
+              "type": "1",
+              "size": "1",
+              "base": "1",
+              "rules": [
+                {
+                  "name": "Sylvan Sentinels",
+                  "ADV": "5",
+                  "MAR": "10",
+                  "DEF": "5",
+                  "OFF": "4",
+                  "ARM": "0",
+                  "AP": "0",
+                  "S": "3",
+                  "T": "3",
+                  "W": "1",
+                  "I": "5",
+                  "A": "1",
+                  "Ld": "8",
+                  "specialrules": [
+                    {
+                      "specialrule": "Forest Walker"
+                    },
+                    {
+                      "specialrule": "Lightning Reflexes"
+                    },
+                    {
+                      "specialrule": "Skirmisherds"
+                    },
+                    {
+                      "specialrule": "Scout"
+                    },
+                    {
+                      "specialrule": "Master Archers"
+                    }
+                  ],
+                  "equipments": [
+                    {
+                      "equipment": "Longbow (2+)"
+                    },
+                    {
+                      "equipment": "Sylvan Blades"
+                    }
+                  ]
+                }
+              ],
+              "options": [
+                {
+                  "name": "Champion",
+                  "onechoice": false,
+                  "choices": [
+                    {
+                      "name": "Champion",
+                      "cost": 20
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+

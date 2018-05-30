@@ -1,0 +1,2421 @@
+{
+  "organisation": [
+    {
+      "id": "1",
+      "name": "Characters",
+      "percent": 40,
+      "type": "max"
+    },
+    {
+      "id": "2",
+      "name": "Core",
+      "percent": 25,
+      "type": "min"
+    },
+    {
+      "id": "3",
+      "name": "Special",
+      "percent": 100,
+      "type": "max"
+    },
+    {
+      "id": "4",
+      "name": "Imperial Auxiliaries",
+      "percent": 35,
+      "type": "max"
+    },
+    {
+      "id": "5",
+      "name": "Imperial Armoury",
+      "percent": 20,
+      "type": "max"
+    },
+    {
+      "id": "6",
+      "name": "Sunna's Fury",
+      "percent": 30,
+      "type": "max"
+    }
+  ],
+  "magicitems": {
+    "weapons": [
+      {
+        "name": "The Light of Sonnstahl ",
+        "cost": 160,
+        "description": "Hand Weapon enchantment. Attacks made with this weapon wound automatically, always have Armour Penetration 10, and Magical Attacks."
+      },
+      {
+        "name": "Death Warrant",
+        "cost": 55,
+        "description": "Hand Weapon enchantment. Attacks made with this weapon gain Battle Focus and Magical Attacks. If a hit is scored with it against an enemy unit, friendly models with Parent Unit or Support Unit gain Battle Focus with attacks allocated against the same enemy unit in the same Phase in subsequent Initiative Steps."
+      },
+      {
+        "name": "Hammer of Witches",
+        "cost": 30,
+        "description": "Hand Weapon enchantment. The bearer has its Attack Value set to 5 when using this weapon, and attacks made with it gain Battle Focus (against Channel) and Magical Attacks."
+      }
+    ],
+    "armours": [
+      {
+        "name": "Imperial Sea",
+        "cost": 90,
+        "description": "- Models on foot only. Plate Armour enchantment. The wearer gains +3 Armour and +1 Discipline. The wearer’s unit cannot voluntarily declare Flee as a Charge Reaction."
+      },
+      {
+        "name": "Blacksteel",
+        "cost": 45,
+        "description": "Plate Armour enchantment. The wearer gains +1 Armour and Fear. If taken by a model on foot, the wearer gains an additional +1 Armour."
+      },
+      {
+        "name": "Witchfire Guard",
+        "cost": 45,
+        "description": "Shield enchantment. The bearer gains Aegis (5+, against Magical Attacks). Miscasts suffered by enemy models within 12 of the bearer gain a +1 Miscast Modifier"
+      },
+      {
+        "name": "Shield of Volund",
+        "cost": 30,
+        "description": "Shield enchantment. While using this Shield, attacks against the bearer with Lethal Strike and/or Battle Focus lose these Attack Attributes"
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Winter Cloak",
+        "cost": 90,
+        "description": "The bearer gains Distracting, Aegis (5+), and Aegis (2+, against Flaming Attacks)."
+      },
+      {
+        "name": "Locket of Sunna",
+        "cost": 70,
+        "description": "When fighting in a Duel, choose a single model part of the model that the bearer is fighting with. This cannot be a model part with Harnessed or Inanimate. The bearer must swap its Characteristic values of Strength, Armour Penetration, Resilience, Agility, and Attack Value with those of the chosen model part. This is done before applying other modifiers."
+      },
+      {
+        "name": "Exemplar’s Flame",
+        "cost": 60,
+        "dominant": 1,
+        "description": "Wizards only. Choose a single Parent Unit after Spell Selection (at step 8 of the Pre-Game Sequence). At the start of any friendly Melee Phase, if the bearer is within 18 of the chosen unit, the controlling player may choose to discard a single Veil Token from their Veil Token pool to grant all R&F model in the chosen unit Lethal Strike and Magical Attacks until the end of the Phase."
+      },
+      {
+        "name": "Mantle of Ullor",
+        "cost": 35,
+        "description": "Enemy units within 6 of the bearer do not gain +1 Agility for Charging Momentum."
+      },
+      {
+        "name": "Karadon´s Courser",
+        "cost": 50,
+        "description": "Knight Commanders and Marshals mounted on Horse only. One use only. May be activated at the start of any friendly Player Turn. For the duration of this Player Turn, all friendly units within 6 of the bearer must reroll failed Charge Range rolls."
+      }
+    ],
+    "standards": [
+      {
+        "name": "Household Standard",
+        "cost": 40,
+        "description": "If the General is part of the bearer’s unit, its Commanding Presence range and the range within which it can issue Orders (if it has Orders) are both increased by 6."
+      },
+      {
+        "name": "Banner of Unity",
+        "cost": 35,
+        "description": "Parent Units only. Whenever the bearer’s unit is targeted by an Order, an additional Order can be given (for free) to a single Support Unit within 6 of the bearer’s unit."
+      },
+      {
+        "name": "Marksman’s Pennant",
+        "cost": 10,
+        "description": "The bearer’s unit does not suffer the -1 to hit penalty for Stand and Shoot Charge Reactions."
+      }
+    ]
+  },
+  "mounts": [
+    {
+      "id": "1",
+      "name": "horse",
+      "type": "3",
+      "size": "1",
+      "base": "2",
+      "rules": [
+        {
+          "name": "horse",
+          "ADV": "7",
+          "MAR": "14",
+          "DEF": "C",
+          "OFF": "3",
+          "ARM": "C+2",
+          "AP": "0",
+          "S": "3",
+          "T": "C",
+          "W": "C",
+          "I": "3",
+          "A": "1",
+          "Ld": "C",
+          "specialrules": [
+            {}
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "pegasus",
+      "type": "3",
+      "size": "2",
+      "base": "3",
+      "rules": [
+        {
+          "name": "pegasus",
+          "ADV": "7 (8)",
+          "MAR": "14 (16)",
+          "DEF": "C",
+          "OFF": "4",
+          "ARM": "C+1",
+          "AP": "1",
+          "S": "4",
+          "T": "4",
+          "W": "C",
+          "I": "4",
+          "A": "2",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fly (8, 16)"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "great griffon",
+      "category": "6",
+      "type": "3",
+      "size": "2",
+      "base": "4",
+      "condition": [
+        {
+          "option": "1",
+          "global": false,
+          "exist": false
+        }
+      ],
+      "rules": [
+        {
+          "name": "great griffon",
+          "ADV": "7 (8)",
+          "MAR": "14 (16)",
+          "DEF": "C",
+          "OFF": "5",
+          "ARM": "C",
+          "AP": "3",
+          "S": "6",
+          "T": "5",
+          "W": "4",
+          "I": "5",
+          "A": "4",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fly (8, 16)"
+            },
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "dragon",
+      "category": "6",
+      "type": "3",
+      "size": "3",
+      "base": "4",
+      "rules": [
+        {
+          "name": "dragon",
+          "ADV": "6 (7)",
+          "MAR": "12 (14)",
+          "DEF": "5",
+          "OFF": "5",
+          "ARM": "4",
+          "AP": "3",
+          "S": "6",
+          "T": "6",
+          "W": "6",
+          "I": "3",
+          "A": "5",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fly (7, 14)"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Breath Attack (Str 4, AP 1 Flaming Attacks)"
+            }
+          ],
+          "equipments": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Young Griffon",
+      "type": "2",
+      "size": "2",
+      "base": "5",
+      "rules": [
+        {
+          "name": "Young Griffon",
+          "ADV": "7",
+          "MAR": "14",
+          "DEF": "C",
+          "OFF": "4",
+          "ARM": "C+1",
+          "AP": "3",
+          "S": "5",
+          "T": "C",
+          "W": "C",
+          "I": "4",
+          "A": "3",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "4",
+      "base": "4",
+      "size": "2",
+      "name": "Altar of Battle",
+      "category": "6",
+      "rules": [
+        {
+          "name": "Altar of Battle",
+          "ADV": "8",
+          "MAR": "8",
+          "DEF": "C",
+          "OFF": "3",
+          "ARM": "C",
+          "AP": "2",
+          "S": "5",
+          "T": "5",
+          "W": "5",
+          "I": "0",
+          "A": "0",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Aegis (4+)"
+            },
+            {
+              "specialrule": "Stubborn"
+            },
+            {
+              "specialrule": "Swiftstride"
+            },
+            {
+              "specialrule": "Holy Relic"
+            },
+            {
+              "specialrule": "Inanimate"
+            },
+            {
+              "specialrule": "Impact Hits (D6)"
+            }
+          ],
+          "equipments": [
+            {}
+          ]
+        },
+        {
+          "name": "Horse (2)",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "3",
+          "ARM": "-",
+          "AP": "0",
+          "S": "3",
+          "T": "-",
+          "W": "-",
+          "I": "3",
+          "A": "1",
+          "Ld": "-",
+          "specialrules": [
+            {}
+          ],
+          "equipments": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "4",
+      "size": "2",
+      "base": "4",
+      "name": "Arcane Engine",
+      "category": "6",
+      "rules": [
+        {
+          "name": "Arcane Engine",
+          "ADV": "8",
+          "MAR": "8",
+          "DEF": "C",
+          "OFF": "3",
+          "ARM": "C+2",
+          "AP": "2",
+          "S": "5",
+          "T": "5",
+          "W": "5",
+          "I": "0",
+          "A": "0",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Channel (1)"
+            },
+            {
+              "specialrule": "Swiftstride"
+            },
+            {
+              "specialrule": "Impact Hits (D6)"
+            },
+            {
+              "specialrule": "Inanimate"
+            }
+          ],
+          "equipments": [
+          ]
+        },
+        {
+          "name": "Horse (2)",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "3",
+          "ARM": "-",
+          "AP": "0",
+          "S": "3",
+          "T": "-",
+          "W": "-",
+          "I": "3",
+          "A": "1",
+          "Ld": "-",
+          "specialrules": [
+            {}
+          ],
+          "equipments": [
+            {}
+          ]
+        },
+        {
+          "name": "Crew (2)",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "3",
+          "ARM": "-",
+          "AP": "0",
+          "S": "3",
+          "T": "-",
+          "W": "-",
+          "I": "3",
+          "A": "1",
+          "Ld": "-",
+          "specialrules": [
+            {}
+          ],
+          "equipments": [
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "army": [
+    {
+      "organisation": "1",
+      "units": [
+        {
+          "name": "Marshal",
+          "cost": 160,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Marshal",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "5",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Orders"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Plate Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "name": "pistol (2+)",
+                  "cost": 5
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "paired weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "great weapon",
+                  "cost": 10
+                },
+                {
+                  "name": "hallberd",
+                  "cost": 10
+                },
+                {
+                  "name": "lance",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Upgrades",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "great tactician",
+                  "cost": 55,
+                  "limitation": 1
+                },
+                {
+                  "globalid": "2",
+                  "name": "imperial prince",
+                  "cost": 175,
+                  "limitation": 1,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "globalid": "4",
+                  "mount": "1",
+                  "cost": 70
+                },
+                {
+                  "mount": "2",
+                  "cost": 90
+                },
+                {
+                  "mount": "3",
+                  "cost": 175,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "mount": "4",
+                  "cost": 475,
+                  "condition": [
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": true
+                    },
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "globalid": "14",
+          "name": "Knight Commander",
+          "cost": 200,
+          "type": "1",
+          "size": "1",
+          "base": "2",
+          "rules": [
+            {
+              "name": "Knight Commander",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "6",
+              "OFF": "6",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "6",
+              "A": "4",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "First Knight"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Plate Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "great weapon",
+                  "cost": 15
+                },
+                {
+                  "name": "hallberd",
+                  "cost": 15
+                },
+                {
+                  "name": "lance",
+                  "cost": 20
+                },
+                {
+                  "name": "Cavalry Pick",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 0
+                },
+                {
+                  "mount": "5",
+                  "cost": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prelate",
+          "cost": 160,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Prelate",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Blessings"
+                },
+                {
+                  "specialrule": "Channel (1)"
+                },
+                {
+                  "specialrule": "Divine Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Plate Armour",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "great weapon",
+                  "cost": 10
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 50
+                },
+                {
+                  "mount": "6",
+                  "globalid": "6",
+                  "limitation": 1,
+                  "cost": 400,
+                  "condition": [
+                    {
+                      "option": "6",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Inquisitor",
+          "cost": 130,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Inquisitor",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "2",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Not a Leader"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Multiple Wounds (D3)"
+                },
+                {
+                  "specialrule": "Magic Resistance (2)"
+                },
+                {
+                  "specialrule": "Witch Hunter"
+                },
+                {
+                  "specialrule": "Fearless"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Plate Armour",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Brace of Pistols (4+)",
+                  "cost": 10
+                },
+                {
+                  "name": "Great Weapons",
+                  "cost": 10
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "Crossbow (3+)",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 70
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Artificier",
+          "cost": 125,
+          "category": "5",
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Artificier",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "2",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Engineer (3+)"
+                },
+                {
+                  "specialrule": "Master Artificier"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 50
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Handgun (3+)",
+                  "cost": 5
+                },
+                {
+                  "name": "Repeater Pistol (4+)",
+                  "cost": 10
+                },
+                {
+                  "name": "Repeater Gun (4+)",
+                  "cost": 10
+                },
+                {
+                  "name": "Long Rifle (3+)",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wizard",
+          "cost": 125,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Wizard",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Wizard Apprentice"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "9",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "9",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Light Armour",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Paths",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Alchemy",
+                  "cost": 0
+                },
+                {
+                  "name": "Diviniation",
+                  "cost": 0
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": 0
+                },
+                {
+                  "name": "Pyromancy",
+                  "cost": 0
+                }
+              ]
+            },
+            {
+              "name": "Level",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": 75
+                },
+                {
+                  "name": "Wizard Adept",
+                  "globalid": "9",
+                  "cost": 225
+                }
+              ]
+            },
+            {
+              "name": "Arcane Engine",
+              "onechoice": true,
+              "mandatory" : true,
+              "choices": [
+                {
+                  "name": "Arcane Shield",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Foresight",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 20
+                },
+                {
+                  "mount": "2",
+                  "cost": 80
+                },
+                {
+                  "mount": "3",
+                  "cost": 150
+                },
+                {
+                  "mount": "7",
+                  "globalid": "11",
+                  "cost": 190
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "2",
+      "units": [
+        {
+          "name": "Heavy Infantry",
+          "cost": 150,
+          "unitsize": 20,
+          "modelcost": 10,
+          "maxmodels": 30,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Heavy Infantry",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Support Unit (if starting size = 20)"
+                },
+                {
+                  "specialrule": "Parent Unit (if starting size > 20)"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "globalid": "100",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Spear",
+                  "cost": 1
+                },
+                {
+                  "name": "halberd",
+                  "cost": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Light Infantry",
+          "cost": 135,
+          "unitsize": 10,
+          "modelcost": 13,
+          "maxmodels": 10,
+          "category": "4",
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Light Infantry",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Support Unit"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Crossbow (4+)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "12",
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Long Rifle (4+)",
+                  "cost": 5,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Repeater Gun (5+)",
+                  "cost": 5,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "globalid": "100",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Replace Crossbow with Handgun (4+)",
+                  "cost": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "State Militia",
+          "cost": 80,
+          "unitsize": 10,
+          "modelcost": 6,
+          "maxmodels": 50,
+          "limitation": 4,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "State Militia",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Reserves"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Paired Weapons"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "globalid": "13",
+                  "category": "4",
+                  "name": "Replace Paired Weapons with Bow (4+)",
+                  "cost": 2
+                },
+                {
+                  "globalid": "13",
+                  "category": "4",
+                  "name": "Replace Paired Weapons with Pistol (4+)",
+                  "cost": 4
+                }
+              ]
+            },
+            {
+              "name": "Skirmisher",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Gain Skirmisher & lose Scoring (max 15)",
+                  "cost": 1,
+                  "maxmodels" : 15,
+                  "condition": [
+                    {
+                      "option": "13",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Electoral Cavalry",
+          "cost": 160,
+          "unitsize": 5,
+          "modelcost": 30,
+          "maxmodels": 10,
+          "limitation": 4,
+          "type": "2",
+          "size": "1",
+          "base": "2",
+          "rules": [
+            {
+              "name": "Electoral Cavalry",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "2",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Plate Armour"
+                }
+              ]
+            },
+            {
+              "name": "Horse",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "-",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "globalid": "100",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Equipment",
+              "type": "permodel",
+              "mandatory": false,
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 4
+                }
+              ]
+            },
+            {
+              "name": "Knightly Orders",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Knightly Orders",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Lance",
+                  "cost": 4
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "3",
+      "units": [
+        {
+          "name": "Imperial Guard",
+          "cost": 195,
+          "unitsize": 15,
+          "modelcost": 18,
+          "maxmodels": 25,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Imperial Guard",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "0",
+              "S": "4",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Bodyguard"
+                },
+                {
+                  "specialrule": "Parent Unit"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Plate Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Replace Shield with Great Weapons",
+                  "cost": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Knights of the Sun Griffon",
+          "cost": 280,
+          "unitsize": 3,
+          "modelcost": 95,
+          "maxmodels": 3,
+          "limitation": 3,
+          "type": "3",
+          "size": "2",
+          "base": "5",
+          "rules": [
+            {
+              "name": "Rider",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "1",
+              "AP": "1",
+              "S": "4",
+              "T": "3",
+              "W": "1",
+              "I": "4",
+              "A": "1",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fear"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Plate Armour"
+                },
+                {
+                  "equipment": "Halberd"
+                }
+              ]
+            },
+            {
+              "name": "Young Griffon",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "4",
+              "ARM": "-",
+              "AP": "3",
+              "S": "5",
+              "T": "4",
+              "W": "-",
+              "I": "4",
+              "A": "3",
+              "Ld": "-",
+              "specialrules": [
+              ],
+              "equipments": []
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "18",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "18",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Replace Halberd with Lance and Shield",
+                  "cost": 15
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "4",
+      "units": [
+        {
+          "name": "Imperial Rangers",
+          "cost": 90,
+          "unitsize": 5,
+          "modelcost": 13,
+          "maxmodels": 5,
+          "limitation": 4,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Imperial Ranger",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Frontiersmen"
+                },
+                {
+                  "specialrule": "Scirmishers"
+                },
+                {
+                  "specialrule": "Scout"
+                },
+                {
+                  "specialrule": "Beast Hunters"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Bow (4+)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reiters",
+          "cost": 150,
+          "unitsize": 5,
+          "modelcost": 30,
+          "maxmodels": 5,
+          "limitation": 3,
+          "type": "3",
+          "size": "1",
+          "base": "2",
+          "rules": [
+            {
+              "name": "Rider",
+              "ADV": "8",
+              "MAR": "16",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Feigned Flight"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Fire on Impact!"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Pistol (3+)"
+                }
+              ]
+            },
+            {
+              "name": "Horse",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [],
+              "equipments": []
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "19",
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Repeater Pistol (4+)",
+                  "cost": 10,
+                  "condition": [
+                    {
+                      "option": "19",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Armour",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Heavy Armour",
+                  "cost": 4
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Replace Pistol with Light Lance and Shield",
+                  "cost": 0
+                },
+                {
+                  "name": "Replace Pistol with Brace of Pistols (4+)",
+                  "cost": 6
+                },
+                {
+                  "name": "Replace Pistol with Repeater Gun (4+)",
+                  "cost": 6
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "5",
+      "units": [
+        {
+          "name": "Artillery",
+          "cost": 165,
+          "limitation": 3,
+          "type": "4",
+          "size": "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Machine",
+              "ADV": "4",
+              "MAR": "4",
+              "DEF": "1",
+              "OFF": "0",
+              "ARM": "0",
+              "AP": "0",
+              "S": "0",
+              "T": "4",
+              "W": "5",
+              "I": "0",
+              "A": "0",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "War Machine"
+                }],
+              "equipments": []
+            },
+            {
+              "name": "Crew (3)",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+              ],
+              "equipments": []
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": true,
+              "mandatory" : true,
+              "choices": [
+                {
+                  "name": "Mortar (4+)",
+                  "cost": 35
+                },
+                {
+                  "name": "Volley-Gun (4+)",
+                  "limitation": 2,
+                  "cost": 35
+                },
+                {
+                  "name": "Imperial Rocketeers (4+)",
+                  "limitation": 2,
+                  "cost": 0
+                },
+                {
+                  "name": "Cannon (4+)",
+                  "limitation": 2,
+                  "cost": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "6",
+      "units": [
+        {
+          "name": "Arcane Engine",
+          "cost": 280,
+          "limitation": 2,
+          "type": "4",
+          "size": "2",
+          "base": "4",
+          "rules": [
+            {
+              "name": "Arcane Engine",
+              "ADV": "8",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "0",
+              "ARM": "2",
+              "AP": "2",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "0",
+              "A": "0",
+              "Ld": "0",
+              "specialrules": [
+                {
+                  "specialrule": "Channel (1)"
+                },
+                {
+                  "specialrule": "Towering Presence"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Impact Hits (D6)"
+                },
+                {
+                  "specialrule": "Inanimate"
+                }
+              ],
+              "equipments": [
+              ]
+            },
+            {
+              "name": "Crew (2)",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [],
+              "equipments": []
+            },
+            {
+              "name": "Horse (2)",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [],
+              "equipments": []
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": true,
+              "mandatory" : true,
+              "choices": [
+                {
+                  "name": "Arcane Shield",
+                  "cost": 0
+                },
+                {
+                  "name": "Foresight",
+                  "cost": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flagellants",
+          "cost": 160,
+          "unitsize": 10,
+          "modelcost": 20,
+          "maxmodels": 15,
+          "limitation": 3,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Flagellants",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "1",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "Zealots"
+                },
+                {
+                  "specialrule": "Fanatical"
+                },
+                {
+                  "specialrule": "Unbreakable"
+                },
+                {
+                  "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Great Weapon"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Steam Tank",
+          "cost": 440,
+          "limitation": 1,
+          "type": "4",
+          "size": "2",
+          "base": "4",
+          "rules": [
+            {
+              "name": "Chassis",
+              "ADV": "4D3",
+              "MAR": "",
+              "DEF": "3",
+              "OFF": "",
+              "ARM": "6",
+              "AP": "2",
+              "S": "5",
+              "T": "6",
+              "W": "7",
+              "I": "3",
+              "A": "",
+              "Ld": "",
+              "specialrules": [
+                {
+                  "specialrule": "Steam Powered"
+                },
+                {
+                  "specialrule": "Random Movement (4D3)"
+                },
+                {
+                  "specialrule": "Grinding Attacks"
+                },
+                {
+                  "specialrule": "Towering Presence"
+                },
+                {
+                  "specialrule": "Unbreakable"
+                },
+                {
+                  "specialrule": "Fear"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Steam Cannon (3+)"
+                },
+                {
+                  "equipment": "Grind Attacks (3D3)"
+                },
+                {
+                  "equipment": "Breath Attack (Str  2, AP 3)"
+                }
+              ]
+            },
+            {
+              "name": "Steel Ram",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "",
+              "ARM": "-",
+              "AP": "4",
+              "S": "7",
+              "T": "-",
+              "W": "-",
+              "I": "",
+              "A": "",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Inanimate"
+                }],
+              "equipments": [
+                {
+                  "equipment": "Impact Hits (2D3)"
+                }
+              ]
+            }
+          ],
+          "options": [
+          ]
+        }
+      ]
+    }
+  ]
+}
+

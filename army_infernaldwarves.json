@@ -1,0 +1,2304 @@
+{
+  "organisation": [
+    {
+      "id": "1",
+      "name": "Characters",
+      "percent": 40,
+      "type": "max"
+    },
+    {
+      "id": "2",
+      "name": "Core",
+      "percent": 25,
+      "type": "min"
+    },
+    {
+      "id": "3",
+      "name": "Special",
+      "percent": 100,
+      "type": "max"
+    },
+    {
+      "id": "4",
+      "name": "Hail of the Gods",
+      "percent": 30,
+      "type": "max"
+    },
+    {
+      "id": "5",
+      "name": "Barrage",
+      "percent": 20,
+      "type": "max"
+    },
+    {
+      "id": "6",
+      "name": "Bound and Binders",
+      "percent": 35,
+      "type": "max"
+    }
+  ],
+  "magicitems": {
+    "weapons": [
+      {
+        "name": "Mace of Tristan",
+        "cost": 100,
+        "description": "Type: Hand Weapon. Attacks made with this weapon count as having a Strength equal to the Toughness of the model they are attacking +1. If the Strength would be higher without this rule, ignore it. Whenever an enemy model suffers one or more hits from this weapon, roll a D6 at the end of the Initiative step for every hit. If one or more 4+ results are rolled, all Magical Weapons carried by the attacked models are reverted to its mundane type for the rest of the game."
+      },
+      {
+        "name": "Dragon Lance",
+        "cost": 90,
+        "description": "Type: Lance. The wielder gains Breath Weapon (Strength 3, Flaming Attacks). Attacks with this weapon have Multiple Wounds (D3) in the Round of Combat directly after the wielder has charged into combat. This bonus can only be applied to attacks directed against the charged enemies."
+      }
+    ],
+    "armours": [
+      {
+        "name": "Crusader’s Helm",
+        "cost": 90,
+        "description": "Type: Plate Armour. Attacks againstthe wearer with Lethal Strike lose this special rule."
+      },
+      {
+        "name": "Armour of Percival",
+        "cost": 50,
+        "description": "Type: Heavy Armour. The wearer gains +1 to its Ward Save to a maximum of 4+. Any Divine Attacks made against the wielder lose Divine Attacks."
+      }
+    ],
+    "talismans": [
+      {
+        "name": "Talisman of Roland",
+        "cost": 50,
+        "description": "No unit may use the Stand and Shoot reaction when charged by the bearer’s unit. Furthermore, the bearer’s unit gains +1 to its Ward Save against any Ranged Attacks to a maximum of 4+. This cannot be used against Magical Attacks."
+      },
+      {
+        "name": "Blessed Scripture",
+        "cost": 50,
+        "description": "Multiple Wounds suffered by the bearer are halved, rounded up."
+      }
+    ],
+    "enchanteditems": [
+      {
+        "name": "Storm Clarion",
+        "cost": 80,
+        "description": "One use only. This item may be activated at the start of any Player Turn. Enemy units cannot make Flying Movements during this player turn."
+      },
+      {
+        "name": "Wafers of Penitence",
+        "cost": 30,
+        "description": "The bearer's unit is never disrupted when flanked by enemy units (but can still be disrupted by enemy units to its rear)."
+      }
+    ],
+    "standards": [
+      {
+        "name": "The Oriflamme",
+        "cost": 90,
+        "description": "The bearer gains Fear. Enemy units in base contact with the bearer’s unit may not benefit from Hold Your Ground."
+      },
+      {
+        "name": "Banner of the Last Charge",
+        "cost": 40,
+        "description": "All mounts in the bearer’s unit gain Impact Hits (1)."
+      }
+    ]
+  },
+  "mounts": [
+    {
+      "id": "1",
+      "name": "Bull of Shamut",
+      "type": "2",
+      "limitation": "2",
+      "organisation": "6",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Bull of Shamut",
+          "ADV": "6 (8)",
+          "MAR": "12 (16)",
+          "DEF": "C",
+          "OFF": "5",
+          "ARM": "C",
+          "AP": "2",
+          "S": "5",
+          "T": "5",
+          "W": "4",
+          "I": "3",
+          "A": "4",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fly (8, 16)"
+            },
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Aegis (2+, vs Flaming Attacks)"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Volcanic Embrace"
+            },
+            {
+              "specialrule": "Impact Hits (1)"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Temple Lamassu",
+      "type": "2",
+      "base": "2",
+      "limitation": "1",
+      "organisation": "6",
+      "rules": [
+        {
+          "name": "Temple Lamassu",
+          "ADV": "6 (8)",
+          "MAR": "12 (16)",
+          "DEF": "C",
+          "OFF": "5",
+          "ARM": "C",
+          "AP": "2",
+          "S": "5",
+          "T": "5",
+          "W": "4",
+          "I": "2",
+          "A": "2",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fly (8, 16)"
+            },
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Magic Resistance (2)"
+            },
+            {
+              "specialrule": "Aura of Unbinding"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Magical Attacks"
+            },
+            {
+              "specialrule": "Breath Attack (STR 4, AP 1, Magical Attacks)"
+            },
+            {
+              "specialrule": "Witchcraft"
+            }
+          ],
+          "equipments": [
+            {
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Great Bullf of Shamut",
+      "type": "2",
+      "base": "2",
+      "limitation": "1",
+      "organisation": "6",
+      "rules": [
+        {
+          "name": "Great Bull of Shamut",
+          "ADV": "6 (8)",
+          "MAR": "7 (14)",
+          "DEF": "5",
+          "OFF": "5",
+          "ARM": "2",
+          "AP": "3",
+          "S": "6",
+          "T": "6",
+          "W": "6",
+          "I": "3",
+          "A": "4",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fly (7, 14)"
+            },
+            {
+              "specialrule": "Aegis (5+)"
+            },
+            {
+              "specialrule": "Aegis (2+, vs Flaming Attacks)"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Volcanic Embrace"
+            },
+            {
+              "specialrule": "Breath Attack (STR 4, AP 1, Flaming Attacks)"
+            },
+            {
+              "specialrule": "Impact Hits (1)"
+            }
+          ],
+          "equipments": [
+            {
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Wolf",
+      "type": "2",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Wolf",
+          "ADV": "9",
+          "MAR": "18",
+          "DEF": "C",
+          "OFF": "3",
+          "ARM": "C+1",
+          "AP": "0",
+          "S": "3",
+          "T": "C",
+          "W": "C",
+          "I": "3",
+          "A": "1",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Feigned Flight"
+            },
+            {
+              "specialrule": "Light Troops"
+            },
+            {
+              "specialrule": "Vanguard"
+            },
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [
+            {
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "army": [
+    {
+      "organisation": "1",
+      "units": [
+        {
+          "name": "Overlord",
+          "cost": 270,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Overlord",
+              "ADV": "3",
+              "MAR": "9",
+              "DEF": "7",
+              "OFF": "7",
+              "AP": "1",
+              "ARM": "0",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Fan the Flames"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 250
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Blunderbuss (3+)",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Flintlock Axe (3+)",
+                  "cost": 20
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 20
+                },
+                {
+                  "name": "Infernal Weapon",
+                  "cost": 35
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "category": "6",
+                  "cost": 230
+                },
+                {
+                  "mount": "2",
+                  "category": "6",
+                  "cost": 430
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vizier",
+          "cost": 125,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Vizier",
+              "ADV": "3",
+              "MAR": "9",
+              "DEF": "6",
+              "OFF": "6",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 150
+                },
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Blunderbuss (3+)",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Great weapon",
+                  "cost": 10
+                },
+                {
+                  "name": "Flintlock Axe (3+)",
+                  "cost": 15
+                },
+                {
+                  "name": "Infernal Weapon",
+                  "cost": 25
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "category": "6",
+                  "cost": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chosen of Lugar",
+          "cost": 220,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "limitation": 1,
+          "rules": [
+            {
+              "name": "Chosen of Lugar",
+              "ADV": "4",
+              "MAR": "12",
+              "DEF": "5",
+              "OFF": "6",
+              "AP": "1",
+              "ARM": "0",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Unbreakable"
+                },
+                {
+                  "specialrule": "Lugar's Court"
+                },
+                {
+                  "specialrule": "Aegis (4+)"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                },
+                {
+                  "specialrule": "Volcanic Embrace"
+                },
+                {
+                  "specialrule": "Aegis (2+, Flaming Attacks)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Paired Weapons"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 150
+                }
+              ]
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": 10
+                },
+                {
+                  "name": "Infernal Weapon",
+                  "cost": 25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Taurukh Subjugator",
+          "cost": 305,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Taurukh Subjugator",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "5",
+              "ARM": "1",
+              "OFF": "5",
+              "AP": "2",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "4",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Strider (Ruins)"
+                },
+                {
+                  "specialrule": "Devastating Charge (+1 Armour)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 150
+                },
+                {
+                  "name": "Shield",
+                  "cost": 10
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    },
+                    {
+                      "option": "1001",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 15
+                },
+                {
+                  "name": "Infernal Weapon",
+                  "cost": 35
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hobgoblin Chieftain",
+          "cost": 70,
+          "type": "1",
+          "size": "1",
+          "limitation": 5,
+          "base": "1",
+          "rules": [
+            {
+              "name": "Hobgoblin Chieftain",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "4",
+              "ARM": "0",
+              "OFF": "4",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "4",
+              "A": "3",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Not a Leader"
+                },
+                {
+                  "specialrule": "Opportunist"
+                }
+              ],
+              "equipments": [
+                {
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 50
+                },
+                {
+                  "name": "Shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Light Armour",
+                  "cost": 5
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": 5
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Shooting Weapon",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Throwing Weapon (4+)",
+                  "cost": 5
+                },
+                {
+                  "name": "Bow (3+)",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "4",
+                  "cost": 50
+                },
+                {
+                  "name": "Backstabber Boss",
+                  "cost": 25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "2",
+      "units": [
+        {
+          "name": "Infernal Warriors",
+          "cost": 185,
+          "size": "1",
+          "unitsize": 15,
+          "modelcost": 13,
+          "maxmodels": 25,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Infernal Warriors",
+              "ADV": "3",
+              "MAR": "9",
+              "DEF": "4",
+              "ARM": "0",
+              "OFF": "4",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "globalid": "17",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "17",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 1
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 4
+                },
+                {
+                  "name": "Blunderbuss (3+)",
+                  "limitation": "30",
+                  "organisation": "5",
+                  "cost": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Citadel Guard",
+          "cost": 190,
+          "size": "1",
+          "unitsize": 10,
+          "modelcost": 23,
+          "maxmodels": 20,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Citadel Guard",
+              "ADV": "3",
+              "MAR": "9",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "globalid": "17",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "17",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Flintlock Axe (3+)",
+                  "organisation": "5",
+                  "cost": 9
+                },
+                {
+                  "name": "Replace Shield with Flintlock Axe (3+)",
+                  "organisation": "5",
+                  "cost": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hobgoblins",
+          "cost": 120,
+          "size": "1",
+          "unitsize": 20,
+          "modelcost": 7,
+          "maxmodels": 30,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Hobgoblins",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "Opportunist"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "type": "permodel",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Bow (4+)",
+                  "limitation": "3",
+                  "amxmodels": "60",
+                  "organisation": "5",
+                  "cost": 2
+                },
+                {
+                  "name": "Shield",
+                  "cost": 1
+                },
+                {
+                  "name": "Spear and Shield",
+                  "cost": 1
+                },
+                {
+                  "name": "Backstabbers",
+                  "cost": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Orc Slaves",
+          "cost": 115,
+          "size": "1",
+          "unitsize": 20,
+          "modelcost": 8,
+          "maxmodels": 30,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Orc Slaves",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "5",
+              "specialrules": [
+                {
+                  "specialrule": "Insignifiant"
+                },
+                {
+                  "specialrule": "Slaves"
+                },
+                {
+                  "specialrule": "Born to Flight"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Musician",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 2
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "3",
+      "units": [
+        {
+          "name": "Immortals",
+          "cost": 290,
+          "size": "1",
+          "unitsize": 15,
+          "modelcost": 28,
+          "maxmodels": 15,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Immortals",
+              "ADV": "3",
+              "MAR": "9",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Bodyguard"
+                },
+                {
+                  "specialrule": "Blessing of Nezibkesh"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                },
+                {
+                  "equipment": "Great Weapon"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "globalid": "17",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "17",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 2
+                },
+                {
+                  "name": "Replace Great Weapon with Infernal Weapon",
+                  "cost": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Taurukh",
+          "cost": 150,
+          "size": "1",
+          "unitsize": 5,
+          "modelcost": 24,
+          "maxmodels": 10,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Taurukh",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "4",
+              "ARM": "0",
+              "OFF": "4",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "2",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Strider (Ruins)"
+                },
+                {
+                  "specialrule": "Devastating Charge (+1 Armour)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "globalid": "17",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "17",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 2
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": 2
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 3
+                },
+                {
+                  "name": "Infernal Weapon",
+                  "cost": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Taurukh Anointed",
+          "cost": 335,
+          "size": "1",
+          "unitsize": 3,
+          "modelcost": 105,
+          "maxmodels": 4,
+          "limitation": 5,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Taurukh Anointed",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "2",
+              "S": "5",
+              "T": "5",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Strider (Ruins)"
+                },
+                {
+                  "specialrule": "Devastating Charge (+1 Armour)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "globalid": "17",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "17",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 10
+                },
+                {
+                  "name": "Infernal Weapon",
+                  "cost": 18
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hobgoblin Wolf Riders",
+          "cost": 130,
+          "size": 5,
+          "modelcost": 14,
+          "maxmodels": 10,
+          "limitation": 2,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Hobgoblin Rider",
+              "ADV": "9",
+              "MAR": "18",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "Feigned Flight"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Opportunist"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            },
+            {
+              "name": "Wolf",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+                {}
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 1
+                },
+                {
+                  "name": "Bow (4+)",
+                  "cost": 2
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "4",
+      "units": [
+        {
+          "name": "Infernal Artillery",
+          "cost": 150,
+          "size": "1",
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Infernal Artillery",
+              "ADV": "3",
+              "MAR": "3",
+              "DEF": "1",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "5",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "War Machine"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Artillery",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Rocket Battery (4+)",
+                  "limitation": 2,
+                  "globalid": "20",
+                  "cost": 135
+                },
+                {
+                  "name": "Volcano Cannon",
+                  "limitation": 2,
+                  "globalid": "21",
+                  "cost": 150
+                }
+              ]
+            },
+            {
+              "name": "Daemon",
+              "choices": [
+                {
+                  "name": "Bound Daemon",
+                  "cost": 130,
+                  "organisation": "6",
+                  "condition": [
+                    {
+                      "option": "20",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Bound Daemon",
+                  "cost": 200,
+                  "organisation": "6",
+                  "condition": [
+                    {
+                      "option": "21",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Titan Mortar",
+          "cost": 300,
+          "size": "1",
+          "type": "1",
+          "limitation": "2",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Crew",
+              "ADV": "3",
+              "MAR": "3",
+              "DEF": "1",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "6",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "War Machine"
+                },
+                {
+                  "specialrule": "Ogre Slave"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Titan Mortar (4+)"
+                }
+              ]
+            },
+            {
+              "name": "Ogre Slave",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "1",
+              "S": "4",
+              "T": "-",
+              "W": "-",
+              "I": "2",
+              "A": "3",
+              "Ld": "-",
+              "specialrules": [
+              ],
+              "equipments": [
+                {
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Daemon",
+              "choices": [
+                {
+                  "name": "Replace Ogre Slave with Bound Daemon",
+                  "cost": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hobgoblin Bolt Thrower",
+          "cost": 95,
+          "size": "1",
+          "type": "1",
+          "limitation": "2",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Crew",
+              "ADV": "4",
+              "MAR": "4",
+              "DEF": "1",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "3",
+              "A": "3",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "War Machine"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hobgoblin Bolt Thrower (4+)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+            }
+          ]
+        },
+        {
+          "name": "Gunnery Team",
+          "cost": 130,
+          "size": "1",
+          "type": "1",
+          "limitation": "2",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Crew",
+              "ADV": "3",
+              "MAR": "6",
+              "DEF": "1",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "2",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Steam Powered Chassis"
+                },
+                {
+                  "specialrule": "Quick To Fire"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                },
+                {
+                  "equipment": "Hard Target"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Artillery",
+              "mandatory": true,
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Gunnery Volley Gun (4+)",
+                  "cost": 20
+                },
+                {
+                  "name": "Grenade Launcher (4+)",
+                  "cost": 35
+                },
+                {
+                  "name": "Flamethrower",
+                  "cost": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "5",
+      "units": [
+        {
+          "name": "Disciples of Lugar",
+          "cost": 140,
+          "size": "1",
+          "unitsize": 5,
+          "modelcost": 25,
+          "maxmodels": 20,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Disciples of Lugar",
+              "ADV": "4",
+              "MAR": "12",
+              "DEF": "3",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                },
+                {
+                  "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Unbreakable"
+                },
+                {
+                  "specialrule": "Aegis (5+)"
+                },
+                {
+                  "specialrule": "Aegis (2+ vs Flaming Attacks)"
+                },
+                {
+                  "specialrule": "Volcanic Embrace"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Paired Weapons"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "globalid": "17",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "17",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapon",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Swap Paired Weapons with Great Weapons",
+                  "cost": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kadim Titan",
+          "cost": 575,
+          "size": "1",
+          "type": "1",
+          "limitation": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Kadim Titan",
+              "ADV": "8",
+              "MAR": "16",
+              "DEF": "4",
+              "OFF": "6",
+              "ARM": "2",
+              "AP": "4",
+              "S": "7",
+              "T": "6",
+              "W": "6",
+              "I": "5",
+              "A": "6",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Aegis (5+)"
+                },
+                {
+                  "specialrule": "Aegis (2+ vs Flaming Attacks)"
+                },
+                {
+                  "specialrule": "Volcanic Embrace"
+                },
+                {
+                  "specialrule": "Searing Rage"
+                }
+              ],
+              "equipments": [
+                {
+                }
+              ]
+            }
+          ],
+          "options": [
+          ]
+        },
+        {
+          "name": "Kadim Incarnates",
+          "cost": 335,
+          "size": "1",
+          "unitsize": 3,
+          "modelcost": 120,
+          "maxmodels": 3,
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Kadim Incarnates",
+              "ADV": "4 (6)",
+              "MAR": "8 (12)",
+              "DEF": "3",
+              "OFF": "5",
+              "ARM": "2",
+              "AP": "2",
+              "S": "5",
+              "T": "4",
+              "W": "3",
+              "I": "4",
+              "A": "3",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Fly (6, 12)"
+                },
+                {
+                  "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Aegis (5+)"
+                },
+                {
+                  "specialrule": "Aegis (2+ vs Flaming Attacks)"
+                },
+                {
+                  "specialrule": "Volcanic Embrace"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                }
+              ],
+              "equipments": [
+                {
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Infernal Engine",
+          "cost": 145,
+          "size": "1",
+          "limitation": "1",
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Crew",
+              "ADV": "6",
+              "MAR": "6",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "4",
+              "AP": "0",
+              "S": "3",
+              "T": "7",
+              "W": "7",
+              "I": "2",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Fly (6, 12)"
+                },
+                {
+                  "specialrule": "Unbreakable"
+                },
+                {
+                  "specialrule": "Towering Presence"
+                },
+                {
+                  "specialrule": "Full Steam Ahead!"
+                },
+                {
+                  "specialrule": "Ponderous"
+                }
+              ],
+              "equipments": [
+                {
+                }
+              ]
+            },{
+              "name": "Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "-",
+              "ARM": "-",
+              "AP": "3",
+              "S": "6",
+              "T": "-",
+              "W": "-",
+              "I": "2",
+              "A": "-",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Daemonic Infusion"
+                },
+                {
+                  "specialrule": "Impact Hits (D6+1)"
+                },
+                {
+                  "specialrule": "Grind Attacks (D3)"
+                }
+              ],
+              "equipments": [
+                {
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Shrapnel Guns (4+)",
+                  "cost": 305
+                },
+                {
+                  "name": "Steam Hammers",
+                  "cost": 305
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Armoured Giant",
+          "cost": 305,
+          "size": "1",
+          "limitation": "3",
+          "type": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Armoured Giant",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "1",
+              "AP": "2",
+              "S": "5",
+              "T": "5",
+              "W": "7",
+              "I": "3",
+              "A": "5",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Giant See, Giant Do"
+                },
+                {
+                  "specialrule": "Rage"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Giant Club",
+                  "cost": 30
+                },
+                {
+                  "name": "Slavemaster's Whip",
+                  "cost": 35
+                },
+                {
+                  "name": "Mining Pick",
+                  "cost": 25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
