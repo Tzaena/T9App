@@ -1119,15 +1119,203 @@
       "color": "#FFFFFF",
       "spells": [
         {
-          "value": "A",
-          "name": "spell",
-          "duration": "1",
-          "effect": "effect",
-          "castingvalue": "1+",
-          "range": "18",
+          "value": "-",
+          "name": "Lightning Vambraces",
+          "duration": "2",
+          "effect": "The target suffers 2D6 hits with Strength 3, Armour Penetration 0, and Magical Attacks",
+          "castingvalue": "4/8",
+          "range": "24",
           "types": [
             {
               "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "Rod of Battle",
+          "duration": "1",
+          "effect": "The target gains +1 to hit with its Close Combat Attacks.",
+          "castingvalue": "4/8",
+          "range": "12",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[E]Ullor’s Blessing",
+          "duration": "1",
+          "effect": "The target gains Aegis (5+, against Melee Attacks).",
+          "castingvalue": "4/8",
+          "range": "Caster's Unit",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[E]Sunna’s Blessing",
+          "duration": "1",
+          "effect": "The target gains Flaming Attacks. All enemy units in base contact with one or more targets of this spell, when the spell is cast, suffer D6 hits with Strength 4, Armour Penetration 1, Flaming Attacks, and Magical Attacks.",
+          "castingvalue": "4/8",
+          "range": "Caster's Unit",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[E]Volund’s Blessing",
+          "duration": "1",
+          "effect": "The target must reroll failed to-wound rolls with Melee Attacks",
+          "castingvalue": "4/8",
+          "range": "Caster's Unit",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[ID]Besheluk’s Mechanism",
+          "duration": "2",
+          "effect": "The target Raises a number of Health Points as given below (units not on the list are unaffected by the spell): Disciples of Lugar: 4 Health Points. Kadim Incarnates: 2 Health Points. Kadim Titan: 1 Health Point",
+          "castingvalue": "4/8",
+          "range": "24",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[BH]Black Wing Totem",
+          "duration": "1",
+          "effect": "A unit with all models affected by the spell gains +3 Agility and adds D3+1 to its Charge Range.",
+          "castingvalue": "4/8",
+          "range": "Unit|18",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[BH]Blooded Horn Totem",
+          "duration": "1",
+          "effect": "The target gains +1 Attack Value, and their Close Combat Attacks gain +2 Armour Penetration.",
+          "castingvalue": "4/8",
+          "range": "Unit|18",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[BH]Clouded Eye Totem",
+          "duration": "1",
+          "effect": "A unit with all models affected by the spell gains Hard Target and Magic Resistance (3).",
+          "castingvalue": "4/8",
+          "range": "Unit|18",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[BH]Gnarled Hide Totem",
+          "duration": "1",
+          "effect": "The target gains +1 Armour and Distracting.",
+          "castingvalue": "4/8",
+          "range": "Unit|18",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "",
+      "name": "Hereditary Spells",
+      "color": "#FFFFFF",
+      "spells": [
+        {
+          "value": "H",
+          "name": "[SA]Spark of Creation",
+          "duration": "2",
+          "effect": "The target suffers D6 hits with Strength 5 [6], Armour Penetration 2 [3], and Magical Attacks.",
+          "castingvalue": "6+/[8+]",
+          "range": "30/[18]",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "6"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[ID]Haze of Magnesia",
+          "duration": "3",
+          "effect": "The target gains Flammable. At the end of a phase, if the target has suffered at least one hit with Flaming Attacks, it will suffer an additional D3+1 hits with Strength 4, Armour Penetration 0, and Flaming Attacks. The spell then ends.",
+          "castingvalue": "5+",
+          "range": "24",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[SE]Forest Embrace",
+          "duration": "1",
+          "effect": "Place a Forest underneath the target (this can be substituted by placing a marker next to the unit). This Forest always extends to the edges of the unit’s Boundary Rectangle (even if the unit moves or changes formation). [Enemy units in base contact with the target must reroll natural to-hit rolls of ‘6’.]",
+          "castingvalue": "4+/[7+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[BH]Echoes of the Dark Forest",
+          "duration": "1",
+          "effect": "The target gains Fearless and Terror. All enemy units in base contact with the target suffer -1 Discipline.",
+          "castingvalue": "5+/[9+]",
+          "range": "18/[36]",
+          "types": [
+            {
+              "type": "1"
             }
           ]
         }
