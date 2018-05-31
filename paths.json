@@ -1115,6 +1115,104 @@
     },
     {
       "effect": "",
+      "name": "Runecraft",
+      "color": "#D0A9F5",
+      "spells": [
+        {
+          "value": "-",
+          "name": "Rune of Resonance",
+          "duration": "3",
+          "effect": "When a friendly model casts a Battle Rune anywhere on the Battlefield, a single unit with at least one model affected by the Rune of Resonance may be chosen as an additional target of the Battle Rune (during step 1 of the Casting Attempt), with the following restrictions: A unit cannot be chosen if it is already a target of the Battle Rune. Only a single unit per Magic Phase can be affected as an additional target of a Battle Rune. All instances of Rune of Resonance on a unit immediately end when a Battle Rune is successfully cast on the unit. Characters that leave a combined unit are no longer affected by the Rune of Resonance",
+          "castingvalue": "5/8",
+          "range": "12",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },
+		{
+          "value": "-",
+          "name": "Rune of Revocation",
+          "duration": "1",
+          "effect": "The effects of all other spells with Duration: Lasts one Turn affecting the target immediately come to an end. Additionally, the next successfully cast enemy spell which targets the unit, including Aura spells and Attribute Spells is automatically dispelled (this is an exception to the rule that Attribute Spells cannot be dispelled).",
+          "castingvalue": "5/8",
+          "range": "12|36",
+          "types": [
+            {
+              "type": "7"
+            }
+          ]
+        },
+		{
+          "value": "-",
+          "name": "Rune of Reckoning",
+          "duration": "1",
+          "effect": "The target must reroll failed to-hit rolls with its Close Combat Attacks.",
+          "castingvalue": "5/8",
+          "range": "12|36",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "-",
+          "name": "Rune of Oaths",
+          "duration": "1",
+          "effect": "The target must reroll failed to-wound rolls with its Melee Attacks.",
+          "castingvalue": "5/8",
+          "range": "12|36",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "-",
+          "name": "Rune of Resolve",
+          "duration": "1",
+          "effect": "The target may perform a 6 Magical Move.",
+          "castingvalue": "5/8",
+          "range": "12|36",
+          "types": [
+            {
+              "type": "2"
+            }
+          ]
+        },
+		{
+          "value": "-",
+          "name": "Rune of Gleaming",
+          "duration": "1",
+          "effect": "The target gains Hard Target and Distracting.",
+          "castingvalue": "5/8",
+          "range": "12|36",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "-",
+          "name": "Rune of Resilience",
+          "duration": "1",
+          "effect": "All to-wound rolls against the target suffer a -1 modifier.",
+          "castingvalue": "5/8",
+          "range": "12|36",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect": "",
       "name": "Bound Spells",
       "color": "#FFFFFF",
       "spells": [
@@ -1253,6 +1351,48 @@
               "type": "1"
             }
           ]
+        },
+        {
+          "value": "-",
+          "name": "[HE]Drain Magic",
+          "duration": "2",
+          "effect": "All spells with duration Lasts one Turn affecting the target immediately come to an end. If any of these spells had more than one target, their effects also end for these targets.",
+          "castingvalue": "4/8",
+          "range": "18",
+          "types": [
+            {
+              "type": "7"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[UD]Phatep’s Curse",
+          "duration": "2",
+          "effect": "The target must take a Discipline Test rolling an additional D6. If failed, the target suffers a number of hits equal to the amount by which the test was failed. Hits are resolved with Armour Penetration 10 and wound automatically.",
+          "castingvalue": "6/6",
+          "range": "36",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "name": "[VC]The Dead Arise",
+          "duration": "2",
+          "effect": "Summon a unit listed in the Awaken (X) Universal Rule of the Caster (declare which before casting) with as many Health Points as given by the Reanimated value of the unit. All models must be placed within the spell's Range, with at least one model on the target point. All upgrades except Command Group are allowed. The unit loses Scoring (if it had it).",
+          "castingvalue": "4/8",
+          "range": "12",
+          "types": [
+            {
+              "type": "8"
+            }
+          ]
         }
       ]
     },
@@ -1316,6 +1456,148 @@
           "types": [
             {
               "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[DL]Immortal Sustenance",
+          "duration": "1",
+          "effect": "The target gains Aegis (+1, max 3+).",
+          "castingvalue": "7+/[12+]",
+          "range": "24/[6 aura]",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[DE]Crippling Fatigue",
+          "duration": "1",
+          "effect": "Failed to-wound rolls with Melee Attacks [Ranged Attacks] against the target must be re-rolled.",
+          "castingvalue": "8+/[12+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[HE]Favour of Meladys",
+          "duration": "1",
+          "effect": "Immediately after successfully casting the spell, add one Veil Token to your Veil Token pool. When a friendly unit within 18 of the Caster would lose a Health Point, you may discard a Veil Token from your Veil Token pool instead (this is done before taking Special Saves) and the Health Point loss is ignored. An Attack with Multiple Wounds will inflict one wound less than usual instead. For Standard Infantry, up to 2 Health Point losses are ignored per token (provided they are suffered simultaneously). A maximum of two Veil Tokens may be discarded each phase for this purpose. Characters and Gigantic models can only ignore a single lost Health Point this way per phase.",
+          "castingvalue": "10+",
+          "range": "Caster",
+          "types": [
+            {
+              "type": "2"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[KoE]Breath of the Lady",
+          "duration": "1",
+          "effect": "The target must reroll natural to-hit and to-wound rolls of ‘1’ with its Close Combat Attacks, and must reroll natural Armour Save rolls of ‘1’.",
+          "castingvalue": "9+/[11+]",
+          "range": "18/[36]",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[OK]Children of Umi",
+          "duration": "1",
+          "effect": "All Melee Attacks against the target suffer -1 to wound. [Additionally, all Shamans in the target unit gain +1 Resilience.]",
+          "castingvalue": "7+/[10+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[OG]Bring the Pain",
+          "duration": "1",
+          "effect": "Failed to-hit rolls with Close Combat Attacks against the target must be rerolled.",
+          "castingvalue": "8+",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[VS]The Awakened Swarm",
+          "duration": "2",
+          "effect": "The target suffers 2D6 hits with Strength 4, Armour Penetration 2, and Magical Attacks",
+          "castingvalue": "7+/[10+]",
+          "range": "12/[24]",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "5"
+            },
+            {
+              "type": "4"
+            }
+          ]
+        },
+		{
+          "value": "A",
+          "name": "[UD]Death is Only the Beginning",
+          "duration": "2",
+          "effect": "The target Raises a number of Health Points equal to the Resurrected value of the R&F models in the unit. If the target contains any Characters, you may instead choose a single Character in it. This Character Raises a number of Health Points equal to its Resurrected value. Characters and models with Towering Presence cannot Raise more than 2 Health Points in each Magic Phase from Death is Only the Beginning.",
+          "castingvalue": "-",
+          "range": "*",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[VC]Arise!",
+          "duration": "2",
+          "effect": "When resolving the spell, choose one of the following effects for each target: - The R&F part of the target Raises a number of Health Points equal to its Reanimated value. - Up to one Character within the target Recovers a number of Health Points equal to its Reanimated value. Models with Towering Presence cannot Recover more than 2 Health Points from this spell in a single Magic Phase.",
+          "castingvalue": "4+/[8+]/{11+}",
+          "range": "18/[6 aura]/{12 aura}",
+          "types": [
+            {
+              "type": "1"
+            }
+          ]
+        },
+		{
+          "value": "H",
+          "name": "[WDG]Hellfire",
+          "duration": "2",
+          "effect": "The target suffers 2D3 [2D6] hits with Strength 7, Armour Penetration 0, and Magical Attacks.",
+          "castingvalue": "8+/[11+]",
+          "range": "18",
+          "types": [
+            {
+              "type": "3"
+            },
+            {
+              "type": "4"
+            },
+            {
+              "type": "5"
             }
           ]
         }
