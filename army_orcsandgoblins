@@ -34,113 +34,89 @@
   "magicitems": {
     "weapons": [
       {
-        "name": "Glory of the Dawn Age",
-        "cost": 100,
-        "description": "Spear enchantment. Attacks made with this weapon gain +1 Strength, Magical Attacks, and Multiple Wounds (2)."
+        "name": "Omen of the Apocalypse",
+        "cost": 120,
+        "description": "Hand Weapon enchantment. Roll a single D3 at the Initiative Step in which the wielder is attacking. During this Initiative Step, the wielder gains a modifier equivalent to the D3 roll to its Attack Value, Strength, and Armour Penetration when using this weapon. Attacks made with this weapon gain Magical Attacks."
       },
       {
-        "name": "Wildfire Burs",
-        "cost": 55,
-        "description": "Bow enchantment. This weapon has Shots 4, Str 4, AP 1. Attacks made with this weapon gain Flaming Attacks and Magical Attacks. A unit that is hit by these attacks loses Soft Cover until the end of the Player Turn (if it had it). If the enemy unit was in Hard Cover, it is now considered to be in Soft Cover until the end of the Player Turn."
+        "name": "Maza's Zappin",
+        "cost": 65,
+        "description": "Bow enchantment. The wielder’s unit gains Quick to Fire. This Bow gains Aim (2+) and has its profile changed to: Range 24', Shots 3, Str as user, AP as user, Magical Attacks."
+      },
+      {
+        "name": "Shady Shanking",
+        "cost": 50,
+        "description": "Hand Weapon and Paired Weapons enchantment. Attacks made with this weapon gain Lightning Reflexes, Lethal Strike, and Magical Attacks. When fighting in a Duel, failed to-wound rolls with this weapon must be rerolled."
       }
     ],
     "armours": [
       {
-        "name": "Taurosaur's Vigour",
-        "cost": 70,
-        "description": "Suit of Armour enchantment. The wearer gains +1 Armour, +1 Health Point, and Crush Attack."
-      },
-      {
-        "name": "Serrate Scales",
-        "cost": 50,
-        "description": "Shield enchantment. The bearer gains +2 Attack Value while using this Shield. The 2 Close Combat Attacks gained by this enchantment always have Strength 5 and Armour Penetration 2. These attacks do not benefit from any rules or bonuses granted by Weapon Enchantments"
+        "name": "Tuktek’s Guard",
+        "cost": 55,
+        "description": "Standard and Large Size models only. Suits of Armour enchantment. The wearer’s model gains +1 Resilience. In addition, attacks made with Lethal Strike lose Lethal Strike when attacking the wearer."
       }
     ],
     "artefacts": [
       {
-        "name": "Sphere of Shielding",
-        "cost": 100,
-        "description": "Models on Palanquin and Skink Palanquin only. The bearer gains Aegis (2+, against Ranged Attacks). The bearer may not take saves of any kind against Melee Attacks."
+        "name": "Crown of the Cavern King",
+        "cost": 90,
+        "description": "Cannot be taken by models with Towering Presence. All models in the bearer’s unit that have at least one model part of the Greenhide Races Common Goblin, Cave Goblin, or Forest Goblin gain Vanguard and Feigned Flight. If the bearer is Common Goblin, Cave Goblin, or Forest Goblin, its Commanding Presence and Rally Around the Flag range (if available) is increased by 6'"
       },
       {
-        "name": "Ancient Plaque",
-        "cost": 85,
-        "dominant" : 1,
-        "description": "Once per friendly Magic Phase, the bearer may reroll one Magic Dice that was used for a Casting Attempt. This ability cannot be used when the bearer is casting with only one Magic Dice, and cannot reroll a dice which is one, of three or more rolling the same value."
-      },
-      {
-        "name": "Starfall Shard ",
-        "cost": 70,
-        "description": "The bearer’s model gains Aegis (2+, against Flaming Attacks) and Hard Target, and cannot benefit from Regeneration."
-      },
-      {
-        "name": "Spirit of the Stampede",
-        "cost": 70,
-        "description": "The bearer’s mount gains Impact Hits (D6). If it already had Impact Hits, increase the number of Impact Hits by D6."
-      },
-      {
-        "name": "Jade Staff",
-        "cost": 55,
-        "description": "The bearer can cast Healing Waters from Druidism as a Bound Spell with Power Level (4/8)."
-      },
-      {
-        "name": "Raptor Spirit",
+        "name": "Skull Fetish",
         "cost": 65,
-        "description": "Models on foot only. The bearer gains +4 Advance Rate, +4 March Rate, and Swiftstride. This Artefact cannot be taken by a model with Ranger’s Boots."
+        "dominant" : 1,
+        "description": "At the start of any friendly Magic Phase, add X Veil Tokens to your pool, where X is the number of friendly units Engaged in Combat minus the number of friendly Fleeing units, ignoring negative results. You cannot gain more than 3 Veil Tokens this way. These tokens are in addition to Veil Tokens gained from other sources. Skull Fetish can never cause a loss of Veil Tokens."
       },
       {
-        "name": "Egg of the Quetza",
-        "cost": 45,
-        "description": "The bearer gains Breath Attack (Str D3+2, AP 1, Magical Attacks)."
+        "name": "Troll Ale Flask",
+        "cost": 30,
+        "description": "At the bearer’s Initiative Step, choose an enemy unit Engaged in Combat with the bearer that the bearer is able to attack with Close Combat Attacks. This unit suffers a hit, which is resolved with Strength 5 and Armour Penetration 10. This is considered a Special Attack."
       },
       {
-        "name": "Sun Tablet",
+        "name": "Pan of Protection Pinchin’",
         "cost": 40,
-        "description": "The bearer can select its spells from the Learned Spells 1, 2, 3, 4, 5, and 6 of its chosen Path and the Hereditary Spell of its army. This overrides the normal Spell Selection rules connected to being a Wizard Apprentice/Adept. This Artefact cannot be combined with Protean Potentate."
-      },
-      {
-        "name": "Obsidian Tesseract",
-        "cost": 35,
-        "description": "One use only. May be activated in the opponent's Magic Phase after Siphon the Veil. When activated, remove 1 Magic Dice from the opponent’s Magic Dice pool."
+        "description": "When successfully wounded, the bearer may use the Armour of the model that inflicted the wound as well as its Aegis or Fortitude. Additionally, when the bearer’s unit is the target of a spell, the bearer gains the same Magic Resistance as the Caster of the spell."
       }
       ],
     "standards": [
       {
-        "name": "Totem of Mixoatl",
-        "cost": 75,
-        "description": "Cannot be taken by Core units. The bearer's unit gains Hard Target. One use only. May be activated at the start of a Round of Combat. Until the end of the Round of Combat, all enemy units Engaged with the bearer's unit suffer -3 Offensive Skill."
+        "name": "Mikinok’s Totem",
+        "cost": 95,
+        "description": "Cannot be taken by Core units. At the start of each Round of Combat, choose a Special Equipment carried by a model in an enemy unit in base contact with the bearer's unit. The chosen Special Equipment cannot be used during this Round of Combat."
       },
       {
         "name": "Tree Frog Banner",
-        "cost": 40,
-        "description": "Close Combat Attacks from Skink* model parts in the unit gain Poison Attacks."
+        "cost": 45,
+        "description": "The bearer’s unit gains Fight in Extra Rank."
       }
     ]
   },
   "mounts": [
     {
       "id": "1",
-      "name": "Raptor",
-      "type": "3",
+      "name": "War Boar",
+      "type": "2",
       "size" : "1",
       "base": "2",
       "rules": [
         {
-          "name": "Raptor",
+          "name": "War Boar",
           "ADV": "7",
           "MAR": "14",
           "DEF": "C",
-          "OFF": "4",
+          "OFF": "3",
           "ARM": "C+2",
           "AP": "1",
           "S": "4",
           "T": "C",
           "W": "C",
-          "I": "2",
-          "A": "2",
+          "I": "3",
+          "A": "1",
           "Ld": "C",
           "specialrules": [
             {
+              "specialrule": "Devastating Charge (+1 Str, +1 AP)"
             }
           ],
           "equipments": [
@@ -153,47 +129,82 @@
     },
     {
       "id": "2",
-      "name": "Carnosaur",
+      "name": "Orc Boar Chariot",
       "type": "3",
       "base": "4",
       "size" : "2",
-      "category": "5",
       "rules": [
         {
-          "name": "Carnosaur",
+          "name": "Eadbasher",
           "ADV": "7",
-          "MAR": "14",
+          "MAR": "7",
           "DEF": "C",
-          "OFF": "3",
-          "ARM": "C",
-          "AP": "3",
-          "S": "6",
+          "OFF": "4",
+          "ARM": "C+2",
+          "AP": "1",
+          "S": "4",
           "T": "5",
           "W": "4",
           "I": "2",
-          "A": "4",
+          "A": "1",
           "Ld": "C",
           "specialrules": [
             {
-              "specialrule": "Born Predator"
+              "specialrule": "Swiftstride"
             },
             {
-              "specialrule": "Frenzy"
-            },
+              "specialrule": "Common Orc"
+            }
+          ],
+          "equipments": [
             {
-              "specialrule": "Towering Presence"
-            },
+              "equipment": "Lance"
+            }
+          ]
+        },{
+          "name": "War Boar (2)",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "3",
+          "ARM": "-",
+          "AP": "1",
+          "S": "4",
+          "T": "-",
+          "W": "-",
+          "I": "3",
+          "A": "1",
+          "Ld": "-",
+          "specialrules": [
             {
-              "specialrule": "Fear"
-            },
-            {
-              "specialrule": "Battle Focus"
-            },
-            {
-              "specialrule": "Multipole Wounds (2, against Large)"
+              "specialrule": "Devastating Charge (+1 Str, +1 AP)"
             },
             {
               "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [
+          ]
+        },{
+          "name": "Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "-",
+          "ARM": "-",
+          "AP": "2",
+          "S": "5",
+          "T": "-",
+          "W": "-",
+          "I": "-",
+          "A": "-",
+          "Ld": "-",
+          "specialrules": [
+            {
+              "specialrule": "Impact Hits (D6+1)"
+            },
+            {
+              "specialrule": "Inanimate"
             }
           ],
           "equipments": [
@@ -203,38 +214,45 @@
     },
     {
       "id": "3",
-      "name": "Carnosaur Alpha",
+      "name": "Wyvern",
       "type": "2",
       "size" : "3",
       "base": "4",
+	  "limitation": "2",
       "category": "5",
       "rules": [
         {
-          "name": "Carnosaur Alpha",
-          "ADV": "7",
-          "MAR": "14",
-          "DEF": "4",
-          "OFF": "4",
-          "ARM": "4",
-          "AP": "4",
-          "S": "7",
-          "T": "6",
-          "W": "6",
+          "name": "Wyvern",
+          "ADV": "4 (8)",
+          "MAR": "8 (16)",
+          "DEF": "C",
+          "OFF": "5",
+          "ARM": "C",
+          "AP": "3",
+          "S": "6",
+          "T": "5",
+          "W": "4",
           "I": "3",
-          "A": "5",
+          "A": "3",
           "Ld": "C",
           "specialrules": [
             {
-              "specialrule": "Apex Predator"
+              "specialrule": "Fly (8, 16)"
             },
             {
-              "specialrule": "Multiple Wounds (D3)"
+              "specialrule": "Fear"
             },
             {
-              "specialrule": "Born Predator"
+              "specialrule": "Towering Presence"
             },
             {
               "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Poison Attacks"
+            },
+            {
+              "specialrule": "Venomous Fangs"
             }
           ],
           "equipments": [
@@ -242,228 +260,342 @@
         }
       ]
     },
-    {
+	{
       "id": "4",
-      "name": "Alpha Teradon",
-      "category": "4",
-      "type": "3",
-      "size" : "2",
-      "categoryallunit": true,
-      "base": "3",
+      "name": "Wolf",
+      "type": "2",
+      "size" : "1",
+      "base": "2",
       "rules": [
         {
-          "name": "Alpha Pteradon",
-          "ADV": "2 (9)",
-          "MAR": "4 (18)",
+          "name": "Wolf",
+          "ADV": "9",
+          "MAR": "18",
           "DEF": "C",
           "OFF": "3",
           "ARM": "C+1",
-          "AP": "1",
-          "S": "4",
-          "T": "3",
-          "W": "3",
-          "I": "2",
+          "AP": "0",
+          "S": "3",
+          "T": "C",
+          "W": "C",
+          "I": "3",
           "A": "1",
           "Ld": "C",
           "specialrules": [
             {
-              "specialrule": "Fly (9)"
+              "specialrule": "Feigned Flight"
             },
             {
-              "specialrule": "Hard Target"
-            },
-            {
-              "specialrule": "Strider (Forest)"
-            },
-            {
-              "specialrule": "Release Rocks"
+              "specialrule": "Light Troops"
             },
             {
               "specialrule": "Vanguard"
-            },
-            {
-              "specialrule": "Harnessed"
             }
           ],
           "equipments": [
+            {
+              "equipment": "Harnessed"
+            }
           ]
         }
       ]
     },
     {
       "id": "5",
-      "name": "Alpha Rhamphodon",
-      "category": "4",
+      "name": "Goblin Chariot",
       "type": "3",
+      "base": "4",
       "size" : "2",
-      "base": "3",
-      "categoryallunit": true,
       "rules": [
         {
-          "name": "Alpha Rhamphodon",
-          "ADV": "2 (8)",
-          "MAR": "4 (16)",
+          "name": "Goblin (2)",
+          "ADV": "9",
+          "MAR": "9",
           "DEF": "C",
-          "OFF": "3",
+          "OFF": "2",
           "ARM": "C+1",
-          "AP": "2",
-          "S": "4",
-          "T": "3",
-          "W": "3",
-          "I": "4",
-          "A": "2",
+          "AP": "1",
+          "S": "3",
+          "T": "4",
+          "W": "4",
+          "I": "2",
+          "A": "1",
           "Ld": "C",
           "specialrules": [
             {
-              "specialrule": "Fly (8)"
+              "specialrule": "Swiftstride"
             },
             {
-              "specialrule": "Hard Target"
+              "specialrule": "Common Goblin"
             },
             {
-              "specialrule": "Strider (Forest)"
-            },
-            {
-              "specialrule": "Vanguard"
-            },
-            {
-              "specialrule": "Frenzy"
-            },
-            {
-              "specialrule": "Battle Focus"
-            },
-            {
-              "specialrule": "Lethal Strike"
-            },
-            {
-              "specialrule": "Prey Scent"
-            },
-            {
-              "specialrule": "Harnessed"
+              "specialrule": "Light Troops"
             }
           ],
           "equipments": [
+            {
+              "equipment": "Lance"
+            },
+            {
+              "equipment": "Bow (4+)"
+            }
           ]
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Taurosaur",
-      "category": "5",
-      "globalid": "21",
-      "limitation": 1,
-      "type": "2",
-      "size" : "3",
-      "base": "4",
-      "rules": [
-        {
-          "name": "Skink Crew (5)",
+        },{
+          "name": "Wolf (2)",
           "ADV": "-",
           "MAR": "-",
           "DEF": "-",
-          "OFF": "2",
+          "OFF": "3",
           "ARM": "-",
           "AP": "0",
           "S": "3",
           "T": "-",
           "W": "-",
-          "I": "4",
+          "I": "3",
           "A": "1",
           "Ld": "-",
           "specialrules": [
-          ],
-          "equipments": [
-            {
-              "equipment": "Poisoned Javelin"
-            }
-          ]
-        },
-        {
-          "name": "Taurosaur",
-          "ADV": "6",
-          "MAR": "10",
-          "DEF": "3",
-          "OFF": "3",
-          "ARM": "4",
-          "AP": "3",
-          "S": "6",
-          "T": "6",
-          "W": "6",
-          "I": "2",
-          "A": "4",
-          "Ld": "C",
-          "specialrules": [
-            {
-              "specialrule": "Cold Blooded"
-            },
-            {
-              "specialrule": "Immune to Psychology"
-            },
-            {
-              "specialrule": "Stubborn"
-            },
-            {
-              "specialrule": "Impact Hits (D6+1)"
-            },
-            {
-              "specialrule": "Devastating Charge (+1 Att)"
-            },
-            {
-              "specialrule": "Sharp Horns"
-            },
             {
               "specialrule": "Harnessed"
             }
           ],
           "equipments": [
+          ]
+        },{
+          "name": "Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "-",
+          "ARM": "-",
+          "AP": "2",
+          "S": "5",
+          "T": "-",
+          "W": "-",
+          "I": "-",
+          "A": "-",
+          "Ld": "-",
+          "specialrules": [
             {
-              "equipment": "Giant Blowpipe (3+)"
+              "specialrule": "Impact Hits (D6+1)"
+            },
+            {
+              "specialrule": "Inanimate"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    },
+	{
+      "id": "6",
+      "name": "Cave Gnasher",
+      "type": "3",
+      "size" : "2",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Cave Gnasher",
+          "ADV": "5 (6)",
+          "MAR": "10 (12)",
+          "DEF": "C",
+          "OFF": "4",
+          "ARM": "C+1",
+          "AP": "3",
+          "S": "6",
+          "T": "C",
+          "W": "3",
+          "I": "3",
+          "A": "3",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fly (6, 12)"
+            },
+            {
+              "specialrule": "Hard Target"
+            },
+            {
+              "specialrule": "Fearless"
+            },
+            {
+              "specialrule": "Oi it bites!"
+            },
+            {
+              "specialrule": "Bouncers"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            },
+            {
+              "equipment": "Impact Hits (1)"
             }
           ]
         }
       ]
     },
-    {
+	{
       "id": "7",
-      "name": "Skink Palanquin",
-      "category": "1",
-      "globalid": "22",
-      "type": "1",
+      "name": "Scuttler Spider",
+      "type": "2",
       "size" : "1",
-      "base": "7",
+      "base": "2",
       "rules": [
         {
-          "name": "Palanquin",
-          "ADV": "6",
-          "MAR": "12",
+          "name": "Scuttler Spider",
+          "ADV": "7",
+          "MAR": "14",
           "DEF": "C",
-          "OFF": "-",
+          "OFF": "3",
           "ARM": "C+1",
-          "AP": "-",
-          "S": "-",
-          "T": "3",
-          "W": "3",
-          "I": "-",
-          "A": "-",
+          "AP": "0",
+          "S": "3",
+          "T": "C",
+          "W": "C",
+          "I": "4",
+          "A": "1",
           "Ld": "C",
           "specialrules": [
             {
-              "specialrule": "Skink Palanquin"
+              "specialrule": "Strider"
             },
             {
-              "specialrule": "Tall"
+              "specialrule": "Feigned Flight"
             },
             {
-              "specialrule": "Inenimate"
+              "specialrule": "Light Troops"
             },
             {
-              "specialrule": "Harnessed"
+              "specialrule": "Vanguard"
+            },
+            {
+              "specialrule": "Scout"
             }
           ],
           "equipments": [
+            {
+              "equipment": "Harnessed"
+            },
+            {
+              "equipment": "Poison Attacks"
+            }
           ]
         }
+      ]
+    },
+	{
+      "id": "8",
+      "name": "Huntsmen Spider",
+      "type": "2",
+      "size" : "2",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Huntsmen Spider",
+          "ADV": "7",
+          "MAR": "14",
+          "DEF": "C",
+          "OFF": "3",
+          "ARM": "C+2",
+          "AP": "1",
+          "S": "4",
+          "T": "4",
+          "W": "3",
+          "I": "4",
+          "A": "3",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Strider"
+            },
+            {
+              "specialrule": "Poison Attacks"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "9",
+      "name": "Gargantula",
+      "type": "3",
+      "size" : "3",
+	  "organisation": "5",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Goblin (8)",
+          "ADV": "7",
+          "MAR": "14",
+          "DEF": "4",
+          "OFF": "2",
+          "ARM": "3",
+          "AP": "0",
+          "S": "3",
+          "T": "6",
+          "W": "8",
+          "I": "2",
+          "A": "1",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Fearless"
+            },
+            {
+              "specialrule": "Strider"
+            },
+            {
+              "specialrule": "Stubborn"
+            },
+            {
+              "specialrule": "Forest Goblin"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Light Lance"
+            },
+            {
+              "equipment": "Bow (4+)"
+            }
+          ]
+        },
+		{
+              "name": "Gargantula",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "4",
+              "ARM": "-",
+              "AP": "2",
+              "S": "5",
+              "T": "-",
+              "W": "-",
+              "I": "4",
+              "A": "8",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Venomous Fangs"
+                },
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+              ]
+            }
       ]
     }
   ],
@@ -1702,6 +1834,23 @@
               ]
             },
             {
+              "name": "Shrine",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Spide-Mother Shrine",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "Options",
               "onechoice": false,
               "choices": [
@@ -1793,6 +1942,7 @@
                 },
                 {
                   "mount": "9",
+				  "globalid": "11",
                   "cost": 510,
 				  "category": "5",
                   "condition": [
@@ -3270,310 +3420,108 @@
           ],
           "options": [
           ]
-        },
-        {
-          "name": "Temple Guard",
-          "cost": 375,
-          "unitsize": 15,
-          "modelcost": 31,
-          "maxmodels": 15,
+        },{
+          "name": "Trolls",
+          "cost": 190,
+          "unitsize": 3,
+          "modelcost": 72,
+          "maxmodels": 7,
           "type": "1",
-          "size" : "1",
+          "size" : "2",
+		  "limitation": "3",
           "base": "8",
           "rules": [
             {
-              "name": "Temple Guard",
-              "ADV": "4",
-              "MAR": "8",
-              "DEF": "4",
-              "OFF": "4",
-              "ARM": "2",
-              "AP": "1",
-              "S": "4",
-              "T": "4",
-              "W": "1",
-              "I": "2",
-              "A": "2",
-              "Ld": "8",
-              "specialrules": [
-                {
-                  "specialrule": "Cold Blooded"
-                },
-                {
-                  "specialrule": "Born Predator"
-                },
-                {
-                  "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Bodyguard (General)"
-                },
-                {
-                  "specialrule": "Fearless"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Cobalt Club"
-                },
-                {
-                  "equipment": "Shield"
-                },
-                {
-                  "equipment": "Light Armour"
-                }
-              ]
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": 20
-                },
-                {
-                  "name": "Musician",
-                  "cost": 20
-                },
-                {
-                  "globalid": "31",
-                  "name": "Standard Bearer",
-                  "cost": 20
-                },
-                {
-                  "type": "magicitems",
-                  "name": "magic items",
-                  "cost": 100,
-                  "condition": [
-                    {
-                      "option": "31",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Raptor Riders",
-          "cost": 280,
-          "unitsize": 5,
-          "modelcost": 55,
-          "maxmodels": 7,
-          "limitation": 4,
-          "type": "3",
-          "size" : "1",
-          "base": "2",
-          "rules": [
-            {
-              "name": "Rider",
-              "ADV": "7",
-              "MAR": "14",
-              "DEF": "4",
-              "OFF": "4",
-              "ARM": "4",
-              "AP": "1",
-              "S": "4",
-              "T": "4",
-              "W": "1",
-              "I": "2",
-              "A": "2",
-              "Ld": "8",
-              "specialrules": [
-                {
-                  "specialrule": "Cold Blooded"
-                },
-                {
-                  "specialrule": "Born Predator"
-                },
-                {
-                  "specialrule": "Scoring"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Lance"
-                },
-                {
-                  "equipment": "Shield"
-                }
-              ]
-            },
-            {
-              "name": "Raptor",
-              "ADV": "-",
-              "MAR": "-",
-              "DEF": "-",
-              "OFF": "3",
-              "ARM": "-",
-              "AP": "1",
-              "S": "4",
-              "T": "-",
-              "W": "-",
-              "I": "2",
-              "A": "2",
-              "Ld": "-",
-              "specialrules": [
-                {
-                  "specialrule": "Harnessed"
-                }
-              ],
-              "equipments": [
-              ]
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": 20
-                },
-                {
-                  "name": "Musician",
-                  "cost": 20
-                },
-                {
-                  "name": "Standard Bearer",
-                  "cost": 20,
-                  "globalid": "31"
-                },
-                {
-                  "type": "magicitems",
-                  "name": "magic items",
-                  "cost": 100,
-                  "condition": [
-                    {
-                      "option": "31",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Caimans",
-          "cost": 210,
-          "unitsize": 3,
-          "modelcost": 88,
-          "maxmodels": 7,
-          "limitation": 5,
-          "type": "1",
-          "size" : "2",
-          "base": "3",
-          "rules": [
-            {
-              "name": "Caiman",
+              "name": "Troll",
               "ADV": "6",
               "MAR": "12",
               "DEF": "3",
               "OFF": "3",
-              "ARM": "3",
+              "ARM": "0",
               "AP": "2",
               "S": "5",
               "T": "4",
               "W": "3",
-              "I": "2",
+              "I": "1",
               "A": "3",
-              "Ld": "7",
+              "Ld": "4",
               "specialrules": [
                 {
-                  "specialrule": "Cold Blooded"
+                  "specialrule": "Fear"
                 },
                 {
-                  "specialrule": "Scoring"
+                  "specialrule": "Fearless"
                 },
                 {
-                  "specialrule": "Strider (Water)"
+                  "specialrule": "Stupid"
                 },
                 {
-                  "specialrule": "Born Predator"
+                  "specialrule": "Fortitude (4+)"
+                },
+                {
+                  "specialrule": "Troll Belch"
                 }
               ],
               "equipments": [
-                {
-                  "equipment": "Halberd"
-                }
               ]
             }
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": 20
-                },
-                {
-                  "name": "Musician",
-                  "cost": 20
-                },
-                {
-                  "globalid": "100",
-                  "name": "Standard Bearer",
-                  "cost": 20
-                }
-              ]
-            },
-            {
-              "name": "Weapons",
-              "type": "permodel",
+              "name": "Type",
               "onechoice": true,
+              "mandatory": true,
+              "type": "permodel",
               "choices": [
                 {
-                  "name": "Great Weapon",
-                  "cost": 6
+                  "name": "Common Troll",
+                  "cost": 20
+                },
+                {
+                  "name": "Cave Troll",
+                  "cost": 14
+                },
+                {
+                  "name": "Bridge Troll",
+                  "cost": 9
                 }
               ]
             }
           ]
-        },
-        {
-          "name": "Snake Swarms",
-          "cost": 130,
-          "unitsize": 2,
-          "modelcost": 40,
-          "maxmodels": 2,
-          "limitation": 3,
+        },{
+          "name": "Grotlings",
+          "cost": 90,
+          "unitsize": 3,
+          "modelcost": 15,
+          "maxmodels": 3,
           "type": "1",
           "size" : "1",
-          "base": "3",
+		  "limitation": "3",
+          "base": "8",
           "rules": [
             {
-              "name": "Snake Swarms",
-              "ADV": "5",
-              "MAR": "10",
-              "DEF": "3",
-              "OFF": "3",
+              "name": "Grotling",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "2",
+              "OFF": "2",
               "ARM": "0",
               "AP": "0",
               "S": "2",
               "T": "2",
               "W": "5",
-              "I": "1",
+              "I": "2",
               "A": "5",
-              "Ld": "10",
+              "Ld": "4",
               "specialrules": [
                 {
-                  "specialrule": "Cold Blooded"
+                  "specialrule": "Insignifiant"
                 },
                 {
-                  "specialrule": "Venemous Tide"
+                  "specialrule": "Scout"
                 },
                 {
-                  "specialrule": "Fearless"
+                  "specialrule": "Vanguard"
                 },
                 {
                   "specialrule": "Skirmisher"
@@ -3583,22 +3531,91 @@
                 }
               ],
               "equipments": [
-                {}
+                {
+                  "equipment": "Throwing Weapons (5+)"
+                }
               ]
             }
           ],
           "options": [
+          ]
+        },{
+          "name": "Scrap Wagon",
+          "cost": 90,
+          "type": "4",
+          "size" : "2",
+		  "limitation": "3",
+          "base": "8",
+          "rules": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "type": "permodel",
-              "choices": [
+              "name": "Grotling",
+              "ADV": "3D6",
+              "MAR": "-",
+              "DEF": "2",
+              "OFF": "2",
+              "ARM": "1",
+              "AP": "0",
+              "S": "2",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "5",
+              "Ld": "4",
+              "specialrules": [
                 {
-                  "name": "Scout",
-                  "cost": 15
+                  "specialrule": "Insignifiant"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Random Movement (3D6)"
+                },
+                {
+                  "specialrule": "Shambolic"
+                },
+                {
+                  "specialrule": "Unstable"
+                },
+                {
+                  "specialrule": "Pursuit Mode"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Throwing Weapons (5+)"
+                }
+              ]
+            },{
+              "name": "Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "-",
+              "ARM": "-",
+              "AP": "3",
+              "S": "4",
+              "T": "-",
+              "W": "-",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Inanimate"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Impact Hits (2D6)"
                 }
               ]
             }
+          ],
+          "options": [
           ]
         }
       ]
@@ -3606,256 +3623,92 @@
     {
       "organisation": "4",
       "units": [
-        {
-          "name": "Skink Hunters",
-          "cost": 110,
-          "unitsize": 5,
-          "modelcost": 14,
-          "maxmodels": 10,
-          "limitation": 2,
-          "type": "1",
+	  {
+          "name": "Skewerer",
+          "cost": 90,
+          "type": "4",
           "size" : "1",
-          "base": "1",
+		  "limitation": "4",
+          "base": "8",
           "rules": [
             {
-              "name": "Skink Hunter",
-              "ADV": "6",
-              "MAR": "12",
-              "DEF": "2",
+              "name": "Goblin Crew",
+              "ADV": "4",
+              "MAR": "4",
+              "DEF": "1",
               "OFF": "2",
-              "ARM": "1",
+              "ARM": "0",
               "AP": "0",
               "S": "3",
-              "T": "2",
-              "W": "1",
-              "I": "4",
-              "A": "1",
-              "Ld": "6",
-              "specialrules": [
-                {
-                  "specialrule": "Strider (Water)"
-                },
-                {
-                  "specialrule": "Cold Blooded"
-                },
-                {
-                  "specialrule": "Skirmisher"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Poisonned Javelin (3+)"
-                },
-                {
-                  "equipment": "Shield"
-                }
-              ]
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Replace Javelin and shield for Blowpipe (4+)",
-                  "cost": 2
-                },
-                {
-                  "name": "Vanguard",
-                  "cost": 20
-                },
-                {
-                  "name": "Champion",
-                  "cost": 20
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Chameleons",
-          "cost": 130,
-          "unitsize": 5,
-          "modelcost": 20,
-          "maxmodels": 10,
-          "limitation": 2,
-          "type": "1",
-          "size" : "1",
-          "base": "1",
-          "rules": [
-            {
-              "name": "Chameleon",
-              "ADV": "6",
-              "MAR": "12",
-              "DEF": "2",
-              "OFF": "2",
-              "ARM": "1",
-              "AP": "0",
-              "S": "3",
-              "T": "2",
-              "W": "1",
-              "I": "4",
-              "A": "1",
-              "Ld": "6",
-              "specialrules": [
-                {
-                  "specialrule": "Strider (Water)"
-                },
-                {
-                  "specialrule": "Cold Blooded"
-                },
-                {
-                  "specialrule": "Skirmisher"
-                },
-                {
-                  "specialrule": "Scout"
-                },
-                {
-                  "specialrule": "Hard Target"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Blowpipe (4+)"
-                }
-              ]
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": 20
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Weapon Beasts",
-          "cost": 130,
-          "unitsize": 1,
-          "modelcost": 130,
-          "maxmodels": 1,
-          "limitation": 3,
-          "type": "2",
-          "size" : "2",
-          "base": "3",
-          "rules": [
-            {
-              "name": "Weapon Beast",
-              "ADV": "6",
-              "MAR": "12",
-              "DEF": "3",
-              "OFF": "3",
-              "ARM": "3",
-              "AP": "1",
-              "S": "4",
               "T": "4",
-              "W": "3",
-              "I": "4",
+              "W": "5",
+              "I": "2",
               "A": "3",
               "Ld": "6",
               "specialrules": [
                 {
-                  "specialrule": "Strider (Water)"
+                  "specialrule": "Insignifiant"
                 },
                 {
-                  "specialrule": "Cold Blooded"
+                  "specialrule": "War Machine"
                 },
                 {
-                  "specialrule": "Light Troops"
+                  "specialrule": "Common Goblin"
                 }
               ],
               "equipments": [
+                {
+                  "equipment": "Ballista (4+)"
+                }
               ]
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": true,
-              "mandatory": true,
-              "type": "permodel",
-              "choices": [
-                {
-                  "name": "Spearback",
-                  "limitation": 2,
-                  "cost": 0
-                },
-                {
-                  "name": "Salamander",
-                  "limitation": 2,
-                  "cost": 30
-                }
-              ]
-            }
           ]
-        },
-        {
-          "name": "Pteradon Sentries",
-          "cost": 190,
-          "unitsize": 3,
-          "modelcost": 40,
-          "maxmodels": 2,
-          "limitation": 2,
-          "type": "3",
-          "size" : "2",
-          "base": "3",
+        },{
+          "name": "Greenhide Catapults",
+          "cost": 170,
+          "type": "4",
+          "size" : "1",
+		  "limitation": "3",
+          "base": "8",
           "rules": [
             {
-              "name": "Rider",
-              "ADV": "2 (9)",
-              "MAR": "4 (18)",
-              "DEF": "2",
+              "name": "Goblin Crew",
+              "ADV": "4",
+              "MAR": "4",
+              "DEF": "1",
               "OFF": "2",
-              "ARM": "2",
+              "ARM": "0",
               "AP": "0",
               "S": "3",
-              "T": "3",
-              "W": "2",
-              "I": "4",
-              "A": "1",
-              "Ld": "5",
+              "T": "4",
+              "W": "5",
+              "I": "2",
+              "A": "3",
+              "Ld": "6",
               "specialrules": [
                 {
-                  "specialrule": "Strider (Forest)"
+                  "specialrule": "Insignifiant"
                 },
                 {
-                  "specialrule": "Cold Blooded"
+                  "specialrule": "War Machine"
                 },
                 {
-                  "specialrule": "Skirmisher"
-                },
-                {
-                  "specialrule": "Feigned Flight"
-                },
-                {
-                  "specialrule": "Vanguard"
+                  "specialrule": "Common Goblin"
                 }
               ],
               "equipments": [
-                {
-                  "equipment": "Light Lance"
-                },
-                {
-                  "equipment": "Poisoned Javelin (4+)"
-                }
               ]
-            },
-            {
-              "name": "Pteradon",
+            },{
+              "name": "Orc Overseer",
               "ADV": "-",
               "MAR": "-",
               "DEF": "-",
               "OFF": "3",
               "ARM": "-",
-              "AP": "1",
-              "S": "4",
+              "AP": "0",
+              "S": "3",
               "T": "-",
               "W": "-",
               "I": "2",
@@ -3863,13 +3716,7 @@
               "Ld": "-",
               "specialrules": [
                 {
-                  "specialrule": "Release Rocks"
-                },
-                {
-                  "specialrule": "Fly (9, 18)"
-                },
-                {
-                  "specialrule": "Harnessed"
+                  "specialrule": "Common Orc"
                 }
               ],
               "equipments": [
@@ -3878,143 +3725,26 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
+              "name": "Artillery",
+              "onechoice": true,
+              "mandatory": true,
               "choices": [
                 {
-                  "name": "Champion",
+                  "name": "Splatterer (4+)",
+                  "cost": 0
+                },
+                {
+                  "name": "Git Launcher (4+)",
+                  "cost": 15,
+				  "limitation": "2"
+                }
+              ]
+            },{
+              "name": "Overseer",
+              "choices": [
+                {
+                  "name": "Orc Overseer (+1 HP, +1 Dis, Large)",
                   "cost": 20
-                }
-              ]
-            },
-            {
-              "name": "Weapons",
-              "onechoice": false,
-              "type": "permodel",
-              "choices": [
-                {
-                  "name": "Shield",
-                  "cost": 8
-                },
-                {
-                  "name": "Swap Javelin for Fire Bola (4+)",
-                  "cost": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Rhamphodon Riders",
-          "cost": 220,
-          "unitsize": 3,
-          "modelcost": 65,
-          "maxmodels": 2,
-          "limitation": 2,
-          "type": "3",
-          "size" : "2",
-          "base": "3",
-          "rules": [
-            {
-              "name": "Rider",
-              "ADV": "2 (8)",
-              "MAR": "4 (16)",
-              "DEF": "1",
-              "OFF": "2",
-              "ARM": "2",
-              "AP": "0",
-              "S": "3",
-              "T": "3",
-              "W": "2",
-              "I": "4",
-              "A": "1",
-              "Ld": "6",
-              "specialrules": [
-                {
-                  "specialrule": "Strider (Forest)"
-                },
-                {
-                  "specialrule": "Cold Blooded"
-                },
-                {
-                  "specialrule": "Hard Target"
-                },
-                {
-                  "specialrule": "Frenzy"
-                },
-                {
-                  "specialrule": "Vanguard"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Light Lance"
-                },
-                {
-                  "equipment": "Poisoned Javelin (4+)"
-                },
-                {
-                  "equipment": "Light Armour"
-                }
-              ]
-            },
-            {
-              "name": "Rhamphodon",
-              "ADV": "-",
-              "MAR": "-",
-              "DEF": "-",
-              "OFF": "3",
-              "ARM": "-",
-              "AP": "2",
-              "S": "4",
-              "T": "-",
-              "W": "-",
-              "I": "4",
-              "A": "2",
-              "Ld": "-",
-              "specialrules": [
-                {
-                  "specialrule": "Fly (8, 16)"
-                },
-                {
-                  "specialrule": "Lethal Strike"
-                },
-                {
-                  "specialrule": "Prey Scent"
-                },
-                {
-                  "specialrule": "Lethal Strike"
-                },
-                {
-                  "specialrule": "Battle focus"
-                },
-                {
-                  "specialrule": "Harnessed"
-                }
-              ],
-              "equipments": [
-              ]
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": 20
-                }
-              ]
-            },
-            {
-              "name": "Weapons",
-              "onechoice": false,
-              "type": "permodel",
-              "choices": [
-                {
-                  "name": "Shield",
-                  "cost": 8
                 }
               ]
             }
@@ -4025,253 +3755,202 @@
     {
       "organisation": "5",
       "units": [
-        {
-          "name": "Taurosaur",
-          "cost": 450,
-          "limitation": 3,
-          "type": "2",
+	  {
+          "name": "Gargantula",
+          "cost": 210,
+          "type": "3",
           "size" : "3",
-          "base": "4",
+		  "limitation": "2",
+          "base": "8",
           "rules": [
             {
-              "name": "Taurosaur",
-              "ADV": "6",
-              "MAR": "10",
-              "DEF": "3",
-              "OFF": "3",
-              "ARM": "4",
-              "AP": "3",
-              "S": "6",
+              "name": "Goblins(8)",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "4",
+              "OFF": "2",
+              "ARM": "3",
+              "AP": "0",
+              "S": "3",
               "T": "6",
-              "W": "6",
+              "W": "8",
               "I": "2",
-              "A": "4",
-              "Ld": "7",
+              "A": "1",
+              "Ld": "6",
               "specialrules": [
                 {
-                  "specialrule": "Cold Blooded"
+                  "specialrule": "Fearless"
                 },
                 {
-                  "specialrule": "Fearless"
+                  "specialrule": "Strider"
                 },
                 {
                   "specialrule": "Stubborn"
                 },
                 {
-                  "specialrule": "Impact Hits (D6+1)"
-                },
-                {
-                  "specialrule": "Devastating Charge (+1A Att"
-                },
-                {
-                  "specialrule": "Sharp Horns"
-                },
-                {
-                  "specialrule": "Harnessed"
+                  "specialrule": "Forest Goblin"
                 }
               ],
               "equipments": [
                 {
-                  "equipment": "Giant Blowpipe (4+)"
+                  "equipment": "Light Lance"
+                }
+                {
+                  "equipment": "Bow (4+)"
                 }
               ]
-            },
-            {
-              "name": "Skink Crew (5)",
+            },{
+              "name": "Gargantula",
               "ADV": "-",
               "MAR": "-",
               "DEF": "-",
-              "OFF": "2",
+              "OFF": "4",
               "ARM": "-",
-              "AP": "0",
-              "S": "3",
+              "AP": "2",
+              "S": "5",
               "T": "-",
               "W": "-",
               "I": "4",
-              "A": "1",
+              "A": "8",
               "Ld": "-",
               "specialrules": [
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Venomous Fangs"
+                }
               ],
               "equipments": [
-                {
-                  "equipment": "Poisoned Javelin (4+)"
-                }
               ]
             }
           ],
           "options": [
             {
-              "name": "Weapons",
-              "onechoice": false,
-              "type": "permodel",
+              "name": "Option",
               "choices": [
                 {
-                  "name": "Replace Blowpipe with Great Bow (4+)",
-                  "cost": 20
-                },
-                {
-                  "name": "Replace Blowpipe with Engine of the Ancients",
-                  "cost": 90
+                  "name": "Web Launcher (4+)",
+                  "cost": 40,
+				  "limitation": "1"
                 }
               ]
             }
           ]
         },
-        {
-          "name": "Stygiosaur",
-          "cost": 305,
-          "limitation": 3,
-          "type": "3",
-          "size" : "2",
-          "base": "4",
+		{
+          "name": "Great Green Idol",
+          "cost": 385,
+          "type": "1",
+          "size" : "3",
+		  "limitation": "2",
+          "base": "8",
           "rules": [
             {
-              "name": "Stygiosaur",
+              "name": "Great Green Idol",
+              "ADV": "6",
+              "MAR": "12",
+              "DEF": "2",
+              "OFF": "2",
+              "ARM": "3",
+              "AP": "3",
+              "S": "6",
+              "T": "8",
+              "W": "6",
+              "I": "2",
+              "A": "3",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Smash 'Em Flat"
+                },
+                {
+                  "specialrule": "Supernal"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Crush Attack"
+                }
+                {
+                  "equipment": "Impact Hits (D3)"
+                }
+              ]
+            }
+          ],
+          "options": [
+		  {
+              "name": "BSB",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+		{
+          "name": "Giant",
+          "cost": 285,
+          "type": "1",
+          "size" : "3",
+		  "limitation": "3",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Giant",
               "ADV": "7",
               "MAR": "14",
-              "DEF": "4",
-              "OFF": "4",
-              "ARM": "4",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "1",
               "AP": "2",
               "S": "5",
               "T": "5",
-              "W": "5",
-              "I": "2",
-              "A": "4",
-              "Ld": "6",
+              "W": "7",
+              "I": "3",
+              "A": "5",
+              "Ld": "8",
               "specialrules": [
                 {
-                  "specialrule": "Cold Blooded"
+                  "specialrule": "Giant See, Giant Do"
                 },
                 {
-                  "specialrule": "Born Predator"
-                },
-                {
-                  "specialrule": "Poisoned Attacks"
-                },
-                {
-                  "specialrule": "Stomp (D3)"
-                },
-                {
-                  "specialrule": "Terror"
-                },
-                {
-                  "specialrule": "Towering Presence"
-                },
-                {
-                  "specialrule": "Breat Weapon (Toxic Attacks)"
-                },
-                {
-                  "specialrule": "Harnessed"
+                  "specialrule": "Rage"
                 }
-              ],
-              "equipments": [
-              ]
-            },
-            {
-              "name": "Skink Rider",
-              "ADV": "-",
-              "MAR": "-",
-              "DEF": "-",
-              "OFF": "2",
-              "ARM": "-",
-              "AP": "0",
-              "S": "3",
-              "T": "-",
-              "W": "-",
-              "I": "4",
-              "A": "1",
-              "Ld": "-",
-              "specialrules": [
               ],
               "equipments": [
               ]
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Mystuic Traveller",
-                  "cost": 110
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Thyroscutus",
-          "cost": 310,
-          "limitation": 3,
-          "type": "3",
-          "size" : "2",
-          "base": "4",
-          "rules": [
-            {
-              "name": "Thyroscutus",
-              "ADV": "5",
-              "MAR": "10",
-              "DEF": "4",
-              "OFF": "2",
-              "ARM": "6",
-              "AP": "1",
-              "S": "4",
-              "T": "5",
-              "W": "4",
-              "I": "1",
-              "A": "3",
-              "Ld": "6",
-              "specialrules": [
-                {
-                  "specialrule": "Unbreakable"
-                },
-                {
-                  "specialrule": "Crush Attacks"
-                },
-                {
-                  "specialrule": "Harnessed"
-                }
-              ],
-              "equipments": [
-              ]
-            },
-            {
-              "name": "Skink Crew (4)",
-              "ADV": "-",
-              "MAR": "-",
-              "DEF": "-",
-              "OFF": "2",
-              "ARM": "-",
-              "AP": "0",
-              "S": "3",
-              "T": "-",
-              "W": "-",
-              "I": "4",
-              "A": "1",
-              "Ld": "-",
-              "specialrules": [
-              ],
-              "equipments": [
-                {
-                  "equipment": "Poisoned Javelin (4+)"
-                }
-              ]
-            }
-          ],
-          "options": [
-            {
-              "name": "Weapons",
+		  {
+              "name": "Weapon",
               "onechoice": true,
-              "mandatory": true,
               "choices": [
                 {
-                  "name": "Altar of the Snake Goid",
-                  "cost": 0
+                  "name": "Giant Club",
+                  "cost": 30
                 },
                 {
-                  "name": "Sun Engine",
+                  "name": "Nets",
+                  "cost": 60
+                },
+                {
+                  "name": "Wrecking Ball",
                   "cost": 25
                 }
               ]
