@@ -2474,6 +2474,804 @@
       "organisation": "3",
       "units": [
         {
+          "name": "Iron Orcs",
+          "cost": 295,
+          "unitsize": 15,
+          "modelcost": 27,
+          "maxmodels": 20,
+          "type": "1",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Iron Orc",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Iron Orc"
+                },
+                {
+                  "specialrule": "Bodyguard (Iron Orc Warlord, Iron Orc Chied)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Plate Armour"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Paired Weapons"
+                },
+                {
+                  "equipment": "Great Weapon"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Orc Boar Chariot",
+          "cost": 155,
+          "type": "4",
+          "size" : "2",
+		  "limitation": "3",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Crew (2)",
+              "ADV": "7",
+              "MAR": "7",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "2",
+              "AP": "1",
+              "S": "4",
+              "T": "5",
+              "W": "4",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Common Orc"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Lance"
+                }
+              ]
+            },{
+              "name": "War Boar (2)",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "1",
+              "S": "4",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+              ],
+              "equipments": [
+                {
+                  "equipment": "Devastating Charge (+1 Str, +1 AP)"
+                },
+                {
+                  "equipment": "Harnessed"
+                }
+              ]
+            },{
+              "name": "Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "-",
+              "ARM": "-",
+              "AP": "2",
+              "S": "5",
+              "T": "-",
+              "W": "-",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Inanimate"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Impact Hits (D6+1)"
+                }
+              ]
+            }
+          ],
+          "options": [
+          ]
+        },{
+          "name": "Mounted Eadbashers",
+          "cost": 155,
+          "unitsize": 5,
+          "modelcost": 25,
+          "maxmodels": 10,
+          "type": "2",
+          "size" : "2",
+		  "limitation": "4",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Eadbasher",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "3",
+              "OFF": "4",
+              "ARM": "2",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Lance"
+                }
+              ]
+            },{
+              "name": "War Boar",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "1",
+              "S": "4",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+              ],
+              "equipments": [
+                {
+                  "equipment": "Devastating Charge (+1 Str, +1 AP)"
+                },
+                {
+                  "equipment": "Harnessed"
+                }
+              ]
+            }
+          ],
+          "options": [
+		  {
+              "name": "Type",
+              "onechoice": true,
+              "type": "permodel",
+              "mandatory": true,
+              "choices": [
+                {
+				  "globalid": "1",
+                  "name": "Common Orc (+1 Def, Heavy Armour)",
+                  "cost": 4
+                },
+                {
+				  "globalid": "2",
+                  "name": "Feral Orc (Aegis (6+), Devastating Charge (+1 Att))",
+                  "cost": 0
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+			{
+              "name": "Weapons",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 3
+                },
+                {
+                  "name": "Lance",
+                  "cost": 3,
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": 3,
+                  "condition": [
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },{
+          "name": "Common Goblin Raiders",
+          "cost": 120,
+          "unitsize": 5,
+          "modelcost": 13,
+          "maxmodels": 15,
+          "type": "2",
+          "size" : "1",
+		  "limitation": "4",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Goblin",
+              "ADV": "9",
+              "MAR": "18",
+              "DEF": "2",
+              "OFF": "2",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "Feigned Flight"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Light Troops"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            },{
+              "name": "Wolf",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+              ],
+              "equipments": [
+                {
+                  "equipment": "Harnessed"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": 20
+                }
+              ]
+            },
+			{
+              "name": "Weapons",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 1
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": 1
+                },
+                {
+                  "name": "Bow (4+)",
+                  "cost": 2
+                }
+              ]
+            }
+          ]
+        },{
+          "name": "Forest Goblin Raiders",
+          "cost": 120,
+          "unitsize": 5,
+          "modelcost": 13,
+          "maxmodels": 15,
+          "type": "2",
+          "size" : "1",
+		  "limitation": "4",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Goblin",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "2",
+              "OFF": "2",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "Feigned Flight"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Strider"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": [
+              ]
+            },{
+              "name": "Scuttler Spider",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "4",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Harnessed"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": 20
+                }
+              ]
+            },
+			{
+              "name": "Weapons",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 1
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": 1
+                },
+                {
+                  "name": "Bow (4+)",
+                  "cost": 2
+                },
+                {
+                  "name": "Throwing Weapons (5+)",
+                  "cost": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Goblin Wolf Chariot",
+          "cost": 125,
+          "type": "4",
+          "unitsize": 1,
+          "modelcost": 100,
+          "maxmodels": 3,
+          "size" : "2",
+		  "limitation": "3",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Crew (3)",
+              "ADV": "9",
+              "MAR": "9",
+              "DEF": "2",
+              "OFF": "2",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "4",
+              "I": "2",
+              "A": "1",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Common Goblin"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Light Lance"
+                },
+                {
+                  "equipment": "Bow (4+)"
+                }
+              ]
+            },
+			{
+              "name": "Wolf (2)",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+              ],
+              "equipments": [
+                {
+                  "equipment": "Harnessed"
+                }
+              ]
+            },
+			{
+              "name": "Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "-",
+              "ARM": "-",
+              "AP": "2",
+              "S": "5",
+              "T": "-",
+              "W": "-",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Inanimate"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Impact Hits (D6+1)"
+                }
+              ]
+            }
+          ],
+          "options": [
+          ]
+        },{
+          "name": "Gnasher Dashers",
+          "cost": 160,
+          "unitsize": 5,
+          "modelcost": 25,
+          "maxmodels": 5,
+          "type": "2",
+          "size" : "1",
+		  "limitation": "3",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Goblin",
+              "ADV": "5 (6)",
+              "MAR": "10 (12)",
+              "DEF": "2",
+              "OFF": "2",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "5",
+              "specialrules": [
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Fly (6, 12)"
+                },
+                {
+                  "specialrule": "Oi it bites!"
+                },
+                {
+                  "specialrule": "Cave Goblin"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            },{
+              "name": "Gnasher",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "4",
+              "ARM": "-",
+              "AP": "2",
+              "S": "5",
+              "T": "-",
+              "W": "-",
+              "I": "4",
+              "A": "2",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "equipment": "Rows of Teeth"
+                },
+                {
+                  "equipment": "Harnessed"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+          ]
+        },{
+          "name": "Gnasher Herd",
+          "cost": 130,
+          "unitsize": 10,
+          "modelcost": 13,
+          "maxmodels": 30,
+          "type": "3",
+          "size" : "1",
+		  "limitation": "5",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Gnasher",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "2",
+              "S": "5",
+              "T": "3",
+              "W": "1",
+              "I": "4",
+              "A": "2",
+              "Ld": "5",
+              "specialrules": [
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "They're Everywhere!"
+                },
+                {
+                  "specialrule": "Oi it bites!"
+                },
+                {
+                  "specialrule": "Insignifiant"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+          ]
+        },{
+          "name": "Gnasher Wrecking Team",
+          "cost": 150,
+          "type": "3",
+          "size" : "2",
+		  "limitation": "2",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Wrecking Team",
+              "ADV": "3D6",
+              "MAR": "-",
+              "DEF": "0",
+              "OFF": "0",
+              "ARM": "0",
+              "AP": "4",
+              "S": "6",
+              "T": "4",
+              "W": "3",
+              "I": "3",
+              "A": "-",
+              "Ld": "3",
+              "specialrules": [
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Random Movement (3D6)"
+                },
+                {
+                  "specialrule": "Look At 'Em Gp!"
+                },
+                {
+                  "specialrule": "Shambolic"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Ricochet (2D6)"
+                }
+              ]
+            }
+          ],
+          "options": [
+          ]
+        },
+        {
           "name": "Temple Guard",
           "cost": 375,
           "unitsize": 15,
