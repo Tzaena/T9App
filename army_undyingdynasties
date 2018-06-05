@@ -40,110 +40,111 @@
   "magicitems": {
     "weapons": [
       {
-        "name": "Glory of the Dawn Age",
-        "cost": 100,
-        "description": "Spear enchantment. Attacks made with this weapon gain +1 Strength, Magical Attacks, and Multiple Wounds (2)."
+        "name": "Godslayer",
+        "cost": 75,
+        "description": "Great Weapon enchantment. The wielder gains +1 Attack when using this weapon. Attacks made with this weapon gain Divine Attacks, Magical Attacks, and Multiple Wounds (2, against Aegis) (note that the latter also applies against models with conditional Aegis Saves)."
       },
       {
-        "name": "Wildfire Burs",
-        "cost": 55,
-        "description": "Bow enchantment. This weapon has Shots 4, Str 4, AP 1. Attacks made with this weapon gain Flaming Attacks and Magical Attacks. A unit that is hit by these attacks loses Soft Cover until the end of the Player Turn (if it had it). If the enemy unit was in Hard Cover, it is now considered to be in Soft Cover until the end of the Player Turn."
+        "name": "Scourge of Kings",
+        "cost": 35,
+        "description": "Hand Weapon and Paired Weapons enchantment. When using this weapon, the wielder’s Attack Value is set to 6. Attacks made with this weapon gain Magical Attacks and must reroll failed to-wound rolls when Fighting a Duel."
       }
     ],
     "armours": [
       {
-        "name": "Taurosaur's Vigour",
-        "cost": 70,
-        "description": "Suit of Armour enchantment. The wearer gains +1 Armour, +1 Health Point, and Crush Attack."
+        "name": "Jackal’s Blessing",
+        "cost": 100,
+        "description": "Suit of Armour enchantment. The wearer gains +2 Health Points and Fortitude (5+)."
       },
       {
-        "name": "Serrate Scales",
-        "cost": 50,
-        "description": "Shield enchantment. The bearer gains +2 Attack Value while using this Shield. The 2 Close Combat Attacks gained by this enchantment always have Strength 5 and Armour Penetration 2. These attacks do not benefit from any rules or bonuses granted by Weapon Enchantments"
+        "name": "Sun’s Embrace",
+        "cost": 40,
+        "description": "Shield enchantment. The bearer gains Distracting while using this Shield."
       }
     ],
     "artefacts": [
       {
-        "name": "Sphere of Shielding",
-        "cost": 100,
-        "description": "Models on Palanquin and Skink Palanquin only. The bearer gains Aegis (2+, against Ranged Attacks). The bearer may not take saves of any kind against Melee Attacks."
-      },
-      {
-        "name": "Ancient Plaque",
+        "name": "Crown of the Pharaohs",
         "cost": 85,
+        "description": "Pharaohs and Nomarchs only. The bearer increases the range of its Commanding Presence by 6'. At the start of each of your Player Turns, the bearer may lose Undying Will and choose a friendly unit within 12'. This unit benefits from Undying Will until the start of your next Player Turn."
+      },
+      {
+        "name": "Sacred Hourglass",
+        "cost": 80,
         "dominant" : 1,
-        "description": "Once per friendly Magic Phase, the bearer may reroll one Magic Dice that was used for a Casting Attempt. This ability cannot be used when the bearer is casting with only one Magic Dice, and cannot reroll a dice which is one, of three or more rolling the same value."
+        "description": "The bearer may reroll failed Casting Attempts that were rolled using 2 Magic Dice (by rerolling both Magic Dice)."
       },
       {
-        "name": "Starfall Shard ",
-        "cost": 70,
-        "description": "The bearer’s model gains Aegis (2+, against Flaming Attacks) and Hard Target, and cannot benefit from Regeneration."
+        "name": "Book of the Dead",
+        "cost": 75,
+        "description": "The bearer can cast Death is Only the Beginning as a Bound Spell with Power Level (4/8) and the following modifications: The spell is considered a Learned Spell (instead of an Attribute Spell) and its Range is changed to 12', Aura."
       },
       {
-        "name": "Spirit of the Stampede",
-        "cost": 70,
-        "description": "The bearer’s mount gains Impact Hits (D6). If it already had Impact Hits, increase the number of Impact Hits by D6."
+        "name": "Steeds of Nephet-Ra",
+        "cost": 60,
+        "description": "Models with at least one Skeletal Horse model part in the bearer’s unit gain Ghost Step and +4' March Rate"
       },
       {
-        "name": "Jade Staff",
-        "cost": 55,
-        "description": "The bearer can cast Healing Waters from Druidism as a Bound Spell with Power Level (4/8)."
+        "name": "Blessed Wrappings",
+        "cost": 50,
+        "description": "The bearer gains +1 Health Point and loses Flammable if it had it (note that this does not prevent the model from gaining Flammable from other sources)."
       },
       {
-        "name": "Raptor Spirit",
-        "cost": 65,
-        "description": "Models on foot only. The bearer gains +4 Advance Rate, +4 March Rate, and Swiftstride. This Artefact cannot be taken by a model with Ranger’s Boots."
+        "name": "Sekhem Sceptre",
+        "cost": 50,
+        "description": "The bearer gains Autonomous and Stubborn"
       },
       {
-        "name": "Egg of the Quetza",
+        "name": "Ankh of Naptesh",
         "cost": 45,
-        "description": "The bearer gains Breath Attack (Str D3+2, AP 1, Magical Attacks)."
+        "description": "The bearer gains Hierophant. R&F models in the bearer’s unit gain Fortitude (6+)."
       },
       {
-        "name": "Sun Tablet",
+        "name": "Sandstorm Cloak",
         "cost": 40,
-        "description": "The bearer can select its spells from the Learned Spells 1, 2, 3, 4, 5, and 6 of its chosen Path and the Hereditary Spell of its army. This overrides the normal Spell Selection rules connected to being a Wizard Apprentice/Adept. This Artefact cannot be combined with Protean Potentate."
+        "description": "Models on foot only. The bearer gains Fly (5', 15') and can perform a Sweeping Attack that causes 2D6 hits with Strength 2 and Armour Penetration 1."
       },
       {
-        "name": "Obsidian Tesseract",
+        "name": "Death Mask of Teput",
         "cost": 35,
-        "description": "One use only. May be activated in the opponent's Magic Phase after Siphon the Veil. When activated, remove 1 Magic Dice from the opponent’s Magic Dice pool."
+        "description": "Models in enemy units in base contact with the bearer suffer -2 Offensive Skill."
+      },
+      {
+        "name": "Scroll of Desiccation",
+        "cost": 25,
+        "description": "After determining Deployment Zones (at the end of step 6 of the Pre-Game Sequence), choose a Field, Forest, or Water Terrain Feature. This Terrain Feature ceases to be the Terrain Feature it used to be and loses all its rules. It is treated as Dangerous Terrain (1) for all enemy units."
       }
       ],
     "standards": [
       {
-        "name": "Totem of Mixoatl",
-        "cost": 75,
-        "description": "Cannot be taken by Core units. The bearer's unit gains Hard Target. One use only. May be activated at the start of a Round of Combat. Until the end of the Round of Combat, all enemy units Engaged with the bearer's unit suffer -3 Offensive Skill."
-      },
-      {
-        "name": "Tree Frog Banner",
+        "name": "Banner of the Entombed",
+		"limitation": "2",
         "cost": 40,
-        "description": "Close Combat Attacks from Skink* model parts in the unit gain Poison Attacks."
+        "description": "Core and Battle Standard Bearer only. If taken by a Character, the bearer gains Underground Ambush. If taken by a R&F model, the bearer’s unit gains Underground Ambush and additional models cannot be added to the unit during Army List creation. Standard Size models using this banner to Ambush must arrive in a formation containing exactly 5 models per rank (except for the last) and cannot make a Reform (or a Swift Reform) during this Player Turn. A unit with Underground Ambush additionally counts towards Entombed."
       }
     ]
   },
   "mounts": [
     {
       "id": "1",
-      "name": "Raptor",
+      "name": "Skeletal Horse",
       "type": "3",
       "size" : "1",
       "base": "2",
       "rules": [
         {
-          "name": "Raptor",
-          "ADV": "7",
-          "MAR": "14",
+          "name": "Skeletal Horse",
+          "ADV": "8",
+          "MAR": "16",
           "DEF": "C",
-          "OFF": "4",
-          "ARM": "C+2",
-          "AP": "1",
-          "S": "4",
+          "OFF": "2",
+          "ARM": "C+1",
+          "AP": "0",
+          "S": "3",
           "T": "C",
           "W": "C",
           "I": "2",
-          "A": "2",
+          "A": "1",
           "Ld": "C",
           "specialrules": [
             {
@@ -157,49 +158,54 @@
         }
       ]
     },
-    {
+	{
       "id": "2",
-      "name": "Carnosaur",
-      "type": "3",
-      "base": "4",
+      "name": "Skeletal Chariot",
+      "type": "4",
       "size" : "2",
-      "category": "5",
+      "base": "2",
       "rules": [
         {
-          "name": "Carnosaur",
-          "ADV": "7",
-          "MAR": "14",
+          "name": "Skeletal Horse (2)",
+          "ADV": "8",
+          "MAR": "10",
           "DEF": "C",
-          "OFF": "3",
-          "ARM": "C",
-          "AP": "3",
-          "S": "6",
-          "T": "5",
-          "W": "4",
+          "OFF": "2",
+          "ARM": "C+1",
+          "AP": "0",
+          "S": "3",
+          "T": "C",
+          "W": "C",
           "I": "2",
-          "A": "4",
+          "A": "1",
           "Ld": "C",
           "specialrules": [
+          ],
+          "equipments": [
             {
-              "specialrule": "Born Predator"
-            },
+              "equipment": "Harnessed"
+            }
+          ]
+        },{
+          "name": "Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "-",
+          "ARM": "-",
+          "AP": "1",
+          "S": "4",
+          "T": "-",
+          "W": "-",
+          "I": "-",
+          "A": "-",
+          "Ld": "-",
+          "specialrules": [
             {
-              "specialrule": "Frenzy"
-            },
+              "specialrule": "Impact Hits (D3+3)"
+            }
             {
-              "specialrule": "Towering Presence"
-            },
-            {
-              "specialrule": "Fear"
-            },
-            {
-              "specialrule": "Battle Focus"
-            },
-            {
-              "specialrule": "Multipole Wounds (2, against Large)"
-            },
-            {
-              "specialrule": "Harnessed"
+              "specialrule": "Inanimate"
             }
           ],
           "equipments": [
@@ -209,86 +215,140 @@
     },
     {
       "id": "3",
-      "name": "Carnosaur Alpha",
+      "name": "Sha Guardian",
       "type": "2",
-      "size" : "3",
-      "base": "4",
-      "category": "5",
+      "size" : "4",
+      "base": "2",
       "rules": [
         {
-          "name": "Carnosaur Alpha",
-          "ADV": "7",
-          "MAR": "14",
-          "DEF": "4",
+          "name": "Sha Guardian",
+          "ADV": "6",
+          "MAR": "12",
+          "DEF": "5",
           "OFF": "4",
           "ARM": "4",
-          "AP": "4",
-          "S": "7",
+          "AP": "2",
+          "S": "5",
           "T": "6",
-          "W": "6",
+          "W": "7",
           "I": "3",
-          "A": "5",
+          "A": "4",
           "Ld": "C",
           "specialrules": [
             {
-              "specialrule": "Apex Predator"
+              "specialrule": "Ensouled Statue"
             },
             {
-              "specialrule": "Multiple Wounds (D3)"
+              "specialrule": "Poison Attacks"
             },
             {
-              "specialrule": "Born Predator"
+              "specialrule": "Eternal Guardian"
             },
+            {
+              "specialrule": "Lethal Strike"
+            },
+            {
+              "specialrule": "Poison Attacks"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "4",
+      "name": "Ark of Ages",
+      "type": "4",
+      "size" : "2",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Guard (2)",
+          "ADV": "4",
+          "MAR": "8",
+          "DEF": "C",
+          "OFF": "3",
+          "ARM": "C+2",
+          "AP": "1",
+          "S": "4",
+          "T": "5",
+          "W": "5",
+          "I": "3",
+          "A": "1",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Sacred Ark"
+            },
+            {
+              "specialrule": "War Platform"
+            },
+            {
+              "specialrule": "Aegis (5+)"
+            },
+            {
+              "specialrule": "Lethal Strike"
+            },
+            {
+              "specialrule": "Poison Attacks"
+            },
+            {
+              "specialrule": "Magical Attacks"
+            },
+          ],
+          "equipments": [
+            {
+              "equipment": "Aspen Box (5+)"
+            }
+          ]
+        },{
+          "name": "Bound Spirits",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "2",
+          "ARM": "-",
+          "AP": "0",
+          "S": "2",
+          "T": "-",
+          "W": "-",
+          "I": "2",
+          "A": "2",
+          "Ld": "-",
+          "specialrules": [
+            {
+              "specialrule": "Magical Attacks"
+            }
             {
               "specialrule": "Harnessed"
             }
           ],
           "equipments": [
           ]
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Alpha Teradon",
-      "category": "4",
-      "type": "3",
-      "size" : "2",
-      "categoryallunit": true,
-      "base": "3",
-      "rules": [
-        {
-          "name": "Alpha Pteradon",
-          "ADV": "2 (9)",
-          "MAR": "4 (18)",
-          "DEF": "C",
-          "OFF": "3",
-          "ARM": "C+1",
+        },{
+          "name": "Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "-",
+          "ARM": "-",
           "AP": "1",
           "S": "4",
-          "T": "3",
-          "W": "3",
-          "I": "2",
-          "A": "1",
-          "Ld": "C",
+          "T": "-",
+          "W": "-",
+          "I": "-",
+          "A": "-",
+          "Ld": "-",
           "specialrules": [
             {
-              "specialrule": "Fly (9)"
-            },
+              "specialrule": "Impact Hits (D6)"
+            }
             {
-              "specialrule": "Hard Target"
-            },
-            {
-              "specialrule": "Strider (Forest)"
-            },
-            {
-              "specialrule": "Release Rocks"
-            },
-            {
-              "specialrule": "Vanguard"
-            },
-            {
-              "specialrule": "Harnessed"
+              "specialrule": "Inanimate"
             }
           ],
           "equipments": [
@@ -298,176 +358,40 @@
     },
     {
       "id": "5",
-      "name": "Alpha Rhamphodon",
-      "category": "4",
+      "name": "Amuut",
       "type": "3",
       "size" : "2",
-      "base": "3",
-      "categoryallunit": true,
+      "base": "2",
       "rules": [
         {
-          "name": "Alpha Rhamphodon",
-          "ADV": "2 (8)",
-          "MAR": "4 (16)",
+          "name": "Amuut",
+          "ADV": "7",
+          "MAR": "14",
           "DEF": "C",
           "OFF": "3",
           "ARM": "C+1",
           "AP": "2",
-          "S": "4",
-          "T": "3",
-          "W": "3",
-          "I": "4",
-          "A": "2",
+          "S": "5",
+          "T": "C",
+          "W": "C",
+          "I": "3",
+          "A": "3",
           "Ld": "C",
           "specialrules": [
             {
-              "specialrule": "Fly (8)"
+              "specialrule": "Ensouled Statue"
             },
             {
-              "specialrule": "Hard Target"
+              "specialrule": "Poison Attacks"
             },
             {
-              "specialrule": "Strider (Forest)"
-            },
-            {
-              "specialrule": "Vanguard"
-            },
-            {
-              "specialrule": "Frenzy"
-            },
-            {
-              "specialrule": "Battle Focus"
-            },
-            {
-              "specialrule": "Lethal Strike"
-            },
-            {
-              "specialrule": "Prey Scent"
-            },
-            {
-              "specialrule": "Harnessed"
-            }
-          ],
-          "equipments": [
-          ]
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Taurosaur",
-      "category": "5",
-      "globalid": "21",
-      "limitation": 1,
-      "type": "2",
-      "size" : "3",
-      "base": "4",
-      "rules": [
-        {
-          "name": "Skink Crew (5)",
-          "ADV": "-",
-          "MAR": "-",
-          "DEF": "-",
-          "OFF": "2",
-          "ARM": "-",
-          "AP": "0",
-          "S": "3",
-          "T": "-",
-          "W": "-",
-          "I": "4",
-          "A": "1",
-          "Ld": "-",
-          "specialrules": [
-          ],
-          "equipments": [
-            {
-              "equipment": "Poisoned Javelin"
-            }
-          ]
-        },
-        {
-          "name": "Taurosaur",
-          "ADV": "6",
-          "MAR": "10",
-          "DEF": "3",
-          "OFF": "3",
-          "ARM": "4",
-          "AP": "3",
-          "S": "6",
-          "T": "6",
-          "W": "6",
-          "I": "2",
-          "A": "4",
-          "Ld": "C",
-          "specialrules": [
-            {
-              "specialrule": "Cold Blooded"
-            },
-            {
-              "specialrule": "Immune to Psychology"
-            },
-            {
-              "specialrule": "Stubborn"
-            },
-            {
-              "specialrule": "Impact Hits (D6+1)"
-            },
-            {
-              "specialrule": "Devastating Charge (+1 Att)"
-            },
-            {
-              "specialrule": "Sharp Horns"
-            },
-            {
-              "specialrule": "Harnessed"
+              "specialrule": "Fear"
             }
           ],
           "equipments": [
             {
-              "equipment": "Giant Blowpipe (3+)"
+              "equipment": "Harnessed"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Skink Palanquin",
-      "category": "1",
-      "globalid": "22",
-      "type": "1",
-      "size" : "1",
-      "base": "7",
-      "rules": [
-        {
-          "name": "Palanquin",
-          "ADV": "6",
-          "MAR": "12",
-          "DEF": "C",
-          "OFF": "-",
-          "ARM": "C+1",
-          "AP": "-",
-          "S": "-",
-          "T": "3",
-          "W": "3",
-          "I": "-",
-          "A": "-",
-          "Ld": "C",
-          "specialrules": [
-            {
-              "specialrule": "Skink Palanquin"
-            },
-            {
-              "specialrule": "Tall"
-            },
-            {
-              "specialrule": "Inenimate"
-            },
-            {
-              "specialrule": "Harnessed"
-            }
-          ],
-          "equipments": [
           ]
         }
       ]
