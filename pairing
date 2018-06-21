@@ -1,0 +1,166 @@
+
+        public class player
+        {
+            public bool actif;
+            public int number;
+            public List<int> notes = new List<int>();
+        }
+        public class node
+        {
+            public int poidsC1;
+            public int poidsC2;
+            public player p1;
+            public player clic1;
+            public bool team1;
+            public player clic2;
+            public List<node> nodesC1 = new List<node>();
+            public List<node> nodesC2 = new List<node>();
+        }
+
+        public void test()
+        {
+            List<player> t1 = new List<player>();
+            List<player> t2 = new List<player>();
+
+            t1.Add(new player { actif = true, number = 0, notes = new List<int> { 5, 3, 2, 1, 4 } });
+            t1.Add(new player { actif = true, number = 1, notes = new List<int> { 2, 3, 1, 2, 5 } });
+            t1.Add(new player { actif = true, number = 2, notes = new List<int> { 5, 4, 1, 3, 5 } });
+            t1.Add(new player { actif = true, number = 3, notes = new List<int> { 1, 2, 4, 3, 5 } });
+            t1.Add(new player { actif = true, number = 4, notes = new List<int> { 5, 2, 1, 3, 4 } });
+            t2.Add(new player { actif = true, number = 0, notes = new List<int> { 5, 2, 5, 1, 5 } });
+            t2.Add(new player { actif = true, number = 1, notes = new List<int> { 3, 3, 4, 2, 2 } });
+            t2.Add(new player { actif = true, number = 2, notes = new List<int> { 2, 1, 1, 4, 1 } });
+            t2.Add(new player { actif = true, number = 3, notes = new List<int> { 1, 2, 3, 3, 3 } });
+            t2.Add(new player { actif = true, number = 4, notes = new List<int> { 4, 5, 5, 5, 4 } });
+            var result = new List<node>();
+            var poids = calculate(t1, t2, null, result, true);
+            List<result> minmax = new List<result>();
+            string res = "";
+            analyse(result, false, minmax);
+            var currentnode = result[minmax[0].position];
+            res += currentnode.p1.number + " vs " + (minmax[0].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " - ";
+            currentnode = minmax[0].player1 ? currentnode.nodesC1[minmax[1].position] : currentnode.nodesC1[minmax[1].position];
+            res += currentnode.p1.number + " vs " + (minmax[1].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " - ";
+            currentnode = minmax[1].player1 ? currentnode.nodesC1[minmax[2].position] : currentnode.nodesC1[minmax[2].position];
+            res += currentnode.p1.number + " vs " + (minmax[2].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " - ";
+            currentnode = minmax[2].player1 ? currentnode.nodesC1[minmax[3].position] : currentnode.nodesC1[minmax[3].position];
+            res += currentnode.p1.number + " vs " + (minmax[3].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " - ";
+            //currentnode = minmax[3].player1 ? currentnode.nodesC1[minmax[4].position] : currentnode.nodesC1[minmax[4].position];
+            //res += currentnode.p1.number + " vs " + (minmax[4].player1 ? currentnode.clic1.number : currentnode.clic2.number);
+        }
+
+        public int calculate(List<player> t1, List<player> t2, player drop, List<node> result, bool team1)
+        {
+            int poids = 0;
+            foreach (player player in t1.Where(a => a.actif))
+            {
+                var p = player;
+                if (drop != null)
+                    p = drop;
+                List<List<int>> clic = getCouples(t2);
+                foreach (var doublon in clic)
+                {
+                    var clic1 = getPlayer(t2, doublon[0]);
+                    var clic2 = getPlayer(t2, doublon[1]);
+                    var childs1 = new List<node>();
+                    var childPoids1 = calculate(t2.Where(a => a != clic1).ToList<player>(), t1.Where(a => a != p).ToList<player>(), clic2, childs1, !team1);
+                    var childs2 = new List<node>();
+                    var childPoids2 = calculate(t2.Where(a => a != clic2).ToList<player>(), t1.Where(a => a != p).ToList<player>(), clic1, childs2, !team1);
+                    var node = new node {team1 = team1, poidsC1 = p.notes[clic1.number] + childPoids1, poidsC2 = p.notes[clic2.number] + childPoids2, p1 = p, clic1 = clic1, clic2 = clic2, nodesC1 = childs1, nodesC2 = childs2 };
+                    result.Add(node);
+                    poids += childPoids1 + childPoids2 + p.notes[clic1.number] + p.notes[clic2.number];
+                }
+                if (drop != null)
+                    break;
+            }
+            return poids;
+        }
+
+        public class result
+        {
+            public int position;
+            public bool player1;
+        }
+
+        public void analyse(List<node> pairing, bool max, List<result> minmax)
+        {
+            int number = max ? -1 : 10000000;
+            int position = 0;
+            int count = 0;
+            bool player1 = false;
+            List<node> nodes = new List<node>();
+            foreach (var node in pairing)
+            {
+                if (max && node.poidsC1 > number)
+                {
+                    position = count;
+                    number = node.poidsC1;
+                    nodes = node.nodesC1;
+                    player1 = true;
+                }
+                if (max && node.poidsC2 > number)
+                {
+                    position = count;
+                    number = node.poidsC2;
+                    nodes = node.nodesC2;
+                    player1 = false;
+                }
+                if (!max && node.poidsC1 < number)
+                {
+                    position = count;
+                    number = node.poidsC1;
+                    nodes = node.nodesC1;
+                    player1 = true;
+                }
+                if (!max && node.poidsC2 < number)
+                {
+                    position = count;
+                    number = node.poidsC2;
+                    nodes = node.nodesC2;
+                    player1 = false;
+                }
+                count++;
+            }
+            minmax.Add(new result { position = position, player1 = player1 });
+            if (pairing.Count > 0)
+            {
+                analyse(nodes, !max, minmax);
+            }
+        }
+
+        public player getPlayer(List<player> t, int number)
+        {
+            foreach (player p in t)
+            {
+                if (p.number == number)
+                    return p;
+            }
+            return null;
+        }
+
+        public List<List<int>> getCouples(List<player> t)
+        {
+            List<List<int>> res = new List<List<int>>();
+            foreach (player p in t.Where(a => a.actif))
+            {
+                foreach (player c in t.Where(a => a.actif))
+                {
+                    if (p.number != c.number)
+                    {
+                        List<int> tmp = new List<int> { p.number, c.number };
+                        bool doublon = false;
+                        foreach (var tmp2 in res)
+                        {
+                            if ((tmp2[0] == tmp[0] && tmp2[1] == tmp[1]) || (tmp2[1] == tmp[0] && tmp2[0] == tmp[1]))
+                            {
+                                doublon = true;
+                                break;
+                            }
+                        }
+                        if (!doublon)
+                            res.Add(tmp);
+                    }
+                }
+            }
+            return res;
+        }
