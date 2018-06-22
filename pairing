@@ -35,18 +35,41 @@
             var result = new List<node>();
             var poids = calculate(t1, t2, null, result, true);
             List<result> minmax = new List<result>();
-            string res = "";
-            analyse(result, false, minmax);
-            var currentnode = result[minmax[0].position];
-            res += currentnode.p1.number + " vs " + (minmax[0].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " - ";
-            currentnode = minmax[0].player1 ? currentnode.nodesC1[minmax[1].position] : currentnode.nodesC1[minmax[1].position];
-            res += currentnode.p1.number + " vs " + (minmax[1].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " - ";
-            currentnode = minmax[1].player1 ? currentnode.nodesC1[minmax[2].position] : currentnode.nodesC1[minmax[2].position];
-            res += currentnode.p1.number + " vs " + (minmax[2].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " - ";
-            currentnode = minmax[2].player1 ? currentnode.nodesC1[minmax[3].position] : currentnode.nodesC1[minmax[3].position];
-            res += currentnode.p1.number + " vs " + (minmax[3].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " - ";
+            int final = drop(result);
+            analyse(result.Where(a => a.p1.number == final).ToList<node>(), true, minmax);
+            printResult(minmax, result, t1);
             //currentnode = minmax[3].player1 ? currentnode.nodesC1[minmax[4].position] : currentnode.nodesC1[minmax[4].position];
             //res += currentnode.p1.number + " vs " + (minmax[4].player1 ? currentnode.clic1.number : currentnode.clic2.number);
+        }
+
+        public string printResult(List<result> minmax, List<node> result, List<player> table)
+        {
+            string res = "";
+            var currentnode = result[minmax[0].position];
+            List<int> player1 = new List<int> { 0, 1, 2, 3, 4 };
+            List<int> player2 = new List<int> { 0, 1, 2, 3, 4 };
+            res += currentnode.p1.number + " vs " + (minmax[0].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " (" + table[currentnode.p1.number].notes[minmax[0].player1 ? currentnode.clic1.number : currentnode.clic2.number] + ") - ";
+            player1.Remove(currentnode.p1.number);
+            player2.Remove(minmax[0].player1 ? currentnode.clic1.number : currentnode.clic2.number);
+
+            currentnode = minmax[0].player1 ? currentnode.nodesC1[minmax[1].position] : currentnode.nodesC2[minmax[1].position];
+            res += (minmax[1].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " vs " + currentnode.p1.number + " (" + table[minmax[1].player1 ? currentnode.clic1.number : currentnode.clic2.number].notes[currentnode.p1.number] + ") - ";
+            player2.Remove(currentnode.p1.number);
+            player1.Remove(minmax[1].player1 ? currentnode.clic1.number : currentnode.clic2.number);
+
+            currentnode = minmax[1].player1 ? currentnode.nodesC1[minmax[2].position] : currentnode.nodesC2[minmax[2].position];
+            res += currentnode.p1.number + " vs " + (minmax[2].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " (" + table[currentnode.p1.number].notes[minmax[2].player1 ? currentnode.clic1.number : currentnode.clic2.number] + ") - ";
+            player1.Remove(currentnode.p1.number);
+            player2.Remove(minmax[2].player1 ? currentnode.clic1.number : currentnode.clic2.number);
+
+            currentnode = minmax[2].player1 ? currentnode.nodesC1[minmax[3].position] : currentnode.nodesC2[minmax[3].position];
+            res += (minmax[3].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " vs " + currentnode.p1.number + " (" + table[minmax[3].player1 ? currentnode.clic1.number : currentnode.clic2.number].notes[currentnode.p1.number] + ") - ";
+            player2.Remove(currentnode.p1.number);
+            player1.Remove(minmax[3].player1 ? currentnode.clic1.number : currentnode.clic2.number);
+
+            res += player1.First() + " vs " + player2.First() + " (" + table[player1.First()].notes[player2.First()] + ")";
+
+            return res;
         }
 
         public int calculate(List<player> t1, List<player> t2, player drop, List<node> result, bool team1)
@@ -82,6 +105,28 @@
             public bool player1;
         }
 
+        public int drop(List<node> pairing)
+        {
+            int position = 0;
+            List<int> notes = new List<int> { 0, 0, 0, 0, 0 };
+            foreach (var node in pairing)
+            {
+                notes[node.p1.number] += node.poidsC1 + node.poidsC2;
+            }
+            int min = notes[0];
+            int count = 0;
+            foreach (var note in notes)
+            {
+                if (note < min)
+                {
+                    position = count;
+                    min = note;
+                }
+                    count++;
+            }
+            return position;
+        }
+
         public void analyse(List<node> pairing, bool max, List<result> minmax)
         {
             int number = max ? -1 : 10000000;
@@ -91,33 +136,19 @@
             List<node> nodes = new List<node>();
             foreach (var node in pairing)
             {
-                if (max && node.poidsC1 > number)
+                if (max && node.poidsC1 + node.poidsC2 > number)
                 {
                     position = count;
-                    number = node.poidsC1;
-                    nodes = node.nodesC1;
-                    player1 = true;
+                    number = node.poidsC1 + node.poidsC2;
+                    nodes = node.poidsC1 < node.poidsC2 ? node.nodesC1 : node.nodesC2;
+                    player1 = node.poidsC1 < node.poidsC2 ? true : false;
                 }
-                if (max && node.poidsC2 > number)
+                if (!max && node.poidsC1 + node.poidsC2 < number)
                 {
                     position = count;
-                    number = node.poidsC2;
-                    nodes = node.nodesC2;
-                    player1 = false;
-                }
-                if (!max && node.poidsC1 < number)
-                {
-                    position = count;
-                    number = node.poidsC1;
-                    nodes = node.nodesC1;
-                    player1 = true;
-                }
-                if (!max && node.poidsC2 < number)
-                {
-                    position = count;
-                    number = node.poidsC2;
-                    nodes = node.nodesC2;
-                    player1 = false;
+                    number = node.poidsC1 + node.poidsC2;
+                    nodes = node.poidsC1 > node.poidsC2 ? node.nodesC1 : node.nodesC2;
+                    player1 = node.poidsC1 > node.poidsC2 ? true : false;
                 }
                 count++;
             }
