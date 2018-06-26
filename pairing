@@ -69,8 +69,9 @@ namespace Parametragetest
             var result = new List<node>();
             var poids = calculate(t1, t2, null, result, true);
             int final = drop(result);
-
-            finalPath(result);
+            List<List<int>> avoid = new List<List<int>>();
+            avoid.Add(new List<int> { 4, 0 });
+            finalPath(result, avoid);
             TreeView1.Nodes.Add(new TreeNode("pair"));
             createTree(result, TreeView1.Nodes[0].ChildNodes, t1, t2);
         }
@@ -159,8 +160,9 @@ namespace Parametragetest
             return position;
         }
 
-        public int finalPath(List<node> pairing) 
+        public int finalPath(List<node> pairing, List<List<int>> avoid) 
         {
+            int bonus = 1;
             int min = 0;
             int max = 0;
             bool isTeam1 = true;
@@ -168,8 +170,12 @@ namespace Parametragetest
             {
                 isTeam1 = node.team1;
                 var poidstmp = 0;
-                var poidsC1 = finalPath(node.nodesC1) + node.p1.notes[node.clic1.number];
-                var poidsC2 = finalPath(node.nodesC2) + node.p1.notes[node.clic2.number];
+                var poidsC1 = finalPath(node.nodesC1, avoid) + (node.p1.notes[node.clic1.number] == 5 ? node.p1.notes[node.clic1.number] + bonus : node.p1.notes[node.clic1.number]);
+                if (testAvoid(avoid, node.p1.number, node.clic1.number))
+                    poidsC1 += 100;
+                var poidsC2 = finalPath(node.nodesC2, avoid) + (node.p1.notes[node.clic2.number] == 5 ? node.p1.notes[node.clic2.number] + bonus : node.p1.notes[node.clic2.number]);
+                if (testAvoid(avoid, node.p1.number, node.clic2.number))
+                    poidsC2 += 100;
                 if (isTeam1)
                 {
                     poidstmp = Math.Min(poidsC1, poidsC2);
@@ -193,6 +199,20 @@ namespace Parametragetest
                 node.finalPoids = poidstmp;
             }
             return isTeam1 ? min : max;
+        }
+
+        public bool testAvoid(List<List<int>> avoid, int p1, int p2)
+        {
+            bool exist = false;
+            foreach (var elt in avoid)
+            {
+                if (elt[0] == p1 && elt[1] == p2)
+                {
+                    exist = true;
+                    break;
+                }
+            }
+            return exist;
         }
 
         public player getPlayer(List<player> t, int number)
