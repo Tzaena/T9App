@@ -1,3 +1,35 @@
+using GAT.WEB.Biz.Process;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using GAT.Biz;
+using BoiteOutils;
+using System.IO;
+using System.Collections;
+using BoiteOutilsWEB;
+using System.Net;
+
+namespace Parametragetest
+{
+    public partial class Parametragetest : PageGAT
+    {
+        public Parametragetest()
+        {
+
+        }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            test();
+        }
 
         public class player
         {
@@ -7,6 +39,8 @@
         }
         public class node
         {
+            public int finalPoids;
+            public bool isResultC1;
             public int poidsC1;
             public int poidsC2;
             public player p1;
@@ -34,41 +68,33 @@
             t2.Add(new player { actif = true, number = 4, notes = new List<int> { 4, 5, 5, 5, 4 } });
             var result = new List<node>();
             var poids = calculate(t1, t2, null, result, true);
-            List<result> minmax = new List<result>();
             int final = drop(result);
-            analyse(result.Where(a => a.p1.number == final).ToList<node>(), true, minmax);
-            printResult(minmax, result, t1);
-            //currentnode = minmax[3].player1 ? currentnode.nodesC1[minmax[4].position] : currentnode.nodesC1[minmax[4].position];
-            //res += currentnode.p1.number + " vs " + (minmax[4].player1 ? currentnode.clic1.number : currentnode.clic2.number);
+
+            finalPath(result);
+            TreeView1.Nodes.Add(new TreeNode("pair"));
+            createTree(result, TreeView1.Nodes[0].ChildNodes, t1, t2);
         }
 
-        public string printResult(List<result> minmax, List<node> result, List<player> table)
+        public void createTree(List<node> result, TreeNodeCollection treenodes, List<player> t1, List<player> t2)
+        {
+            foreach (var node in result)
+            {
+                var newnode = new TreeNode(getTreeString(node, t1, t2));
+                newnode.Expanded = false;
+                createTree(node.nodesC1, newnode.ChildNodes, t1, t2);
+                createTree(node.nodesC2, newnode.ChildNodes, t1, t2);
+                treenodes.Add(newnode);
+            }
+        }
+
+        public string getTreeString(node node, List<player> t1, List<player> t2)
         {
             string res = "";
-            var currentnode = result[minmax[0].position];
-            List<int> player1 = new List<int> { 0, 1, 2, 3, 4 };
-            List<int> player2 = new List<int> { 0, 1, 2, 3, 4 };
-            res += currentnode.p1.number + " vs " + (minmax[0].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " (" + table[currentnode.p1.number].notes[minmax[0].player1 ? currentnode.clic1.number : currentnode.clic2.number] + ") - ";
-            player1.Remove(currentnode.p1.number);
-            player2.Remove(minmax[0].player1 ? currentnode.clic1.number : currentnode.clic2.number);
 
-            currentnode = minmax[0].player1 ? currentnode.nodesC1[minmax[1].position] : currentnode.nodesC2[minmax[1].position];
-            res += (minmax[1].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " vs " + currentnode.p1.number + " (" + table[minmax[1].player1 ? currentnode.clic1.number : currentnode.clic2.number].notes[currentnode.p1.number] + ") - ";
-            player2.Remove(currentnode.p1.number);
-            player1.Remove(minmax[1].player1 ? currentnode.clic1.number : currentnode.clic2.number);
-
-            currentnode = minmax[1].player1 ? currentnode.nodesC1[minmax[2].position] : currentnode.nodesC2[minmax[2].position];
-            res += currentnode.p1.number + " vs " + (minmax[2].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " (" + table[currentnode.p1.number].notes[minmax[2].player1 ? currentnode.clic1.number : currentnode.clic2.number] + ") - ";
-            player1.Remove(currentnode.p1.number);
-            player2.Remove(minmax[2].player1 ? currentnode.clic1.number : currentnode.clic2.number);
-
-            currentnode = minmax[2].player1 ? currentnode.nodesC1[minmax[3].position] : currentnode.nodesC2[minmax[3].position];
-            res += (minmax[3].player1 ? currentnode.clic1.number : currentnode.clic2.number) + " vs " + currentnode.p1.number + " (" + table[minmax[3].player1 ? currentnode.clic1.number : currentnode.clic2.number].notes[currentnode.p1.number] + ") - ";
-            player2.Remove(currentnode.p1.number);
-            player1.Remove(minmax[3].player1 ? currentnode.clic1.number : currentnode.clic2.number);
-
-            res += player1.First() + " vs " + player2.First() + " (" + table[player1.First()].notes[player2.First()] + ")";
-
+            List<player> table = node.team1 ? t1 : t2;
+            res += (node.p1.number + 1);
+            res = res + " - " + (node.clic1.number + 1) + "(" + table[node.p1.number].notes[node.clic1.number] + "|" + node.poidsC1 + ")/" + (node.clic2.number + 1) + "(" + table[node.p1.number].notes[node.clic2.number] + "|" + node.poidsC2 + ")";
+            res = res + " | " + node.finalPoids;
             return res;
         }
 
@@ -81,6 +107,12 @@
                 if (drop != null)
                     p = drop;
                 List<List<int>> clic = getCouples(t2);
+                if (clic.Count == 0 && t2.Count == 1)
+                {
+                    var node = new node { team1 = team1, poidsC1 = p.notes[t2[0].number], poidsC2 = p.notes[t2[0].number], p1 = p, clic1 = t2[0], clic2 = t2[0], nodesC1 = new List<node>(), nodesC2 = new List<node>() };
+                    result.Add(node);
+                    poids += p.notes[t2[0].number];
+                }
                 foreach (var doublon in clic)
                 {
                     var clic1 = getPlayer(t2, doublon[0]);
@@ -127,36 +159,40 @@
             return position;
         }
 
-        public void analyse(List<node> pairing, bool max, List<result> minmax)
+        public int finalPath(List<node> pairing) 
         {
-            int number = max ? -1 : 10000000;
-            int position = 0;
-            int count = 0;
-            bool player1 = false;
-            List<node> nodes = new List<node>();
+            int min = 0;
+            int max = 0;
+            bool isTeam1 = true;
             foreach (var node in pairing)
             {
-                if (max && node.poidsC1 + node.poidsC2 > number)
+                isTeam1 = node.team1;
+                var poidstmp = 0;
+                var poidsC1 = finalPath(node.nodesC1) + node.p1.notes[node.clic1.number];
+                var poidsC2 = finalPath(node.nodesC2) + node.p1.notes[node.clic2.number];
+                if (isTeam1)
                 {
-                    position = count;
-                    number = node.poidsC1 + node.poidsC2;
-                    nodes = node.poidsC1 < node.poidsC2 ? node.nodesC1 : node.nodesC2;
-                    player1 = node.poidsC1 < node.poidsC2 ? true : false;
+                    poidstmp = Math.Min(poidsC1, poidsC2);
+                    node.isResultC1 = Math.Min(poidsC1, poidsC2) == poidsC1;
+                    if (min == 0)
+                        min = poidstmp;
+                    else
+                        min = Math.Max(poidstmp, min);
                 }
-                if (!max && node.poidsC1 + node.poidsC2 < number)
+                else
                 {
-                    position = count;
-                    number = node.poidsC1 + node.poidsC2;
-                    nodes = node.poidsC1 > node.poidsC2 ? node.nodesC1 : node.nodesC2;
-                    player1 = node.poidsC1 > node.poidsC2 ? true : false;
+                    poidstmp = Math.Max(poidsC1, poidsC2);
+                    node.isResultC1 = Math.Max(poidsC1, poidsC2) == poidsC1;
+                    if (max == 0)
+                        max = poidstmp;
+                    else
+                        max = Math.Min(poidstmp, max);
                 }
-                count++;
+                node.poidsC1 = poidsC1;
+                node.poidsC2 = poidsC2;
+                node.finalPoids = poidstmp;
             }
-            minmax.Add(new result { position = position, player1 = player1 });
-            if (pairing.Count > 0)
-            {
-                analyse(nodes, !max, minmax);
-            }
+            return isTeam1 ? min : max;
         }
 
         public player getPlayer(List<player> t, int number)
@@ -195,3 +231,7 @@
             }
             return res;
         }
+
+    }
+
+}
