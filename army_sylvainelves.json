@@ -412,7 +412,7 @@
                 },
                 {
                   "name": "Pathfinder",
-                  "cost": 75
+                  "cost": 60
                 },
                 {
                   "name": "Wild Hunter",
@@ -420,7 +420,7 @@
                 },
                 {
                   "name": "Shapeshifter",
-                  "cost": 95
+                  "cost": 100
                 }
               ]
             },
@@ -584,7 +584,7 @@
                 },
                 {
                   "name": "Pathfinder",
-                  "cost": 75
+                  "cost": 60
                 },
                 {
                   "name": "Wild Hunter",
@@ -592,7 +592,7 @@
                 },
                 {
                   "name": "Shapeshifter",
-                  "cost": 95
+                  "cost": 100
                 }
               ]
             },
