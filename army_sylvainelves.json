@@ -918,7 +918,7 @@
               "choices": [
                 {
                   "name": "Entangling Vines",
-                  "cost": 70,
+                  "cost": 60,
                   "globalid": "301",
                   "condition": [
                     {
@@ -930,7 +930,7 @@
                 },
                 {
                   "name": "Toxic Spores",
-                  "cost": 50,
+                  "cost": 65,
                   "globalid": "306",
                   "condition": [
                     {
@@ -953,8 +953,8 @@
                   ]
                 },
                 {
-                  "name": "Entwined Roots",
-                  "cost": 10,
+                  "name": "Oaken Crown",
+                  "cost": 20,
                   "globalid": "304",
                   "condition": [
                     {
@@ -1037,7 +1037,7 @@
               "choices": [
                 {
                   "name": "Entangling Vines",
-                  "cost": 70,
+                  "cost": 60,
                   "globalid": "301",
                   "condition": [
                     {
@@ -1049,7 +1049,7 @@
                 },
                 {
                   "name": "Toxic Spores",
-                  "cost": 50,
+                  "cost": 65,
                   "globalid": "306",
                   "condition": [
                     {
@@ -1072,8 +1072,8 @@
                   ]
                 },
                 {
-                  "name": "Entwined Roots",
-                  "cost": 10,
+                  "name": "Oaken Crown",
+                  "cost": 20,
                   "globalid": "304",
                   "condition": [
                     {
@@ -1203,7 +1203,7 @@
               "choices": [
                 {
                   "name": "Entangling Vines",
-                  "cost": 70,
+                  "cost": 60,
                   "globalid": "301",
                   "condition": [
                     {
@@ -1215,7 +1215,7 @@
                 },
                 {
                   "name": "Toxic Spores",
-                  "cost": 50,
+                  "cost": 65,
                   "globalid": "306",
                   "condition": [
                     {
@@ -1238,8 +1238,8 @@
                   ]
                 },
                 {
-                  "name": "Entwined Roots",
-                  "cost": 10,
+                  "name": "Oaken Crown",
+                  "cost": 20,
                   "globalid": "304",
                   "condition": [
                     {
@@ -1357,7 +1357,7 @@
               "choices": [
                 {
                   "name": "Entangling Vines",
-                  "cost": 70,
+                  "cost": 60,
                   "globalid": "301",
                   "condition": [
                     {
@@ -1369,7 +1369,7 @@
                 },
                 {
                   "name": "Toxic Spores",
-                  "cost": 50,
+                  "cost": 65,
                   "globalid": "306",
                   "condition": [
                     {
@@ -1392,8 +1392,8 @@
                   ]
                 },
                 {
-                  "name": "Entwined Roots",
-                  "cost": 10,
+                  "name": "Oaken Crown",
+                  "cost": 20,
                   "globalid": "304",
                   "condition": [
                     {
