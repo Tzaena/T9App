@@ -952,29 +952,29 @@
           ]
         },
         {
-          "name": "Druid",
-          "cost": 140,
+          "name": "Oracle",
+          "cost": 170,
           "type": "1",
           "base": "1",
           "size": "1",
           "rules": [
             {
-              "name": "Druid",
+              "name": "Oracle",
               "ADV": "5",
               "MAR": "10",
               "DEF": "4",
               "OFF": "4",
               "ARM": "0",
               "AP": "1",
-              "S": "4",
+              "S": "3",
               "T": "3",
               "W": "3",
-              "I": "7",
-              "A": "3",
+              "I": "5",
+              "A": "1",
               "Ld": "9",
               "specialrules": [
                 {
-                  "specialrule": "Forest Walker"
+                  "specialrule": "Killer Instinct"
                 },
                 {
                   "specialrule": "Lightning Reflexes"
@@ -983,7 +983,7 @@
                   "specialrule": "Wizard Apprentice"
                 },
                 {
-                  "specialrule": "Tree Singing"
+                  "specialrule": "Irresistible Will"
                 }
               ],
               "equipments": [
@@ -1014,7 +1014,7 @@
                   "cost": 100,
                   "condition": [
                     {
-                      "option": "11",
+                      "option": "12",
                       "global": false,
                       "exist": false
                     }
@@ -1033,7 +1033,12 @@
                   ]
                 },
                 {
-                  "name": "Sylvan Longbow (3+)",
+                  "name": "Cult of Yema",
+                  "cost": 30,
+                  "globalid": "13",
+                },
+                {
+                  "name": "Light Armour",
                   "cost": 5
                 }
               ]
@@ -1042,11 +1047,6 @@
               "name": "Level",
               "onechoice": true,
               "choices": [
-                {
-                  "name": "Wizard Adept",
-                  "globalid": "11",
-                  "cost": 75
-                },
                 {
                   "name": "Wizard Master",
                   "globalid": "12",
@@ -1060,11 +1060,33 @@
               "mandatory": true,
               "choices": [
                 {
-                  "name": "Druidism",
+                  "name": "Alchemy",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "13",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Occultism",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "13",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Witchcraft",
                   "cost": 0
                 },
                 {
-                  "name": "Chamanism",
+                  "name": "Divination",
                   "cost": 0
                 },
                 {
@@ -1079,18 +1101,29 @@
               "choices": [
                 {
                   "mount": "1",
-                  "cost": 30
+                  "cost": 40
                 },
                 {
                   "mount": "2",
-                  "cost": 50
+                  "cost": 20
                 },
                 {
                   "mount": "4",
-                  "cost": 75
+                  "cost": 70
                 },
                 {
                   "mount": "5",
+                  "cost": 125,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "6",
                   "cost": 460,
                   "condition": [
                     {
@@ -1110,21 +1143,21 @@
       "organisation": "2",
       "units": [
         {
-          "name": "Forest Guards",
-          "cost": 175,
+          "name": "Dread Legionnaires",
+          "cost": 165,
           "size": "1",
           "unitsize": 15,
-          "modelcost": 15,
+          "modelcost": 13,
           "maxmodels": 35,
           "type": "1",
           "base": "1",
           "rules": [
             {
-              "name": "Forest Guards",
+              "name": "Dread Legionnaires",
               "ADV": "5",
               "MAR": "10",
-              "DEF": "5",
-              "OFF": "5",
+              "DEF": "4",
+              "OFF": "4",
               "ARM": "0",
               "AP": "0",
               "S": "3",
@@ -1141,7 +1174,7 @@
                   "specialrule": "Scoring"
                 },
                 {
-                  "specialrule": "Forest Walker"
+                  "specialrule": "Killer Instinct"
                 }
               ],
               "equipments": [
@@ -1150,9 +1183,6 @@
                 },
                 {
                   "equipment": "Shield"
-                },
-                {
-                  "equipment": "Spear"
                 }
               ]
             }
@@ -1195,26 +1225,25 @@
               "type": "permodel",
               "choices": [
                 {
-                  "name": "Replace Shield and Spear for Elven Cloak and Sylvan Blades",
-                  "cost": 1
+                  "name": "Spear",
+                  "cost": 2
                 }
               ]
             }
           ]
         },
         {
-          "name": "Forest Archers",
+          "name": "Corsairs",
           "cost": 265,
           "unitsize": 10,
-          "modelcost": 24,
-          "maxmodels": 20,
-          "organisation": "4",
+          "modelcost": 18,
+          "maxmodels": 15,
           "type": "1",
           "size": "1",
           "base": "1",
           "rules": [
             {
-              "name": "Forest Archers",
+              "name": "Corsairs",
               "ADV": "5",
               "MAR": "10",
               "DEF": "4",
@@ -1235,12 +1264,15 @@
                   "specialrule": "Scoring"
                 },
                 {
-                  "specialrule": "Forest Walker"
+                  "specialrule": "KIller Instinct"
                 }
               ],
               "equipments": [
                 {
-                  "equipment": "Longbow (3+)"
+                  "equipment": "Kraken's Hide"
+                },
+                {
+                  "equipment": "Light Armour"
                 }
               ]
             }
@@ -1274,6 +1306,26 @@
                       "exist": true
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": false,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": 2
+                },
+                {
+                  "name": "Repeater Handbow (4+)",
+                  "cost": 2,
+		  "maxmodels": 35
+                },
+                {
+                  "name": "Vanguard (1 unit / Fleet Commander)",
+                  "cost": 1
                 }
               ]
             }
