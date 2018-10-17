@@ -34,10 +34,10 @@ namespace WindowsFormsApp1
                         {
                             unit.name = model.Attributes["name"].Value;
                             profilerule.name = model.Attributes["name"].Value;
+                            dynamic specialrules = new JArray();
+                            dynamic equipments = new JArray();
                             foreach (XmlNode profiles in model.ChildNodes)
                             {
-                                dynamic specialrules = new JArray();
-                                dynamic equipments = new JArray();
                                 if (profiles.Name == "profiles")
                                 {
                                     var charac = profiles.ChildNodes[0].ChildNodes[4];
