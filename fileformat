@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,452 +19,459 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
 
-            XmlDocument doc = new XmlDocument();
-            int organisationnumber = 1;
-            string currentorga = "";
-            doc.Load("D:\\test.xml");
-            dynamic jsonbase = new JObject();
-            dynamic organisationsliste = new JArray();
-            dynamic items = new JObject();
-            dynamic mounts = new JArray();
-            int mountnumber = 1;
-            dynamic organisations = new JArray();
-            jsonbase.organisation = organisationsliste;
-            jsonbase.magicitems = items;
-            jsonbase.mounts = mounts;
-            jsonbase.army = organisations;
-            dynamic organisation = new JObject();
-            Dictionary<string, dynamic> dicorganisations = new Dictionary<string, dynamic>();
-            organisation.organisation = "1";
-            organisations.Add(organisation);
-            dynamic units = new JArray();
-            organisation.units = units;
-            foreach (XmlNode entry in doc.DocumentElement.ChildNodes)
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Text files | *.xml|Xml files |*.xml*"; 
+            dialog.Multiselect = false; 
+            if (dialog.ShowDialog() == DialogResult.OK) 
             {
-                if (entry.Name == "selectionEntries")
+                String path = dialog.FileName;
+                XmlDocument doc = new XmlDocument();
+                int organisationnumber = 1;
+                string currentorga = "";
+                doc.Load(path);
+                dynamic jsonbase = new JObject();
+                dynamic organisationsliste = new JArray();
+                dynamic items = new JObject();
+                dynamic mounts = new JArray();
+                int mountnumber = 1;
+                dynamic organisations = new JArray();
+                jsonbase.organisation = organisationsliste;
+                jsonbase.magicitems = items;
+                jsonbase.mounts = mounts;
+                jsonbase.army = organisations;
+                dynamic organisation = new JObject();
+                Dictionary<string, dynamic> dicorganisations = new Dictionary<string, dynamic>();
+                organisation.organisation = "1";
+                organisations.Add(organisation);
+                dynamic units = new JArray();
+                organisation.units = units;
+                foreach (XmlNode entry in doc.DocumentElement.ChildNodes)
                 {
-                    foreach (XmlNode model in entry.ChildNodes)
+                    if (entry.Name == "selectionEntries")
                     {
-                        if (model.Name == "selectionEntry")
+                        foreach (XmlNode model in entry.ChildNodes)
                         {
-                            dynamic profilerules = new JArray();
-                            dynamic options = new JArray();
-                            dynamic profilerule = new JObject();
-                            profilerules.Add(profilerule);
-                            dynamic unit = new JObject();
-                            unit.name = model.Attributes["name"].Value;
-                            unit.Base = "1";
-                            profilerule.name = model.Attributes["name"].Value;
-                            dynamic specialrules = new JArray();
-                            dynamic equipments = new JArray();
-                            int cost = 0;
-                            foreach (XmlNode profiles in model.ChildNodes)
+                            if (model.Name == "selectionEntry")
                             {
-                                if (profiles.Name == "profiles" && profiles.ChildNodes.Count > 2)
+                                dynamic profilerules = new JArray();
+                                dynamic options = new JArray();
+                                dynamic profilerule = new JObject();
+                                profilerules.Add(profilerule);
+                                dynamic unit = new JObject();
+                                unit.name = model.Attributes["name"].Value;
+                                unit.Base = "1";
+                                profilerule.name = model.Attributes["name"].Value;
+                                dynamic specialrules = new JArray();
+                                dynamic equipments = new JArray();
+                                int cost = 0;
+                                foreach (XmlNode profiles in model.ChildNodes)
                                 {
-                                    var charac = profiles.ChildNodes[0].ChildNodes[4];
-                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                    if (profiles.Name == "profiles" && profiles.ChildNodes.Count > 2)
                                     {
-                                        if (characteristics.Name == "characteristic")
+                                        var charac = profiles.ChildNodes[0].ChildNodes[4];
+                                        foreach (XmlNode characteristics in charac.ChildNodes)
                                         {
-                                            switch (characteristics.Attributes["name"].Value)
+                                            if (characteristics.Name == "characteristic")
                                             {
-                                                case "Adv": profilerule.ADV = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
-                                                case "Mar": profilerule.MAR = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
-                                                case "Dis": profilerule.Ld = characteristics.Attributes["value"].Value; break;
-                                                case "Size": unit.size = characteristics.Attributes["value"].Value; break;
-                                                case "Type": unit.type = characteristics.Attributes["value"].Value; break;
+                                                switch (characteristics.Attributes["name"].Value)
+                                                {
+                                                    case "Adv": profilerule.ADV = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
+                                                    case "Mar": profilerule.MAR = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
+                                                    case "Dis": profilerule.Ld = characteristics.Attributes["value"].Value; break;
+                                                    case "Size": unit.size = characteristics.Attributes["value"].Value; break;
+                                                    case "Type": unit.type = characteristics.Attributes["value"].Value; break;
+                                                }
+                                            }
+                                        }
+                                        charac = profiles.ChildNodes[1].ChildNodes[4];
+                                        foreach (XmlNode characteristics in charac.ChildNodes)
+                                        {
+                                            if (characteristics.Name == "characteristic")
+                                            {
+                                                switch (characteristics.Attributes["name"].Value)
+                                                {
+                                                    case "HP": profilerule.W = characteristics.Attributes["value"].Value; break;
+                                                    case "Def": profilerule.DEF = characteristics.Attributes["value"].Value; break;
+                                                    case "Res": profilerule.T = characteristics.Attributes["value"].Value; break;
+                                                    case "Arm": profilerule.ARM = characteristics.Attributes["value"].Value; break;
+                                                }
+                                            }
+                                        }
+                                        charac = profiles.ChildNodes[2].ChildNodes[4];
+                                        foreach (XmlNode characteristics in charac.ChildNodes)
+                                        {
+                                            if (characteristics.Name == "characteristic")
+                                            {
+                                                switch (characteristics.Attributes["name"].Value)
+                                                {
+                                                    case "Att": profilerule.A = characteristics.Attributes["value"].Value; break;
+                                                    case "Off": profilerule.OFF = characteristics.Attributes["value"].Value; break;
+                                                    case "Str": profilerule.S = characteristics.Attributes["value"].Value; break;
+                                                    case "AP": profilerule.AP = characteristics.Attributes["value"].Value; break;
+                                                    case "Agi": profilerule.I = characteristics.Attributes["value"].Value; break;
+                                                }
                                             }
                                         }
                                     }
-                                    charac = profiles.ChildNodes[1].ChildNodes[4];
-                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                    else if (profiles.Name == "categoryLinks")
                                     {
-                                        if (characteristics.Name == "characteristic")
+                                        foreach (XmlNode info in profiles.ChildNodes)
                                         {
-                                            switch (characteristics.Attributes["name"].Value)
+                                            if (info.Name == "categoryLink" && info.Attributes["primary"].Value == "true" && currentorga != info.Attributes["targetId"].Value)
                                             {
-                                                case "HP": profilerule.W = characteristics.Attributes["value"].Value; break;
-                                                case "Def": profilerule.DEF = characteristics.Attributes["value"].Value; break;
-                                                case "Res": profilerule.T = characteristics.Attributes["value"].Value; break;
-                                                case "Arm": profilerule.ARM = characteristics.Attributes["value"].Value; break;
+                                                if (!string.IsNullOrEmpty(currentorga) && !dicorganisations.ContainsKey(info.Attributes["targetId"].Value))
+                                                {
+                                                    organisationnumber++;
+                                                    organisation = new JObject();
+                                                    organisation.organisation = organisationnumber.ToString();
+                                                    organisations.Add(organisation);
+                                                    units = new JArray();
+                                                    organisation.units = units;
+                                                    dicorganisations.Add(info.Attributes["targetId"].Value, organisation);
+                                                }
+                                                else if (!string.IsNullOrEmpty(currentorga) && dicorganisations.ContainsKey(info.Attributes["targetId"].Value))
+                                                {
+                                                    organisation = dicorganisations[info.Attributes["targetId"].Value];
+                                                    units = organisation.units;
+                                                }
+                                                currentorga = info.Attributes["targetId"].Value;
                                             }
                                         }
                                     }
-                                    charac = profiles.ChildNodes[2].ChildNodes[4];
-                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                    else if (profiles.Name == "rules")
                                     {
-                                        if (characteristics.Name == "characteristic")
+                                        foreach (XmlNode info in profiles.ChildNodes)
                                         {
-                                            switch (characteristics.Attributes["name"].Value)
-                                            {
-                                                case "Att": profilerule.A = characteristics.Attributes["value"].Value; break;
-                                                case "Off": profilerule.OFF = characteristics.Attributes["value"].Value; break;
-                                                case "Str": profilerule.S = characteristics.Attributes["value"].Value; break;
-                                                case "AP": profilerule.AP = characteristics.Attributes["value"].Value; break;
-                                                case "Agi": profilerule.I = characteristics.Attributes["value"].Value; break;
-                                            }
-                                        }
-                                    }
-                                }
-                                else if (profiles.Name == "categoryLinks")
-                                {
-                                    foreach (XmlNode info in profiles.ChildNodes)
-                                    {
-                                        if (info.Name == "categoryLink" && info.Attributes["primary"].Value == "true" && currentorga != info.Attributes["targetId"].Value)
-                                        {
-                                            if (!string.IsNullOrEmpty(currentorga) && !dicorganisations.ContainsKey(info.Attributes["targetId"].Value))
-                                            {
-                                                organisationnumber++;
-                                                organisation = new JObject();
-                                                organisation.organisation = organisationnumber.ToString();
-                                                organisations.Add(organisation);
-                                                units = new JArray();
-                                                organisation.units = units;
-                                                dicorganisations.Add(info.Attributes["targetId"].Value, organisation);
-                                            }
-                                            else if (!string.IsNullOrEmpty(currentorga) && dicorganisations.ContainsKey(info.Attributes["targetId"].Value))
-                                            {
-                                                organisation = dicorganisations[info.Attributes["targetId"].Value];
-                                                units = organisation.units;
-                                            }
-                                            currentorga = info.Attributes["targetId"].Value;
-                                        }
-                                    }
-                                }
-                                else if (profiles.Name == "rules")
-                                {
-                                    foreach (XmlNode info in profiles.ChildNodes)
-                                    {
-                                        if (info.Name == "rule")
-                                        {
-                                            dynamic specialrule = new JObject();
-                                            specialrule.specialrule = info.Attributes["name"].Value;
-                                            specialrules.Add(specialrule);
-                                        }
-                                    }
-                                }
-                                else if (profiles.Name == "infoLinks")
-                                {
-                                    foreach (XmlNode info in profiles.ChildNodes)
-                                    {
-                                        if (info.Name == "infoLink")
-                                        {
-                                            if (info.Attributes["type"].Value == "rule")
+                                            if (info.Name == "rule")
                                             {
                                                 dynamic specialrule = new JObject();
                                                 specialrule.specialrule = info.Attributes["name"].Value;
                                                 specialrules.Add(specialrule);
                                             }
-                                            else
-                                            {
-                                                dynamic equipment = new JObject();
-                                                equipment.equipment = info.Attributes["name"].Value;
-                                                equipments.Add(equipment);
-                                            }
                                         }
                                     }
-                                }
-                                else if (profiles.Name == "costs")
-                                {
-                                    foreach (XmlNode info in profiles.ChildNodes)
+                                    else if (profiles.Name == "infoLinks")
                                     {
-                                        if (info.Name == "cost")
+                                        foreach (XmlNode info in profiles.ChildNodes)
                                         {
-                                            if (cost > 0)
+                                            if (info.Name == "infoLink")
                                             {
-                                                unit.cost = (int.Parse(info.Attributes["value"].Value.Replace(".0", "")) + cost).ToString();
-                                            }
-                                            else
-                                                unit.cost = info.Attributes["value"].Value.Replace(".0", "");
-                                        }
-                                    }
-                                }
-                                else if (profiles.Name == "selectionEntries")
-                                {
-                                    dynamic option = new JObject();
-                                    option.name = "Options";
-                                    option.onechoice = "false";
-                                    dynamic optionchoices = new JArray();
-                                    option.choices = optionchoices;
-                                    foreach (XmlNode info in profiles.ChildNodes)
-                                    {
-                                        if (info.Name == "selectionEntry" && info.Attributes["type"].Value == "upgrade")
-                                        {
-                                            dynamic optionchoice = new JObject();
-                                            optionchoices.Add(optionchoice);
-                                            optionchoice.name = info.Attributes["name"].Value;
-                                            foreach (XmlNode optioninfo in info.ChildNodes)
-                                            {
-                                                foreach (XmlNode optioninfo2 in optioninfo.ChildNodes)
+                                                if (info.Attributes["type"].Value == "rule")
                                                 {
-                                                    if (optioninfo2.Name == "cost")
-                                                    {
-                                                        optionchoice.cost = optioninfo2.Attributes["value"] != null ? optioninfo2.Attributes["value"].Value.Replace(".0", "") : "";
-                                                    }
+                                                    dynamic specialrule = new JObject();
+                                                    specialrule.specialrule = info.Attributes["name"].Value;
+                                                    specialrules.Add(specialrule);
                                                 }
-                                            }
-                                        }
-                                        else if (info.Name == "selectionEntry" && info.Attributes["type"].Value == "model")
-                                        {
-                                            int intmin = 0, intmax = 0;
-                                            foreach (XmlNode nodeEntrys in info.ChildNodes)
-                                            {
-                                                if (nodeEntrys.Name == "constraints")
+                                                else
                                                 {
-                                                    foreach (XmlNode nodeEntry in nodeEntrys.ChildNodes)
-                                                    {
-                                                        if (nodeEntry.Name == "constraint")
-                                                        {
-                                                            if (nodeEntry.Attributes["type"].Value == "min")
-                                                            {
-                                                                unit.unitsize = nodeEntry.Attributes["value"].Value.Replace(".0", "");
-                                                                intmin = int.Parse(nodeEntry.Attributes["value"].Value.Replace(".0", ""));
-                                                            }
-                                                            else if (nodeEntry.Attributes["type"].Value == "max")
-                                                            {
-                                                                intmax = int.Parse(nodeEntry.Attributes["value"].Value.Replace(".0", ""));
-                                                            }
-                                                        }
-                                                    }
-                                                    if (intmin > 0 && intmax > 0)
-                                                    {
-                                                        unit.maxmodels = (intmax - intmin).ToString();
-                                                    }
-                                                }
-                                                if (nodeEntrys.Name == "costs")
-                                                {
-                                                    unit.modelcost = nodeEntrys.ChildNodes[0].Attributes["value"].Value.Replace(".0", "");
-                                                    cost = int.Parse(nodeEntrys.ChildNodes[0].Attributes["value"].Value.Replace(".0", "")) * intmin;
-                                                }
-                                            }
-                                            if (info.ChildNodes[0].ChildNodes.Count > 0)
-                                            {
-                                                var charac = info.ChildNodes[0].ChildNodes[0].ChildNodes[4];
-                                                foreach (XmlNode characteristics in charac.ChildNodes)
-                                                {
-                                                    if (characteristics.Name == "characteristic")
-                                                    {
-                                                        switch (characteristics.Attributes["name"].Value)
-                                                        {
-                                                            case "Adv": profilerule.ADV = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
-                                                            case "Mar": profilerule.MAR = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
-                                                            case "Dis": profilerule.Ld = characteristics.Attributes["value"].Value; break;
-                                                            case "Size": unit.size = characteristics.Attributes["value"].Value; break;
-                                                            case "Type": unit.type = characteristics.Attributes["value"].Value; break;
-                                                        }
-                                                    }
-                                                }
-                                                charac = info.ChildNodes[0].ChildNodes[1].ChildNodes[4];
-                                                foreach (XmlNode characteristics in charac.ChildNodes)
-                                                {
-                                                    if (characteristics.Name == "characteristic")
-                                                    {
-                                                        switch (characteristics.Attributes["name"].Value)
-                                                        {
-                                                            case "HP": profilerule.W = characteristics.Attributes["value"].Value; break;
-                                                            case "Def": profilerule.DEF = characteristics.Attributes["value"].Value; break;
-                                                            case "Res": profilerule.T = characteristics.Attributes["value"].Value; break;
-                                                            case "Arm": profilerule.ARM = characteristics.Attributes["value"].Value; break;
-                                                        }
-                                                    }
-                                                }
-                                                charac = info.ChildNodes[0].ChildNodes[2].ChildNodes[4];
-                                                foreach (XmlNode characteristics in charac.ChildNodes)
-                                                {
-                                                    if (characteristics.Name == "characteristic")
-                                                    {
-                                                        switch (characteristics.Attributes["name"].Value)
-                                                        {
-                                                            case "Att": profilerule.A = characteristics.Attributes["value"].Value; break;
-                                                            case "Off": profilerule.OFF = characteristics.Attributes["value"].Value; break;
-                                                            case "Str": profilerule.S = characteristics.Attributes["value"].Value; break;
-                                                            case "AP": profilerule.AP = characteristics.Attributes["value"].Value; break;
-                                                            case "Agi": profilerule.I = characteristics.Attributes["value"].Value; break;
-                                                        }
-                                                    }
+                                                    dynamic equipment = new JObject();
+                                                    equipment.equipment = info.Attributes["name"].Value;
+                                                    equipments.Add(equipment);
                                                 }
                                             }
                                         }
                                     }
-                                    options.Add(option);
-                                }
-                                else if (profiles.Name == "selectionEntryGroups")
-                                {
-                                    foreach (XmlNode info in profiles.ChildNodes)
+                                    else if (profiles.Name == "costs")
                                     {
-                                        if (info.Name == "selectionEntryGroup")
+                                        foreach (XmlNode info in profiles.ChildNodes)
                                         {
-                                            foreach (XmlNode info0 in info.ChildNodes)
+                                            if (info.Name == "cost")
                                             {
-                                                if (info0.Name == "selectionEntries")
+                                                if (cost > 0)
                                                 {
-                                                    dynamic option = new JObject();
-                                                    option.name = info.Attributes["name"].Value;
-                                                    option.onechoice = "false";
-                                                    dynamic optionchoices = new JArray();
-                                                    option.choices = optionchoices;
-                                                    bool permodel = false;
-                                                    foreach (XmlNode info2 in info0.ChildNodes)
+                                                    unit.cost = (int.Parse(info.Attributes["value"].Value.Replace(".0", "")) + cost).ToString();
+                                                }
+                                                else
+                                                    unit.cost = info.Attributes["value"].Value.Replace(".0", "");
+                                            }
+                                        }
+                                    }
+                                    else if (profiles.Name == "selectionEntries")
+                                    {
+                                        dynamic option = new JObject();
+                                        option.name = "Options";
+                                        option.onechoice = "false";
+                                        dynamic optionchoices = new JArray();
+                                        option.choices = optionchoices;
+                                        foreach (XmlNode info in profiles.ChildNodes)
+                                        {
+                                            if (info.Name == "selectionEntry" && info.Attributes["type"].Value == "upgrade")
+                                            {
+                                                dynamic optionchoice = new JObject();
+                                                optionchoices.Add(optionchoice);
+                                                optionchoice.name = info.Attributes["name"].Value;
+                                                foreach (XmlNode optioninfo in info.ChildNodes)
+                                                {
+                                                    foreach (XmlNode optioninfo2 in optioninfo.ChildNodes)
                                                     {
-                                                        dynamic optionchoice = new JObject();
-                                                        optionchoices.Add(optionchoice);
-                                                        if (info2.Name == "selectionEntry")
+                                                        if (optioninfo2.Name == "cost")
                                                         {
-                                                            optionchoice.name = info2.Attributes["name"].Value;
-                                                            foreach (XmlNode optioninfo in info2.ChildNodes)
+                                                            optionchoice.cost = optioninfo2.Attributes["value"] != null ? optioninfo2.Attributes["value"].Value.Replace(".0", "") : "";
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            else if (info.Name == "selectionEntry" && info.Attributes["type"].Value == "model")
+                                            {
+                                                int intmin = 0, intmax = 0;
+                                                foreach (XmlNode nodeEntrys in info.ChildNodes)
+                                                {
+                                                    if (nodeEntrys.Name == "constraints")
+                                                    {
+                                                        foreach (XmlNode nodeEntry in nodeEntrys.ChildNodes)
+                                                        {
+                                                            if (nodeEntry.Name == "constraint")
                                                             {
-                                                                foreach (XmlNode optioninfo2 in optioninfo.ChildNodes)
+                                                                if (nodeEntry.Attributes["type"].Value == "min")
                                                                 {
-                                                                    if (optioninfo2.Name == "cost" && !permodel)
+                                                                    unit.unitsize = nodeEntry.Attributes["value"].Value.Replace(".0", "");
+                                                                    intmin = int.Parse(nodeEntry.Attributes["value"].Value.Replace(".0", ""));
+                                                                }
+                                                                else if (nodeEntry.Attributes["type"].Value == "max")
+                                                                {
+                                                                    intmax = int.Parse(nodeEntry.Attributes["value"].Value.Replace(".0", ""));
+                                                                }
+                                                            }
+                                                        }
+                                                        if (intmin > 0 && intmax > 0)
+                                                        {
+                                                            unit.maxmodels = (intmax - intmin).ToString();
+                                                        }
+                                                    }
+                                                    if (nodeEntrys.Name == "costs")
+                                                    {
+                                                        unit.modelcost = nodeEntrys.ChildNodes[0].Attributes["value"].Value.Replace(".0", "");
+                                                        cost = int.Parse(nodeEntrys.ChildNodes[0].Attributes["value"].Value.Replace(".0", "")) * intmin;
+                                                    }
+                                                }
+                                                if (info.ChildNodes[0].ChildNodes.Count > 0)
+                                                {
+                                                    var charac = info.ChildNodes[0].ChildNodes[0].ChildNodes[4];
+                                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                                    {
+                                                        if (characteristics.Name == "characteristic")
+                                                        {
+                                                            switch (characteristics.Attributes["name"].Value)
+                                                            {
+                                                                case "Adv": profilerule.ADV = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
+                                                                case "Mar": profilerule.MAR = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
+                                                                case "Dis": profilerule.Ld = characteristics.Attributes["value"].Value; break;
+                                                                case "Size": unit.size = characteristics.Attributes["value"].Value; break;
+                                                                case "Type": unit.type = characteristics.Attributes["value"].Value; break;
+                                                            }
+                                                        }
+                                                    }
+                                                    charac = info.ChildNodes[0].ChildNodes[1].ChildNodes[4];
+                                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                                    {
+                                                        if (characteristics.Name == "characteristic")
+                                                        {
+                                                            switch (characteristics.Attributes["name"].Value)
+                                                            {
+                                                                case "HP": profilerule.W = characteristics.Attributes["value"].Value; break;
+                                                                case "Def": profilerule.DEF = characteristics.Attributes["value"].Value; break;
+                                                                case "Res": profilerule.T = characteristics.Attributes["value"].Value; break;
+                                                                case "Arm": profilerule.ARM = characteristics.Attributes["value"].Value; break;
+                                                            }
+                                                        }
+                                                    }
+                                                    charac = info.ChildNodes[0].ChildNodes[2].ChildNodes[4];
+                                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                                    {
+                                                        if (characteristics.Name == "characteristic")
+                                                        {
+                                                            switch (characteristics.Attributes["name"].Value)
+                                                            {
+                                                                case "Att": profilerule.A = characteristics.Attributes["value"].Value; break;
+                                                                case "Off": profilerule.OFF = characteristics.Attributes["value"].Value; break;
+                                                                case "Str": profilerule.S = characteristics.Attributes["value"].Value; break;
+                                                                case "AP": profilerule.AP = characteristics.Attributes["value"].Value; break;
+                                                                case "Agi": profilerule.I = characteristics.Attributes["value"].Value; break;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        options.Add(option);
+                                    }
+                                    else if (profiles.Name == "selectionEntryGroups")
+                                    {
+                                        foreach (XmlNode info in profiles.ChildNodes)
+                                        {
+                                            if (info.Name == "selectionEntryGroup")
+                                            {
+                                                foreach (XmlNode info0 in info.ChildNodes)
+                                                {
+                                                    if (info0.Name == "selectionEntries")
+                                                    {
+                                                        dynamic option = new JObject();
+                                                        option.name = info.Attributes["name"].Value;
+                                                        option.onechoice = "false";
+                                                        dynamic optionchoices = new JArray();
+                                                        option.choices = optionchoices;
+                                                        bool permodel = false;
+                                                        foreach (XmlNode info2 in info0.ChildNodes)
+                                                        {
+                                                            dynamic optionchoice = new JObject();
+                                                            optionchoices.Add(optionchoice);
+                                                            if (info2.Name == "selectionEntry")
+                                                            {
+                                                                optionchoice.name = info2.Attributes["name"].Value;
+                                                                foreach (XmlNode optioninfo in info2.ChildNodes)
+                                                                {
+                                                                    foreach (XmlNode optioninfo2 in optioninfo.ChildNodes)
                                                                     {
-                                                                        optionchoice.cost = optioninfo2.Attributes["value"] != null ? optioninfo2.Attributes["value"].Value.Replace(".0", "") : "";
-                                                                    }
-                                                                    if (optioninfo2.Name == "modifier" && optioninfo2.Attributes["type"].Value == "increment")
-                                                                    {
-                                                                        option.type = "permodel";
-                                                                        permodel = true;
-                                                                        optionchoice.cost = optioninfo2.Attributes["value"] != null ? optioninfo2.Attributes["value"].Value.Replace(".0", "") : "";
+                                                                        if (optioninfo2.Name == "cost" && !permodel)
+                                                                        {
+                                                                            optionchoice.cost = optioninfo2.Attributes["value"] != null ? optioninfo2.Attributes["value"].Value.Replace(".0", "") : "";
+                                                                        }
+                                                                        if (optioninfo2.Name == "modifier" && optioninfo2.Attributes["type"].Value == "increment")
+                                                                        {
+                                                                            option.type = "permodel";
+                                                                            permodel = true;
+                                                                            optionchoice.cost = optioninfo2.Attributes["value"] != null ? optioninfo2.Attributes["value"].Value.Replace(".0", "") : "";
+                                                                        }
                                                                     }
                                                                 }
                                                             }
                                                         }
+                                                        options.Add(option);
                                                     }
-                                                    options.Add(option);
                                                 }
                                             }
                                         }
                                     }
+                                    profilerule.specialrules = specialrules;
+                                    profilerule.equipments = equipments;
                                 }
-                                profilerule.specialrules = specialrules;
-                                profilerule.equipments = equipments;
+                                unit.rules = profilerules;
+                                unit.options = options;
+                                units.Add(unit);
                             }
-                            unit.rules = profilerules;
-                            unit.options = options;
-                            units.Add(unit);
                         }
                     }
-                }
-                else if (entry.Name == "sharedSelectionEntryGroups")
-                {
-                    foreach (XmlNode model in entry.ChildNodes)
+                    else if (entry.Name == "sharedSelectionEntryGroups")
                     {
-                        if (model.Name == "selectionEntryGroup")
+                        foreach (XmlNode model in entry.ChildNodes)
                         {
-                            dynamic itementry = new JArray();
-                            if (model.Attributes["name"].Value.ToLower().Contains("weapon"))
-                                items.weapons = itementry;
-                            else if (model.Attributes["name"].Value.ToLower().Contains("armour"))
-                                items.armours = itementry;
-                            else if (model.Attributes["name"].Value.ToLower().Contains("artefact"))
-                                items.artefacts = itementry;
-                            else if (model.Attributes["name"].Value.ToLower().Contains("banner"))
-                                items.standards = itementry;
-                            foreach (XmlNode selectionentries in model.ChildNodes)
+                            if (model.Name == "selectionEntryGroup")
                             {
-                                if (selectionentries.Name == "selectionEntries")
+                                dynamic itementry = new JArray();
+                                if (model.Attributes["name"].Value.ToLower().Contains("weapon"))
+                                    items.weapons = itementry;
+                                else if (model.Attributes["name"].Value.ToLower().Contains("armour"))
+                                    items.armours = itementry;
+                                else if (model.Attributes["name"].Value.ToLower().Contains("artefact"))
+                                    items.artefacts = itementry;
+                                else if (model.Attributes["name"].Value.ToLower().Contains("banner"))
+                                    items.standards = itementry;
+                                foreach (XmlNode selectionentries in model.ChildNodes)
                                 {
-                                    foreach (XmlNode selectionentry in selectionentries.ChildNodes)
+                                    if (selectionentries.Name == "selectionEntries")
                                     {
-                                        if (selectionentry.Name == "selectionEntry")
+                                        foreach (XmlNode selectionentry in selectionentries.ChildNodes)
                                         {
-                                            dynamic itemrule = new JObject();
-                                            itemrule.name = selectionentry.Attributes["name"].Value;
+                                            if (selectionentry.Name == "selectionEntry")
+                                            {
+                                                dynamic itemrule = new JObject();
+                                                itemrule.name = selectionentry.Attributes["name"].Value;
 
-                                            foreach (XmlNode profiles in selectionentry.ChildNodes)
-                                            {
-                                                if (profiles.Name == "profiles" && profiles.ChildNodes.Count > 0)
+                                                foreach (XmlNode profiles in selectionentry.ChildNodes)
                                                 {
-                                                    foreach (XmlNode profile in profiles.ChildNodes[0].ChildNodes)
+                                                    if (profiles.Name == "profiles" && profiles.ChildNodes.Count > 0)
                                                     {
-                                                        var description = "";
-                                                        if (profile.Name == "characteristics")
+                                                        foreach (XmlNode profile in profiles.ChildNodes[0].ChildNodes)
                                                         {
-                                                            foreach (XmlNode charac in profile.ChildNodes)
+                                                            var description = "";
+                                                            if (profile.Name == "characteristics")
                                                             {
-                                                                if (charac.Name == "characteristic")
+                                                                foreach (XmlNode charac in profile.ChildNodes)
                                                                 {
-                                                                    description += charac.Attributes["value"].Value;
+                                                                    if (charac.Name == "characteristic")
+                                                                    {
+                                                                        description += charac.Attributes["value"].Value;
+                                                                    }
                                                                 }
                                                             }
+                                                            itemrule.description = description;
                                                         }
-                                                        itemrule.description = description;
                                                     }
                                                 }
+                                                itementry.Add(itemrule);
                                             }
-                                            itementry.Add(itemrule);
-                                        }
-                                        else if (model.Name == "costs")
-                                        {
-                                            dynamic itemrule = new JObject();
-                                            itemrule.cost = model.ChildNodes[0].Attributes["value"].Value.Replace(".0", "");
+                                            else if (model.Name == "costs")
+                                            {
+                                                dynamic itemrule = new JObject();
+                                                itemrule.cost = model.ChildNodes[0].Attributes["value"].Value.Replace(".0", "");
+                                            }
                                         }
                                     }
                                 }
                             }
                         }
                     }
-                }
-                else if (entry.Name == "sharedSelectionEntries")
-                {
-                    foreach (XmlNode selectionentry in entry.ChildNodes)
+                    else if (entry.Name == "sharedSelectionEntries")
                     {
-                        if (selectionentry.Name == "selectionEntry")
+                        foreach (XmlNode selectionentry in entry.ChildNodes)
                         {
-                            foreach (XmlNode profile in selectionentry.ChildNodes)
+                            if (selectionentry.Name == "selectionEntry")
                             {
-                                if (profile.Name == "profiles" && profile.ChildNodes.Count > 0)
+                                foreach (XmlNode profile in selectionentry.ChildNodes)
                                 {
-                                    dynamic mount = new JObject();
-                                    mounts.Add(mount);
-                                    mount.id = mountnumber.ToString();
-                                    mount.name = selectionentry.Attributes["name"].Value;
-                                    dynamic mountrules = new JArray();
-                                    mount.rules = mountrules;
-                                    var charac = profile.ChildNodes[0].ChildNodes[4];
-                                    dynamic mountrule = new JObject();
-                                    mountrules.Add(mountrule);
-                                    mountnumber++;
-                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                    if (profile.Name == "profiles" && profile.ChildNodes.Count > 0)
                                     {
-                                        if (characteristics.Name == "characteristic")
+                                        dynamic mount = new JObject();
+                                        mounts.Add(mount);
+                                        mount.id = mountnumber.ToString();
+                                        mount.name = selectionentry.Attributes["name"].Value;
+                                        dynamic mountrules = new JArray();
+                                        mount.rules = mountrules;
+                                        var charac = profile.ChildNodes[0].ChildNodes[4];
+                                        dynamic mountrule = new JObject();
+                                        mountrules.Add(mountrule);
+                                        mountnumber++;
+                                        foreach (XmlNode characteristics in charac.ChildNodes)
                                         {
-                                            switch (characteristics.Attributes["name"].Value)
+                                            if (characteristics.Name == "characteristic")
                                             {
-                                                case "Adv": mountrule.ADV = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
-                                                case "Mar": mountrule.MAR = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
-                                                case "Dis": mountrule.Ld = characteristics.Attributes["value"].Value; break;
-                                                case "Size": mount.size = characteristics.Attributes["value"].Value; break;
-                                                case "Type": mount.type = characteristics.Attributes["value"].Value; break;
+                                                switch (characteristics.Attributes["name"].Value)
+                                                {
+                                                    case "Adv": mountrule.ADV = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
+                                                    case "Mar": mountrule.MAR = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
+                                                    case "Dis": mountrule.Ld = characteristics.Attributes["value"].Value; break;
+                                                    case "Size": mount.size = characteristics.Attributes["value"].Value; break;
+                                                    case "Type": mount.type = characteristics.Attributes["value"].Value; break;
+                                                }
                                             }
                                         }
-                                    }
-                                    charac = profile.ChildNodes[1].ChildNodes[4];
-                                    foreach (XmlNode characteristics in charac.ChildNodes)
-                                    {
-                                        if (characteristics.Name == "characteristic")
+                                        charac = profile.ChildNodes[1].ChildNodes[4];
+                                        foreach (XmlNode characteristics in charac.ChildNodes)
                                         {
-                                            switch (characteristics.Attributes["name"].Value)
+                                            if (characteristics.Name == "characteristic")
                                             {
-                                                case "HP": mountrule.W = characteristics.Attributes["value"].Value; break;
-                                                case "Def": mountrule.DEF = characteristics.Attributes["value"].Value; break;
-                                                case "Res": mountrule.T = characteristics.Attributes["value"].Value; break;
-                                                case "Arm": mountrule.ARM = characteristics.Attributes["value"].Value; break;
+                                                switch (characteristics.Attributes["name"].Value)
+                                                {
+                                                    case "HP": mountrule.W = characteristics.Attributes["value"].Value; break;
+                                                    case "Def": mountrule.DEF = characteristics.Attributes["value"].Value; break;
+                                                    case "Res": mountrule.T = characteristics.Attributes["value"].Value; break;
+                                                    case "Arm": mountrule.ARM = characteristics.Attributes["value"].Value; break;
+                                                }
                                             }
                                         }
-                                    }
-                                    charac = profile.ChildNodes[2].ChildNodes[4];
-                                    foreach (XmlNode characteristics in charac.ChildNodes)
-                                    {
-                                        if (characteristics.Name == "characteristic")
+                                        charac = profile.ChildNodes[2].ChildNodes[4];
+                                        foreach (XmlNode characteristics in charac.ChildNodes)
                                         {
-                                            switch (characteristics.Attributes["name"].Value)
+                                            if (characteristics.Name == "characteristic")
                                             {
-                                                case "Att": mountrule.A = characteristics.Attributes["value"].Value; break;
-                                                case "Off": mountrule.OFF = characteristics.Attributes["value"].Value; break;
-                                                case "Str": mountrule.S = characteristics.Attributes["value"].Value; break;
-                                                case "AP": mountrule.AP = characteristics.Attributes["value"].Value; break;
-                                                case "Agi": mountrule.I = characteristics.Attributes["value"].Value; break;
+                                                switch (characteristics.Attributes["name"].Value)
+                                                {
+                                                    case "Att": mountrule.A = characteristics.Attributes["value"].Value; break;
+                                                    case "Off": mountrule.OFF = characteristics.Attributes["value"].Value; break;
+                                                    case "Str": mountrule.S = characteristics.Attributes["value"].Value; break;
+                                                    case "AP": mountrule.AP = characteristics.Attributes["value"].Value; break;
+                                                    case "Agi": mountrule.I = characteristics.Attributes["value"].Value; break;
+                                                }
                                             }
                                         }
                                     }
@@ -472,19 +480,24 @@ namespace WindowsFormsApp1
                         }
                     }
                 }
+                int i = 1;
+                foreach (var elt in dicorganisations)
+                {
+                    dynamic orga = new JObject();
+                    orga.id = i.ToString();
+                    orga.percent = 100;
+                    orga.type = "max";
+                    orga.name = i == 1 ? "Characters" : (i == 2 ? "Core" : (i == 3 ? "Special" : ""));
+                    organisationsliste.Add(orga);
+                    i++;
+                }
+                System.IO.File.WriteAllText(dialog.FileName.Replace(".txt", "").Replace(".xml", "") + "extract" + ".txt", jsonbase.ToString());
             }
-            int i = 1;
-            foreach (var elt in dicorganisations)
-            {
-                dynamic orga = new JObject();
-                orga.id = i.ToString();
-                orga.percent = 100;
-                orga.type = "max";
-                orga.name = i == 1 ? "Characters" : (i == 2 ? "Core" : (i == 3 ? "Special" : ""));
-                organisationsliste.Add(orga);
-                i++;
-            }
-            System.IO.File.WriteAllText(@"D:\result.txt", jsonbase.ToString());
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
