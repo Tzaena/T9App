@@ -26,6 +26,7 @@ namespace WindowsFormsApp1
             dynamic organisationsliste = new JArray();
             dynamic items = new JObject();
             dynamic mounts = new JArray();
+            int mountnumber = 1;
             dynamic organisations = new JArray();
             jsonbase.organisation = organisationsliste;
             jsonbase.magicitems = items;
@@ -403,6 +404,85 @@ namespace WindowsFormsApp1
                         }
                     }
                 }
+                else if (entry.Name == "sharedSelectionEntries")
+                {
+                    foreach (XmlNode selectionentry in entry.ChildNodes)
+                    {
+                        if (selectionentry.Name == "selectionEntry")
+                        {
+                            foreach (XmlNode profile in selectionentry.ChildNodes)
+                            {
+                                if (profile.Name == "profiles" && profile.ChildNodes.Count > 0)
+                                {
+                                    dynamic mount = new JObject();
+                                    mounts.Add(mount);
+                                    mount.id = mountnumber.ToString();
+                                    mount.name = selectionentry.Attributes["name"].Value;
+                                    dynamic mountrules = new JArray();
+                                    mount.rules = mountrules;
+                                    var charac = profile.ChildNodes[0].ChildNodes[4];
+                                    dynamic mountrule = new JObject();
+                                    mountrules.Add(mountrule);
+                                    mountnumber++;
+                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                    {
+                                        if (characteristics.Name == "characteristic")
+                                        {
+                                            switch (characteristics.Attributes["name"].Value)
+                                            {
+                                                case "Adv": mountrule.ADV = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
+                                                case "Mar": mountrule.MAR = characteristics.Attributes["value"].Value.Replace("\"", ""); break;
+                                                case "Dis": mountrule.Ld = characteristics.Attributes["value"].Value; break;
+                                                case "Size": mount.size = characteristics.Attributes["value"].Value; break;
+                                                case "Type": mount.type = characteristics.Attributes["value"].Value; break;
+                                            }
+                                        }
+                                    }
+                                    charac = profile.ChildNodes[1].ChildNodes[4];
+                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                    {
+                                        if (characteristics.Name == "characteristic")
+                                        {
+                                            switch (characteristics.Attributes["name"].Value)
+                                            {
+                                                case "HP": mountrule.W = characteristics.Attributes["value"].Value; break;
+                                                case "Def": mountrule.DEF = characteristics.Attributes["value"].Value; break;
+                                                case "Res": mountrule.T = characteristics.Attributes["value"].Value; break;
+                                                case "Arm": mountrule.ARM = characteristics.Attributes["value"].Value; break;
+                                            }
+                                        }
+                                    }
+                                    charac = profile.ChildNodes[2].ChildNodes[4];
+                                    foreach (XmlNode characteristics in charac.ChildNodes)
+                                    {
+                                        if (characteristics.Name == "characteristic")
+                                        {
+                                            switch (characteristics.Attributes["name"].Value)
+                                            {
+                                                case "Att": mountrule.A = characteristics.Attributes["value"].Value; break;
+                                                case "Off": mountrule.OFF = characteristics.Attributes["value"].Value; break;
+                                                case "Str": mountrule.S = characteristics.Attributes["value"].Value; break;
+                                                case "AP": mountrule.AP = characteristics.Attributes["value"].Value; break;
+                                                case "Agi": mountrule.I = characteristics.Attributes["value"].Value; break;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            int i = 1;
+            foreach (var elt in dicorganisations)
+            {
+                dynamic orga = new JObject();
+                orga.id = i.ToString();
+                orga.percent = 100;
+                orga.type = "max";
+                orga.name = i == 1 ? "Characters" : (i == 2 ? "Core" : (i == 3 ? "Special" : ""));
+                organisationsliste.Add(orga);
+                i++;
             }
             System.IO.File.WriteAllText(@"D:\result.txt", jsonbase.ToString());
         }
