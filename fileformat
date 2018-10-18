@@ -179,7 +179,7 @@ namespace WindowsFormsApp1
                                             {
                                                 dynamic option = new JObject();
                                                 option.name = "Command";
-                                                option.onechoice = "false";
+                                                option.onechoice = false;
                                                 dynamic optionchoices = new JArray();
                                                 option.choices = optionchoices;
                                                 dynamic optionchoice = new JObject();
@@ -328,13 +328,42 @@ namespace WindowsFormsApp1
                                         {
                                             if (info.Name == "selectionEntryGroup")
                                             {
+                                                bool mandatory = false;
+                                                bool multiple = false;
                                                 foreach (XmlNode info0 in info.ChildNodes)
                                                 {
-                                                    if (info0.Name == "selectionEntries")
+                                                    if (info0.Name == "constraints" && info0.ChildNodes.Count > 0)
+                                                    {
+                                                        foreach (XmlNode info2 in info0.ChildNodes)
+                                                        {
+                                                            if (info2.Attributes["type"].Value == "min")
+                                                            {
+                                                                var min = int.Parse(info2.Attributes["value"].Value.Replace(".0", ""));
+                                                                if (min > 1)
+                                                                {
+                                                                    multiple = true;
+                                                                    mandatory = true;
+                                                                }
+                                                                else if (min == 1)
+                                                                    mandatory = true;
+                                                                
+                                                            }
+                                                            else if (info2.Attributes["type"].Value == "max")
+                                                            {
+                                                                var max = int.Parse(info2.Attributes["value"].Value.Replace(".0", ""));
+                                                                if (max > 1)
+                                                                {
+                                                                    multiple = true;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    else if (info0.Name == "selectionEntries")
                                                     {
                                                         dynamic option = new JObject();
                                                         option.name = info.Attributes["name"].Value;
-                                                        option.onechoice = "false";
+                                                        option.onechoice = !multiple;
+                                                        option.mandatory = mandatory;
                                                         dynamic optionchoices = new JArray();
                                                         option.choices = optionchoices;
                                                         bool permodel = false;
