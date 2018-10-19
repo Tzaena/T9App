@@ -1,0 +1,2540 @@
+{
+  "organisation": [
+    {
+      "id": "1",
+      "percent": 40,
+      "type": "max",
+      "name": "Characters"
+    },
+    {
+      "id": "2",
+      "percent": 25,
+      "type": "min",
+      "name": "Core"
+    },
+    {
+      "id": "3",
+      "percent": 100,
+      "type": "max",
+      "name": "Special"
+    },
+    {
+      "id": "4",
+      "percent": 30,
+      "type": "max",
+      "name": "Queen's Bows"
+    },
+    {
+      "id": "5",
+      "percent": 15,
+      "type": "max",
+      "name": "Naval Ordnance"
+    },
+    {
+      "id": "6",
+      "percent": 20,
+      "type": "max",
+      "name": "Ancient Allies"
+    }
+  ],
+  "magicitems": {
+    "weapons": [
+      {
+        "name": "Nova Flare",
+        "description": "Lance Enchantment. Attacks made with this weapon gain Divine Attacks, Magical Attacks, Lethal Strike, and Devastating Charge (+1 Att).  One use only. May be activated at the start of any Round of Combat. The wielder counts as Charging for the purpose of Devastating Charge.",
+        "cost": "105"
+      },
+      {
+        "name": "Elu's Heartwood",
+        "description": "Longbow Enchantment. This weapon gains Shots 3, Str as user +1, AP as user +1, and Magical Attacks.",
+        "cost": "75"
+      },
+      {
+        "name": "Sliver of the Blazing Dawn",
+        "description": "Spear Enchantment. Attacks made with this weapon gain +1 Strength, +2 Armour Penetration, and Magical Attacks. Each successful to-hit roll with this weapon causes two hits instead of one.",
+        "cost": "100"
+      }
+    ],
+    "armours": [
+      {
+        "name": "Gleaming Robe",
+        "description": "Light Armour Enchantment. Standard size Mages only. The wearer gains Aegis (3+) and its Armour is set to 1, which cannot be improved. If the wearer Miscasts and rolls Witchfire or Magical Inferno, the number of hits is halved (rounding up).",
+        "cost": "90"
+      },
+      {
+        "name": "Protection of Dorac",
+        "description": "Heavy Armour Enchantment. Models on foot only. The wearer gains +2 Armour and +2 Defensive Skill.",
+        "cost": "65"
+      },
+      {
+        "name": "Daemon's Bane",
+        "description": "Suit of Armour Enchantment. The wearer gains +2 Armour against Magical Attacks.",
+        "cost": "20"
+      },
+      {
+        "name": "Starmetal Alloy",
+        "description": "Shield Enchantment. The first time the bearer’s model suffers an unsaved Wound from an attack with Multiple Wounds, the number of Wounds suffered is halved (rounding fractions up).",
+        "cost": "40"
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Book of Meladys",
+        "description": "Dominant. Once per Magic Phase, the bearer may reroll a single Magic Dice when making a casting roll, provided the spell was not Miscast. When rerolling a natural '1', the rerolled Magic Dice benefits from Fizzle (if the Casting Attempt fails) regardless of the rerolled value.",
+        "cost": "100"
+      },
+      {
+        "name": "Ring of the Pearl Throne",
+        "description": "Cannot be taken by Gigantic. After step 4 of the Round of Combat Sequence (after Issue and Accept Duels), choose a single piece of Special Equipment or a single Dwarven Rune on a model in base contact with the bearer. This piece of Special Equipment or the Dwarven Rune cannot be used for as long as its bearer remains in base contact with the bearer of the Ring of the Pearl Throne. Only a single piece of Special Equipment or a single Dwarven Rune can be affected at any time. In case the model has more than one instance of the chosen equipment, only one instance is affected. ",
+        "cost": "100"
+      },
+      {
+        "name": "Diadem of Protection",
+        "description": "The bearer gains Aegis (+2, max 4+).",
+        "cost": "85"
+      },
+      {
+        "name": "Amethyst Crystal",
+        "description": "Wizards only. Dispel rolls made by the bearer’s Army gain a +1 modifier.",
+        "cost": "70"
+      },
+      {
+        "name": "Glittering Lacquer",
+        "description": "Cavalry models only. The bearer gains Hard Target.",
+        "cost": "45"
+      }
+    ],
+    "standards": [
+      {
+        "name": "Navigator's Banner",
+        "description": "R&F models in the bearer's unit gain Distracting in the first Round of Combat against attacks from enemies Engaged in the bearer’s unit’s Front Facing.",
+        "cost": "75"
+      },
+      {
+        "name": "Banner of Becalming",
+        "description": "In the opponent's Magic Phase, during Siphon the Veil before converting Veil Tokens into Magic Dice, remove one Veil Token from the opponent’s Veil Token pool and add one Veil Token to your Veil Token pool.",
+        "cost": "70"
+      },
+      {
+        "name": "War Banner of Ryma",
+        "description": "R&F models in a unit with one or more War Banners of Ryma gains Devastating Charge (+1 Str). Model parts with Harnessed are not affected. In addition, all infantry models in the unit gain Devastating Charge (+1 Adv).",
+        "cost": "60"
+      }
+    ]
+  },
+  "mounts": [
+    {
+      "id": "1",
+      "name": "Elven Horse",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [],
+          "ADV": "9",
+          "MAR": "18",
+          "Ld": "C",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C+2",
+          "name": "Elven Horse ",
+          "A": "1",
+          "OFF": "3",
+          "S": "3",
+          "AP": "0",
+          "I": "4"
+        }
+      ],
+      "size": "Standard",
+      "type": "Cavalry"
+    },
+    {
+      "id": "2",
+      "name": "Giant Eagle",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [],
+          "ADV": "2 (9)",
+          "MAR": "4 (18)",
+          "Ld": "C",
+          "W": "C",
+          "DEF": "C",
+          "T": "4",
+          "ARM": "C+1",
+          "name": "Giant Eagle ",
+          "A": "2",
+          "OFF": "5",
+          "S": "4",
+          "AP": "1",
+          "I": "4"
+        }
+      ],
+      "size": "Large ",
+      "type": "Cavalry"
+    },
+    {
+      "id": "3",
+      "name": "Griffon",
+      "category": "6", 
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Lightning Reflexes"
+            },
+            {
+              "specialrule": "Devastating Charge  (+1 Str, +1 AP, +1 Att)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "6 (8)",
+          "MAR": "12 (16)",
+          "Ld": "C",
+          "W": "4",
+          "DEF": "C",
+          "T": "5",
+          "ARM": "C",
+          "name": "Griffon ",
+          "A": "4",
+          "OFF": "5",
+          "S": "5",
+          "AP": "3",
+          "I": "5"
+        }
+      ],
+      "size": "Large",
+      "type": "Cavalry"
+    },
+    {
+      "id": "4",
+      "name": "Young Dragon",
+      "category": "6", 
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Stomp Attacks  (D3)"
+            },
+            {
+              "specialrule": "Breath Attack  (Str 4, AP1, Flaming Attacks)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "6 (7)",
+          "MAR": "12 (14)",
+          "Ld": "C",
+          "W": "4",
+          "DEF": "C",
+          "T": "5",
+          "ARM": "C+1",
+          "name": "Young Dragon ",
+          "A": "4",
+          "OFF": "5",
+          "S": "5",
+          "AP": "2",
+          "I": "3"
+        }
+      ],
+      "size": "Large",
+      "type": "Cavalry"
+    },
+    {
+      "id": "5",
+      "name": "Dragon",
+      "category": "6", 
+	  "limitation": 1,
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Breath Attack  (Str 4, AP1, Flaming Attacks)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "6 (7)",
+          "MAR": "12 (14)",
+          "Ld": "C",
+          "W": "6",
+          "DEF": "5",
+          "T": "6",
+          "ARM": "4",
+          "name": "Dragon ",
+          "A": "5",
+          "OFF": "5",
+          "S": "6",
+          "AP": "3",
+          "I": "3"
+        }
+      ],
+      "size": "Gigantic",
+      "type": "Beast"
+    },
+    {
+      "id": "6",
+      "name": "Reaver Chariot",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Light Troops"
+            },
+            {
+              "specialrule": "Swiftstride"
+            },
+            {
+              "specialrule": "Lightning Reflexes"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Inanimate"
+            },
+            {
+              "specialrule": "Impact Hits  (D6)"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Light Lance"
+            },
+            {
+              "equipment": "Longbow (3+)"
+            }
+          ],
+          "ADV": "9",
+          "MAR": "14",
+          "Ld": "C",
+          "W": "3",
+          "DEF": "C",
+          "T": "4",
+          "ARM": "C+2",
+          "name": "Reaver Chariot Crew (2) ",
+          "A": "1",
+          "OFF": "4",
+          "S": "3",
+          "AP": "0",
+          "I": "5"
+        },
+        {
+          "name": "Reaver Chariot Horse (2) ",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "1",
+          "OFF": "3",
+          "S": "3",
+          "AP": "0",
+          "I": "4"
+        },
+        {
+          "name": "Reaver Chariot Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "-",
+          "OFF": "-",
+          "S": "5",
+          "AP": "2",
+          "I": "-"
+        }
+      ],
+      "size": "Large",
+      "type": "Construct"
+    },
+    {
+      "id": "7",
+      "name": "Lion Chariot",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Light Troops"
+            },
+            {
+              "specialrule": "Swiftstride"
+            },
+            {
+              "specialrule": "Lightning Reflexes"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Inanimate"
+            },
+            {
+              "specialrule": "Impact Hits  (D6 +1)"
+            },
+            {
+              "specialrule": "Multiple Wounds  (2, against Large Beasts, Large Cavalry, Gigantic)"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Great Weapon"
+            }
+          ],
+          "ADV": "8",
+          "MAR": "8",
+          "Ld": "C",
+          "W": "4",
+          "DEF": "C",
+          "T": "4",
+          "ARM": "C+2",
+          "name": "Lion Chariot Crew (2) ",
+          "A": "1",
+          "OFF": "5",
+          "S": "4",
+          "AP": "1",
+          "I": "5"
+        },
+        {
+          "name": "Lion (2) ",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "2",
+          "OFF": "5",
+          "S": "5",
+          "AP": "2",
+          "I": "4"
+        },
+        {
+          "name": "Lion Chariot Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "-",
+          "OFF": "-",
+          "S": "5",
+          "AP": "2",
+          "I": "-"
+        }
+      ],
+      "size": "Large",
+      "type": "Construct"
+    },
+    {
+      "id": "8",
+      "name": "Sky Sloop",
+      "category": "5", 
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Hard Target"
+            },
+            {
+              "specialrule": "Lightning Reflexes"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Inanimate"
+            },
+            {
+              "specialrule": "Impact Hits  (D6)"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Light Lance"
+            }
+          ],
+          "ADV": "2 (9)",
+          "MAR": "2 (9)",
+          "Ld": "C",
+          "W": "4",
+          "DEF": "C",
+          "T": "4",
+          "ARM": "C+1",
+          "name": "Sky Sloop Chassis",
+          "A": "-",
+          "OFF": "-",
+          "S": "5",
+          "AP": "2",
+          "I": "-"
+        },
+        {
+          "name": "Hawk ",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "2",
+          "OFF": "4",
+          "S": "4",
+          "AP": "1",
+          "I": "4"
+        },
+        {
+          "name": "Sky Sloop Crew (2) ",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "1",
+          "OFF": "4",
+          "S": "3",
+          "AP": "0",
+          "I": "5"
+        }
+      ],
+      "size": "Large",
+      "type": "Construct"
+    },
+    {
+      "id": "9",
+      "name": "Ancient Dragon",
+	  "limitation": 1,
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Breath Attack  (Str 4, AP1, Flaming Attacks)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "6 (7)",
+          "MAR": "12 (16)",
+          "Ld": "C",
+          "W": "8",
+          "DEF": "6",
+          "T": "6",
+          "ARM": "4",
+          "name": "Dragon ",
+          "A": "6",
+          "OFF": "6",
+          "S": "7",
+          "AP": "4",
+          "I": "3"
+        }
+      ],
+      "size": "Gigantic",
+      "type": "Beast"
+    }
+  ],
+  "army": [
+    {
+      "organisation": "1",
+      "units": [
+        {
+          "name": "High Prince",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "250",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "10",
+              "W": "3",
+              "DEF": "7",
+              "T": "3",
+              "ARM": "0",
+              "name": "High Prince ",
+              "A": "4",
+              "OFF": "7",
+              "S": "4",
+              "AP": "1",
+              "I": "8"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Shield",
+                  "cost": "5"
+                },
+                {
+                  "name": "Longbow (0+)",
+                  "cost": "5"
+                },
+                {
+                  "name": "2 Additonal Learned Spells",
+                  "cost": "80"
+                },
+                {
+                  "name": "Lion Chariot",
+                  "cost": "120"
+                }
+              ]
+            },
+            {
+              "name": "Honour Selection",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": []
+            },
+            {
+              "name": "Armour",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Light Armour",
+                  "cost": "0"
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": "15"
+                },
+                {
+                  "name": "Dragonforged Armour",
+                  "cost": "25"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "5"
+                },
+                {
+                  "name": "Spear",
+                  "cost": "5"
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": "5"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "15"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "15"
+                },
+                {
+                  "name": "Lance",
+                  "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": "60"
+                },
+                {
+                  "mount": "6",
+                  "cost": "60"
+                },
+                {
+                  "mount": "2",
+                  "cost": "65"
+                },
+                {
+                  "mount": "3",
+                  "cost": "220"
+                },
+                {
+                  "mount": "4",
+                  "cost": "290"
+                },
+                {
+                  "mount": "5",
+                  "cost": "460"
+                },
+                {
+                  "mount": "9",
+                  "cost": "660"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Commander",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "150",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "9",
+              "W": "3",
+              "DEF": "6",
+              "T": "3",
+              "ARM": "0",
+              "name": "Commander ",
+              "A": "3",
+              "OFF": "6",
+              "S": "4",
+              "AP": "1",
+              "I": "7"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Shield",
+                  "cost": "5"
+                },
+                {
+                  "name": "Longbow (1+)",
+                  "cost": "5"
+                }
+              ]
+            },
+            {
+              "name": "Honour Selection",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": []
+            },
+            {
+              "name": "Armour",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Light Armour",
+                  "cost": "0"
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": "10"
+                },
+                {
+                  "name": "Dragonforged Armour",
+                  "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "5"
+                },
+                {
+                  "name": "Spear",
+                  "cost": "5"
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": "5"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "10"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "10"
+                },
+                {
+                  "name": "Lance",
+                  "cost": "10"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": "50"
+                },
+                {
+                  "mount": "6",
+                  "cost": "50"
+                },
+                {
+                  "cost": "65"
+                  "mount": "2",
+                },
+                {
+                  "cost": "220"
+                  "mount": "3",
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mage",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "225",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Master of Spellcrafting"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "9",
+              "W": "3",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Mage ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Light Armour",
+                  "cost": "5"
+                },
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "150"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Pyromancy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                },
+                {
+                  "name": "Cosmology",
+                  "cost": "0"
+                },
+                {
+                  "name": "Alchemy",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Honour",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": []
+            },
+            {
+              "name": "Fiery Heart Upgrades",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": "5"
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": "15"
+                },
+                {
+                  "name": "Dragonforged Armour",
+                  "cost": "30"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "5"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": "20"
+                },
+                {
+                  "mount": "6",
+                  "cost": "20"
+                },
+                {
+                  "mount": "2",
+                  "cost": "25"
+                },
+                {
+                  "mount": "3",
+                  "cost": "125"
+                },
+                {
+                  "mount": "4",
+                  "cost": "170"
+                },
+                {
+                  "mount": "5",
+                  "cost": "460"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "2",
+      "units": [
+        {
+          "name": "Citizen Spears",
+          "Base": "1",
+          "unitsize": "20",
+          "maxmodels": "30",
+          "modelcost": "16",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "240",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Fight in Extra Rank"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Spear"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Citizen Spear ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Highborn Lancers",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "10",
+          "modelcost": "41",
+          "size": "Standard",
+          "limitation": 4,
+          "type": "Infantry",
+          "cost": "250",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Lance"
+                }
+              ],
+              "ADV": "9",
+              "MAR": "18",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "2",
+              "name": "Highborn Lancer ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            },
+            {
+              "name": "Elven Horse ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Citizen Archers",
+          "Base": "1",
+          "unitsize": "10",
+          "maxmodels": "20",
+          "modelcost": "18",
+          "size": "Standard",
+          "category": "4",
+          "type": "Infantry",
+          "cost": "170",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Longbow (3+)"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Citizen Archer ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sea Guard",
+          "Base": "1",
+          "unitsize": "15",
+          "maxmodels": "15",
+          "modelcost": "22",
+          "category": "4",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "320",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Steady Aim"
+                },
+                {
+                  "specialrule": "Cover Volley"
+                },
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Bow (3+)"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Spear"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "5",
+              "T": "3",
+              "ARM": "0",
+              "name": "Sea Guard ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Elein Reavers",
+          "Base": "1",
+          "unitsize": "5",
+          "category": "4",
+          "limitation": 4,
+          "maxmodels": "5",
+          "modelcost": "25",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "180",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Feigned Flight"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Light Lance"
+                }
+              ],
+              "ADV": "9",
+              "MAR": "18",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "1",
+              "name": "Elein Reaver ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            },
+            {
+              "name": "Elven Horse ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Bow (3+)",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Bow (3+)",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "3",
+      "units": [
+        {
+          "name": "Sword Masters",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "25",
+          "modelcost": "23",
+          "limitation": "4",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "130",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Sword Sworn"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Great Weapon"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "6",
+              "T": "3",
+              "ARM": "0",
+              "name": "Sword Master ",
+              "A": "2",
+              "OFF": "6",
+              "S": "3",
+              "AP": "0",
+              "I": "6"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lion Guard",
+          "Base": "1",
+          "unitsize": "10",
+          "maxmodels": "20",
+          "limitation": "5",
+          "modelcost": "28",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "225",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Strider  (Forest)"
+                },
+                {
+                  "specialrule": "Valiant"
+                },
+                {
+                  "specialrule": "Bodyguard  (High Prince General)"
+                },
+                {
+                  "specialrule": "Multiple Wounds  (2, Large Beast, Large Cavalry, Gigantic)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Great Weapon"
+                },
+                {
+                  "equipment": "Lion's Fur"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "5",
+              "T": "3",
+              "ARM": "0",
+              "name": "Lion Guard ",
+              "A": "1",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Gain Skirmish",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Gain Skirmish",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flame Wardens",
+          "Base": "1",
+          "unitsize": "15",
+          "maxmodels": "10",
+          "modelcost": "28",
+          "size": "Standard",
+          "limitation": "5",
+          "type": "Infantry",
+          "cost": "360",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Aegis  (4+)"
+                },
+                {
+                  "specialrule": "Fight in Extra Rank"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Halberd"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "5",
+              "T": "3",
+              "ARM": "0",
+              "name": "Flame Warden ",
+              "A": "1",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "6"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Knights of Ryma",
+          "unitsize": "5",
+          "maxmodels": "7",
+          "modelcost": "54",
+          "size": "Standard",
+          "type": "Cavalry",
+          "Base": "1",
+          "cost": "340",
+          "limitation": "4",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Devastating Charge  (+1 Att)"
+                },
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Dragonforged Armour"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Lance"
+                }
+              ],
+              "ADV": "9",
+              "MAR": "18",
+              "Ld": "9",
+              "W": "1",
+              "DEF": "5",
+              "T": "3",
+              "ARM": "2",
+              "name": "Knight of Ryma",
+              "A": "2",
+              "OFF": "5",
+              "S": "4",
+              "AP": "0",
+              "I": "6"
+            },
+            {
+              "name": "Elven Horse ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reaver Chariots",
+          "Base": "1",
+          "unitsize": "1",
+          "maxmodels": "3",
+          "modelcost": "100",
+          "size": "Large",
+          "limitation": "3",
+          "type": "Construct",
+          "cost": "110",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Lance"
+                },
+                {
+                  "equipment": "Longbow (3+)"
+                }
+              ],
+              "ADV": "9",
+              "MAR": "14",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "4",
+              "T": "4",
+              "ARM": "2",
+              "name": "Reaver Chariot Crew (2) ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            },
+            {
+              "name": "Reaver Chariot Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            },
+            {
+              "name": "Reaver Chariot Horse (2) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lion Chariot",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "limitation": "3",
+          "cost": "215",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6 +1)"
+                },
+                {
+                  "specialrule": "Multiple Wounds  (2, against Large Beasts, Large Cavalry, Gigantic)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Great Weapon"
+                },
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "8",
+              "Ld": "8",
+              "W": "4",
+              "DEF": "C",
+              "T": "4",
+              "ARM": "2",
+              "name": "Lion Chariot Crew (2) ",
+              "A": "1",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "5"
+            },
+            {
+              "name": "Lion (2) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            },
+            {
+              "name": "Lion Chariot Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Giant Eagles",
+          "Base": "1",
+          "unitsize": "1",
+          "maxmodels": "4",
+          "modelcost": "35",
+          "limitation": "2",
+          "size": "Large ",
+          "type": "Cavalry",
+          "cost": "100",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Fly"
+                }
+              ],
+              "equipments": [],
+              "ADV": "2 (9)",
+              "MAR": "4 (18)",
+              "Ld": "8",
+              "W": "C",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "0",
+              "name": "Giant Eagle ",
+              "A": "2",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "4",
+      "units": [
+        {
+          "name": "Queen's Guard",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "15",
+          "modelcost": "29",
+          "size": "Standard",
+          "limitation": "3",
+          "type": "Infantry",
+          "cost": "140",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Moonlight Arrows"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Longbow"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "5",
+              "T": "3",
+              "ARM": "0",
+              "name": "Queen's Guard ",
+              "A": "1",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Spear",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Spear",
+                  "cost": "1"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Grey Watchers",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "5",
+          "modelcost": "28",
+          "size": "Standard",
+          "limitation": "2",
+          "type": "Infantry",
+          "cost": "165",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Fae Miasma"
+                },
+                {
+                  "specialrule": "Accurate"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Longbow (2+)"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Grey Watcher ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Scout",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Scout",
+                  "cost": "3"
+                },
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Shield",
+                  "cost": "1"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "5",
+      "units": [
+        {
+          "name": "Sea Guard Reaper",
+          "Base": "1",
+          "size": "Standard",
+          "limitation": "3",
+          "type": "Construct",
+          "cost": "180",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "War Machine"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "5",
+              "Ld": "8",
+              "W": "4",
+              "DEF": "1",
+              "T": "4",
+              "ARM": "0",
+              "name": "Sea Guard Reaper ",
+              "A": "2",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Sky Sloop",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "limitation": "2",
+          "cost": "265",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Hard Target"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Lance"
+                }
+              ],
+              "ADV": "2 (9)",
+              "MAR": "2 (9)",
+              "Ld": "8",
+              "W": "4",
+              "DEF": "1",
+              "T": "4",
+              "ARM": "1",
+              "name": "Sky Sloop Chassis",
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            },
+            {
+              "name": "Hawk ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "4",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            },
+            {
+              "name": "Sky Sloop Crew (2) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "6",
+      "units": [
+        {
+          "name": "Phoenix",
+          "Base": "1",
+          "size": "Gigantic",
+          "limitation": "3",
+          "type": "Beast",
+          "cost": "380",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Rebirth"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Martial Discipline"
+                },
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [],
+              "ADV": "2 (9)",
+              "MAR": "4 (18)",
+              "Ld": "8",
+              "W": "5",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "3",
+              "name": "Phoenix ",
+              "A": "4",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Warden's Bond",
+                  "cost": "75"
+                }
+              ]
+            },
+            {
+              "name": "Must become:",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Fire Phoenix",
+                  "cost": "40"
+                },
+                {
+                  "name": "Frost Phoenix",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
