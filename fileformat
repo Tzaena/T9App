@@ -539,10 +539,10 @@ namespace WindowsFormsApp1
                                     {
                                         foreach (XmlNode selectionentry in selectionentries.ChildNodes)
                                         {
+                                            dynamic itemrule = new JObject();
+                                            itemrule.name = selectionentry.Attributes["name"].Value;
                                             if (selectionentry.Name == "selectionEntry")
                                             {
-                                                dynamic itemrule = new JObject();
-                                                itemrule.name = selectionentry.Attributes["name"].Value;
 
                                                 foreach (XmlNode profiles in selectionentry.ChildNodes)
                                                 {
@@ -564,13 +564,12 @@ namespace WindowsFormsApp1
                                                             itemrule.description = description;
                                                         }
                                                     }
+                                                    else if (profiles.Name == "costs")
+                                                    {
+                                                        itemrule.cost = profiles.ChildNodes[0].Attributes["value"].Value.Replace(".0", "");
+                                                    }
                                                 }
                                                 itementry.Add(itemrule);
-                                            }
-                                            else if (model.Name == "costs")
-                                            {
-                                                dynamic itemrule = new JObject();
-                                                itemrule.cost = model.ChildNodes[0].Attributes["value"].Value.Replace(".0", "");
                                             }
                                         }
                                     }
