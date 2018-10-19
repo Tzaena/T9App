@@ -506,6 +506,7 @@ namespace WindowsFormsApp1
                     }
                     else if (entry.Name == "sharedSelectionEntryGroups")
                     {
+                        int count = 0;
                         foreach (XmlNode model in entry.ChildNodes)
                         {
                             if (model.Name == "selectionEntryGroup")
@@ -519,6 +520,19 @@ namespace WindowsFormsApp1
                                     items.artefacts = itementry;
                                 else if (model.Attributes["name"].Value.ToLower().Contains("banner"))
                                     items.standards = itementry;
+                                else
+                                {
+                                    switch (count)
+                                    {
+                                        case 0: items.category1 = itementry;break;
+                                        case 1: items.category2 = itementry; break;
+                                        case 2: items.category3 = itementry; break;
+                                        case 3: items.category4 = itementry; break;
+                                        case 4: items.category5 = itementry; break;
+                                        case 5: items.category6 = itementry; break;
+                                    }
+                                    count++;
+                                }
                                 foreach (XmlNode selectionentries in model.ChildNodes)
                                 {
                                     if (selectionentries.Name == "selectionEntries")
