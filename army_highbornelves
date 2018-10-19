@@ -187,7 +187,7 @@
     {
       "id": "3",
       "name": "Griffon",
-      "category": "6", 
+      "category": "6",
       "rules": [
         {
           "specialrules": [
@@ -232,7 +232,7 @@
     {
       "id": "4",
       "name": "Young Dragon",
-      "category": "6", 
+      "category": "6",
       "rules": [
         {
           "specialrules": [
@@ -277,8 +277,8 @@
     {
       "id": "5",
       "name": "Dragon",
-      "category": "6", 
-	  "limitation": 1,
+      "category": "6",
+      "limitation": 1,
       "rules": [
         {
           "specialrules": [
@@ -484,7 +484,7 @@
     {
       "id": "8",
       "name": "Sky Sloop",
-      "category": "5", 
+      "category": "5",
       "rules": [
         {
           "specialrules": [
@@ -567,7 +567,8 @@
     {
       "id": "9",
       "name": "Ancient Dragon",
-	  "limitation": 1,
+      "limitation": 1,
+      "category": "6",
       "rules": [
         {
           "specialrules": [
@@ -878,12 +879,12 @@
                   "cost": "50"
                 },
                 {
-                  "cost": "65"
-                  "mount": "2",
+                  "cost": "65",
+                  "mount": "2"
                 },
                 {
-                  "cost": "220"
-                  "mount": "3",
+                  "cost": "220",
+                  "mount": "3"
                 }
               ]
             }
@@ -1850,7 +1851,6 @@
               "AP": "0",
               "I": "4"
             }
-          }
           ],
           "options": [
             {
