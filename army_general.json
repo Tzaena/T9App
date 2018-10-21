@@ -1,27 +1,27 @@
 {
-    "types": [
-      {
-        "id": "1",
-        "name": "Infantry"
-      },
-      {
-        "id": "2",
-        "name": "Beast"
-      },
-      {
-        "id": "3",
-        "name": "Cavalry"
-      },
-      {
-        "id": "4",
-        "name": "Construct"
-      }
-    ],
+  "types": [
+    {
+      "id": "1",
+      "name": "Infantry"
+    },
+    {
+      "id": "2",
+      "name": "Beast"
+    },
+    {
+      "id": "3",
+      "name": "Cavalry"
+    },
+    {
+      "id": "4",
+      "name": "Construct"
+    }
+  ],
   "sizes" : [
-      {
-        "id": "1",
-        "name": "Standard"
-      },
+    {
+      "id": "1",
+      "name": "Standard"
+    },
     {
       "id": "2",
       "name": "Large"
@@ -30,109 +30,109 @@
       "id": "3",
       "name": "Gigantic"
     }
-    ],
-    "bases": [
-      {
-        "id": "1",
-        "name": "20x20"
-      },
-      {
-        "id": "2",
-        "name": "25x50"
-      },
-      {
-        "id": "3",
-        "name": "40x40"
-      },
-      {
-        "id": "4",
-        "name": "50x100"
-      },
-      {
-        "id": "5",
-        "name": "50x75"
-      },
-      {
-        "id": "6",
-        "name": "40x60"
-      },
-      {
-        "id": "7",
-        "name": "50x50"
-      },
-      {
-        "id": "8",
-        "name": "25x25"
-      }
-    ],
+  ],
+  "bases": [
+    {
+      "id": "1",
+      "name": "20x20"
+    },
+    {
+      "id": "2",
+      "name": "25x50"
+    },
+    {
+      "id": "3",
+      "name": "40x40"
+    },
+    {
+      "id": "4",
+      "name": "50x100"
+    },
+    {
+      "id": "5",
+      "name": "50x75"
+    },
+    {
+      "id": "6",
+      "name": "40x60"
+    },
+    {
+      "id": "7",
+      "name": "50x50"
+    },
+    {
+      "id": "8",
+      "name": "25x25"
+    }
+  ],
   "deployments" : [
-      {
-        "id": "1",
-        "name": "Frontline Clash",
-		"description":"Deployment Zones are areas more than 12' away from the Centre Line.",
-		"image": "frontlineclash"
-      },
-      {
-        "id": "2",
-        "name": "Dawn Assault",
-		"description":"The player who chooses the Deployment Zone also chooses a short table edge (the other player gets the opposite short table edge). Deployment Zones are areas more than 12″ away from the Centre Line and more than 1/4 of the table’s length from the opponent’s short table edge (18' on a 72' table). When declaring Special Deployment, players may choose to keep up to two of their units as reinforcement. These units follow the rules for Ambushing units, except that they must be placed touching the controlling player’s short table edge when they arrive.",
-		"image": "dawnassault"
-      },
-      {
-        "id": "3",
-        "name": "Counterthrust",
-		"description":"Deployment Zones are areas more than 8″ away from the Centre Line. Units must be deployed more than 20' away from enemy units. Units using Special Deployment, such as Scout, ignore these rules. During their first 3 deployment turns, each player must deploy a single unit, and cannot deploy any Characters.",
-		"image": "counterthrust"
-      },
-      {
-        "id": "4",
-        "name": "Encircle",
-		"description":"The player who chooses the Deployment Zone decides if they want to be the attacker or the defender. The attacker must deploy more than 9' from the Centre Line if entirely within a quarter of the table’s length from either short table edge (18' on a 72' table), and more than 15' from the Centre Line elsewhere. The defender does the opposite: more than 15' away from the Centre Line if within a quarter of the table’s length from the short table edge, and more than 9' away from the Centre Line elsewhere.",
-		"image": "encircle"
-      },
-      {
-        "id": "5",
-        "name": "Refused Flank",
-		"description":"The table is divided into halves by a diagonal line across the table. Whoever gets to choose the Deployment Zone decides which diagonal to use. Deployment Zones are areas more than 9' away from this line.",
-		"image": "refusedflank"
-      },
-      {
-        "id": "1",
-        "name": "Marching Columns",
-		"description":"Deployment Zones are areas more than 12″ away from the Centre Line. Each player must choose a short table edge when deploying their first unit. Each unit this player deploys afterwards must be deployed with its Centre further away from the chosen short table edge than the Centre of the last unit this player deployed (measure from the closest point on the short table edge). War Machines, War Platforms, Characters, and Scouting units ignore these rules. During their first 3 deployment turns, each player must deploy only a single unit, and cannot deploy any Characters. Instead of deploying a unit, a player may choose to make all undeployed units Delayed that are not using Special Deployment. Delayed units follow the rules for Ambushing units with the following exceptions: - In each Player Turn, after rolling for all Ambushing . units, the opponent chooses the order in which all Delayed units that passed the 3+ roll enter the Battlefield. - In the chosen order, each unit (one after another) must be placed with the centre of its rear rank as close as possible to the centre of the long table edge in their owner’s Deployment Zone before any non-Delayed Ambushers are placed on the Battlefield. - After all arriving units have been placed, they can be moved as described in the rules for Ambush.",
-		"image": "marchingcolumns"
-      }
-    ],
+    {
+      "id": "1",
+      "name": "Frontline Clash",
+      "description":"Deployment Zones are areas more than 12' away from the Centre Line.",
+      "image": "frontlineclash"
+    },
+    {
+      "id": "2",
+      "name": "Dawn Assault",
+      "description":"The player who chooses the Deployment Zone also chooses a short table edge (the other player gets the opposite short table edge). Deployment Zones are areas more than 12″ away from the Centre Line and more than 1/4 of the table’s length from the opponent’s short table edge (18' on a 72' table). When declaring Special Deployment, players may choose to keep up to two of their units as reinforcement. These units follow the rules for Ambushing units, except that they must be placed touching the controlling player’s short table edge when they arrive.",
+      "image": "dawnassault"
+    },
+    {
+      "id": "3",
+      "name": "Counterthrust",
+      "description":"Deployment Zones are areas more than 8″ away from the Centre Line. Units must be deployed more than 20' away from enemy units. Units using Special Deployment, such as Scout, ignore these rules. During their first 3 deployment turns, each player must deploy a single unit, and cannot deploy any Characters.",
+      "image": "counterthrust"
+    },
+    {
+      "id": "4",
+      "name": "Encircle",
+      "description":"The player who chooses the Deployment Zone decides if they want to be the attacker or the defender. The attacker must deploy more than 9' from the Centre Line if entirely within a quarter of the table’s length from either short table edge (18' on a 72' table), and more than 15' from the Centre Line elsewhere. The defender does the opposite: more than 15' away from the Centre Line if within a quarter of the table’s length from the short table edge, and more than 9' away from the Centre Line elsewhere.",
+      "image": "encircle"
+    },
+    {
+      "id": "5",
+      "name": "Refused Flank",
+      "description":"The table is divided into halves by a diagonal line across the table. Whoever gets to choose the Deployment Zone decides which diagonal to use. Deployment Zones are areas more than 9' away from this line.",
+      "image": "refusedflank"
+    },
+    {
+      "id": "6",
+      "name": "Marching Columns",
+      "description":"Deployment Zones are areas more than 12″ away from the Centre Line. Each player must choose a short table edge when deploying their first unit. Each unit this player deploys afterwards must be deployed with its Centre further away from the chosen short table edge than the Centre of the last unit this player deployed (measure from the closest point on the short table edge). War Machines, War Platforms, Characters, and Scouting units ignore these rules. During their first 3 deployment turns, each player must deploy only a single unit, and cannot deploy any Characters. Instead of deploying a unit, a player may choose to make all undeployed units Delayed that are not using Special Deployment. Delayed units follow the rules for Ambushing units with the following exceptions: - In each Player Turn, after rolling for all Ambushing . units, the opponent chooses the order in which all Delayed units that passed the 3+ roll enter the Battlefield. - In the chosen order, each unit (one after another) must be placed with the centre of its rear rank as close as possible to the centre of the long table edge in their owner’s Deployment Zone before any non-Delayed Ambushers are placed on the Battlefield. - After all arriving units have been placed, they can be moved as described in the rules for Ambush.",
+      "image": "marchingcolumns"
+    }
+  ],
   "scenarios" : [
-      {
-        "id": "1",
-        "name": "Hold the Ground",
-		"description":"At the end of each Game Turn after the first, the player with the most Scoring Units within 6' of the centre of the board gains a counter. At the end of the game, the player with the most such counters wins this Secondary Objective."
-      },
-      {
-        "id": "2",
-        "name": "Breakthrough",
-		"description":"The player with the most Scoring Units inside their opponent’s Deployment Zone at the end of the game, up to a maximum of 3, wins this Secondary Objective."
-      },
-      {
-        "id": "3",
-        "name": "Spoils of War",
-		"description":"Place 3 markers along the line dividing the board into halves (the dashed line in the figures describing Deployment Types). One marker is placed on a point on this line that is as close as possible to the centre of the board while still being more than 1' away from Impassable Terrain. The other two markers are placed on points on this line that are on either side of the central marker, as close to the centre as possible but at least a third of the long table edge length (24' on a standard board) away from it, and more than 1' away from Impassable Terrain. At the start of each of your Player Turns, each of your Scoring units that is not carrying a marker may pick up a single marker they are in contact with. Remove the marker from the Battlefield: the unit is now carrying the marker. Units carrying a marker with less than 3 Full Ranks have their March Rate set to their Advance Rate. If a unit carrying a marker is destroyed or loses Scoring (ignore Post-Combat Reform for this purpose), the opponent must immediately place the marker carried by this unit on a point within 3' of it. This point cannot be within 1' of Impassable Terrain, but it can be inside a unit. At the end of the game, the player with the most units carrying markers wins this Secondary Objective."
-      },
-      {
-        "id": "4",
-        "name": "King of the Hill",
-		"description":"After Spell Selection (at the end of step 7 of the Pre-Game Sequence), both players choose a Terrain Feature that isn’t Impassable Terrain and that is not entirely within their Deployment Zone, starting with the player that chose their Deployment Zone (note that both players may choose the same Terrain Feature). A player captures the opponent’s chosen Terrain Feature if any of his Scoring Units are inside that Terrain Feature at the end of the game. A player wins this Secondary Objective if he captures the opponent’s chosen Terrain Feature while his chosen Terrain Feature is not captured by his opponent."
-      },
-      {
-        "id": "5",
-        "name": "Capture the Flags",
-		"description":"After Spell Selection (at the end of step 7 of the Pre-Game Sequence), mark all Scoring Units on both players’ Army Lists. If either player has less than 3 marked units, their opponent must mark enough units from the player’s Army List so that there are exactly 3 marked units in the army, starting with the player that chose their Deployment Zone. The player that has the lowest number of their marked units removed as casualties at the end of the game wins this Secondary Objective"
-      },
-      {
-        "id": "6",
-        "name": "Secure Target",
-		"description":"Directly after determining Deployment Zones, both players place one marker on the Battlefield, starting with the player that chose their Deployment Zone. Each player must place the marker on a point that is more than 12' away from their Deployment Zone and a third of the long table edge length (24' on a standard board) from the point marked by the other marker. At the end of the game, the player controlling the most markers wins this Secondary Objective. A marker is controlled by the player with the most Scoring Units within 6' of the marker. If a unit is within 6' of both markers, it only counts as within 6' of the marker which is closest to its Centre (randomise if both markers are equally close)."
-      }
-	]
-  }
+    {
+      "id": "1",
+      "name": "Hold the Ground",
+      "description":"At the end of each Game Turn after the first, the player with the most Scoring Units within 6' of the centre of the board gains a counter. At the end of the game, the player with the most such counters wins this Secondary Objective."
+    },
+    {
+      "id": "2",
+      "name": "Breakthrough",
+      "description":"The player with the most Scoring Units inside their opponent’s Deployment Zone at the end of the game, up to a maximum of 3, wins this Secondary Objective."
+    },
+    {
+      "id": "3",
+      "name": "Spoils of War",
+      "description":"Place 3 markers along the line dividing the board into halves (the dashed line in the figures describing Deployment Types). One marker is placed on a point on this line that is as close as possible to the centre of the board while still being more than 1' away from Impassable Terrain. The other two markers are placed on points on this line that are on either side of the central marker, as close to the centre as possible but at least a third of the long table edge length (24' on a standard board) away from it, and more than 1' away from Impassable Terrain. At the start of each of your Player Turns, each of your Scoring units that is not carrying a marker may pick up a single marker they are in contact with. Remove the marker from the Battlefield: the unit is now carrying the marker. Units carrying a marker with less than 3 Full Ranks have their March Rate set to their Advance Rate. If a unit carrying a marker is destroyed or loses Scoring (ignore Post-Combat Reform for this purpose), the opponent must immediately place the marker carried by this unit on a point within 3' of it. This point cannot be within 1' of Impassable Terrain, but it can be inside a unit. At the end of the game, the player with the most units carrying markers wins this Secondary Objective."
+    },
+    {
+      "id": "4",
+      "name": "King of the Hill",
+      "description":"After Spell Selection (at the end of step 7 of the Pre-Game Sequence), both players choose a Terrain Feature that isn’t Impassable Terrain and that is not entirely within their Deployment Zone, starting with the player that chose their Deployment Zone (note that both players may choose the same Terrain Feature). A player captures the opponent’s chosen Terrain Feature if any of his Scoring Units are inside that Terrain Feature at the end of the game. A player wins this Secondary Objective if he captures the opponent’s chosen Terrain Feature while his chosen Terrain Feature is not captured by his opponent."
+    },
+    {
+      "id": "5",
+      "name": "Capture the Flags",
+      "description":"After Spell Selection (at the end of step 7 of the Pre-Game Sequence), mark all Scoring Units on both players’ Army Lists. If either player has less than 3 marked units, their opponent must mark enough units from the player’s Army List so that there are exactly 3 marked units in the army, starting with the player that chose their Deployment Zone. The player that has the lowest number of their marked units removed as casualties at the end of the game wins this Secondary Objective"
+    },
+    {
+      "id": "6",
+      "name": "Secure Target",
+      "description":"Directly after determining Deployment Zones, both players place one marker on the Battlefield, starting with the player that chose their Deployment Zone. Each player must place the marker on a point that is more than 12' away from their Deployment Zone and a third of the long table edge length (24' on a standard board) from the point marked by the other marker. At the end of the game, the player controlling the most markers wins this Secondary Objective. A marker is controlled by the player with the most Scoring Units within 6' of the marker. If a unit is within 6' of both markers, it only counts as within 6' of the marker which is closest to its Centre (randomise if both markers are equally close)."
+    }
+  ]
+}

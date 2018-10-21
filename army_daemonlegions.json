@@ -1,0 +1,3135 @@
+{
+  "organisation": [
+    {
+      "id": "1",
+      "percent": 40,
+      "type": "max",
+      "name": "Characters"
+    },
+    {
+      "id": "2",
+      "percent": 25,
+      "type": "min",
+      "name": "Core"
+    },
+    {
+      "id": "3",
+      "percent": 100,
+      "type": "max",
+      "name": "Special"
+    },
+    {
+      "id": "4",
+      "percent": 40,
+      "type": "max",
+      "name": "Dark Gods' Might"
+    },
+    {
+      "id": "5",
+      "percent": 60,
+      "type": "max",
+      "name": "Minions of Change"
+    },
+    {
+      "id": "6",
+      "percent": 60,
+      "type": "max",
+      "name": "Minions of Lust"
+    },
+    {
+      "id": "7",
+      "percent": 60,
+      "type": "max",
+      "name": "Minions of Pestilence"
+    },
+    {
+      "id": "8",
+      "percent": 100,
+      "type": "max",
+      "name": "Minions of Wrath"
+    }
+  ],
+  "magicitems": {
+    "weapons": [
+      {
+        "name": "Eternal Sword",
+        "description": "Hand Weapon EnchantmentThe wielder gains +1 Attack Value, +1 Offensive Skill, and +1 Defensive Skill. Attacks made with this weapon gain +1 Strength and +1 Armour Penetration.",
+        "cost": "85"
+      },
+      {
+        "name": "Mortal Blade",
+        "description": "Hand Weapon EnchantmentAttacks made with this weapon gain Lethal Strike and Multiple Wounds (2, against Gigantic).",
+        "cost": "40"
+      },
+      {
+        "name": "Lash of Lust",
+        "description": "Hand Weapon enchantment.May be used to make the following Shooting Attack: Range 12\", Shots 2D6, Str as user, AP as user, Quick to Fire. This may not be used if the wielder performed a March Move.  The Aim is 3+. If the wielder is Gigantic, the Aim is 2+ instead.",
+        "cost": "75"
+      },
+      {
+        "name": "Heart Seeker",
+        "description": "Hand Weapon EnchantmentNatural to-hit rolls of ‘1’ from attacks made with this weapon must be rerolled",
+        "cost": "45"
+      },
+      {
+        "name": "Dissolving Touch",
+        "description": "Hand Weapon EnchantmentAt Initiative Step 10, each enemy model in base contact with the wielder suffers 1 hit with Toxic Attacks.",
+        "cost": "30"
+      },
+      {
+        "name": "Aether Wand",
+        "description": "Hand Weapon EnchantmentWhenever the wielder successfully casts a non-attribute Spell, or successfully dispels a Spell, roll a D6. On a 4+, the wielder gains a charge counter. Roll a D6. On aFor each charge counter the wielder gains +1 Attack Value when using this weapon.",
+        "cost": "55"
+      },
+      {
+        "name": "Blade of Grief",
+        "description": "Hand Weapon EnchantmentThe wielder gains Fear. Attacks made with this weapon gain Divine Attacks.",
+        "cost": "25"
+      },
+      {
+        "name": "Trident of Torment",
+        "description": "Hand Weapon EnchantmentThe wielder gains +1 Offensive Skill, +1 Defensive Skill, and +1 Agility when using this weapon. Attacks made with this weapon gain +1 Armour Penetration. ",
+        "cost": "30"
+      }
+    ],
+    "Artefacts": [
+      {
+        "name": "Nauseating Aura",
+        "description": "CharmEnemy units in base contact with the bearer never have more than Agility 1 during the Melee Phase. ",
+        "cost": "100"
+      },
+      {
+        "name": "Shackles of Reality",
+        "description": "CharmThe Bearer gains Fortitude (4+)",
+        "cost": "90"
+      },
+      {
+        "name": "Veil of Shadows",
+        "description": "CharmThe bearer’s unit gains Hard Target and Magic Resistance (1).",
+        "cost": "70"
+      },
+      {
+        "name": "Iron Hide",
+        "description": "CharmThe bearer Armour is set to 2.",
+        "cost": "70"
+      },
+      {
+        "name": "Brass Collar",
+        "description": "CharmThe Bearer gains Magic Resistance (3)",
+        "cost": "30"
+      },
+      {
+        "name": "Blissful Bindings",
+        "description": "CharmClose Combat Attacks allocated towards the bearer have their Offensive Skill halved, rounding fractions up. ",
+        "cost": "60"
+      },
+      {
+        "name": "Weaver's Eye",
+        "description": "CharmOne Use Only. May be activated when the bearer fails an Aegis Save. This failed Aegis Save may be rerolled.",
+        "cost": "10"
+      }
+    ],
+    "category2": [
+      {
+        "name": "Hellish Crown",
+        "description": "CharmThe Bearer gains +1 Discipline.",
+        "cost": "70"
+      },
+      {
+        "name": "Horn of Damnation",
+        "description": "CharmEnemy units in base contact with the bearer cannot benefit from Rally Around the Flag.",
+        "cost": "65"
+      },
+      {
+        "name": "Obsidian Horn",
+        "description": "CharmOne use only. May be activated at the start of the enemy Magic Phase. When activated, pick an enemy model and choose one of its spells (including Attribute and Bound Spells). The chosen model cannot cast the chosen spell during this Magic Phase.",
+        "cost": "55"
+      },
+      {
+        "name": "Token of Change",
+        "description": "CharmThe bearer can cast Fate’s Judgement from Divination as a Bound Spell with Power Level (4/8).",
+        "cost": "40"
+      },
+      {
+        "name": "Token of Lust",
+        "description": "CharmThe bearer can cast Spectral Blades from Evocation as a Bound Spell with Power Level (4/8).",
+        "cost": "40"
+      },
+      {
+        "name": "Token of Pestilence",
+        "description": "CharmThe bearer can cast Ancestral Aid from Evocation as a Bound Spell with Power Level (4/8).",
+        "cost": "40"
+      },
+      {
+        "name": "Portal Gem",
+        "description": "CharmAll friendly units within 12\" of the bearer lose 1 Health Point less from failed Unstable rolls.",
+        "cost": "25"
+      },
+      {
+        "name": "Black Orb",
+        "description": "CharmEnemy Wizards suffer a -2 modifier to their casting rolls when casting spells from Divination.",
+        "cost": "20"
+      },
+      {
+        "name": "Blazing Wings",
+        "description": "CharmThe bearer gains Fly (8”, 16”).",
+        "cost": "35"
+      },
+      {
+        "name": "Elixir of Souls",
+        "description": "CharmOne use only. May be activated at the start of the Movement Phase. The bearer gains +2 Advance Rate and +4 March Rate during this Phase. ",
+        "cost": "35"
+      }
+    ],
+    "category3": [
+      {
+        "name": "Sorceror's Lodestone",
+        "description": "CharmOne Use Only. May be activated after making a Dispel Attempt or after bearer made a Casting Attempt. Add +D6 modifier to the casting or dispel roll. This is an exception to the Magic Modifiers rule.",
+        "cost": "55"
+      },
+      {
+        "name": "Soul-Bound Staff",
+        "description": "CharmThe bearer’s Miscasts suffer a -1 Miscast Modifier. ",
+        "cost": "35"
+      },
+      {
+        "name": "Mirror of Change",
+        "description": "CharmAt the start of each friendly Magic Phase, the bearer may pick an enemy Wizard within 18” and Line of Sight of it. For the duration of this Magic Phase, the bearer may cast non-Bound Spells known by the selected Wizard, but may not cast any of its own. Spells that Summon new units or Raise models cannot be cast. ",
+        "cost": "35"
+      },
+      {
+        "name": "Scrolls of the Eigth Pact",
+        "description": "CharmThe bearer gains Protean Magic. ",
+        "cost": "15"
+      }
+    ]
+  },
+  "mounts": [],
+  "army": [
+    {
+      "organisation": "1",
+      "units": [
+        {
+          "name": "Daemon Prince",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Infantry",
+          "cost": "480",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Stubborn"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Plate Armour"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "9",
+              "name": "Daemon Prince ",
+              "A": "5",
+              "OFF": "9",
+              "S": "6",
+              "AP": "3",
+              "I": "8",
+              "W": "4",
+              "DEF": "8",
+              "T": "5",
+              "ARM": "0"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "May take Fly (8\", 16\")",
+                  "cost": "80"
+                },
+                {
+                  "name": "Daemonic Items",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Alignment",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "True Chaos",
+                  "cost": "0"
+                },
+                {
+                  "name": "Change",
+                  "cost": "50"
+                },
+                {
+                  "name": "Lust",
+                  "cost": "20"
+                },
+                {
+                  "name": "Pestilence",
+                  "cost": "20"
+                },
+                {
+                  "name": "Wrath",
+                  "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "40"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "115"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "265"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Weaver of Change",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Infantry",
+          "cost": "975",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Well of Power"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Wizard Master"
+                },
+                {
+                  "specialrule": "Fly  (8\", 16\")"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Change"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8 (8)",
+              "MAR": "16 (16)",
+              "Ld": "9",
+              "W": "6",
+              "DEF": "6",
+              "T": "6",
+              "ARM": "2",
+              "name": "Weaver of Change ",
+              "A": "5",
+              "OFF": "6",
+              "S": "6",
+              "AP": "3",
+              "I": "6"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Supreme Aspect - Power Vortex",
+                  "cost": "65"
+                },
+                {
+                  "name": "Daemonic Items",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Harbinger of Change",
+          "Base": "1",
+          "size": "Standard ",
+          "type": "Infantry",
+          "cost": "165",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Change"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Firebolts"
+                }
+              ],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Harbinger of Change ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Battle Standard Bearer",
+                  "cost": "50"
+                },
+                {
+                  "name": "Daemonic Items",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Aspect",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Far Seeing",
+                  "cost": "45"
+                },
+                {
+                  "name": "Power Vortex",
+                  "cost": "75"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Disc of Change",
+                  "cost": "15"
+                },
+                {
+                  "name": "Blazing Chariot",
+                  "cost": "210"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Courtesan of Lust",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Infantry",
+          "cost": "900",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Daemon of Lust"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "10",
+              "MAR": "20",
+              "Ld": "9",
+              "W": "6",
+              "DEF": "8",
+              "T": "6",
+              "ARM": "2",
+              "name": "Courtesan of Lust ",
+              "A": "6",
+              "OFF": "9",
+              "S": "6",
+              "AP": "3",
+              "I": "10"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Daemonic Items",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "225"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Aspect",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Clawed Caress",
+                  "cost": "25"
+                },
+                {
+                  "name": "Dance of Death",
+                  "cost": "75"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Harbinger of Lust",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "195",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Distracting"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Lust"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "7",
+              "T": "3",
+              "ARM": "0",
+              "name": "Harbinger of Lust ",
+              "A": "4",
+              "OFF": "7",
+              "S": "4",
+              "AP": "1",
+              "I": "7"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Battle Standard Bearer",
+                  "cost": "50"
+                },
+                {
+                  "name": "Daemonic Items",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Aspect",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Clawed Caress",
+                  "cost": "25"
+                },
+                {
+                  "name": "Dance of Death",
+                  "cost": "75"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "40"
+                },
+                {
+                  "name": "None",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Barbed Claws",
+                  "cost": "15"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "5"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Steed of Lust",
+                  "cost": "60"
+                },
+                {
+                  "name": "Siren Chariot",
+                  "cost": "95"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Father of Pestilence",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Infantry",
+          "cost": "795",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Daemon of Pestilence"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "9",
+              "W": "7",
+              "DEF": "6",
+              "T": "7",
+              "ARM": "2",
+              "name": "Father of Pestilence ",
+              "A": "5",
+              "OFF": "6",
+              "S": "6",
+              "AP": "3",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Daemonic Items",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "225"
+                }
+              ]
+            },
+            {
+              "name": "Aspect",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Contamination",
+                  "cost": "15"
+                },
+                {
+                  "name": "Bloated Putrefaction",
+                  "cost": "75"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Harbinger of Pestilence",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "230",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Daemon of Pestilence"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "0",
+              "name": "Harbinger of Pestilence ",
+              "A": "3",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Battle Standard Bearer",
+                  "cost": "50"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "10"
+                },
+                {
+                  "name": "Daemonic Items",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": "115"
+                },
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "40"
+                },
+                {
+                  "name": "None",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Aspect",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Contamination",
+                  "cost": "80"
+                },
+                {
+                  "name": "Bloated Putrefaction",
+                  "cost": "80"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Pestilent Palanquin",
+                  "cost": "70"
+                },
+                {
+                  "name": "Blight Fly",
+                  "cost": "75"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scourge of Wrath",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Infantry",
+          "cost": "880",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Daemon of Wrath"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Magic Resistance  (2)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ],
+              "ADV": "8 (8)",
+              "MAR": "16 (16)",
+              "Ld": "9",
+              "W": "6",
+              "DEF": "8",
+              "T": "6",
+              "ARM": "0",
+              "name": "Scourge of Wrath ",
+              "A": "7",
+              "OFF": "10",
+              "S": "6",
+              "AP": "3",
+              "I": "9"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Daemonic Items",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Aspect",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Eternal Fury",
+                  "cost": "85"
+                },
+                {
+                  "name": "Onslaught",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Harbinger of Wrath",
+          "Base": "1",
+          "size": "Large",
+          "type": "Cavalry",
+          "modelcost": "115",
+          "cost": "200",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Daemon of Wrath"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Magic Resistance  (1)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ],
+              "ADV": "7",
+              "MAR": "14",
+              "Ld": "C",
+              "W": "C",
+              "DEF": "C",
+              "T": "C",
+              "ARM": "C+1",
+              "name": "Crusher ",
+              "A": "3",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Battle Standard Bearer",
+                  "cost": "50"
+                },
+                {
+                  "name": "Daemonic Items",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Aspect",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Eternal Fury",
+                  "cost": "80"
+                },
+                {
+                  "name": "Onslaught",
+                  "cost": "30"
+                }
+              ]
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Blood Sword",
+                  "cost": "0"
+                },
+                {
+                  "name": "Axe of Retribution",
+                  "cost": "10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "2",
+      "units": [
+        {
+          "name": "Horrors",
+          "Base": "1",
+          "unitsize": "10",
+          "maxmodels": "30",
+          "modelcost": "16",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "185",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Gate of the Gods"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Change"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Firebolts"
+                }
+              ],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "7",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "-",
+              "name": "Horror ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Aspect: Far Seeing (Change General only)",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Far Seeing (Change General only)",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command Group",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "140"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sirens",
+          "Base": "1",
+          "unitsize": "15",
+          "maxmodels": "20",
+          "modelcost": "18",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "225",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Daemon of Lust"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "7",
+              "W": "1",
+              "DEF": "5",
+              "T": "3",
+              "ARM": "0",
+              "name": "Siren ",
+              "A": "2",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Clawed Caress (Lust General Only)",
+                  "cost": "80"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tallymen",
+          "Base": "1",
+          "unitsize": "15",
+          "maxmodels": "15",
+          "modelcost": "26",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "290",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Daemon of Pestilence"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Parry"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "7",
+              "W": "1",
+              "DEF": "3",
+              "T": "4",
+              "ARM": "0",
+              "name": "Tallyman ",
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Aspect: Contamination (Pestilence General only)",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Contamination (Pestilence General only)",
+                  "cost": "4"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Slaughterers",
+          "Base": "1",
+          "unitsize": "10",
+          "maxmodels": "20",
+          "modelcost": "25",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "225",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Daemon of Wrath"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Magic Resistance  (1)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "7",
+              "W": "1",
+              "DEF": "5",
+              "T": "3",
+              "ARM": "2",
+              "name": "Slaughterer ",
+              "A": "1",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Aspect: Onslaught (Wrath General only)",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Onslaught (Wrath General only)",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Blood Sword",
+                  "cost": "0"
+                },
+                {
+                  "name": "Hell Axe",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "3",
+      "units": [
+        {
+          "name": "Igniters",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "3",
+          "modelcost": "44",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "225",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Change"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12'",
+              "Ld": "7",
+              "W": "1",
+              "DEF": "3",
+              "T": "4",
+              "ARM": "0",
+              "name": "Igniter ",
+              "A": "2",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Aspect: Far Seeing ",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Far Seeing ",
+                  "cost": "14"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        },
+        {
+          "name": "Sky Serpents",
+          "Base": "1",
+          "unitsize": "3",
+          "maxmodels": "3",
+          "modelcost": "80",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "275",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Slashing"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Change"
+                }
+              ],
+              "equipments": [],
+              "ADV": "1 (9)",
+              "MAR": "2 (18)",
+              "Ld": "7",
+              "W": "3",
+              "DEF": "3",
+              "T": "4",
+              "ARM": "0",
+              "name": "Sky Serpent ",
+              "A": "3",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Blazing Chariot",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "260",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Restraints"
+                },
+                {
+                  "specialrule": "Daemon of Change"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6)"
+                },
+                {
+                  "specialrule": "Searing Firestorm  (3+)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Searing Firestorm - Bolt Thrower"
+                },
+                {
+                  "equipment": "Searing Firestorm - Volley Gun"
+                }
+              ],
+              "ADV": "1 (8)",
+              "MAR": "1 (8')",
+              "Ld": "7",
+              "W": "4",
+              "DEF": "4",
+              "T": "4",
+              "ARM": "1",
+              "name": "Chassis ",
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            },
+            {
+              "name": "Sky Serpents (2) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "3",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Far Seeing ",
+                  "cost": "50"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "4",
+      "units": [
+        {
+          "name": "Mounted Sirens",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "10",
+          "modelcost": "26",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "180",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Elusive"
+                },
+                {
+                  "specialrule": "Feigned Flight"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Lust"
+                },
+                {
+                  "specialrule": "Restraints"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Barbed Claws"
+                }
+              ],
+              "ADV": "10",
+              "MAR": "20",
+              "Ld": "7",
+              "W": "1",
+              "DEF": "5",
+              "T": "3",
+              "ARM": "1",
+              "name": "Mounted Siren ",
+              "A": "2",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            },
+            {
+              "name": "Steed of Lust ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Aspect: Clawed Caress",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Clawed Caress",
+                  "cost": "3"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clawed Fiends",
+          "Base": "1",
+          "unitsize": "2",
+          "maxmodels": "4",
+          "modelcost": "125",
+          "size": "Large",
+          "type": "Beast",
+          "cost": "215",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Lust"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Barbed Claws"
+                }
+              ],
+              "ADV": "10",
+              "MAR": "20",
+              "Ld": "7",
+              "W": "3",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "0",
+              "name": "Clawed Fiend ",
+              "A": "3",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Aspect: Clawed Caress",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Clawed Caress",
+                  "cost": "10"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        },
+        {
+          "name": "Siren Chariot",
+          "Base": "1",
+          "size": "Large ",
+          "type": "Construct",
+          "cost": "185",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Daemon of Lust"
+                },
+                {
+                  "specialrule": "Restraints"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6+1)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Barbed Claws"
+                }
+              ],
+              "ADV": "10",
+              "MAR": "10",
+              "Ld": "7",
+              "W": "4",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "1",
+              "name": "Chassis ",
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            },
+            {
+              "name": "Mounted Siren (2) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            },
+            {
+              "name": "Steed of Lust (2) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Clawed Caress",
+                  "cost": "10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Carnal Chariot",
+          "Base": "1",
+          "size": "Large ",
+          "type": "Construct",
+          "cost": "190",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Soulreaper"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Daemon of Lust"
+                },
+                {
+                  "specialrule": "Restraints"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6+1)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Barbed Claws"
+                }
+              ],
+              "ADV": "10",
+              "MAR": "10",
+              "Ld": "7",
+              "W": "4",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "1",
+              "name": "Chassis ",
+              "A": "-",
+              "OFF": "-",
+              "S": "4",
+              "AP": "10",
+              "I": "-"
+            },
+            {
+              "name": "Mounted Siren (2) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            },
+            {
+              "name": "Steed of Lust (2) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            },
+            {
+              "name": "Oracle ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Clawed Caress",
+                  "cost": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shrine of Temptation",
+          "Base": "1",
+          "size": "Large ",
+          "type": "Construct",
+          "cost": "365",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Aura of Ecstacy"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Daemon of Lust"
+                },
+                {
+                  "specialrule": "Restraints"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6+1)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Barbed Claws"
+                }
+              ],
+              "ADV": "10",
+              "MAR": "10",
+              "Ld": "7",
+              "W": "5",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "1",
+              "name": "Chassis ",
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            },
+            {
+              "name": "Mounted Siren (3) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            },
+            {
+              "name": "Steed of Lust (4) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            },
+            {
+              "name": "Temptress ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "4",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Clawed Caress",
+                  "cost": "30"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "5",
+      "units": [
+        {
+          "name": "Plaguelings",
+          "Base": "1",
+          "unitsize": "2",
+          "maxmodels": "3",
+          "modelcost": "48",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "120",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Scout"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Daemon of Pestilence"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "7",
+              "W": "5",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Plagueling ",
+              "A": "5",
+              "OFF": "3",
+              "S": "2",
+              "AP": "0",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Aspect: Contamination",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Contamination",
+                  "cost": "5"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        },
+        {
+          "name": "Pestilent Beasts",
+          "Base": "1",
+          "unitsize": "3",
+          "maxmodels": "3",
+          "modelcost": "115",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "365",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Trail of Mucus"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Daemon of Pestilence"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Regeneration  (4+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "7",
+              "W": "3",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "0",
+              "name": "Pestilent Beast ",
+              "A": "4",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Aspect: Contamination",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Contamination",
+                  "cost": "12"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        },
+        {
+          "name": "Blight Flies",
+          "Base": "1",
+          "unitsize": "3",
+          "maxmodels": "2",
+          "modelcost": "145",
+          "size": "Large",
+          "type": "Cavalry",
+          "cost": "340",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Daemon of Pestilence"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Restraints"
+                }
+              ],
+              "equipments": [],
+              "ADV": "1 (6)",
+              "MAR": "2 (12)",
+              "Ld": "7",
+              "W": "3",
+              "DEF": "4",
+              "T": "5",
+              "ARM": "1",
+              "name": "Blight Fly ",
+              "A": "2",
+              "OFF": "4",
+              "S": "5",
+              "AP": "2",
+              "I": "2"
+            },
+            {
+              "name": "Rider ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "4",
+              "S": "4",
+              "AP": "1",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Aspect: Contamination",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Contamination",
+                  "cost": "10"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "6",
+      "units": [
+        {
+          "name": "Crusher Cavalry",
+          "Base": "1",
+          "unitsize": "3",
+          "maxmodels": "2",
+          "modelcost": "120",
+          "size": "Large",
+          "type": "Cavalry",
+          "cost": "350",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Magic Resistance  (1)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Wrath"
+                },
+                {
+                  "specialrule": "Restraints"
+                }
+              ],
+              "equipments": [],
+              "ADV": "7",
+              "MAR": "14",
+              "Ld": "7",
+              "W": "3",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "3",
+              "name": "Crusher ",
+              "A": "3",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "2"
+            },
+            {
+              "name": "Rider ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Aspect: Onslaught ",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Onslaught ",
+                  "cost": "6"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Blood Sword",
+                  "cost": "0"
+                },
+                {
+                  "name": "Hell Axe",
+                  "cost": "10"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hellhounds",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "5",
+          "modelcost": "42",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "275",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Magic Resistance  (3)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Wrath"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "7",
+              "W": "2",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "3",
+              "name": "Hellhound ",
+              "A": "2",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Ambush",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Ambush",
+                  "cost": "11"
+                },
+                {
+                  "name": "Aspect: Onslaught ",
+                  "cost": "6"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        },
+        {
+          "name": "Altar of Slaughter",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "315",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Blood Feast"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Magic Resistance  (2)"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Wrath"
+                },
+                {
+                  "specialrule": "Restraints"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6+1)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Blood Sword"
+                }
+              ],
+              "name": "Doombringer ",
+              "A": "2",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4",
+              "ADV": "7",
+              "MAR": "7",
+              "Ld": "7",
+              "W": "4",
+              "DEF": "5",
+              "T": "6",
+              "ARM": "4"
+            },
+            {
+              "name": "Slaughterer (2) ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            },
+            {
+              "name": "Crusher ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "3",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "2"
+            },
+            {
+              "name": "Chassis ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Onslaught ",
+                  "cost": "25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blood Chariot",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "345",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Magic Resistance  (1)"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Daemon of Wrath"
+                },
+                {
+                  "specialrule": "Restraints"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6+1)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Blood Sword"
+                }
+              ],
+              "ADV": "7",
+              "MAR": "7",
+              "Ld": "7",
+              "W": "4",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "4",
+              "name": "Slaughterer (2) ",
+              "A": "1",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            },
+            {
+              "name": "Crusher ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "3",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "2"
+            },
+            {
+              "name": "Chassis ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Aspect: Onslaught ",
+                  "cost": "15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "7",
+      "units": [
+        {
+          "name": "Furies",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "10",
+          "modelcost": "20",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "145",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4 (10)",
+              "MAR": "8 (20)",
+              "Ld": "2",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Fury ",
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Alliance",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Change",
+                  "cost": "0"
+                },
+                {
+                  "name": "Lust",
+                  "cost": "0"
+                },
+                {
+                  "name": "Pestilence",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wrath",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "8",
+      "units": [
+        {
+          "name": "Daemon Engine",
+          "Base": "1",
+          "size": "Gigantic ",
+          "type": "Infantry",
+          "cost": "430",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Crush Attack"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Paired Weapons"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "7",
+              "W": "7",
+              "DEF": "3",
+              "T": "6",
+              "ARM": "3",
+              "name": "Daemon Engine ",
+              "A": "4",
+              "OFF": "3",
+              "S": "6",
+              "AP": "3",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Alliance",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Change",
+                  "cost": "15"
+                },
+                {
+                  "name": "Lust",
+                  "cost": "0"
+                },
+                {
+                  "name": "Pestilence",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wrath",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Artillery Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Hellish Bombard",
+                  "cost": "100"
+                },
+                {
+                  "name": "Hellish Reaper",
+                  "cost": "20"
+                },
+                {
+                  "name": "Hellish Breath",
+                  "cost": "50"
+                },
+                {
+                  "name": "Hellish Bolt",
+                  "cost": "45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Monotheist Alignment",
+          "Base": "1",
+          "cost": "0",
+          "rules": [
+            {
+              "specialrules": [],
+              "equipments": []
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Alignment",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Lust",
+                  "cost": "0"
+                },
+                {
+                  "name": "Pestilence",
+                  "cost": "0"
+                },
+                {
+                  "name": "Change",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wrath",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

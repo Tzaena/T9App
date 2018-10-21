@@ -1,0 +1,3202 @@
+{
+  "organisation": [
+    {
+      "id": "1",
+      "name": "Characters",
+      "percent": 40,
+      "type": "max"
+    },
+    {
+      "id": "2",
+      "name": "Core",
+      "percent": 20,
+      "type": "min"
+    },
+    {
+      "id": "3",
+      "name": "Special",
+      "percent": 100,
+      "type": "max"
+    },
+    {
+      "id": "4",
+      "name": "Ancient Ordnance",
+      "percent": 35,
+      "type": "max"
+    },
+    {
+      "id": "5",
+      "name": "Entombed",
+      "percent": 30,
+      "type": "max"
+    },
+    {
+      "id": "6",
+      "name": "Mason's Menagerie",
+      "percent": 35,
+      "type": "max"
+    }
+  ],
+  "magicitems": {
+    "weapons": [
+      {
+        "name": "Godslayer",
+        "cost": 75,
+        "description": "Great Weapon enchantment. The wielder gains +1 Attack when using this weapon. Attacks made with this weapon gain Divine Attacks, Magical Attacks, and Multiple Wounds (2, against Aegis) (note that the latter also applies against models with conditional Aegis Saves)."
+      },
+      {
+        "name": "Scourge of Kings",
+        "cost": 35,
+        "description": "Hand Weapon and Paired Weapons enchantment. When using this weapon, the wielder’s Attack Value is set to 6. Attacks made with this weapon gain Magical Attacks and must reroll failed to-wound rolls when Fighting a Duel."
+      }
+    ],
+    "armours": [
+      {
+        "name": "Jackal’s Blessing",
+        "cost": 100,
+        "description": "Suit of Armour enchantment. The wearer gains +2 Health Points and Fortitude (5+)."
+      },
+      {
+        "name": "Sun’s Embrace",
+        "cost": 40,
+        "description": "Shield enchantment. The bearer gains Distracting while using this Shield."
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Crown of the Pharaohs",
+        "cost": 85,
+        "description": "Pharaohs and Nomarchs only. The bearer increases the range of its Commanding Presence by 6'. At the start of each of your Player Turns, the bearer may lose Undying Will and choose a friendly unit within 12'. This unit benefits from Undying Will until the start of your next Player Turn."
+      },
+      {
+        "name": "Sacred Hourglass",
+        "cost": 80,
+        "dominant" : 1,
+        "description": "The bearer may reroll failed Casting Attempts that were rolled using 2 Magic Dice (by rerolling both Magic Dice)."
+      },
+      {
+        "name": "Book of the Dead",
+        "cost": 75,
+        "description": "The bearer can cast Death is Only the Beginning as a Bound Spell with Power Level (4/8) and the following modifications: The spell is considered a Learned Spell (instead of an Attribute Spell) and its Range is changed to 12', Aura."
+      },
+      {
+        "name": "Steeds of Nephet-Ra",
+        "cost": 60,
+        "description": "Models with at least one Skeletal Horse model part in the bearer’s unit gain Ghost Step and +4' March Rate"
+      },
+      {
+        "name": "Blessed Wrappings",
+        "cost": 50,
+        "description": "The bearer gains +1 Health Point and loses Flammable if it had it (note that this does not prevent the model from gaining Flammable from other sources)."
+      },
+      {
+        "name": "Sekhem Sceptre",
+        "cost": 50,
+        "description": "The bearer gains Autonomous and Stubborn"
+      },
+      {
+        "name": "Ankh of Naptesh",
+        "cost": 45,
+        "description": "The bearer gains Hierophant. R&F models in the bearer’s unit gain Fortitude (6+)."
+      },
+      {
+        "name": "Sandstorm Cloak",
+        "cost": 40,
+        "description": "Models on foot only. The bearer gains Fly (5', 15') and can perform a Sweeping Attack that causes 2D6 hits with Strength 2 and Armour Penetration 1."
+      },
+      {
+        "name": "Death Mask of Teput",
+        "cost": 35,
+        "description": "Models in enemy units in base contact with the bearer suffer -2 Offensive Skill."
+      },
+      {
+        "name": "Scroll of Desiccation",
+        "cost": 25,
+        "description": "After determining Deployment Zones (at the end of step 6 of the Pre-Game Sequence), choose a Field, Forest, or Water Terrain Feature. This Terrain Feature ceases to be the Terrain Feature it used to be and loses all its rules. It is treated as Dangerous Terrain (1) for all enemy units."
+      }
+    ],
+    "standards": [
+      {
+        "name": "Banner of the Entombed",
+        "limitation": "2",
+        "cost": 40,
+        "description": "Core and Battle Standard Bearer only. If taken by a Character, the bearer gains Underground Ambush. If taken by a R&F model, the bearer’s unit gains Underground Ambush and additional models cannot be added to the unit during Army List creation. Standard Size models using this banner to Ambush must arrive in a formation containing exactly 5 models per rank (except for the last) and cannot make a Reform (or a Swift Reform) during this Player Turn. A unit with Underground Ambush additionally counts towards Entombed."
+      }
+    ]
+  },
+  "mounts": [
+    {
+      "id": "1",
+      "name": "Skeletal Horse",
+      "type": "3",
+      "size" : "1",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Skeletal Horse",
+          "ADV": "8",
+          "MAR": "16",
+          "DEF": "C",
+          "OFF": "2",
+          "ARM": "C+1",
+          "AP": "0",
+          "S": "3",
+          "T": "C",
+          "W": "C",
+          "I": "2",
+          "A": "1",
+          "Ld": "C",
+          "specialrules": [
+            {
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Skeletal Chariot",
+      "type": "4",
+      "size" : "2",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Skeletal Horse (2)",
+          "ADV": "8",
+          "MAR": "10",
+          "DEF": "C",
+          "OFF": "2",
+          "ARM": "C+1",
+          "AP": "0",
+          "S": "3",
+          "T": "C",
+          "W": "C",
+          "I": "2",
+          "A": "1",
+          "Ld": "C",
+          "specialrules": [
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            }
+          ]
+        },{
+          "name": "Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "-",
+          "ARM": "-",
+          "AP": "1",
+          "S": "4",
+          "T": "-",
+          "W": "-",
+          "I": "-",
+          "A": "-",
+          "Ld": "-",
+          "specialrules": [
+            {
+              "specialrule": "Impact Hits (D3+3)"
+            },
+            {
+              "specialrule": "Inanimate"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sha Guardian",
+      "type": "2",
+      "category": "6",
+      "size" : "4",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Sha Guardian",
+          "ADV": "6",
+          "MAR": "12",
+          "DEF": "5",
+          "OFF": "4",
+          "ARM": "4",
+          "AP": "2",
+          "S": "5",
+          "T": "6",
+          "W": "7",
+          "I": "3",
+          "A": "4",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Ensouled Statue"
+            },
+            {
+              "specialrule": "Poison Attacks"
+            },
+            {
+              "specialrule": "Eternal Guardian"
+            },
+            {
+              "specialrule": "Lethal Strike"
+            },
+            {
+              "specialrule": "Poison Attacks"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ark of Ages",
+      "type": "4",
+      "size" : "2",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Guard (2)",
+          "ADV": "4",
+          "MAR": "8",
+          "DEF": "C",
+          "OFF": "3",
+          "ARM": "C+2",
+          "AP": "1",
+          "S": "4",
+          "T": "5",
+          "W": "5",
+          "I": "3",
+          "A": "1",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Sacred Ark"
+            },
+            {
+              "specialrule": "War Platform"
+            },
+            {
+              "specialrule": "Aegis (5+)"
+            },
+            {
+              "specialrule": "Lethal Strike"
+            },
+            {
+              "specialrule": "Poison Attacks"
+            },
+            {
+              "specialrule": "Magical Attacks"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Aspen Box (5+)"
+            }
+          ]
+        },{
+          "name": "Bound Spirits",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "2",
+          "ARM": "-",
+          "AP": "0",
+          "S": "2",
+          "T": "-",
+          "W": "-",
+          "I": "2",
+          "A": "2",
+          "Ld": "-",
+          "specialrules": [
+            {
+              "specialrule": "Magical Attacks"
+            },
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [
+          ]
+        },{
+          "name": "Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "DEF": "-",
+          "OFF": "-",
+          "ARM": "-",
+          "AP": "1",
+          "S": "4",
+          "T": "-",
+          "W": "-",
+          "I": "-",
+          "A": "-",
+          "Ld": "-",
+          "specialrules": [
+            {
+              "specialrule": "Impact Hits (D6)"
+            },
+            {
+              "specialrule": "Inanimate"
+            }
+          ],
+          "equipments": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Amuut",
+      "type": "3",
+      "size" : "2",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Amuut",
+          "ADV": "7",
+          "MAR": "14",
+          "DEF": "C",
+          "OFF": "3",
+          "ARM": "C+1",
+          "AP": "2",
+          "S": "5",
+          "T": "C",
+          "W": "C",
+          "I": "3",
+          "A": "3",
+          "Ld": "C",
+          "specialrules": [
+            {
+              "specialrule": "Ensouled Statue"
+            },
+            {
+              "specialrule": "Poison Attacks"
+            },
+            {
+              "specialrule": "Fear"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "army": [
+    {
+      "organisation": "1",
+      "units": [
+        {
+          "name": "Pharaoh",
+          "cost": 295,
+          "type": "1",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Pharaoh",
+              "S": "5",
+              "T": "5",
+              "ADV": "4",
+              "DEF": "6",
+              "OFF": "6",
+              "ARM": "0",
+              "MAR": "8",
+              "AP": "2",
+              "W": "4",
+              "I": "3",
+              "A": "4",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Flammable"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Undying Will"
+                },
+                {
+                  "specialrule": "Mummy's Curse"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": 15
+                },
+                {
+                  "name": "Great Aspen Bow (4+)",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "paired weapons",
+                  "cost": 10
+                },
+                {
+                  "name": "great weapon",
+                  "cost": 20
+                },
+                {
+                  "name": "hallberd",
+                  "cost": 15
+                },
+                {
+                  "name": "Lance",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Army",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Terracotta Army",
+                  "globalid": "201",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Barrow Legion",
+                  "globalid": "202",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "type": "permodel",
+                  "cost": 15,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 30
+                },
+                {
+                  "mount": "2",
+                  "cost": 50
+                },
+                {
+                  "mount": "3",
+                  "cost": 385
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nomarch",
+          "cost": 140,
+          "type": "1",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Nomarch",
+              "S": "4",
+              "T": "5",
+              "ADV": "4",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "MAR": "8",
+              "AP": "1",
+              "W": "3",
+              "I": "3",
+              "A": "2",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Flammable"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Undying Will"
+                },
+                {
+                  "specialrule": "Mummy's Curse"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": 10
+                },
+                {
+                  "name": "Great Aspen Bow (4+)",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "paired weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "great weapon",
+                  "cost": 10
+                },
+                {
+                  "name": "hallberd",
+                  "cost": 10
+                },
+                {
+                  "name": "Lance",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "type": "permodel",
+                  "cost": 15,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 30
+                },
+                {
+                  "mount": "2",
+                  "cost": 50
+                },
+                {
+                  "mount": "3",
+                  "cost": 375
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Death Cult Hierarch",
+          "cost": 125,
+          "type": "1",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Death Cult Hierarch",
+              "S": "3",
+              "T": "3",
+              "ADV": "4",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "MAR": "8",
+              "AP": "0",
+              "W": "3",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Wizard Apprentice"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Hierophant",
+                  "cost": 20,
+                  "condition": [
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Soul Conduit",
+                  "cost": 25,
+                  "condition": [
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Hierophant",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Light Armour",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Wizard",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": 75
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": 225,
+                  "globalid": "6"
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Cosmology",
+                  "cost": 0
+                },
+                {
+                  "name": "Divination",
+                  "cost": 0
+                },
+                {
+                  "name": "Evocation",
+                  "cost": 0
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 30
+                },
+                {
+                  "mount": "4",
+                  "cost": 160
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "type": "permodel",
+                  "cost": 15,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Casket oh Phatep",
+          "cost": 240,
+          "type": "4",
+          "size" : "1",
+          "limitation": "2",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Casket oh Phatep",
+              "S": "4",
+              "T": "4",
+              "ADV": "4",
+              "DEF": "1",
+              "OFF": "3",
+              "ARM": "0",
+              "MAR": "4",
+              "AP": "1",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Channel (1)"
+                },
+                {
+                  "specialrule": "Divine Light"
+                },
+                {
+                  "specialrule": "Not a Leader"
+                },
+                {
+                  "specialrule": "Phatep's Curse"
+                },
+                {
+                  "specialrule": "War Machine"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Undead"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hallberd"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "type": "permodel",
+                  "cost": 15,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tomb Harbinger",
+          "cost": 180,
+          "type": "1",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Tomb Architect",
+              "S": "4",
+              "T": "5",
+              "ADV": "4",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "MAR": "8",
+              "AP": "1",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Royal Guard"
+                },
+                {
+                  "specialrule": "Flammable"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Guardian's Wrath"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": 10
+                },
+                {
+                  "name": "Great Aspen Bow (4+)",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "paired weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "great weapon",
+                  "cost": 10
+                },
+                {
+                  "name": "hallberd",
+                  "cost": 10
+                },
+                {
+                  "name": "Lance",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "type": "permodel",
+                  "cost": 15,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 30
+                },
+                {
+                  "mount": "2",
+                  "cost": 50
+                },
+                {
+                  "mount": "5",
+                  "cost": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tomb Architect",
+          "cost": 160,
+          "type": "1",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Tomb Architect",
+              "S": "4",
+              "T": "4",
+              "ADV": "4",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "MAR": "8",
+              "AP": "1",
+              "W": "3",
+              "I": "3",
+              "A": "2",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Master of Stone"
+                },
+                {
+                  "specialrule": "Flammable"
+                },
+                {
+                  "specialrule": "Undead"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "paired weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "Lance",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "type": "permodel",
+                  "cost": 15,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 20
+                },
+                {
+                  "mount": "2",
+                  "cost": 50
+                },
+                {
+                  "mount": "5",
+                  "cost": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "2",
+      "units": [
+        {
+          "name": "Skeletons",
+          "cost": 150,
+          "unitsize": 20,
+          "modelcost": 10,
+          "maxmodels": 40,
+          "type": "1",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Skeletons",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "2",
+              "OFF": "2",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (7)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "cost": 2,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrow Legion",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Heavy Armour",
+                  "cost": 1,
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrow Legion",
+              "choices": [
+                {
+                  "name": "Replace Shield and Spear with Halberd",
+                  "type": "permodel",
+                  "cost": 1,
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skeleton archers",
+          "cost": 120,
+          "unitsize": 10,
+          "modelcost": 12,
+          "maxmodels": 20,
+          "type": "1",
+          "size" : "1",
+          "base": "8",
+          "category": "4",
+          "rules": [
+            {
+              "name": "Skeleton archers",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "2",
+              "OFF": "2",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (6)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Aspen Bow (5+)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "cost": 1,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrow Legion",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Heavy Armour",
+                  "cost": 1,
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skeleton Cavalry",
+          "cost": 200,
+          "unitsize": 10,
+          "modelcost": 18,
+          "maxmodels": 14,
+          "type": "2",
+          "size" : "1",
+          "base": "8",
+          "limitation": "3",
+          "rules": [
+            {
+              "name": "Skeleton Cavalry",
+              "ADV": "8",
+              "MAR": "16",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (4)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Vanguard"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Light Lance"
+                }
+              ]
+            },{
+              "name": "Horse",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "2",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "2",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "cost": 2,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrow Legion",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Lance",
+                  "cost": 2,
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "+1 Arm, -1 Adv, -2 Mar",
+                  "cost": 3,
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skeleton Scouts",
+          "cost": 130,
+          "unitsize": 5,
+          "modelcost": 16,
+          "maxmodels": 5,
+          "type": "2",
+          "size" : "1",
+          "base": "8",
+          "limitation": "3",
+          "rules": [
+            {
+              "name": "Skeleton Scouts",
+              "ADV": "8",
+              "MAR": "16",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "3",
+              "W": "1",
+              "I": "2",
+              "A": "1",
+              "Ld": "6",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (4)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Scout"
+                },
+                {
+                  "specialrule": "Vanguard"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Aspen Bow (5+)"
+                }
+              ]
+            },{
+              "name": "Horse",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "2",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "2",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "cost": 1,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skeleton Chariots",
+          "cost": 290,
+          "unitsize": 3,
+          "modelcost": 65,
+          "maxmodels": 7,
+          "type": "4",
+          "size" : "2",
+          "base": "8",
+          "limitation": "5",
+          "rules": [
+            {
+              "name": "Charioteer (2)",
+              "ADV": "8",
+              "MAR": "10",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "1",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "3",
+              "I": "2",
+              "A": "2",
+              "Ld": "7",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (3)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Bound in Death"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Aspen Bow (5+)"
+                },
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Halberd"
+                }
+              ]
+            },{
+              "name": "Horse (2)",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "2",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "2",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+              ]
+            },{
+              "name": "Chariot",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "-",
+              "ARM": "-",
+              "AP": "1",
+              "S": "4",
+              "T": "-",
+              "W": "-",
+              "I": "-",
+              "A": "-",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Chariot Host"
+                },
+                {
+                  "specialrule": "Impact Hits (D3+1)"
+                },
+                {
+                  "specialrule": "Inanimate"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Legion",
+              "type": "permodel",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Legion Charioteers",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "maxmodels" : "6",
+                  "cost": 15,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrow Legion",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Replace Halberd with Lance",
+                  "cost": 3,
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "3",
+      "units": [
+        {
+          "name": "Necropolis Guard",
+          "cost": 190,
+          "unitsize": 15,
+          "modelcost": 25,
+          "maxmodels": 25,
+          "type": "1",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Necropolis Guard",
+              "ADV": "4",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "1",
+              "I": "3",
+              "A": "1",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (3)"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Bodyguard"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "31",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": 2
+                },
+                {
+                  "name": "Halberd",
+                  "cost": 2
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 1
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "cost": 6,
+                  "maxmodels": "30",
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrow Legion",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Heavy Armour",
+                  "cost": 2,
+                  "maxmodels": "35",
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tomb Cataphracts",
+          "cost": 300,
+          "unitsize": 3,
+          "modelcost": 90,
+          "maxmodels": 3,
+          "type": "2",
+          "size" : "2",
+          "limitation": "3",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Rider",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "3",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Ensouled Statue"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            },
+            {
+              "name": "Amuut",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "2",
+              "S": "5",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "3",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "31",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ambush",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Underground Ambush",
+                  "category": "5",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Cannot be taken",
+                  "cost": 0,
+                  "maxarmymodels": "1",
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },{
+          "name": "Shabtis",
+          "cost": 210,
+          "unitsize": 3,
+          "modelcost": 75,
+          "maxmodels": 5,
+          "type": "1",
+          "limitation": "5",
+          "size" : "2",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Shabtis",
+              "ADV": "6",
+              "MAR": "12",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "2",
+              "AP": "2",
+              "S": "5",
+              "T": "4",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Ensouled Statue"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "31",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": 12
+                },
+                {
+                  "name": "Halberd",
+                  "cost": 18
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Great Vultures",
+          "cost": 155,
+          "unitsize": 3,
+          "modelcost": 25,
+          "limitation": "3",
+          "maxmodels": 6,
+          "type": "3",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Great Vulture",
+              "ADV": "2 (9)",
+              "MAR": "4 (18)",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "2",
+              "I": "3",
+              "A": "3",
+              "Ld": "4",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (3)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Fly (9, 18)"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Undead"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Cannot be Taken",
+                  "cost": 0,
+                  "maxarmymodels": "1",
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },{
+          "name": "Scarab Swarms",
+          "cost": 140,
+          "unitsize": 2,
+          "modelcost": 50,
+          "limitation": "3",
+          "maxmodels": 4,
+          "type": "3",
+          "size" : "1",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Scarab Swarms",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "0",
+              "AP": "1",
+              "S": "2",
+              "T": "2",
+              "W": "5",
+              "I": "3",
+              "A": "5",
+              "Ld": "10",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (5)"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Chitinous Tide"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Distracting"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Ambush",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Underground Ambsuh",
+                  "cost": 15,
+                  "category": "5"
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Cannot be taken",
+                  "type": "permodel",
+                  "cost": 0,
+                  "maxarmymodels": "1",
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrow Legion",
+              "type": "permodel",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Aegis (5+), Aegis (3+, vs non Magical), Ghost Step, Magical Attack",
+                  "cost": 28,
+                  "armymaxmodels": "7",
+                  "maxmodels": "4",
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "4",
+      "units": [
+        {
+          "name": "Shabtis Archers",
+          "cost": 200,
+          "unitsize": 3,
+          "modelcost": 72,
+          "limitation": "3",
+          "maxmodels": 5,
+          "type": "1",
+          "size" : "2",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Shabtis Archers",
+              "ADV": "6",
+              "MAR": "12",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "2",
+              "AP": "2",
+              "S": "5",
+              "T": "4",
+              "W": "3",
+              "I": "3",
+              "A": "3",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Ensouled Statue"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Great Aspen Bow (5+)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "31",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sand Stalkers",
+          "cost": 260,
+          "unitsize": 3,
+          "modelcost": 70,
+          "limitation": "3",
+          "maxmodels": 4,
+          "type": "3",
+          "size" : "2",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Sand Stalkers",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "3",
+              "OFF": "3",
+              "ARM": "2",
+              "AP": "1",
+              "S": "4",
+              "T": "4",
+              "W": "3",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Ensouled Statue"
+                },
+                {
+                  "specialrule": "Petrifying Gaze (3+)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Halbder"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Ambsuh",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Underground Ambush",
+                  "category": "5",
+                  "cost": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Charnel Catapult",
+          "cost": 200,
+          "limitation": "2",
+          "type": "4",
+          "size" : "2",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Charnel Catapult",
+              "ADV": "4",
+              "MAR": "4",
+              "DEF": "1",
+              "OFF": "2",
+              "ARM": "0",
+              "AP": "0",
+              "S": "3",
+              "T": "4",
+              "W": "5",
+              "I": "3",
+              "A": "3",
+              "Ld": "4",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "War Machine"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Charnel Catapult (5+)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "+1 Res, -1 Agi, Ensouled Statue",
+                  "type": "permodel",
+                  "cost": 10,
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "5",
+      "units": [
+        {
+          "name": "Sand Scorpion",
+          "cost": 150,
+          "limitation": "3",
+          "type": "3",
+          "size" : "2",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Sand Scorpion",
+              "ADV": "7",
+              "MAR": "14",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "2",
+              "AP": "2",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "3",
+              "A": "4",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Ensouled Statue"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Underground Ambush"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "6",
+      "units": [
+        {
+          "name": "Battle Sphinx",
+          "cost": 465,
+          "limitation": "3",
+          "type": "3",
+          "size" : "3",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Rider (4)",
+              "ADV": "5",
+              "MAR": "12",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "3",
+              "AP": "1",
+              "S": "4",
+              "T": "8",
+              "W": "5",
+              "I": "3",
+              "A": "2",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Ensouled Statue"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Lance"
+                }
+              ]
+            },{
+              "name": "Battle Sphinx",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "4",
+              "ARM": "-",
+              "AP": "2",
+              "S": "5",
+              "T": "-",
+              "W": "-",
+              "I": "1",
+              "A": "4",
+              "Ld": "-",
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Cannot be taken",
+                  "type": "permodel",
+                  "cost": 0,
+                  "maxarmymodels": "1",
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dread Sphinx",
+          "cost": 490,
+          "limitation": "2",
+          "type": "3",
+          "size" : "3",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Dread Sphinx",
+              "ADV": "6 (6)",
+              "MAR": "12 (12)",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "3",
+              "AP": "2",
+              "S": "5",
+              "T": "8",
+              "W": "5",
+              "I": "0",
+              "A": "5",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Ensouled Statue"
+                },
+                {
+                  "specialrule": "Autonomous"
+                },
+                {
+                  "specialrule": "Fly (6, 12)"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Colossal Kopesh"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Barrow Legion",
+              "type": "permodel",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Cannot be taken",
+                  "cost": 0,
+                  "maxarmymodels": "1",
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },{
+          "name": "Tomb Reapers",
+          "cost": 340,
+          "limitation": "3",
+          "unitsize": 2,
+          "modelcost": 180,
+          "maxmodels": 2,
+          "type": "1",
+          "size" : "2",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Tomb Reapers",
+              "ADV": "6 (6)",
+              "MAR": "12 (12)",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "2",
+              "AP": "2",
+              "S": "5",
+              "T": "5",
+              "W": "4",
+              "I": "4",
+              "A": "4",
+              "Ld": "10",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Ensouled Statue"
+                },
+                {
+                  "specialrule": "Autonomous"
+                },
+                {
+                  "specialrule": "Fly (6, 12)"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Fear"
+                }
+              ],
+              "equipments": [
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Weapons",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Halberd",
+                  "cost": 15
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Terracotta Army",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Cannot be taken",
+                  "type": "permodel",
+                  "cost": 0,
+                  "maxarmymodels": "1",
+                  "condition": [
+                    {
+                      "option": "201",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },{
+          "name": "Colossus",
+          "cost": 420,
+          "limitation": "2",
+          "type": "1",
+          "size" : "3",
+          "base": "8",
+          "rules": [
+            {
+              "name": "Colossus",
+              "ADV": "6",
+              "MAR": "12",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "3",
+              "AP": "3",
+              "S": "6",
+              "T": "6",
+              "W": "5",
+              "I": "2",
+              "A": "6",
+              "Ld": "8",
+              "specialrules": [
+                {
+                  "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Ensouled Statue"
+                },
+                {
+                  "specialrule": "Grind Attacks (D3)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Bow",
+              "type": "permodel",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Giant Aspen Bow (5+)",
+                  "cost": 20,
+                  "limitation": "1"
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": 15
+                },
+                {
+                  "name": "Scales of Destiny",
+                  "cost": 25
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Barrow Legion",
+              "type": "permodel",
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Cannot be taken",
+                  "cost": 0,
+                  "maxarmymodels": "1",
+                  "condition": [
+                    {
+                      "option": "202",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

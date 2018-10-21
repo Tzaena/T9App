@@ -860,7 +860,7 @@
             }
           ]
         },
-		{
+        {
           "value": "4",
           "name": "Chilling Howl",
           "duration": "1",
@@ -885,7 +885,7 @@
             }
           ]
         },
-		{
+        {
           "value": "6",
           "name": "Break the Spirit",
           "duration": "1",
@@ -1108,7 +1108,7 @@
           "types": [
             {
               "type": "[3]"
-            },  
+            },
             {
               "type": "1"
             }
@@ -1124,7 +1124,7 @@
           "types": [
             {
               "type": "[3]"
-            },  
+            },
             {
               "type": "1"
             }
@@ -1140,10 +1140,10 @@
           "types": [
             {
               "type": "3"
-            },  
+            },
             {
               "type": "5"
-            },  
+            },
             {
               "type": "6"
             }
@@ -1159,7 +1159,7 @@
           "types": [
             {
               "type": "[3]"
-            },  
+            },
             {
               "type": "1"
             }
@@ -1175,13 +1175,13 @@
           "types": [
             {
               "type": "[3]"
-            },  
+            },
             {
               "type": "[4]"
-            },  
+            },
             {
               "type": "[5]"
-            },  
+            },
             {
               "type": "1"
             }
@@ -1200,16 +1200,16 @@
             },
             {
               "type": "[3]"
-            },  
+            },
             {
               "type": "[5]"
-            },  
+            },
             {
               "type": "[6]"
-            },  
+            },
             {
               "type": "1"
-            },  
+            },
             {
               "type": "2"
             }
@@ -1235,7 +1235,7 @@
             }
           ]
         },
-		{
+        {
           "value": "-",
           "name": "Rune of Revocation",
           "duration": "1",
@@ -1248,7 +1248,7 @@
             }
           ]
         },
-		{
+        {
           "value": "-",
           "name": "Rune of Reckoning",
           "duration": "1",
@@ -1261,7 +1261,7 @@
             }
           ]
         },
-		{
+        {
           "value": "-",
           "name": "Rune of Oaths",
           "duration": "1",
@@ -1274,7 +1274,7 @@
             }
           ]
         },
-		{
+        {
           "value": "-",
           "name": "Rune of Resolve",
           "duration": "1",
@@ -1287,7 +1287,7 @@
             }
           ]
         },
-		{
+        {
           "value": "-",
           "name": "Rune of Gleaming",
           "duration": "1",
@@ -1300,7 +1300,7 @@
             }
           ]
         },
-		{
+        {
           "value": "-",
           "name": "Rune of Resilience",
           "duration": "1",
@@ -1524,7 +1524,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[ID]Haze of Magnesia",
           "duration": "3",
@@ -1537,7 +1537,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[SE]Forest Embrace",
           "duration": "1",
@@ -1550,7 +1550,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[BH]Echoes of the Dark Forest",
           "duration": "1",
@@ -1563,7 +1563,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[DL]Immortal Sustenance",
           "duration": "1",
@@ -1576,7 +1576,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[DE]Crippling Fatigue",
           "duration": "1",
@@ -1589,7 +1589,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[HE]Favour of Meladys",
           "duration": "1",
@@ -1602,7 +1602,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[KoE]Breath of the Lady",
           "duration": "1",
@@ -1615,7 +1615,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[OK]Children of Umi",
           "duration": "1",
@@ -1628,7 +1628,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[OG]Bring the Pain",
           "duration": "1",
@@ -1641,7 +1641,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[VS]The Awakened Swarm",
           "duration": "2",
@@ -1660,7 +1660,7 @@
             }
           ]
         },
-		{
+        {
           "value": "A",
           "name": "[UD]Death is Only the Beginning",
           "duration": "2",
@@ -1673,7 +1673,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[VC]Arise!",
           "duration": "2",
@@ -1686,7 +1686,7 @@
             }
           ]
         },
-		{
+        {
           "value": "H",
           "name": "[WDG]Hellfire",
           "duration": "2",

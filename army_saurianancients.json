@@ -35,31 +35,31 @@
     "weapons": [
       {
         "name": "Glory of the Dawn Age",
-        "cost": 100,
+        "cost": 90,
         "description": "Spear enchantment. Attacks made with this weapon gain +1 Strength, Magical Attacks, and Multiple Wounds (2)."
       },
       {
         "name": "Wildfire Burs",
-        "cost": 55,
-        "description": "Bow enchantment. This weapon has Shots 4, Str 4, AP 1. Attacks made with this weapon gain Flaming Attacks and Magical Attacks. A unit that is hit by these attacks loses Soft Cover until the end of the Player Turn (if it had it). If the enemy unit was in Hard Cover, it is now considered to be in Soft Cover until the end of the Player Turn."
+        "cost": 75,
+        "description": "Bow enchantment. This weapon has Shots 4, Str 4, AP 1 and always hits on 3+. Attacks made with this weapon gain Flaming Attacks and Magical Attacks. A unit that is hit by these attacks loses Soft Cover until the end of the Player Turn (if it had it). If the enemy unit was in Hard Cover, it is now considered to be in Soft Cover until the end of the Player Turn."
       }
     ],
     "armours": [
       {
         "name": "Taurosaur's Vigour",
-        "cost": 70,
+        "cost": 65,
         "description": "Suit of Armour enchantment. The wearer gains +1 Armour, +1 Health Point, and Crush Attack."
       },
       {
         "name": "Serrate Scales",
-        "cost": 50,
-        "description": "Shield enchantment. The bearer gains +2 Attack Value while using this Shield. The 2 Close Combat Attacks gained by this enchantment always have Strength 5 and Armour Penetration 2. These attacks do not benefit from any rules or bonuses granted by Weapon Enchantments"
+        "cost": 65,
+        "description": "Shield enchantment. The bearer gains Grind Attacks (2) that are always resolved with Strength 5 and Armour Penetration 2."
       }
     ],
     "artefacts": [
       {
         "name": "Sphere of Shielding",
-        "cost": 100,
+        "cost": 90,
         "description": "Models on Palanquin and Skink Palanquin only. The bearer gains Aegis (2+, against Ranged Attacks). The bearer may not take saves of any kind against Melee Attacks."
       },
       {
@@ -70,7 +70,7 @@
       },
       {
         "name": "Starfall Shard ",
-        "cost": 70,
+        "cost": 75,
         "description": "The bearer’s model gains Aegis (2+, against Flaming Attacks) and Hard Target, and cannot benefit from Regeneration."
       },
       {
@@ -80,12 +80,12 @@
       },
       {
         "name": "Jade Staff",
-        "cost": 55,
+        "cost": 60,
         "description": "The bearer can cast Healing Waters from Druidism as a Bound Spell with Power Level (4/8)."
       },
       {
         "name": "Raptor Spirit",
-        "cost": 65,
+        "cost": 80,
         "description": "Models on foot only. The bearer gains +4 Advance Rate, +4 March Rate, and Swiftstride. This Artefact cannot be taken by a model with Ranger’s Boots."
       },
       {
@@ -96,7 +96,7 @@
       {
         "name": "Sun Tablet",
         "cost": 40,
-        "description": "The bearer can select its spells from the Learned Spells 1, 2, 3, 4, 5, and 6 of its chosen Path and the Hereditary Spell of its army. This overrides the normal Spell Selection rules connected to being a Wizard Apprentice/Adept. This Artefact cannot be combined with Protean Potentate."
+        "description": "The bearer can select its spells from all the Learned Spells of its chosen Path and the Hereditary Spell of its army. This overrides the normal Spell Selection rules connected to being a Wizard Apprentice/Adept. This Artefact cannot be combined with Protean Potentate"
       },
       {
         "name": "Obsidian Tesseract",
@@ -107,7 +107,7 @@
     "standards": [
       {
         "name": "Totem of Mixoatl",
-        "cost": 75,
+        "cost": 70,
         "description": "Cannot be taken by Core units. The bearer's unit gains Hard Target. One use only. May be activated at the start of a Round of Combat. Until the end of the Round of Combat, all enemy units Engaged with the bearer's unit suffer -3 Offensive Skill."
       },
       {
@@ -575,11 +575,11 @@
                 },
                 {
                   "mount": "2",
-                  "cost": 290
+                  "cost": 280
                 },
                 {
                   "mount": "3",
-                  "cost": 480
+                  "cost": 490
                 }
               ]
             }
@@ -720,7 +720,7 @@
         },
         {
           "name": "Caimant Ancient",
-          "cost": 230,
+          "cost": 225,
           "type": "1",
           "size" : "2",
           "base": "8",
@@ -901,15 +901,15 @@
               "choices": [
                 {
                   "name": "Master of Relaity",
-                  "cost": 140
+                  "cost": 135
                 },
                 {
                   "name": "Grasp of the Immortal",
-                  "cost": 110
+                  "cost": 120
                 },
                 {
                   "name": "Ancient Knowledge",
-                  "cost": 90
+                  "cost": 95
                 },
                 {
                   "name": "Protean Potentiate",
@@ -920,12 +920,12 @@
                   "cost": 70
                 },
                 {
-                  "name": "Master Transmutor",
-                  "cost": 60
+                  "name": "Soulfire Weaver",
+                  "cost": 150
                 },
                 {
                   "name": "Symbiosis",
-                  "cost": 60
+                  "cost": 50
                 },
                 {
                   "name": "Trained from Birth",
@@ -1093,13 +1093,13 @@
                 {
                   "mount": "5",
                   "category": "4",
-                  "cost": 90
+                  "cost": 85
                 },
                 {
                   "mount": "6",
                   "globalid": "25",
                   "category": "5",
-                  "cost": 450,
+                  "cost": 435,
                   "condition": [
                     {
                       "option": "25",
@@ -1265,7 +1265,7 @@
                   "mount": "6",
                   "globalid": "25",
                   "category": "5",
-                  "cost": 450,
+                  "cost": 435,
                   "condition": [
                     {
                       "option": "25",
@@ -1290,9 +1290,9 @@
       "units": [
         {
           "name": "Saurian Warriors",
-          "cost": 265,
+          "cost": 255,
           "unitsize": 15,
-          "modelcost": 20,
+          "modelcost": 21,
           "maxmodels": 20,
           "type": "1",
           "size" : "1",
@@ -1481,7 +1481,7 @@
                 {
                   "name": "Poisoned Javelin (4+)",
                   "category": "4",
-                  "cost": 5
+                  "cost": 4
                 },
                 {
                   "name": "Replace Shield with Bow (4+)",
@@ -1521,9 +1521,9 @@
       "units": [
         {
           "name": "Temple Guard",
-          "cost": 375,
+          "cost": 365,
           "unitsize": 15,
-          "modelcost": 31,
+          "modelcost": 32,
           "maxmodels": 15,
           "type": "1",
           "size" : "1",
@@ -1609,9 +1609,9 @@
         },
         {
           "name": "Raptor Riders",
-          "cost": 280,
+          "cost": 285,
           "unitsize": 5,
-          "modelcost": 55,
+          "modelcost": 52,
           "maxmodels": 7,
           "limitation": 4,
           "type": "3",
@@ -1713,7 +1713,7 @@
           "name": "Caimans",
           "cost": 210,
           "unitsize": 3,
-          "modelcost": 88,
+          "modelcost": 85,
           "maxmodels": 7,
           "limitation": 5,
           "type": "1",
@@ -1790,7 +1790,7 @@
         },
         {
           "name": "Snake Swarms",
-          "cost": 130,
+          "cost": 135,
           "unitsize": 2,
           "modelcost": 40,
           "maxmodels": 2,
@@ -1843,7 +1843,7 @@
               "choices": [
                 {
                   "name": "Scout",
-                  "cost": 15
+                  "cost": 12
                 }
               ]
             }
@@ -1985,7 +1985,7 @@
         },
         {
           "name": "Weapon Beasts",
-          "cost": 130,
+          "cost": 135,
           "unitsize": 1,
           "modelcost": 130,
           "maxmodels": 1,
@@ -2048,7 +2048,7 @@
           "name": "Pteradon Sentries",
           "cost": 190,
           "unitsize": 3,
-          "modelcost": 40,
+          "modelcost": 35,
           "maxmodels": 2,
           "limitation": 2,
           "type": "3",
@@ -2154,9 +2154,9 @@
         },
         {
           "name": "Rhamphodon Riders",
-          "cost": 220,
+          "cost": 215,
           "unitsize": 3,
-          "modelcost": 65,
+          "modelcost": 62,
           "maxmodels": 2,
           "limitation": 2,
           "type": "3",
@@ -2451,7 +2451,7 @@
         },
         {
           "name": "Thyroscutus",
-          "cost": 310,
+          "cost": 350,
           "limitation": 3,
           "type": "3",
           "size" : "2",
@@ -2520,7 +2520,7 @@
                 },
                 {
                   "name": "Sun Engine",
-                  "cost": 25
+                  "cost": 0
                 }
               ]
             }

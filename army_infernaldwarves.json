@@ -40,62 +40,87 @@
   "magicitems": {
     "weapons": [
       {
-        "name": "Mace of Tristan",
-        "cost": 100,
-        "description": "Type: Hand Weapon. Attacks made with this weapon count as having a Strength equal to the Toughness of the model they are attacking +1. If the Strength would be higher without this rule, ignore it. Whenever an enemy model suffers one or more hits from this weapon, roll a D6 at the end of the Initiative step for every hit. If one or more 4+ results are rolled, all Magical Weapons carried by the attacked models are reverted to its mundane type for the rest of the game."
+        "name": "Ony Core",
+        "cost": 120,
+        "description": "Hand Weapon enchantment. Attacks made with this weapon gain +2 Strength, +2 Armour Penetration, Magical Attacks, and Multiple Wounds (D3, against Flammable)."
       },
       {
-        "name": "Dragon Lance",
-        "cost": 90,
-        "description": "Type: Lance. The wielder gains Breath Weapon (Strength 3, Flaming Attacks). Attacks with this weapon have Multiple Wounds (D3) in the Round of Combat directly after the wielder has charged into combat. This bonus can only be applied to attacks directed against the charged enemies."
+        "name": "Burning Steel",
+        "cost": 70,
+        "description": "Hand Weapon enchantment. The wielder gains +1 Attack Value. Attacks made with this weapon gain Flaming Attacks, Magical Attacks, have their Armour Penetration set to 10, and always wound on a roll equal to or greater than 7 - the target's Armour. A natural '6' always wounds and a natural '1' always fails to wound"
       }
     ],
     "armours": [
       {
-        "name": "Crusader’s Helm",
-        "cost": 90,
-        "description": "Type: Plate Armour. Attacks againstthe wearer with Lethal Strike lose this special rule."
+        "name": "Steel Skin",
+        "cost": 85,
+        "description": "Cannot be taken by models with Towering Presence. Suits of Armour enchantment. The wearer gains +3 Armour. Attacks against the wearer with Lethal Strike and/or Poison Attacks lose these Attack Attributes."
       },
       {
-        "name": "Armour of Percival",
-        "cost": 50,
-        "description": "Type: Heavy Armour. The wearer gains +1 to its Ward Save to a maximum of 4+. Any Divine Attacks made against the wielder lose Divine Attacks."
+        "name": "Secrets of Mithril",
+        "cost": 65,
+        "description": "Shield enchantment. The bearer gains Aegis (4+, against Armour Penetration 3 or more)."
+      },
+      {
+        "name": "Kadim Bindings",
+        "cost": 70,
+        "description": "Shield enchantment. While using this Shield, the bearer gains Aegis (5+), Aegis (2+, against Flaming Attacks), and Volcanic Embrace"
       }
     ],
-    "talismans": [
+    "artefacts": [
       {
-        "name": "Talisman of Roland",
-        "cost": 50,
-        "description": "No unit may use the Stand and Shoot reaction when charged by the bearer’s unit. Furthermore, the bearer’s unit gains +1 to its Ward Save against any Ranged Attacks to a maximum of 4+. This cannot be used against Magical Attacks."
+        "name": "Ring of Desiccation",
+        "cost": 75,
+        "description": "Models on foot only. All enemy units in base contact with the bearer’s model gain Flammable"
       },
       {
-        "name": "Blessed Scripture",
-        "cost": 50,
-        "description": "Multiple Wounds suffered by the bearer are halved, rounded up."
-      }
-    ],
-    "enchanteditems": [
-      {
-        "name": "Storm Clarion",
-        "cost": 80,
-        "description": "One use only. This item may be activated at the start of any Player Turn. Enemy units cannot make Flying Movements during this player turn."
+        "name": "Tablet of Ashuruk",
+        "cost": 70,
+        "description": "Wizards only. In the opponent's Magic Phase, during Siphon the Veil, before converting Veil Tokens into Magic Dice, remove one Veil Token from the opponent’s Veil Token pool and add one Veil Token to your Veil Token pool."
       },
       {
-        "name": "Wafers of Penitence",
-        "cost": 30,
-        "description": "The bearer's unit is never disrupted when flanked by enemy units (but can still be disrupted by enemy units to its rear)."
+        "name": "Lugar's Dice",
+        "cost": 70,
+        "description": "The bearer must re-roll natural to-hit and to-wound rolls of '1' with its Close Combat Attacks. Unless mounted on a Gigantic mount, natural to-hit and to-wound rolls of '6' with Close Combat Attacks against the bearer’s model must be re-rolled."
+      },
+      {
+        "name": "Mask of the Furnace",
+        "cost": 65,
+        "description": "Cannot be taken by models with Towering Presence. The bearer gains +1 Armour and Breath Attack (Toxic Attacks)."
+      },
+      {
+        "name": "Bullhorn of Nezibkesh",
+        "cost": 65,
+        "description": "The range of the bearer's Engineer Universal Rule (if it has it) is extended to 12. When a War Machine is selected by the bearer's Engineer Universal Rule, its Shooting Weapons gain +1 Armour Penetration for the duration of this phase"
+      },
+      {
+        "name": "Heat Haze",
+        "cost": 50,
+        "description": "The bearer gains Aegis (4+, against Shooting Attacks) and its unit gains Hard Target. The effects last until the end of the Player Turn in which the bearer's unit suffers the first Health Point loss"
+      },
+      {
+        "name": "Besheluk’s Mechanism",
+        "cost": 50,
+        "dominant": 1,
+        "description": "Wizards only. The bearer can cast a Bound Spell with Power Level (4/8), Range 24, Type: Augment, Duration: Instant. The target Raises a number of Health Points as given below (units not on the list are unaffected by the spell): Disciples of Lugar: 4 Health Points. Kadim Incarnates: 2 Health Points. Kadim Titan: 1 Health Point."
+      },
+      {
+        "name": "Gauntlets of Madzhab",
+        "cost": 25,
+        "description": "The bearer gains +1 Strength and +1 Armour Penetration. Each natural to-hit roll of ‘1’ by the bearer’s Close Combat Attacks hits its own unit (attacker distributes the hits). These hits can never hit the bearer itself, unless the bearer is mounted and not part of a combined unit."
       }
     ],
     "standards": [
       {
-        "name": "The Oriflamme",
-        "cost": 90,
-        "description": "The bearer gains Fear. Enemy units in base contact with the bearer’s unit may not benefit from Hold Your Ground."
+        "name": "Icon of the Inferno",
+        "cost": 85,
+        "description": "Cannot be taken by Core units. When a non-Attribute non-Bound Spell is successfully cast by a friendly Wizard within 12 of the bearer (and after the corresponding Path Attribute Spell has been resolved if applicable), the bearer may automatically cast Blaze from Pyromancy, which cannot be dispelled. "
       },
       {
-        "name": "Banner of the Last Charge",
-        "cost": 40,
-        "description": "All mounts in the bearer’s unit gain Impact Hits (1)."
+        "name": "Banner of Shamut ",
+        "cost": 50,
+        "limitation": 3,
+        "description": "A unit containing one or more Banners of Shamut gains +1 Offensive Skill and adds +1 to its side’s Combat Score."
       }
     ]
   },
@@ -104,8 +129,9 @@
       "id": "1",
       "name": "Bull of Shamut",
       "type": "2",
+      "size": "2",
       "limitation": "2",
-      "organisation": "6",
+      "category": "6",
       "base": "2",
       "rules": [
         {
@@ -154,9 +180,10 @@
       "id": "2",
       "name": "Temple Lamassu",
       "type": "2",
+      "size": "2",
       "base": "2",
       "limitation": "1",
-      "organisation": "6",
+      "category": "6",
       "rules": [
         {
           "name": "Temple Lamassu",
@@ -213,8 +240,9 @@
       "name": "Great Bullf of Shamut",
       "type": "2",
       "base": "2",
+      "size": "3",
       "limitation": "1",
-      "organisation": "6",
+      "category": "6",
       "rules": [
         {
           "name": "Great Bull of Shamut",
@@ -264,6 +292,7 @@
       "id": "4",
       "name": "Wolf",
       "type": "2",
+      "size": "1",
       "base": "2",
       "rules": [
         {
@@ -641,10 +670,371 @@
           ]
         },
         {
-          "name": "Taurukh Subjugator",
-          "cost": 305,
+          "name": "Wizard",
+          "cost": 160,
           "type": "1",
           "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Wizard",
+              "ADV": "3",
+              "MAR": "9",
+              "DEF": "4",
+              "OFF": "4",
+              "AP": "1",
+              "ARM": "0",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "2",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "27",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "27",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "shield",
+                  "cost": 10
+                },
+                {
+                  "name": "Blunderbuss (3+)",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": 40
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": 115
+                },
+                {
+                  "globalid": "27",
+                  "name": "Wizard Master",
+                  "cost": 265
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Alchemy",
+                  "cost": 0
+                },
+                {
+                  "name": "Pyromancy",
+                  "cost": 0
+                },
+                {
+                  "name": "Occultism",
+                  "cost": 0
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Flintlock Axe (3+)",
+                  "cost": 10
+                },
+                {
+                  "name": "Infernal Weapon",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "category": "6",
+                  "cost": 230,
+                  "condition": [
+                    {
+                      "option": "27",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "2",
+                  "category": "6",
+                  "cost": 320
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engineer",
+          "cost": 180,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Engineer",
+              "ADV": "3",
+              "MAR": "9",
+              "DEF": "4",
+              "OFF": "4",
+              "AP": "1",
+              "ARM": "0",
+              "S": "4",
+              "T": "5",
+              "W": "3",
+              "I": "2",
+              "A": "2",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Chosen of Ashuruk"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Infernal Armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "27",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "27",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "shield",
+                  "cost": 10
+                },
+                {
+                  "name": "Blunderbuss (3+)",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": true,
+              "choices": [
+                {
+                  "globalid": "28",
+                  "name": "Wizard Apprentice",
+                  "cost": 40
+                },
+                {
+                  "globalid": "28",
+                  "name": "Wizard Adept",
+                  "cost": 115
+                },
+                {
+                  "globalid": "27",
+                  "name": "Wizard Master",
+                  "cost": 265
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Alchemy",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "28",
+                      "global": false,
+                      "exist": true
+                    },
+                    {
+                      "option": "27",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Pyromancy",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "28",
+                      "global": false,
+                      "exist": true
+                    },
+                    {
+                      "option": "27",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Occultism",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "28",
+                      "global": false,
+                      "exist": true
+                    },
+                    {
+                      "option": "27",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Flintlock Axe (3+)",
+                  "cost": 10
+                },
+                {
+                  "name": "Infernal Weapon",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "category": "6",
+                  "cost": 230,
+                  "condition": [
+                    {
+                      "option": "27",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "2",
+                  "category": "6",
+                  "cost": 320
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Taurukh Subjugator",
+          "cost": 305,
+          "type": "2",
+          "size": "2",
           "base": "1",
           "rules": [
             {
@@ -966,7 +1356,7 @@
                 {
                   "name": "Blunderbuss (3+)",
                   "limitation": "30",
-                  "organisation": "5",
+                  "category": "5",
                   "cost": 10
                 }
               ]
@@ -1054,12 +1444,12 @@
               "choices": [
                 {
                   "name": "Flintlock Axe (3+)",
-                  "organisation": "5",
+                  "category": "5",
                   "cost": 9
                 },
                 {
                   "name": "Replace Shield with Flintlock Axe (3+)",
-                  "organisation": "5",
+                  "category": "5",
                   "cost": 8
                 }
               ]
@@ -1133,7 +1523,7 @@
                   "name": "Bow (4+)",
                   "limitation": "3",
                   "amxmodels": "60",
-                  "organisation": "5",
+                  "category": "5",
                   "cost": 2
                 },
                 {
@@ -1330,7 +1720,7 @@
           "unitsize": 5,
           "modelcost": 24,
           "maxmodels": 10,
-          "type": "1",
+          "type": "2",
           "base": "1",
           "rules": [
             {
@@ -1434,12 +1824,12 @@
         {
           "name": "Taurukh Anointed",
           "cost": 335,
-          "size": "1",
+          "size": "2",
           "unitsize": 3,
           "modelcost": 105,
           "maxmodels": 4,
           "limitation": 5,
-          "type": "1",
+          "type": "2",
           "base": "1",
           "rules": [
             {
@@ -1543,11 +1933,12 @@
         {
           "name": "Hobgoblin Wolf Riders",
           "cost": 130,
-          "size": 5,
+          "size": "1",
+          "unitsize": 5,
           "modelcost": 14,
           "maxmodels": 10,
           "limitation": 2,
-          "type": "1",
+          "type": "2",
           "base": "1",
           "rules": [
             {
@@ -1656,7 +2047,7 @@
           "name": "Infernal Artillery",
           "cost": 150,
           "size": "1",
-          "type": "1",
+          "type": "4",
           "base": "1",
           "rules": [
             {
@@ -1714,7 +2105,7 @@
                 {
                   "name": "Bound Daemon",
                   "cost": 130,
-                  "organisation": "6",
+                  "category": "6",
                   "condition": [
                     {
                       "option": "20",
@@ -1726,7 +2117,7 @@
                 {
                   "name": "Bound Daemon",
                   "cost": 200,
-                  "organisation": "6",
+                  "category": "6",
                   "condition": [
                     {
                       "option": "21",
@@ -1743,7 +2134,7 @@
           "name": "Titan Mortar",
           "cost": 300,
           "size": "1",
-          "type": "1",
+          "type": "4",
           "limitation": "2",
           "base": "1",
           "rules": [
@@ -1819,7 +2210,7 @@
           "name": "Hobgoblin Bolt Thrower",
           "cost": 95,
           "size": "1",
-          "type": "1",
+          "type": "4",
           "limitation": "2",
           "base": "1",
           "rules": [
@@ -1850,15 +2241,13 @@
             }
           ],
           "options": [
-            {
-            }
           ]
         },
         {
           "name": "Gunnery Team",
           "cost": 130,
           "size": "1",
-          "type": "1",
+          "type": "4",
           "limitation": "2",
           "base": "1",
           "rules": [
@@ -2025,7 +2414,7 @@
         {
           "name": "Kadim Titan",
           "cost": 575,
-          "size": "1",
+          "size": "3",
           "type": "1",
           "limitation": "1",
           "base": "1",
@@ -2076,7 +2465,7 @@
         {
           "name": "Kadim Incarnates",
           "cost": 335,
-          "size": "1",
+          "size": "2",
           "unitsize": 3,
           "modelcost": 120,
           "maxmodels": 3,
@@ -2145,9 +2534,9 @@
         {
           "name": "Infernal Engine",
           "cost": 145,
-          "size": "1",
+          "size": "2",
           "limitation": "1",
-          "type": "1",
+          "type": "4",
           "base": "1",
           "rules": [
             {
@@ -2243,7 +2632,7 @@
         {
           "name": "Armoured Giant",
           "cost": 305,
-          "size": "1",
+          "size": "3",
           "limitation": "3",
           "type": "1",
           "base": "1",

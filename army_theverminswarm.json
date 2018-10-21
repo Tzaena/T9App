@@ -1,0 +1,2170 @@
+{
+  "organisation": [
+    {
+      "id": "1",
+      "percent": 40,
+      "type": "max",
+      "name": "Characters"
+    },
+    {
+      "id": "2",
+      "percent": 25,
+      "type": "max",
+      "name": "Core"
+    },
+    {
+      "id": "3",
+      "percent": 100,
+      "type": "max",
+      "name": "Special"
+    },
+    {
+      "id": "4",
+      "percent": 30,
+      "type": "max",
+      "name": "Tunnel Gunners"
+    },
+    {
+      "id": "5",
+      "percent": 30,
+      "type": "max",
+      "name": "Built and Bred"
+    }
+  ],
+  "magicitems": {
+    "weapons": [
+      {
+        "name": "Secrets of the Doom Blade",
+        "description": "Hand Weapon EnchantmentAttacks made with this weapon have their Strength set to 10 and Armour Penetration set to 10, gain Multiple Wounds (D6), Magical Attacks, and Divine Attacks. At the end of each friendly Player Turn, the wielder suffers 1 hit with Toxic Attacks (which counts as a Melee Attack). ",
+        "cost": "200"
+      },
+      {
+        "name": "Swarm Master",
+        "description": "Paired Weapon EnchantmentThe wielder always has Attack Value 3D6 when using this weapon. Attacks made with this weapon always have Strength 3 and always have Armour Penetration 1 and gain Magical Attacks.",
+        "cost": "35"
+      },
+      {
+        "name": "Darkstone Shot",
+        "description": "Jezzail or Ratlock Pistols EnchantmentThe weapon gains +1 Shots. Attacks made with this weapon that roll a natural '6' to wound gain Multiple Wounds (D3).",
+        "cost": "30"
+      }
+    ],
+    "armours": [
+      {
+        "name": "Putrid Protection",
+        "description": "Light Armour EnchantmentThe wearer gains +2 Armour. For each successful Armour Save made by the wearer against Melee Attacks, the Health Pool which the model that caused the wounding hit is part of suffers 1 hit with Toxic Attacks. This is considered a Special Attack.",
+        "cost": "60"
+      },
+      {
+        "name": "Seal of House Underminer",
+        "description": "Heavy Armour EnchantmentThe owning player’s Army gains a +1 modifier for the roll for determining who picks the Deployment Zone. Directly after Deployment Zones are picked, choose a Terrain Feature with its center on your half of the Battlefield. Unless the chosen Terrain Feature is Impassable Terrain, it becomes Dangerous Terrain (2). ",
+        "cost": "35"
+      },
+      {
+        "name": "Net of Deception",
+        "description": "Shield EnchantmentWhile using this Shield, the wielder gains Distracting and at the end of step 2 of the Round of Combat Sequence (right after Choose Weapons), nominate one enemy model part in base contact with the user of the Shield. For the duration of this Round of Combat, the nominated model part suffers -1 Attack Value.",
+        "cost": "40"
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Multifocal Eyepiece - Rakachit Machinist only",
+        "description": "ArtefactAt the start of each friendly Shooting Phase, you may choose a Weapon Team within 3\" of the bearer. For the duration of the phase, Shooting Attacks made by this Weapon Team gain +1 to hit.",
+        "cost": "45"
+      },
+      {
+        "name": "Second Awakening",
+        "description": "ArtefactWhen the bearer casts a spell of Type Damage for which dice are used to determine the number of hits this spell inflicts, you may choose to reroll these dice. If so, all dice must be rerolled. ",
+        "cost": "45"
+      },
+      {
+        "name": "Crown of Succession",
+        "description": "ArtefactCannot be taken by models with Not a Leader. When the Army’s General is removed as a casualty, the bearer gains Commanding Presence.",
+        "cost": "45"
+      },
+      {
+        "name": "Scurrying Veil - Standard Size only",
+        "description": "ArtefactThe bearer gains Tiny (see Rat Swarms), and its March Rate is set to 20”.",
+        "cost": "35"
+      },
+      {
+        "name": "Sceptre of Vermin Valour - Infantry only",
+        "description": "ArtefactThe bearer gains Stand Behind. ",
+        "cost": "35"
+      },
+      {
+        "name": "Focusing Stone - Wizards Only - Dominant",
+        "description": "ArtefactDuring a friendly Magic Phase or Shooting Phase, when a friendly model in a unit within 24” of the bearer inflicts a hit, before rolling to wound, the owning player may discard a single Veil Token from its Veil Token pool. If so, the hit gains +1 to wound. If there is more than one hit, declare which hit gains the modifier before rolling any dice.",
+        "cost": "40"
+      }
+    ],
+    "standards": [
+      {
+        "name": "Lightning Rod",
+        "description": "Battle Standard Bearer and Vermin Guard only.One use only. May be activated at the start of the opponent’s Player Turn. During this Player Turn all friendly units gain Hard Target. No Flying Movement may take place.",
+        "cost": "100"
+      },
+      {
+        "name": "Banner of the Endless Swarm",
+        "description": "Banner EnchantmentIf a unit with one or more Banners of the Endless Swarm has more Full Ranks than each of the enemy units Engaged in the same Combat, it gains Fight in Extra Rank. If the unit has more than twice the number of Full Ranks than each of the enemy units Engaged in the same Combat, it gains an additional instance of Fight in Extra Rank. Check how many Full Ranks the units have and apply the effects at each Initiative Step.",
+        "cost": "50"
+      },
+      {
+        "name": "Aquila of Ruin",
+        "description": "Banner Enchantment Rats-at-Arms only. If the bearer’s unit is composed entirely of Infantry models, it increases the maximum of its Rank Bonus by +2, which cannot be increased by any other means (this means the unit can add up to 5 Full Ranks to its Combat Score).",
+        "cost": "55"
+      }
+    ]
+  },
+  "mounts": [
+    {
+      "id": "1",
+      "name": "Vermin Guard Litter",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [],
+          "ADV": "5",
+          "MAR": "10",
+          "Ld": "C",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C+2",
+          "name": "Vermin Guard Litter ",
+          "A": "4",
+          "OFF": "4",
+          "S": "4",
+          "AP": "2",
+          "I": "5"
+        }
+      ],
+      "size": "Standard",
+      "type": "Infantry"
+    },
+    {
+      "id": "2",
+      "name": "Vermin Hulk Bodyguard",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Battle Focus"
+            }
+          ],
+          "equipments": [],
+          "ADV": "6",
+          "MAR": "12",
+          "Ld": "C",
+          "W": "4",
+          "DEF": "C",
+          "T": "5",
+          "ARM": "C+1",
+          "name": "Vermin Hulk Bodyguard ",
+          "A": "4",
+          "OFF": "4",
+          "S": "5",
+          "AP": "2",
+          "I": "4"
+        }
+      ],
+      "size": "Large",
+      "type": "Infantry"
+    },
+    {
+      "id": "3",
+      "name": "Monstrous Rat",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Fearless"
+            },
+            {
+              "specialrule": "Regeneration  (4+)"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Breath Attack  (Toxic Attacks)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "7",
+          "MAR": "14",
+          "Ld": "C",
+          "W": "4",
+          "DEF": "C",
+          "T": "5",
+          "ARM": "-",
+          "name": "Monstrous Rat ",
+          "A": "5",
+          "OFF": "4",
+          "S": "5",
+          "AP": "2",
+          "I": "4"
+        }
+      ],
+      "size": "Large",
+      "type": "Cavalry"
+    },
+    {
+      "id": "4",
+      "name": "Doom Bell",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Terror"
+            },
+            {
+              "specialrule": "War Platform"
+            },
+            {
+              "specialrule": "State of Trance  (Rats-at-Arms, Vermin Guard)"
+            },
+            {
+              "specialrule": "Channel  (+2)"
+            },
+            {
+              "specialrule": "Aegis  (4+)"
+            },
+            {
+              "specialrule": "Battle Focus"
+            },
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [],
+          "ADV": "5",
+          "MAR": "10",
+          "Ld": "C",
+          "W": "5",
+          "DEF": "C",
+          "T": "5",
+          "ARM": "C+2",
+          "name": "Vermin Hulk ",
+          "A": "4",
+          "OFF": "4",
+          "S": "5",
+          "AP": "2",
+          "I": "4"
+        }
+      ],
+      "size": "Gigantic",
+      "type": "Construct"
+    },
+    {
+      "id": "5",
+      "name": "Plague Pendulum",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Frenzy"
+            },
+            {
+              "specialrule": "Stubborn"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "State of Trance  (Plague Brotherhood)"
+            },
+            {
+              "specialrule": "War Platform"
+            },
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Aegis  (4+)"
+            },
+            {
+              "specialrule": "Battle Focus"
+            },
+            {
+              "specialrule": "Hatred"
+            },
+            {
+              "specialrule": "Inanimate"
+            },
+            {
+              "specialrule": "Grind Attacks  (D6+2)"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Impact Hits  (D6+2)"
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Paired Weapons"
+            }
+          ],
+          "ADV": "5",
+          "MAR": "10",
+          "Ld": "C",
+          "W": "5",
+          "DEF": "c",
+          "T": "5",
+          "ARM": "C+2",
+          "name": "Crew (4) ",
+          "A": "1",
+          "OFF": "3",
+          "S": "3",
+          "AP": "0",
+          "I": "3"
+        },
+        {
+          "name": "Chassis ",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "-",
+          "OFF": "-",
+          "S": "5",
+          "AP": "2",
+          "I": "3"
+        },
+        {
+          "name": "Ram ",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "-",
+          "OFF": "-",
+          "S": "6",
+          "AP": "3",
+          "I": "-"
+        }
+      ],
+      "size": "Gigantic",
+      "type": "Construct"
+    }
+  ],
+  "army": [
+    {
+      "organisation": "1",
+      "units": [
+        {
+          "name": "Vermin Daemon",
+          "Base": "1",
+          "size": "Gigantic ",
+          "type": "Beast",
+          "cost": "800",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Schemer"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Wizard Master"
+                },
+                {
+                  "specialrule": "Aegis  (4+, against Magical Attacks)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "9",
+              "W": "6",
+              "DEF": "8",
+              "T": "6",
+              "ARM": "2",
+              "name": "Vermin Daemon ",
+              "A": "5",
+              "OFF": "8",
+              "S": "6",
+              "AP": "10",
+              "I": "9"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Tyrant",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "160",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Honourless"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "7",
+              "W": "3",
+              "DEF": "6",
+              "T": "4",
+              "ARM": "0",
+              "name": "Tyrant ",
+              "A": "4",
+              "OFF": "6",
+              "S": "4",
+              "AP": "1",
+              "I": "7"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Armour",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Light Armour",
+                  "cost": "0"
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": "15"
+                },
+                {
+                  "name": "Shield",
+                  "cost": "5"
+                }
+              ]
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Ratlock Pistols (3+)",
+                  "cost": "10"
+                },
+                {
+                  "name": "Paired Weapons and Tail Weapon",
+                  "cost": "20"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "20"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Vermin Guard Litter",
+                  "cost": "75"
+                },
+                {
+                  "name": "Vermin Hulk Bodyguard",
+                  "cost": "95"
+                },
+                {
+                  "name": "Monstrous Rat",
+                  "cost": "200"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chief",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "110",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Honourless"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "6",
+              "W": "3",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "0",
+              "name": "Chief ",
+              "A": "3",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "6"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Fetthis Broodmaster",
+                  "cost": "25"
+                }
+              ]
+            },
+            {
+              "name": "Armour",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Light Armour",
+                  "cost": "0"
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": "10"
+                },
+                {
+                  "name": "Shield",
+                  "cost": "5"
+                }
+              ]
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Ratlock Pistols (3+)",
+                  "cost": "10"
+                },
+                {
+                  "name": "Paired Weapons and Tail Weapon",
+                  "cost": "10"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "10"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "10"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Vermin Hulk Bodyguard",
+                  "cost": "85"
+                },
+                {
+                  "name": "Monstrous Rat",
+                  "cost": "240"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Magister",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "200",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Honourless"
+                },
+                {
+                  "specialrule": "Callous"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "6",
+              "W": "3",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Magister ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "3 Dark Shards",
+                  "cost": "30"
+                },
+                {
+                  "name": "Light Armour",
+                  "cost": "5"
+                },
+                {
+                  "name": "Doom Bell",
+                  "cost": "360"
+                },
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "150"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rakachit Machinist",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "185",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Mechanical Limbs"
+                },
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Honourless"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "5",
+              "W": "3",
+              "DEF": "4",
+              "T": "4",
+              "ARM": "1",
+              "name": "Rakachit Machinist ",
+              "A": "2",
+              "OFF": "4",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Gas Globes (3+)",
+                  "cost": "10"
+                },
+                {
+                  "name": "Ratlock Pistols (3+)",
+                  "cost": "10"
+                },
+                {
+                  "name": "Jezzail (3+)",
+                  "cost": "25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sicarra Assassin",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "300",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Professional Courtesy"
+                },
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Not a Leader"
+                },
+                {
+                  "specialrule": "Honourless"
+                },
+                {
+                  "specialrule": "Aegis (4+)"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Multiple Wounds (D3, against Characters)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Paired Weapons"
+                },
+                {
+                  "equipment": "Throwing Weapons (3+)"
+                },
+                {
+                  "equipment": "Tail Weapon"
+                }
+              ],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "7",
+              "W": "3",
+              "DEF": "6",
+              "T": "4",
+              "ARM": "0",
+              "name": "Sicarra Assassin Offensive",
+              "A": "3",
+              "OFF": "6",
+              "S": "4",
+              "AP": "4",
+              "I": "8"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Replace Throwing Weapons with Sling (2+)",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Upgrades",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Lethal Strike",
+                  "cost": "15"
+                },
+                {
+                  "name": "Scout, Ambush, and Vanguard",
+                  "cost": "35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Plague Patriarch",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "155",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Putrid Scholar"
+                },
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Honourless"
+                },
+                {
+                  "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Hatred"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "6",
+              "W": "3",
+              "DEF": "4",
+              "T": "5",
+              "ARM": "-",
+              "name": "Plague Patriarch ",
+              "A": "3",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Light Armour",
+                  "cost": "5"
+                },
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Plague Pendulum",
+                  "cost": "410"
+                },
+                {
+                  "name": "3 Dark Shards",
+                  "cost": "30"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "5"
+                },
+                {
+                  "name": "Plague Flail",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "2",
+      "units": [
+        {
+          "name": "Rats-at-Arms",
+          "Base": "1",
+          "unitsize": "25",
+          "maxmodels": "35",
+          "modelcost": "8",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "220",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Rat-at-Arms ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Spears",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Spears",
+                  "cost": "1"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vermin Guard",
+          "Base": "1",
+          "unitsize": "20",
+          "maxmodels": "30",
+          "modelcost": "17",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "250",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fight in Extra Rank"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Halberd"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Vermin Guard ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "1",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Plague Brotherhood",
+          "Base": "1",
+          "unitsize": "20",
+          "maxmodels": "30",
+          "modelcost": "11",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "205",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Hatred"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Paired Weapons"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "2",
+              "T": "4",
+              "ARM": "0",
+              "name": "Plague Brotherhood ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Slaves",
+          "Base": "1",
+          "unitsize": "30",
+          "maxmodels": "30",
+          "modelcost": "4",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "150",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Disposable"
+                },
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Insignificant"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "2",
+              "W": "1",
+              "DEF": "2",
+              "T": "3",
+              "ARM": "-",
+              "name": "Slave ",
+              "A": "1",
+              "OFF": "2",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Footpads",
+          "Base": "1",
+          "unitsize": "10",
+          "maxmodels": "20",
+          "modelcost": "10",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "120",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Callous"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Sling (3+)"
+                }
+              ],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "6",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Footpad ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Paired Weapons",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "1"
+                },
+                {
+                  "name": "Vanguard",
+                  "cost": "30"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Giant Rats - Core",
+          "Base": "1",
+          "unitsize": "20",
+          "maxmodels": "40",
+          "modelcost": "6",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "140",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Handlers"
+                },
+                {
+                  "specialrule": "Fight in Extra Rank"
+                }
+              ],
+              "equipments": [],
+              "ADV": "7",
+              "MAR": "14",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Giant Rat ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "3",
+      "units": [
+        {
+          "name": "Giant Rats - Special",
+          "Base": "1",
+          "unitsize": "10",
+          "maxmodels": "9",
+          "modelcost": "6",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "80",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Handlers"
+                },
+                {
+                  "specialrule": "Fight in Extra Rank"
+                }
+              ],
+              "equipments": [],
+              "ADV": "7",
+              "MAR": "14",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Giant Rat ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Plague Disciples",
+          "Base": "1",
+          "unitsize": "8",
+          "maxmodels": "7",
+          "modelcost": "17",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "170",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Brood's Courage  (Plague Brotherhood)"
+                },
+                {
+                  "specialrule": "Hard Target"
+                },
+                {
+                  "specialrule": "Hatred"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Plague Flail"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "2",
+              "T": "4",
+              "ARM": "-",
+              "name": "Plague Disciple ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vermin Hulks",
+          "Base": "1",
+          "unitsize": "4",
+          "maxmodels": "8",
+          "modelcost": "75",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "295",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Handlers"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Callous"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "6",
+              "W": "3",
+              "DEF": "2",
+              "T": "5",
+              "ARM": "1",
+              "name": "Vermin Hulk ",
+              "A": "3",
+              "OFF": "3",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Become Thunder Hulks",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Become Thunder Hulks",
+                  "cost": "15"
+                },
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        },
+        {
+          "name": "Rat Swarms",
+          "Base": "1",
+          "unitsize": "2",
+          "maxmodels": "8",
+          "modelcost": "30",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "90",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Tiny"
+                },
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Insignificant"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Unstable"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "10",
+              "W": "5",
+              "DEF": "3",
+              "T": "2",
+              "ARM": "0",
+              "name": "Rat Swarm ",
+              "A": "5",
+              "OFF": "3",
+              "S": "2",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Meat Grinder",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "150",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "One with the Swarm"
+                },
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Insignificant"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "War Platform"
+                },
+                {
+                  "specialrule": "Brood's Courage  (Rats-at-Arms, Vermin Guard)"
+                },
+                {
+                  "specialrule": "Tag Along"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Meat Grinder"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "5",
+              "W": "2",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "3",
+              "name": "Meat Grinder ",
+              "A": "2",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Gutter Blades",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "5",
+          "modelcost": "25",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "155",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Paired Weapons"
+                },
+                {
+                  "equipment": "Throwing Weapons"
+                }
+              ],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "7",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Gutter Blade ",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Sling (3+)",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Scout and Ambush",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Scout and Ambush",
+                  "cost": "5"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "4",
+      "units": [
+        {
+          "name": "Weapon Team",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "150",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Scorched Fur"
+                },
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Insignificant"
+                },
+                {
+                  "specialrule": "Brood's Courage  (Rats-at-Arms, Vermin Guard)"
+                },
+                {
+                  "specialrule": "Tag Along"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "5",
+              "W": "2",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Weapon Team ",
+              "A": "2",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Naphtha Launcher (4+)",
+                  "cost": "35"
+                },
+                {
+                  "name": "Rotary Gun (4+)",
+                  "cost": "0"
+                },
+                {
+                  "name": "Globe Launcher (4+)",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jezails",
+          "Base": "1",
+          "unitsize": "3",
+          "maxmodels": "3",
+          "modelcost": "40",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "110",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Jezzail"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "5",
+              "W": "2",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Jezail ",
+              "A": "2",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Grenadiers",
+          "Base": "1",
+          "unitsize": "8",
+          "maxmodels": "7",
+          "modelcost": "22",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "195",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Volley Fire"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Gas Globes (4+)"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Grenadier ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Verminous Artillery",
+          "Base": "1",
+          "cost": "0",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "War Machine"
+                }
+              ],
+              "equipments": []
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Plague Catapult",
+                  "cost": "170"
+                },
+                {
+                  "name": "Lightning Cannon",
+                  "cost": "275"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dreadmill",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "290",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Electric Discharge"
+                },
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Grind Attacks (D3)"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits (D3)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "8",
+              "Ld": "7",
+              "W": "5",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "3",
+              "name": "Dreadmill ",
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "5",
+      "units": [
+        {
+          "name": "Abomination",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Beast",
+          "cost": "390",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Safety in Numbers"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Stubborn"
+                },
+                {
+                  "specialrule": "Random Movement  (3D6)"
+                },
+                {
+                  "specialrule": "Regeneration  (4+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "3D6",
+              "MAR": "-",
+              "Ld": "8",
+              "W": "6",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "0",
+              "name": "Abomination ",
+              "A": "3D6",
+              "OFF": "3",
+              "S": "6",
+              "AP": "3",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

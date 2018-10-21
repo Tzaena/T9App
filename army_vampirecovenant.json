@@ -1,0 +1,3051 @@
+{
+  "organisation": [
+    {
+      "id": "1",
+      "percent": 40,
+      "type": "max",
+      "name": "Characters"
+    },
+    {
+      "id": "2",
+      "percent": 25,
+      "type": "min",
+      "name": "Core"
+    },
+    {
+      "id": "3",
+      "percent": 100,
+      "type": "max",
+      "name": "Special"
+    },
+    {
+      "id": "4",
+      "percent": 20,
+      "type": "max",
+      "name": "The Suffrering"
+    },
+    {
+      "id": "5",
+      "percent": 30,
+      "type": "max",
+      "name": "Swift Death"
+    }
+  ],
+  "magicitems": {
+    "category1": [
+      {
+        "name": "Brotherhood of the Dragon Bloodline",
+        "cost": "45"
+      },
+      {
+        "name": "Lamia Bloodline",
+        "cost": "50"
+      },
+      {
+        "name": "Nosferatu Bloodline",
+        "cost": "10"
+      },
+      {
+        "name": "Strigoi Bloodline",
+        "cost": "110"
+      },
+      {
+        "name": "Von Karnstein Bloodline",
+        "cost": "50"
+      }
+    ],
+    "category2": [
+      {
+        "name": "Crimson Rage",
+        "cost": "130"
+      },
+      {
+        "name": "Commandment",
+        "cost": "70"
+      },
+      {
+        "name": "Blood Magic",
+        "cost": "75"
+      },
+      {
+        "name": "Ghoul Lord",
+        "cost": "70"
+      },
+      {
+        "name": "Storm Caller",
+        "cost": "125"
+      }
+    ],
+    "weapons": [],
+    "armours": [],
+    "artefacts": [],
+    "standards": [],
+    "category3": [
+      {
+        "name": "Eternal Duelist",
+        "cost": "80"
+      },
+      {
+        "name": "Monster Hunter",
+        "cost": "45"
+      },
+      {
+        "name": "Flying Horror - Models on Foot Only",
+        "cost": "70"
+      },
+      {
+        "name": "Bestial Bulk",
+        "cost": "70"
+      },
+      {
+        "name": "Hour of the Wolf",
+        "cost": "50"
+      },
+      {
+        "name": "Unbreakable Will",
+        "cost": "40"
+      },
+      {
+        "name": "Forbidden Path",
+        "cost": "25"
+      },
+      {
+        "name": "Arcane Knowledge",
+        "cost": "60"
+      },
+      {
+        "name": "Mask of Innocence",
+        "cost": "45"
+      },
+      {
+        "name": "Mesmerising Gaze",
+        "cost": "40"
+      }
+    ]
+  },
+  "mounts": [
+    {
+      "id": "1",
+      "name": "Skeletal Steed",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Ghost Step"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Magical Attacks"
+            }
+          ],
+          "equipments": [],
+          "ADV": "8",
+          "MAR": "16",
+          "Ld": "C",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C+2",
+          "name": "Skeletal Steed ",
+          "A": "1",
+          "OFF": "2",
+          "S": "3",
+          "AP": "0",
+          "I": "2"
+        }
+      ],
+      "size": "Standard",
+      "type": "Cavalry"
+    },
+    {
+      "id": "2",
+      "name": "Spectral Steed",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Ghost Step"
+            },
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Magical Attacks"
+            }
+          ],
+          "equipments": [],
+          "name": "Spectral Steed ",
+          "A": "1",
+          "OFF": "2",
+          "S": "3",
+          "AP": "0",
+          "I": "2",
+          "ADV": "8 (8)",
+          "MAR": "16 (16)",
+          "Ld": "C",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C+1"
+        }
+      ],
+      "size": "Standard",
+      "type": "Cavalry"
+    },
+    {
+      "id": "3",
+      "name": "Monstrous Revenant",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Poison Attacks"
+            },
+            {
+              "specialrule": "Lethal Strike"
+            }
+          ],
+          "equipments": [],
+          "ADV": "6 (8)",
+          "MAR": "12 (16)",
+          "Ld": "C",
+          "W": "4",
+          "DEF": "C",
+          "T": "5",
+          "ARM": "C",
+          "name": "Monstrous Revenant ",
+          "A": "4",
+          "OFF": "4",
+          "S": "5",
+          "AP": "2",
+          "I": "2"
+        }
+      ],
+      "size": "Large",
+      "type": "Cavalry"
+    },
+    {
+      "id": "4",
+      "name": "Court of the Damned",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Ghost Step"
+            },
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Autonomous"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "War Platform"
+            },
+            {
+              "specialrule": "Vampiric  (1)"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Magical Attacks"
+            },
+            {
+              "specialrule": "Inanimate"
+            },
+            {
+              "specialrule": "Impact Hits  (D6)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "4",
+          "MAR": "8",
+          "Ld": "C",
+          "W": "5",
+          "DEF": "5",
+          "T": "5",
+          "ARM": "C",
+          "name": "Paramour (2) ",
+          "A": "2",
+          "OFF": "5",
+          "S": "5",
+          "AP": "2",
+          "I": "6"
+        },
+        {
+          "name": "Spectral Pallbearers ",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "8",
+          "OFF": "2",
+          "S": "3",
+          "AP": "0",
+          "I": "2"
+        },
+        {
+          "name": "Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "-",
+          "OFF": "-",
+          "S": "5",
+          "AP": "2",
+          "I": "-"
+        }
+      ],
+      "size": "Large",
+      "type": "Construct"
+    },
+    {
+      "id": "5",
+      "name": "Shrieking Horror",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Regeneration  (5+)"
+            },
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [],
+          "ADV": "6 (8)",
+          "MAR": "12 (16)",
+          "Ld": "C",
+          "W": "6",
+          "DEF": "4",
+          "T": "6",
+          "ARM": "0",
+          "name": "Shrieking Horror ",
+          "A": "4",
+          "OFF": "4",
+          "S": "5",
+          "AP": "2",
+          "I": "2"
+        }
+      ],
+      "size": "Gigantic",
+      "type": "Beast"
+    },
+    {
+      "id": "6",
+      "name": "Zombie Dragon",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Regeneration  (6+)"
+            },
+            {
+              "specialrule": "Distracting"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Breath Attack  (Toxic Attacks)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "6 (7)",
+          "MAR": "12 (14)",
+          "Ld": "C",
+          "W": "6",
+          "DEF": "4",
+          "T": "6",
+          "ARM": "3",
+          "name": "Zombie Dragon ",
+          "A": "5",
+          "OFF": "4",
+          "S": "6",
+          "AP": "3",
+          "I": "2"
+        }
+      ],
+      "size": "Gigantic",
+      "type": "Beast"
+    },
+    {
+      "id": "7",
+      "name": "Cadaver Wagon",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "War Platform"
+            },
+            {
+              "specialrule": "Necromantic Aura"
+            },
+            {
+              "specialrule": "Regeneration  (4+)"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Inanimate"
+            },
+            {
+              "specialrule": "Impact Hits  (1)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "4",
+          "MAR": "8",
+          "Ld": "C",
+          "W": "4",
+          "DEF": "C",
+          "T": "4",
+          "ARM": "C+2",
+          "name": "Shambling Horde ",
+          "A": "8",
+          "OFF": "1",
+          "S": "3",
+          "AP": "0",
+          "I": "1"
+        },
+        {
+          "name": "Chassis",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "-",
+          "OFF": "-",
+          "S": "4",
+          "AP": "1",
+          "I": "-"
+        }
+      ],
+      "size": "Large",
+      "type": "Construct"
+    }
+  ],
+  "army": [
+    {
+      "organisation": "1",
+      "units": [
+        {
+          "name": "Vampire Count",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "330",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Awaken  (Zombies)  (Zombies, Skeletons)"
+                },
+                {
+                  "specialrule": "Autonomous"
+                },
+                {
+                  "specialrule": "Vampiric  (6+)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                },
+                {
+                  "specialrule": "Distracting"
+                },
+                {
+                  "specialrule": "Gates of the Netherworld"
+                },
+                {
+                  "specialrule": "Fear"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "9",
+              "W": "3",
+              "DEF": "7",
+              "T": "5",
+              "ARM": "0",
+              "name": "Vampire Count ",
+              "A": "5",
+              "OFF": "7",
+              "S": "5",
+              "AP": "2",
+              "I": "7"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "225"
+                }
+              ]
+            },
+            {
+              "name": "Armour",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": "5"
+                },
+                {
+                  "name": "Light Armour",
+                  "cost": "5"
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": "15"
+                },
+                {
+                  "name": "Plate Armour",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "10"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "20"
+                },
+                {
+                  "name": "Lance",
+                  "cost": "20"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Skeletal Steed",
+                  "cost": "70"
+                },
+                {
+                  "name": "Spectral Steed",
+                  "cost": "125"
+                },
+                {
+                  "name": "Monstrous Revenant",
+                  "cost": "160"
+                },
+                {
+                  "name": "Court of the Damned",
+                  "cost": "325"
+                },
+                {
+                  "name": "Shrieking Horror",
+                  "cost": "450"
+                },
+                {
+                  "name": "Zombie Dragon",
+                  "cost": "385"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Occultism",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Shamanism",
+                  "cost": "0"
+                },
+                {
+                  "name": "Cosmology",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Blood Powers",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Vampire Courtier",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "160",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Awaken  (Zombies)  (Zombies, Skeletons)"
+                },
+                {
+                  "specialrule": "Autonomous"
+                },
+                {
+                  "specialrule": "Vampiric  (6+)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                },
+                {
+                  "specialrule": "Distracting"
+                },
+                {
+                  "specialrule": "Gates of the Netherworld"
+                },
+                {
+                  "specialrule": "Fear"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "6",
+              "T": "4",
+              "ARM": "0",
+              "name": "Vampire Courtier ",
+              "A": "4",
+              "OFF": "6",
+              "S": "5",
+              "AP": "2",
+              "I": "6"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Battle Standard Bearer",
+                  "cost": "50"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "30"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "105"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "255"
+                }
+              ]
+            },
+            {
+              "name": "Armour",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": "5"
+                },
+                {
+                  "name": "Light Armour",
+                  "cost": "5"
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": "10"
+                },
+                {
+                  "name": "Plate Armour",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "5"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "10"
+                },
+                {
+                  "name": "Lance",
+                  "cost": "10"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "10"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Skeletal Steed",
+                  "cost": "65"
+                },
+                {
+                  "name": "Spectral Steed",
+                  "cost": "110"
+                },
+                {
+                  "name": "Monstrous Revenant",
+                  "cost": "140"
+                },
+                {
+                  "name": "Court of the Damned",
+                  "cost": "325"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Occultism",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Shamanism",
+                  "cost": "0"
+                },
+                {
+                  "name": "Cosmology",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Necromancer",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "125",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Gates of the Netherworld"
+                },
+                {
+                  "specialrule": "Awaken  (Zombies, Skeletons)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "7",
+              "W": "3",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Necromancer ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Light Armour",
+                  "cost": "5"
+                },
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "225"
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Alchemy",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Skeletal Steed",
+                  "cost": "20"
+                },
+                {
+                  "name": "Cadaver Wagon",
+                  "cost": "380"
+                },
+                {
+                  "name": "Monstrous Revenant",
+                  "cost": "100"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barrow King",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "175",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Unliving Shield"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Not a Leader"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Multiple Wounds  (2, Against Standard)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "8",
+              "W": "4",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "0",
+              "name": "Barrow King ",
+              "A": "3",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Battle Standard Bearer",
+                  "cost": "50"
+                },
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Skeletal Steed",
+                  "cost": "40"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "5"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "10"
+                },
+                {
+                  "name": "Lance",
+                  "cost": "5"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fell Wraith",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "125",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Terror"
+                },
+                {
+                  "specialrule": "Not a Leader"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                },
+                {
+                  "specialrule": "Ghostly Form"
+                },
+                {
+                  "specialrule": "Aegis  (3+, against non-Magical Attacks)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "5",
+              "W": "3",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Fell Wraith ",
+              "A": "3",
+              "OFF": "4",
+              "S": "3",
+              "AP": "10",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "10"
+                },
+                {
+                  "name": "Skeletal Steed",
+                  "cost": "35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Banshee",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "165",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Wail of Woe"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Terror"
+                },
+                {
+                  "specialrule": "Not a Leader"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Ghostly Form"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                },
+                {
+                  "specialrule": "Aegis  (3+, against non-Magical Attacks)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "5",
+              "W": "3",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Banshee ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "2",
+      "units": [
+        {
+          "name": "Zombies",
+          "Base": "1",
+          "unitsize": "20",
+          "maxmodels": "60",
+          "modelcost": "5",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "115",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Reanimated  (2D6+4)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "2",
+              "W": "1",
+              "DEF": "1",
+              "T": "3",
+              "ARM": "0",
+              "name": "Zombie ",
+              "A": "1",
+              "OFF": "1",
+              "S": "3",
+              "AP": "0",
+              "I": "1"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Command Group",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skeletons",
+          "Base": "1",
+          "unitsize": "20",
+          "maxmodels": "40",
+          "modelcost": "10",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "150",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Reanimated  (D6+4)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "4",
+              "W": "1",
+              "DEF": "2",
+              "T": "3",
+              "ARM": "0",
+              "name": "Skeleton ",
+              "A": "1",
+              "OFF": "2",
+              "S": "3",
+              "AP": "0",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Halberd",
+                  "cost": "1"
+                },
+                {
+                  "name": "Spear",
+                  "cost": "1"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ghouls",
+          "Base": "1",
+          "unitsize": "10",
+          "maxmodels": "790",
+          "modelcost": "17",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "130",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "First Raised"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Reanimated  (D6+4)"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Unholy Appetite"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "6",
+              "W": "1",
+              "DEF": "3",
+              "T": "4",
+              "ARM": "0",
+              "name": "Ghoul ",
+              "A": "2",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Vanguard",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Vanguard",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        },
+        {
+          "name": "Bat Swarms",
+          "Base": "1",
+          "unitsize": "2",
+          "maxmodels": "8",
+          "modelcost": "30",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "105",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Storm of Wings"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Distracting"
+                },
+                {
+                  "specialrule": "Reanimated  (D6+4)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "1 (6)",
+              "MAR": "2 (12)",
+              "Ld": "3",
+              "W": "4",
+              "DEF": "3",
+              "T": "2",
+              "ARM": "0",
+              "name": "Bat Swarm ",
+              "A": "4",
+              "OFF": "3",
+              "S": "2",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Dire Wolves - Core",
+          "Base": "1",
+          "unitsize": "8",
+          "maxmodels": "7",
+          "modelcost": "11",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "113",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Devastating Charge  (+1 Str, +1 AP)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "9",
+              "MAR": "18",
+              "Ld": "3",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Dire Wolves ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "3",
+      "units": [
+        {
+          "name": "Dire Wolves - Special",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "2",
+          "modelcost": "11",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "80",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Devastating Charge  (+1 Str, +1 AP)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "9",
+              "MAR": "18",
+              "Ld": "3",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Dire Wolves ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barrow Guard",
+          "Base": "1",
+          "unitsize": "15",
+          "maxmodels": "25",
+          "modelcost": "22",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "175",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Reanimated  (D3+4)"
+                },
+                {
+                  "specialrule": "Bodyguard  (General, Barrow King)"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Multiple Wounds  (2, Against Standard)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "7",
+              "W": "1",
+              "DEF": "3",
+              "T": "4",
+              "ARM": "0",
+              "name": "Barrow Guard ",
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Halberd",
+                  "cost": "4"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "5"
+                },
+                {
+                  "name": "Shield",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barrow Knights",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "10",
+          "modelcost": "48",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "170",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Reanimated  (D3+2)"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Multiple Wounds  (2, Against Standard)"
+                },
+                {
+                  "specialrule": "Ghost Step"
+                },
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Lance"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "7",
+              "W": "1",
+              "DEF": "3",
+              "T": "4",
+              "ARM": "2",
+              "name": "Barrow Knight ",
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "3"
+            },
+            {
+              "name": "Skeletal Steed ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "2",
+              "S": "3",
+              "AP": "0",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ghasts",
+          "Base": "1",
+          "unitsize": "3",
+          "maxmodels": "7",
+          "modelcost": "95",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "160",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Regeneration  (5+)"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                },
+                {
+                  "specialrule": "Unholy Appetite"
+                },
+                {
+                  "specialrule": "Reanimated  (D3+1)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "5",
+              "W": "3",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "0",
+              "name": "Ghast ",
+              "A": "3",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Great Bats",
+          "Base": "1",
+          "unitsize": "2",
+          "maxmodels": "7",
+          "modelcost": "15",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "90",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Reanimated  (D3+1)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "1 (9)",
+              "MAR": "2 (18)",
+              "Ld": "3",
+              "W": "2",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Great Bat ",
+              "A": "2",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Cadaver Wagon",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "400",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "No Rest for the Wicked"
+                },
+                {
+                  "specialrule": "War Platform"
+                },
+                {
+                  "specialrule": "Necromantic Aura"
+                },
+                {
+                  "specialrule": "Regeneration  (4+)"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (1)"
+                },
+                {
+                  "specialrule": "Reanimated  (2)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "5",
+              "W": "4",
+              "DEF": "3",
+              "T": "4",
+              "ARM": "2",
+              "name": "Shambling Horde ",
+              "A": "8",
+              "OFF": "1",
+              "S": "3",
+              "AP": "0",
+              "I": "1"
+            },
+            {
+              "name": "Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "-",
+              "OFF": "-",
+              "S": "4",
+              "AP": "1",
+              "I": "-"
+            },
+            {
+              "name": "Cadaver Master ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Court of the Damned",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "300",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Chill of the Grave"
+                },
+                {
+                  "specialrule": "Ghost Step"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Autonomous"
+                },
+                {
+                  "specialrule": "Towering Presence"
+                },
+                {
+                  "specialrule": "War Platform"
+                },
+                {
+                  "specialrule": "Vampiric  (1)"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "7",
+              "W": "5",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "2",
+              "name": "Paramour (3) ",
+              "A": "2",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "6"
+            },
+            {
+              "name": "Spectral Pallbearers ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "8",
+              "OFF": "2",
+              "S": "3",
+              "AP": "0",
+              "I": "2"
+            },
+            {
+              "name": "Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Blood Ties: Lamia",
+                  "cost": "90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Altar of Undeath",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "365",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Aura of Undeath"
+                },
+                {
+                  "specialrule": "Lash of Souls"
+                },
+                {
+                  "specialrule": "Ghost Step"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Terror"
+                },
+                {
+                  "specialrule": "Towering Presence"
+                },
+                {
+                  "specialrule": "War Platform"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6)"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Regeneration  (4+)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "8",
+              "Ld": "5",
+              "W": "5",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "2",
+              "name": "Dark Conductor ",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            },
+            {
+              "name": "Ghost Steeds ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "8",
+              "OFF": "2",
+              "S": "3",
+              "AP": "0",
+              "I": "2"
+            },
+            {
+              "name": "Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Dark Coach",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "430",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Unholy Conduit"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Ghost Step"
+                },
+                {
+                  "specialrule": "Aegis  (4+)"
+                },
+                {
+                  "specialrule": "Magical Attacks"
+                },
+                {
+                  "specialrule": "Vampiric  (3+)"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6+1)"
+                },
+                {
+                  "specialrule": "Stubborn"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Great Weapon"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "8",
+              "Ld": "7",
+              "W": "5",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "4",
+              "name": "Coachman ",
+              "A": "2",
+              "OFF": "3",
+              "S": "3",
+              "AP": "10",
+              "I": "2"
+            },
+            {
+              "name": "Vampire ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "4",
+              "OFF": "6",
+              "S": "5",
+              "AP": "2",
+              "I": "6"
+            },
+            {
+              "name": "Undead Mounts (2)",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "2"
+            },
+            {
+              "name": "Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Extended Chassis",
+                  "cost": "15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "4",
+      "units": [
+        {
+          "name": "Phantom Host",
+          "Base": "1",
+          "unitsize": "2",
+          "maxmodels": "3",
+          "modelcost": "75",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "160",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Aegis  (2+, against non-Magical Attacks)"
+                },
+                {
+                  "specialrule": "Ghostly Form"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "4",
+              "W": "4",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Phantom Host ",
+              "A": "4",
+              "OFF": "3",
+              "S": "3",
+              "AP": "1",
+              "I": "1"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Wraiths",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "5",
+          "modelcost": "37",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "170",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Terror"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Aegis  (3+, against non-Magical Attacks)"
+                },
+                {
+                  "specialrule": "Ghostly Form"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Great Weapon"
+                }
+              ],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "0",
+              "name": "Wraith ",
+              "A": "2",
+              "OFF": "3",
+              "S": "3",
+              "AP": "10",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spectral Hunters",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "5",
+          "modelcost": "37",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "180",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Terror"
+                },
+                {
+                  "specialrule": "Flaming Attacks"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Aegis  (3+, against non-Magical Attacks)"
+                },
+                {
+                  "specialrule": "Ghostly Form"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Great Weapon"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "3",
+              "T": "3",
+              "ARM": "1",
+              "name": "Spectral Hunter ",
+              "A": "2",
+              "OFF": "3",
+              "S": "3",
+              "AP": "10",
+              "I": "2"
+            },
+            {
+              "name": "Ghost Steed ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "2",
+              "S": "3",
+              "AP": "0",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "120"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "5",
+      "units": [
+        {
+          "name": "Shrieking Horror",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Beast",
+          "cost": "490",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Chilling Shriek"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Fortitude  (6+)"
+                },
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6 (8)",
+              "MAR": "12 (16)",
+              "Ld": "4",
+              "W": "6",
+              "DEF": "4",
+              "T": "6",
+              "ARM": "0",
+              "name": "Shrieking Horror ",
+              "A": "4",
+              "OFF": "4",
+              "S": "5",
+              "AP": "2",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Vampire Knights",
+          "Base": "1",
+          "unitsize": "3",
+          "maxmodels": "3",
+          "modelcost": "90",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "240",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Autonomous"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Vampiric  (6+)"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Devastating Charge  (+1 Att)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Shield"
+                },
+                {
+                  "equipment": "Lance"
+                },
+                {
+                  "equipment": "Plate Armour"
+                }
+              ],
+              "ADV": "7",
+              "MAR": "14",
+              "Ld": "7",
+              "W": "2",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "2",
+              "name": "Vampire Knight ",
+              "A": "2",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "5"
+            },
+            {
+              "name": "Undead Mount ",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "1",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Winged Reapers",
+          "Base": "1",
+          "unitsize": "2",
+          "maxmodels": "2",
+          "modelcost": "180",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "320",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Necromantic Aura"
+                },
+                {
+                  "specialrule": "Lethal Strike"
+                },
+                {
+                  "specialrule": "Reanimated  (D3)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6 (6)",
+              "MAR": "12 (12)",
+              "Ld": "10",
+              "W": "4",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "2",
+              "name": "Winged Reaper ",
+              "A": "4",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "15"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "15"
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        },
+        {
+          "name": "Varkolak",
+          "Base": "1",
+          "size": "Large",
+          "type": "Beast",
+          "cost": "335",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Vanguard"
+                },
+                {
+                  "specialrule": "Regeneration  (4+)"
+                },
+                {
+                  "specialrule": "Hatred"
+                },
+                {
+                  "specialrule": "Vampiric  (3+)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "7",
+              "W": "4",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "0",
+              "name": "Varkolak ",
+              "A": "5",
+              "OFF": "5",
+              "S": "6",
+              "AP": "3",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Vampire Spawn",
+          "Base": "1",
+          "unitsize": "3",
+          "maxmodels": "5",
+          "modelcost": "78",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "220",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                },
+                {
+                  "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Reanimated  (D3)"
+                },
+                {
+                  "specialrule": "Autonomous"
+                },
+                {
+                  "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Vampiric  (6+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6 (9)",
+              "MAR": "12 (18)",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "3",
+              "T": "4",
+              "ARM": "0",
+              "name": "Vampire Spawn ",
+              "A": "3",
+              "OFF": "4",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fell Wraith - Monstrous Revenant",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "125",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Ashes to Ashes"
+                },
+                {
+                  "specialrule": "Terror"
+                },
+                {
+                  "specialrule": "Not a Leader"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Reanimated  (1)"
+                },
+                {
+                  "specialrule": "Ghostly Form"
+                }
+              ],
+              "equipments": [],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "5",
+              "W": "3",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Fell Wraith ",
+              "A": "3",
+              "OFF": "4",
+              "S": "3",
+              "AP": "10",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "10"
+                },
+                {
+                  "name": "Monstrous Revenant",
+                  "cost": "185"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

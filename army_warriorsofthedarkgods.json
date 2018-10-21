@@ -1,0 +1,2863 @@
+{
+  "organisation": [
+    {
+      "id": "1",
+      "percent": 100,
+      "type": "max",
+      "name": "Characters"
+    },
+    {
+      "id": "2",
+      "percent": 20,
+      "type": "min",
+      "name": "Core"
+    },
+    {
+      "id": "3",
+      "percent": 100,
+      "type": "max",
+      "name": "Special"
+    },
+    {
+      "id": "4",
+      "percent": 35,
+      "type": "max",
+      "name": "Legendarry Beasts"
+    }
+  ],
+  "magicitems": {
+    "category1": [],
+    "weapons": [
+      {
+        "name": "Titanic Might",
+        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain +3 Strength and Magical Attacks.",
+        "cost": "140"
+      },
+      {
+        "name": "Blessed Inscriptions",
+        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain Divine Attacks and failed to-wound rolls must be rerolled.",
+        "cost": "130"
+      },
+      {
+        "name": "King Slayer",
+        "description": "Melee Weapon EnchantmentThe wielder of the enchanted weapon gains +X Strength, +X Armour Penetration, +X Attack Value and Magical Attacks when attacking with it, where X is equal to the number of enemy Characters in base contact with the wielder's unit. This bonus is calculated and effective at the Initiative Step when such attacks are made.",
+        "cost": "120"
+      },
+      {
+        "name": "Shield Breaker",
+        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain +6 Armour Penetration, Magical Attacks ,and can never wound on to-wound rolls better than 3+.",
+        "cost": "110"
+      },
+      {
+        "name": "Hero's Heart",
+        "description": "Hand Weapon and Paired Weapon EnchantmentThe wielder of this enchanted weapon gains +1 Attack Value when using it. Attacks made with this enchanted weapon gain Magical Attacks and always have at least Strength 5 and at least Armour Penetration 3.",
+        "cost": "100"
+      },
+      {
+        "name": "Touch of Greatness",
+        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain +1 Strength, +1 Armour Penetration and Magical Attacks. Strength modifiers from this weapon (combining both mundane and Weapon Enchantment modifiers) cannot exceed +2 (but can exceed +2 through modifiers from other sources, such as spells).",
+        "cost": "80"
+      },
+      {
+        "name": "Supernatural Dexterity",
+        "description": "Melee Weapon EnchantmentThe wielder of this enchanted weapon gains +2 Offensive Skill and +2 Agility while using it, and attacks made with it gain Magical Attacks.",
+        "cost": "80"
+      },
+      {
+        "name": "Cleansing Light",
+        "description": "Melee Weapon EnchantmentAt the start of each Round of Combat, the wielder may choose to give attacks made with this enchanted weapon Flaming Attacks and Magical Attacks.",
+        "cost": "40"
+      },
+      {
+        "name": "Burning Portent",
+        "description": "Hand Weapon enchantment.Attacks made with this Weapon have their Armour Penetration set to 10 and gain Magical Attacks, Flaming Attacks and Multiple Wounds (D3).",
+        "cost": "230"
+      },
+      {
+        "name": "Symbol of Slaughter",
+        "description": "Hand Weapon and Paired Weapons enchantment.When using this weapon, the wielder gains +2 Attack Value and +2 Agility and suffers -2 Offensive Skill and -2 Defensive Skill. Attacks made with this Weapon have gain Magical Attacks.",
+        "cost": "70"
+      }
+    ],
+    "armours": [],
+    "standards": [],
+    "artefacts": []
+  },
+  "mounts": [
+    {
+      "id": "1",
+      "name": "Chimera",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Towering Presence"
+            }
+          ],
+          "equipments": [],
+          "ADV": "8",
+          "MAR": "20",
+          "Ld": "C",
+          "W": "4",
+          "DEF": "C",
+          "T": "5",
+          "ARM": "-",
+          "name": "Chimera Offensive",
+          "A": "5",
+          "OFF": "4",
+          "S": "5",
+          "AP": "2",
+          "I": "4"
+        }
+      ],
+      "size": "Large",
+      "type": "Cavalry"
+    },
+    {
+      "id": "2",
+      "name": "Wasteland Behemoth",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [],
+          "ADV": "17",
+          "MAR": "14",
+          "Ld": "C",
+          "W": "7",
+          "DEF": "3",
+          "T": "6",
+          "ARM": "3+",
+          "name": "Wasteland Behemoth Offensive",
+          "A": "6",
+          "OFF": "3",
+          "S": "6",
+          "AP": "3",
+          "I": "3"
+        }
+      ],
+      "size": "Gigantic",
+      "type": "Beast"
+    },
+    {
+      "id": "3",
+      "name": "Black Steed",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            }
+          ],
+          "equipments": [],
+          "ADV": "8",
+          "MAR": "14",
+          "Ld": "C",
+          "name": "Black Steed Offensive",
+          "A": "1",
+          "OFF": "3",
+          "S": "4",
+          "AP": "0",
+          "I": "3",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C+2"
+        }
+      ],
+      "size": "Standard",
+      "type": "Cavalry"
+    },
+    {
+      "id": "4",
+      "name": "Dark Chariot",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Swiftstride"
+            },
+            {
+              "specialrule": "Inanimate"
+            },
+            {
+              "specialrule": "Impact Hits  (D6+1)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "8",
+          "MAR": "8",
+          "Ld": "C",
+          "name": "Chassis Offensive",
+          "A": "-",
+          "OFF": "-",
+          "S": "5",
+          "AP": "2",
+          "I": "-",
+          "W": "4",
+          "DEF": "C",
+          "T": "5",
+          "ARM": "C+1"
+        },
+        {
+          "name": "Horse (2)",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "1",
+          "OFF": "3",
+          "S": "4",
+          "AP": "0",
+          "I": "3"
+        }
+      ],
+      "size": "Large",
+      "type": "Construct"
+    },
+    {
+      "id": "5",
+      "name": "Karkadan",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Fear"
+            }
+          ],
+          "equipments": [],
+          "ADV": "7",
+          "MAR": "14",
+          "Ld": "C",
+          "name": "Karkadan Offensive",
+          "A": "2",
+          "OFF": "3",
+          "S": "5",
+          "AP": "2",
+          "I": "2",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C+2"
+        }
+      ],
+      "size": "Large",
+      "type": "Cavalry"
+    },
+    {
+      "id": "6",
+      "name": "Shadow Chaser",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Light Troops"
+            },
+            {
+              "specialrule": "Hard Target"
+            }
+          ],
+          "equipments": [],
+          "ADV": "10",
+          "MAR": "20",
+          "Ld": "C",
+          "name": "Shadow Chaser Offensive",
+          "A": "1",
+          "OFF": "3",
+          "S": "3",
+          "AP": "0",
+          "I": "4",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C+1"
+        }
+      ],
+      "size": "Standard",
+      "type": "Cavalry"
+    },
+    {
+      "id": "7",
+      "name": "Scythed Skywheel",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Hard Target"
+            },
+            {
+              "specialrule": "Grind Attacks  (D3+1)"
+            },
+            {
+              "specialrule": "Tall"
+            },
+            {
+              "specialrule": "Cannot be Stomped"
+            }
+          ],
+          "equipments": [],
+          "ADV": "Ground C, Fly 6",
+          "MAR": "Ground C, March 18",
+          "Ld": "C",
+          "name": "Scythed Skywheel Offensive",
+          "A": "-",
+          "OFF": "-",
+          "S": "3",
+          "AP": "0",
+          "I": "3",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C"
+        }
+      ],
+      "size": "Standard",
+      "type": "Cavalry"
+    },
+    {
+      "id": "8",
+      "name": "War Dais",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Tall"
+            },
+            {
+              "specialrule": "Cannot be Stomped"
+            }
+          ],
+          "equipments": [],
+          "ADV": "C",
+          "MAR": "C",
+          "Ld": "C",
+          "name": "War Dais Offensive",
+          "A": "4",
+          "OFF": "5",
+          "S": "4",
+          "AP": "1",
+          "I": "4",
+          "W": "4",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C+2"
+        }
+      ],
+      "size": "Standard",
+      "type": "Infantry"
+    },
+    {
+      "id": "9",
+      "name": "Wasteland Dragon",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Breath Attack  (Str 4, AP1, Flaming Attacks)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "Ground 8, Fly 6",
+          "MAR": "Ground 16, 12",
+          "Ld": "C",
+          "W": "6",
+          "DEF": "5",
+          "T": "6",
+          "ARM": "4",
+          "name": "Wasteland Dragon Offensive",
+          "A": "5",
+          "OFF": "5",
+          "S": "6",
+          "AP": "3",
+          "I": "3"
+        }
+      ],
+      "size": "Gigantic",
+      "type": "Beast"
+    }
+  ],
+  "army": [
+    {
+      "organisation": "1",
+      "units": [
+        {
+          "name": "Exalted Herald",
+          "Base": "1",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "840",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Manifestation"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Stubborn"
+                },
+                {
+                  "specialrule": "Wizard Adept"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Aegis  (4+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "8",
+              "W": "5",
+              "DEF": "8",
+              "T": "5",
+              "ARM": "3",
+              "name": "Exalted Herald Offensive",
+              "A": "6",
+              "OFF": "9",
+              "S": "5",
+              "AP": "2",
+              "I": "8"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Army General",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chosen Lord",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "350",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Path of the Favoured"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "7",
+              "T": "5",
+              "ARM": "0",
+              "name": "Chosen Lord Offensive",
+              "A": "5",
+              "OFF": "8",
+              "S": "5",
+              "AP": "2",
+              "I": "7"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Army General",
+                  "cost": "0"
+                },
+                {
+                  "name": "Battle Standard Bearer",
+                  "cost": "50"
+                },
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Replace Shield with Spiked Shield",
+                  "cost": "10"
+                }
+              ]
+            },
+            {
+              "name": "Gift of the Dark Gods",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Daemonic Wings",
+                  "cost": "115"
+                },
+                {
+                  "name": "Luck of the Dark Gods",
+                  "cost": "65"
+                },
+                {
+                  "name": "Master of Destruction",
+                  "cost": "50"
+                },
+                {
+                  "name": "Idol of Spite",
+                  "cost": "65"
+                },
+                {
+                  "name": "Entropic Aura",
+                  "cost": "65"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": []
+            },
+            {
+              "name": "Favour of the Dark Gods",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": []
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "10"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "20"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "20"
+                },
+                {
+                  "name": "Lance",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doomlord",
+          "Base": "1",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "350",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Path of the Exiled"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "4",
+              "DEF": "6",
+              "T": "5",
+              "ARM": "1",
+              "name": "Doomlord Offensive",
+              "A": "5",
+              "OFF": "7",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Army General",
+                  "cost": "0"
+                },
+                {
+                  "name": "Battle Standard Bearer",
+                  "cost": "50"
+                },
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Replace Shield with Spiked Shield",
+                  "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "10"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "25"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sorcerer",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "145",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Fearless"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "4",
+              "T": "4",
+              "ARM": "0",
+              "name": "Sorcerer Offensive",
+              "A": "2",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Army General",
+                  "cost": "0"
+                },
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Plate Armour",
+                  "cost": "15"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "5"
+                },
+                {
+                  "name": "Veil Walker",
+                  "cost": "145"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "225"
+                },
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Path of Magic",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Alchemy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Occultism",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Barbarian Chief",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "140",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Deeds not Words"
+                },
+                {
+                  "specialrule": "Prized Stallion"
+                },
+                {
+                  "specialrule": "Battle Fever"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "0",
+              "name": "Barbarian Chief Offensive",
+              "A": "3",
+              "OFF": "5",
+              "S": "5",
+              "AP": "1",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Army General",
+                  "cost": "0"
+                },
+                {
+                  "name": "Battle Standard Bearer",
+                  "cost": "50"
+                },
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Shield",
+                  "cost": "5"
+                },
+                {
+                  "name": "Throwing Weapons (4+)",
+                  "cost": "5"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": []
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "5"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "10"
+                },
+                {
+                  "name": "Spear",
+                  "cost": "5"
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Feldrak Ancestor",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Beast",
+          "cost": "760",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Primal Legend"
+                },
+                {
+                  "specialrule": "Dying Embers"
+                },
+                {
+                  "specialrule": "Hatred  (against Fly)"
+                },
+                {
+                  "specialrule": "Breath Attack  (Str 4 , AP 1, Flaming Attacks, Dying Embers)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "9",
+              "W": "8",
+              "DEF": "6",
+              "T": "6",
+              "ARM": "3",
+              "name": "Feldrak Ancestor Offensive",
+              "A": "6",
+              "OFF": "6",
+              "S": "7",
+              "AP": "4",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Army General",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "60"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "30"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "45"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "2",
+      "units": [
+        {
+          "name": "Warriors",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "30",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Path of the Favoured"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Spiked Shield"
+                }
+              ],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "0",
+              "name": "Warriors Offensive",
+              "A": "2",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Warrior",
+                  "cost": "23"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Favoured Champion",
+                  "cost": "30"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "0"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "3"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "6"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Favour of the Dark Gods",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": []
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fallen",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "20",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Path of the Exiled"
+                },
+                {
+                  "specialrule": "Light Troops"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Paired Weapons"
+                }
+              ],
+              "ADV": "6",
+              "MAR": "12",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "2",
+              "T": "4",
+              "ARM": "0",
+              "name": "Fallen Offensive",
+              "A": "2",
+              "OFF": "4",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Fallen",
+                  "cost": "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barbarians",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "-15",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Battle Fever"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Barbarians Offensive",
+              "A": "1",
+              "OFF": "4",
+              "S": "4",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Barbarian",
+                  "cost": "11"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Replace Shield With",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "1"
+                },
+                {
+                  "name": "Spear and Shield",
+                  "cost": "2"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "3"
+                },
+                {
+                  "name": "Throwing Weapons (5+)",
+                  "cost": "3"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barbarian Horsemen (Core)",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "5",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Battle Fever"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "1",
+              "name": "Barbarian Horseman Offensive",
+              "A": "1",
+              "OFF": "4",
+              "S": "4",
+              "AP": "1",
+              "I": "3"
+            },
+            {
+              "name": "Black Steed Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Barbarian Horseman",
+                  "cost": "25"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "1"
+                },
+                {
+                  "name": "Paired Weapons"
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Warhounds (Core)",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "50",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Release the Hounds"
+                },
+                {
+                  "specialrule": "Insignificant"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Warhounds Offensive",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Warhound",
+                  "cost": "10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "3",
+      "units": [
+        {
+          "name": "Warrior Knights",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "35",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Path of the Favoured"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Harnessed"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Spiked Shield"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "14",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "2",
+              "name": "Warrior Knights Offensive",
+              "A": "2",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            },
+            {
+              "name": "Black Steed Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Warrior Rider",
+                  "cost": "50"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Favoured Champion",
+                  "cost": "50"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "3"
+                },
+                {
+                  "name": "Lance",
+                  "cost": "10"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Favour of the Dark Gods",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": []
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Warrior Chariot",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "220",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6+1)"
+                },
+                {
+                  "specialrule": "Path of the Favoured"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Halberd"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "8",
+              "Ld": "8",
+              "name": "Chassis Offensive",
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-",
+              "W": "4",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "1"
+            },
+            {
+              "name": "Black Steed (2) Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "0",
+              "I": "3"
+            },
+            {
+              "name": "Warrior Crew (2) Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "5",
+              "S": "4",
+              "AP": "1",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Chosen",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Infantry",
+          "cost": "-55",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Masters of Battle"
+                },
+                {
+                  "specialrule": "Path of the Favoured"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Spiked Shield"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "2",
+              "DEF": "6",
+              "T": "4",
+              "ARM": "3+",
+              "name": "Chosen Offensive",
+              "A": "3",
+              "OFF": "6",
+              "S": "4",
+              "AP": "1",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Chosen",
+                  "cost": "65"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "4"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "2"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "7"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Favour of the Dark Gods",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": []
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chosen Knights",
+          "Base": "1",
+          "size": "Large",
+          "type": "Cavalry",
+          "cost": "60",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Path of the Favoured"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Fear"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Spiked Shield"
+                }
+              ],
+              "ADV": "7",
+              "MAR": "14",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "6",
+              "T": "4",
+              "ARM": "2",
+              "name": "Chosen Knights Offensive",
+              "A": "3",
+              "OFF": "6",
+              "S": "4",
+              "AP": "1",
+              "I": "5"
+            },
+            {
+              "name": "Karkadan Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "3",
+              "S": "5",
+              "AP": "2",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Chosen Rider",
+                  "cost": "120"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Replace Spiked Shield with Halberd",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Replace Spiked Shield with Halberd",
+                  "cost": "5"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Favour of the Dark Gods",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": []
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chosen Chariot",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "390",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Inanimate"
+                },
+                {
+                  "specialrule": "Impact Hits  (D6+1)"
+                },
+                {
+                  "specialrule": "Path of the Favoured"
+                },
+                {
+                  "specialrule": "Fear"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Halberd"
+                }
+              ],
+              "ADV": "7",
+              "MAR": "7",
+              "Ld": "8",
+              "name": "Chassis Offensive",
+              "A": "-",
+              "OFF": "-",
+              "S": "5",
+              "AP": "2",
+              "I": "-",
+              "W": "5",
+              "DEF": "6",
+              "T": "5",
+              "ARM": "2"
+            },
+            {
+              "name": "Karkadan Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "2",
+              "OFF": "3",
+              "S": "5",
+              "AP": "2",
+              "I": "2"
+            },
+            {
+              "name": "Chosen Crew (2) Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "3",
+              "OFF": "6",
+              "S": "4",
+              "AP": "1",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Favour of the Dark Gods",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Forsworn",
+          "Base": "1",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "-10",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Path of the Exiled"
+                },
+                {
+                  "specialrule": "Scoring"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "2",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "1",
+              "name": "Forsworn Offensive",
+              "A": "3",
+              "OFF": "4",
+              "S": "4",
+              "AP": "1",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Forsworn",
+                  "cost": "70"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Spiked Shield",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Spiked Shield",
+                  "cost": "11"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "8"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "2"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "5"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wretched Ones",
+          "Base": "1",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "33",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Random Movement  (3D6)"
+                },
+                {
+                  "specialrule": "Irredeemable"
+                },
+                {
+                  "specialrule": "Regeneration  (5+)"
+                },
+                {
+                  "specialrule": "Grind Attacks  (D6+1)"
+                },
+                {
+                  "specialrule": "Unbreakable"
+                }
+              ],
+              "equipments": [],
+              "ADV": "3D6",
+              "MAR": "-",
+              "Ld": "5",
+              "W": "3",
+              "DEF": "2",
+              "T": "4",
+              "ARM": "-",
+              "name": "Wretched One Offensive",
+              "A": "0",
+              "OFF": "2",
+              "S": "4",
+              "AP": "0",
+              "I": "1"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Wretched One",
+                  "cost": "97"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Battleshrine",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "430",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "The Reckoning"
+                },
+                {
+                  "specialrule": "Pierce the Veil"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Grind Attacks  (D6+1)"
+                },
+                {
+                  "specialrule": "Wizard Apprentice"
+                }
+              ],
+              "equipments": [],
+              "ADV": "4",
+              "MAR": "8",
+              "Ld": "8",
+              "W": "5",
+              "DEF": "4",
+              "T": "4",
+              "ARM": "4",
+              "name": "Wretched One Offensive",
+              "A": "0",
+              "OFF": "1",
+              "S": "4",
+              "AP": "0",
+              "I": "1"
+            },
+            {
+              "name": "Shrine Priest Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Veil Walker",
+                  "cost": "75"
+                },
+                {
+                  "name": "Icon of the Infinite",
+                  "cost": "85"
+                }
+              ]
+            },
+            {
+              "name": "Path of Magic",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Alchemy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Occultism",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barbarian Horsemen",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "5",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Battle Fever"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "1",
+              "name": "Barbarian Horseman Offensive",
+              "A": "1",
+              "OFF": "4",
+              "S": "4",
+              "AP": "1",
+              "I": "3"
+            },
+            {
+              "name": "Black Steed Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Barbarian Horseman",
+                  "cost": "25"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "1"
+                },
+                {
+                  "name": "Paired Weapons"
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flayers",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "35",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Strider"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Battle Fever"
+                },
+                {
+                  "specialrule": "Feigned Flight"
+                },
+                {
+                  "specialrule": "Hard Target"
+                }
+              ],
+              "equipments": [],
+              "ADV": "10",
+              "MAR": "50",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "1",
+              "name": "Flayers Offensive",
+              "A": "1",
+              "OFF": "4",
+              "S": "4",
+              "AP": "0",
+              "I": "4"
+            },
+            {
+              "name": "Shadow Chaser Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Flayer",
+                  "cost": "25"
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Bow (4+)",
+                  "cost": "1"
+                },
+                {
+                  "name": "Skinning Lash",
+                  "cost": "10"
+                },
+                {
+                  "name": "Throwing Weapons (5+)",
+                  "cost": "4"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command Group",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Warhounds",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "50",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Release the Hounds"
+                },
+                {
+                  "specialrule": "Insignificant"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Warhounds Offensive",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Warhound",
+                  "cost": "10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Feldraks",
+          "Base": "1",
+          "size": "Large",
+          "type": "Beast",
+          "cost": "5",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Hatred  (against Fly)"
+                },
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fear"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "8",
+              "W": "4",
+              "DEF": "4",
+              "T": "5",
+              "ARM": "2",
+              "name": "Feldraks Offensive",
+              "A": "3",
+              "OFF": "4",
+              "S": "5",
+              "AP": "2",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Feldrak",
+                  "cost": "120"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "15"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "9"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "12"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chimera",
+          "Base": "1",
+          "size": "Large",
+          "type": "Beast",
+          "cost": "265",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Towering Presence"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "20",
+              "Ld": "8",
+              "W": "4",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "3",
+              "name": "Chimera Offensive",
+              "A": "5",
+              "OFF": "4",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Chimera (Wings)",
+          "Base": "1",
+          "size": "Large",
+          "type": "Beast",
+          "cost": "320",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Towering Presence"
+                }
+              ],
+              "equipments": [],
+              "ADV": "Ground 8, Fly 8",
+              "MAR": "Ground 16, Fly 16",
+              "Ld": "8",
+              "W": "4",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "3",
+              "name": "Chimera Offensive",
+              "A": "5",
+              "OFF": "4",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "4",
+      "units": [
+        {
+          "name": "Forsaken One",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Beast",
+          "cost": "410",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Random Movement  (3D6)"
+                },
+                {
+                  "specialrule": "Regeneration  (5+)"
+                },
+                {
+                  "specialrule": "Grind Attacks  (D6+3)"
+                },
+                {
+                  "specialrule": "Irredeemable"
+                },
+                {
+                  "specialrule": "Unbreakable"
+                }
+              ],
+              "equipments": [],
+              "ADV": "3D6",
+              "MAR": "-",
+              "Ld": "5",
+              "W": "6",
+              "DEF": "2",
+              "T": "6",
+              "ARM": "-",
+              "name": "Forsaken One Offensive",
+              "A": "0",
+              "OFF": "2",
+              "S": "6",
+              "AP": "2",
+              "I": "1"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
+          ]
+        },
+        {
+          "name": "Marauding Giant",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Infantry",
+          "cost": "270",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Giant See, Giant Do"
+                },
+                {
+                  "specialrule": "Rage"
+                },
+                {
+                  "specialrule": "Battle Fever"
+                }
+              ],
+              "equipments": [],
+              "ADV": "7",
+              "MAR": "14",
+              "Ld": "8",
+              "W": "7",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "1",
+              "name": "Giant Offensive",
+              "A": "5",
+              "OFF": "3",
+              "S": "5",
+              "AP": "2",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Giant Club",
+                  "cost": "30"
+                },
+                {
+                  "name": "Monstrous Familiar",
+                  "cost": "60"
+                },
+                {
+                  "name": "Tribal Warspear",
+                  "cost": "80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Feldrak Elder",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Beast",
+          "cost": "520",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Hatred  (against Fly)"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "9",
+              "W": "6",
+              "DEF": "5",
+              "T": "6",
+              "ARM": "3",
+              "name": "Feldrak Elder Offensive",
+              "A": "5",
+              "OFF": "5",
+              "S": "6",
+              "AP": "3",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "20"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "20"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hellmaw",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Construct",
+          "cost": "340",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Gateway"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Aegis  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "2",
+              "W": "2",
+              "DEF": "3",
+              "T": "2",
+              "ARM": "2",
+              "name": "Hell Maw Offensive",
+              "A": "5",
+              "OFF": "3",
+              "S": "5",
+              "AP": "2",
+              "I": "1"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
+              "name": "Ominous Gateways",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "1 Ominous Gateway",
+                  "cost": "50"
+                },
+                {
+                  "name": "2 Ominous Gateways",
+                  "cost": "125"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

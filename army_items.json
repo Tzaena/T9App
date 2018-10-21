@@ -1,239 +1,239 @@
 {
-    "weapons": [
-      {
-        "name": "Titanic Might",
-        "cost": 65,
-        "description": "Close Combat Weapon enchantment. Attacks made with this enchanted weapon gain +3 Strength and Magical Attacks."
-      },
-      {
-        "name": "Blessed Inscriptions",
-        "cost": 65,
-        "description": "Close Combat Weapon enchantment. Attacks made with this enchanted weapon gain Divine Attacks, Magical Attacks. and failed to-wound rolls must be rerolled."
-      },
-      {
-        "name": "King Slayer",
-        "cost": 60,
-        "description": "Close Combat Weapon enchantment. The wielder of the enchanted weapon gains +X Strength, +X Armour Penetration, +X Attack Value and Magical Attacks. when attacking with it, where X is equal to the number of enemy Characters in base contact with the wielder’s unit. This bonus is calculated and effective at the Initiative Step. when such attacks are made."
-      },
-      {
-        "name": "Shield Breaker",
-        "cost": 50,
-        "description": "Close Combat Weapon enchantment. Attacks made with this enchanted weapon gain +6 Armour Penetration, Magical Attacks, and can never wound on to-wound rolls better than 3+."
-      },
-      {
-        "name": "Hero’s Heart",
-        "cost": 55,
-        "description": "Hand Weapon and Paired Weapons enchantment. The wielder of this enchanted weapon gains +1 Attack Value when using it. Attacks made with this enchanted weapon gain Magical Attacks and always have at least Strength 5 and at least Armour Penetration 3."
-      },
-      {
-        "name": "Supernatural Dexterity",
-        "cost": 40,
-        "description": "Close Combat Weapon enchantment. The wielder of this enchanted weapon gains +2 Offensive Skill and +2 Agility while using it, and attacks made with it gain Magical Attacks."
-      },
-      {
-        "name": "Touch of Greatness",
-        "cost": 45,
-        "description": "Close Combat Weapon enchantment. Attacks made with this enchanted weapon gain +1 Strength, +1 Armour Penetration and Magical Attacks. Strength modifiers from this weapon (combining both mundane and Weapon Enchantment modifiers) cannot exceed +2 (but can exceed +2 through modifiers from other sources, such as spells). "
-      },
-      {
-        "name": "Cleansing Light",
-        "cost": 20,
-        "description": "Close Combat Weapon enchantment. At the start of each Round of Combat, the wielder may choose to give attacks made with this enchanted weapon Flaming Attacks and Magical Attacks."
-      }
-    ],
-    "armours": [
-      {
-        "name": "Death Cheater",
-        "cost": 95,
-        "description": "Suits of Armour enchantment. The wearer gains Regeneration (4+) and +1 Armour"
-      },
-      {
-        "name": "Destiny’s Call",
-        "cost": 70,
-        "description": "Standard Size models only. Suits of Armour enchantment. The wearer gains Aegis (4+) and its Armour is set to 3 and cannot be improved beyond this"
-      },
-      {
-        "name": "Essence of Mithril",
-        "cost": 60,
-        "description": "Standard Size models only. Suits of Armour enchantment. The wearer gains +5 Armour, to a maximum of 5."
-      },
-      {
-        "name": "Dusk Forged",
-        "cost": 50,
-        "description": "Shield enchantment. The bearer may choose to reroll its failed Armour Saves while using this Shield. If it does, it cannot take Aegis or Regeneration saves."
-      },
-      {
-        "name": "Ghostly Guard",
-        "cost": 40,
-        "description": "Heavy Armour and Plate Armour enchantment. The wearer gains +2 Armour. This Armour Enchantment cannot be used against Magical Attacks."
-      },
-      {
-        "name": "Basalt Infusion",
-        "cost": 35,
-        "description": "Suits of Armour enchantment. The wearer gains +1 Armour and Aegis (2+, against Flaming Attacks). The wearer cannot benefit from Regeneration."
-      },
-      {
-        "name": "Alchemist’s Alloy",
-        "cost": 15,
-        "description": "Suits of Armour enchantment. The wearer gains +1 Armour and suffers -2 Offensive Skill."
-      },
-      {
-        "name": "Willow’s Ward",
-        "cost": 15,
-        "description": "Models on foot only. Shield enchantment. While using this Shield, the bearer cannot use Parry, gains +1 Armour, and Impact Hits distributed towards the bearer always have Armour Penetration 0."
-      }
-    ],
-    "artefacts": [
-      {
-        "name": "Crown of Autocracy",
-        "cost": 70,
-        "description": "The bearer gains +1 Discipline. This modifier cannot be used to increase the bearer’s Discipline above 10. If taken by the General, the opponent doubles the Victory Points bonus for killing this General (normally +400 instead of +200)."
-      },
-      {
-        "name": "Crown of the Wizard King",
-        "cost": 65,
-        "description": "Cannot be taken by Wizards. During Spell Selection, randomise a magic Path (from all Paths in The 9th Age: Fantasy Battles - Paths of Magic). The bearer is a Wizard Apprentice using the randomised Path. It cannot select the Hereditary Spell."
-      },
-      {
-        "name": "Rod of Battle",
-        "cost": 55,
-        "description": "The bearer can cast a Bound Spell, Power Level (4/8): Type: Augment. Range 12″. Duration: Lasts One Turn. The target gains +1 to hit with its Close Combat Attacks."
-      },
-      {
-        "name": "Binding Scroll",
-        "cost": 55,
-        "limitation" : 2,
-        "description": "One use only. May be activated at the start of a Magic Phase. When activated, pick an enemy model and select one of its Attribute, Bound, or Learned Spells. The selected model cannot cast the chosen instance of the spell during this Magic Phase. Only a single Binding Scroll may be activated during the same Phase."
-      },
-      {
-        "name": "Essence of a Free Mind",
-        "cost": 55,
-        "dominant" : 1,
-        "description": "A Wizard with this Artefact may choose up to two Paths on its Army List instead of one (from the ones normally available to it). During Spell Selection, choose which one of the two Paths to use. "
-      },
-      {
-        "name": "Crystal Ball",
-        "cost": 50,
-        "description": "After Spell Selection (at the end of step 7 of the PreGame Sequence), mark a single enemy model in the opponent’s Army List. All dispelling attempts of spells cast by that model gain a +1 to dispel modifier"
-      },
-      {
-        "name": "Lightning Vambraces",
-        "cost": 45,
-        "description": "The bearer can cast a Bound Spell, Power Level (4/8): Type: Hex, Missile, Damage. Range 24″. Duration: Instant. The target suffers 2D6 hits with Strength 3,  Armour Penetration 0, and Magical Attacks"
-      },
-      {
-        "name": "Obsidian Rock",
-        "cost": 40,
-        "description": "The bearer gains Magic Resistance (2)."
-      },
-      {
-        "name": "Talisman of Shielding",
-        "cost": 50,
-        "description": "The bearer gains Aegis (5+)."
-      },
-      {
-        "name": "Book of Arcane Power",
-        "cost": 60,
-        "dominant" : 1,
-        "description": "Cannot be taken by models with Wizard Master. A Wizard with this Artefact gains a +1 modifier to its casting rolls."
-      },
-      {
-        "name": "Ranger’s Boot",
-        "cost": 45,
-        "description": "Standard size models on foot only. The bearer gains Strider and, unless using Flying Movement, gains +2 Advance Rate up to a maximum of 10, and +4 March Rate up to a maximum of 20."
-      },
-      {
-        "name": "Magical Heirloom",
-        "cost": 45,
-        "dominant" : 1,
-        "description": "A Wizard with this Artefact knows the Hereditary Spell in addition to its other spells."
-      },
-      {
-        "name": "Sceptre of Power",
-        "cost": 40,
-        "dominant" : 1,
-        "description": "One use only. A Wizard with this Artefact may add a single Magic Dice from its Dice Pool to one of its casting rolls or dispel rolls, after seeing the casting or dispel roll (note that casting rolls cannot exceed the limit of max 5 Magic Dice.)"
-      },
-      {
-        "name": "Talisman of the Void ",
-        "cost": 50,
-        "description": "The bearer gains Channel (1)"
-      },
-      {
-        "name": "Dragon Staff",
-        "cost": 30,
-        "description": "The bearer gains Breath Attack (Strength 3, Armour Penetration 0, Flaming Attacks)."
-      },
-      {
-        "name": "Potion of Strength",
-        "cost": 20,
-        "description": "Cannot be taken by models with Towering Presence. One use only. May be activated at the start of any Phase or Round of Combat. Until the end of the Player Turn the bearer gains Crush Attack."
-      },
-      {
-        "name": "Dragonfire Gem",
-        "cost": 20,
-        "description": "The bearer gains Aegis (2+, against Flaming Attacks). The wearer cannot benefit from Regeneration."
-      },
-      {
-        "name": "Lucky Charm",
-        "cost": 10,
-        "description": "One use only. May be activated when the bearer’s model fails an Armour Save. This failed Armour Save may be rerolled."
-      },
-      {
-        "name": "Potion of Swiftness",
-        "cost": 10,
-        "description": "One use only. May be activated at the start of any Phase or Round of Combat. Until the end of the Player Turn, the bearer gains +3 Agility, to a maximum of 10."
-      }
-    ],
-    "standards": [
-      {
-        "name": "Banner of Speed",
-        "cost": 50,
-        "limitation" : 3,
-        "description": "A unit with one or more Banners of Speed gains +1 Advance Rate and +2 March Rate."
-      },
-      {
-        "name": "Stalker's Standard",
-        "cost": 45,
-        "limitation" : 3,
-        "description": "The bearer’s unit gains Strider."
-      },
-      {
-        "name": "Rending Banner",
-        "cost": 45,
-        "limitation" : 3,
-        "description": "One use only. May be activated at the start of a Round of Combat. Close Combat Attacks from R&F models in a unit with one or more Rending Banners gain +1 Armour Penetration. This effect lasts until the bearer’s unit is no longer Engaged in Combat."
-      },
-      {
-        "name": "Aether Icon",
-        "cost": 25,
-        "limitation" : 3,
-        "description": "The bearer’s unit gains Magic Resistance (1). If the unit already had Magic Resistance, it instead increases the Magic Resistance value by 1."
-      },
-      {
-        "name": "Banner of Discipline",
-        "cost": 35,
-        "limitation" : 3,
-        "description": "The bearer’s unit may reroll failed Panic Tests. If the Battle Standard Bearer. or the General is part of the bearer’s unit, it automatically passes all its Panic Tests instead."
-      },
-      {
-        "name": "Flaming Standard",
-        "cost": 35,
-        "limitation" : 3,
-        "description": "One use only. May be activated at the start of a Round of Combat or before shooting with the bearer’s unit. The bearer’s unit gains Flaming Attacks. If activated when Engaged in Combat, effects lasts until the bearer’s unit is no longer Engaged in Combat. If activated before Shooting with the bearer’s unit, this effect lasts until end of the phase."
-      },
-      {
-        "name": "Banner of the Relentless Company",
-        "cost": 35,
-        "limitation" : 3,
-        "description": "One use only. May be activated during the controlling player’s Movement Phase. All Infantry models in the bearer’s unit always have March Rate 15″, until the end of the Player Turn. Only a single Banner of the Relentless Company may be activated during the same Phase."
-      },
-      {
-        "name": "Legion Standard",
-        "cost": 25,
-        "limitation" : 3,
-        "description": "A unit with one Legion Standard increases the maximum of its Rank Bonus by +1 (normally this means the unit can add up to 4 Full Ranks to its Combat Score). A unit with two Legion Standards increases the maximum of its Rank Bonus by +2 instead."
-      }
-    ]
+  "weapons": [
+    {
+      "name": "Titanic Might",
+      "cost": 65,
+      "description": "Close Combat Weapon enchantment. Attacks made with this enchanted weapon gain +3 Strength and Magical Attacks."
+    },
+    {
+      "name": "Blessed Inscriptions",
+      "cost": 65,
+      "description": "Close Combat Weapon enchantment. Attacks made with this enchanted weapon gain Divine Attacks, Magical Attacks. and failed to-wound rolls must be rerolled."
+    },
+    {
+      "name": "King Slayer",
+      "cost": 60,
+      "description": "Close Combat Weapon enchantment. The wielder of the enchanted weapon gains +X Strength, +X Armour Penetration, +X Attack Value and Magical Attacks. when attacking with it, where X is equal to the number of enemy Characters in base contact with the wielder’s unit. This bonus is calculated and effective at the Initiative Step. when such attacks are made."
+    },
+    {
+      "name": "Shield Breaker",
+      "cost": 50,
+      "description": "Close Combat Weapon enchantment. Attacks made with this enchanted weapon gain +6 Armour Penetration, Magical Attacks, and can never wound on to-wound rolls better than 3+."
+    },
+    {
+      "name": "Hero’s Heart",
+      "cost": 55,
+      "description": "Hand Weapon and Paired Weapons enchantment. The wielder of this enchanted weapon gains +1 Attack Value when using it. Attacks made with this enchanted weapon gain Magical Attacks and always have at least Strength 5 and at least Armour Penetration 3."
+    },
+    {
+      "name": "Supernatural Dexterity",
+      "cost": 40,
+      "description": "Close Combat Weapon enchantment. The wielder of this enchanted weapon gains +2 Offensive Skill and +2 Agility while using it, and attacks made with it gain Magical Attacks."
+    },
+    {
+      "name": "Touch of Greatness",
+      "cost": 45,
+      "description": "Close Combat Weapon enchantment. Attacks made with this enchanted weapon gain +1 Strength, +1 Armour Penetration and Magical Attacks. Strength modifiers from this weapon (combining both mundane and Weapon Enchantment modifiers) cannot exceed +2 (but can exceed +2 through modifiers from other sources, such as spells). "
+    },
+    {
+      "name": "Cleansing Light",
+      "cost": 20,
+      "description": "Close Combat Weapon enchantment. At the start of each Round of Combat, the wielder may choose to give attacks made with this enchanted weapon Flaming Attacks and Magical Attacks."
+    }
+  ],
+  "armours": [
+    {
+      "name": "Death Cheater",
+      "cost": 95,
+      "description": "Suits of Armour enchantment. The wearer gains Regeneration (4+) and +1 Armour"
+    },
+    {
+      "name": "Destiny’s Call",
+      "cost": 70,
+      "description": "Standard Size models only. Suits of Armour enchantment. The wearer gains Aegis (4+) and its Armour is set to 3 and cannot be improved beyond this"
+    },
+    {
+      "name": "Essence of Mithril",
+      "cost": 60,
+      "description": "Standard Size models only. Suits of Armour enchantment. The wearer gains +5 Armour, to a maximum of 5."
+    },
+    {
+      "name": "Dusk Forged",
+      "cost": 50,
+      "description": "Shield enchantment. The bearer may choose to reroll its failed Armour Saves while using this Shield. If it does, it cannot take Aegis or Regeneration saves."
+    },
+    {
+      "name": "Ghostly Guard",
+      "cost": 40,
+      "description": "Heavy Armour and Plate Armour enchantment. The wearer gains +2 Armour. This Armour Enchantment cannot be used against Magical Attacks."
+    },
+    {
+      "name": "Basalt Infusion",
+      "cost": 35,
+      "description": "Suits of Armour enchantment. The wearer gains +1 Armour and Aegis (2+, against Flaming Attacks). The wearer cannot benefit from Regeneration."
+    },
+    {
+      "name": "Alchemist’s Alloy",
+      "cost": 15,
+      "description": "Suits of Armour enchantment. The wearer gains +1 Armour and suffers -2 Offensive Skill."
+    },
+    {
+      "name": "Willow’s Ward",
+      "cost": 15,
+      "description": "Models on foot only. Shield enchantment. While using this Shield, the bearer cannot use Parry, gains +1 Armour, and Impact Hits distributed towards the bearer always have Armour Penetration 0."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Crown of Autocracy",
+      "cost": 70,
+      "description": "The bearer gains +1 Discipline. This modifier cannot be used to increase the bearer’s Discipline above 10. If taken by the General, the opponent doubles the Victory Points bonus for killing this General (normally +400 instead of +200)."
+    },
+    {
+      "name": "Crown of the Wizard King",
+      "cost": 65,
+      "description": "Cannot be taken by Wizards. During Spell Selection, randomise a magic Path (from all Paths in The 9th Age: Fantasy Battles - Paths of Magic). The bearer is a Wizard Apprentice using the randomised Path. It cannot select the Hereditary Spell."
+    },
+    {
+      "name": "Rod of Battle",
+      "cost": 55,
+      "description": "The bearer can cast a Bound Spell, Power Level (4/8): Type: Augment. Range 12″. Duration: Lasts One Turn. The target gains +1 to hit with its Close Combat Attacks."
+    },
+    {
+      "name": "Binding Scroll",
+      "cost": 55,
+      "limitation" : 2,
+      "description": "One use only. May be activated at the start of a Magic Phase. When activated, pick an enemy model and select one of its Attribute, Bound, or Learned Spells. The selected model cannot cast the chosen instance of the spell during this Magic Phase. Only a single Binding Scroll may be activated during the same Phase."
+    },
+    {
+      "name": "Essence of a Free Mind",
+      "cost": 55,
+      "dominant" : 1,
+      "description": "A Wizard with this Artefact may choose up to two Paths on its Army List instead of one (from the ones normally available to it). During Spell Selection, choose which one of the two Paths to use. "
+    },
+    {
+      "name": "Crystal Ball",
+      "cost": 50,
+      "description": "After Spell Selection (at the end of step 7 of the PreGame Sequence), mark a single enemy model in the opponent’s Army List. All dispelling attempts of spells cast by that model gain a +1 to dispel modifier"
+    },
+    {
+      "name": "Lightning Vambraces",
+      "cost": 45,
+      "description": "The bearer can cast a Bound Spell, Power Level (4/8): Type: Hex, Missile, Damage. Range 24″. Duration: Instant. The target suffers 2D6 hits with Strength 3,  Armour Penetration 0, and Magical Attacks"
+    },
+    {
+      "name": "Obsidian Rock",
+      "cost": 40,
+      "description": "The bearer gains Magic Resistance (2)."
+    },
+    {
+      "name": "Talisman of Shielding",
+      "cost": 50,
+      "description": "The bearer gains Aegis (5+)."
+    },
+    {
+      "name": "Book of Arcane Power",
+      "cost": 60,
+      "dominant" : 1,
+      "description": "Cannot be taken by models with Wizard Master. A Wizard with this Artefact gains a +1 modifier to its casting rolls."
+    },
+    {
+      "name": "Ranger’s Boot",
+      "cost": 45,
+      "description": "Standard size models on foot only. The bearer gains Strider and, unless using Flying Movement, gains +2 Advance Rate up to a maximum of 10, and +4 March Rate up to a maximum of 20."
+    },
+    {
+      "name": "Magical Heirloom",
+      "cost": 45,
+      "dominant" : 1,
+      "description": "A Wizard with this Artefact knows the Hereditary Spell in addition to its other spells."
+    },
+    {
+      "name": "Sceptre of Power",
+      "cost": 40,
+      "dominant" : 1,
+      "description": "One use only. A Wizard with this Artefact may add a single Magic Dice from its Dice Pool to one of its casting rolls or dispel rolls, after seeing the casting or dispel roll (note that casting rolls cannot exceed the limit of max 5 Magic Dice.)"
+    },
+    {
+      "name": "Talisman of the Void ",
+      "cost": 50,
+      "description": "The bearer gains Channel (1)"
+    },
+    {
+      "name": "Dragon Staff",
+      "cost": 30,
+      "description": "The bearer gains Breath Attack (Strength 3, Armour Penetration 0, Flaming Attacks)."
+    },
+    {
+      "name": "Potion of Strength",
+      "cost": 20,
+      "description": "Cannot be taken by models with Towering Presence. One use only. May be activated at the start of any Phase or Round of Combat. Until the end of the Player Turn the bearer gains Crush Attack."
+    },
+    {
+      "name": "Dragonfire Gem",
+      "cost": 20,
+      "description": "The bearer gains Aegis (2+, against Flaming Attacks). The wearer cannot benefit from Regeneration."
+    },
+    {
+      "name": "Lucky Charm",
+      "cost": 10,
+      "description": "One use only. May be activated when the bearer’s model fails an Armour Save. This failed Armour Save may be rerolled."
+    },
+    {
+      "name": "Potion of Swiftness",
+      "cost": 10,
+      "description": "One use only. May be activated at the start of any Phase or Round of Combat. Until the end of the Player Turn, the bearer gains +3 Agility, to a maximum of 10."
+    }
+  ],
+  "standards": [
+    {
+      "name": "Banner of Speed",
+      "cost": 50,
+      "limitation" : 3,
+      "description": "A unit with one or more Banners of Speed gains +1 Advance Rate and +2 March Rate."
+    },
+    {
+      "name": "Stalker's Standard",
+      "cost": 45,
+      "limitation" : 3,
+      "description": "The bearer’s unit gains Strider."
+    },
+    {
+      "name": "Rending Banner",
+      "cost": 45,
+      "limitation" : 3,
+      "description": "One use only. May be activated at the start of a Round of Combat. Close Combat Attacks from R&F models in a unit with one or more Rending Banners gain +1 Armour Penetration. This effect lasts until the bearer’s unit is no longer Engaged in Combat."
+    },
+    {
+      "name": "Aether Icon",
+      "cost": 25,
+      "limitation" : 3,
+      "description": "The bearer’s unit gains Magic Resistance (1). If the unit already had Magic Resistance, it instead increases the Magic Resistance value by 1."
+    },
+    {
+      "name": "Banner of Discipline",
+      "cost": 35,
+      "limitation" : 3,
+      "description": "The bearer’s unit may reroll failed Panic Tests. If the Battle Standard Bearer. or the General is part of the bearer’s unit, it automatically passes all its Panic Tests instead."
+    },
+    {
+      "name": "Flaming Standard",
+      "cost": 35,
+      "limitation" : 3,
+      "description": "One use only. May be activated at the start of a Round of Combat or before shooting with the bearer’s unit. The bearer’s unit gains Flaming Attacks. If activated when Engaged in Combat, effects lasts until the bearer’s unit is no longer Engaged in Combat. If activated before Shooting with the bearer’s unit, this effect lasts until end of the phase."
+    },
+    {
+      "name": "Banner of the Relentless Company",
+      "cost": 35,
+      "limitation" : 3,
+      "description": "One use only. May be activated during the controlling player’s Movement Phase. All Infantry models in the bearer’s unit always have March Rate 15″, until the end of the Player Turn. Only a single Banner of the Relentless Company may be activated during the same Phase."
+    },
+    {
+      "name": "Legion Standard",
+      "cost": 25,
+      "limitation" : 3,
+      "description": "A unit with one Legion Standard increases the maximum of its Rank Bonus by +1 (normally this means the unit can add up to 4 Full Ranks to its Combat Score). A unit with two Legion Standards increases the maximum of its Rank Bonus by +2 instead."
+    }
+  ]
 }
 
