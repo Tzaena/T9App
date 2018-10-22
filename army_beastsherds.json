@@ -32,24 +32,6 @@
     }
   ],
   "magicitems": {
-    "category1": [
-      {
-        "name": "Gnarled Hide Totem",
-        "cost": "0"
-      },
-      {
-        "name": "Blooded Horn Totem",
-        "cost": "0"
-      },
-      {
-        "name": "Clouded Eye Totem",
-        "cost": "0"
-      },
-      {
-        "name": "Black Wing Totem",
-        "cost": "0"
-      }
-    ],
     "armours": [],
     "weapons": [],
     "artefacts": [],
@@ -58,7 +40,7 @@
   "mounts": [
     {
       "id": "1",
-      "name": "Raiding Chariot (Mount)",
+      "name": "Raiding Chariot",
       "rules": [
         {
           "specialrules": [
@@ -143,7 +125,7 @@
     },
     {
       "id": "2",
-      "name": "Razortusk Chariot (Mount)",
+      "name": "Razortusk Chariot",
       "rules": [
         {
           "specialrules": [
@@ -280,20 +262,36 @@
               "choices": [
                 {
                   "name": "Hunting Call",
-                  "cost": "25"
+                  "cost": "25",
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Throwing Weapons (4+)",
                   "cost": "5"
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 },
                 {
-                  "name": "Army General",
-                  "cost": "0"
-                }
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
               ]
             },
             {
@@ -334,12 +332,21 @@
                 }
               ]
             },
-            {
+			{
               "name": "Mount",
               "onechoice": true,
               "mandatory": false,
-              "choices": []
-            }
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": "90"
+                },
+                {
+                  "mount": "2",
+                  "cost": "125"
+                }
+				]
+			}
           ]
         },
         {
@@ -391,20 +398,60 @@
                   "cost": "5"
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 },
                 {
-                  "name": "Army General",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Battle Standard Bearer",
-                  "cost": "50"
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Totem Bearer",
+                  "cost": "85"
                 },
                 {
                   "name": "Hunting Call",
-                  "cost": "25"
+                  "cost": "25",
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Ambush",
+                  "cost": "10",
+				  "category": "5",
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -445,7 +492,18 @@
                   "cost": "15"
                 }
               ]
-            }
+            },
+			{
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": "90"
+                }
+				]
+			}
           ]
         },
         {
@@ -495,12 +553,40 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "10",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Army General",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "10",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "name": "Light Armour",
@@ -509,6 +595,11 @@
                 {
                   "name": "Paired Weapons",
                   "cost": "5"
+                },
+                {
+                  "name": "Ambush",
+                  "cost": "10",
+				  "category": "5"
                 }
               ]
             },
@@ -523,7 +614,8 @@
                 },
                 {
                   "name": "Wizard Master",
-                  "cost": "225"
+                  "cost": "225",
+                  "globalid": "10"
                 }
               ]
             },
@@ -545,215 +637,18 @@
                   "cost": "0"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Soothsayer (Ambush)",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "165",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Blood Offering"
-                },
-                {
-                  "specialrule": "Pack Tactics"
-                },
-                {
-                  "specialrule": "Primal Instinct"
-                },
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Wizard Apprentice"
-                },
-                {
-                  "specialrule": "Ambush"
-                }
-              ],
-              "equipments": [],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "8",
-              "W": "3",
-              "DEF": "4",
-              "T": "5",
-              "ARM": "0",
-              "name": "Soothsayer Offensive",
-              "A": "1",
-              "OFF": "4",
-              "S": "3",
-              "AP": "0",
-              "I": "3"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Army General",
-                  "cost": "0"
-                },
-                {
-                  "name": "Light Armour",
-                  "cost": "5"
-                },
-                {
-                  "name": "Paired Weapons",
-                  "cost": "5"
-                }
-              ]
             },
-            {
-              "name": "May become",
+			{
+              "name": "Mount",
               "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Wizard Adept",
-                  "cost": "75"
-                },
-                {
-                  "name": "Wizard Master",
-                  "cost": "225"
+                  "mount": "1",
+                  "cost": "20"
                 }
-              ]
-            },
-            {
-              "name": "Must Select Spells from",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Shamanism",
-                  "cost": "0"
-                },
-                {
-                  "name": "Druidism",
-                  "cost": "0"
-                },
-                {
-                  "name": "Evocation",
-                  "cost": "0"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Beast Chieftain (Ambush)",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "130",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Pack Tactics"
-                },
-                {
-                  "specialrule": "Primal Instinct"
-                },
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Ambush"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Light Armour"
-                }
-              ],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "8",
-              "W": "3",
-              "DEF": "5",
-              "T": "5",
-              "ARM": "0",
-              "name": "Beast Chieftain Offensive",
-              "A": "3",
-              "OFF": "5",
-              "S": "4",
-              "AP": "1",
-              "I": "4"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Throwing Weapons (4+)",
-                  "cost": "5"
-                },
-                {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Army General",
-                  "cost": "0"
-                },
-                {
-                  "name": "Battle Standard Bearer",
-                  "cost": "50"
-                },
-                {
-                  "name": "Hunting Call",
-                  "cost": "25"
-                }
-              ]
-            },
-            {
-              "name": "Armour",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Shield",
-                  "cost": "5"
-                },
-                {
-                  "name": "Heavy Armour",
-                  "cost": "10"
-                }
-              ]
-            },
-            {
-              "name": "Melee Weapon",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Paired Weapons",
-                  "cost": "5"
-                },
-                {
-                  "name": "Great Weapon",
-                  "cost": "10"
-                },
-                {
-                  "name": "Beast Axe",
-                  "cost": "15"
-                }
-              ]
-            }
+				]
+			}
           ]
         },
         {
@@ -807,18 +702,27 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 },
                 {
-                  "name": "Army General",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Armour",
-              "onechoice": true,
+              "onechoice": false,
               "mandatory": false,
               "choices": [
                 {
@@ -903,22 +807,43 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 },
                 {
-                  "name": "Army General",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Battle Standard Bearer",
-                  "cost": "50"
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Great Totem Bearer",
+                  "cost": "85"
                 }
               ]
             },
             {
               "name": "Armour",
-              "onechoice": true,
+              "onechoice": false,
               "mandatory": false,
               "choices": [
                 {
@@ -1004,130 +929,48 @@
                   "cost": "5"
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 },
                 {
-                  "name": "Army General",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Battle Standard Bearer",
-                  "cost": "50"
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Totem Bearer",
+                  "cost": "85"
+                },
+                {
+                  "name": "Ambush",
+                  "cost": "10",
+				  "category": "5"
                 }
               ]
             },
             {
               "name": "Armour",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Shield",
-                  "cost": "5"
-                },
-                {
-                  "name": "Heavy Armour",
-                  "cost": "10"
-                }
-              ]
-            },
-            {
-              "name": "Melee Weapon",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Paired Weapons",
-                  "cost": "10"
-                },
-                {
-                  "name": "Lance",
-                  "cost": "20"
-                },
-                {
-                  "name": "Great Weapon",
-                  "cost": "20"
-                },
-                {
-                  "name": "Beast Axe",
-                  "cost": "25"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Centaur Chieftain (Ambush)",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Cavalry",
-          "cost": "230",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Looted Booze"
-                },
-                {
-                  "specialrule": "Primal Instinct"
-                },
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Drunkard"
-                },
-                {
-                  "specialrule": "Ambush"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Light Armour"
-                }
-              ],
-              "ADV": "8",
-              "MAR": "16",
-              "Ld": "8",
-              "W": "3",
-              "DEF": "5",
-              "T": "5",
-              "ARM": "6+",
-              "name": "Centaur Chieftain Offensive",
-              "A": "4",
-              "OFF": "5",
-              "S": "5",
-              "AP": "2",
-              "I": "4"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
               "onechoice": false,
-              "choices": [
-                {
-                  "name": "Throwing Weapons (4+)",
-                  "cost": "5"
-                },
-                {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Army General",
-                  "cost": "0"
-                },
-                {
-                  "name": "Battle Standard Bearer",
-                  "cost": "50"
-                }
-              ]
-            },
-            {
-              "name": "Armour",
-              "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
@@ -1215,120 +1058,32 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "choices": [
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
+                },
+                {
+                  "name": "Totem Bearer",
+                  "cost": "15"
+                },
+                {
+                  "name": "Ambush",
+                  "cost": "20",
+				  "category": "5",
+                  "limitation": 2,
+				  "maxmodels": "25"
+                }
+				]
             },
             {
-              "name": "Throwing Weapons (5+)",
+              "name": "Throwing Weapons",
               "onechoice": false,
               "choices": [
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": "2"
-                },
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
-                }
-              ],
-              "type": "permodel"
-            },
-            {
-              "name": "Equipment",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Paired Weapons",
-                  "cost": "2"
-                },
-                {
-                  "name": "Shield",
-                  "cost": "1"
-                }
-              ],
-              "type": "permodel"
-            },
-            {
-              "name": "Command",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": "20"
-                },
-                {
-                  "name": "Musician",
-                  "cost": "20"
-                },
-                {
-                  "name": "Standard Bearer",
-                  "cost": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Wildhorn Herd (Ambush)",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "unitsize": "15",
-          "maxmodels": "10",
-          "modelcost": "10",
-          "cost": "170",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Pack Tactics"
-                },
-                {
-                  "specialrule": "Primal Instinct"
-                },
-                {
-                  "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Ambush"
-                }
-              ],
-              "equipments": [],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "7",
-              "W": "1",
-              "DEF": "4",
-              "T": "4",
-              "ARM": "0",
-              "name": "Wildhorn Herd Offensive",
-              "A": "1",
-              "OFF": "4",
-              "S": "3",
-              "AP": "0",
-              "I": "3"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
-              "name": "Throwing Weapons (5+)",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Throwing Weapons (5+)",
-                  "cost": "2"
-                },
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
                 }
               ],
               "type": "permodel"
@@ -1424,91 +1179,20 @@
                   "cost": "0"
                 },
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
-              "name": "Command",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": "20"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 },
                 {
-                  "name": "Musician",
-                  "cost": "20"
+                  "name": "Totem Bearer",
+                  "cost": "15"
                 },
                 {
-                  "name": "Standard Bearer",
-                  "cost": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mongrel Herd (Ambush)",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "unitsize": "20",
-          "maxmodels": "10",
-          "modelcost": "8",
-          "cost": "160",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Pack Tactics"
-                },
-                {
-                  "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Primal Instinct"
-                },
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Ambush"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Shield"
-                }
-              ],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "6",
-              "W": "1",
-              "DEF": "3",
-              "T": "3",
-              "ARM": "0",
-              "name": "Mongrel Herd Offensive",
-              "A": "1",
-              "OFF": "3",
-              "S": "3",
-              "AP": "0",
-              "I": "3"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Spears",
-                  "cost": "0"
-                },
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "name": "Ambush",
+                  "cost": "20",
+				  "category": "5",
+                  "limitation": 2,
+				  "maxmodels": "30"
                 }
               ]
             },
@@ -1539,6 +1223,7 @@
           "type": "Infantry",
           "unitsize": "10",
           "maxmodels": "10",
+          "limitation": 4,
           "modelcost": "8",
           "cost": "100",
           "rules": [
@@ -1581,7 +1266,13 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "choices": [
+                {
+                  "name": "Ambush and Scout",
+                  "cost": "20",
+				  "category": "5"
+                }
+				]
             },
             {
               "name": "Command Group",
@@ -1597,250 +1288,6 @@
                   "cost": "20"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Mongrel Raiders (Scout & Ambush)",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "unitsize": "10",
-          "maxmodels": "10",
-          "modelcost": "8",
-          "cost": "120",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Pack Tactics"
-                },
-                {
-                  "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Primal Instinct"
-                },
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Ambush"
-                },
-                {
-                  "specialrule": "Scout"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Bow"
-                }
-              ],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "6",
-              "W": "1",
-              "DEF": "3",
-              "T": "3",
-              "ARM": "0",
-              "name": "Mongrel Herd Offensive",
-              "A": "1",
-              "OFF": "3",
-              "S": "3",
-              "AP": "0",
-              "I": "3"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
-              "name": "Command Group",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": "20"
-                },
-                {
-                  "name": "Musician",
-                  "cost": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Feral Hounds (Core)",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Beast",
-          "cost": "40",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Ambush"
-                },
-                {
-                  "specialrule": "Vanguard"
-                },
-                {
-                  "specialrule": "Insignificant"
-                }
-              ],
-              "equipments": [],
-              "ADV": "8",
-              "MAR": "16",
-              "Ld": "5",
-              "name": "Feral Hounds Offensive",
-              "A": "1",
-              "OFF": "4",
-              "S": "3",
-              "AP": "0",
-              "I": "3",
-              "W": "1",
-              "DEF": "4",
-              "T": "3",
-              "ARM": "0"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Feral Hound",
-                  "cost": "8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Raiding Chariot (Core)",
-          "Base": "1",
-          "size": "Large",
-          "type": "Construct",
-          "unitsize": "3",
-          "maxmodels": "0",
-          "modelcost": "110",
-          "cost": "330",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Light Troops"
-                },
-                {
-                  "specialrule": "Swiftstride"
-                },
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Harnessed"
-                },
-                {
-                  "specialrule": "Primal Instinct"
-                },
-                {
-                  "specialrule": "Impact Hits  (D6)"
-                },
-                {
-                  "specialrule": "Inanimate"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Light Armour"
-                },
-                {
-                  "equipment": "Light Lance"
-                },
-                {
-                  "equipment": "Great Weapon"
-                }
-              ],
-              "ADV": "7",
-              "MAR": "7",
-              "Ld": "8",
-              "W": "4",
-              "DEF": "4",
-              "T": "4",
-              "ARM": "2",
-              "name": "Wildhorn",
-              "A": "1",
-              "OFF": "4",
-              "S": "4",
-              "AP": "0",
-              "I": "3"
-            },
-            {
-              "name": "Longhorn",
-              "ADV": "-",
-              "MAR": "-",
-              "W": "-",
-              "DEF": "-",
-              "T": "-",
-              "ARM": "-",
-              "Dis": "-",
-              "specialrules": [],
-              "equipments": [],
-              "A": "1",
-              "OFF": "4",
-              "S": "4",
-              "AP": "1",
-              "I": "3"
-            },
-            {
-              "name": "Chassis",
-              "ADV": "-",
-              "MAR": "-",
-              "W": "-",
-              "DEF": "-",
-              "T": "-",
-              "ARM": "-",
-              "Dis": "-",
-              "specialrules": [],
-              "equipments": [],
-              "A": "-",
-              "OFF": "-",
-              "S": "5",
-              "AP": "2",
-              "I": "-"
-            },
-            {
-              "name": "War Hog (2)",
-              "ADV": "-",
-              "MAR": "-",
-              "W": "-",
-              "DEF": "-",
-              "T": "-",
-              "ARM": "-",
-              "Dis": "-",
-              "specialrules": [],
-              "equipments": [],
-              "A": "1",
-              "OFF": "3",
-              "S": "4",
-              "AP": "1",
-              "I": "2"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
             }
           ]
         }
@@ -1854,7 +1301,12 @@
           "Base": "1",
           "size": "Standard",
           "type": "Beast",
-          "cost": "40",
+          "unitsize": "5",
+		  "limitation": 5,
+		  "category": "5",
+          "maxmodels": "15",
+          "modelcost": "8",
+          "cost": "80",
           "rules": [
             {
               "specialrules": [
@@ -1893,8 +1345,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Feral Hound",
-                  "cost": "8"
+                  "name": "Feral Hound Core",
+                  "cost": "0",
+				  "category": "2"
                 }
               ]
             }
@@ -1957,104 +1410,28 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Great Weapon",
-                  "cost": "0"
+                  "name": "Torem Bearer",
+                  "cost": "15"
                 },
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
             {
-              "name": "Command",
+              "name": "Ambush",
               "onechoice": false,
+              "type": "permodel",
               "choices": [
                 {
-                  "name": "Champion",
-                  "cost": "20"
-                },
-                {
-                  "name": "Musician",
-                  "cost": "20"
-                },
-                {
-                  "name": "Standard Bearer",
-                  "cost": "20"
+                  "name": "Ambush",
+                  "cost": "1",
+				  "category": "5",
+                  "limitation": 2,
+				  "maxmodels": "20"
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Longhorn​ Herd (Ambush)",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "unitsize": "10",
-          "maxmodels": "30",
-          "modelcost": "24",
-          "cost": "165",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Pack Tactics"
-                },
-                {
-                  "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Primal Instinct"
-                },
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Bodyguard  (Beast Lord, Beast Chieftain)"
-                },
-                {
-                  "specialrule": "Ambush"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Halberd"
-                },
-                {
-                  "equipment": "Heavy Armour"
-                }
-              ],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "8",
-              "W": "1",
-              "DEF": "4",
-              "T": "4",
-              "ARM": "0",
-              "name": "Longhorn​ Herd Offensive",
-              "A": "1",
-              "OFF": "4",
-              "S": "4",
-              "AP": "1",
-              "I": "3"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Great Weapon",
-                  "cost": "0"
-                },
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
-                }
-              ]
-            },
             {
               "name": "Command",
               "onechoice": false,
@@ -2080,7 +1457,11 @@
           "Base": "1",
           "size": "Large",
           "type": "Infantry",
-          "cost": "1",
+          "unitsize": "3",
+          "maxmodels": "7",
+          "modelcost": "78",
+          "cost": "235",
+		  "limitation": 5,
           "rules": [
             {
               "specialrules": [
@@ -2129,12 +1510,13 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Minotaur",
-                  "cost": "78"
+                  "name": "Totem Bearer",
+                  "cost": "15"
                 },
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -2185,6 +1567,7 @@
           "type": "Cavalry",
           "unitsize": "5",
           "maxmodels": "10",
+		  "limitation" : 4,
           "modelcost": "25",
           "cost": "165",
           "rules": [
@@ -2230,131 +1613,31 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
-            },
-            {
-              "name": "Throwing Weapons (5+)",
-              "onechoice": false,
               "choices": [
                 {
-                  "name": "Throwing Weapons (5+)",
-                  "cost": "4"
+                  "name": "Totem Bearer",
+                  "cost": "15"
                 },
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
-              ],
-              "type": "permodel"
+				]
             },
-            {
-              "name": "Melee Weapon",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Paired Weapons",
-                  "cost": "4"
-                },
-                {
-                  "name": "Great Weapon",
-                  "cost": "3"
-                },
-                {
-                  "name": "Lance",
-                  "cost": "8"
-                }
-              ],
-              "type": "permodel"
-            },
-            {
-              "name": "Command",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": "20"
-                },
-                {
-                  "name": "Musician",
-                  "cost": "20"
-                },
-                {
-                  "name": "Standard Bearer",
-                  "cost": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Centaurs (Ambush)",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Cavalry",
-          "unitsize": "5",
-          "maxmodels": "3",
-          "modelcost": "28",
-          "cost": "180",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Strider  (Forest)"
-                },
-                {
-                  "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Primal Instinct"
-                },
-                {
-                  "specialrule": "Drunkard"
-                },
-                {
-                  "specialrule": "Ambush"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Light Armour"
-                },
-                {
-                  "equipment": "Shield"
-                }
-              ],
-              "ADV": "8",
-              "MAR": "16",
-              "Ld": "7",
-              "name": "Centaurs Offensive",
-              "A": "2",
-              "OFF": "4",
-              "S": "4",
-              "AP": "1",
-              "I": "3",
-              "W": "1",
-              "DEF": "4",
-              "T": "4",
-              "ARM": "0"
-            }
-          ],
-          "options": [
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
-            },
-            {
-              "name": "Throwing Weapons (5+)",
-              "onechoice": false,
               "choices": [
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": "4"
                 },
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "name": "Ambush",
+                  "cost": "3",
+				  "category": "5",
+				  "maxmodels": "8"
                 }
               ],
               "type": "permodel"
@@ -2403,6 +1686,7 @@
           "name": "Raiding Chariot",
           "Base": "1",
           "size": "Large",
+		  "limitation" : 4,
           "type": "Construct",
           "unitsize": "1",
           "maxmodels": "1",
@@ -2514,7 +1798,13 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "choices": [
+                {
+                  "name": "Core (3+)",
+                  "cost": "0",
+				  "category": 2
+                }
+				]
             }
           ]
         },
@@ -2524,6 +1814,7 @@
           "size": "Large",
           "type": "Beast",
           "unitsize": "1",
+		  "limitation" : 3,
           "maxmodels": "9",
           "modelcost": "62",
           "cost": "100",
@@ -2565,6 +1856,7 @@
           "name": "Razortusk Chariot",
           "Base": "1",
           "size": "Large",
+		  "limitation" : 4,
           "type": "Construct",
           "cost": "230",
           "rules": [
@@ -2688,6 +1980,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Beast",
+		  "limitation" : 3,
           "cost": "120",
           "rules": [
             {
@@ -2737,6 +2030,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
+		  "limitation" : 3,
           "cost": "50",
           "rules": [
             {
@@ -2795,6 +2089,7 @@
         {
           "name": "Cyclops",
           "Base": "1",
+		  "limitation" : 3,
           "size": "Gigantic",
           "type": "Infantry",
           "cost": "355",
@@ -2846,6 +2141,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Infantry",
+		  "limitation" : 2,
           "cost": "475",
           "rules": [
             {
@@ -2903,6 +2199,7 @@
           "name": "Jabberwock​",
           "Base": "1",
           "size": "Gigantic",
+		  "limitation" : 2,
           "type": "Beast",
           "cost": "370",
           "rules": [
@@ -2956,6 +2253,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Infantry",
+		  "limitation" : 3,
           "cost": "300",
           "rules": [
             {
@@ -2990,11 +2288,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Weapon",
               "onechoice": true,
