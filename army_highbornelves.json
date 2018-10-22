@@ -663,7 +663,7 @@
                 {
                   "equipment": "Light Armour"
                 }
-				],
+              ],
               "ADV": "5",
               "MAR": "10",
               "Ld": "10",
@@ -746,7 +746,7 @@
                   "name": "Queen's Companion",
                   "cost": "50"
                 }
-				]
+              ]
             },
             {
               "name": "Armour",
@@ -1052,7 +1052,7 @@
                 },
                 {
                   "mount": "5",
-				  "globalid": "121",
+                  "globalid": "121",
                   "cost": "460",
                   "condition": [
                     {
@@ -1092,7 +1092,7 @@
                   "cost": "120",
                   "condition": [
                     {
-                      "option": "6",
+                      "option": "4",
                       "global": false,
                       "exist": true
                     }
@@ -1112,7 +1112,7 @@
                 {
                   "mount": "9",
                   "cost": "660",
-				  "globalid": "121",
+                  "globalid": "121",
                   "condition": [
                     {
                       "option": "121",
@@ -1149,7 +1149,7 @@
                 {
                   "mount": "10",
                   "cost": "460",
-				  "globalid": "122",
+                  "globalid": "122",
                   "condition": [
                     {
                       "option": "122",
@@ -1281,7 +1281,7 @@
                   "name": "Queen's Companion",
                   "cost": "50"
                 }
-				]
+              ]
             },
             {
               "name": "Armour",
@@ -1567,7 +1567,7 @@
                 },
                 {
                   "mount": "5",
-				  "globalid": "121",
+                  "globalid": "121",
                   "cost": "460",
                   "condition": [
                     {
@@ -1587,7 +1587,7 @@
                   "cost": "120",
                   "condition": [
                     {
-                      "option": "6",
+                      "option": "4",
                       "global": false,
                       "exist": true
                     }
@@ -1607,7 +1607,7 @@
                 {
                   "mount": "9",
                   "cost": "660",
-				  "globalid": "121",
+                  "globalid": "121",
                   "condition": [
                     {
                       "option": "121",
@@ -1624,7 +1624,7 @@
                 {
                   "mount": "10",
                   "cost": "460",
-				  "globalid": "122",
+                  "globalid": "122",
                   "condition": [
                     {
                       "option": "122",
@@ -1824,7 +1824,7 @@
                   "name": "Order of the Fiery Heart",
                   "cost": "30"
                 }
-				]
+              ]
             },
             {
               "name": "Fiery Heart Upgrades",
