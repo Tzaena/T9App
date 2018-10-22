@@ -312,6 +312,43 @@
       "type": "Beast"
     },
     {
+      "id": "10",
+      "name": "Queen's Cavalier Dragon",
+      "category": "6",
+      "limitation": 1,
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Breath Attack  (Str 4, AP1, Flaming Attacks)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "6 (7)",
+          "MAR": "12 (14)",
+          "Ld": "C",
+          "W": "6",
+          "DEF": "5",
+          "T": "6",
+          "ARM": "4",
+          "name": "Dragon ",
+          "A": "5",
+          "OFF": "5",
+          "S": "6",
+          "AP": "3",
+          "I": "3"
+        }
+      ],
+      "size": "Gigantic",
+      "type": "Beast"
+    },
+    {
       "id": "6",
       "name": "Reaver Chariot",
       "rules": [
@@ -622,7 +659,11 @@
                   "specialrule": "Lightning Reflexes"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+				],
               "ADV": "5",
               "MAR": "10",
               "Ld": "10",
@@ -644,8 +685,21 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 },
                 {
                   "name": "Shield",
@@ -654,14 +708,6 @@
                 {
                   "name": "Longbow (0+)",
                   "cost": "5"
-                },
-                {
-                  "name": "2 Additonal Learned Spells",
-                  "cost": "80"
-                },
-                {
-                  "name": "Lion Chariot",
-                  "cost": "120"
                 }
               ]
             },
@@ -669,17 +715,44 @@
               "name": "Honour Selection",
               "onechoice": true,
               "mandatory": false,
-              "choices": []
+              "choices": [
+                {
+                  "globalid": "1",
+                  "name": "Master of Canreig Tower + 2 spells",
+                  "cost": "215"
+                },
+                {
+                  "globalid": "2",
+                  "name": "Hight Warden of the Flame",
+                  "cost": "115"
+                },
+                {
+                  "globalid": "3",
+                  "name": "Fleet Officier",
+                  "cost": "90"
+                },
+                {
+                  "globalid": "4",
+                  "name": "Royal Huntsman",
+                  "cost": "60"
+                },
+                {
+                  "globalid": "5",
+                  "name": "Queen's Cavalier",
+                  "cost": "50"
+                },
+                {
+                  "globalid": "6",
+                  "name": "Queen's Companion",
+                  "cost": "50"
+                }
+				]
             },
             {
               "name": "Armour",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
-                {
-                  "name": "Light Armour",
-                  "cost": "0"
-                },
                 {
                   "name": "Heavy Armour",
                   "cost": "15"
@@ -687,6 +760,35 @@
                 {
                   "name": "Dragonforged Armour",
                   "cost": "25"
+                }
+              ]
+            },
+            {
+              "name": "Queen’s Companion",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Moonlight Arrows",
+                  "cost": "15",
+                  "condition": [
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Fae Miasma + Scout",
+                  "cost": "40",
+                  "condition": [
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -722,37 +824,344 @@
               ]
             },
             {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Alchemy",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Druidism",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Cosmology",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Shamanisn",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Witchcraft",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "Mount",
               "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
                   "mount": "1",
-                  "cost": "60"
+                  "cost": "60",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "3",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "mount": "6",
-                  "cost": "60"
+                  "cost": "60",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "3",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "mount": "2",
-                  "cost": "65"
+                  "cost": "65",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "mount": "3",
-                  "cost": "220"
+                  "cost": "220",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "mount": "4",
-                  "cost": "290"
+                  "cost": "290",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "3",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "mount": "5",
-                  "cost": "460"
+				  "globalid": "121",
+                  "cost": "460",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "3",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "121",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "mount": "7",
+                  "cost": "120",
+                  "condition": [
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "8",
+                  "cost": "300",
+                  "condition": [
+                    {
+                      "option": "3",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "mount": "9",
-                  "cost": "660"
+                  "cost": "660",
+				  "globalid": "121",
+                  "condition": [
+                    {
+                      "option": "121",
+                      "global": true,
+                      "exist": false
+                    },
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "3",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "mount": "10",
+                  "cost": "460",
+				  "globalid": "122",
+                  "condition": [
+                    {
+                      "option": "122",
+                      "global": true,
+                      "exist": false
+                    },
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -774,7 +1183,10 @@
                   "specialrule": "Lightning Reflexes"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }],
               "ADV": "5",
               "MAR": "10",
               "Ld": "9",
@@ -796,8 +1208,33 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 },
                 {
                   "name": "Shield",
@@ -813,17 +1250,44 @@
               "name": "Honour Selection",
               "onechoice": true,
               "mandatory": false,
-              "choices": []
+              "choices": [
+                {
+                  "globalid": "1",
+                  "name": "Master of Canreig Tower",
+                  "cost": "135"
+                },
+                {
+                  "globalid": "2",
+                  "name": "Hight Warden of the Flame",
+                  "cost": "115"
+                },
+                {
+                  "globalid": "3",
+                  "name": "Fleet Officier",
+                  "cost": "90"
+                },
+                {
+                  "globalid": "4",
+                  "name": "Royal Huntsman",
+                  "cost": "60"
+                },
+                {
+                  "globalid": "5",
+                  "name": "Queen's Cavalier",
+                  "cost": "50"
+                },
+                {
+                  "globalid": "6",
+                  "name": "Queen's Companion",
+                  "cost": "50"
+                }
+				]
             },
             {
               "name": "Armour",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
-                {
-                  "name": "Light Armour",
-                  "cost": "0"
-                },
                 {
                   "name": "Heavy Armour",
                   "cost": "10"
@@ -866,25 +1330,313 @@
               ]
             },
             {
+              "name": "Queen’s Companion",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Moonlight Arrows",
+                  "cost": "15",
+                  "condition": [
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Fae Miasma + Scout",
+                  "cost": "40",
+                  "condition": [
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Alchemy",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Druidism",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Cosmology",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Shamanisn",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Witchcraft",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "Mount",
               "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
                   "mount": "1",
-                  "cost": "50"
+                  "cost": "50",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "3",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "mount": "6",
-                  "cost": "50"
+                  "cost": "50",
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "3",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
+                  "mount": "2",
                   "cost": "65",
-                  "mount": "2"
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
+                  "mount": "3",
                   "cost": "220",
-                  "mount": "3"
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "2",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "4",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "mount": "4",
+                  "cost": "290",
+                  "condition": [
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "5",
+				  "globalid": "121",
+                  "cost": "460",
+                  "condition": [
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
+                    },
+                    {
+                      "option": "121",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "mount": "7",
+                  "cost": "120",
+                  "condition": [
+                    {
+                      "option": "6",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "8",
+                  "cost": "300",
+                  "condition": [
+                    {
+                      "option": "3",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "9",
+                  "cost": "660",
+				  "globalid": "121",
+                  "condition": [
+                    {
+                      "option": "121",
+                      "global": true,
+                      "exist": false
+                    },
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "10",
+                  "cost": "460",
+				  "globalid": "122",
+                  "condition": [
+                    {
+                      "option": "122",
+                      "global": true,
+                      "exist": false
+                    },
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -935,8 +1687,40 @@
                   "cost": "5"
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -951,7 +1735,8 @@
                 },
                 {
                   "name": "Wizard Master",
-                  "cost": "150"
+                  "cost": "150",
+                  "globalid": "11"
                 }
               ]
             },
@@ -962,19 +1747,65 @@
               "choices": [
                 {
                   "name": "Pyromancy",
-                  "cost": "0"
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "8",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "name": "Divination",
-                  "cost": "0"
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "8",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "name": "Cosmology",
-                  "cost": "0"
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "8",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Path (Fiery Heart)",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Pyromancy",
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "8",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Alchemy",
-                  "cost": "0"
+                  "cost": "0",
+                  "condition": [
+                    {
+                      "option": "8",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -982,7 +1813,18 @@
               "name": "Honour",
               "onechoice": true,
               "mandatory": false,
-              "choices": []
+              "choices": [
+                {
+                  "globalid": "7",
+                  "name": "Asfad Scholar",
+                  "cost": "90"
+                },
+                {
+                  "globalid": "8",
+                  "name": "Order of the Fiery Heart",
+                  "cost": "30"
+                }
+				]
             },
             {
               "name": "Fiery Heart Upgrades",
@@ -991,19 +1833,47 @@
               "choices": [
                 {
                   "name": "Shield",
-                  "cost": "5"
+                  "cost": "5",
+                  "condition": [
+                    {
+                      "option": "8",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Heavy Armour",
-                  "cost": "15"
+                  "cost": "15",
+                  "condition": [
+                    {
+                      "option": "8",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Dragonforged Armour",
-                  "cost": "30"
+                  "cost": "30",
+                  "condition": [
+                    {
+                      "option": "8",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Paired Weapons",
-                  "cost": "5"
+                  "cost": "5",
+                  "condition": [
+                    {
+                      "option": "8",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -1026,15 +1896,36 @@
                 },
                 {
                   "mount": "3",
-                  "cost": "125"
+                  "cost": "125",
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "mount": "4",
-                  "cost": "170"
+                  "cost": "170",
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "mount": "5",
-                  "cost": "460"
+                  "cost": "460",
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1102,8 +1993,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1202,8 +2094,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1279,8 +2172,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1368,8 +2262,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1471,11 +2366,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Bow (3+)",
               "onechoice": false,
               "choices": [
@@ -1566,8 +2456,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1658,8 +2549,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1755,8 +2647,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1858,8 +2751,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1974,11 +2868,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -2088,11 +2977,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -2129,11 +3013,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         }
       ]
@@ -2196,8 +3075,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -2286,11 +3166,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Scout",
               "onechoice": false,
               "choices": [
@@ -2361,11 +3236,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -2452,11 +3322,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         }
       ]
