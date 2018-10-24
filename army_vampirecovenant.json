@@ -32,50 +32,6 @@
     }
   ],
   "magicitems": {
-    "category1": [
-      {
-        "name": "Brotherhood of the Dragon Bloodline",
-        "cost": "45"
-      },
-      {
-        "name": "Lamia Bloodline",
-        "cost": "50"
-      },
-      {
-        "name": "Nosferatu Bloodline",
-        "cost": "10"
-      },
-      {
-        "name": "Strigoi Bloodline",
-        "cost": "110"
-      },
-      {
-        "name": "Von Karnstein Bloodline",
-        "cost": "50"
-      }
-    ],
-    "category2": [
-      {
-        "name": "Crimson Rage",
-        "cost": "130"
-      },
-      {
-        "name": "Commandment",
-        "cost": "70"
-      },
-      {
-        "name": "Blood Magic",
-        "cost": "75"
-      },
-      {
-        "name": "Ghoul Lord",
-        "cost": "70"
-      },
-      {
-        "name": "Storm Caller",
-        "cost": "125"
-      }
-    ],
     "weapons": [],
     "armours": [],
     "artefacts": [],
@@ -634,6 +590,29 @@
               ]
             },
             {
+              "name": "Court of the Damned",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Aegis (4+)",
+                  "cost": "75",
+				  "condition": [
+					{
+					  "option": "21",
+					  "global": false,
+					  "exist": true
+					},
+					{
+					  "option": "52",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
+                }
+              ]
+            },
+            {
               "name": "Mount",
               "onechoice": true,
               "mandatory": false,
@@ -652,7 +631,8 @@
                 },
                 {
                   "mount": 4,
-                  "cost": "325"
+                  "cost": "325",
+				  "globalid": "21"
                 },
                 {
                   "mount": 5,
@@ -665,37 +645,620 @@
               ]
             },
             {
-              "name": "Path",
+              "name": "Blood Powers",
               "onechoice": true,
               "mandatory": false,
               "choices": [
+				  {
+					"name": "Crimson Rage",
+					"cost": "130",
+					"globalid": "61",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "61",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Storm Caller",
+					"cost": "125",
+					"globalid": "62",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "62",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Commandment",
+					"cost": "70",
+					"globalid": "63",
+					  "condition": [
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "63",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Ghoul Lord",
+					"cost": "70",
+					"globalid": "64",
+					  "condition": [
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "64",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Blood Magic",
+					"cost": "75",
+					"globalid": "65",
+					  "condition": [
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "65",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Eternal Duelist",
+					"cost": "80",
+					"globalid": "70",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Eternal Duelist",
+					"cost": "80",
+					"globalid": "70",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "70",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Monster Hunter",
+					"cost": "45",
+					"globalid": "71",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Monster Hunter",
+					"cost": "45",
+					"globalid": "71",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "71",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Flying Horror",
+					"cost": "70",
+					"globalid": "72",
+					  "condition": [
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Flying Horror",
+					"cost": "70",
+					"globalid": "72",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "72",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Bestial Bulk",
+					"cost": "70",
+					"globalid": "73",
+					  "condition": [
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Bestial Bulk",
+					"cost": "70",
+					"globalid": "73",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "73",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Hour of the Wolf",
+					"cost": "50",
+					"globalid": "74",
+					  "condition": [
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Hour of the Wolf",
+					"cost": "50",
+					"globalid": "74",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "74",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Unbreakable Will",
+					"cost": "40",
+					"globalid": "75",
+					  "condition": [
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Unbreakable Will",
+					"cost": "40",
+					"globalid": "75",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "75",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Forbiden Path",
+					"cost": "25",
+					"globalid": "76",
+					  "condition": [
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Forbiden Path",
+					"cost": "25",
+					"globalid": "76",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "76",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Arcane Knowledge",
+					"cost": "60",
+					"globalid": "77",
+					  "condition": [
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Arcane Knowledge",
+					"cost": "60",
+					"globalid": "77",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "77",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Mask of Innocence",
+					"cost": "45",
+					"globalid": "78",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Mask of Innocence",
+					"cost": "45",
+					"globalid": "78",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "78",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Mesmerising Gaze",
+					"cost": "40",
+					"globalid": "79",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Mesmerising Gaze",
+					"cost": "40",
+					"globalid": "79",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "79",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  }
+				 ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
                 {
                   "name": "Occultism",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "50",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "51",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "55",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "53",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 },
                 {
                   "name": "Evocation",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "50",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "52",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "55",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "53",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 },
                 {
                   "name": "Witchcraft",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "52",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 },
                 {
                   "name": "Shamanism",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "54",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 },
                 {
                   "name": "Cosmology",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "53",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 }
               ]
             },
             {
-              "name": "Blood Powers",
+              "name": "Vampiric Bloodline",
               "onechoice": true,
               "mandatory": false,
-              "choices": []
+              "choices": [
+				  {
+					"name": "Brotherhood of the Dragon",
+					"cost": "45",
+					"globalid": "51",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Lamia",
+					"cost": "50",
+					"globalid": "52",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Nosferatu",
+					"cost": "10",
+					"globalid": "53",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Strigoi",
+					"cost": "110",
+					"globalid": "54",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Von Karnstein",
+					"cost": "50",
+					"globalid": "55",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  }
+				 ]
             }
           ]
         },
@@ -872,6 +1435,29 @@
               ]
             },
             {
+              "name": "Court of the Damned",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Aegis (4+)",
+                  "cost": "75",
+				  "condition": [
+					{
+					  "option": "21",
+					  "global": false,
+					  "exist": true
+					},
+					{
+					  "option": "52",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
+                }
+              ]
+            },
+            {
               "name": "Mount",
               "onechoice": true,
               "mandatory": false,
@@ -897,29 +1483,618 @@
             {
               "name": "Path",
               "onechoice": true,
-              "mandatory": false,
+              "mandatory": true,
               "choices": [
                 {
                   "name": "Occultism",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "50",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "51",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "55",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "53",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 },
                 {
                   "name": "Evocation",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "50",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "52",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "55",
+					  "global": true,
+					  "exist": true
+					},
+					{
+					  "option": "53",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 },
                 {
                   "name": "Witchcraft",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "52",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 },
                 {
                   "name": "Shamanism",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "54",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 },
                 {
                   "name": "Cosmology",
-                  "cost": "0"
+                  "cost": "0",
+				  "condition": [
+					{
+					  "option": "53",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 }
               ]
+            },
+            {
+              "name": "Blood Powers",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+				  {
+					"name": "Crimson Rage",
+					"cost": "130",
+					"globalid": "61",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "61",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Storm Caller",
+					"cost": "125",
+					"globalid": "62",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "62",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Commandment",
+					"cost": "70",
+					"globalid": "63",
+					  "condition": [
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "63",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Ghoul Lord",
+					"cost": "70",
+					"globalid": "64",
+					  "condition": [
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "64",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Blood Magic",
+					"cost": "75",
+					"globalid": "65",
+					  "condition": [
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "65",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Eternal Duelist",
+					"cost": "80",
+					"globalid": "70",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Eternal Duelist",
+					"cost": "80",
+					"globalid": "70",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "70",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Monster Hunter",
+					"cost": "45",
+					"globalid": "71",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Monster Hunter",
+					"cost": "45",
+					"globalid": "71",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "71",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Flying Horror",
+					"cost": "70",
+					"globalid": "72",
+					  "condition": [
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Flying Horror",
+					"cost": "70",
+					"globalid": "72",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "72",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Bestial Bulk",
+					"cost": "70",
+					"globalid": "73",
+					  "condition": [
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Bestial Bulk",
+					"cost": "70",
+					"globalid": "73",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "73",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Hour of the Wolf",
+					"cost": "50",
+					"globalid": "74",
+					  "condition": [
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Hour of the Wolf",
+					"cost": "50",
+					"globalid": "74",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "74",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Unbreakable Will",
+					"cost": "40",
+					"globalid": "75",
+					  "condition": [
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Unbreakable Will",
+					"cost": "40",
+					"globalid": "75",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "75",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Forbiden Path",
+					"cost": "25",
+					"globalid": "76",
+					  "condition": [
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Forbiden Path",
+					"cost": "25",
+					"globalid": "76",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "76",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Arcane Knowledge",
+					"cost": "60",
+					"globalid": "77",
+					  "condition": [
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Arcane Knowledge",
+					"cost": "60",
+					"globalid": "77",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "77",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Mask of Innocence",
+					"cost": "45",
+					"globalid": "78",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Mask of Innocence",
+					"cost": "45",
+					"globalid": "78",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "78",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Mesmerising Gaze",
+					"cost": "40",
+					"globalid": "79",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": true
+						}
+					  ]
+				  },
+				  {
+					"name": "Mesmerising Gaze",
+					"cost": "40",
+					"globalid": "79",
+					  "condition": [
+						{
+						  "option": "50",
+						  "global": true,
+						  "exist": true
+						},
+						{
+						  "option": "79",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  }
+				 ]
+            },
+            {
+              "name": "Vampiric Bloodline",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+				  {
+					"name": "Brotherhood of the Dragon",
+					"cost": "45",
+					"globalid": "51",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Lamia",
+					"cost": "50",
+					"globalid": "52",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Nosferatu",
+					"cost": "10",
+					"globalid": "53",
+					  "condition": [
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Strigoi",
+					"cost": "110",
+					"globalid": "54",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "55",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Von Karnstein",
+					"cost": "50",
+					"globalid": "55",
+					  "condition": [
+						{
+						  "option": "52",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "53",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "54",
+						  "global": true,
+						  "exist": false
+						},
+						{
+						  "option": "51",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  }
+				 ]
             }
           ]
         },
@@ -1591,7 +2766,14 @@
                 {
                   "name": "Vanguard",
                   "cost": "2",
-				  "maxarmymodels": 35
+				  "maxarmymodels": 35,
+				  "condition": [
+					{
+					  "option": "54",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 }
               ],
               "type": "permodel"
@@ -2258,10 +3440,18 @@
             {
               "name": "Options",
               "onechoice": false,
+              "mandatory": true,
               "choices": [
                 {
                   "name": "Aegis (4+)",
-                  "cost": "90"
+                  "cost": "90",
+				  "condition": [
+					{
+					  "option": "52",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 }
               ]
             }
@@ -2510,10 +3700,24 @@
                 {
                   "name": "Extended Chassis",
                   "cost": "15"
-                },
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": false,
+              "mandatory": true,
+              "choices": [
                 {
                   "name": "Stubborn",
-                  "cost": "15"
+                  "cost": "15",
+				  "condition": [
+					{
+					  "option": "55",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 }
               ]
             }
@@ -2658,7 +3862,14 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "120"
+                  "cost": "120",
+				  "condition": [
+					{
+					  "option": "53",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 }
               ]
             }
@@ -2755,7 +3966,14 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "120"
+                  "cost": "120",
+				  "condition": [
+					{
+					  "option": "53",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 }
               ]
             }
@@ -2923,6 +4141,25 @@
                   "type": "magicitems",
                   "name": "magic items",
                   "cost": 100
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": false,
+              "mandatory": true,
+			  "type": "permodel"
+              "choices": [
+                {
+                  "name": "Devastating Charge (+1 Att) and Plate Armour",
+                  "cost": "25",
+				  "condition": [
+					{
+					  "option": "51",
+					  "global": true,
+					  "exist": true
+					}
+				  ]
                 }
               ]
             },
