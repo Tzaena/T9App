@@ -199,6 +199,7 @@
     },
     {
       "id": "3",
+	  "category": "5",
       "name": "Monstrous Revenant",
       "rules": [
         {
@@ -334,6 +335,8 @@
     {
       "id": "5",
       "name": "Shrieking Horror",
+	  "limitation": 1,
+	  "category": "5",
       "rules": [
         {
           "specialrules": [
@@ -369,6 +372,8 @@
     {
       "id": "6",
       "name": "Zombie Dragon",
+	  "category": "5",
+	  "limitation": 1,
       "rules": [
         {
           "specialrules": [
@@ -529,15 +534,44 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
+                },
+                {
+                  "name": "The Dead Arise",
+                  "cost": 25,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Wizard Level",
               "onechoice": true,
-              "mandatory": false,
+              "mandatory": true,
               "choices": [
                 {
                   "name": "Wizard Apprentice",
@@ -605,27 +639,27 @@
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Skeletal Steed",
+                  "mount": 1,
                   "cost": "70"
                 },
                 {
-                  "name": "Spectral Steed",
+                  "mount": 2,
                   "cost": "125"
                 },
                 {
-                  "name": "Monstrous Revenant",
+                  "mount": 3,
                   "cost": "160"
                 },
                 {
-                  "name": "Court of the Damned",
+                  "mount": 4,
                   "cost": "325"
                 },
                 {
-                  "name": "Shrieking Horror",
+                  "mount": 5,
                   "cost": "450"
                 },
                 {
-                  "name": "Zombie Dragon",
+                  "mount": 6,
                   "cost": "385"
                 }
               ]
@@ -721,12 +755,54 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Battle Standard Bearer",
-                  "cost": "50"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                },
+                {
+                  "name": "The Dead Arise",
+                  "cost": 25,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -801,19 +877,19 @@
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Skeletal Steed",
+                  "mount": 1,
                   "cost": "65"
                 },
                 {
-                  "name": "Spectral Steed",
+                  "mount": 2,
                   "cost": "110"
                 },
                 {
-                  "name": "Monstrous Revenant",
+                  "mount": 3,
                   "cost": "140"
                 },
                 {
-                  "name": "Court of the Damned",
+                  "mount": 4,
                   "cost": "325"
                 }
               ]
@@ -867,7 +943,10 @@
                 },
                 {
                   "specialrule": "Reanimated  (1)"
-                }
+                },
+				{
+					"specialrule": "Wizard Apprentice"
+				}
               ],
               "equipments": [],
               "ADV": "4",
@@ -895,8 +974,56 @@
                   "cost": "5"
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "21",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "21",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "The Dead Arise",
+                  "cost": 25,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -906,16 +1033,13 @@
               "mandatory": true,
               "choices": [
                 {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
-                {
                   "name": "Wizard Adept",
                   "cost": "75"
                 },
                 {
                   "name": "Wizard Master",
-                  "cost": "225"
+                  "cost": "225",
+				  "globalid": "21"
                 }
               ]
             },
@@ -940,15 +1064,15 @@
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Skeletal Steed",
+                  "mount": 1,
                   "cost": "20"
                 },
                 {
-                  "name": "Cadaver Wagon",
+                  "mount": 7,
                   "cost": "380"
                 },
                 {
-                  "name": "Monstrous Revenant",
+                  "mount": 3,
                   "cost": "100"
                 }
               ]
@@ -1018,16 +1142,26 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Battle Standard Bearer",
-                  "cost": "50"
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Skeletal Steed",
-                  "cost": "40"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 }
               ]
             },
@@ -1053,6 +1187,17 @@
                   "cost": "10"
                 }
               ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": 1,
+                  "cost": "40"
+                }
+              ]
             }
           ]
         },
@@ -1060,6 +1205,8 @@
           "name": "Fell Wraith",
           "Base": "1",
           "size": "Standard",
+		  "limitation": 3,
+		  "organisation": "4",
           "type": "Infantry",
           "cost": "125",
           "rules": [
@@ -1119,8 +1266,25 @@
                   "cost": "10"
                 },
                 {
-                  "name": "Skeletal Steed",
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": 1,
                   "cost": "35"
+                },
+                {
+                  "mount": 3,
+                  "cost": "185",
+				  "organisation": "5"
                 }
               ]
             }
@@ -1130,6 +1294,8 @@
           "name": "Banshee",
           "Base": "1",
           "size": "Standard",
+		  "limitation": 3,
+		  "organisation": "4",
           "type": "Infantry",
           "cost": "165",
           "rules": [
@@ -1199,6 +1365,7 @@
           "name": "Zombies",
           "Base": "1",
           "unitsize": "20",
+		  "limitation": 4,
           "maxmodels": "60",
           "modelcost": "5",
           "size": "Standard",
@@ -1313,8 +1480,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 }
               ]
             },
@@ -1361,6 +1529,7 @@
           "maxmodels": "790",
           "modelcost": "17",
           "size": "Standard",
+		  "limitation": 4,
           "type": "Infantry",
           "cost": "130",
           "rules": [
@@ -1421,7 +1590,8 @@
               "choices": [
                 {
                   "name": "Vanguard",
-                  "cost": "2"
+                  "cost": "2",
+				  "maxarmymodels": 35
                 }
               ],
               "type": "permodel"
@@ -1433,6 +1603,7 @@
           "Base": "1",
           "unitsize": "2",
           "maxmodels": "8",
+		  "limitation": 4,
           "modelcost": "30",
           "size": "Standard",
           "type": "Beast",
@@ -1485,60 +1656,6 @@
               "choices": []
             }
           ]
-        },
-        {
-          "name": "Dire Wolves - Core",
-          "Base": "1",
-          "unitsize": "8",
-          "maxmodels": "7",
-          "modelcost": "11",
-          "size": "Standard",
-          "type": "Beast",
-          "cost": "113",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Undead"
-                },
-                {
-                  "specialrule": "Ashes to Ashes"
-                },
-                {
-                  "specialrule": "Vanguard"
-                },
-                {
-                  "specialrule": "Devastating Charge  (+1 Str, +1 AP)"
-                }
-              ],
-              "equipments": [],
-              "ADV": "9",
-              "MAR": "18",
-              "Ld": "3",
-              "W": "1",
-              "DEF": "3",
-              "T": "3",
-              "ARM": "0",
-              "name": "Dire Wolves ",
-              "A": "1",
-              "OFF": "3",
-              "S": "3",
-              "AP": "0",
-              "I": "3"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": "20"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1546,8 +1663,9 @@
       "organisation": "3",
       "units": [
         {
-          "name": "Dire Wolves - Special",
+          "name": "Dire Wolves",
           "Base": "1",
+		  "limitation": 5,
           "unitsize": "5",
           "maxmodels": "2",
           "modelcost": "11",
@@ -1594,6 +1712,11 @@
                 {
                   "name": "Champion",
                   "cost": "20"
+                },
+                {
+                  "name": "Core (8+)",
+                  "cost": "0",
+				  "organisation": "2"
                 }
               ]
             }
@@ -1662,8 +1785,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1711,6 +1835,7 @@
           "name": "Barrow Knights",
           "Base": "1",
           "unitsize": "5",
+		  "limitation": 4,
           "maxmodels": "10",
           "modelcost": "48",
           "size": "Standard",
@@ -1796,8 +1921,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1825,6 +1951,7 @@
           "name": "Ghasts",
           "Base": "1",
           "unitsize": "3",
+		  "limitation": 5,
           "maxmodels": "7",
           "modelcost": "95",
           "size": "Large",
@@ -1889,6 +2016,7 @@
           "Base": "1",
           "unitsize": "2",
           "maxmodels": "7",
+		  "limitation": 4,
           "modelcost": "15",
           "size": "Standard",
           "type": "Beast",
@@ -1940,6 +2068,7 @@
           "name": "Cadaver Wagon",
           "Base": "1",
           "size": "Large",
+		  "limitation": 2,
           "type": "Construct",
           "cost": "400",
           "rules": [
@@ -2032,6 +2161,7 @@
           "name": "Court of the Damned",
           "Base": "1",
           "size": "Large",
+		  "limitation": 2,
           "type": "Construct",
           "cost": "300",
           "rules": [
@@ -2130,7 +2260,7 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Blood Ties: Lamia",
+                  "name": "Aegis (4+)",
                   "cost": "90"
                 }
               ]
@@ -2140,6 +2270,7 @@
         {
           "name": "Altar of Undeath",
           "Base": "1",
+		  "limitation": 2,
           "size": "Large",
           "type": "Construct",
           "cost": "365",
@@ -2255,6 +2386,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Construct",
+		  "limitation": 2,
           "cost": "430",
           "rules": [
             {
@@ -2378,6 +2510,10 @@
                 {
                   "name": "Extended Chassis",
                   "cost": "15"
+                },
+                {
+                  "name": "Stubborn",
+                  "cost": "15"
                 }
               ]
             }
@@ -2392,6 +2528,7 @@
           "name": "Phantom Host",
           "Base": "1",
           "unitsize": "2",
+		  "limitation": 2,
           "maxmodels": "3",
           "modelcost": "75",
           "size": "Standard",
@@ -2442,7 +2579,14 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Max 6 models",
+                  "cost": "0",
+				  "maxarmymodels": 6
+                }
+				]
             }
           ]
         },
@@ -2452,6 +2596,7 @@
           "unitsize": "5",
           "maxmodels": "5",
           "modelcost": "37",
+		  "limitation": 2,
           "size": "Standard",
           "type": "Infantry",
           "cost": "170",
@@ -2524,6 +2669,7 @@
           "Base": "1",
           "unitsize": "5",
           "maxmodels": "5",
+		  "limitation": 2,
           "modelcost": "37",
           "size": "Standard",
           "type": "Cavalry",
@@ -2624,6 +2770,7 @@
           "name": "Shrieking Horror",
           "Base": "1",
           "size": "Gigantic",
+		  "limitation": 2,
           "type": "Beast",
           "cost": "490",
           "rules": [
@@ -2665,7 +2812,21 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Limitation: 1",
+                  "cost": "0",
+				  "limitation": 1,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
+                }
+				]
             }
           ]
         },
@@ -2677,6 +2838,7 @@
           "modelcost": "90",
           "size": "Standard",
           "type": "Cavalry",
+		  "limitation": 2,
           "cost": "240",
           "rules": [
             {
@@ -2758,8 +2920,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 }
               ]
             },
@@ -2790,6 +2953,7 @@
           "maxmodels": "2",
           "modelcost": "180",
           "size": "Large",
+		  "limitation": 2,
           "type": "Infantry",
           "cost": "320",
           "rules": [
@@ -2860,6 +3024,7 @@
         {
           "name": "Varkolak",
           "Base": "1",
+		  "limitation": 3,
           "size": "Large",
           "type": "Beast",
           "cost": "335",
@@ -2916,6 +3081,7 @@
           "name": "Vampire Spawn",
           "Base": "1",
           "unitsize": "3",
+		  "limitation": 3,
           "maxmodels": "5",
           "modelcost": "78",
           "size": "Large",
