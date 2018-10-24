@@ -35,83 +35,83 @@
     "weapons": [
       {
         "name": "Secrets of the Doom Blade",
-        "description": "Hand Weapon EnchantmentAttacks made with this weapon have their Strength set to 10 and Armour Penetration set to 10, gain Multiple Wounds (D6), Magical Attacks, and Divine Attacks. At the end of each friendly Player Turn, the wielder suffers 1 hit with Toxic Attacks (which counts as a Melee Attack). ",
+        "description": "Hand Weapon Enchantment. Attacks made with this weapon have their Strength set to 10 and Armour Penetration set to 10, gain Multiple Wounds (D6), Magical Attacks, and Divine Attacks. At the end of each friendly Player Turn, the wielder suffers 1 hit with Toxic Attacks (which counts as a Melee Attack). ",
         "cost": "200"
       },
       {
         "name": "Swarm Master",
-        "description": "Paired Weapon EnchantmentThe wielder always has Attack Value 3D6 when using this weapon. Attacks made with this weapon always have Strength 3 and always have Armour Penetration 1 and gain Magical Attacks.",
+        "description": "Paired Weapon Enchantment. The wielder always has Attack Value 3D6 when using this weapon. Attacks made with this weapon always have Strength 3 and always have Armour Penetration 1 and gain Magical Attacks.",
         "cost": "35"
       },
       {
         "name": "Darkstone Shot",
-        "description": "Jezzail or Ratlock Pistols EnchantmentThe weapon gains +1 Shots. Attacks made with this weapon that roll a natural '6' to wound gain Multiple Wounds (D3).",
+        "description": "Jezzail or Ratlock Pistols Enchantment. The weapon gains +1 Shots. Attacks made with this weapon that roll a natural '6' to wound gain Multiple Wounds (D3).",
         "cost": "30"
       }
     ],
     "armours": [
       {
         "name": "Putrid Protection",
-        "description": "Light Armour EnchantmentThe wearer gains +2 Armour. For each successful Armour Save made by the wearer against Melee Attacks, the Health Pool which the model that caused the wounding hit is part of suffers 1 hit with Toxic Attacks. This is considered a Special Attack.",
+        "description": "Light Armour Enchantment. The wearer gains +2 Armour. For each successful Armour Save made by the wearer against Melee Attacks, the Health Pool which the model that caused the wounding hit is part of suffers 1 hit with Toxic Attacks. This is considered a Special Attack.",
         "cost": "60"
       },
       {
         "name": "Seal of House Underminer",
-        "description": "Heavy Armour EnchantmentThe owning player’s Army gains a +1 modifier for the roll for determining who picks the Deployment Zone. Directly after Deployment Zones are picked, choose a Terrain Feature with its center on your half of the Battlefield. Unless the chosen Terrain Feature is Impassable Terrain, it becomes Dangerous Terrain (2). ",
+        "description": "Heavy Armour Enchantment. The owning player’s Army gains a +1 modifier for the roll for determining who picks the Deployment Zone. Directly after Deployment Zones are picked, choose a Terrain Feature with its center on your half of the Battlefield. Unless the chosen Terrain Feature is Impassable Terrain, it becomes Dangerous Terrain (2). ",
         "cost": "35"
       },
       {
         "name": "Net of Deception",
-        "description": "Shield EnchantmentWhile using this Shield, the wielder gains Distracting and at the end of step 2 of the Round of Combat Sequence (right after Choose Weapons), nominate one enemy model part in base contact with the user of the Shield. For the duration of this Round of Combat, the nominated model part suffers -1 Attack Value.",
+        "description": "Shield Enchantment. While using this Shield, the wielder gains Distracting and at the end of step 2 of the Round of Combat Sequence (right after Choose Weapons), nominate one enemy model part in base contact with the user of the Shield. For the duration of this Round of Combat, the nominated model part suffers -1 Attack Value.",
         "cost": "40"
       }
     ],
     "artefacts": [
       {
-        "name": "Multifocal Eyepiece - Rakachit Machinist only",
-        "description": "ArtefactAt the start of each friendly Shooting Phase, you may choose a Weapon Team within 3\" of the bearer. For the duration of the phase, Shooting Attacks made by this Weapon Team gain +1 to hit.",
+        "name": "Multifocal Eyepiece",
+        "description": "Rakachit Machinist only. At the start of each friendly Shooting Phase, you may choose a Weapon Team within 3\" of the bearer. For the duration of the phase, Shooting Attacks made by this Weapon Team gain +1 to hit.",
         "cost": "45"
       },
       {
         "name": "Second Awakening",
-        "description": "ArtefactWhen the bearer casts a spell of Type Damage for which dice are used to determine the number of hits this spell inflicts, you may choose to reroll these dice. If so, all dice must be rerolled. ",
+        "description": "When the bearer casts a spell of Type Damage for which dice are used to determine the number of hits this spell inflicts, you may choose to reroll these dice. If so, all dice must be rerolled. ",
         "cost": "45"
       },
       {
         "name": "Crown of Succession",
-        "description": "ArtefactCannot be taken by models with Not a Leader. When the Army’s General is removed as a casualty, the bearer gains Commanding Presence.",
+        "description": "Cannot be taken by models with Not a Leader. When the Army’s General is removed as a casualty, the bearer gains Commanding Presence.",
         "cost": "45"
       },
       {
-        "name": "Scurrying Veil - Standard Size only",
-        "description": "ArtefactThe bearer gains Tiny (see Rat Swarms), and its March Rate is set to 20”.",
+        "name": "Scurrying Veil",
+        "description": "Standard Size only. The bearer gains Tiny (see Rat Swarms), and its March Rate is set to 20”.",
         "cost": "35"
       },
       {
-        "name": "Sceptre of Vermin Valour - Infantry only",
-        "description": "ArtefactThe bearer gains Stand Behind. ",
+        "name": "Sceptre of Vermin Valour",
+        "description": "Infantry only. The bearer gains Stand Behind. ",
         "cost": "35"
       },
       {
-        "name": "Focusing Stone - Wizards Only - Dominant",
-        "description": "ArtefactDuring a friendly Magic Phase or Shooting Phase, when a friendly model in a unit within 24” of the bearer inflicts a hit, before rolling to wound, the owning player may discard a single Veil Token from its Veil Token pool. If so, the hit gains +1 to wound. If there is more than one hit, declare which hit gains the modifier before rolling any dice.",
+        "name": "Focusing Stone",
+        "description": "Wizards Only. Dominant. During a friendly Magic Phase or Shooting Phase, when a friendly model in a unit within 24” of the bearer inflicts a hit, before rolling to wound, the owning player may discard a single Veil Token from its Veil Token pool. If so, the hit gains +1 to wound. If there is more than one hit, declare which hit gains the modifier before rolling any dice.",
         "cost": "40"
       }
     ],
     "standards": [
       {
         "name": "Lightning Rod",
-        "description": "Battle Standard Bearer and Vermin Guard only.One use only. May be activated at the start of the opponent’s Player Turn. During this Player Turn all friendly units gain Hard Target. No Flying Movement may take place.",
+        "description": "Battle Standard Bearer and Vermin Guard only. One use only. May be activated at the start of the opponent’s Player Turn. During this Player Turn all friendly units gain Hard Target. No Flying Movement may take place.",
         "cost": "100"
       },
       {
         "name": "Banner of the Endless Swarm",
-        "description": "Banner EnchantmentIf a unit with one or more Banners of the Endless Swarm has more Full Ranks than each of the enemy units Engaged in the same Combat, it gains Fight in Extra Rank. If the unit has more than twice the number of Full Ranks than each of the enemy units Engaged in the same Combat, it gains an additional instance of Fight in Extra Rank. Check how many Full Ranks the units have and apply the effects at each Initiative Step.",
+        "description": "If a unit with one or more Banners of the Endless Swarm has more Full Ranks than each of the enemy units Engaged in the same Combat, it gains Fight in Extra Rank. If the unit has more than twice the number of Full Ranks than each of the enemy units Engaged in the same Combat, it gains an additional instance of Fight in Extra Rank. Check how many Full Ranks the units have and apply the effects at each Initiative Step.",
         "cost": "50"
       },
       {
         "name": "Aquila of Ruin",
-        "description": "Banner Enchantment Rats-at-Arms only. If the bearer’s unit is composed entirely of Infantry models, it increases the maximum of its Rank Bonus by +2, which cannot be increased by any other means (this means the unit can add up to 5 Full Ranks to its Combat Score).",
+        "description": "Rats-at-Arms only. If the bearer’s unit is composed entirely of Infantry models, it increases the maximum of its Rank Bonus by +2, which cannot be increased by any other means (this means the unit can add up to 5 Full Ranks to its Combat Score).",
         "cost": "55"
       }
     ]
@@ -181,6 +181,7 @@
     {
       "id": "3",
       "name": "Monstrous Rat",
+	  "organisation": 5,
       "rules": [
         {
           "specialrules": [
@@ -225,6 +226,8 @@
     {
       "id": "4",
       "name": "Doom Bell",
+	  "organisation": 5,
+	  "limitation": 1,
       "rules": [
         {
           "specialrules": [
@@ -275,6 +278,8 @@
     {
       "id": "5",
       "name": "Plague Pendulum",
+	  "limitation" : 1,
+	  "organisation": 5,
       "rules": [
         {
           "specialrules": [
@@ -385,6 +390,8 @@
           "Base": "1",
           "size": "Gigantic ",
           "type": "Beast",
+		  "limitation" : 1,
+		  "organisation": 5,
           "cost": "800",
           "rules": [
             {
@@ -451,7 +458,10 @@
                   "specialrule": "Honourless"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }],
               "ADV": "5",
               "MAR": "10",
               "Ld": "7",
@@ -473,9 +483,27 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                }
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
+                },
               ]
             },
             {
@@ -483,10 +511,6 @@
               "onechoice": true,
               "mandatory": false,
               "choices": [
-                {
-                  "name": "Light Armour",
-                  "cost": "0"
-                },
                 {
                   "name": "Heavy Armour",
                   "cost": "15"
@@ -526,15 +550,15 @@
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Vermin Guard Litter",
+                  "mount": 1,
                   "cost": "75"
                 },
                 {
-                  "name": "Vermin Hulk Bodyguard",
+                  "mount": 2,
                   "cost": "95"
                 },
                 {
-                  "name": "Monstrous Rat",
+                  "mount": 3,
                   "cost": "200"
                 }
               ]
@@ -546,6 +570,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
+		  "limitation": 4,
           "cost": "110",
           "rules": [
             {
@@ -563,7 +588,10 @@
                   "specialrule": "Swiftstride"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }],
               "ADV": "5",
               "MAR": "10",
               "Ld": "6",
@@ -585,8 +613,43 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 },
                 {
                   "name": "Fetthis Broodmaster",
@@ -599,10 +662,6 @@
               "onechoice": true,
               "mandatory": false,
               "choices": [
-                {
-                  "name": "Light Armour",
-                  "cost": "0"
-                },
                 {
                   "name": "Heavy Armour",
                   "cost": "10"
@@ -642,11 +701,11 @@
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Vermin Hulk Bodyguard",
+                  "mount": 2,
                   "cost": "85"
                 },
                 {
-                  "name": "Monstrous Rat",
+                  "mount": 1,
                   "cost": "240"
                 }
               ]
@@ -670,6 +729,9 @@
                 },
                 {
                   "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Wizard Adept"
                 }
               ],
               "equipments": [],
@@ -702,27 +764,57 @@
                   "cost": "5"
                 },
                 {
-                  "name": "Doom Bell",
-                  "cost": "360"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Wizard Level",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
                 {
-                  "name": "Wizard Adept",
-                  "cost": "0"
-                },
-                {
                   "name": "Wizard Master",
-                  "cost": "150"
+                  "cost": "150",
+				  "globalid": "11"
                 }
               ]
             },
@@ -740,6 +832,24 @@
                   "cost": "0"
                 }
               ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": "4",
+                  "cost": "360",
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -748,6 +858,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
+		  "limitation": 2,
           "cost": "185",
           "rules": [
             {
@@ -794,8 +905,26 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 }
               ]
             },
@@ -889,8 +1018,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 },
                 {
                   "name": "Replace Throwing Weapons with Sling (2+)",
@@ -944,6 +1074,9 @@
                 },
                 {
                   "specialrule": "Battle Focus"
+                },
+                {
+                  "specialrule": "Wizard Apprentice"
                 }
               ],
               "equipments": [],
@@ -968,12 +1101,30 @@
               "onechoice": false,
               "choices": [
                 {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
                   "name": "Light Armour",
                   "cost": "5"
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 },
                 {
                   "name": "Plague Pendulum",
@@ -991,12 +1142,19 @@
               "mandatory": true,
               "choices": [
                 {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
-                {
                   "name": "Wizard Adept",
                   "cost": "75"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Plague Pendulum",
+                  "cost": "410"
                 }
               ]
             },
@@ -1068,7 +1226,12 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "choices": [
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
+                }]
             },
             {
               "name": "Spears",
@@ -1077,10 +1240,6 @@
                 {
                   "name": "Spears",
                   "cost": "1"
-                },
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
                 }
               ],
               "type": "permodel"
@@ -1159,8 +1318,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1241,8 +1401,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1272,6 +1433,7 @@
           "unitsize": "30",
           "maxmodels": "30",
           "modelcost": "4",
+		  "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
           "cost": "150",
@@ -1323,6 +1485,7 @@
           "unitsize": "10",
           "maxmodels": "20",
           "modelcost": "10",
+		  "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
           "cost": "120",
@@ -1365,8 +1528,14 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
+                },
+                {
+                  "name": "Vanguard",
+                  "cost": "30",
+				  "maxmodels": 15
                 }
               ]
             },
@@ -1377,10 +1546,6 @@
                 {
                   "name": "Paired Weapons",
                   "cost": "1"
-                },
-                {
-                  "name": "Vanguard",
-                  "cost": "30"
                 }
               ],
               "type": "permodel"
@@ -1404,55 +1569,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Giant Rats - Core",
-          "Base": "1",
-          "unitsize": "20",
-          "maxmodels": "40",
-          "modelcost": "6",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "140",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Safety in Numbers"
-                },
-                {
-                  "specialrule": "Swiftstride"
-                },
-                {
-                  "specialrule": "Handlers"
-                },
-                {
-                  "specialrule": "Fight in Extra Rank"
-                }
-              ],
-              "equipments": [],
-              "ADV": "7",
-              "MAR": "14",
-              "Ld": "5",
-              "W": "1",
-              "DEF": "3",
-              "T": "3",
-              "ARM": "0",
-              "name": "Giant Rat ",
-              "A": "1",
-              "OFF": "3",
-              "S": "3",
-              "AP": "0",
-              "I": "4"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
-          ]
         }
       ]
     },
@@ -1460,11 +1576,12 @@
       "organisation": "3",
       "units": [
         {
-          "name": "Giant Rats - Special",
+          "name": "Giant Rats",
           "Base": "1",
           "unitsize": "10",
           "maxmodels": "9",
           "modelcost": "6",
+		  "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
           "cost": "80",
@@ -1502,9 +1619,15 @@
           ],
           "options": [
             {
-              "name": "Options",
+              "name": "Core",
               "onechoice": false,
-              "choices": []
+              "choices": [
+                {
+                  "name": "20+ models",
+                  "cost": 0,
+				  "category": "2"
+                }
+				]
             }
           ]
         },
@@ -1514,6 +1637,7 @@
           "unitsize": "8",
           "maxmodels": "7",
           "modelcost": "17",
+		  "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "170",
@@ -1581,6 +1705,7 @@
           "unitsize": "4",
           "maxmodels": "8",
           "modelcost": "75",
+		  "limitation": 3,
           "size": "Large",
           "type": "Infantry",
           "cost": "295",
@@ -1626,7 +1751,28 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Naphta Launcher (4+)",
+                  "cost": "140"
+                },
+                {
+                  "name": "Rotar Gun (4+)",
+                  "cost": "110"
+                },
+                {
+                  "name": "Globe Launcher (4+)",
+                  "cost": "110"
+                },
+                {
+                  "name": "Metal Grinder",
+                  "cost": "110"
+                }
+				]
             },
             {
               "name": "Become Thunder Hulks",
@@ -1635,10 +1781,6 @@
                 {
                   "name": "Become Thunder Hulks",
                   "cost": "15"
-                },
-                {
-                  "name": "Champion",
-                  "cost": "20"
                 }
               ],
               "type": "permodel"
@@ -1649,6 +1791,7 @@
           "name": "Rat Swarms",
           "Base": "1",
           "unitsize": "2",
+		  "limitation": 3,
           "maxmodels": "8",
           "modelcost": "30",
           "size": "Standard",
@@ -1701,6 +1844,7 @@
           "name": "Meat Grinder",
           "Base": "1",
           "size": "Standard",
+		  "limitation": 2,
           "type": "Infantry",
           "cost": "150",
           "rules": [
@@ -1764,6 +1908,7 @@
           "Base": "1",
           "unitsize": "5",
           "maxmodels": "5",
+		  "limitation": 3,
           "modelcost": "25",
           "size": "Standard",
           "type": "Infantry",
@@ -1817,7 +1962,7 @@
                   "cost": "20"
                 },
                 {
-                  "name": "Sling (3+)",
+                  "name": "replace Throwing with Sling (3+)",
                   "cost": "0"
                 }
               ]
@@ -1843,6 +1988,7 @@
         {
           "name": "Weapon Team",
           "Base": "1",
+		  "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "150",
@@ -1921,6 +2067,7 @@
           "unitsize": "3",
           "maxmodels": "3",
           "modelcost": "40",
+		  "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "110",
@@ -1964,6 +2111,7 @@
           "Base": "1",
           "unitsize": "8",
           "maxmodels": "7",
+		  "limitation": 3,
           "modelcost": "22",
           "size": "Standard",
           "type": "Infantry",
@@ -2019,6 +2167,7 @@
           "name": "Verminous Artillery",
           "Base": "1",
           "cost": "0",
+		  "limitation": 2,
           "rules": [
             {
               "specialrules": [
@@ -2029,7 +2178,20 @@
                   "specialrule": "War Machine"
                 }
               ],
-              "equipments": []
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "5"
+              "Ld": "5",
+              "W": "5",
+              "DEF": "1",
+              "T": "4",
+              "ARM": "0",
+              "name": "Grenadier ",
+              "A": "3",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
             }
           ],
           "options": [
@@ -2044,11 +2206,11 @@
               "mandatory": true,
               "choices": [
                 {
-                  "name": "Plague Catapult",
+                  "name": "Plague Catapult (4+)",
                   "cost": "170"
                 },
                 {
-                  "name": "Lightning Cannon",
+                  "name": "Lightning Cannon (4+)",
                   "cost": "275"
                 }
               ]
@@ -2059,6 +2221,7 @@
           "name": "Dreadmill",
           "Base": "1",
           "size": "Large",
+		  "limitation": 2,
           "type": "Construct",
           "cost": "290",
           "rules": [
@@ -2119,6 +2282,7 @@
           "name": "Abomination",
           "Base": "1",
           "size": "Gigantic",
+		  "limitation": 2,
           "type": "Beast",
           "cost": "390",
           "rules": [
