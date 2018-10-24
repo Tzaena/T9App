@@ -2,14 +2,14 @@
   "organisation": [
     {
       "id": "1",
-      "percent": 100,
+      "percent": 40,
       "type": "max",
       "name": "Characters"
     },
     {
       "id": "2",
-      "percent": 100,
-      "type": "max",
+      "percent": 25,
+      "type": "min",
       "name": "Core"
     },
     {
@@ -20,15 +20,21 @@
     },
     {
       "id": "4",
-      "percent": 100,
+      "percent": 30,
       "type": "max",
-      "name": "Core1"
+      "name": "Raiders"
     },
     {
       "id": "5",
-      "percent": 100,
+      "percent": 15,
       "type": "max",
-      "name": "Core2"
+      "name": "Destroyers"
+    },
+    {
+      "id": "5",
+      "percent": 30,
+      "type": "max",
+      "name": "The Menagerie"
     }
   ],
   "magicitems": {
@@ -385,346 +391,29 @@
     {
       "organisation": "1",
       "units": [
+        
         {
           "name": "Dread Prince",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "240",
+          "cost": 240,
+          "type": "1",
+          "size": "1",
+          "base": "1",
           "rules": [
             {
-              "specialrules": [
-                {
-                  "specialrule": "Lightning Reflexes"
-                },
-                {
-                  "specialrule": "Killer Instinct"
-                }
-              ],
-              "equipments": [],
+              "name": "Dread Prince",
               "ADV": "5",
               "MAR": "10",
-              "Ld": "10",
-              "W": "3",
               "DEF": "7",
-              "T": "3",
-              "ARM": "0",
-              "name": "Dread Prince ",
-              "A": "4",
               "OFF": "7",
-              "S": "4",
-              "AP": "1",
-              "I": "8"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
-              "name": "Alliance",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Cult of Cadaron",
-                  "cost": "5"
-                },
-                {
-                  "name": "Cult of Nabh",
-                  "cost": "20"
-                },
-                {
-                  "name": "Cult of Olaron",
-                  "cost": "70"
-                },
-                {
-                  "name": "Cult of Yema",
-                  "cost": "35"
-                },
-                {
-                  "name": "Beast Master",
-                  "cost": "65"
-                },
-                {
-                  "name": "Fleet Commander",
-                  "cost": "60"
-                }
-              ]
-            },
-            {
-              "name": "Armour",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Light Armour",
-                  "cost": "0"
-                },
-                {
-                  "name": "Heavy Armour",
-                  "cost": "15"
-                },
-                {
-                  "name": "Shield",
-                  "cost": "5"
-                }
-              ]
-            },
-            {
-              "name": "Shooting Weapon",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Repeater Handbow (1+)",
-                  "cost": "5"
-                },
-                {
-                  "name": "Repeater Crossbow (1+)",
-                  "cost": "5"
-                }
-              ]
-            },
-            {
-              "name": "Melee Weapon",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Paired Weapons",
-                  "cost": "5"
-                },
-                {
-                  "name": "Halberd",
-                  "cost": "10"
-                },
-                {
-                  "name": "Great Weapon",
-                  "cost": "15"
-                },
-                {
-                  "name": "Lance",
-                  "cost": "20"
-                }
-              ]
-            },
-            {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Elven Horse",
-                  "cost": "70"
-                },
-                {
-                  "name": "Raptor",
-                  "cost": "70"
-                },
-                {
-                  "name": "Raptor Chariot",
-                  "cost": "105"
-                },
-                {
-                  "name": "Pegasus",
-                  "cost": "120"
-                },
-                {
-                  "name": "Manticore",
-                  "cost": "190"
-                },
-                {
-                  "name": "Dragon",
-                  "cost": "460"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Captain",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "155",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Lightning Reflexes"
-                },
-                {
-                  "specialrule": "Killer Instinct"
-                }
-              ],
-              "equipments": [],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "9",
-              "W": "3",
-              "DEF": "6",
-              "T": "3",
               "ARM": "0",
-              "name": "Captain ",
-              "A": "3",
-              "OFF": "6",
-              "S": "4",
               "AP": "1",
-              "I": "7"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Battle Standard Bearer",
-                  "cost": "50"
-                }
-              ]
-            },
-            {
-              "name": "Alliance",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Cult of Cadaron",
-                  "cost": "5"
-                },
-                {
-                  "name": "Cult of Nabh",
-                  "cost": "10"
-                },
-                {
-                  "name": "Cult of Olaron",
-                  "cost": "70"
-                },
-                {
-                  "name": "Cult of Yema",
-                  "cost": "20"
-                },
-                {
-                  "name": "Beast Master",
-                  "cost": "65"
-                },
-                {
-                  "name": "Fleet Commander",
-                  "cost": "45"
-                }
-              ]
-            },
-            {
-              "name": "Armour",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Light Armour",
-                  "cost": "0"
-                },
-                {
-                  "name": "Heavy Armour",
-                  "cost": "10"
-                },
-                {
-                  "name": "Shield",
-                  "cost": "5"
-                }
-              ]
-            },
-            {
-              "name": "Shooting Weapon",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Repeater Handbow (2+)",
-                  "cost": "5"
-                },
-                {
-                  "name": "Repeater Crossbow (2+)",
-                  "cost": "5"
-                }
-              ]
-            },
-            {
-              "name": "Melee Weapon",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Paired Weapons",
-                  "cost": "5"
-                },
-                {
-                  "name": "Halberd",
-                  "cost": "5"
-                },
-                {
-                  "name": "Great Weapon",
-                  "cost": "10"
-                },
-                {
-                  "name": "Lance",
-                  "cost": "15"
-                }
-              ]
-            },
-            {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Elven Horse",
-                  "cost": "50"
-                },
-                {
-                  "name": "Raptor",
-                  "cost": "60"
-                },
-                {
-                  "name": "Raptor Chariot",
-                  "cost": "120"
-                },
-                {
-                  "name": "Pegasus",
-                  "cost": "100"
-                },
-                {
-                  "name": "Manticore",
-                  "cost": "180"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cult Priest",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "160",
-          "rules": [
-            {
+              "S": "4",
+              "T": "3",
+              "W": "3",
+              "I": "8",
+              "A": "4",
+              "Ld": "10",
               "specialrules": [
-                {
-                  "specialrule": "Cult Legate"
-                },
                 {
                   "specialrule": "Lightning Reflexes"
                 },
@@ -734,22 +423,9 @@
               ],
               "equipments": [
                 {
-                  "equipment": "Light Armour"
+                  "equipment": "Light armour"
                 }
-              ],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "9",
-              "W": "3",
-              "DEF": "5",
-              "T": "3",
-              "ARM": "0",
-              "name": "Cult Priest ",
-              "A": "2",
-              "OFF": "5",
-              "S": "4",
-              "AP": "1",
-              "I": "5"
+              ]
             }
           ],
           "options": [
@@ -758,119 +434,179 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Battle Standard Bearer",
-                  "cost": "50"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 },
                 {
-                  "name": "Shield",
-                  "cost": "5"
+                  "name": "shield",
+                  "cost": 5
                 },
                 {
-                  "name": "Divine Altar",
-                  "cost": "380"
-                }
-              ]
-            },
-            {
-              "name": "Alliance",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Cult of Cadaron",
-                  "cost": "0"
-                },
-                {
-                  "name": "Cult of Nabh",
-                  "cost": "5"
-                },
-                {
-                  "name": "Cult of Olaron",
-                  "cost": "70"
-                },
-                {
-                  "name": "Cult of Yema",
-                  "cost": "15"
+                  "name": "Heavy Armour",
+                  "cost": 15
                 }
               ]
             },
             {
               "name": "Shooting Weapon",
               "onechoice": true,
-              "mandatory": false,
               "choices": [
                 {
-                  "name": "Repeater Handbow (4+)",
-                  "cost": "5"
+                  "name": "Repeater Crosswbow (1+)",
+                  "cost": 5
                 },
-                {
-                  "name": "Repeater Crossbow (4+)",
-                  "cost": "5"
+                {{
+                  "name": "Repeater Handbow (1+)",
+                  "cost": 5
                 }
               ]
             },
             {
-              "name": "Melee Weapon",
+              "name": "Weapons",
               "onechoice": true,
-              "mandatory": false,
               "choices": [
                 {
-                  "name": "Spear",
-                  "cost": "5"
+                  "name": "Paired Weapons",
+                  "cost": 5
                 },
                 {
                   "name": "Halberd",
-                  "cost": "5"
+                  "cost": 10
                 },
                 {
                   "name": "Great Weapon",
-                  "cost": "5"
+                  "cost": 15
                 },
                 {
-                  "name": "Paired Weapons",
-                  "cost": "5"
+                  "name": "Lance",
+                  "cost": 20
+                }
+              ]
+            },
+            {
+              "name": "Alliance",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Cult of Cadaron",
+                  "cost": 5
+                },
+                {
+                  "name": "Cult of Nabh",
+                  "cost": 20
+                },
+                {
+                  "name": "Cult of Olaron",
+                  "cost": 70
+                },
+                {
+                  "name": "Cult of Yema",
+                  "cost": 35
+                },
+                {
+                  "name": "Beast Master",
+                  "cost": 65
+                },
+                {
+                  "name": "Fleet Commander",
+                  "cost": 60
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 70
+                },
+                {
+                  "mount": "2",
+                  "cost": 70
+                },
+                {
+                  "mount": "3",
+                  "cost": 105,
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "mount": "4",
+                  "cost": 120
+                },
+                {
+                  "mount": "5",
+                  "cost": 190,
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "1",
+                  "mount": "6",
+                  "cost": 460
                 }
               ]
             }
           ]
         },
         {
-          "name": "Oracle",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "170",
+          "name": "Captain",
+          "cost": 155,
+          "type": "1",
+          "size": "1",
+          "base": "1",
           "rules": [
             {
+              "name": "Captain",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "6",
+              "OFF": "6",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "3",
+              "W": "3",
+              "I": "7",
+              "A": "3",
+              "Ld": "9",
               "specialrules": [
                 {
-                  "specialrule": "Irresistible Will"
+                  "specialrule": "Lightning Reflexes"
                 },
                 {
                   "specialrule": "Killer Instinct"
-                },
-                {
-                  "specialrule": "Lightning Reflexes"
                 }
               ],
-              "equipments": [],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "9",
-              "W": "3",
-              "DEF": "4",
-              "T": "3",
-              "ARM": "0",
-              "name": "Oracle ",
-              "A": "1",
-              "OFF": "4",
-              "S": "3",
-              "AP": "0",
-              "I": "5"
+              "equipments": [
+                {
+                  "equipment": "Light armour"
+                }
+              ]
             }
           ],
           "options": [
@@ -878,90 +614,320 @@
               "name": "Options",
               "onechoice": false,
               "choices": [
+              "choices": [
                 {
-                  "name": "Light Armour",
-                  "cost": "5"
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                },
+                {
+                  "name": "Heavy Armour",
+                  "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "Shooting Weapon",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Repeater Crosswbow (2+)",
+                  "cost": 5
+                },
+                {{
+                  "name": "Repeater Handbow (2+)",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "Halberd",
+                  "cost": 5
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 10
+                },
+                {
+                  "name": "Lance",
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Alliance",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Cult of Cadaron",
+                  "cost": 5
+                },
+                {
+                  "name": "Cult of Nabh",
+                  "cost": 10
+                },
+                {
+                  "name": "Cult of Olaron",
+                  "cost": 70
                 },
                 {
                   "name": "Cult of Yema",
-                  "cost": "30"
+                  "cost": 20
+                },
+                {
+                  "name": "Beast Master",
+                  "cost": 65
+                },
+                {
+                  "name": "Fleet Commander",
+                  "cost": 45
                 }
               ]
             },
             {
-              "name": "Wizard Level",
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 50
+                },
+                {
+                  "mount": "2",
+                  "cost": 60
+                },
+                {
+                  "mount": "3",
+                  "cost": 120,
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "mount": "4",
+                  "cost": 100
+                },
+                {
+                  "mount": "5",
+                  "cost": 180,
+                  "condition": [
+                    {
+                      "option": "1",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cult Priest",
+          "cost": 160,
+          "type": "1",
+          "size": "1",
+          "base": "1",
+          "rules": [
+            {
+              "name": "Cult Priest",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "5",
+              "OFF": "5",
+              "ARM": "0",
+              "AP": "1",
+              "S": "4",
+              "T": "3",
+              "W": "3",
+              "I": "5",
+              "A": "3",
+              "Ld": "9",
+              "specialrules": [
+                {
+                  "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Killer Instinct"
+                },
+                {
+                  "specialrule": "Cult Legate"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light armour"
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+              "choices": [
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                },
+                {
+                  "name": "shield",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Shooting Weapon",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Repeater Crosswbow (4+)",
+                  "cost": 5
+                },
+                {{
+                  "name": "Repeater Handbow (4+)",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Weapons",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": 5
+                },
+                {
+                  "name": "Spear",
+                  "cost": 5
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 5
+                },
+                {
+                  "name": "Halberd",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Cult",
               "onechoice": true,
               "mandatory": true,
               "choices": [
                 {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
+                  "name": "Cult of Cadaron",
+                  "cost": 0
                 },
                 {
-                  "name": "Wizard Adept",
-                  "cost": "75"
+                  "name": "Cult of Nabh",
+                  "cost": 5
                 },
                 {
-                  "name": "Wizard Master",
-                  "cost": "225"
+                  "name": "Cult of Olaron",
+                  "cost": 70
+                },
+                {
+                  "name": "Cult of Yema",
+                  "cost": 15
                 }
               ]
             },
             {
-              "name": "Mount",
+              "name": "Replace Cult Legate with",
               "onechoice": true,
-              "mandatory": false,
               "choices": [
                 {
-                  "name": "Elven Horse",
-                  "cost": "40"
-                },
-                {
-                  "name": "Raptor",
-                  "cost": "20"
-                },
-                {
-                  "name": "Pegasus",
-                  "cost": "70"
-                },
-                {
-                  "name": "Manticore",
-                  "cost": "125"
-                },
-                {
-                  "name": "Dragon",
-                  "cost": "460"
-                }
-              ]
-            },
-            {
-              "name": "Path",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Alchemy",
-                  "cost": "0"
-                },
-                {
-                  "name": "Witchcraft",
-                  "cost": "0"
-                },
-                {
-                  "name": "Divination",
-                  "cost": "0"
-                },
-                {
-                  "name": "Cosmology",
-                  "cost": "0"
-                },
-                {
-                  "name": "Occultism",
-                  "cost": "0"
+                  "mount": "7",
+                  "cost": 380
                 }
               ]
             }
@@ -969,18 +935,34 @@
         },
         {
           "name": "Assassin",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "155",
+          "cost": 155,
+          "type": "1",
+          "size": "1",
+          "base": "1",
           "rules": [
             {
+              "name": "Assassin",
+              "ADV": "6",
+              "MAR": "12",
+              "DEF": "7",
+              "OFF": "7",
+              "ARM": "0",
+              "AP": "2",
+              "S": "4",
+              "T": "3",
+              "W": "3",
+              "I": "9",
+              "A": "3",
+              "Ld": "9",
               "specialrules": [
                 {
-                  "specialrule": "Professional Courtesy"
+                  "specialrule": "Lightning Reflexes"
                 },
                 {
-                  "specialrule": "Agent of the Obsidian Throne"
+                  "specialrule": "Killer Instinct"
+                },
+                {
+                  "specialrule": "Poison Attacks"
                 },
                 {
                   "specialrule": "Not a Leader"
@@ -989,29 +971,16 @@
                   "specialrule": "Scout"
                 },
                 {
-                  "specialrule": "Killer Instinct"
+                  "specialrule": "Professional Courtesy"
                 },
                 {
-                  "specialrule": "Lightning Reflexes"
-                },
-                {
-                  "specialrule": "Poison Attacks"
+                  "specialrule": "Agent of the Obsidian Throne"
                 }
               ],
-              "equipments": [],
-              "ADV": "6",
-              "MAR": "12",
-              "Ld": "9",
-              "W": "3",
-              "DEF": "7",
-              "T": "3",
-              "ARM": "0",
-              "name": "Assassin ",
-              "A": "3",
-              "OFF": "7",
-              "S": "4",
-              "AP": "2",
-              "I": "9"
+              "equipments": [
+                {
+                }
+              ]
             }
           ],
           "options": [
@@ -1019,47 +988,75 @@
               "name": "Options",
               "onechoice": false,
               "choices": [
+              "choices": [
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
+                },
                 {
                   "name": "Paired Weapons",
-                  "cost": "15"
-                },
-                {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                },
+                  "cost": 15
+                }
+              ]
+            },
+            {
+              "name": "Path",
+              "onechoice": true,
+              "choices": [
                 {
                   "name": "Path of Bloody Murder",
-                  "cost": "90"
+                  "cost": 90
                 },
                 {
-                  "name": "Master Poisoner",
-                  "cost": "0"
+                  "name": "Path of Silent Death",
+                  "cost": 35,
+				          "organisation": "4"
+                }
+              ]
+            },
+            {
+              "name": "Poison",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Nightshade",
+                  "cost": 30
+                },
+                {
+                  "name": "Wolfsbane",
+                  "cost": 45
+                },
+                {
+                  "name": "Bloodroot",
+                  "cost": 50
                 }
               ]
             }
           ]
         },
         {
-          "name": "Assassin - Path of Silent Death",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "190",
+          "name": "Oracle",
+          "cost": 170,
+          "type": "1",
+          "base": "1",
+          "size": "1",
           "rules": [
             {
+              "name": "Oracle",
+              "ADV": "5",
+              "MAR": "10",
+              "DEF": "4",
+              "OFF": "4",
+              "ARM": "0",
+              "AP": "1",
+              "S": "3",
+              "T": "3",
+              "W": "3",
+              "I": "5",
+              "A": "1",
+              "Ld": "9",
               "specialrules": [
-                {
-                  "specialrule": "Professional Courtesy"
-                },
-                {
-                  "specialrule": "Agent of the Obsidian Throne"
-                },
-                {
-                  "specialrule": "Not a Leader"
-                },
-                {
-                  "specialrule": "Scout"
-                },
                 {
                   "specialrule": "Killer Instinct"
                 },
@@ -1067,23 +1064,15 @@
                   "specialrule": "Lightning Reflexes"
                 },
                 {
-                  "specialrule": "Poison Attacks"
+                  "specialrule": "Wizard Apprentice"
+                },
+                {
+                  "specialrule": "Irresistible Will"
                 }
               ],
-              "equipments": [],
-              "ADV": "6",
-              "MAR": "12",
-              "Ld": "9",
-              "W": "3",
-              "DEF": "7",
-              "T": "3",
-              "ARM": "0",
-              "name": "Assassin ",
-              "A": "3",
-              "OFF": "7",
-              "S": "4",
-              "AP": "2",
-              "I": "9"
+              "equipments": [
+                {}
+              ]
             }
           ],
           "options": [
@@ -1092,16 +1081,141 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Paired Weapons",
-                  "cost": "15"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Master Poisoner",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Cult of Yema",
+                  "cost": 30,
+                  "globalid": "13",
+                },
+                {
+                  "name": "Light Armour",
+                  "cost": 5
+                }
+              ]
+            },
+            {
+              "name": "Level",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Wizard Master",
+                  "globalid": "12",
+                  "cost": 225
+                }
+              ]
+            },
+            {
+              "name": "Paths",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Alchemy",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "13",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Occultism",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "13",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Witchcraft",
+                  "cost": 0
+                },
+                {
+                  "name": "Divination",
+                  "cost": 0
+                },
+                {
+                  "name": "Cosmology",
+                  "cost": 0
+                }
+              ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 40
+                },
+                {
+                  "mount": "2",
+                  "cost": 20
+                },
+                {
+                  "mount": "4",
+                  "cost": 70
+                },
+                {
+                  "mount": "5",
+                  "cost": 125,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "6",
+                  "cost": 460,
+                  "condition": [
+                    {
+                      "option": "12",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
