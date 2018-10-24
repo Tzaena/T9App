@@ -35,178 +35,260 @@
     "weapons": [
       {
         "name": "Rune of Destruction",
-        "description": "Hand weapon or Paired Weapon EnchantmentAttacks made with a weapon engraved with this Rune gain Multiple Wounds (D3).",
+        "description": "Hand weapon or Paired Weapon Enchantment. Attacks made with a weapon engraved with this Rune gain Multiple Wounds (D3).",
         "cost": "80"
       },
       {
         "name": "Rune of Penetrating",
-        "description": "Hand weapon or Paired Weapon EnchantmentAttacks made with a weapon engraved with one or more Rune of Penetrating gain +3 Armour Penetration.",
+        "description": "Hand weapon or Paired Weapon Enchantment. Attacks made with a weapon engraved with one or more Rune of Penetrating gain +3 Armour Penetration.",
         "cost": "45"
       },
       {
-        "name": "Rune of Smashing - On foot only",
-        "description": "Hand weapon or Paired Weapon EnchantmentAttacks made with a Weapon engraved with this Rune that are allocated towards a model with a Resilience of 5 or greater have their Strength set to 10 and Armour Penetration set to 10.",
+        "name": "Rune of Smashing",
+        "description": "On foot only. Hand weapon or Paired Weapon Enchantment. Attacks made with a Weapon engraved with this Rune that are allocated towards a model with a Resilience of 5 or greater have their Strength set to 10 and Armour Penetration set to 10.",
         "cost": "55"
       },
       {
         "name": "Rune of Might",
-        "description": "Hand weapon or Paired Weapon EnchantmentFor each Rune of Might engraved on a weapon, attacks made with it gain +1 Strength and +1 Armour Penetration.",
+        "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Might engraved on a weapon, attacks made with it gain +1 Strength and +1 Armour Penetration.",
         "cost": "40"
       },
       {
         "name": "Rune of Precision",
-        "description": "Hand weapon or Paired Weapon EnchantmentThe wielder of a weapon engraved with this Rune gains Lightning Reflexes.",
+        "description": "Hand weapon or Paired Weapon Enchantment. The wielder of a weapon engraved with this Rune gains Lightning Reflexes.",
         "cost": "40"
       },
       {
         "name": "Rune of Craftsmanship",
-        "description": "Hand weapon or Paired Weapon EnchantmentA weapon engraved with this Rune becomes a Great Weapon.",
+        "description": "Hand weapon or Paired Weapon Enchantment. A weapon engraved with this Rune becomes a Great Weapon.",
         "cost": "40"
       },
       {
         "name": "Rune of Quickening",
-        "description": "Hand weapon or Paired Weapon EnchantmentFor each Rune of Quickening engraved on a weapon, the wielder gains +3 Agility when using it.",
+        "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Quickening engraved on a weapon, the wielder gains +3 Agility when using it.",
         "cost": "35"
       },
       {
         "name": "Rune of Fury",
-        "description": "Hand weapon or Paired Weapon EnchantmentFor each Rune of Fury engraved on a weapon, the wielder gains +1 Attack Value when using it.",
+        "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Fury engraved on a weapon, the wielder gains +1 Attack Value when using it.",
         "cost": "30"
       },
       {
         "name": "Rune of Lightning",
-        "description": "Hand weapon or Paired Weapon EnchantmentIf the wielder scores at least one successful hit with a weapon engraved with one or more Rune of Lightning, the attacked enemy unit additionally suffers D3 hits for each instance of this Rune. The hits are resolved with Strength 4 and Armour Penetration 1.",
+        "description": "Hand weapon or Paired Weapon Enchantment. If the wielder scores at least one successful hit with a weapon engraved with one or more Rune of Lightning, the attacked enemy unit additionally suffers D3 hits for each instance of this Rune. The hits are resolved with Strength 4 and Armour Penetration 1.",
         "cost": "30"
       },
       {
         "name": "Rune of Returning",
-        "description": "Hand weapon or Paired Weapon EnchantmentA weapon engraved with this Rune can be used as a Shooting Weapon with Aim 2+ and the following profile: Range 8”, Shots 1, Str as user, AP as user, Quick to Fire, Accurate, Reload!. This Shooting Attack is affected by all Weapon Runes on the engraved weapon (even if the effects are normally restricted to Close Combat Attacks).",
+        "description": "Hand weapon or Paired Weapon Enchantment. A weapon engraved with this Rune can be used as a Shooting Weapon with Aim 2+ and the following profile: Range 8”, Shots 1, Str as user, AP as user, Quick to Fire, Accurate, Reload!. This Shooting Attack is affected by all Weapon Runes on the engraved weapon (even if the effects are normally restricted to Close Combat Attacks).",
         "cost": "15"
       },
       {
         "name": "Rune of Fire",
-        "description": "Hand weapon or Paired Weapon EnchantmentAt the start of any Phase or Round of Combat, this Rune may be activated. If so, attacks made with a weapon engraved with this Rune gain Flaming Attacks until the end of the Phase.",
+        "description": "Hand weapon or Paired Weapon Enchantment. At the start of any Phase or Round of Combat, this Rune may be activated. If so, attacks made with a weapon engraved with this Rune gain Flaming Attacks until the end of the Phase.",
         "cost": "15"
       }
     ],
     "armours": [
       {
         "name": "Rune of Resistance",
-        "description": "Suit of Armour EnchantmentSuccessful to‐wound rolls against the wearer of an armour engraved with this Rune must be rerolled. ",
+        "description": "Suit of Armour Enchantment. Successful to wound rolls against the wearer of an armour engraved with this Rune must be rerolled. ",
         "cost": "65"
       },
       {
         "name": "Rune of Retribution",
-        "description": "Suit of Armour EnchantmentWhenever the wielder rolls a successful Shield Wall Aegis roll (including Shield Wall stacked with Rune of Shielding), the attacking model suffers a hit with the Strength and Armour Penetration of the saved attack.",
+        "description": "Suit of Armour Enchantment. Whenever the wielder rolls a successful Shield Wall Aegis roll (including Shield Wall stacked with Rune of Shielding), the attacking model suffers a hit with the Strength and Armour Penetration of the saved attack.",
         "cost": "35"
       },
       {
         "name": "Rune of Steel",
-        "description": "Suit of Armour EnchantmentThe wearer of an armour engraved with this Rune must reroll failed Armour Saves.",
+        "description": "Suit of Armour Enchantment. The wearer of an armour engraved with this Rune must reroll failed Armour Saves.",
         "cost": "55"
       },
       {
         "name": "Rune of Iron",
-        "description": "Suit of Armour EnchantmentThe bearer of a single Rune of Iron gains +1 Armour. The bearer of two or more Runes of Iron gains +2 Armour.",
+        "description": "Suit of Armour Enchantment. The bearer of a single Rune of Iron gains +1 Armour. The bearer of two or more Runes of Iron gains +2 Armour.",
         "cost": "25"
       },
       {
         "name": "Rune of the Forge",
-        "description": "Suit of Armour EnchantmentThe wearer of an armour engraved with this Rune gains Aegis (2+, against flaming attacks).",
+        "description": "Suit of Armour Enchantment. The wearer of an armour engraved with this Rune gains Aegis (2+, against flaming attacks).",
         "cost": "10"
       }
     ],
     "artefacts": [
       {
-        "name": "Rune of Harnessing - Runic Smiths only",
-        "description": "Talismanic RuneEnemy models within 24” of the Runic Smith have their Channel value (the value within brackets) reduced by 1.",
+        "name": "Rune of Harnessing",
+        "description": "Runic Smiths only. Talismanic Rune. Enemy models within 24” of the Runic Smith have their Channel value (the value within brackets) reduced by 1.",
         "cost": "55"
       },
       {
         "name": "Rune of Courage",
-        "description": "Talismanic RuneOne use only. May be activated at the start of any Round of Combat. For the duration of the Phase, the bearer gains Stubborn.",
+        "description": "Talismanic Rune. One use only. May be activated at the start of any Round of Combat. For the duration of the Phase, the bearer gains Stubborn.",
         "cost": "55"
       },
       {
         "name": "Rune of Dragon's Breath",
-        "description": "Talismanic RuneThe bearer gains Breath Attack (Str 4, AP 1, Flaming Attacks, Magical Attacks). A single friendly Rune of Dragon's Breath may be made per round of combat.",
+        "description": "Talismanic Rune. The bearer gains Breath Attack (Str 4, AP 1, Flaming Attacks, Magical Attacks). A single friendly Rune of Dragon's Breath may be made per round of combat.",
         "cost": "55"
       },
       {
-        "name": "Rune of Grounding - Runic Smiths only",
-        "description": "Talismanic RuneOne use only. May be activated at the start of any Melee Phase. All spells with Duration: Lasts One Turn affecting the bearer’s unit and enemy units in base contact with the bearer come to an end.",
+        "name": "Rune of Grounding",
+        "description": "Talismanic Rune. Runic Smiths only. One use only. May be activated at the start of any Melee Phase. All spells with Duration: Lasts One Turn affecting the bearer’s unit and enemy units in base contact with the bearer come to an end.",
         "cost": "50"
       },
       {
         "name": "Rune of Readiness",
-        "description": "Talismanic RuneOne use only. May be activated at the end of the Charge Phase, directly after all Charge Moves have been resolved. If the bearer’s unit was successfully charged during this phase, it may perform a Combat Reform (following the normal rules for Combat Reforms). ",
+        "description": "Talismanic Rune. One use only. May be activated at the end of the Charge Phase, directly after all Charge Moves have been resolved. If the bearer’s unit was successfully charged during this phase, it may perform a Combat Reform (following the normal rules for Combat Reforms). ",
         "cost": "40"
       },
       {
         "name": "Rune of Shielding",
-        "description": "Talismanic RuneThe bearer gains Aegis (+1, max 4+). The Aegis from this Rune only stacks with itself and/or Shield Wall.",
+        "description": "Talismanic Rune. The bearer gains Aegis (+1, max 4+). The Aegis from this Rune only stacks with itself and/or Shield Wall.",
         "cost": "30"
       },
       {
         "name": "Rune of Storms",
-        "description": "Talismanic RuneOne use only. Effects last one turn. May be activated at the start of the opponent’s Player Turn. Choose a single enemy unit within 24” of the bearer. All models with Fly in that unit have their Advance Rate and March Rate (both for Ground and Fly Movement) halved, rounding fractions up.",
+        "description": "Talismanic Rune. One use only. Effects last one turn. May be activated at the start of the opponent’s Player Turn. Choose a single enemy unit within 24” of the bearer. All models with Fly in that unit have their Advance Rate and March Rate (both for Ground and Fly Movement) halved, rounding fractions up.",
         "cost": "35"
       },
       {
         "name": "Rune of Mastery",
-        "description": "Talismanic RuneOne use only. May be activated just before the Bearer casts a Bound Spell. Adds (+2/+2) to the Power Level of this Bound Spell.",
+        "description": "Talismanic Rune. One use only. May be activated just before the Bearer casts a Bound Spell. Adds (+2/+2) to the Power Level of this Bound Spell.",
         "cost": "25"
       },
       {
         "name": "Rune of Mining",
-        "description": "Talismanic RuneAfter Determining Deployment Zones (at the end of step 6 of the The Pre-Game Sequence), choose a Terrain Feature on the Battlefield. As long a the bearer is on the Battlefield, all friendly models may treat this as Open Terrain when making Advance Moves or March Moves, but must still follow the Unit Spacing rule at the end of their movement.",
+        "description": "Talismanic Rune. After Determining Deployment Zones (at the end of step 6 of the The Pre-Game Sequence), choose a Terrain Feature on the Battlefield. As long a the bearer is on the Battlefield, all friendly models may treat this as Open Terrain when making Advance Moves or March Moves, but must still follow the Unit Spacing rule at the end of their movement.",
         "cost": "20"
       },
       {
         "name": "Rune of Kinship",
-        "description": "Talismanic RuneThe bearer gains Scout and Ambush.",
+        "description": "Talismanic Rune. The bearer gains Scout and Ambush.",
         "cost": "20"
       }
     ],
     "standards": [
       {
-        "name": "Runic Standard of Shielding - Only BSB, Deep Watch, Kings Guard.",
-        "description": "Banner EnchantmentAll friendly units within 6 of the bearer gain Aegis (5+) against Shooting Attacks.",
+        "name": "Runic Standard of Shielding",
+        "description": "Only BSB, Deep Watch, Kings Guard. All friendly units within 6 of the bearer gain Aegis (5+) against Shooting Attacks.",
         "cost": "80"
       },
       {
         "name": "Runic Standard of Dismay",
-        "description": "Banner EnchantmentUnits charging the bearer’s unit suffer -2 Advance Rate for their Charge Range roll. ",
+        "description": "Units charging the bearer’s unit suffer -2 Advance Rate for their Charge Range roll. ",
         "cost": "45"
       },
       {
         "name": "Runic Standard of Swiftness",
-        "description": "Banner EnchantmentThe bearer’s unit gains Vanguard.",
+        "description": "The bearer’s unit gains Vanguard.",
         "cost": "60"
       },
       {
         "name": "Runic Standard of the Hold",
-        "description": "Banner EnchantmentA unit with one or more Runic Standards of the Hold counts as having an additional Full Rank for the purpose of Steadfast and Disrupted. ",
+        "description": "A unit with one or more Runic Standards of the Hold counts as having an additional Full Rank for the purpose of Steadfast and Disrupted. ",
         "cost": "35"
       },
       {
         "name": "Runic Standard of the Anvil",
-        "description": "Banner EnchantmentFriendly units charging enemy units Engaged in Combat with the bearer’s unit must reroll Failed Charge Range rolls.",
+        "description": "Friendly units charging enemy units Engaged in Combat with the bearer’s unit must reroll Failed Charge Range rolls.",
         "cost": "35"
       },
       {
         "name": "Runic Standard of Wisdom",
-        "description": "Banner EnchantmentThe bearer may select a single Battle Rune during Spell Selection. This Battle Rune can be cast by the bearer and has Range: Caster’s Unit.",
+        "description": "The bearer may select a single Battle Rune during Spell Selection. This Battle Rune can be cast by the bearer and has Range: Caster’s Unit.",
         "cost": "35"
       },
       {
         "name": "Runic Standard of Steadiness",
-        "description": "Banner EnchantmentOne use only. May be activated at the start of any Movement Phase. The Bearer's Unit gains Quick to Fire antil the end of the player turn.",
+        "description": "One use only. May be activated at the start of any Movement Phase. The Bearer's Unit gains Quick to Fire antil the end of the player turn.",
         "cost": "40"
       }
     ]
   },
-  "mounts": [],
+  "mounts": [
+    {
+      "id": "1",
+      "name": "Shield Bearers",
+      "type": "Standard",
+      "size" : "Infantry",
+      "base": "2",
+      "rules": [
+        {
+          "name": "Shield Bearers",
+          "ADV": "3",
+          "MAR": "9",
+          "DEF": "C",
+          "OFF": "5",
+          "ARM": "C+2",
+          "AP": "1",
+          "S": "4",
+          "T": "C",
+          "W": "C",
+          "I": "2",
+          "A": "2",
+          "Ld": "C",
+          "specialrules": [
+            {
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            },
+            {
+              "equipment": "Sturdy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "War Throne",
+      "type": "Standard",
+      "size" : "Infantry",
+      "base": "2",
+      "rules": [
+        {
+          "name": "War Throne",
+          "ADV": "3",
+          "MAR": "9",
+          "DEF": "C",
+          "OFF": "5",
+          "ARM": "C+2",
+          "AP": "1",
+          "S": "4",
+          "T": "C",
+          "W": "6",
+          "I": "2",
+          "A": "4",
+          "Ld": "C",
+          "specialrules": [
+            {
+            }
+          ],
+          "equipments": [
+            {
+              "equipment": "Harnessed"
+            },
+            {
+              "equipment": "Sturdy"
+            },
+            {
+              "equipment": "Hatred"
+            },
+            {
+              "equipment": "Tall"
+            },
+            {
+              "equipment": "Majesty of High Kings"
+            }
+          ]
+        }
+      ]
+    }
+	],
   "army": [
     {
       "organisation": "1",
@@ -253,8 +335,26 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Runic Items",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 250
                 },
                 {
                   "name": "Holdstone",
@@ -262,7 +362,14 @@
                 },
                 {
                   "name": "Ancestral Memory",
-                  "cost": "60"
+                  "cost": "60",
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Shield",
@@ -303,11 +410,11 @@
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Shield Bearers",
+				  "mount": 1,
                   "cost": "115"
                 },
                 {
-                  "name": "War Throne",
+				  "mount": 2,
                   "cost": "245"
                 }
               ]
@@ -356,8 +463,43 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Runic Items",
-                  "cost": "0"
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 150
                 },
                 {
                   "name": "Holdstone",
@@ -365,7 +507,14 @@
                 },
                 {
                   "name": "Ancestral Memory",
-                  "cost": "40"
+                  "cost": "40",
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Shield",
@@ -374,10 +523,6 @@
                 {
                   "name": "Great Weapon",
                   "cost": "10"
-                },
-                {
-                  "name": "Shield Bearers",
-                  "cost": "95"
                 },
                 {
                   "name": "Rune of Resonance",
@@ -401,6 +546,17 @@
                 {
                   "name": "Crossbow (3+)",
                   "cost": "10"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+				  "mount": 1,
+                  "cost": "95"
                 }
               ]
             }
@@ -475,8 +631,26 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Weapon Runes",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 150
                 }
               ]
             },
@@ -548,6 +722,28 @@
               "onechoice": false,
               "choices": [
                 {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200
+                },
+                {
                   "name": "Great Weapon",
                   "cost": "10"
                 },
@@ -557,11 +753,14 @@
                 },
                 {
                   "name": "Ancestral Memory",
-                  "cost": "45"
-                },
-                {
-                  "name": "Runic Items",
-                  "cost": "0"
+                  "cost": "45",
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Battle Runes",
@@ -580,6 +779,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
+		  "limitation": 2,
           "cost": "125",
           "rules": [
             {
@@ -623,8 +823,37 @@
               "onechoice": false,
               "choices": [
                 {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200
+                },
+                {
                   "name": "Ancestral Memory",
-                  "cost": "55"
+                  "cost": "55",
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Shield",
@@ -633,10 +862,6 @@
                 {
                   "name": "Great Weapon",
                   "cost": "5"
-                },
-                {
-                  "name": "Runic Items",
-                  "cost": "0"
                 },
                 {
                   "name": "Rune of Resonance",
@@ -678,6 +903,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Construct",
+		  "limitation": 1,
           "cost": "185",
           "rules": [
             {
@@ -783,7 +1009,13 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "choices": [
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200
+                }
+				]
             },
             {
               "name": "Vanguard",
@@ -791,7 +1023,16 @@
               "choices": [
                 {
                   "name": "Vanguard",
-                  "cost": "2"
+                  "cost": "2",
+				  "globalid": "10",
+				  "maxmodels": 30,
+                  "condition": [
+                    {
+                      "option": "10",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "name": "Shield",
@@ -800,10 +1041,6 @@
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": "2"
-                },
-                {
-                  "name": "Runic Standard",
-                  "cost": "0"
                 }
               ],
               "type": "permodel"
@@ -900,7 +1137,13 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "choices": [
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200
+                }
+				]
             },
             {
               "name": "Vanguard",
@@ -908,7 +1151,16 @@
               "choices": [
                 {
                   "name": "Vanguard",
-                  "cost": "2"
+                  "cost": "2",
+				  "globalid": "10",
+				  "maxmodels": 20,
+                  "condition": [
+                    {
+                      "option": "10",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "name": "Shield",
@@ -917,10 +1169,6 @@
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": "4"
-                },
-                {
-                  "name": "Runic Standard",
-                  "cost": "0"
                 },
                 {
                   "name": "Great Weapon",
@@ -956,6 +1204,7 @@
           "maxmodels": "15",
           "modelcost": "19",
           "size": "Standard",
+		  "limitation": 4,
           "type": "Infantry",
           "cost": "200",
           "rules": [
@@ -974,6 +1223,9 @@
               "equipments": [
                 {
                   "equipment": "Heavy Armour"
+                },
+                {
+                  "equipment": "Crossbow (4+)"
                 }
               ],
               "ADV": "3",
@@ -995,7 +1247,20 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": []
+              "choices": [
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                }
+				]
             },
             {
               "name": "Shield",
@@ -1004,10 +1269,6 @@
                 {
                   "name": "Shield",
                   "cost": "2"
-                },
-                {
-                  "name": "Runic Standard",
-                  "cost": "0"
                 }
               ],
               "type": "permodel"
@@ -1015,15 +1276,12 @@
             {
               "name": "Weapon",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
                 {
-                  "name": "Crossbow (4+)",
-                  "cost": "0"
-                },
-                {
                   "name": "Guild-Crafted Handgun (4+)",
-                  "cost": "4"
+                  "cost": "4",
+				  "globalid": "11"
                 },
                 {
                   "name": "Great Weapon",
@@ -1114,8 +1372,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Runic Standard",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1147,6 +1406,7 @@
           "modelcost": "28",
           "size": "Standard",
           "type": "Infantry",
+		  "limitation": 5,
           "cost": "320",
           "rules": [
             {
@@ -1193,8 +1453,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Runic Standard",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1226,6 +1487,7 @@
           "modelcost": "16",
           "size": "Standard",
           "type": "Infantry",
+		  "limitation": 2,
           "cost": "185",
           "rules": [
             {
@@ -1265,11 +1527,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Equipment",
               "onechoice": true,
               "mandatory": true,
@@ -1284,106 +1541,17 @@
                 },
                 {
                   "name": "Paired Weapons",
-                  "cost": "2"
-                }
-              ],
-              "type": "permodel"
-            },
-            {
-              "name": "Command",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": "20"
-                },
-                {
-                  "name": "Musician",
-                  "cost": "20"
-                },
-                {
-                  "name": "Standard Bearer",
-                  "cost": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Miners - Ranged Weapons",
-          "Base": "1",
-          "unitsize": "10",
-          "maxmodels": "10",
-          "modelcost": "16",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "185",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Ambush"
-                },
-                {
-                  "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Shield Wall"
-                },
-                {
-                  "specialrule": "Sturdy"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Heavy Armour"
-                }
-              ],
-              "ADV": "3",
-              "MAR": "9",
-              "Ld": "9",
-              "W": "1",
-              "DEF": "4",
-              "T": "4",
-              "ARM": "5+",
-              "name": "Miner ",
-              "A": "1",
-              "OFF": "4",
-              "S": "4",
-              "AP": "1",
-              "I": "2"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
-              "name": "Equipment",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Great Weapons",
-                  "cost": "3"
-                },
-                {
-                  "name": "Shields",
                   "cost": "2"
                 },
                 {
                   "name": "Throwing Weapons (5+)",
-                  "cost": "4"
+                  "cost": "4",
+				  "organisation": "4"
                 },
                 {
                   "name": "Pistol (4+)",
-                  "cost": "5"
-                },
-                {
-                  "name": "Paired Weapons",
-                  "cost": "2"
+                  "cost": "5",
+				  "organisation": "4"
                 }
               ],
               "type": "permodel"
@@ -1415,6 +1583,7 @@
           "maxmodels": "12",
           "modelcost": "17",
           "size": "Standard",
+		  "limitation": 2,
           "type": "Infantry",
           "cost": "145",
           "rules": [
@@ -1458,16 +1627,11 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Skirmishers",
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Skirmishers",
+                  "name": "Skirmishers and lose Scoring",
                   "cost": "2"
                 },
                 {
@@ -1478,138 +1642,37 @@
               "type": "permodel"
             },
             {
-              "name": "Melee Weapon",
+              "name": "Shooting Weapon",
               "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Great Weapons",
-                  "cost": "3"
-                },
-                {
-                  "name": "Paired Weapons",
-                  "cost": "2"
-                }
-              ],
-              "type": "permodel"
-            },
-            {
-              "name": "Command",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": "20"
-                },
-                {
-                  "name": "Musician",
-                  "cost": "20"
-                },
-                {
-                  "name": "Standard Bearer",
-                  "cost": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Rangers - Ranged Weapons",
-          "Base": "1",
-          "unitsize": "8",
-          "maxmodels": "12",
-          "modelcost": "17",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "145",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Strider"
-                },
-                {
-                  "specialrule": "Shield Wall"
-                },
-                {
-                  "specialrule": "Sturdy"
-                },
-                {
-                  "specialrule": "Scout"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Heavy Armour"
-                }
-              ],
-              "ADV": "3",
-              "MAR": "9",
-              "Ld": "9",
-              "W": "1",
-              "DEF": "4",
-              "T": "4",
-              "ARM": "0",
-              "name": "Ranger ",
-              "A": "1",
-              "OFF": "4",
-              "S": "3",
-              "AP": "0",
-              "I": "2"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
-              "name": "Skirmishers",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Skirmishers",
-                  "cost": "2"
-                },
-                {
-                  "name": "Shields",
-                  "cost": "2"
-                }
-              ],
-              "type": "permodel"
-            },
-            {
-              "name": "Melee Weapon",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Great Weapons",
-                  "cost": "3"
-                },
-                {
-                  "name": "Paired Weapons",
-                  "cost": "2"
-                }
-              ],
-              "type": "permodel"
-            },
-            {
-              "name": "Ranged Weapon",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Throwing Weapons (4+)",
-                  "cost": "1"
+                  "name": "Throwing Weapons (5+)",
+                  "cost": "1",
+				  "organisation": 4,
+				  "maxmodels": 15
                 },
                 {
                   "name": "Crossbow (3+)",
-                  "cost": "4"
+                  "cost": "4",
+				  "organisation": 4,
+				  "maxmodels": 15
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapons",
+                  "cost": "3"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "2"
                 }
               ],
               "type": "permodel"
@@ -1640,6 +1703,7 @@
           "unitsize": "5",
           "maxmodels": "20",
           "modelcost": "21",
+		  "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "110",
@@ -1704,7 +1768,9 @@
                 },
                 {
                   "name": "Skirmisher",
-                  "cost": "2"
+                  "cost": "2",
+				  "maxmodels": 15,
+				  "limitation" : 1
                 }
               ],
               "type": "permodel"
@@ -1734,6 +1800,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
+		  "limitation": 2,
           "cost": "130",
           "rules": [
             {
@@ -1790,6 +1857,7 @@
           "unitsize": "3",
           "maxmodels": "5",
           "modelcost": "102",
+		  "limitation": 2,
           "size": "Large",
           "type": "Infantry",
           "cost": "280",
@@ -1835,8 +1903,9 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Runic Standard",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200
                 }
               ]
             },
@@ -1866,6 +1935,7 @@
           "size": "Large ",
           "type": "Construct",
           "cost": "350",
+		  "limitation": 2,
           "rules": [
             {
               "specialrules": [
@@ -1983,8 +2053,21 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Runic Standard",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200
+                }
+              ]
+            },
+            {
+              "name": "Limitation",
+              "mandatory": true,
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Max 30 models",
+                  "cost": "0",
+				  "maxarmymodels": 30
                 }
               ]
             },
@@ -2012,8 +2095,11 @@
           "name": "Steam Copters",
           "Base": "1",
           "size": "Standard",
+		  "limitation": 3,
           "type": "Construct",
-          "modelcost": "175",
+          "unitsize": "1",
+          "maxmodels": "1",
+          "modelcost": "130",
           "cost": "0",
           "rules": [
             {
@@ -2052,10 +2138,18 @@
             {
               "name": "Options",
               "onechoice": false,
+              "mandatory": true,
               "choices": [
                 {
                   "name": "Steam Bomber",
-                  "cost": "210"
+                  "cost": "210",
+				  "maxmodels": 1,
+				  "limitation": 2
+                },
+                {
+                  "name": "Attack Copter",
+                  "cost": "175",
+				  "limitation": 2
                 }
               ]
             }
@@ -2123,23 +2217,90 @@
               "choices": [
                 {
                   "name": "Dwarf Ballista (4+)",
-                  "cost": "105"
+                  "cost": "105",
+				  "globalid": "21"
                 },
                 {
                   "name": "Flame Cannon",
-                  "cost": "150"
+                  "cost": "150",
+				  "globalid": "22"
                 },
                 {
                   "name": "Catapult (4+)",
-                  "cost": "210"
+                  "cost": "210",
+				  "globalid": "23"
                 },
                 {
                   "name": "Cannon (4+)",
-                  "cost": "255"
+                  "cost": "255",
+				  "globalid": "24"
                 },
                 {
                   "name": "Organ Gun (4+)",
-                  "cost": "270"
+                  "cost": "270",
+				  "globalid": "25"
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": false,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Rune Crafted",
+                  "cost": "40",
+                  "condition": [
+                    {
+                      "option": "21",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Rune Crafted",
+                  "cost": "20",
+                  "condition": [
+                    {
+                      "option": "22",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Rune Crafted",
+                  "cost": "90",
+                  "condition": [
+                    {
+                      "option": "23",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Rune Crafted",
+                  "cost": "30",
+                  "condition": [
+                    {
+                      "option": "24",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Rune Crafted",
+                  "cost": "50",
+                  "condition": [
+                    {
+                      "option": "25",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
