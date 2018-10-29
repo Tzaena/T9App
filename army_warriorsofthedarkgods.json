@@ -30,52 +30,52 @@
     "weapons": [
       {
         "name": "Titanic Might",
-        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain +3 Strength and Magical Attacks.",
+        "description": "Melee Weapon. Attacks made with this enchanted weapon gain +3 Strength and Magical Attacks.",
         "cost": "140"
       },
       {
         "name": "Blessed Inscriptions",
-        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain Divine Attacks and failed to-wound rolls must be rerolled.",
+        "description": "Melee Weapon. Attacks made with this enchanted weapon gain Divine Attacks and failed to-wound rolls must be rerolled.",
         "cost": "130"
       },
       {
         "name": "King Slayer",
-        "description": "Melee Weapon EnchantmentThe wielder of the enchanted weapon gains +X Strength, +X Armour Penetration, +X Attack Value and Magical Attacks when attacking with it, where X is equal to the number of enemy Characters in base contact with the wielder's unit. This bonus is calculated and effective at the Initiative Step when such attacks are made.",
+        "description": "Melee Weapon. The wielder of the enchanted weapon gains +X Strength, +X Armour Penetration, +X Attack Value and Magical Attacks when attacking with it, where X is equal to the number of enemy Characters in base contact with the wielder's unit. This bonus is calculated and effective at the Initiative Step when such attacks are made.",
         "cost": "120"
       },
       {
         "name": "Shield Breaker",
-        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain +6 Armour Penetration, Magical Attacks ,and can never wound on to-wound rolls better than 3+.",
+        "description": "Melee Weapon. Attacks made with this enchanted weapon gain +6 Armour Penetration, Magical Attacks ,and can never wound on to-wound rolls better than 3+.",
         "cost": "110"
       },
       {
         "name": "Hero's Heart",
-        "description": "Hand Weapon and Paired Weapon EnchantmentThe wielder of this enchanted weapon gains +1 Attack Value when using it. Attacks made with this enchanted weapon gain Magical Attacks and always have at least Strength 5 and at least Armour Penetration 3.",
+        "description": "Hand Weapon and Paired Weapon. The wielder of this enchanted weapon gains +1 Attack Value when using it. Attacks made with this enchanted weapon gain Magical Attacks and always have at least Strength 5 and at least Armour Penetration 3.",
         "cost": "100"
       },
       {
         "name": "Touch of Greatness",
-        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain +1 Strength, +1 Armour Penetration and Magical Attacks. Strength modifiers from this weapon (combining both mundane and Weapon Enchantment modifiers) cannot exceed +2 (but can exceed +2 through modifiers from other sources, such as spells).",
+        "description": "Melee Weapon. Attacks made with this enchanted weapon gain +1 Strength, +1 Armour Penetration and Magical Attacks. Strength modifiers from this weapon (combining both mundane and Weapon Enchantment modifiers) cannot exceed +2 (but can exceed +2 through modifiers from other sources, such as spells).",
         "cost": "80"
       },
       {
         "name": "Supernatural Dexterity",
-        "description": "Melee Weapon EnchantmentThe wielder of this enchanted weapon gains +2 Offensive Skill and +2 Agility while using it, and attacks made with it gain Magical Attacks.",
+        "description": "Melee Weapon. The wielder of this enchanted weapon gains +2 Offensive Skill and +2 Agility while using it, and attacks made with it gain Magical Attacks.",
         "cost": "80"
       },
       {
         "name": "Cleansing Light",
-        "description": "Melee Weapon EnchantmentAt the start of each Round of Combat, the wielder may choose to give attacks made with this enchanted weapon Flaming Attacks and Magical Attacks.",
+        "description": "Melee Weapon. At the start of each Round of Combat, the wielder may choose to give attacks made with this enchanted weapon Flaming Attacks and Magical Attacks.",
         "cost": "40"
       },
       {
         "name": "Burning Portent",
-        "description": "Hand Weapon enchantment.Attacks made with this Weapon have their Armour Penetration set to 10 and gain Magical Attacks, Flaming Attacks and Multiple Wounds (D3).",
+        "description": "Hand Weapon. Attacks made with this Weapon have their Armour Penetration set to 10 and gain Magical Attacks, Flaming Attacks and Multiple Wounds (D3).",
         "cost": "230"
       },
       {
         "name": "Symbol of Slaughter",
-        "description": "Hand Weapon and Paired Weapons enchantment.When using this weapon, the wielder gains +2 Attack Value and +2 Agility and suffers -2 Offensive Skill and -2 Defensive Skill. Attacks made with this Weapon have gain Magical Attacks.",
+        "description": "Hand Weapon and Paired Weapons. When using this weapon, the wielder gains +2 Attack Value and +2 Agility and suffers -2 Offensive Skill and -2 Defensive Skill. Attacks made with this Weapon have gain Magical Attacks.",
         "cost": "70"
       }
     ],
