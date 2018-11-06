@@ -1580,7 +1580,7 @@
           "Base": "1",
           "unitsize": "10",
           "maxmodels": "9",
-          "modelcost": "6",
+          "modelcost": "60",
 		  "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
