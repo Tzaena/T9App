@@ -32,10 +32,86 @@
     }
   ],
   "magicitems": {
-    "armours": [],
-    "weapons": [],
-    "artefacts": [],
-    "standards": []
+    "armours": [
+      {
+        "name": "Aaghor’s Affliction",
+        "description": "Light Armour enchantment. The wearer gains +1 Resilience and Fortitude (4+), but automatically fails all of its Armour Saves.",
+        "cost": "100"
+      },
+      {
+        "name": "Trickster’s Cunning",
+        "description": "Light Armour enchantment. Successful to-wound rolls against the wearer must be rerolled.",
+        "cost": "60"
+      },
+      {
+        "name": "Wild Form",
+        "description": "Suits of Armour enchantment. At the start of the Melee Phase the bearer may choose to gain one of the following: +1 Strength, +1 Armour Penetration, -1 Resilience or -1 Strength, -1 Armour Penetration, +1 Resilience. Effects last until the end of the Melee Phase.",
+        "cost": "40"
+      },
+      {
+        "name": "Obscuring Fog",
+        "description": "Shield enchantment. While using this Shield, enemy units in base contact with the bearer suffer -1 Agility. The bearer’s unit does not benefit from +1 Agility for Charging.",
+        "cost": "20"
+      }
+	  ],
+    "weapons": [
+      {
+        "name": "Hawthorne Curse",
+        "description": "Models without Ambush only. Hand Weapon enchantment. Attacks made with this weapon gain Devastating Charge (+2 Str, +2 AP) and Magical Attacks. The weapon can be used as a Shooting Weapon (3+) and the following profile: Range 18, Shots 1, Str 3 [6], AP 10, Penetrating, Reload!, [Multiple Wounds (D3)]. This Shooting Attack never suffers negative to-hit modifiers.",
+        "cost": "80"
+      },
+      {
+        "name": "Ancestral Carvings ",
+        "description": "0-3 per Army. Soothsayers only. Hand Weapon enchantment. Attacks made with this weapon gain +2 Strength, +2 Armour Penetration, and Magical Attacks. The wielder gains +2 Attack Value and Distracting while using this weapon.",
+        "cost": "50"
+      },
+      {
+        "name": "Twin Hungers",
+        "description": "Paired Weapons enchantment. Attacks made with this weapon gain Lethal Strike and Magical Attacks. Whenever the wielder rolls a natural ‘6’ to wound with a Close Combat Attack, and this attack successfully causes an unsaved wound, the bearer Recovers 1 Health Point at the end of the Initiative Step. No more than 1 Health Point may be recovered per Phase in this manner.",
+        "cost": "50"
+      },
+      {
+        "name": "Fatal Folly",
+        "description": "Beast Axe enchantment. Attacks made with this weapon gain Magical Attacks. For each Close Combat Attack against the wielder that rolls a natural to-hit roll of ‘1’, the wielder must perform a Close Combat Attack at the same Initiative Step (this overrides the normal restriction that Beast Axe attacks always strike at Initiative Step 0). This must be allocated towards the model (or Health Pool) that rolled the ‘1’ to hit.",
+        "cost": "35"
+      }],
+    "artefacts": [
+      {
+        "name": "Dark Rain",
+        "description": "One use only. This item is automatically activated at the start of the first Game Turn (if the bearer is not on the Battlefield at this time, the item cannot be used). Its effects last until the end of this Game Turn. If the owning player has the second Player Turn, all Shooting Attacks suffer -2 to hit during the opponent’s Shooting Phase. If the owning player has the first Player Turn, instead all Shooting Attacks suffer -1 to hit during the opponent’s Shooting Phase",
+        "cost": "80"
+      },
+      {
+        "name": "Seed of the Dark Forest",
+        "description": "One use only. Right before the battle (during step 7 of the Deployment Phase Sequence), the bearer must place a single Forest Terrain Feature (that must be no larger than 10″ in length and 6″ in width) on the Battlefield, not in contact with any other Terrain Feature, more than 1″ away from all enemy units, and with its centre within 12″ of the bearer. All friendly models inside the Dark Forest gain a +1 modifier to their casting rolls for Augment spells and Hex spells, and add (+1/+1) to the Power Level of Totem Bound Spells they cast.",
+        "cost": "60"
+      },
+      {
+        "name": "Pillager Icon",
+        "description": "All friendly units within 12 of the bearer comprised entirely of Razortusks or single model Chariots, excluding Characters, gain Vanguard.",
+        "cost": "55"
+      },
+      {
+        "name": "Inscribing Burin",
+        "description": "While the bearer has more than half of its base inside a Forest Terrain Feature, all friendly units with more than half of their Footprint inside any Forest Terrain Feature on the Battlefield gain Magic Resistance (2)",
+        "cost": "35"
+      },
+      {
+        "name": "Eye of Dominance",
+        "description": "Close Combat Attacks from Beast, Cavalry, and Construct models will always hit the bearer only on a roll of 6+. If the attacking model is a multipart model, only model parts with Harnessed are affected. ",
+        "cost": "30"
+      },
+      {
+        "name": "Crown of Horns",
+        "description": "The bearer, all models in its unit, and all units within range of its Commanding Presence (if applicable) automatically pass Discipline Tests taken due to Primal Instinct.",
+        "cost": "25"
+      }],
+    "standards": [
+      {
+        "name": "Banner of the Wild Herd",
+        "description": "0-3 per Army. One use only. A single Banner of the Wild Herd per unit may be activated at the start of each Round of Combat. For the duration of this Round of Combat, all Mongrels and Wildhorns in the bearer’s unit gain +1 Strength and +1 Armour Penetration. ",
+        "cost": "50"
+      }]
   },
   "mounts": [
     {
