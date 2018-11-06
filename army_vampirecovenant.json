@@ -32,52 +32,60 @@
     }
   ],
   "magicitems": {
-    "weapons": [],
-    "armours": [],
-    "artefacts": [],
-    "standards": [],
-    "category3": [
+    "weapons": [
       {
-        "name": "Eternal Duelist",
+        "name": "Reaper’s Harvest",
+        "description": "Hand Weapon enchantment. Attacks made with this weapon always have Strength 10 and Armour Penetration 10 and gain Divine Attacks and Magical Attacks. When rolling to wound with attacks made with this weapon, use the enemy's Discipline instead of its Resilience.",
+        "cost": "105"
+      },
+      {
+        "name": "True Thirst",
+        "description": "Vampire Counts and Courtiers only. Hand Weapon enchantment. Attacks made with this weapon gain +1 Strength, +1 Armour Penetration, Magical Attacks, and Vampiric (3+). For each unsaved wound caused by this weapon during a Melee Phase, Raise 1 Health Point of R&F models in the wielder’s unit at the end of the Melee Phase. The number of Raised Health Points in each phase cannot exceed the fixed component of the Reanimated value of the R&F models in the unit, disregarding any D3 or D6 parts (e.g. you can Raise 4 Zombies in a single phase).",
+        "cost": "55"
+      }],
+    "armours": [
+      {
+        "name": "Legend of the Black King",
+        "description": "Plate Armour and Heavy Armour enchantment. The bearer gains +1 Armour and Aegis (4+).",
+        "cost": "105"
+      }],
+    "artefacts": [
+      {
+        "name": "Hypnotic Pendant",
+        "description": "The bearer gains Distracting. All Standard Size R&F models in the bearer's unit gain Parry. ",
+        "cost": "100"
+      },
+      {
+        "name": "Eternity Gem",
+        "description": "Vampire Counts and Courtiers on Monstrous Revenant or without Towering Presence only. Attacks against the wearer with Lethal Strike and/or Multiple Wounds lose these Attack Attributes. One use only: Must be activated when the wearer suffers the first wound in the game (after Armour Saves). The wearer gains Aegis (2+) against this wound.",
+        "cost": "95"
+      },
+      {
+        "name": "Necromantic Staff ",
+        "description": "Wizards only Dominant. The bearer gains Channel (1). The bearer may cast the first Boosted version (6 Aura) of Arise! as a Bound Spell with Power Level (4/8). ",
         "cost": "80"
       },
       {
-        "name": "Monster Hunter",
-        "cost": "45"
-      },
-      {
-        "name": "Flying Horror - Models on Foot Only",
-        "cost": "70"
-      },
-      {
-        "name": "Bestial Bulk",
-        "cost": "70"
-      },
-      {
-        "name": "Hour of the Wolf",
-        "cost": "50"
-      },
-      {
-        "name": "Unbreakable Will",
-        "cost": "40"
-      },
-      {
-        "name": "Forbidden Path",
-        "cost": "25"
-      },
-      {
-        "name": "Arcane Knowledge",
+        "name": "Night’s Crown",
+        "description": "Standard Size models only. Close Combat Attacks allocated towards the bearer do not gain Strength modifiers of the +X type conferred by Close Combat Weapons. Close Combat Attacks can never wound the bearer on better than 4+. ",
         "cost": "60"
       },
       {
-        "name": "Mask of Innocence",
-        "cost": "45"
+        "name": "Unholy Tome",
+       "description": "Wizard Only. Dominant. The bearer can cast Danse Macabre from Evocation as a Bound Spell with Power Level (4/8).",
+        "cost": "50"
       },
       {
-        "name": "Mesmerising Gaze",
-        "cost": "40"
-      }
-    ]
+        "name": "Cursed Medallion ",
+        "description": "Right before the battle (during step 7 of the Deployment Phase Sequence), choose a Character, Champion, or a single model unit on the opponent's Army List. The bearer must reroll failed to-hit and to-wound rolls against the chosen model.",
+        "cost": "35"
+      }],
+    "standards": [
+      {
+        "name": "Black Standard of Zagvozd",
+        "description": "Barrow Guard and Barrow Knights only. Close Combat Attacks made by R&F model parts without Harnessed in the bearer's unit gain +1 to hit. At the start of any Melee Phase, if the bearer's unit is unengaged, you may choose a friendly Standard Size Infantry or Barrow Knight unit within 6 of the bearer. Close Combat Attacks made by R&F model parts without Harnessed in that unit gain +1 to hit until the end of the Melee Phase. ",
+        "cost": "105"
+      }]
   },
   "mounts": [
     {
