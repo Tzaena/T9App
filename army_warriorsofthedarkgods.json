@@ -681,44 +681,6 @@
               ]
             },
             {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "mount": 8,
-                  "cost": "85"
-                },
-                {
-                  "mount": 5,
-                  "cost": "105"
-                },
-                {
-                  "mount": 4,
-                  "cost": "130"
-                },
-                {
-                  "mount": 3,
-                  "cost": "135"
-                },
-                {
-                  "mount": 7,
-                  "cost": "145"
-                },
-                {
-                  "mount": 1,
-                  "cost": "205"
-                },
-                {
-                  "mount": 9,
-                  "cost": "460"
-                },
-                {
-                  "mount": 9,
-                  "cost": "580"
-                }]
-            },
-            {
               "name": "Favour of the Dark Gods",
               "onechoice": true,
               "mandatory": false,
@@ -775,6 +737,44 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": 8,
+                  "cost": "85"
+                },
+                {
+                  "mount": 5,
+                  "cost": "105"
+                },
+                {
+                  "mount": 4,
+                  "cost": "130"
+                },
+                {
+                  "mount": 3,
+                  "cost": "135"
+                },
+                {
+                  "mount": 7,
+                  "cost": "145"
+                },
+                {
+                  "mount": 1,
+                  "cost": "205"
+                },
+                {
+                  "mount": 9,
+                  "cost": "460"
+                },
+                {
+                  "mount": 9,
+                  "cost": "580"
+                }]
             }
           ]
         },
