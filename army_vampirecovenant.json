@@ -72,7 +72,7 @@
       },
       {
         "name": "Unholy Tome",
-       "description": "Wizard Only. Dominant. The bearer can cast Danse Macabre from Evocation as a Bound Spell with Power Level (4/8).",
+        "description": "Wizard Only. Dominant. The bearer can cast Danse Macabre from Evocation as a Bound Spell with Power Level (4/8).",
         "cost": "50"
       },
       {
@@ -163,7 +163,7 @@
     },
     {
       "id": "3",
-	  "category": "5",
+      "category": "5",
       "name": "Monstrous Revenant",
       "rules": [
         {
@@ -299,8 +299,8 @@
     {
       "id": "5",
       "name": "Shrieking Horror",
-	  "limitation": 1,
-	  "category": "5",
+      "limitation": 1,
+      "category": "5",
       "rules": [
         {
           "specialrules": [
@@ -336,8 +336,8 @@
     {
       "id": "6",
       "name": "Zombie Dragon",
-	  "category": "5",
-	  "limitation": 1,
+      "category": "5",
+      "limitation": 1,
       "rules": [
         {
           "specialrules": [
@@ -605,18 +605,18 @@
                 {
                   "name": "Aegis (4+)",
                   "cost": "75",
-				  "condition": [
-					{
-					  "option": "21",
-					  "global": false,
-					  "exist": true
-					},
-					{
-					  "option": "52",
-					  "global": true,
-					  "exist": true
-					}
-				  ]
+                  "condition": [
+                    {
+                      "option": "21",
+                      "global": false,
+                      "exist": true
+                    },
+                    {
+                      "option": "52",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -640,7 +640,7 @@
                 {
                   "mount": 4,
                   "cost": "325",
-				  "globalid": "21"
+                  "globalid": "21"
                 },
                 {
                   "mount": 5,
@@ -657,107 +657,107 @@
               "onechoice": true,
               "mandatory": false,
               "choices": [
-				  {
-					"name": "Crimson Rage",
-					"cost": "130"
-				  },
-				  {
-					"name": "Storm Caller",
-					"cost": "125"
-				  },
-				  {
-					"name": "Commandment",
-					"cost": "70"
-				  },
-				  {
-					"name": "Ghoul Lord",
-					"cost": "70"
-				  },
-				  {
-					"name": "Blood Magic",
-					"cost": "75"
-				  },
-				  {
-					"name": "Eternal Duelist",
-					"cost": "80"
-				  },
-				  {
-					"name": "Eternal Duelist",
-					"cost": "80"
-				  },
-				  {
-					"name": "Monster Hunter",
-					"cost": "45"
-				  },
-				  {
-					"name": "Monster Hunter",
-					"cost": "45"
-				  },
-				  {
-					"name": "Flying Horror",
-					"cost": "70"
-				  },
-				  {
-					"name": "Flying Horror",
-					"cost": "70"
-				  },
-				  {
-					"name": "Bestial Bulk",
-					"cost": "70"
-				  },
-				  {
-					"name": "Bestial Bulk",
-					"cost": "70"
-				  },
-				  {
-					"name": "Hour of the Wolf",
-					"cost": "50"
-				  },
-				  {
-					"name": "Hour of the Wolf",
-					"cost": "50"
-				  },
-				  {
-					"name": "Unbreakable Will",
-					"cost": "40"
-				  },
-				  {
-					"name": "Unbreakable Will",
-					"cost": "40"
-				  },
-				  {
-					"name": "Forbiden Path",
-					"cost": "25"
-				  },
-				  {
-					"name": "Forbiden Path",
-					"cost": "25"
-				  },
-				  {
-					"name": "Arcane Knowledge",
-					"cost": "60"
-				  },
-				  {
-					"name": "Arcane Knowledge",
-					"cost": "60"
-				  },
-				  {
-					"name": "Mask of Innocence",
-					"cost": "45"
-				  },
-				  {
-					"name": "Mask of Innocence",
-					"cost": "45"
-				  },
-				  {
-					"name": "Mesmerising Gaze",
-					"cost": "40"
-				  },
-				  {
-					"name": "Mesmerising Gaze",
-					"cost": "40"
-				  }
-				 ]
+                {
+                  "name": "Crimson Rage",
+                  "cost": "130"
+                },
+                {
+                  "name": "Storm Caller",
+                  "cost": "125"
+                },
+                {
+                  "name": "Commandment",
+                  "cost": "70"
+                },
+                {
+                  "name": "Ghoul Lord",
+                  "cost": "70"
+                },
+                {
+                  "name": "Blood Magic",
+                  "cost": "75"
+                },
+                {
+                  "name": "Eternal Duelist",
+                  "cost": "80"
+                },
+                {
+                  "name": "Eternal Duelist",
+                  "cost": "80"
+                },
+                {
+                  "name": "Monster Hunter",
+                  "cost": "45"
+                },
+                {
+                  "name": "Monster Hunter",
+                  "cost": "45"
+                },
+                {
+                  "name": "Flying Horror",
+                  "cost": "70"
+                },
+                {
+                  "name": "Flying Horror",
+                  "cost": "70"
+                },
+                {
+                  "name": "Bestial Bulk",
+                  "cost": "70"
+                },
+                {
+                  "name": "Bestial Bulk",
+                  "cost": "70"
+                },
+                {
+                  "name": "Hour of the Wolf",
+                  "cost": "50"
+                },
+                {
+                  "name": "Hour of the Wolf",
+                  "cost": "50"
+                },
+                {
+                  "name": "Unbreakable Will",
+                  "cost": "40"
+                },
+                {
+                  "name": "Unbreakable Will",
+                  "cost": "40"
+                },
+                {
+                  "name": "Forbiden Path",
+                  "cost": "25"
+                },
+                {
+                  "name": "Forbiden Path",
+                  "cost": "25"
+                },
+                {
+                  "name": "Arcane Knowledge",
+                  "cost": "60"
+                },
+                {
+                  "name": "Arcane Knowledge",
+                  "cost": "60"
+                },
+                {
+                  "name": "Mask of Innocence",
+                  "cost": "45"
+                },
+                {
+                  "name": "Mask of Innocence",
+                  "cost": "45"
+                },
+                {
+                  "name": "Mesmerising Gaze",
+                  "cost": "40"
+                },
+                {
+                  "name": "Mesmerising Gaze",
+                  "cost": "40"
+                }
+              ]
             },
             {
               "name": "Path",
@@ -791,32 +791,32 @@
               "onechoice": true,
               "mandatory": false,
               "choices": [
-				  {
-					"name": "Brotherhood of the Dragon",
-					"cost": "45",
-					"globalid": "51"
-				  },
-				  {
-					"name": "Lamia",
-					"cost": "50",
-					"globalid": "52"
-				  },
-				  {
-					"name": "Nosferatu",
-					"cost": "10",
-					"globalid": "53"
-				  },
-				  {
-					"name": "Strigoi",
-					"cost": "110",
-					"globalid": "54"
-				  },
-				  {
-					"name": "Von Karnstein",
-					"cost": "50",
-					"globalid": "55"
-				  }
-				 ]
+                {
+                  "name": "Brotherhood of the Dragon",
+                  "cost": "45",
+                  "globalid": "51"
+                },
+                {
+                  "name": "Lamia",
+                  "cost": "50",
+                  "globalid": "52"
+                },
+                {
+                  "name": "Nosferatu",
+                  "cost": "10",
+                  "globalid": "53"
+                },
+                {
+                  "name": "Strigoi",
+                  "cost": "110",
+                  "globalid": "54"
+                },
+                {
+                  "name": "Von Karnstein",
+                  "cost": "50",
+                  "globalid": "55"
+                }
+              ]
             }
           ]
         },
@@ -1000,18 +1000,18 @@
                 {
                   "name": "Aegis (4+)",
                   "cost": "75",
-				  "condition": [
-					{
-					  "option": "21",
-					  "global": false,
-					  "exist": true
-					},
-					{
-					  "option": "52",
-					  "global": true,
-					  "exist": true
-					}
-				  ]
+                  "condition": [
+                    {
+                      "option": "21",
+                      "global": false,
+                      "exist": true
+                    },
+                    {
+                      "option": "52",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -1070,139 +1070,139 @@
               "onechoice": true,
               "mandatory": false,
               "choices": [
-				  {
-					"name": "Crimson Rage",
-					"cost": "130"
-				  },
-				  {
-					"name": "Storm Caller",
-					"cost": "125"
-				  },
-				  {
-					"name": "Commandment",
-					"cost": "70"
-				  },
-				  {
-					"name": "Ghoul Lord",
-					"cost": "70"
-				  },
-				  {
-					"name": "Blood Magic",
-					"cost": "75"
-				  },
-				  {
-					"name": "Eternal Duelist",
-					"cost": "80"
-				  },
-				  {
-					"name": "Eternal Duelist",
-					"cost": "80"
-				  },
-				  {
-					"name": "Monster Hunter",
-					"cost": "45"
-				  },
-				  {
-					"name": "Monster Hunter",
-					"cost": "45"
-				  },
-				  {
-					"name": "Flying Horror",
-					"cost": "70"
-				  },
-				  {
-					"name": "Flying Horror",
-					"cost": "70"
-				  },
-				  {
-					"name": "Bestial Bulk",
-					"cost": "70"
-				  },
-				  {
-					"name": "Bestial Bulk",
-					"cost": "70"
-				  },
-				  {
-					"name": "Hour of the Wolf",
-					"cost": "50"
-				  },
-				  {
-					"name": "Hour of the Wolf",
-					"cost": "50"
-				  },
-				  {
-					"name": "Unbreakable Will",
-					"cost": "40"
-				  },
-				  {
-					"name": "Unbreakable Will",
-					"cost": "40"
-				  },
-				  {
-					"name": "Forbiden Path",
-					"cost": "25"
-				  },
-				  {
-					"name": "Forbiden Path",
-					"cost": "25"
-				  },
-				  {
-					"name": "Arcane Knowledge",
-					"cost": "60"
-				  },
-				  {
-					"name": "Arcane Knowledge",
-					"cost": "60"
-				  },
-				  {
-					"name": "Mask of Innocence",
-					"cost": "45"
-				  },
-				  {
-					"name": "Mask of Innocence",
-					"cost": "45"
-				  },
-				  {
-					"name": "Mesmerising Gaze",
-					"cost": "40"
-				  },
-				  {
-					"name": "Mesmerising Gaze",
-					"cost": "40"
-				  }
-				 ]
+                {
+                  "name": "Crimson Rage",
+                  "cost": "130"
+                },
+                {
+                  "name": "Storm Caller",
+                  "cost": "125"
+                },
+                {
+                  "name": "Commandment",
+                  "cost": "70"
+                },
+                {
+                  "name": "Ghoul Lord",
+                  "cost": "70"
+                },
+                {
+                  "name": "Blood Magic",
+                  "cost": "75"
+                },
+                {
+                  "name": "Eternal Duelist",
+                  "cost": "80"
+                },
+                {
+                  "name": "Eternal Duelist",
+                  "cost": "80"
+                },
+                {
+                  "name": "Monster Hunter",
+                  "cost": "45"
+                },
+                {
+                  "name": "Monster Hunter",
+                  "cost": "45"
+                },
+                {
+                  "name": "Flying Horror",
+                  "cost": "70"
+                },
+                {
+                  "name": "Flying Horror",
+                  "cost": "70"
+                },
+                {
+                  "name": "Bestial Bulk",
+                  "cost": "70"
+                },
+                {
+                  "name": "Bestial Bulk",
+                  "cost": "70"
+                },
+                {
+                  "name": "Hour of the Wolf",
+                  "cost": "50"
+                },
+                {
+                  "name": "Hour of the Wolf",
+                  "cost": "50"
+                },
+                {
+                  "name": "Unbreakable Will",
+                  "cost": "40"
+                },
+                {
+                  "name": "Unbreakable Will",
+                  "cost": "40"
+                },
+                {
+                  "name": "Forbiden Path",
+                  "cost": "25"
+                },
+                {
+                  "name": "Forbiden Path",
+                  "cost": "25"
+                },
+                {
+                  "name": "Arcane Knowledge",
+                  "cost": "60"
+                },
+                {
+                  "name": "Arcane Knowledge",
+                  "cost": "60"
+                },
+                {
+                  "name": "Mask of Innocence",
+                  "cost": "45"
+                },
+                {
+                  "name": "Mask of Innocence",
+                  "cost": "45"
+                },
+                {
+                  "name": "Mesmerising Gaze",
+                  "cost": "40"
+                },
+                {
+                  "name": "Mesmerising Gaze",
+                  "cost": "40"
+                }
+              ]
             },
             {
               "name": "Vampiric Bloodline",
               "onechoice": true,
               "mandatory": false,
               "choices": [
-				  {
-					"name": "Brotherhood of the Dragon",
-					"cost": "45",
-					"globalid": "51"
-				  },
-				  {
-					"name": "Lamia",
-					"cost": "50",
-					"globalid": "52"
-				  },
-				  {
-					"name": "Nosferatu",
-					"cost": "10",
-					"globalid": "53"
-				  },
-				  {
-					"name": "Strigoi",
-					"cost": "110",
-					"globalid": "54"
-				  },
-				  {
-					"name": "Von Karnstein",
-					"cost": "50",
-					"globalid": "55"
-				  }
-				 ]
+                {
+                  "name": "Brotherhood of the Dragon",
+                  "cost": "45",
+                  "globalid": "51"
+                },
+                {
+                  "name": "Lamia",
+                  "cost": "50",
+                  "globalid": "52"
+                },
+                {
+                  "name": "Nosferatu",
+                  "cost": "10",
+                  "globalid": "53"
+                },
+                {
+                  "name": "Strigoi",
+                  "cost": "110",
+                  "globalid": "54"
+                },
+                {
+                  "name": "Von Karnstein",
+                  "cost": "50",
+                  "globalid": "55"
+                }
+              ]
             }
           ]
         },
@@ -1227,9 +1227,9 @@
                 {
                   "specialrule": "Reanimated  (1)"
                 },
-				{
-					"specialrule": "Wizard Apprentice"
-				}
+                {
+                  "specialrule": "Wizard Apprentice"
+                }
               ],
               "equipments": [],
               "ADV": "4",
@@ -1322,7 +1322,7 @@
                 {
                   "name": "Wizard Master",
                   "cost": "225",
-				  "globalid": "21"
+                  "globalid": "21"
                 }
               ]
             },
@@ -1488,8 +1488,8 @@
           "name": "Fell Wraith",
           "Base": "1",
           "size": "Standard",
-		  "limitation": 3,
-		  "organisation": "4",
+          "limitation": 3,
+          "organisation": "4",
           "type": "Infantry",
           "cost": "125",
           "rules": [
@@ -1567,7 +1567,7 @@
                 {
                   "mount": 3,
                   "cost": "185",
-				  "organisation": "5"
+                  "organisation": "5"
                 }
               ]
             }
@@ -1577,8 +1577,8 @@
           "name": "Banshee",
           "Base": "1",
           "size": "Standard",
-		  "limitation": 3,
-		  "organisation": "4",
+          "limitation": 3,
+          "organisation": "4",
           "type": "Infantry",
           "cost": "165",
           "rules": [
@@ -1648,7 +1648,7 @@
           "name": "Zombies",
           "Base": "1",
           "unitsize": "20",
-		  "limitation": 4,
+          "limitation": 4,
           "maxmodels": "60",
           "modelcost": "5",
           "size": "Standard",
@@ -1812,7 +1812,7 @@
           "maxmodels": "790",
           "modelcost": "17",
           "size": "Standard",
-		  "limitation": 4,
+          "limitation": 4,
           "type": "Infantry",
           "cost": "130",
           "rules": [
@@ -1874,14 +1874,14 @@
                 {
                   "name": "Vanguard",
                   "cost": "2",
-				  "maxarmymodels": 35,
-				  "condition": [
-					{
-					  "option": "54",
-					  "global": true,
-					  "exist": true
-					}
-				  ]
+                  "maxarmymodels": 35,
+                  "condition": [
+                    {
+                      "option": "54",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
                 }
               ],
               "type": "permodel"
@@ -1893,7 +1893,7 @@
           "Base": "1",
           "unitsize": "2",
           "maxmodels": "8",
-		  "limitation": 4,
+          "limitation": 4,
           "modelcost": "30",
           "size": "Standard",
           "type": "Beast",
@@ -1955,7 +1955,7 @@
         {
           "name": "Dire Wolves",
           "Base": "1",
-		  "limitation": 5,
+          "limitation": 5,
           "unitsize": "5",
           "maxmodels": "2",
           "modelcost": "11",
@@ -2006,7 +2006,7 @@
                 {
                   "name": "Core (8+)",
                   "cost": "0",
-				  "organisation": "2"
+                  "organisation": "2"
                 }
               ]
             }
@@ -2125,7 +2125,7 @@
           "name": "Barrow Knights",
           "Base": "1",
           "unitsize": "5",
-		  "limitation": 4,
+          "limitation": 4,
           "maxmodels": "10",
           "modelcost": "48",
           "size": "Standard",
@@ -2241,7 +2241,7 @@
           "name": "Ghasts",
           "Base": "1",
           "unitsize": "3",
-		  "limitation": 5,
+          "limitation": 5,
           "maxmodels": "7",
           "modelcost": "95",
           "size": "Large",
@@ -2306,7 +2306,7 @@
           "Base": "1",
           "unitsize": "2",
           "maxmodels": "7",
-		  "limitation": 4,
+          "limitation": 4,
           "modelcost": "15",
           "size": "Standard",
           "type": "Beast",
@@ -2358,7 +2358,7 @@
           "name": "Cadaver Wagon",
           "Base": "1",
           "size": "Large",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Construct",
           "cost": "400",
           "rules": [
@@ -2451,7 +2451,7 @@
           "name": "Court of the Damned",
           "Base": "1",
           "size": "Large",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Construct",
           "cost": "300",
           "rules": [
@@ -2553,13 +2553,13 @@
                 {
                   "name": "Aegis (4+)",
                   "cost": "90",
-				  "condition": [
-					{
-					  "option": "52",
-					  "global": true,
-					  "exist": true
-					}
-				  ]
+                  "condition": [
+                    {
+                      "option": "52",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -2568,7 +2568,7 @@
         {
           "name": "Altar of Undeath",
           "Base": "1",
-		  "limitation": 2,
+          "limitation": 2,
           "size": "Large",
           "type": "Construct",
           "cost": "365",
@@ -2684,7 +2684,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Construct",
-		  "limitation": 2,
+          "limitation": 2,
           "cost": "430",
           "rules": [
             {
@@ -2819,13 +2819,13 @@
                 {
                   "name": "Stubborn",
                   "cost": "15",
-				  "condition": [
-					{
-					  "option": "55",
-					  "global": true,
-					  "exist": true
-					}
-				  ]
+                  "condition": [
+                    {
+                      "option": "55",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -2840,7 +2840,7 @@
           "name": "Phantom Host",
           "Base": "1",
           "unitsize": "2",
-		  "limitation": 2,
+          "limitation": 2,
           "maxmodels": "3",
           "modelcost": "75",
           "size": "Standard",
@@ -2896,9 +2896,9 @@
                 {
                   "name": "Max 6 models",
                   "cost": "0",
-				  "maxarmymodels": 6
+                  "maxarmymodels": 6
                 }
-				]
+              ]
             }
           ]
         },
@@ -2908,7 +2908,7 @@
           "unitsize": "5",
           "maxmodels": "5",
           "modelcost": "37",
-		  "limitation": 2,
+          "limitation": 2,
           "size": "Standard",
           "type": "Infantry",
           "cost": "170",
@@ -2971,13 +2971,13 @@
                 {
                   "name": "Champion",
                   "cost": "120",
-				  "condition": [
-					{
-					  "option": "53",
-					  "global": true,
-					  "exist": true
-					}
-				  ]
+                  "condition": [
+                    {
+                      "option": "53",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -2988,7 +2988,7 @@
           "Base": "1",
           "unitsize": "5",
           "maxmodels": "5",
-		  "limitation": 2,
+          "limitation": 2,
           "modelcost": "37",
           "size": "Standard",
           "type": "Cavalry",
@@ -3075,13 +3075,13 @@
                 {
                   "name": "Champion",
                   "cost": "120",
-				  "condition": [
-					{
-					  "option": "53",
-					  "global": true,
-					  "exist": true
-					}
-				  ]
+                  "condition": [
+                    {
+                      "option": "53",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -3096,7 +3096,7 @@
           "name": "Shrieking Horror",
           "Base": "1",
           "size": "Gigantic",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Beast",
           "cost": "490",
           "rules": [
@@ -3143,7 +3143,7 @@
                 {
                   "name": "Limitation: 1",
                   "cost": "0",
-				  "limitation": 1,
+                  "limitation": 1,
                   "condition": [
                     {
                       "option": "31",
@@ -3152,7 +3152,7 @@
                     }
                   ]
                 }
-				]
+              ]
             }
           ]
         },
@@ -3164,7 +3164,7 @@
           "modelcost": "90",
           "size": "Standard",
           "type": "Cavalry",
-		  "limitation": 2,
+          "limitation": 2,
           "cost": "240",
           "rules": [
             {
@@ -3256,18 +3256,18 @@
               "name": "Options",
               "onechoice": false,
               "mandatory": true,
-			  "type": "permodel"
+              "type": "permodel",
               "choices": [
                 {
                   "name": "Devastating Charge (+1 Att) and Plate Armour",
                   "cost": "25",
-				  "condition": [
-					{
-					  "option": "51",
-					  "global": true,
-					  "exist": true
-					}
-				  ]
+                  "condition": [
+                    {
+                      "option": "51",
+                      "global": true,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -3298,7 +3298,7 @@
           "maxmodels": "2",
           "modelcost": "180",
           "size": "Large",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Infantry",
           "cost": "320",
           "rules": [
@@ -3369,7 +3369,7 @@
         {
           "name": "Varkolak",
           "Base": "1",
-		  "limitation": 3,
+          "limitation": 3,
           "size": "Large",
           "type": "Beast",
           "cost": "335",
@@ -3426,7 +3426,7 @@
           "name": "Vampire Spawn",
           "Base": "1",
           "unitsize": "3",
-		  "limitation": 3,
+          "limitation": 3,
           "maxmodels": "5",
           "modelcost": "78",
           "size": "Large",
