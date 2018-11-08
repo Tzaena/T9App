@@ -1389,7 +1389,8 @@
                 },
                 {
                   "name": "Favoured Champion",
-                  "cost": "30"
+                  "cost": "30",
+				  "maxmodels": 20
                 }
               ]
             },
@@ -2852,16 +2853,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Warhound",
-                  "cost": "10"
-                }
-              ]
-            },
-            {
               "name": "Category",
               "onechoice": false,
               "choices": [
@@ -2918,16 +2909,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Feldrak",
-                  "cost": "120"
-                }
-              ]
-            },
             {
               "name": "Melee Weapon",
               "onechoice": true,
@@ -3214,10 +3195,10 @@
               "equipments": [],
               "ADV": "5",
               "MAR": "10",
-              "Ld": "2",
-              "W": "2",
+              "Ld": "5",
+              "W": "5",
               "DEF": "3",
-              "T": "2",
+              "T": "5",
               "ARM": "2",
               "name": "Hell Maw Offensive",
               "A": "5",
@@ -3235,16 +3216,18 @@
             },
             {
               "name": "Ominous Gateways",
-              "onechoice": true,
+              "onechoice": false,
               "mandatory": false,
               "choices": [
                 {
-                  "name": "1 Ominous Gateway",
-                  "cost": "50"
+                  "name": "Ominous Gateway",
+                  "cost": "50",
+				  "limitation": 2
                 },
                 {
-                  "name": "2 Ominous Gateways",
-                  "cost": "125"
+                  "name": "Ominous Gateways",
+                  "cost": "75",
+				  "limitation": 1
                 }
               ]
             }
