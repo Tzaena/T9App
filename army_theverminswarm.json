@@ -181,7 +181,7 @@
     {
       "id": "3",
       "name": "Monstrous Rat",
-	  "organisation": 5,
+      "organisation": 5,
       "rules": [
         {
           "specialrules": [
@@ -226,8 +226,8 @@
     {
       "id": "4",
       "name": "Doom Bell",
-	  "organisation": 5,
-	  "limitation": 1,
+      "organisation": 5,
+      "limitation": 1,
       "rules": [
         {
           "specialrules": [
@@ -278,8 +278,8 @@
     {
       "id": "5",
       "name": "Plague Pendulum",
-	  "limitation" : 1,
-	  "organisation": 5,
+      "limitation" : 1,
+      "organisation": 5,
       "rules": [
         {
           "specialrules": [
@@ -390,8 +390,8 @@
           "Base": "1",
           "size": "Gigantic ",
           "type": "Beast",
-		  "limitation" : 1,
-		  "organisation": 5,
+          "limitation" : 1,
+          "organisation": 5,
           "cost": "800",
           "rules": [
             {
@@ -503,7 +503,7 @@
                   "type": "magicitems",
                   "name": "magic items",
                   "cost": 200
-                },
+                }
               ]
             },
             {
@@ -570,7 +570,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
-		  "limitation": 4,
+          "limitation": 4,
           "cost": "110",
           "rules": [
             {
@@ -814,7 +814,7 @@
                 {
                   "name": "Wizard Master",
                   "cost": "150",
-				  "globalid": "11"
+                  "globalid": "11"
                 }
               ]
             },
@@ -858,7 +858,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
-		  "limitation": 2,
+          "limitation": 2,
           "cost": "185",
           "rules": [
             {
@@ -1433,7 +1433,7 @@
           "unitsize": "30",
           "maxmodels": "30",
           "modelcost": "4",
-		  "limitation": 4,
+          "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
           "cost": "150",
@@ -1485,7 +1485,7 @@
           "unitsize": "10",
           "maxmodels": "20",
           "modelcost": "10",
-		  "limitation": 4,
+          "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
           "cost": "120",
@@ -1535,7 +1535,7 @@
                 {
                   "name": "Vanguard",
                   "cost": "30",
-				  "maxmodels": 15
+                  "maxmodels": 15
                 }
               ]
             },
@@ -1581,7 +1581,7 @@
           "unitsize": "10",
           "maxmodels": "9",
           "modelcost": "60",
-		  "limitation": 4,
+          "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
           "cost": "80",
@@ -1625,9 +1625,9 @@
                 {
                   "name": "20+ models",
                   "cost": 0,
-				  "category": "2"
+                  "category": "2"
                 }
-				]
+              ]
             }
           ]
         },
@@ -1637,7 +1637,7 @@
           "unitsize": "8",
           "maxmodels": "7",
           "modelcost": "17",
-		  "limitation": 3,
+          "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "170",
@@ -1705,7 +1705,7 @@
           "unitsize": "4",
           "maxmodels": "8",
           "modelcost": "75",
-		  "limitation": 3,
+          "limitation": 3,
           "size": "Large",
           "type": "Infantry",
           "cost": "295",
@@ -1772,7 +1772,7 @@
                   "name": "Metal Grinder",
                   "cost": "110"
                 }
-				]
+              ]
             },
             {
               "name": "Become Thunder Hulks",
@@ -1791,7 +1791,7 @@
           "name": "Rat Swarms",
           "Base": "1",
           "unitsize": "2",
-		  "limitation": 3,
+          "limitation": 3,
           "maxmodels": "8",
           "modelcost": "30",
           "size": "Standard",
@@ -1844,7 +1844,7 @@
           "name": "Meat Grinder",
           "Base": "1",
           "size": "Standard",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Infantry",
           "cost": "150",
           "rules": [
@@ -1908,7 +1908,7 @@
           "Base": "1",
           "unitsize": "5",
           "maxmodels": "5",
-		  "limitation": 3,
+          "limitation": 3,
           "modelcost": "25",
           "size": "Standard",
           "type": "Infantry",
@@ -1988,7 +1988,7 @@
         {
           "name": "Weapon Team",
           "Base": "1",
-		  "limitation": 3,
+          "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "150",
@@ -2067,7 +2067,7 @@
           "unitsize": "3",
           "maxmodels": "3",
           "modelcost": "40",
-		  "limitation": 3,
+          "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "110",
@@ -2111,7 +2111,7 @@
           "Base": "1",
           "unitsize": "8",
           "maxmodels": "7",
-		  "limitation": 3,
+          "limitation": 3,
           "modelcost": "22",
           "size": "Standard",
           "type": "Infantry",
@@ -2167,7 +2167,7 @@
           "name": "Verminous Artillery",
           "Base": "1",
           "cost": "0",
-		  "limitation": 2,
+          "limitation": 2,
           "rules": [
             {
               "specialrules": [
@@ -2180,7 +2180,7 @@
               ],
               "equipments": [],
               "ADV": "5",
-              "MAR": "5"
+              "MAR": "5",
               "Ld": "5",
               "W": "5",
               "DEF": "1",
@@ -2221,7 +2221,7 @@
           "name": "Dreadmill",
           "Base": "1",
           "size": "Large",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Construct",
           "cost": "290",
           "rules": [
@@ -2282,7 +2282,7 @@
           "name": "Abomination",
           "Base": "1",
           "size": "Gigantic",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Beast",
           "cost": "390",
           "rules": [
