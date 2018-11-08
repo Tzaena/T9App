@@ -147,8 +147,8 @@
     {
       "id": "1",
       "name": "Chimera",
-	  "limitation": 2,
-	  "category": "4",
+      "limitation": 2,
+      "category": "4",
       "rules": [
         {
           "specialrules": [
@@ -184,8 +184,8 @@
     {
       "id": "2",
       "name": "Wasteland Behemoth",
-	  "category": 4,
-	  "limitation": 2,
+      "category": 4,
+      "limitation": 2,
       "rules": [
         {
           "specialrules": [
@@ -244,7 +244,7 @@
     {
       "id": "4",
       "name": "Dark Chariot",
-	  "limitation": 3,
+      "limitation": 3,
       "rules": [
         {
           "specialrules": [
@@ -443,8 +443,8 @@
     {
       "id": "9",
       "name": "Wasteland Dragon",
-	  "limitation": 1,
-	  "category": "4",
+      "limitation": 1,
+      "category": "4",
       "rules": [
         {
           "specialrules": [
@@ -590,22 +590,22 @@
               "name": "Options",
               "onechoice": false,
               "choices": [{
-                  "globalid": "101",
-                  "name": "BSB",
-                  "cost": 50,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": false
-                    },
-                    {
-                      "option": "101",
-                      "global": true,
-                      "exist": false
-                    }
-                  ]
-                },
+                "globalid": "101",
+                "name": "BSB",
+                "cost": 50,
+                "condition": [
+                  {
+                    "option": "102",
+                    "global": false,
+                    "exist": false
+                  },
+                  {
+                    "option": "101",
+                    "global": true,
+                    "exist": false
+                  }
+                ]
+              },
                 {
                   "globalid": "102",
                   "name": "general",
@@ -686,35 +686,35 @@
               "mandatory": false,
               "choices": [
                 {
-				  "mount": 8,
+                  "mount": 8,
                   "cost": "85"
                 },
                 {
-				  "mount": 5,
+                  "mount": 5,
                   "cost": "105"
                 },
                 {
-				  "mount": 4,
+                  "mount": 4,
                   "cost": "130"
                 },
                 {
-				  "mount": 3,
+                  "mount": 3,
                   "cost": "135"
                 },
                 {
-				  "mount": 7,
+                  "mount": 7,
                   "cost": "145"
                 },
                 {
-				  "mount": 1,
+                  "mount": 1,
                   "cost": "205"
                 },
                 {
-				  "mount": 9,
+                  "mount": 9,
                   "cost": "460"
                 },
                 {
-				  "mount": 9,
+                  "mount": 9,
                   "cost": "580"
                 }]
             },
@@ -722,7 +722,7 @@
               "name": "Favour of the Dark Gods",
               "onechoice": true,
               "mandatory": false,
-              "type": "permodel"
+              "type": "permodel",
               "choices": [
                 {
                   "name": "Envy",
@@ -819,7 +819,7 @@
               "name": "Options",
               "onechoice": false,
               "choices": [
-			  {
+                {
                   "globalid": "101",
                   "name": "BSB",
                   "cost": 50,
@@ -889,7 +889,7 @@
               "mandatory": false,
               "choices": [
                 {
-				  "mount": 2,
+                  "mount": 2,
                   "cost": "350"
                 }]
             },
@@ -1051,27 +1051,27 @@
               "mandatory": false,
               "choices": [
                 {
-				  "mount": 3,
+                  "mount": 3,
                   "cost": "50"
                 },
                 {
-				  "mount": 4,
+                  "mount": 4,
                   "cost": "75"
                 },
                 {
-				  "mount": 7,
+                  "mount": 7,
                   "cost": "80"
                 },
                 {
-				  "mount": 8,
+                  "mount": 8,
                   "cost": "90"
                 },
                 {
-				  "mount": 2,
+                  "mount": 2,
                   "cost": "435"
                 },
                 {
-				  "mount": 9,
+                  "mount": 9,
                   "cost": "460"
                 }]
             }
@@ -1121,22 +1121,22 @@
               "name": "Options",
               "onechoice": false,
               "choices": [{
-                  "globalid": "101",
-                  "name": "BSB",
-                  "cost": 50,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": false
-                    },
-                    {
-                      "option": "101",
-                      "global": true,
-                      "exist": false
-                    }
-                  ]
-                },
+                "globalid": "101",
+                "name": "BSB",
+                "cost": 50,
+                "condition": [
+                  {
+                    "option": "102",
+                    "global": false,
+                    "exist": false
+                  },
+                  {
+                    "option": "101",
+                    "global": true,
+                    "exist": false
+                  }
+                ]
+              },
                 {
                   "globalid": "102",
                   "name": "general",
@@ -1194,27 +1194,27 @@
               "mandatory": false,
               "choices": [
                 {
-				  "mount": 6,
+                  "mount": 6,
                   "cost": "80"
                 },
                 {
-				  "mount": 8,
+                  "mount": 8,
                   "cost": "80"
                 },
                 {
-				  "mount": 3,
+                  "mount": 3,
                   "cost": "100"
                 },
                 {
-				  "mount": 4,
+                  "mount": 4,
                   "cost": "150"
                 },
                 {
-				  "mount": 1,
+                  "mount": 1,
                   "cost": "200"
                 },
                 {
-				  "mount": 2,
+                  "mount": 2,
                   "cost": "425"
                 }]
             },
@@ -1390,7 +1390,7 @@
                 {
                   "name": "Favoured Champion",
                   "cost": "30",
-				  "maxmodels": 20
+                  "maxmodels": 20
                 }
               ]
             },
@@ -1417,8 +1417,8 @@
             {
               "name": "Favour of the Dark Gods",
               "onechoice": true,
-              "mandatory": false,,
-              "type": "permodel"
+              "mandatory": false,
+              "type": "permodel",
               "choices": [
                 {
                   "name": "Envy",
@@ -1732,8 +1732,8 @@
             {
               "name": "Favour of the Dark Gods",
               "onechoice": true,
-              "mandatory": false,,
-              "type": "permodel"
+              "mandatory": false,
+              "type": "permodel",
               "choices": [
                 {
                   "name": "Envy",
@@ -1788,7 +1788,7 @@
           "name": "Warrior Chariot",
           "Base": "1",
           "size": "Large",
-		  "limitation": 4,
+          "limitation": 4,
           "type": "Construct",
           "cost": "220",
           "rules": [
@@ -1959,8 +1959,8 @@
             {
               "name": "Favour of the Dark Gods",
               "onechoice": true,
-              "mandatory": false,,
-              "type": "permodel"
+              "mandatory": false,
+              "type": "permodel",
               "choices": [
                 {
                   "name": "Envy",
@@ -2019,7 +2019,7 @@
           "unitsize": "3",
           "maxmodels": "2",
           "modelcost": "120",
-		  "maxarmymodels": 12,
+          "maxarmymodels": 12,
           "cost": "420",
           "rules": [
             {
@@ -2107,8 +2107,8 @@
             {
               "name": "Favour of the Dark Gods",
               "onechoice": true,
-              "mandatory": false,,
-              "type": "permodel"
+              "mandatory": false,
+              "type": "permodel",
               "choices": [
                 {
                   "name": "Envy",
@@ -2165,7 +2165,7 @@
           "size": "Large",
           "type": "Construct",
           "cost": "390",
-		  "limitation": 2,
+          "limitation": 2,
           "rules": [
             {
               "specialrules": [
@@ -2254,8 +2254,8 @@
             {
               "name": "Favour of the Dark Gods",
               "onechoice": true,
-              "mandatory": false,,
-              "type": "permodel"
+              "mandatory": false,
+              "type": "permodel",
               "choices": [
                 {
                   "name": "Envy",
@@ -2401,7 +2401,7 @@
           "type": "Infantry",
           "unitsize": "1",
           "maxmodels": "5",
-		  "limitation": 2,
+          "limitation": 2,
           "modelcost": "97",
           "cost": "130",
           "rules": [
@@ -2455,7 +2455,7 @@
         {
           "name": "Battleshrine",
           "Base": "1",
-		  "limitation": 2,
+          "limitation": 2,
           "size": "Large",
           "type": "Construct",
           "cost": "430",
@@ -2560,7 +2560,7 @@
           "type": "Cavalry",
           "unitsize": "5",
           "maxmodels": "10",
-		  "limitation": 4,
+          "limitation": 4,
           "modelcost": "25",
           "cost": "130",
           "rules": [
@@ -2683,7 +2683,7 @@
               "choices": [
                 {
                   "name": "Core (8+ models)",
-				  "category": "2",
+                  "category": "2",
                   "cost": "0"
                 }
               ],
@@ -2698,7 +2698,7 @@
           "type": "Cavalry",
           "unitsize": "5",
           "maxmodels": "5",
-		  "limitation": 4,
+          "limitation": 4,
           "modelcost": "25",
           "cost": "160",
           "rules": [
@@ -2822,7 +2822,7 @@
           "type": "Beast",
           "unitsize": "5",
           "maxmodels": "10",
-		  "limitation": 4,
+          "limitation": 4,
           "modelcost": "10",
           "cost": "100",
           "rules": [
@@ -2858,7 +2858,7 @@
               "choices": [
                 {
                   "name": "Core (8+ models)",
-				  "category": "2",
+                  "category": "2",
                   "cost": "0"
                 }
               ],
@@ -2953,7 +2953,7 @@
           "name": "Chimera",
           "Base": "1",
           "size": "Large",
-		  "limitation": 3,
+          "limitation": 3,
           "type": "Beast",
           "cost": "265",
           "rules": [
@@ -2993,7 +2993,7 @@
                 {
                   "name": "Wings",
                   "cost": "55",
-				  "maxmodels": 2
+                  "maxmodels": 2
                 }]
             }
           ]
@@ -3008,7 +3008,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Beast",
-		  "limitation": 2,
+          "limitation": 2,
           "cost": "410",
           "rules": [
             {
@@ -3058,7 +3058,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Infantry",
-		  "limitation": 3,
+          "limitation": 3,
           "cost": "270",
           "rules": [
             {
@@ -3116,7 +3116,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Beast",
-		  "limitation": 2,
+          "limitation": 2,
           "cost": "520",
           "rules": [
             {
@@ -3177,7 +3177,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Construct",
-		  "limitation": 2,
+          "limitation": 2,
           "cost": "340",
           "rules": [
             {
@@ -3222,12 +3222,12 @@
                 {
                   "name": "Ominous Gateway",
                   "cost": "50",
-				  "limitation": 2
+                  "limitation": 2
                 },
                 {
                   "name": "Ominous Gateways",
                   "cost": "75",
-				  "limitation": 1
+                  "limitation": 1
                 }
               ]
             }
