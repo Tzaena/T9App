@@ -181,7 +181,7 @@
     {
       "id": "3",
       "name": "Monstrous Rat",
-      "organisation": 5,
+      "category": 5,
       "rules": [
         {
           "specialrules": [
@@ -226,7 +226,7 @@
     {
       "id": "4",
       "name": "Doom Bell",
-      "organisation": 5,
+      "category": 5,
       "limitation": 1,
       "rules": [
         {
@@ -279,7 +279,7 @@
       "id": "5",
       "name": "Plague Pendulum",
       "limitation" : 1,
-      "organisation": 5,
+      "category": 5,
       "rules": [
         {
           "specialrules": [
@@ -391,7 +391,7 @@
           "size": "Gigantic ",
           "type": "Beast",
           "limitation" : 1,
-          "organisation": 5,
+          "category": 5,
           "cost": "800",
           "rules": [
             {
@@ -432,11 +432,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -839,7 +834,7 @@
               "mandatory": false,
               "choices": [
                 {
-                  "mount": "4",
+                  "mount": 4,
                   "cost": "360",
                   "condition": [
                     {
@@ -1153,7 +1148,7 @@
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Plague Pendulum",
+                  "mount": 5,
                   "cost": "410"
                 }
               ]
@@ -1230,7 +1225,14 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }]
             },
             {
@@ -1258,7 +1260,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -1320,7 +1323,14 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -1338,7 +1348,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -1403,7 +1414,14 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -1421,7 +1439,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -1530,7 +1549,14 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Vanguard",
@@ -1564,7 +1590,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -1579,8 +1606,8 @@
           "name": "Giant Rats",
           "Base": "1",
           "unitsize": "10",
-          "maxmodels": "9",
-          "modelcost": "60",
+          "maxmodels": "50",
+          "modelcost": "6",
           "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
@@ -1754,32 +1781,61 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 },
                 {
                   "name": "Naphta Launcher (4+)",
-                  "cost": "140"
+                  "cost": "140",
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Rotar Gun (4+)",
-                  "cost": "110"
+                  "cost": "110",
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Globe Launcher (4+)",
-                  "cost": "110"
+                  "cost": "110",
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Metal Grinder",
-                  "cost": "110"
+                  "cost": "110",
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
             {
-              "name": "Become Thunder Hulks",
+              "name": "Thunder Hulks",
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Become Thunder Hulks",
+                  "name": "Thunder Hulks",
                   "cost": "15"
                 }
               ],
@@ -1833,11 +1889,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -1896,11 +1947,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -2036,11 +2082,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Weapon",
               "onechoice": true,
               "mandatory": true,
@@ -2099,11 +2140,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -2156,11 +2192,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -2195,11 +2226,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Weapon",
               "onechoice": true,
@@ -2266,11 +2292,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         }
       ]
@@ -2321,11 +2342,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         }
       ]
