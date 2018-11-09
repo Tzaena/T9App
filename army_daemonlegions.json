@@ -1465,11 +1465,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Aspect: Far Seeing (Change General only)",
               "onechoice": false,
               "choices": [
@@ -1495,7 +1490,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Daemonic items",
+                  "cost": 200
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1568,7 +1576,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Daemonic items",
+                  "cost": 200
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1621,11 +1642,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Aspect: Contamination (Pestilence General only)",
               "onechoice": false,
               "choices": [
@@ -1650,7 +1666,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Daemonic items",
+                  "cost": 200
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1685,7 +1714,10 @@
                   "specialrule": "Magic Resistance  (1)"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "specialrule": "Blood Sword"
+                }],
               "ADV": "5",
               "MAR": "10",
               "Ld": "7",
@@ -1703,11 +1735,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Aspect: Onslaught (Wrath General only)",
               "onechoice": false,
               "choices": [
@@ -1723,10 +1750,6 @@
               "onechoice": true,
               "mandatory": true,
               "choices": [
-                {
-                  "name": "Blood Sword",
-                  "cost": "0"
-                },
                 {
                   "name": "Hell Axe",
                   "cost": "2"
@@ -1748,7 +1771,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid":"31"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Daemonic items",
+                  "cost": 200
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1802,11 +1838,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Alliance",
               "onechoice": true,
@@ -2047,11 +2078,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -2224,11 +2250,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Aspect: Clawed Caress",
               "onechoice": false,
               "choices": [
@@ -2253,7 +2274,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Daemonic items",
+                  "cost": 200
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -2306,11 +2340,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Aspect: Clawed Caress",
               "onechoice": false,
@@ -2716,11 +2745,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Aspect: Contamination",
               "onechoice": false,
               "choices": [
@@ -2785,11 +2809,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Aspect: Contamination",
               "onechoice": false,
@@ -2870,11 +2889,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Aspect: Contamination",
               "onechoice": false,
               "choices": [
@@ -2899,7 +2913,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Daemonic items",
+                  "cost": 200
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -2945,7 +2972,10 @@
                   "specialrule": "Restraints"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Blood Sword"
+                }],
               "ADV": "7",
               "MAR": "14",
               "Ld": "7",
@@ -2980,11 +3010,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Aspect: Onslaught ",
               "onechoice": false,
               "choices": [
@@ -2998,12 +3023,8 @@
             {
               "name": "Weapon",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
-                {
-                  "name": "Blood Sword",
-                  "cost": "0"
-                },
                 {
                   "name": "Hell Axe",
                   "cost": "10"
@@ -3025,7 +3046,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Daemonic items",
+                  "cost": 200
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -3074,11 +3108,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Ambush",
               "onechoice": false,
