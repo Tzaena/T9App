@@ -474,6 +474,9 @@
                 },
                 {
                   "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Wizard Apprentice"
                 }
               ],
               "equipments": [],
@@ -535,12 +538,8 @@
             {
               "name": "Wizard Level",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
-                {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
                 {
                   "name": "Wizard Adept",
                   "cost": "75"
@@ -617,38 +616,6 @@
                       "exist": true
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "mount": 1,
-                  "cost": "70"
-                },
-                {
-                  "mount": 2,
-                  "cost": "125"
-                },
-                {
-                  "mount": 3,
-                  "cost": "160"
-                },
-                {
-                  "mount": 4,
-                  "cost": "325",
-                  "globalid": "21"
-                },
-                {
-                  "mount": 5,
-                  "cost": "450"
-                },
-                {
-                  "mount": 6,
-                  "cost": "385"
                 }
               ]
             },
@@ -815,6 +782,38 @@
                   "name": "Von Karnstein",
                   "cost": "50",
                   "globalid": "55"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": 1,
+                  "cost": "70"
+                },
+                {
+                  "mount": 2,
+                  "cost": "125"
+                },
+                {
+                  "mount": 3,
+                  "cost": "160"
+                },
+                {
+                  "mount": 4,
+                  "cost": "325",
+                  "globalid": "21"
+                },
+                {
+                  "mount": 5,
+                  "cost": "450"
+                },
+                {
+                  "mount": 6,
+                  "cost": "385"
                 }
               ]
             }
@@ -1016,29 +1015,6 @@
               ]
             },
             {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "mount": 1,
-                  "cost": "65"
-                },
-                {
-                  "mount": 2,
-                  "cost": "110"
-                },
-                {
-                  "mount": 3,
-                  "cost": "140"
-                },
-                {
-                  "mount": 4,
-                  "cost": "325"
-                }
-              ]
-            },
-            {
               "name": "Path",
               "onechoice": true,
               "mandatory": true,
@@ -1201,6 +1177,29 @@
                   "name": "Von Karnstein",
                   "cost": "50",
                   "globalid": "55"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": 1,
+                  "cost": "65"
+                },
+                {
+                  "mount": 2,
+                  "cost": "110"
+                },
+                {
+                  "mount": 3,
+                  "cost": "140"
+                },
+                {
+                  "mount": 4,
+                  "cost": "325"
                 }
               ]
             }
@@ -1632,11 +1631,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         }
       ]
@@ -1687,11 +1681,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Command Group",
               "onechoice": true,
@@ -1765,7 +1754,14 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 100
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -1799,7 +1795,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -2077,7 +2074,14 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -2115,7 +2119,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -2213,7 +2218,14 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -2231,7 +2243,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -3248,7 +3261,14 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 100
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -3285,7 +3305,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -3343,11 +3364,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Melee Weapon",
               "onechoice": true,
@@ -3415,11 +3431,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
