@@ -184,7 +184,7 @@
     {
       "id": "2",
       "name": "Wasteland Behemoth",
-      "category": 4,
+      "category": "4",
       "limitation": 2,
       "rules": [
         {
@@ -1248,6 +1248,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Beast",
+		  "category": "4",
           "cost": "760",
           "rules": [
             {
@@ -1385,12 +1386,27 @@
                 {
                   "type": "magicitems",
                   "name": "Magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Favoured Champion",
                   "cost": "30",
-                  "maxmodels": 20
+				  "globalid": "33",
+                  "maxmodels": 20,
+                  "condition": [
+                    {
+                      "option": "32",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -1422,31 +1438,80 @@
               "choices": [
                 {
                   "name": "Envy",
-                  "cost": "6"
+                  "cost": "6",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Gluttony",
-                  "cost": "4"
+                  "cost": "4",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Greed",
-                  "cost": "8"
+                  "cost": "8",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Lust",
-                  "cost": "4"
+                  "cost": "4",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Pride",
-                  "cost": "2"
+                  "cost": "2",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Sloth",
-                  "cost": "10"
+                  "cost": "10",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Wrath",
-                  "cost": "8"
+                  "cost": "8",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }]
             },
             {
@@ -1455,7 +1520,8 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "32"
                 },
                 {
                   "name": "Musician",
@@ -1463,7 +1529,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -1512,16 +1579,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Fallen",
-                  "cost": "28"
-                }
-              ]
-            }
           ]
         },
         {
@@ -1572,13 +1629,16 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Barbarian",
-                  "cost": "11"
-                },
-                {
                   "type": "magicitems",
                   "name": "Magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -1620,7 +1680,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -1699,17 +1760,28 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Warrior Rider",
-                  "cost": "50"
-                },
-                {
                   "type": "magicitems",
                   "name": "Magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Favoured Champion",
-                  "cost": "50"
+                  "cost": "50",
+				  "globalid": "33",
+                  "condition": [
+                    {
+                      "option": "32",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -1737,31 +1809,80 @@
               "choices": [
                 {
                   "name": "Envy",
-                  "cost": "10"
+                  "cost": "10",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Gluttony",
-                  "cost": "9"
+                  "cost": "9",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Greed",
-                  "cost": "8"
+                  "cost": "8",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Lust",
-                  "cost": "10"
+                  "cost": "10",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Pride",
-                  "cost": "4"
+                  "cost": "4",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Sloth",
-                  "cost": "13"
+                  "cost": "13",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Wrath",
-                  "cost": "8"
+                  "cost": "8",
+                  "condition": [
+                    {
+                      "option": "33",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }]
             },
             {
@@ -1770,7 +1891,8 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "32"
                 },
                 {
                   "name": "Musician",
@@ -1778,7 +1900,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -1868,11 +1991,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -1926,13 +2044,16 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Chosen",
-                  "cost": "65"
-                },
-                {
                   "type": "magicitems",
                   "name": "Magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -1959,7 +2080,7 @@
             {
               "name": "Favour of the Dark Gods",
               "onechoice": true,
-              "mandatory": false,
+              "mandatory": true,
               "type": "permodel",
               "choices": [
                 {
@@ -2005,7 +2126,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -2083,13 +2205,16 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Chosen Rider",
-                  "cost": "120"
-                },
-                {
                   "type": "magicitems",
                   "name": "Magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -2107,7 +2232,7 @@
             {
               "name": "Favour of the Dark Gods",
               "onechoice": true,
-              "mandatory": false,
+              "mandatory": true,
               "type": "permodel",
               "choices": [
                 {
@@ -2153,7 +2278,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -2247,14 +2373,9 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Favour of the Dark Gods",
               "onechoice": true,
-              "mandatory": false,
+              "mandatory": true,
               "type": "permodel",
               "choices": [
                 {
@@ -2333,13 +2454,16 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Forsworn",
-                  "cost": "70"
-                },
-                {
                   "type": "magicitems",
                   "name": "Magic items",
-                  "cost": 200
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "31",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -2388,7 +2512,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -2619,10 +2744,6 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Barbarian Horseman",
-                  "cost": "25"
-                },
-                {
                   "type": "magicitems",
                   "name": "Magic items",
                   "cost": 200
@@ -2686,8 +2807,7 @@
                   "category": "2",
                   "cost": "0"
                 }
-              ],
-              "type": "permodel"
+              ]
             }
           ]
         },
@@ -2758,16 +2878,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Flayer",
-                  "cost": "25"
-                }
-              ]
-            },
-            {
               "name": "Shield",
               "onechoice": false,
               "choices": [
@@ -2789,7 +2899,8 @@
                 },
                 {
                   "name": "Skinning Lash",
-                  "cost": "10"
+                  "cost": "10",
+				  "maxarmymodels": 15
                 },
                 {
                   "name": "Throwing Weapons (5+)",
@@ -2993,7 +3104,8 @@
                 {
                   "name": "Wings",
                   "cost": "55",
-                  "maxmodels": 2
+                  "maxmodels": 2,
+					"category": "4"
                 }]
             }
           ]
@@ -3146,11 +3258,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Melee Weapon",
               "onechoice": true,
