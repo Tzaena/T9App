@@ -1138,11 +1138,25 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
+					  "condition": [
+						{
+						  "option": "31",
+						  "global": false,
+						  "exist": true
+						}
+					  ]
                 },
                 {
                   "name": "Totem Bearer",
-                  "cost": "15"
+                  "cost": "15",
+					  "condition": [
+						{
+						  "option": "32",
+						  "global": false,
+						  "exist": true
+						}
+					  ]
                 },
                 {
                   "name": "Ambush",
@@ -1186,7 +1200,8 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "32"
                 },
                 {
                   "name": "Musician",
@@ -1194,7 +1209,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -1257,11 +1273,25 @@
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
+					  "condition": [
+						{
+						  "option": "31",
+						  "global": false,
+						  "exist": true
+						}
+					  ]
                 },
                 {
                   "name": "Totem Bearer",
-                  "cost": "15"
+                  "cost": "15",
+					  "condition": [
+						{
+						  "option": "32",
+						  "global": false,
+						  "exist": true
+						}
+					  ]
                 },
                 {
                   "name": "Ambush",
@@ -1278,7 +1308,8 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "32"
                 },
                 {
                   "name": "Musician",
@@ -1286,7 +1317,8 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "31"
                 }
               ]
             }
@@ -1487,12 +1519,26 @@
               "choices": [
                 {
                   "name": "Torem Bearer",
-                  "cost": "15"
+                  "cost": "15",
+					  "condition": [
+						{
+						  "option": "32",
+						  "global": false,
+						  "exist": true
+						}
+					  ]
                 },
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
+					  "condition": [
+						{
+						  "option": "31",
+						  "global": false,
+						  "exist": true
+						}
+					  ]
                 }
               ]
             },
@@ -1514,7 +1560,8 @@
                   "choices": [
                     {
                       "name": "Champion",
-                      "cost": "20"
+                      "cost": "20",
+					  "globalid" : "32"
                     },
                     {
                       "name": "Musician",
@@ -1522,7 +1569,8 @@
                     },
                     {
                       "name": "Standard Bearer",
-                      "cost": "20"
+                      "cost": "20",
+					  "globalid": "31"
                     }
                   ]
                 }
@@ -1589,12 +1637,26 @@
                   "choices": [
                     {
                       "name": "Totem Bearer",
-                      "cost": "15"
+                      "cost": "15",
+					  "condition": [
+						{
+						  "option": "32",
+						  "global": false,
+						  "exist": true
+						}
+					  ]
                     },
                     {
                       "type": "magicitems",
                       "name": "magic items",
-                      "cost": 200
+                      "cost": 200,
+					  "condition": [
+						{
+						  "option": "31",
+						  "global": false,
+						  "exist": true
+						}
+					  ]
                     }
                   ]
                 },
@@ -1624,7 +1686,8 @@
                   "choices": [
                     {
                       "name": "Champion",
-                      "cost": "20"
+                      "cost": "20",
+					  "globalid": "32"
                     },
                     {
                       "name": "Musician",
@@ -1632,7 +1695,8 @@
                     },
                     {
                       "name": "Standard Bearer",
-                      "cost": "20"
+                      "cost": "20",
+					  "globalid": "31"
                     }
                   ]
                 }
@@ -1699,7 +1763,14 @@
                     {
                       "type": "magicitems",
                       "name": "magic items",
-                      "cost": 200
+                      "cost": 200,
+					  "condition": [
+						{
+						  "option": "31",
+						  "global": false,
+						  "exist": true
+						}
+					  ]
                     }
                   ]
                 },
@@ -1754,7 +1825,8 @@
                     },
                     {
                       "name": "Standard Bearer",
-                      "cost": "20"
+                      "cost": "20",
+					  "globalid": "31"
                     }
                   ]
                 }
@@ -1767,7 +1839,7 @@
               "limitation": 4,
               "type": "Construct",
               "unitsize": "1",
-              "maxmodels": "5",
+              "maxmodels": "2",
               "modelcost": "110",
               "cost": "110",
               "rules": [
@@ -1923,10 +1995,6 @@
                 }
               ],
               "options": [
-                {
-                  "name": "Options",
-                  "onechoice": false,
-                  "choices": []
                 }
               ]
             },
@@ -2096,11 +2164,6 @@
                 }
               ],
               "options": [
-                {
-                  "name": "Options",
-                  "onechoice": false,
-                  "choices": []
-                }
               ]
             },
             {
@@ -2109,7 +2172,10 @@
               "size": "Standard",
               "type": "Infantry",
               "limitation": 3,
-              "cost": "50",
+              "unitsize": "5",
+              "maxmodels": "5",
+              "modelcost": "17",
+              "cost": "135",
               "rules": [
                 {
                   "specialrules": [
@@ -2147,10 +2213,6 @@
                   "name": "Options",
                   "onechoice": false,
                   "choices": [
-                    {
-                      "name": "Gargoyle",
-                      "cost": "17"
-                    },
                     {
                       "name": "Scout",
                       "cost": "15"
@@ -2207,11 +2269,6 @@
                 }
               ],
               "options": [
-                {
-                  "name": "Options",
-                  "onechoice": false,
-                  "choices": []
-                }
               ]
             },
             {
@@ -2266,11 +2323,6 @@
                 }
               ],
               "options": [
-                {
-                  "name": "Options",
-                  "onechoice": false,
-                  "choices": []
-                }
               ]
             },
             {
@@ -2319,11 +2371,6 @@
                 }
               ],
               "options": [
-                {
-                  "name": "Options",
-                  "onechoice": false,
-                  "choices": []
-                }
               ]
             },
             {
