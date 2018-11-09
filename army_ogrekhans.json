@@ -9,7 +9,7 @@
     {
       "id": "2",
       "name": "Core",
-      "percent": 20,
+      "percent": 25,
       "type": "min"
     },
     {
@@ -20,445 +20,180 @@
     },
     {
       "id": "4",
-      "name": "Jungle Guerilla",
-      "percent": 30,
+      "name": "Powder Keg",
+      "percent": 35,
       "type": "max"
     },
     {
       "id": "5",
-      "name": "Thunder Lizards",
-      "percent": 35,
+      "name": "Chained Beasts",
+      "percent": 30,
       "type": "max"
     }
   ],
   "magicitems": {
     "weapons": [
       {
-        "name": "Glory of the Dawn Age",
+        "name": "Khagadai’s Legacy",
         "cost": 100,
-        "description": "Spear enchantment. Attacks made with this weapon gain +1 Strength, Magical Attacks, and Multiple Wounds (2)."
+        "description": "Great Weapon enchantment. Attacks made with this weapon gain Multiple Wounds (D3) and Magical Attacks."
       },
       {
-        "name": "Wildfire Burs",
+        "name": "Viper’s Curse",
         "cost": 55,
-        "description": "Bow enchantment. This weapon has Shots 4, Str 4, AP 1. Attacks made with this weapon gain Flaming Attacks and Magical Attacks. A unit that is hit by these attacks loses Soft Cover until the end of the Player Turn (if it had it). If the enemy unit was in Hard Cover, it is now considered to be in Soft Cover until the end of the Player Turn."
+        "description": "Brace of Ogre Pistols or Ogre Crossbow enchantment. This weapon has Shots 4, Str 4, and AP 2 (Range is dependent on which weapon is enchanted). This weapon also gains Poison Attacks and Magical Attacks (in case of Brace of Ogre Pistols, both of these also apply for Close Combat Attacks made with it). An enchanted Ogre Crossbow loses Penetrating. Shooting Attacks made with this weapon always hit on 4+."
+      },
+      {
+        "name": "Heart­Ripper ",
+        "cost": 50,
+        "description": "Iron Fist or Paired Weapons enchantment. Attacks made with this weapon gain Lethal Strike, Magical Attacks, +1 Armour Penetration, and can never hit on worse than 3+. "
+      },
+      {
+        "name": "Ritual Bloodletter ",
+        "cost": 30,
+        "description": "Hand Weapon, Paired Weapons, or Iron Fist enchantment. The wielder gains +1 Offensive Skill and +1 Attack Value while using this weapon. Attacks made with it gain Magical Attacks. For each unsaved wound inflicted with this weapon, the owner gains one Veil Token."
       }
     ],
     "armours": [
       {
-        "name": "Taurosaur's Vigour",
+        "name": "Wrestler’s Belt",
         "cost": 70,
-        "description": "Suit of Armour enchantment. The wearer gains +1 Armour, +1 Health Point, and Crush Attack."
+        "description": "Models on foot only. Light Armour enchantment. The wearer gains +2 Armour and +1 Strength." 
       },
       {
-        "name": "Serrate Scales",
+        "name": "Mammoth­Hide Cloak ",
         "cost": 50,
-        "description": "Shield enchantment. The bearer gains +2 Attack Value while using this Shield. The 2 Close Combat Attacks gained by this enchantment always have Strength 5 and Armour Penetration 2. These attacks do not benefit from any rules or bonuses granted by Weapon Enchantments"
+        "description": "Models on foot only. Suits of Armour enchantment. The wearer gains +1 Armour. Attacks against the wearer can never have a Strength above 5. "
+      },
+      {
+        "name": "Karkadan’s Resilience",
+        "cost": 45,
+        "description": "Suits of Armour enchantment. The wearer gains +1 Resilience but automatically fails all Special Saves."
+      },
+      {
+        "name": "Yeti Furs",
+        "cost": 40,
+        "description": "Suits of Armour enchantment. The wearer gains +1 Armour. All enemy model parts in units in base contact with the wearer suffer -1 Agility."
       }
     ],
     "artefacts": [
       {
-        "name": "Sphere of Shielding",
-        "cost": 100,
-        "description": "Models on Palanquin and Skink Palanquin only. The bearer gains Aegis (2+, against Ranged Attacks). The bearer may not take saves of any kind against Melee Attacks."
+        "name": "Lygur’s Tongue",
+        "cost": 60,
+        "description": "All enemy model parts in units in base contact with the bearer suffer -1 Attack Value."
       },
       {
-        "name": "Ancient Plaque",
-        "cost": 85,
-        "dominant" : 1,
-        "description": "Once per friendly Magic Phase, the bearer may reroll one Magic Dice that was used for a Casting Attempt. This ability cannot be used when the bearer is casting with only one Magic Dice, and cannot reroll a dice which is one, of three or more rolling the same value."
-      },
-      {
-        "name": "Starfall Shard ",
-        "cost": 70,
-        "description": "The bearer’s model gains Aegis (2+, against Flaming Attacks) and Hard Target, and cannot benefit from Regeneration."
-      },
-      {
-        "name": "Spirit of the Stampede",
-        "cost": 70,
-        "description": "The bearer’s mount gains Impact Hits (D6). If it already had Impact Hits, increase the number of Impact Hits by D6."
-      },
-      {
-        "name": "Jade Staff",
-        "cost": 55,
-        "description": "The bearer can cast Healing Waters from Druidism as a Bound Spell with Power Level (4/8)."
-      },
-      {
-        "name": "Raptor Spirit",
-        "cost": 65,
-        "description": "Models on foot only. The bearer gains +4 Advance Rate, +4 March Rate, and Swiftstride. This Artefact cannot be taken by a model with Ranger’s Boots."
-      },
-      {
-        "name": "Egg of the Quetza",
-        "cost": 45,
-        "description": "The bearer gains Breath Attack (Str D3+2, AP 1, Magical Attacks)."
-      },
-      {
-        "name": "Sun Tablet",
+        "name": "Aurochs Charm",
         "cost": 40,
-        "description": "The bearer can select its spells from the Learned Spells 1, 2, 3, 4, 5, and 6 of its chosen Path and the Hereditary Spell of its army. This overrides the normal Spell Selection rules connected to being a Wizard Apprentice/Adept. This Artefact cannot be combined with Protean Potentate."
+        "dominant" : 1,
+        "description": "The bearer gains Mountain Hide."
       },
       {
-        "name": "Obsidian Tesseract",
+        "name": "Rampager’s Chain",
         "cost": 35,
-        "description": "One use only. May be activated in the opponent's Magic Phase after Siphon the Veil. When activated, remove 1 Magic Dice from the opponent’s Magic Dice pool."
+        "description": "The bearer gains Stomp Attacks (D3+1), and all models in the bearer’s unit must reroll failed to-wound rolls with Stomp Attacks."
       }
     ],
     "standards": [
       {
-        "name": "Totem of Mixoatl",
+        "name": "Banner of the Gyengget",
         "cost": 75,
-        "description": "Cannot be taken by Core units. The bearer's unit gains Hard Target. One use only. May be activated at the start of a Round of Combat. Until the end of the Round of Combat, all enemy units Engaged with the bearer's unit suffer -3 Offensive Skill."
+        "description": "Cannot be taken by Core units All model parts in the bearer’s unit must reroll natural to-hit, to-wound, and Armour Save rolls of ‘1’ in the first Round of Combat (this includes Special Attacks). "
       },
       {
-        "name": "Tree Frog Banner",
-        "cost": 40,
-        "description": "Close Combat Attacks from Skink* model parts in the unit gain Poison Attacks."
+        "name": "Pennant of the Great Grass Sky",
+        "cost": 50,
+        "description": "The bearer’s unit gains Swiftstride."
+      },
+      {
+        "name": "Skull of Qenghet",
+        "cost": 20,
+        "description": "Models in the bearer’s unit gain Fear and automatically pass Panic Tests caused by Terror."
       }
     ]
   },
   "mounts": [
     {
       "id": "1",
-      "name": "Raptor",
-      "type": "3",
-      "size" : "1",
+      "name": "Tusker",
+      "type": "Cavalry",
+      "size" : "Large",
       "base": "2",
       "rules": [
         {
-          "name": "Raptor",
-          "ADV": "7",
+          "name": "Tusker",
+          "ADV": "8",
           "MAR": "14",
           "DEF": "C",
-          "OFF": "4",
+          "OFF": "3",
           "ARM": "C+2",
-          "AP": "1",
-          "S": "4",
+          "AP": "2",
+          "S": "5",
           "T": "C",
           "W": "C",
           "I": "2",
-          "A": "2",
+          "A": "4",
           "Ld": "C",
           "specialrules": [
             {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Impact Hits (D3)"
             }
           ],
           "equipments": [
-            {
-              "equipment": "Harnessed"
-            }
           ]
         }
       ]
     },
     {
       "id": "2",
-      "name": "Carnosaur",
-      "type": "3",
+      "name": "Rock Aurochs",
+      "type": "Beast",
       "base": "4",
-      "size" : "2",
+      "size" : "Gigantic",
+	  "limitation": 1,
       "category": "5",
       "rules": [
         {
-          "name": "Carnosaur",
+          "name": "Rock Aurochs",
           "ADV": "7",
           "MAR": "14",
           "DEF": "C",
           "OFF": "3",
-          "ARM": "C",
+          "ARM": "3",
           "AP": "3",
           "S": "6",
-          "T": "5",
-          "W": "4",
-          "I": "2",
-          "A": "4",
-          "Ld": "C",
-          "specialrules": [
-            {
-              "specialrule": "Born Predator"
-            },
-            {
-              "specialrule": "Frenzy"
-            },
-            {
-              "specialrule": "Towering Presence"
-            },
-            {
-              "specialrule": "Fear"
-            },
-            {
-              "specialrule": "Battle Focus"
-            },
-            {
-              "specialrule": "Multipole Wounds (2, against Large)"
-            },
-            {
-              "specialrule": "Harnessed"
-            }
-          ],
-          "equipments": [
-          ]
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Carnosaur Alpha",
-      "type": "2",
-      "size" : "3",
-      "base": "4",
-      "category": "5",
-      "rules": [
-        {
-          "name": "Carnosaur Alpha",
-          "ADV": "7",
-          "MAR": "14",
-          "DEF": "4",
-          "OFF": "4",
-          "ARM": "4",
-          "AP": "4",
-          "S": "7",
           "T": "6",
           "W": "6",
-          "I": "3",
+          "I": "2",
           "A": "5",
           "Ld": "C",
           "specialrules": [
             {
-              "specialrule": "Apex Predator"
-            },
-            {
-              "specialrule": "Multiple Wounds (D3)"
-            },
-            {
-              "specialrule": "Born Predator"
-            },
-            {
-              "specialrule": "Harnessed"
-            }
-          ],
-          "equipments": [
-          ]
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Alpha Teradon",
-      "category": "4",
-      "type": "3",
-      "size" : "2",
-      "categoryallunit": true,
-      "base": "3",
-      "rules": [
-        {
-          "name": "Alpha Pteradon",
-          "ADV": "2 (9)",
-          "MAR": "4 (18)",
-          "DEF": "C",
-          "OFF": "3",
-          "ARM": "C+1",
-          "AP": "1",
-          "S": "4",
-          "T": "3",
-          "W": "3",
-          "I": "2",
-          "A": "1",
-          "Ld": "C",
-          "specialrules": [
-            {
-              "specialrule": "Fly (9)"
-            },
-            {
-              "specialrule": "Hard Target"
-            },
-            {
-              "specialrule": "Strider (Forest)"
-            },
-            {
-              "specialrule": "Release Rocks"
-            },
-            {
-              "specialrule": "Vanguard"
-            },
-            {
-              "specialrule": "Harnessed"
-            }
-          ],
-          "equipments": [
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Alpha Rhamphodon",
-      "category": "4",
-      "type": "3",
-      "size" : "2",
-      "base": "3",
-      "categoryallunit": true,
-      "rules": [
-        {
-          "name": "Alpha Rhamphodon",
-          "ADV": "2 (8)",
-          "MAR": "4 (16)",
-          "DEF": "C",
-          "OFF": "3",
-          "ARM": "C+1",
-          "AP": "2",
-          "S": "4",
-          "T": "3",
-          "W": "3",
-          "I": "4",
-          "A": "2",
-          "Ld": "C",
-          "specialrules": [
-            {
-              "specialrule": "Fly (8)"
-            },
-            {
-              "specialrule": "Hard Target"
-            },
-            {
-              "specialrule": "Strider (Forest)"
-            },
-            {
-              "specialrule": "Vanguard"
-            },
-            {
               "specialrule": "Frenzy"
+            },
+            {
+              "specialrule": "Mountain Hide"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Impact Hits (3D3)"
             },
             {
               "specialrule": "Battle Focus"
             },
             {
-              "specialrule": "Lethal Strike"
+              "specialrule": "Devastating Charge (+1 Str, +1 AP)"
             },
             {
-              "specialrule": "Prey Scent"
-            },
-            {
-              "specialrule": "Harnessed"
-            }
-          ],
-          "equipments": [
-          ]
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Taurosaur",
-      "category": "5",
-      "globalid": "21",
-      "limitation": 1,
-      "type": "2",
-      "size" : "3",
-      "base": "4",
-      "rules": [
-        {
-          "name": "Skink Crew (5)",
-          "ADV": "-",
-          "MAR": "-",
-          "DEF": "-",
-          "OFF": "2",
-          "ARM": "-",
-          "AP": "0",
-          "S": "3",
-          "T": "-",
-          "W": "-",
-          "I": "4",
-          "A": "1",
-          "Ld": "-",
-          "specialrules": [
-          ],
-          "equipments": [
-            {
-              "equipment": "Poisoned Javelin"
-            }
-          ]
-        },
-        {
-          "name": "Taurosaur",
-          "ADV": "6",
-          "MAR": "10",
-          "DEF": "3",
-          "OFF": "3",
-          "ARM": "4",
-          "AP": "3",
-          "S": "6",
-          "T": "6",
-          "W": "6",
-          "I": "2",
-          "A": "4",
-          "Ld": "C",
-          "specialrules": [
-            {
-              "specialrule": "Cold Blooded"
-            },
-            {
-              "specialrule": "Immune to Psychology"
-            },
-            {
-              "specialrule": "Stubborn"
-            },
-            {
-              "specialrule": "Impact Hits (D6+1)"
-            },
-            {
-              "specialrule": "Devastating Charge (+1 Att)"
-            },
-            {
-              "specialrule": "Sharp Horns"
-            },
-            {
-              "specialrule": "Harnessed"
-            }
-          ],
-          "equipments": [
-            {
-              "equipment": "Giant Blowpipe (3+)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Skink Palanquin",
-      "category": "1",
-      "globalid": "22",
-      "type": "1",
-      "size" : "1",
-      "base": "7",
-      "rules": [
-        {
-          "name": "Palanquin",
-          "ADV": "6",
-          "MAR": "12",
-          "DEF": "C",
-          "OFF": "-",
-          "ARM": "C+1",
-          "AP": "-",
-          "S": "-",
-          "T": "3",
-          "W": "3",
-          "I": "-",
-          "A": "-",
-          "Ld": "C",
-          "specialrules": [
-            {
-              "specialrule": "Skink Palanquin"
-            },
-            {
-              "specialrule": "Tall"
-            },
-            {
-              "specialrule": "Inenimate"
-            },
-            {
-              "specialrule": "Harnessed"
+              "specialrule": "Living Avalanche"
             }
           ],
           "equipments": [
@@ -496,7 +231,10 @@
                   "specialrule": "Sons of the Avalanche"
                 }
               ],
-              "equipments": []
+              "equipments": [
+                {
+                  "equipments": "Light Armour"
+                }]
             }
           ],
           "options": [
@@ -505,8 +243,26 @@
               "onechoice": "false",
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200
                 }
               ]
             },
@@ -515,10 +271,6 @@
               "onechoice": "false",
               "choices": [
                 {
-                  "name": "Light Armour",
-                  "cost": "0"
-                },
-                {
                   "name": "Heavy Armour",
                   "cost": "15"
                 }
@@ -526,7 +278,7 @@
             },
             {
               "name": "Shooting Weapon",
-              "onechoice": "false",
+              "onechoice": "true",
               "choices": [
                 {
                   "name": "Brace of Ogre Pistols (4+)",
@@ -540,7 +292,7 @@
             },
             {
               "name": "Melee Weapon",
-              "onechoice": "false",
+              "onechoice": "true",
               "choices": [
                 {
                   "name": "Paired Weapons",
@@ -553,6 +305,84 @@
                 {
                   "name": "Great Weapon",
                   "cost": "30"
+                }
+              ]
+            },
+            {
+              "name": "Big Name",
+              "onechoice": "true",
+              "choices": [
+                {
+                  "name": "Trolleater (Foot only)",
+                  "cost": "85",
+				  "globalid": "301",
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Hoardmaster",
+                  "cost": "60",
+				  "globalid": "302",
+                  "condition": [
+                    {
+                      "option": "302",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Headhunter",
+                  "cost": "50",
+				  "globalid": "303",
+                  "condition": [
+                    {
+                      "option": "303",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Cult Leader (BSB and General)",
+                  "cost": "50",
+				  "globalid": "304",
+                  "condition": [
+                    {
+                      "option": "304",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Spinesplitter (Foot)",
+                  "cost": "35",
+				  "globalid": "308",
+                  "condition": [
+                    {
+                      "option": "308",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Rottenjaw",
+                  "cost": "35",
+				  "globalid": "309",
+                  "condition": [
+                    {
+                      "option": "309",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 }
               ]
             }
@@ -586,17 +416,54 @@
                   "specialrule": "Scrapling Lookout"
                 }
               ],
-              "equipments": []
+              "equipments": [
+                {
+                  "equipments": "Light Armour"
+                }]
             }
           ],
           "options": [
             {
               "name": "Options",
               "onechoice": "false",
-              "choices": [
+              "choices": [{
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100
                 }
               ]
             },
@@ -605,10 +472,6 @@
               "onechoice": "false",
               "choices": [
                 {
-                  "name": "Light Armour",
-                  "cost": "0"
-                },
-                {
                   "name": "Heavy Armour",
                   "cost": "10"
                 }
@@ -616,7 +479,7 @@
             },
             {
               "name": "Shooting Weapon",
-              "onechoice": "false",
+              "onechoice": "true",
               "choices": [
                 {
                   "name": "Brace of Ogre Pistols (4+)",
@@ -630,7 +493,7 @@
             },
             {
               "name": "Melee Weapon",
-              "onechoice": "false",
+              "onechoice": "true",
               "choices": [
                 {
                   "name": "Paired Weapons",
@@ -643,6 +506,84 @@
                 {
                   "name": "Great Weapon",
                   "cost": "25"
+                }
+              ]
+            },
+            {
+              "name": "Big Name",
+              "onechoice": "true",
+              "choices": [
+                {
+                  "name": "Trolleater (Foot only)",
+                  "cost": "85",
+				  "globalid": "301",
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Hoardmaster",
+                  "cost": "60",
+				  "globalid": "302",
+                  "condition": [
+                    {
+                      "option": "302",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Headhunter",
+                  "cost": "50",
+				  "globalid": "303",
+                  "condition": [
+                    {
+                      "option": "303",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Cult Leader (BSB and General)",
+                  "cost": "50",
+				  "globalid": "304",
+                  "condition": [
+                    {
+                      "option": "304",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Spinesplitter (Foot)",
+                  "cost": "35",
+				  "globalid": "308",
+                  "condition": [
+                    {
+                      "option": "308",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Rottenjaw",
+                  "cost": "35",
+				  "globalid": "309",
+                  "condition": [
+                    {
+                      "option": "309",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 }
               ]
             }
@@ -671,6 +612,9 @@
               "specialrules": [
                 {
                   "specialrule": "Sons of the Avalanche"
+                },
+                {
+                  "specialrule": "Wizard Apprentice"
                 }
               ],
               "equipments": []
@@ -686,32 +630,67 @@
                   "cost": "5"
                 },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Wizard Level",
-              "onechoice": "false",
+              "onechoice": "true",
               "choices": [
-                {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
                 {
                   "name": "Wizard Adept",
                   "cost": "75"
                 },
                 {
                   "name": "Wizard Master",
-                  "cost": "225"
+                  "cost": "225",
+				  "globalid": "11"
                 }
               ]
             },
             {
               "name": "Path",
-              "onechoice": "false",
+              "onechoice": "true",
+              "mandatory": "true",
               "choices": [
                 {
                   "name": "Shamanism",
@@ -729,7 +708,7 @@
             },
             {
               "name": "Melee Weapon",
-              "onechoice": "false",
+              "onechoice": "true",
               "choices": [
                 {
                   "name": "Paired Weapons",
@@ -746,12 +725,92 @@
               ]
             },
             {
-              "name": "Big Names",
-              "onechoice": "false",
+              "name": "Big Name",
+              "onechoice": "true",
               "choices": [
                 {
-                  "name": "Firebrand",
-                  "cost": "60"
+                  "name": "Trolleater (Foot)",
+                  "cost": "85",
+				  "globalid": "301",
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Headhunter",
+                  "cost": "50",
+				  "globalid": "303",
+                  "condition": [
+                    {
+                      "option": "303",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Cult Leader (BSB and General)",
+                  "cost": "50",
+				  "globalid": "304",
+                  "condition": [
+                    {
+                      "option": "304",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Firebrand (Pyromancy)",
+                  "cost": "60",
+				  "globalid": "305",
+                  "condition": [
+                    {
+                      "option": "305",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Gut Roarer",
+                  "cost": "45",
+				  "globalid": "306",
+                  "condition": [
+                    {
+                      "option": "306",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Spinesplitter (Foot)",
+                  "cost": "35",
+				  "globalid": "308",
+                  "condition": [
+                    {
+                      "option": "308",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Rottenjaw",
+                  "cost": "35",
+				  "globalid": "309",
+                  "condition": [
+                    {
+                      "option": "309",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 }
               ]
             }
@@ -800,6 +859,9 @@
               "equipments": [
                 {
                   "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Hunter Spear (2+)"
                 }
               ]
             }
@@ -808,10 +870,34 @@
             {
               "name": "Options",
               "onechoice": "false",
-              "choices": [
+              "choices": [{
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
                   "name": "Leader of the Pack",
@@ -820,13 +906,9 @@
               ]
             },
             {
-              "name": "Ranged Weapon",
+              "name": "Replace Spear",
               "onechoice": "false",
               "choices": [
-                {
-                  "name": "Hunting Spear (2+)",
-                  "cost": "0"
-                },
                 {
                   "name": "Ogre Crossbow (2+)",
                   "cost": "0"
@@ -835,7 +917,7 @@
             },
             {
               "name": "Melee Weapon",
-              "onechoice": "false",
+              "onechoice": "true",
               "choices": [
                 {
                   "name": "Paired Weapons",
@@ -857,7 +939,7 @@
             },
             {
               "name": "Options",
-              "onechoice": "false",
+              "onechoice": "true",
               "choices": [
                 {
                   "name": "Vanguard",
@@ -866,14 +948,100 @@
                 {
                   "name": "Scout",
                   "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": "true",
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": 100
                 },
                 {
-                  "name": "Tusker (lose Light Troops)",
-                  "cost": "100"
+                  "mount": "2",
+                  "category": "5",
+                  "cost": 380,
+				  "limitation": 1
+                }
+              ]
+            },
+            {
+              "name": "Big Name",
+              "onechoice": "true",
+              "choices": [
+                {
+                  "name": "Trolleater (Foot)",
+                  "cost": "85",
+				  "globalid": "301",
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Rock Auroch (lose Light Troops)",
-                  "cost": "380"
+                  "name": "Headhunter",
+                  "cost": "50",
+				  "globalid": "303",
+                  "condition": [
+                    {
+                      "option": "303",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Cult Leader (BSB and General)",
+                  "cost": "50",
+				  "globalid": "304",
+                  "condition": [
+                    {
+                      "option": "304",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Wildheart",
+                  "cost": "45",
+				  "globalid": "307",
+                  "condition": [
+                    {
+                      "option": "307",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Spinesplitter (Foot)",
+                  "cost": "35",
+				  "globalid": "308",
+                  "condition": [
+                    {
+                      "option": "308",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Rottenjaw",
+                  "cost": "35",
+				  "globalid": "309",
+                  "condition": [
+                    {
+                      "option": "309",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 }
               ]
             }
@@ -888,7 +1056,11 @@
           "name": "Tribesmen",
           "size": "Large",
           "type": "Infantry",
-          "cost": "-5",
+          "unitsize": 3,
+		  "limitation": 4,
+          "modelcost": 55,
+          "maxmodels": 10,
+          "cost": "160",
           "rules": [
             {
               "name": "Tribesmen",
@@ -906,6 +1078,9 @@
               "equipments": [
                 {
                   "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Paired Weapons"
                 }
               ],
               "ADV": "6",
@@ -928,22 +1103,40 @@
               "onechoice": "false",
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Weapon",
               "onechoice": "false",
+              "type": "permodel",
               "choices": [
                 {
-                  "name": "Paired Weapons",
-                  "cost": "0"
-                },
-                {
                   "name": "Iron Fist",
-                  "cost": "0"
+                  "cost": "10"
                 }
               ]
             }
@@ -953,7 +1146,11 @@
           "name": "Bruisers",
           "size": "Large",
           "type": "Infantry",
-          "cost": "-50",
+          "unitsize": 3,
+		  "limitation": 4,
+          "modelcost": 80,
+          "maxmodels": 9,
+          "cost": "190",
           "rules": [
             {
               "name": "Bruisers",
@@ -996,8 +1193,29 @@
               "onechoice": "false",
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1007,7 +1225,11 @@
           "name": "Scraplings",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "15",
+          "unitsize": 20,
+		  "limitation": 4,
+          "modelcost": 5,
+          "maxmodels": 40,
+          "cost": "115",
           "rules": [
             {
               "name": "Scraplings",
@@ -1019,7 +1241,10 @@
                   "specialrule": "Scoring"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Throwing Weapons"
+                }],
               "ADV": "4",
               "MAR": "8",
               "Ld": "6",
@@ -1036,19 +1261,35 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": "false",
-              "choices": [
-                {}
-              ]
-            },
-            {
               "name": "Command Group",
               "onechoice": "false",
               "choices": [
                 {
                   "name": "Scrapling Foreman",
-                  "cost": "30"
+                  "cost": "30",
+				  "globalid": "99"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": 4,
+                  "condition": [
+                    {
+                      "option": "99",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": 4,
+                  "condition": [
+                    {
+                      "option": "99",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Musician",
@@ -1061,63 +1302,22 @@
               ]
             },
             {
-              "name": "Options",
-              "onechoice": "false",
+              "name": "Replace Throwing Weapons",
+              "onechoice": "true",
+              "type": "permodel",
               "choices": [
                 {
-                  "name": "Throwing Weapons (5+)",
-                  "cost": "0"
-                },
-                {
                   "name": "Bow (4+)",
-                  "cost": "0"
+                  "cost": "2"
                 },
                 {
                   "name": "Shield",
-                  "cost": "0"
+                  "cost": "2"
                 },
                 {
                   "name": "Spear",
-                  "cost": "0"
+                  "cost": "1"
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Sabretooth Tigers - Core",
-          "size": "Standard",
-          "type": "Beast",
-          "cost": "53",
-          "rules": [
-            {
-              "name": "Sabretooth Tigers - Core",
-              "specialrules": [
-                {
-                  "specialrule": "Insignificant"
-                }
-              ],
-              "equipments": [],
-              "ADV": "8",
-              "MAR": "16",
-              "Ld": "5",
-              "W": "2",
-              "DEF": "4",
-              "T": "4",
-              "ARM": "0",
-              "A": "3",
-              "OFF": "4",
-              "S": "4",
-              "AP": "1",
-              "I": "4"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": "false",
-              "choices": [
-                {}
               ]
             }
           ]
@@ -1129,7 +1329,10 @@
       "units": [
         {
           "name": "Mercenary Veterans",
-          "cost": "-55",
+          "unitsize": 3,
+          "modelcost": 105,
+          "maxmodels": 8,
+          "cost": "260",
           "size": "Large ",
           "type": "Infantry",
           "rules": [
@@ -1171,34 +1374,58 @@
               "onechoice": "false",
               "choices": [
                 {
-                  "name": "Mercenary Veteran",
-                  "cost": "105"
+                  "name": "Champion",
+                  "cost": 20
                 },
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Weapon",
               "onechoice": "false",
+              "type": "permodel",
               "choices": [
                 {
                   "name": "Paired Weapons",
-                  "cost": "0"
+                  "cost": "8"
+                },
+                {
+                  "name": "Brace of Pistols (4+)",
+                  "cost": "25",
+				  "maxmodels": 6,
+				  "category": "4"
                 },
                 {
                   "name": "Halberd",
-                  "cost": "0"
+                  "cost": "12"
                 },
                 {
                   "name": "Great Weapons",
-                  "cost": "0"
+                  "cost": "8"
                 },
                 {
                   "name": "Iron Fist",
-                  "cost": "0"
+                  "cost": "12"
                 }
               ]
             },
@@ -1246,7 +1473,11 @@
           "name": "Tusker Cavalry",
           "size": "Large",
           "type": "Cavalry",
-          "cost": "15",
+          "unitsize": 3,
+		  "limitation": 3,
+          "modelcost": 140,
+          "maxmodels": 5,
+          "cost": "435",
           "rules": [
             {
               "name": "Tusker Cavalry",
@@ -1289,22 +1520,44 @@
               "onechoice": "false",
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Melee Weapon",
               "onechoice": "false",
+              "type": "permodel",
               "choices": [
                 {
                   "name": "Great Weapon",
-                  "cost": "0"
+                  "cost": "15"
                 },
                 {
                   "name": "Paired Weapon",
-                  "cost": "0"
+                  "cost": "5"
                 }
               ]
             }
@@ -1314,7 +1567,10 @@
           "name": "Yetis",
           "size": "Large",
           "type": "Infantry",
-          "cost": "35",
+          "unitsize": 2,
+          "modelcost": 70,
+          "maxmodels": 6,
+          "cost": "175",
           "rules": [
             {
               "name": "Yetis",
@@ -1371,7 +1627,11 @@
           "name": "Scrapling Trappers",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "30",
+          "unitsize": 5,
+          "modelcost": 10,
+		  "limitation": 3,
+          "maxmodels": 10,
+          "cost": "80",
           "rules": [
             {
               "name": "Scrapling Trappers",
@@ -1425,13 +1685,17 @@
           ]
         },
         {
-          "name": "Sabretooth Tigers - Special",
+          "name": "Sabretooth Tigers",
           "size": "Standard",
           "type": "Beast",
-          "cost": "53",
+		  "limitation": 3,
+          "unitsize": 1,
+          "modelcost": 27,
+          "maxmodels": 20,
+          "cost": "80",
           "rules": [
             {
-              "name": "Sabretooth Tigers - Special",
+              "name": "Sabretooth Tigers",
               "specialrules": [
                 {
                   "specialrule": "Insignificant"
@@ -1454,10 +1718,14 @@
           ],
           "options": [
             {
-              "name": "Options",
+              "name": "Core",
               "onechoice": "false",
               "choices": [
-                {}
+                
+                {
+                  "name": "Core (8+ models)",
+                  "cost": 0
+                }
               ]
             }
           ]
@@ -1465,6 +1733,7 @@
         {
           "name": "Kin-Eater",
           "size": "Large ",
+		  "limitation": 3,
           "type": "Infantry",
           "cost": "175",
           "rules": [
@@ -1503,11 +1772,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": "false",
-              "choices": []
-            }
           ]
         }
       ]
@@ -1518,6 +1782,7 @@
         {
           "name": "Thunder Cannon",
           "size": "Large",
+		  "limitation": 2,
           "type": "Construct",
           "cost": "320",
           "rules": [
@@ -1553,17 +1818,13 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": "false",
-              "choices": []
-            }
           ]
         },
         {
           "name": "Scratapult",
           "size": "Large",
           "type": "Construct",
+		  "limitation": 3,
           "cost": "245",
           "rules": [
             {
@@ -1601,18 +1862,17 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": "false",
-              "choices": []
-            }
           ]
         },
         {
           "name": "Bombardiers",
           "size": "Large",
           "type": "Infantry",
-          "cost": "-24",
+		  "limitation": 3,
+          "unitsize": 3,
+          "modelcost": 78,
+          "maxmodels": 8,
+          "cost": "210",
           "rules": [
             {
               "name": "Bombardiers",
@@ -1652,8 +1912,29 @@
               "onechoice": "false",
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "name": "Champion",
+                  "cost": 20
+                },
+                {
+                  "name": "Musician",
+                  "cost": 20
+                },
+                {
+                  "globalid": "100",
+                  "name": "Standard Bearer",
+                  "cost": 20
+                },
+                {
+                  "type": "magicitems",
+                  "name": "magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "100",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1668,6 +1949,7 @@
           "name": "Rock Aurochs",
           "size": "Gigantic",
           "type": "Beast",
+		  "limitation": 2,
           "cost": "475",
           "rules": [
             {
@@ -1707,23 +1989,17 @@
                   "specialrule": "Devastating Charge"
                 }
               ],
-              "equipments": []
+              "equipments": [
+                {
+                  "equipment": "Ogre Crossbow (3+)"
+                }]
             }
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": "false",
-              "choices": []
-            },
-            {
               "name": "Weapon",
-              "onechoice": "false",
+              "onechoice": "true",
               "choices": [
-                {
-                  "name": "Ogre Crossbow (3+)",
-                  "cost": "0"
-                },
                 {
                   "name": "Hunting Spear (3+)",
                   "cost": "0"
@@ -1740,6 +2016,7 @@
           "name": "Frost Mammoth",
           "size": "Gigantic",
           "type": "Beast",
+		  "limitation": 3,
           "cost": "430",
           "rules": [
             {
@@ -1773,23 +2050,17 @@
                   "specialrule": "Battle Focus"
                 }
               ],
-              "equipments": []
+              "equipments": [
+                {
+                  "equipment": "Ogre Crossbow (3+)"
+                }]
             }
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": "false",
-              "choices": []
-            },
-            {
               "name": "Weapon",
               "onechoice": "false",
               "choices": [
-                {
-                  "name": "Ogre Crossbow (3+)",
-                  "cost": "0"
-                },
                 {
                   "name": "Hunting Spear (3+)",
                   "cost": "0"
@@ -1801,6 +2072,7 @@
         {
           "name": "Slave Giant",
           "size": "Gigantic ",
+		  "limitation": 3,
           "type": "Infantry",
           "cost": "270",
           "rules": [
@@ -1830,11 +2102,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": "false",
-              "choices": []
-            },
             {
               "name": "Weapon",
               "onechoice": "false",
