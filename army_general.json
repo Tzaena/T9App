@@ -81,7 +81,7 @@
     {
       "id": "3",
       "name": "Counterthrust",
-      "description":"Deployment Zones are areas more than 8″ away from the Centre Line. Units must be deployed more than 20' away from enemy units. Units using Special Deployment, such as Scout, ignore these rules. During their first 3 deployment turns, each player must deploy a single unit, and cannot deploy any Characters.",
+      "description":"Deployment Zones are areas more than 8' away from the Centre Line. Units must be deployed more than 20' away from enemy units. Units using Special Deployment, such as Scout, ignore these rules. During their first 3 deployment turns, each player must deploy a single unit, and cannot deploy any Characters.",
       "image": "counterthrust"
     },
     {
