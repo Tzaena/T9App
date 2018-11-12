@@ -763,12 +763,38 @@
                   ]
                 },
                 {
-                  "name": "Battle Runes",
+                  "name": "Rune of Resonance",
+                  "cost": "50"
+                }
+              ]
+            },
+            {
+              "name": "Battle Runes (max 3)",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Rune of Revocation",
                   "cost": "20"
                 },
                 {
-                  "name": "Rune of Resonance",
-                  "cost": "50"
+                  "name": "Rune of Reckoning",
+                  "cost": "20"
+                },
+                {
+                  "name": "Rune of Oaths",
+                  "cost": "20"
+                },
+                {
+                  "name": "Rune of Resolve",
+                  "cost": "20"
+                },
+                {
+                  "name": "Rune of Gleaming",
+                  "cost": "20"
+                },
+                {
+                  "name": "Rune of Resilience",
+                  "cost": "20"
                 }
               ]
             }
@@ -780,6 +806,7 @@
           "size": "Standard",
           "type": "Infantry",
 		  "limitation": 2,
+		  "category": "5",
           "cost": "125",
           "rules": [
             {
@@ -842,7 +869,7 @@
                 {
                   "type": "magicitems",
                   "name": "Runic items",
-                  "cost": 200
+                  "cost": 100
                 },
                 {
                   "name": "Ancestral Memory",
@@ -951,11 +978,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         }
       ]
@@ -1006,17 +1028,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "type": "magicitems",
-                  "name": "Runic items",
-                  "cost": 200
-                }
-				]
-            },
             {
               "name": "Vanguard",
               "onechoice": false,
@@ -1079,7 +1090,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1135,17 +1159,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "type": "magicitems",
-                  "name": "Runic items",
-                  "cost": 200
-                }
-				]
-            },
-            {
               "name": "Vanguard",
               "onechoice": false,
               "choices": [
@@ -1191,7 +1204,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1205,6 +1231,7 @@
           "modelcost": "19",
           "size": "Standard",
 		  "limitation": 4,
+		  "category": 4,
           "type": "Infantry",
           "cost": "200",
           "rules": [
@@ -1244,24 +1271,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "type": "magicitems",
-                  "name": "Runic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "11",
-                      "global": false,
-                      "exist": false
-                    }
-                  ]
-                }
-				]
-            },
             {
               "name": "Shield",
               "onechoice": false,
@@ -1304,7 +1313,25 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    },
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
                 }
               ]
             }
@@ -1368,17 +1395,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "type": "magicitems",
-                  "name": "Runic items",
-                  "cost": 200
-                }
-              ]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1392,7 +1408,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1449,17 +1478,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "type": "magicitems",
-                  "name": "Runic items",
-                  "cost": 200
-                }
-              ]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1473,7 +1491,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1546,12 +1577,12 @@
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": "4",
-				  "organisation": "4"
+				  "category": "4"
                 },
                 {
                   "name": "Pistol (4+)",
                   "cost": "5",
-				  "organisation": "4"
+				  "category": "4"
                 }
               ],
               "type": "permodel"
@@ -1632,7 +1663,8 @@
               "choices": [
                 {
                   "name": "Skirmishers and lose Scoring",
-                  "cost": "2"
+                  "cost": "2",
+				  "maxmodels": 15
                 },
                 {
                   "name": "Shields",
@@ -1649,14 +1681,12 @@
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": "1",
-				  "organisation": 4,
-				  "maxmodels": 15
+				  "category": 4
                 },
                 {
                   "name": "Crossbow (3+)",
                   "cost": "4",
-				  "organisation": 4,
-				  "maxmodels": 15
+				  "category": 4
                 }
               ],
               "type": "permodel"
@@ -1754,11 +1784,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Vanguard",
               "onechoice": false,
               "choices": [
@@ -1844,11 +1869,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -1899,17 +1919,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "type": "magicitems",
-                  "name": "Runic items",
-                  "cost": 200
-                }
-              ]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1924,6 +1933,23 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1993,11 +2019,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         }
       ]
@@ -2013,6 +2034,7 @@
           "modelcost": "24",
           "size": "Standard",
           "type": "Infantry",
+		  "maxarmymodels": 30,
           "cost": "240",
           "rules": [
             {
@@ -2049,17 +2071,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "type": "magicitems",
-                  "name": "Runic items",
-                  "cost": 200
-                }
-              ]
-            },
-            {
               "name": "Limitation",
               "mandatory": true,
               "onechoice": true,
@@ -2085,7 +2096,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Runic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -2218,27 +2242,32 @@
                 {
                   "name": "Dwarf Ballista (4+)",
                   "cost": "105",
-				  "globalid": "21"
+				  "globalid": "21",
+				  "limitation": 4
                 },
                 {
                   "name": "Flame Cannon",
                   "cost": "150",
-				  "globalid": "22"
+				  "globalid": "22",
+				  "limitation": 2
                 },
                 {
                   "name": "Catapult (4+)",
                   "cost": "210",
-				  "globalid": "23"
+				  "globalid": "23",
+				  "limitation": 2
                 },
                 {
                   "name": "Cannon (4+)",
                   "cost": "255",
-				  "globalid": "24"
+				  "globalid": "24",
+				  "limitation": 2
                 },
                 {
                   "name": "Organ Gun (4+)",
                   "cost": "270",
-				  "globalid": "25"
+				  "globalid": "25",
+				  "limitation": 2
                 }
               ]
             },
