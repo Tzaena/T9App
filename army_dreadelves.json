@@ -311,7 +311,7 @@
     {
       "id": "5",
       "name": "Manticore",
-	  "category": "6",
+      "category": "6",
       "rules": [
         {
           "specialrules": [
@@ -356,8 +356,8 @@
     {
       "id": "6",
       "name": "Dragon",
-	  "category": "6",
-	  "limitation": 1,
+      "category": "6",
+      "limitation": 1,
       "rules": [
         {
           "specialrules": [
@@ -393,7 +393,7 @@
     {
       "id": "7",
       "name": "Divine Altar",
-	  "limitation": 1,
+      "limitation": 1,
       "rules": [
         {
           "specialrules": [
@@ -618,7 +618,7 @@
                 {
                   "name": "Cult of Cadaron",
                   "cost": 5,
-				  "globalid": "28"
+                  "globalid": "28"
                 },
                 {
                   "name": "Cult of Nabh",
@@ -649,7 +649,7 @@
                 {
                   "mount": "1",
                   "cost": 70,
-				  "globalid": "29"
+                  "globalid": "29"
                 },
                 {
                   "mount": "2",
@@ -1071,7 +1071,7 @@
                 {
                   "mount": "7",
                   "cost": 380,
-				  "globalid": "28"
+                  "globalid": "28"
                 }
               ]
             }
@@ -1453,12 +1453,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -1540,7 +1540,7 @@
                 {
                   "name": "Repeater Handbow (4+)",
                   "cost": "4",
-				  "maxarmymodels": 35
+                  "maxarmymodels": 35
                 },
                 {
                   "name": "Cadaron + Handbow",
@@ -1568,12 +1568,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -1650,12 +1650,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -1676,7 +1676,7 @@
           "modelcost": "18",
           "size": "Standard",
           "type": "Infantry",
-		  "category": "4",
+          "category": "4",
           "cost": "190",
           "rules": [
             {
@@ -1753,12 +1753,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -1778,8 +1778,8 @@
           "maxmodels": "10",
           "modelcost": "27",
           "size": "Standard",
-		  "category": "4",
-		  "limitation": 4,
+          "category": "4",
+          "limitation": 4,
           "type": "Cavalry",
           "cost": "160",
           "rules": [
@@ -1892,8 +1892,8 @@
           "maxmodels": "15",
           "modelcost": "33",
           "size": "Standard",
-		  "limitation": 3,
-		  "maxarmymodels": 20,
+          "limitation": 3,
+          "maxarmymodels": 20,
           "type": "Infantry",
           "cost": "170",
           "rules": [
@@ -2039,12 +2039,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -2061,7 +2061,7 @@
           "name": "Dread Knights",
           "Base": "1",
           "unitsize": "5",
-		  "limitation": 4,
+          "limitation": 4,
           "maxmodels": "7",
           "modelcost": "50",
           "size": "Standard",
@@ -2145,12 +2145,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -2168,7 +2168,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Construct",
-		  "limitation": 4,
+          "limitation": 4,
           "cost": "195",
           "rules": [
             {
@@ -2261,7 +2261,7 @@
           "unitsize": "5",
           "maxmodels": "10",
           "modelcost": "14",
-		  "limitation": 3,
+          "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "135",
@@ -2355,12 +2355,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -2426,8 +2426,8 @@
                 {
                   "name": "Skirmisher",
                   "cost": "2",
-				  "maxmodels": 15,
-				  "limitation": 1
+                  "maxmodels": 15,
+                  "limitation": 1
                 }
               ],
               "type": "permodel"
@@ -2447,12 +2447,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "magic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -2469,7 +2469,7 @@
           "name": "Medusa",
           "Base": "1",
           "size": "Standard",
-		  "limitation": 3,
+          "limitation": 3,
           "type": "Beast",
           "cost": "140",
           "rules": [
@@ -2533,7 +2533,7 @@
           "Base": "1",
           "unitsize": "5",
           "maxmodels": "5",
-		  "limitation": 2,
+          "limitation": 2,
           "modelcost": "45",
           "size": "Standard",
           "type": "Cavalry",
@@ -2625,7 +2625,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Construct",
-		  "limitation": 1,
+          "limitation": 1,
           "cost": "385",
           "rules": [
             {
@@ -2829,7 +2829,7 @@
           "name": "Dread Reaper",
           "Base": "1",
           "size": "Standard",
-		  "limitation": 3,
+          "limitation": 3,
           "type": "Construct",
           "cost": "180",
           "rules": [
@@ -2878,7 +2878,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Beast",
-		  "limitation": 3,
+          "limitation": 3,
           "cost": "390",
           "rules": [
             {
@@ -2923,7 +2923,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Beast",
-		  "limitation": 3,
+          "limitation": 3,
           "cost": "440",
           "rules": [
             {
