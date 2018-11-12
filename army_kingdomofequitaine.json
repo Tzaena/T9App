@@ -26,116 +26,86 @@
     }
   ],
   "magicitems": {
-    "category1": [
-      {
-        "name": "Might",
-        "cost": "100"
-      },
-      {
-        "name": "Valour",
-        "cost": "65"
-      },
-      {
-        "name": "Audacity",
-        "cost": "55"
-      },
-      {
-        "name": "Renown",
-        "cost": "70"
-      },
-      {
-        "name": "Piety",
-        "cost": "55"
-      },
-      {
-        "name": "Daring",
-        "cost": "50"
-      },
-      {
-        "name": "Humility",
-        "cost": "35"
-      }
-    ],
     "weapons": [
       {
         "name": "Divine Judgement",
-        "description": "Lance EnchantmentAttacks made with this weapon gain Magical Attacks and Devastating Charge (Multiple Wounds (D3+1)).",
+        "description": "Lance Enchantment. Attacks made with this weapon gain Magical Attacks and Devastating Charge (Multiple Wounds (D3+1)).",
         "cost": "80"
       },
       {
         "name": "Tristan's Resolve",
-        "description": "Hand Weapon EnchantmentWhen using this weapon, the wielder gains +1 Strength, +1 Armour Penetration, +1 Attack Value, and Magical Attacks. After a successful to-hit roll, the attacker may discard one of the hits with this weapon and choose a Weapon Enchantment carried by the model the attack was allocated towards. The chosen Weapon Enchantment cannot be used for the rest of the battle.​",
+        "description": "Hand Weapon Enchantment. When using this weapon, the wielder gains +1 Strength, +1 Armour Penetration, +1 Attack Value, and Magical Attacks. After a successful to-hit roll, the attacker may discard one of the hits with this weapon and choose a Weapon Enchantment carried by the model the attack was allocated towards. The chosen Weapon Enchantment cannot be used for the rest of the battle.​",
         "cost": "60"
       },
       {
         "name": "Wyrmwood Core",
-        "description": "Lance EnchantmentThe wielder gains Breath Attack (Str 5, AP 0, Flaming Attacks). Attacks made with this weapon gain Magical Attacks and Flaming Attacks. ",
+        "description": "Lance Enchantment. The wielder gains Breath Attack (Str 5, AP 0, Flaming Attacks). Attacks made with this weapon gain Magical Attacks and Flaming Attacks. ",
         "cost": "55"
       }
     ],
     "armours": [
       {
-        "name": "Crusader's Salvation - Dominant",
-        "description": "Heavy Armour EnchantmentThe wearer gains +1 Armour and must reroll failed Armour Saves. ",
+        "name": "Crusader's Salvation",
+        "description": "Dominant. Heavy Armour Enchantment. The wearer gains +1 Armour and must reroll failed Armour Saves. ",
         "cost": "100"
       },
       {
         "name": "Fortress of Faith",
-        "description": "Shield EnchantmentWhile using this Shield, the bearer must reroll all natural to-hit and to-wound rolls of ‘1’ with its Close Combat Attacks, and must reroll all natural Armour Save rolls of ‘1’.",
+        "description": "Shield Enchantment. While using this Shield, the bearer must reroll all natural to-hit and to-wound rolls of ‘1’ with its Close Combat Attacks, and must reroll all natural Armour Save rolls of ‘1’.",
         "cost": "60"
       },
       {
-        "name": "Faith of Percival - Dominant. Cannot be taken by Towering Presence",
-        "description": "Shield EnchantmentWhile using this Shield, the wearer gains Aegis (+1, max 4+). Attacks against the bearer with Divine Attacks lose this Attack Attribute.",
+        "name": "Faith of Percival",
+        "description": "Dominant. Cannot be taken by Towering Presence. Shield Enchantment. While using this Shield, the wearer gains Aegis (+1, max 4+). Attacks against the bearer with Divine Attacks lose this Attack Attribute.",
         "cost": "70"
       },
       {
         "name": "Uther's Conviction",
-        "description": "Heavy Armour EnchantmentThe bearer gains +1 Armour. Against attacks with Armour Penetration 6 or more, the bearer gains Aegis (+1, max 4+, Against Armour Penetration 6 or more). ",
+        "description": "Heavy Armour Enchantment. The bearer gains +1 Armour. Against attacks with Armour Penetration 6 or more, the bearer gains Aegis (+1, max 4+, Against Armour Penetration 6 or more). ",
         "cost": "55"
       }
     ],
     "artefacts": [
       {
         "name": "Storm Clarion",
-        "description": "ArtefactOne use only. May be activated at the start of any Player Turn. Enemy units cannot make Flying Movements during this Player Turn.",
+        "description": "One use only. May be activated at the start of any Player Turn. Enemy units cannot make Flying Movements during this Player Turn.",
         "cost": "80"
       },
       {
-        "name": "Wafers of Penitence - Wizards only",
-        "description": "ArtefactOne use only. May be activated after rolling for a Dispel Attempt. Add +2 to the rolled result. This is an exception to the Casting and Dispelling Modifiers rule.",
+        "name": "Wafers of Penitence",
+        "description": "Wizards only. One use only. May be activated after rolling for a Dispel Attempt. Add +2 to the rolled result. This is an exception to the Casting and Dispelling Modifiers rule.",
         "cost": "25"
       },
       {
-        "name": "Black Knight's Tabard - Dominant",
-        "description": "ArtefactOne Use Only. Activate when the bearer reaches 0 (or fewer) Health Points. Do not remove the bearer as a casualty. Instead, after resolving all simultaneous attacks (such as all Shooting Attacks from the same unit or all Melee Attacks at the same Initiative Step), the bearer's Health Points are set to 1, and it gains Aegis (3+) until the end of the Player Turn.",
+        "name": "Black Knight's Tabard",
+        "description": "Dominant. One Use Only. Activate when the bearer reaches 0 (or fewer) Health Points. Do not remove the bearer as a casualty. Instead, after resolving all simultaneous attacks (such as all Shooting Attacks from the same unit or all Melee Attacks at the same Initiative Step), the bearer's Health Points are set to 1, and it gains Aegis (3+) until the end of the Player Turn.",
         "cost": "85"
       },
       {
-        "name": "Crystal of the Valiant Charge - Dominant - Wizards only",
-        "description": "ArtefactOne use only. May be activated at the start of the opponent's Magic Phase. In this phase, during Siphon the Veil, before converting Veil Tokens into Magic Dice, remove 1 Veil Token from the Active Player’s Veil Token pool for each friendly unit that is Engaged in Combat within 18” of the bearer. Add the tokens removed this way to your Veil Token pool.",
+        "name": "Crystal of the Valiant Charge",
+        "description": "Dominant. Wizards only. One use only. May be activated at the start of the opponent's Magic Phase. In this phase, during Siphon the Veil, before converting Veil Tokens into Magic Dice, remove 1 Veil Token from the Active Player’s Veil Token pool for each friendly unit that is Engaged in Combat within 18” of the bearer. Add the tokens removed this way to your Veil Token pool.",
         "cost": "55"
       }
     ],
     "standards": [
       {
         "name": "Banner of Roland",
-        "description": "Banner EnchantmentThe bearer’s unit gains Aegis (+1, max 4+, against Ranged Attacks). Furthermore, enemy units cannot choose Stand and Shoot as Charge Reaction when charged by the bearer’s unit. ",
+        "description": "The bearer’s unit gains Aegis (+1, max 4+, against Ranged Attacks). Furthermore, enemy units cannot choose Stand and Shoot as Charge Reaction when charged by the bearer’s unit. ",
         "cost": "50"
       },
       {
-        "name": "Oriflamme - Cannot be taken by Core Units",
-        "description": "Banner EnchantmentThe bearer gains Fear. Enemy units in base contact with the bearer’s unit cannot benefit from Rally Around the Flag.",
+        "name": "Oriflamme",
+        "description": "Cannot be taken by Core Units. The bearer gains Fear. Enemy units in base contact with the bearer’s unit cannot benefit from Rally Around the Flag.",
         "cost": "85"
       },
       {
         "name": "Banner of the Last Charge",
-        "description": "Banner EnchantmentR&F Cavalry models in the bearer's unit gain Impact Hits (X), where X is equal to the number of Full Ranks in the unit. These Impact Hits are resolved with Strength 4 and Armour Penetration 1. ",
+        "description": "R&F Cavalry models in the bearer's unit gain Impact Hits (X), where X is equal to the number of Full Ranks in the unit. These Impact Hits are resolved with Strength 4 and Armour Penetration 1. ",
         "cost": "100"
       },
       {
         "name": "Banner of the Green Knight",
-        "description": "Banner EnchantmentOne use only. May be activated during the owning player’s Movement Phase. The bearer's unit gains +2 March Rate, Ghost Step, and loses Scoring. All friendly units are treated as Impassable Terrain. Effects last until the start of the next Player Turn. ",
+        "description": "One use only. May be activated during the owning player’s Movement Phase. The bearer's unit gains +2 March Rate, Ghost Step, and loses Scoring. All friendly units are treated as Impassable Terrain. Effects last until the start of the next Player Turn. ",
         "cost": "40"
       }
     ]
@@ -175,6 +145,7 @@
     },
     {
       "id": "2",
+	  "category": "4",
       "name": "Hippogriff",
       "rules": [
         {
@@ -217,6 +188,8 @@
     {
       "id": "3",
       "name": "Pegasus",
+      "categoryallunit": true,
+	  "category": "4",
       "rules": [
         {
           "specialrules": [
@@ -289,6 +262,41 @@
       ],
       "size": "Standard",
       "type": "Cavalry"
+    },
+    {
+      "id": "5",
+      "name": "Horse",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Feigned Flight"
+            },
+            {
+              "specialrule": "Light Troops"
+            }
+          ],
+          "equipments": [],
+          "ADV": "8",
+          "MAR": "16",
+          "Ld": "C",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C+1",
+          "name": "Horse",
+          "A": "1",
+          "OFF": "3",
+          "S": "3",
+          "AP": "0",
+          "I": "3"
+        }
+      ],
+      "size": "Standard",
+      "type": "Cavalry"
     }
   ],
   "army": [
@@ -340,8 +348,21 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200
                 },
                 {
                   "name": "Shield",
@@ -360,13 +381,21 @@
                 },
                 {
                   "name": "Grail Oath",
-                  "cost": "50"
+                  "cost": "50",
+				  "globalid": "2",
+                  "condition": [
+                    {
+                      "option": "2",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Melee Weapons",
-              "onechoice": true,
+              "onechoice": false,
               "mandatory": false,
               "choices": [
                 {
@@ -385,6 +414,109 @@
                   "name": "Lance",
                   "cost": "20"
                 }
+              ]
+            },
+            {
+              "name": "Virtues",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+				  {
+					"name": "Might",
+					"cost": "100",
+					"globalid": "501",
+					  "condition": [
+						{
+						  "option": "501",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Valour",
+					"cost": "65",
+					"globalid": "502",
+					  "condition": [
+						{
+						  "option": "502",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Audacity",
+					"cost": "55",
+					"globalid": "503",
+					  "condition": [
+						{
+						  "option": "503",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Renown",
+					"cost": "70",
+					"globalid": "504",
+					  "condition": [
+						{
+						  "option": "504",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Piety",
+					"cost": "55",
+					"globalid": "505",
+					  "condition": [
+						{
+						  "option": "505",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Daring",
+					"cost": "50",
+					"globalid": "506",
+					  "condition": [
+						{
+						  "option": "506",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Humility",
+					"cost": "35",
+					"globalid": "507",
+					  "condition": [
+						{
+						  "option": "507",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Humility",
+					"cost": "35",
+					"globalid": "508",
+					  "condition": [
+						{
+						  "option": "508",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  }
               ]
             },
             {
@@ -393,106 +525,18 @@
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Barded Warhorse",
+                  "mount": "1",
                   "cost": "70"
                 },
                 {
-                  "name": "Hippogriff",
-                  "cost": "215"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Duke on Pegasus",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "300",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Oath of Fealty"
+                  "mount": "2",
+                  "cost": "215",
+				  "category": "4"
                 },
                 {
-                  "specialrule": "The Blessing"
-                },
-                {
-                  "specialrule": "Lance Formation"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Heavy Armour"
-                }
-              ],
-              "ADV": "4",
-              "MAR": "8",
-              "Ld": "9",
-              "W": "3",
-              "DEF": "6",
-              "T": "4",
-              "ARM": "0",
-              "name": "Duke ",
-              "A": "4",
-              "OFF": "6",
-              "S": "4",
-              "AP": "1",
-              "I": "6"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Shield",
-                  "cost": "5"
-                }
-              ]
-            },
-            {
-              "name": "Oath",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Questing Oath",
-                  "cost": "60"
-                },
-                {
-                  "name": "Grail Oath",
-                  "cost": "50"
-                }
-              ]
-            },
-            {
-              "name": "Melee Weapons",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Paired Weapons",
-                  "cost": "5"
-                },
-                {
-                  "name": "Great Weapon",
-                  "cost": "10"
-                },
-                {
-                  "name": "Halberd",
-                  "cost": "10"
-                },
-                {
-                  "name": "Lance",
-                  "cost": "20"
+                  "mount": "3",
+                  "cost": "130",
+				  "category": "4"
                 }
               ]
             }
@@ -543,16 +587,47 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 100
                 },
                 {
                   "name": "Shield",
                   "cost": "5"
-                },
-                {
-                  "name": "Barded Warhorse",
-                  "cost": "40"
                 }
               ]
             },
@@ -567,107 +642,21 @@
                 },
                 {
                   "name": "Grail Oath",
-                  "cost": "30"
+                  "cost": "30",
+				  "globalid": "2",
+                  "condition": [
+                    {
+                      "option": "2",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Melee Weapons",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Paired Weapons",
-                  "cost": "5"
-                },
-                {
-                  "name": "Great Weapon",
-                  "cost": "5"
-                },
-                {
-                  "name": "Halberd",
-                  "cost": "5"
-                },
-                {
-                  "name": "Lance",
-                  "cost": "10"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Paladin on Pegasus",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "230",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Oath of Fealty"
-                },
-                {
-                  "specialrule": "The Blessing"
-                },
-                {
-                  "specialrule": "Lance Formation"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Heavy Armour"
-                }
-              ],
-              "ADV": "4",
-              "MAR": "8",
-              "Ld": "8",
-              "W": "3",
-              "DEF": "5",
-              "T": "4",
-              "ARM": "0",
-              "name": "Paladin ",
-              "A": "3",
-              "OFF": "5",
-              "S": "4",
-              "AP": "1",
-              "I": "5"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
               "onechoice": false,
-              "choices": [
-                {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Shield",
-                  "cost": "5"
-                }
-              ]
-            },
-            {
-              "name": "Oath",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Questing Oath",
-                  "cost": "40"
-                },
-                {
-                  "name": "Grail Oath",
-                  "cost": "30"
-                }
-              ]
-            },
-            {
-              "name": "Melee Weapons",
-              "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
@@ -685,6 +674,125 @@
                 {
                   "name": "Lance",
                   "cost": "10"
+                }
+              ]
+            },
+            {
+              "name": "Virtues",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+				  {
+					"name": "Might",
+					"cost": "100",
+					"globalid": "501",
+					  "condition": [
+						{
+						  "option": "501",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Valour",
+					"cost": "65",
+					"globalid": "502",
+					  "condition": [
+						{
+						  "option": "502",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Audacity",
+					"cost": "55",
+					"globalid": "503",
+					  "condition": [
+						{
+						  "option": "503",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Renown",
+					"cost": "70",
+					"globalid": "504",
+					  "condition": [
+						{
+						  "option": "504",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Piety",
+					"cost": "55",
+					"globalid": "505",
+					  "condition": [
+						{
+						  "option": "505",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Daring",
+					"cost": "50",
+					"globalid": "506",
+					  "condition": [
+						{
+						  "option": "506",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Humility",
+					"cost": "35",
+					"globalid": "507",
+					  "condition": [
+						{
+						  "option": "507",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  },
+				  {
+					"name": "Humility",
+					"cost": "35",
+					"globalid": "508",
+					  "condition": [
+						{
+						  "option": "508",
+						  "global": true,
+						  "exist": false
+						}
+					  ]
+				  }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": "1",
+                  "cost": "40"
+                },
+                {
+                  "mount": "3",
+                  "cost": "100",
+				  "category": "4"
                 }
               ]
             }
@@ -713,6 +821,9 @@
                 },
                 {
                   "specialrule": "Lance Formation"
+                },
+                {
+                  "specialrule": "Wizard Apprentice"
                 }
               ],
               "equipments": [],
@@ -737,27 +848,56 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Special Equipment",
-                  "cost": "0"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 100,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Wizard Level",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
-                {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
                 {
                   "name": "Wizard Adept",
                   "cost": "75"
                 },
                 {
                   "name": "Wizard Master",
-                  "cost": "225"
+                  "cost": "225",
+				  "globalid": "11"
                 }
               ]
             },
@@ -786,12 +926,31 @@
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Barded Warhorse",
+                  "mount": "1",
                   "cost": "40"
                 },
                 {
-                  "name": "Equitan Unicorn",
-                  "cost": "100"
+                  "mount": "3",
+                  "cost": "60",
+				  "category": "4",
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "mount": "4",
+                  "cost": "100",
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -801,6 +960,7 @@
           "name": "Castellan",
           "Base": "1",
           "size": "Standard",
+		  "limitation": 5,
           "type": "Infantry",
           "cost": "80",
           "rules": [
@@ -816,7 +976,10 @@
                   "specialrule": "Serf"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }],
               "ADV": "4",
               "MAR": "8",
               "Ld": "7",
@@ -842,28 +1005,29 @@
                   "cost": "5"
                 },
                 {
-                  "name": "Horse",
-                  "cost": "40"
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
                 },
                 {
-                  "name": "Weapon Enchantment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 50
                 }
               ]
             },
             {
               "name": "Armour",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
-                {
-                  "name": "Light Armour",
-                  "cost": "0"
-                },
                 {
                   "name": "Heavy Armour",
                   "cost": "10"
@@ -922,6 +1086,17 @@
                   "cost": "0"
                 }
               ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "mount": "5",
+                  "cost": "40"
+                }
+              ]
             }
           ]
         }
@@ -938,6 +1113,7 @@
           "modelcost": "38",
           "size": "Standard",
           "type": "Cavalry",
+		  "limitation": 4,
           "cost": "230",
           "rules": [
             {
@@ -1003,16 +1179,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1026,7 +1192,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1038,6 +1217,7 @@
           "unitsize": "6",
           "maxmodels": "9",
           "modelcost": "48",
+		  "limitation": 4,
           "size": "Standard",
           "type": "Cavalry",
           "cost": "260",
@@ -1102,16 +1282,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1125,7 +1295,20 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1178,11 +1361,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Melee Weapon",
               "onechoice": true,
               "mandatory": false,
@@ -1224,6 +1402,8 @@
           "unitsize": "15",
           "maxmodels": "1085",
           "modelcost": "10",
+		  "limitation": 4,
+		  "maxarmymodels": 100,
           "size": "Standard",
           "type": "Infantry",
           "cost": "180",
@@ -1243,7 +1423,10 @@
                   "specialrule": "Serf"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipments": "Longbow (4+)"
+                }],
               "ADV": "4",
               "MAR": "8",
               "Ld": "5",
@@ -1261,19 +1444,10 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Weapon Options",
               "onechoice": true,
               "mandatory": false,
               "choices": [
-                {
-                  "name": "Longbow (4+) & Braziers",
-                  "cost": "0"
-                },
                 {
                   "name": "Crossbow (4+)",
                   "cost": "3"
@@ -1313,6 +1487,7 @@
           "maxmodels": "9",
           "modelcost": "50",
           "size": "Standard",
+		  "limitation": 4,
           "type": "Cavalry",
           "cost": "270",
           "rules": [
@@ -1382,16 +1557,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1403,9 +1568,22 @@
                   "name": "Musician",
                   "cost": "20"
                 },
-                {
+				{
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1417,6 +1595,7 @@
           "unitsize": "10",
           "maxmodels": "30",
           "modelcost": "25",
+		  "limitation": 5,
           "size": "Standard",
           "type": "Infantry",
           "cost": "190",
@@ -1467,16 +1646,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1488,9 +1657,22 @@
                   "name": "Musician",
                   "cost": "20"
                 },
-                {
+				{
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1503,6 +1685,7 @@
           "maxmodels": "6",
           "modelcost": "84",
           "size": "Standard",
+		  "limitation": 2,
           "type": "Cavalry",
           "cost": "220",
           "rules": [
@@ -1581,16 +1764,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1602,9 +1775,22 @@
                   "name": "Musician",
                   "cost": "20"
                 },
-                {
+				{
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1615,6 +1801,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Construct",
+		  "limitation": 2,
           "cost": "0",
           "rules": [
             {
@@ -1644,11 +1831,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Artillery Weapon",
               "onechoice": true,
               "mandatory": true,
@@ -1670,6 +1852,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Cavalry",
+		  "limitation": 1,
           "cost": "375",
           "rules": [
             {
@@ -1737,11 +1920,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -1750,6 +1928,7 @@
           "unitsize": "5",
           "maxmodels": "10",
           "modelcost": "14",
+		  "limitation": 4,
           "size": "Standard",
           "type": "Cavalry",
           "cost": "125",
@@ -1778,6 +1957,9 @@
               "equipments": [
                 {
                   "equipment": "Light Lance"
+                },
+                {
+                  "equipment": "Bow (4+)"
                 }
               ],
               "ADV": "8",
@@ -1814,11 +1996,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Shield",
               "onechoice": false,
               "choices": [
@@ -1836,12 +2013,8 @@
             {
               "name": "Ranged Weapon",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
-                {
-                  "name": "Bow (4+)",
-                  "cost": "0"
-                },
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": "1"
@@ -1878,6 +2051,7 @@
           "size": "Standard",
           "type": "Infantry",
           "cost": "175",
+		  "limitation": 2,
           "rules": [
             {
               "specialrules": [
@@ -1918,11 +2092,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
@@ -1991,11 +2160,7 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Paired Weapons",
+                  "name": "Replace shield with paired Weapons",
                   "cost": "0"
                 }
               ]
@@ -2012,9 +2177,22 @@
                   "name": "Musician",
                   "cost": "20"
                 },
-                {
+				{
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "cost": "20",
+				  "globalid": "301"
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -2025,6 +2203,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
+		  "limitation": 2,
           "cost": "160",
           "rules": [
             {
@@ -2075,11 +2254,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         }
       ]
@@ -2093,6 +2267,7 @@
           "unitsize": "3",
           "maxmodels": "3",
           "modelcost": "95",
+		  "limitation": 3,
           "size": "Large ",
           "type": "Cavalry",
           "cost": "340",
@@ -2157,21 +2332,12 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Vanguard",
               "onechoice": false,
               "choices": [
                 {
                   "name": "Vanguard",
                   "cost": "7"
-                },
-                {
-                  "name": "Banner Enchantment",
-                  "cost": "0"
                 },
                 {
                   "name": "Skirmisher",
@@ -2192,97 +2358,22 @@
                   "name": "Musician",
                   "cost": "20"
                 },
-                {
+				{
                   "name": "Standard Bearer",
-                  "cost": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Damsel on Pegasus",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
-          "cost": "180",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Beloved"
+                  "cost": "20",
+				  "globalid": "301"
                 },
                 {
-                  "specialrule": "Insignificant"
-                },
-                {
-                  "specialrule": "Magic Resistance  (1)"
-                },
-                {
-                  "specialrule": "The Blessing"
-                },
-                {
-                  "specialrule": "Lance Formation"
-                }
-              ],
-              "equipments": [],
-              "ADV": "4",
-              "MAR": "8",
-              "Ld": "7",
-              "W": "3",
-              "DEF": "3",
-              "T": "3",
-              "ARM": "0",
-              "name": "Damsel ",
-              "A": "1",
-              "OFF": "3",
-              "S": "3",
-              "AP": "0",
-              "I": "3"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Special Equipment",
-                  "cost": "0"
-                },
-                {
-                  "name": "Pegasus",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
-              "name": "Wizard Level",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Wizard Master",
-                  "cost": "225"
-                }
-              ]
-            },
-            {
-              "name": "Path",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Druidism",
-                  "cost": "0"
-                },
-                {
-                  "name": "Shamanism",
-                  "cost": "0"
-                },
-                {
-                  "name": "Divination",
-                  "cost": "0"
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200,
+                  "condition": [
+                    {
+                      "option": "301",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
