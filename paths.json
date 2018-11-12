@@ -147,7 +147,7 @@
           "value": "1",
           "name": "Quicksilver Lash",
           "duration": "2",
-          "effect": "The target suffers D3+1 hits with Flaming Attacks, Magical Attacks, and Armour Penetration 10. These hits always wound on a roll equal to or greater than 7 - the target’s Armour. An unmodified ‘6’ always wounds and an unmodified ‘1’ always fails to wound.",
+          "effect": "The target suffers D3+1 hits with Flaming Attacks, Magical Attacks, and Armour Penetration 10. These hits always wound on a roll equal to or greater than 7 minus the target’s Armour. An unmodified ‘6’ always wounds and an unmodified ‘1’ always fails to wound.",
           "castingvalue": "7+",
           "range": "24",
           "types": [
@@ -224,7 +224,7 @@
           "value": "6",
           "name": "Silver Spike",
           "duration": "2",
-          "effect": "The target suffers 1 hit with Strength 3 [6], Armour Penetration 10, Magical Attacks, Multiple Wounds (D3), and Penetrating.",
+          "effect": "The target suffers 1 hit with Strength 3 [6], Armour Penetration 10, Magical Attacks, Multiple Wounds (D3), and Area Attacks (5x1).",
           "castingvalue": "6+/[9+]",
           "range": "18/[36]",
           "types": [
@@ -276,7 +276,7 @@
           "value": "2",
           "name": "Fate's Judgement",
           "duration": "2",
-          "effect": "The target suffers D3 [D6] hits with Magical Attacks that wound automatically, with no Special Saves allowed (note that Armour Saves are allowed).",
+          "effect": "The target suffers D3 [D6] hits with Magical Attacks that wound automatically with AP 0 and Magical Attacks, with no Special Saves allowed (note that Armour Saves are allowed).",
           "castingvalue": "5+/[9+]",
           "range": "18",
           "types": [
@@ -339,8 +339,8 @@
         {
           "value": "6",
           "name": "Portent of Doom",
-          "duration": "1",
-          "effect": "For each Character in the target when the spell is cast, the target suffers -1 to Advance Rate, March Rate, Offensive Skill, Defensive Skill, casting rolls, and to-hit rolls with Shooting Attacks.",
+          "duration": "3",
+          "effect": "When calculating Combat Score, a side with units containing at least one model affected by the spell suffers −X to its Combat Score (for each affected unit and instance of the spell), where X is 1 plus the number of Characters joined to the unit. A Character leaving a unit affected by the spell no longer is affected by the spell, unless the Character was a single model unit that was the initial target of the spell.",
           "castingvalue": "9+",
           "range": "18",
           "types": [
@@ -504,7 +504,7 @@
           "value": "2",
           "name": "Whispers of the Veil",
           "duration": "1",
-          "effect": "The target suffers -2 Offensive Skill and -2 Defensive Skill. In addition, a unit with at least one model affected by the spell suffers -1 Discipline.",
+          "effect": "The target suffers -1 Resilience. In addition, a unit with at least one model affected by the spell suffers -1 Discipline.",
           "castingvalue": "7+",
           "range": "24",
           "types": [
@@ -737,7 +737,7 @@
           "value": "3",
           "name": "Flaming Swords",
           "duration": "1",
-          "effect": "The target’s Melee and Shooting Attacks gain a +1 towound modifier, Flaming Attacks, and Magical Attacks.",
+          "effect": "The target’s Melee and Shooting Attacks gain a +1 to wound modifier, Flaming Attacks, and Magical Attacks.",
           "castingvalue": "8+/[11+]",
           "range": "18/[6 aura]",
           "types": [
@@ -833,7 +833,7 @@
           "value": "2",
           "name": "Swarm of Insects",
           "duration": "3",
-          "effect": "Immediately after successfully casting this spell, the target suffers 5D6 hits with Strength 1, Armour Penetration 0, and Magical Attacks. If one or more unsaved wounds are caused, the target suffers -1 to hit with its Shooting Attacks. This spell is immediately ended when the target performs an Advance, March, Charge, or Pursuit Move.",
+          "effect": "Immediately after successfully casting this spell, the target suffers 5D6 hits with Strength 1, Armour Penetration 0, and Magical Attacks. If one or more unsaved wounds are caused, the target suffers -1 to hit with its Shooting Attacks. This spell is immediately ended when the target performs an Advance, March, Charge, Failed Charge or Pursuit Move.",
           "castingvalue": "5+/[8+]",
           "range": "24/[48]",
           "types": [
@@ -1055,7 +1055,7 @@
           "value": "4",
           "name": "The Wheel Turns",
           "duration": "1",
-          "effect": "Close Combat Attacks made by [and allocated against] R&F models in the target unit will successfully roll to hit and to wound on a 4+, regardless of Offensive Skill, Defensive Skill, Strength, and Resilience (apply this before applying any other to-hit and towound modifiers).",
+          "effect": "Melee Attacks made by {and distributed towards} R&F models in the target unit are set to wound on a 4+, and Close Combat Attacks made by {and allocated against} R&F models in the target unit additionally are set to hit on a 4+, regardless of Offensive Skill, Defensive Skill, Strength, and Resilience. Apply this effect before other to-hit and to-wound modifiers.",
           "castingvalue": "8+/[10+]",
           "range": "24",
           "types": [
@@ -1082,7 +1082,7 @@
           "value": "6",
           "name": "Bewitching Glare",
           "duration": "2",
-          "effect": "Natural to-hit and to-wound rolls of ‘6’ of Melee [and Shooting] Attacks made by the target must be rerolled.",
+          "effect": "Melee [and Shooting] Attacks against the target gain Battle Focus.",
           "castingvalue": "9+/11+",
           "range": "24",
           "types": [
@@ -1134,7 +1134,7 @@
           "value": "3",
           "name": "Ice and Fire",
           "duration": "2",
-          "effect": "The target suffers 2D6 hits with Strength 4, Armour Penetration 0, and Magical Attacks. Successful Special Saves against wounds caused by this spell must be rerolled. [The target suffers 2D6 hits with Strength 4 and Armour Penetration 0. Successful Armour Saves against wounds caused by this spell must be rerolled.]",
+          "effect": "The target suffers 2D6 hits with Strength 4, Armour Penetration 0, and Magical Attacks. Successful Special Saves against wounds caused by this spell must be rerolled. [The target suffers 2D6 hits with Strength 4 and Armour Penetration 0 and Magical Attacks. Successful Armour Saves against wounds caused by this spell must be rerolled.]",
           "castingvalue": "7+",
           "range": "24",
           "types": [
