@@ -201,7 +201,7 @@
         "description": "Arcane Item. The bearer gains Protean Magic. ",
         "cost": "15"
       }
-    ],
+    ]
   },
   "mounts": [],
   "army": [
@@ -213,7 +213,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Infantry",
-		  "category": "4",
+          "category": "4",
           "cost": "480",
           "rules": [
             {
@@ -356,7 +356,7 @@
           "name": "Weaver of Change",
           "Base": "1",
           "size": "Gigantic",
-		  "category": "5",
+          "category": "5",
           "type": "Infantry",
           "cost": "975",
           "rules": [
@@ -459,7 +459,7 @@
           "name": "Harbinger of Change",
           "Base": "1",
           "size": "Standard ",
-		  "category": "5",
+          "category": "5",
           "type": "Infantry",
           "cost": "165",
           "rules": [
@@ -616,7 +616,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Infantry",
-		  "category": "6",
+          "category": "6",
           "cost": "900",
           "rules": [
             {
@@ -743,7 +743,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
-		  "category": "6",
+          "category": "6",
           "cost": "195",
           "rules": [
             {
@@ -916,7 +916,7 @@
           "name": "Father of Pestilence",
           "Base": "1",
           "size": "Gigantic",
-		  "category": "7",
+          "category": "7",
           "type": "Infantry",
           "cost": "795",
           "rules": [
@@ -1041,7 +1041,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
-		  "category": "7",
+          "category": "7",
           "cost": "230",
           "rules": [
             {
@@ -1200,7 +1200,7 @@
           "name": "Scourge of Wrath",
           "Base": "1",
           "size": "Gigantic",
-		  "category": "8",
+          "category": "8",
           "type": "Infantry",
           "cost": "880",
           "rules": [
@@ -1293,7 +1293,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Cavalry",
-		  "category": "8",
+          "category": "8",
           "modelcost": "115",
           "cost": "200",
           "rules": [
@@ -1421,7 +1421,7 @@
           "unitsize": "10",
           "maxmodels": "30",
           "modelcost": "16",
-		  "category": "6",
+          "category": "6",
           "size": "Standard",
           "type": "Infantry",
           "cost": "185",
@@ -1492,12 +1492,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "Daemonic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -1516,7 +1516,7 @@
           "unitsize": "15",
           "maxmodels": "20",
           "modelcost": "18",
-		  "category": "7",
+          "category": "7",
           "size": "Standard",
           "type": "Infantry",
           "cost": "225",
@@ -1578,12 +1578,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "Daemonic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -1601,7 +1601,7 @@
           "Base": "1",
           "unitsize": "15",
           "maxmodels": "15",
-		  "category": "7",
+          "category": "7",
           "modelcost": "26",
           "size": "Standard",
           "type": "Infantry",
@@ -1668,12 +1668,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "Daemonic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -1692,7 +1692,7 @@
           "unitsize": "10",
           "maxmodels": "20",
           "modelcost": "25",
-		  "category": "8",
+          "category": "8",
           "size": "Standard",
           "type": "Infantry",
           "cost": "225",
@@ -1773,12 +1773,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid":"31"
+                  "globalid":"31"
                 },
                 {
                   "type": "magicitems",
                   "name": "Daemonic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -1804,7 +1804,7 @@
           "modelcost": "20",
           "size": "Standard",
           "type": "Infantry",
-		  "limitation": 3,
+          "limitation": 3,
           "cost": "145",
           "rules": [
             {
@@ -1873,7 +1873,7 @@
           "name": "Daemon Engine",
           "Base": "1",
           "size": "Gigantic ",
-		  "limitation": 1,
+          "limitation": 1,
           "type": "Infantry",
           "cost": "430",
           "rules": [
@@ -1970,8 +1970,8 @@
           "maxmodels": "3",
           "modelcost": "44",
           "size": "Standard",
-		  "limitation": 3,
-		  "category": "4",
+          "limitation": 3,
+          "category": "4",
           "type": "Infantry",
           "cost": "225",
           "rules": [
@@ -2035,7 +2035,7 @@
           "Base": "1",
           "unitsize": "3",
           "maxmodels": "3",
-		  "limitation": 3,
+          "limitation": 3,
           "modelcost": "80",
           "size": "Standard",
           "type": "Beast",
@@ -2085,7 +2085,7 @@
           "name": "Blazing Chariot",
           "Base": "1",
           "size": "Large",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Construct",
           "cost": "260",
           "rules": [
@@ -2177,7 +2177,7 @@
           "unitsize": "5",
           "maxmodels": "10",
           "modelcost": "26",
-		  "limitation": 4,
+          "limitation": 4,
           "size": "Standard",
           "type": "Cavalry",
           "cost": "180",
@@ -2276,12 +2276,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "Daemonic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -2299,7 +2299,7 @@
           "Base": "1",
           "unitsize": "2",
           "maxmodels": "4",
-		  "limitation": 3,
+          "limitation": 3,
           "modelcost": "125",
           "size": "Large",
           "type": "Beast",
@@ -2358,7 +2358,7 @@
           "name": "Siren Chariot",
           "Base": "1",
           "size": "Large ",
-		  "limitation": 3,
+          "limitation": 3,
           "type": "Construct",
           "cost": "185",
           "rules": [
@@ -2457,7 +2457,7 @@
           "name": "Carnal Chariot",
           "Base": "1",
           "size": "Large ",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Construct",
           "cost": "190",
           "rules": [
@@ -2576,7 +2576,7 @@
           "name": "Shrine of Temptation",
           "Base": "1",
           "size": "Large ",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Construct",
           "cost": "365",
           "rules": [
@@ -2702,7 +2702,7 @@
           "unitsize": "2",
           "maxmodels": "3",
           "modelcost": "48",
-		  "limitation": 3,
+          "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "120",
@@ -2762,7 +2762,7 @@
           "name": "Pestilent Beasts",
           "Base": "1",
           "unitsize": "3",
-		  "limitation": 3,
+          "limitation": 3,
           "maxmodels": "3",
           "modelcost": "115",
           "size": "Large",
@@ -2828,7 +2828,7 @@
           "Base": "1",
           "unitsize": "3",
           "maxmodels": "2",
-		  "limitation": 2,
+          "limitation": 2,
           "modelcost": "145",
           "size": "Large",
           "type": "Cavalry",
@@ -2915,12 +2915,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "Daemonic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -2944,7 +2944,7 @@
           "unitsize": "3",
           "maxmodels": "2",
           "modelcost": "120",
-		  "limitation": 3,
+          "limitation": 3,
           "size": "Large",
           "type": "Cavalry",
           "cost": "350",
@@ -3048,12 +3048,12 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "type": "magicitems",
                   "name": "Daemonic items",
-                  "cost": 200
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "31",
@@ -3070,7 +3070,7 @@
           "name": "Hellhounds",
           "Base": "1",
           "unitsize": "5",
-		  "limitation": 5,
+          "limitation": 5,
           "maxmodels": "5",
           "modelcost": "42",
           "size": "Standard",
@@ -3116,7 +3116,7 @@
                 {
                   "name": "Ambush",
                   "cost": "11",
-				  "limitation": 3
+                  "limitation": 3
                 },
                 {
                   "name": "Aspect: Onslaught ",
@@ -3131,7 +3131,7 @@
           "name": "Altar of Slaughter",
           "Base": "1",
           "size": "Large",
-		  "limitation": 1,
+          "limitation": 1,
           "type": "Construct",
           "cost": "315",
           "rules": [
@@ -3256,7 +3256,7 @@
           "name": "Blood Chariot",
           "Base": "1",
           "size": "Large",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Construct",
           "cost": "345",
           "rules": [
