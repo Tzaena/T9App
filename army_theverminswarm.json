@@ -1123,10 +1123,6 @@
                   "cost": 100
                 },
                 {
-                  "name": "Plague Pendulum",
-                  "cost": "410"
-                },
-                {
                   "name": "3 Dark Shards",
                   "cost": "30"
                 }
@@ -1135,7 +1131,7 @@
             {
               "name": "Wizard Level",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
                 {
                   "name": "Wizard Adept",
