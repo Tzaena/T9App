@@ -96,7 +96,7 @@
         "cost": "30"
       }
     ],
-    "Artefacts": [
+    "artefacts": [
       {
         "name": "Nauseating Aura",
         "description": "Talisman. Enemy units in base contact with the bearer never have more than Agility 1 during the Melee Phase. ",
