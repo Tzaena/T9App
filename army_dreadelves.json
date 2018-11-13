@@ -1886,90 +1886,6 @@
       "organisation": "3",
       "units": [
         {
-          "name": "Raven Cloaks",
-          "Base": "1",
-          "unitsize": "5",
-          "maxmodels": "15",
-          "modelcost": "33",
-          "size": "Standard",
-          "limitation": 3,
-          "maxarmymodels": 20,
-          "type": "Infantry",
-          "cost": "170",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Scout"
-                },
-                {
-                  "specialrule": "Skirmisher"
-                },
-                {
-                  "specialrule": "Cadaron"
-                },
-                {
-                  "specialrule": "Lightning Reflexes"
-                }
-              ],
-              "equipments": [
-                {
-                  "equipment": "Light Armour"
-                },
-                {
-                  "equipment": "Repeater Crossbow (3+)"
-                }
-              ],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "8",
-              "W": "1",
-              "DEF": "5",
-              "T": "3",
-              "ARM": "0",
-              "name": "Raven Cloak ",
-              "A": "1",
-              "OFF": "5",
-              "S": "3",
-              "AP": "0",
-              "I": "5"
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Champion",
-                  "cost": "20"
-                }
-              ]
-            },
-            {
-              "name": "Melee Weapon",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Great Weapon",
-                  "cost": "3"
-                },
-                {
-                  "name": "Paired Weapons",
-                  "cost": "1"
-                }
-              ],
-              "type": "permodel"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "organisation": "4",
-      "units": [
-        {
           "name": "Tower Guard",
           "Base": "1",
           "unitsize": "10",
@@ -2735,6 +2651,99 @@
       ]
     },
     {
+      "organisation": "4",
+      "units": [
+        {
+          "name": "Raven Cloaks",
+          "Base": "1",
+          "unitsize": "5",
+          "maxmodels": "5",
+          "modelcost": "33",
+          "size": "Standard",
+          "limitation": 3,
+          "type": "Infantry",
+          "cost": "170",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Scout"
+                },
+                {
+                  "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Cadaron"
+                },
+                {
+                  "specialrule": "Lightning Reflexes"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "5",
+              "T": "3",
+              "ARM": "0",
+              "name": "Raven Cloak ",
+              "A": "1",
+              "OFF": "5",
+              "S": "3",
+              "AP": "0",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "3"
+                },
+                {
+                  "name": "Paired Weapons",
+                  "cost": "1"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Ranged weapon",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Repeater Crossbow (3+)",
+                  "cost": "0",
+				  "maxarmymodels": 20
+                }
+              ],
+              "type": "permodel"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "organisation": "5",
       "units": [
         {
@@ -2871,7 +2880,7 @@
       ]
     },
     {
-      "organisation": "5",
+      "organisation": "6",
       "units": [
         {
           "name": "Kraken",
