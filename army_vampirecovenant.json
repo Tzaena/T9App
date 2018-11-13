@@ -650,27 +650,11 @@
                   "cost": "80"
                 },
                 {
-                  "name": "Eternal Duelist",
-                  "cost": "80"
-                },
-                {
-                  "name": "Monster Hunter",
-                  "cost": "45"
-                },
-                {
                   "name": "Monster Hunter",
                   "cost": "45"
                 },
                 {
                   "name": "Flying Horror",
-                  "cost": "70"
-                },
-                {
-                  "name": "Flying Horror",
-                  "cost": "70"
-                },
-                {
-                  "name": "Bestial Bulk",
                   "cost": "70"
                 },
                 {
@@ -682,20 +666,8 @@
                   "cost": "50"
                 },
                 {
-                  "name": "Hour of the Wolf",
-                  "cost": "50"
-                },
-                {
                   "name": "Unbreakable Will",
                   "cost": "40"
-                },
-                {
-                  "name": "Unbreakable Will",
-                  "cost": "40"
-                },
-                {
-                  "name": "Forbiden Path",
-                  "cost": "25"
                 },
                 {
                   "name": "Forbiden Path",
@@ -706,20 +678,8 @@
                   "cost": "60"
                 },
                 {
-                  "name": "Arcane Knowledge",
-                  "cost": "60"
-                },
-                {
                   "name": "Mask of Innocence",
                   "cost": "45"
-                },
-                {
-                  "name": "Mask of Innocence",
-                  "cost": "45"
-                },
-                {
-                  "name": "Mesmerising Gaze",
-                  "cost": "40"
                 },
                 {
                   "name": "Mesmerising Gaze",
@@ -1072,27 +1032,11 @@
                   "cost": "80"
                 },
                 {
-                  "name": "Eternal Duelist",
-                  "cost": "80"
-                },
-                {
-                  "name": "Monster Hunter",
-                  "cost": "45"
-                },
-                {
                   "name": "Monster Hunter",
                   "cost": "45"
                 },
                 {
                   "name": "Flying Horror",
-                  "cost": "70"
-                },
-                {
-                  "name": "Flying Horror",
-                  "cost": "70"
-                },
-                {
-                  "name": "Bestial Bulk",
                   "cost": "70"
                 },
                 {
@@ -1104,20 +1048,8 @@
                   "cost": "50"
                 },
                 {
-                  "name": "Hour of the Wolf",
-                  "cost": "50"
-                },
-                {
                   "name": "Unbreakable Will",
                   "cost": "40"
-                },
-                {
-                  "name": "Unbreakable Will",
-                  "cost": "40"
-                },
-                {
-                  "name": "Forbiden Path",
-                  "cost": "25"
                 },
                 {
                   "name": "Forbiden Path",
@@ -1128,20 +1060,8 @@
                   "cost": "60"
                 },
                 {
-                  "name": "Arcane Knowledge",
-                  "cost": "60"
-                },
-                {
                   "name": "Mask of Innocence",
                   "cost": "45"
-                },
-                {
-                  "name": "Mask of Innocence",
-                  "cost": "45"
-                },
-                {
-                  "name": "Mesmerising Gaze",
-                  "cost": "40"
                 },
                 {
                   "name": "Mesmerising Gaze",
@@ -1797,7 +1717,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -2121,7 +2041,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -2245,7 +2165,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -3307,7 +3227,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
