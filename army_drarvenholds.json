@@ -1,4 +1,5 @@
 {
+  "generalitems": false,
   "version": "204.2",
   "organisation": [
     {
@@ -55,6 +56,16 @@
         "cost": "40"
       },
       {
+        "name": "Rune of Might 2",
+        "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Might engraved on a weapon, attacks made with it gain +1 Strength and +1 Armour Penetration.",
+        "cost": "40"
+      },
+      {
+        "name": "Rune of Might 3",
+        "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Might engraved on a weapon, attacks made with it gain +1 Strength and +1 Armour Penetration.",
+        "cost": "40"
+      },
+      {
         "name": "Rune of Precision",
         "description": "Hand weapon or Paired Weapon Enchantment. The wielder of a weapon engraved with this Rune gains Lightning Reflexes.",
         "cost": "40"
@@ -70,7 +81,27 @@
         "cost": "35"
       },
       {
+        "name": "Rune of Quickening 2",
+        "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Quickening engraved on a weapon, the wielder gains +3 Agility when using it.",
+        "cost": "35"
+      },
+      {
+        "name": "Rune of Quickening 3",
+        "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Quickening engraved on a weapon, the wielder gains +3 Agility when using it.",
+        "cost": "35"
+      },
+      {
         "name": "Rune of Fury",
+        "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Fury engraved on a weapon, the wielder gains +1 Attack Value when using it.",
+        "cost": "30"
+      },
+      {
+        "name": "Rune of Fury 2",
+        "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Fury engraved on a weapon, the wielder gains +1 Attack Value when using it.",
+        "cost": "30"
+      },
+      {
+        "name": "Rune of Fury 3",
         "description": "Hand weapon or Paired Weapon Enchantment. For each Rune of Fury engraved on a weapon, the wielder gains +1 Attack Value when using it.",
         "cost": "30"
       },
@@ -112,6 +143,16 @@
         "cost": "25"
       },
       {
+        "name": "Rune of Iron 2",
+        "description": "Suit of Armour Enchantment. The bearer of a single Rune of Iron gains +1 Armour. The bearer of two or more Runes of Iron gains +2 Armour.",
+        "cost": "25"
+      },
+      {
+        "name": "Rune of Iron 3",
+        "description": "Suit of Armour Enchantment. The bearer of a single Rune of Iron gains +1 Armour. The bearer of two or more Runes of Iron gains +2 Armour.",
+        "cost": "25"
+      },
+      {
         "name": "Rune of the Forge",
         "description": "Suit of Armour Enchantment. The wearer of an armour engraved with this Rune gains Aegis (2+, against flaming attacks).",
         "cost": "10"
@@ -119,12 +160,27 @@
     ],
     "artefacts": [
       {
+        "name": "Rune of Denial",
+        "description": "Dominant. One use only. The bearer may choose to use this Rune instead of making a Dispel Attempt. The spell is automatically dispelled.",
+        "cost": "90"
+      },
+      {
+        "name": "Rune of Devouring",
+        "description": "Runic Smiths only. Dominant. One use only. The player may choose to use this Rune instead of making a Dispel Attempt. The spell is cast as normal but is afterwards lost and the Caster may not cast it again for the rest of the game. Attribute Spells are not affected.",
+        "cost": "70"
+      },
+      {
         "name": "Rune of Harnessing",
         "description": "Runic Smiths only. Talismanic Rune. Enemy models within 24” of the Runic Smith have their Channel value (the value within brackets) reduced by 1.",
         "cost": "55"
       },
       {
         "name": "Rune of Courage",
+        "description": "Talismanic Rune. One use only. May be activated at the start of any Round of Combat. For the duration of the Phase, the bearer gains Stubborn.",
+        "cost": "55"
+      },
+      {
+        "name": "Rune of Courage 2",
         "description": "Talismanic Rune. One use only. May be activated at the start of any Round of Combat. For the duration of the Phase, the bearer gains Stubborn.",
         "cost": "55"
       },
@@ -144,7 +200,22 @@
         "cost": "40"
       },
       {
+        "name": "Rune of Readiness 2",
+        "description": "Talismanic Rune. One use only. May be activated at the end of the Charge Phase, directly after all Charge Moves have been resolved. If the bearer’s unit was successfully charged during this phase, it may perform a Combat Reform (following the normal rules for Combat Reforms). ",
+        "cost": "40"
+      },
+      {
         "name": "Rune of Shielding",
+        "description": "Talismanic Rune. The bearer gains Aegis (+1, max 4+). The Aegis from this Rune only stacks with itself and/or Shield Wall.",
+        "cost": "30"
+      },
+      {
+        "name": "Rune of Shielding 2",
+        "description": "Talismanic Rune. The bearer gains Aegis (+1, max 4+). The Aegis from this Rune only stacks with itself and/or Shield Wall.",
+        "cost": "30"
+      },
+      {
+        "name": "Rune of Shielding 3",
         "description": "Talismanic Rune. The bearer gains Aegis (+1, max 4+). The Aegis from this Rune only stacks with itself and/or Shield Wall.",
         "cost": "30"
       },
@@ -154,12 +225,27 @@
         "cost": "35"
       },
       {
+        "name": "Rune of Storms 2",
+        "description": "Talismanic Rune. One use only. Effects last one turn. May be activated at the start of the opponent’s Player Turn. Choose a single enemy unit within 24” of the bearer. All models with Fly in that unit have their Advance Rate and March Rate (both for Ground and Fly Movement) halved, rounding fractions up.",
+        "cost": "35"
+      },
+      {
         "name": "Rune of Mastery",
         "description": "Talismanic Rune. One use only. May be activated just before the Bearer casts a Bound Spell. Adds (+2/+2) to the Power Level of this Bound Spell.",
         "cost": "25"
       },
       {
+        "name": "Rune of Mastery 2",
+        "description": "Talismanic Rune. One use only. May be activated just before the Bearer casts a Bound Spell. Adds (+2/+2) to the Power Level of this Bound Spell.",
+        "cost": "25"
+      },
+      {
         "name": "Rune of Mining",
+        "description": "Talismanic Rune. After Determining Deployment Zones (at the end of step 6 of the The Pre-Game Sequence), choose a Terrain Feature on the Battlefield. As long a the bearer is on the Battlefield, all friendly models may treat this as Open Terrain when making Advance Moves or March Moves, but must still follow the Unit Spacing rule at the end of their movement.",
+        "cost": "20"
+      },
+      {
+        "name": "Rune of Mining 2",
         "description": "Talismanic Rune. After Determining Deployment Zones (at the end of step 6 of the The Pre-Game Sequence), choose a Terrain Feature on the Battlefield. As long a the bearer is on the Battlefield, all friendly models may treat this as Open Terrain when making Advance Moves or March Moves, but must still follow the Unit Spacing rule at the end of their movement.",
         "cost": "20"
       },
@@ -289,7 +375,7 @@
         }
       ]
     }
-	],
+  ],
   "army": [
     {
       "organisation": "1",
@@ -411,11 +497,11 @@
               "mandatory": false,
               "choices": [
                 {
-				  "mount": 1,
+                  "mount": 1,
                   "cost": "115"
                 },
                 {
-				  "mount": 2,
+                  "mount": 2,
                   "cost": "245"
                 }
               ]
@@ -556,7 +642,7 @@
               "mandatory": false,
               "choices": [
                 {
-				  "mount": 1,
+                  "mount": 1,
                   "cost": "95"
                 }
               ]
@@ -806,8 +892,8 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
-		  "limitation": 2,
-		  "category": "5",
+          "limitation": 2,
+          "category": "5",
           "cost": "125",
           "rules": [
             {
@@ -931,7 +1017,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Construct",
-		  "limitation": 1,
+          "limitation": 1,
           "cost": "185",
           "rules": [
             {
@@ -1036,8 +1122,8 @@
                 {
                   "name": "Vanguard",
                   "cost": "2",
-				  "globalid": "10",
-				  "maxmodels": 30,
+                  "globalid": "10",
+                  "maxmodels": 30,
                   "condition": [
                     {
                       "option": "10",
@@ -1092,7 +1178,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "301"
+                  "globalid": "301"
                 },
                 {
                   "type": "magicitems",
@@ -1166,8 +1252,8 @@
                 {
                   "name": "Vanguard",
                   "cost": "2",
-				  "globalid": "10",
-				  "maxmodels": 20,
+                  "globalid": "10",
+                  "maxmodels": 20,
                   "condition": [
                     {
                       "option": "10",
@@ -1206,7 +1292,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "301"
+                  "globalid": "301"
                 },
                 {
                   "type": "magicitems",
@@ -1231,8 +1317,8 @@
           "maxmodels": "15",
           "modelcost": "19",
           "size": "Standard",
-		  "limitation": 4,
-		  "category": 4,
+          "limitation": 4,
+          "category": 4,
           "type": "Infantry",
           "cost": "200",
           "rules": [
@@ -1291,7 +1377,7 @@
                 {
                   "name": "Guild-Crafted Handgun (4+)",
                   "cost": "4",
-				  "globalid": "11"
+                  "globalid": "11"
                 },
                 {
                   "name": "Great Weapon",
@@ -1315,7 +1401,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "301"
+                  "globalid": "301"
                 },
                 {
                   "type": "magicitems",
@@ -1410,7 +1496,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "301"
+                  "globalid": "301"
                 },
                 {
                   "type": "magicitems",
@@ -1436,7 +1522,7 @@
           "modelcost": "28",
           "size": "Standard",
           "type": "Infantry",
-		  "limitation": 5,
+          "limitation": 5,
           "cost": "320",
           "rules": [
             {
@@ -1493,7 +1579,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "301"
+                  "globalid": "301"
                 },
                 {
                   "type": "magicitems",
@@ -1519,7 +1605,7 @@
           "modelcost": "16",
           "size": "Standard",
           "type": "Infantry",
-		  "limitation": 2,
+          "limitation": 2,
           "cost": "185",
           "rules": [
             {
@@ -1578,12 +1664,12 @@
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": "4",
-				  "category": "4"
+                  "category": "4"
                 },
                 {
                   "name": "Pistol (4+)",
                   "cost": "5",
-				  "category": "4"
+                  "category": "4"
                 }
               ],
               "type": "permodel"
@@ -1615,7 +1701,7 @@
           "maxmodels": "12",
           "modelcost": "17",
           "size": "Standard",
-		  "limitation": 2,
+          "limitation": 2,
           "type": "Infantry",
           "cost": "145",
           "rules": [
@@ -1665,7 +1751,7 @@
                 {
                   "name": "Skirmishers and lose Scoring",
                   "cost": "2",
-				  "maxmodels": 15
+                  "maxmodels": 15
                 },
                 {
                   "name": "Shields",
@@ -1682,12 +1768,12 @@
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": "1",
-				  "category": 4
+                  "category": 4
                 },
                 {
                   "name": "Crossbow (3+)",
                   "cost": "4",
-				  "category": 4
+                  "category": 4
                 }
               ],
               "type": "permodel"
@@ -1734,7 +1820,7 @@
           "unitsize": "5",
           "maxmodels": "20",
           "modelcost": "21",
-		  "limitation": 3,
+          "limitation": 3,
           "size": "Standard",
           "type": "Infantry",
           "cost": "110",
@@ -1795,8 +1881,8 @@
                 {
                   "name": "Skirmisher",
                   "cost": "2",
-				  "maxmodels": 15,
-				  "limitation" : 1
+                  "maxmodels": 15,
+                  "limitation" : 1
                 }
               ],
               "type": "permodel"
@@ -1826,7 +1912,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
-		  "limitation": 2,
+          "limitation": 2,
           "cost": "130",
           "rules": [
             {
@@ -1878,7 +1964,7 @@
           "unitsize": "3",
           "maxmodels": "5",
           "modelcost": "102",
-		  "limitation": 2,
+          "limitation": 2,
           "size": "Large",
           "type": "Infantry",
           "cost": "280",
@@ -1938,7 +2024,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "301"
+                  "globalid": "301"
                 },
                 {
                   "type": "magicitems",
@@ -1962,7 +2048,7 @@
           "size": "Large ",
           "type": "Construct",
           "cost": "350",
-		  "limitation": 2,
+          "limitation": 2,
           "rules": [
             {
               "specialrules": [
@@ -2035,7 +2121,7 @@
           "modelcost": "24",
           "size": "Standard",
           "type": "Infantry",
-		  "maxarmymodels": 30,
+          "maxarmymodels": 30,
           "cost": "240",
           "rules": [
             {
@@ -2079,7 +2165,7 @@
                 {
                   "name": "Max 30 models",
                   "cost": "0",
-				  "maxarmymodels": 30
+                  "maxarmymodels": 30
                 }
               ]
             },
@@ -2098,7 +2184,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "301"
+                  "globalid": "301"
                 },
                 {
                   "type": "magicitems",
@@ -2120,7 +2206,7 @@
           "name": "Steam Copters",
           "Base": "1",
           "size": "Standard",
-		  "limitation": 3,
+          "limitation": 3,
           "type": "Construct",
           "unitsize": "1",
           "maxmodels": "1",
@@ -2168,13 +2254,13 @@
                 {
                   "name": "Steam Bomber",
                   "cost": "210",
-				  "maxmodels": 1,
-				  "limitation": 2
+                  "maxmodels": 1,
+                  "limitation": 2
                 },
                 {
                   "name": "Attack Copter",
                   "cost": "175",
-				  "limitation": 2
+                  "limitation": 2
                 }
               ]
             }
@@ -2243,32 +2329,32 @@
                 {
                   "name": "Dwarf Ballista (4+)",
                   "cost": "105",
-				  "globalid": "21",
-				  "limitation": 4
+                  "globalid": "21",
+                  "limitation": 4
                 },
                 {
                   "name": "Flame Cannon",
                   "cost": "150",
-				  "globalid": "22",
-				  "limitation": 2
+                  "globalid": "22",
+                  "limitation": 2
                 },
                 {
                   "name": "Catapult (4+)",
                   "cost": "210",
-				  "globalid": "23",
-				  "limitation": 2
+                  "globalid": "23",
+                  "limitation": 2
                 },
                 {
                   "name": "Cannon (4+)",
                   "cost": "255",
-				  "globalid": "24",
-				  "limitation": 2
+                  "globalid": "24",
+                  "limitation": 2
                 },
                 {
                   "name": "Organ Gun (4+)",
                   "cost": "270",
-				  "globalid": "25",
-				  "limitation": 2
+                  "globalid": "25",
+                  "limitation": 2
                 }
               ]
             },
