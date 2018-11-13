@@ -1512,7 +1512,7 @@
           "unitsize": 10,
           "modelcost": 24,
           "maxmodels": 20,
-          "organisation": "4",
+          "category": "4",
           "type": "1",
           "size": "1",
           "base": "1",
@@ -1692,7 +1692,7 @@
                 {
                   "globalid": "21",
                   "name": "Heath Hunters",
-                  "organisation": "4",
+                  "category": "4",
                   "maxmodels": 10,
                   "cost": 5
                 },
