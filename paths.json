@@ -1691,8 +1691,8 @@
           "value": "H",
           "name": "[WDG]Hellfire",
           "duration": "2",
-          "effect": "The target suffers 2D3 [2D6] hits with Strength 7, Armour Penetration 0, and Magical Attacks.",
-          "castingvalue": "8+/[11+]",
+          "effect": "The target suffers 2D3 [2D6] hits with Strength 6, Armour Penetration 0, and Magical Attacks.",
+          "castingvalue": "6+/[10+]",
           "range": "18",
           "types": [
             {
