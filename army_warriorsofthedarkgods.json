@@ -27,17 +27,6 @@
     }
   ],
   "magicitems": {
-    "category1": [
-      {
-        "name": "Burning Portent",
-        "description": "Hand Weapon. Attacks made with this Weapon have their Armour Penetration set to 10 and gain Magical Attacks, Flaming Attacks and Multiple Wounds (D3).",
-        "cost": "120"
-      },
-      {
-        "name": "Symbol of Slaughter",
-        "description": "Hand Weapon and Paired Weapons. When using this weapon, the wielder gains +2 Attack Value and +2 Agility. Attacks made with this Weapon have gain Magical Attacks. Close Combat Attacks made against the wielder’s model gain +1 to hit",
-        "cost": "35"
-      }],
     "weapons": [
       {
         "name": "Burning Portent",
@@ -447,83 +436,83 @@
       "size": "Gigantic",
       "type": "Beast"
     },
-	{
+    {
       "id": "10",
-	  "name": "Battleshrine",
-	  "limitation": 2,
-	  "size": "Large",
-	  "type": "Construct",
-	  "rules": [
-		{
-		  "specialrules": [
-			{
-			  "specialrule": "Beacon of the Dark Gods"
-			},
-			{
-			  "specialrule": "Aegis  (5+)"
-			},
-			{
-			  "specialrule": "Harnessed"
-			},
-			{
-			  "specialrule": "Not a Leader"
-			},
-			{
-			  "specialrule": "Towering Presence"
-			},
-			{
-			  "specialrule": "War Platform"
-			},
-			{
-			  "specialrule": "Fear"
-			},
-			{
-			  "specialrule": "Fearless"
-			},
-			{
-			  "specialrule": "Grind Attacks  (D6+1)"
-			},
-			{
-			  "specialrule": "Channel (1)"
-			},
-			{
-			  "specialrule": "Wizard Apprentice"
-			}
-		  ],
-		  "equipments": [],
-		  "ADV": "5",
-		  "MAR": "10",
-		  "Ld": "8",
-		  "W": "5",
-		  "DEF": "4",
-		  "T": "4",
-		  "ARM": "4",
-		  "name": "Wretched One (2)",
-		  "A": "0",
-		  "OFF": "1",
-		  "S": "4",
-		  "AP": "0",
-		  "I": "1"
-		},
-		{
-		  "name": "Shrine Priest",
-		  "ADV": "-",
-		  "MAR": "-",
-		  "W": "-",
-		  "DEF": "-",
-		  "T": "-",
-		  "ARM": "-",
-		  "Dis": "-",
-		  "specialrules": [],
-		  "equipments": [],
-		  "A": "1",
-		  "OFF": "4",
-		  "S": "3",
-		  "AP": "0",
-		  "I": "3"
-		}
-	  ]
-	},
+      "name": "Battleshrine",
+      "limitation": 2,
+      "size": "Large",
+      "type": "Construct",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Beacon of the Dark Gods"
+            },
+            {
+              "specialrule": "Aegis  (5+)"
+            },
+            {
+              "specialrule": "Harnessed"
+            },
+            {
+              "specialrule": "Not a Leader"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "War Platform"
+            },
+            {
+              "specialrule": "Fear"
+            },
+            {
+              "specialrule": "Fearless"
+            },
+            {
+              "specialrule": "Grind Attacks  (D6+1)"
+            },
+            {
+              "specialrule": "Channel (1)"
+            },
+            {
+              "specialrule": "Wizard Apprentice"
+            }
+          ],
+          "equipments": [],
+          "ADV": "5",
+          "MAR": "10",
+          "Ld": "8",
+          "W": "5",
+          "DEF": "4",
+          "T": "4",
+          "ARM": "4",
+          "name": "Wretched One (2)",
+          "A": "0",
+          "OFF": "1",
+          "S": "4",
+          "AP": "0",
+          "I": "1"
+        },
+        {
+          "name": "Shrine Priest",
+          "ADV": "-",
+          "MAR": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-",
+          "Dis": "-",
+          "specialrules": [],
+          "equipments": [],
+          "A": "1",
+          "OFF": "4",
+          "S": "3",
+          "AP": "0",
+          "I": "3"
+        }
+      ]
+    }
   ],
   "army": [
     {
@@ -955,7 +944,7 @@
                 {
                   "mount": 2,
                   "cost": "260",
-				  "globalid":"131"
+                  "globalid":"131"
                 }]
             },
             {
@@ -1145,7 +1134,7 @@
                 {
                   "mount": 2,
                   "cost": "405",
-				  "globalid": "131"
+                  "globalid": "131"
                 },
                 {
                   "mount": 9,
@@ -1304,7 +1293,7 @@
                 {
                   "mount": 2,
                   "cost": "400",
-				  "globalid": "131"
+                  "globalid": "131"
                 }]
             },
             {
@@ -1337,7 +1326,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Beast",
-		  "category": "4",
+          "category": "4",
           "cost": "720",
           "rules": [
             {
@@ -1490,7 +1479,7 @@
                 {
                   "name": "Favoured Champion",
                   "cost": "25",
-				  "globalid": "33",
+                  "globalid": "33",
                   "maxmodels": 20,
                   "condition": [
                     {
@@ -1613,7 +1602,7 @@
                 {
                   "name": "Champion",
                   "cost": "20",
-				  "globalid": "32"
+                  "globalid": "32"
                 },
                 {
                   "name": "Musician",
@@ -1622,7 +1611,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -1782,7 +1771,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -1875,7 +1864,7 @@
                 {
                   "name": "Favoured Champion",
                   "cost": "40",
-				  "globalid": "33",
+                  "globalid": "33",
                   "condition": [
                     {
                       "option": "32",
@@ -1993,7 +1982,7 @@
                 {
                   "name": "Champion",
                   "cost": "20",
-				  "globalid": "32"
+                  "globalid": "32"
                 },
                 {
                   "name": "Musician",
@@ -2002,7 +1991,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -2101,7 +2090,7 @@
           "type": "Infantry",
           "unitsize": "5",
           "maxmodels": "5",
-		  "limitation": 4,
+          "limitation": 4,
           "modelcost": "64",
           "cost": "270",
           "rules": [
@@ -2229,7 +2218,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -2370,7 +2359,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -2572,8 +2561,8 @@
                 {
                   "name": "Damnation",
                   "cost": "25",
-				  "limitation": 2,
-				  "maxmodels": 6
+                  "limitation": 2,
+                  "maxmodels": 6
                 }
               ],
               "type": "permodel"
@@ -2613,7 +2602,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -2987,7 +2976,7 @@
                 {
                   "name": "Skinning Lash",
                   "cost": "6",
-				  "maxarmymodels": 15
+                  "maxarmymodels": 15
                 },
                 {
                   "name": "Throwing Weapons (5+)",
@@ -3146,11 +3135,11 @@
                   "name": "Standard Bearer",
                   "cost": "20"
                 },
-				{
-				  "type": "magicitems",
-				  "name": "Magic items",
-				  "cost": 200
-				}
+                {
+                  "type": "magicitems",
+                  "name": "Magic items",
+                  "cost": 200
+                }
               ]
             }
           ]
@@ -3200,7 +3189,7 @@
                   "name": "Wings",
                   "cost": "55",
                   "maxmodels": 2,
-					"category": "4"
+                  "category": "4"
                 }]
             }
           ]
