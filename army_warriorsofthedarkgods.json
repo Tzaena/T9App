@@ -2668,16 +2668,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Wretched One",
-                  "cost": "97"
-                }
-              ]
-            }
           ]
         },
         {
