@@ -613,7 +613,7 @@
                     },
                     {
                       "option": "52",
-                      "global": true,
+                      "global": false,
                       "exist": true
                     }
                   ]
