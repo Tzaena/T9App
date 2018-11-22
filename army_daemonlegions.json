@@ -1,6 +1,6 @@
 {
   "generalitems": false,
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -83,7 +83,7 @@
       {
         "name": "Aether Wand",
         "description": "Hand Weapon Enchantment. Whenever the wielder successfully casts a non-attribute Spell, or successfully dispels a Spell, roll a D6. On a 4+, the wielder gains a charge counter. Roll a D6. On aFor each charge counter the wielder gains +1 Attack Value when using this weapon.",
-        "cost": "55"
+        "cost": "70"
       },
       {
         "name": "Blade of Grief",
@@ -99,7 +99,7 @@
     "artefacts": [
       {
         "name": "Nauseating Aura",
-        "description": "Talisman. Enemy units in base contact with the bearer never have more than Agility 1 during the Melee Phase. ",
+        "description": "Talisman. Enemy units in base contact with the bearer always have Agility 1.",
         "cost": "100"
       },
       {
@@ -109,7 +109,7 @@
       },
       {
         "name": "Veil of Shadows",
-        "description": "Talisman. The bearer’s unit gains Hard Target and Magic Resistance (1).",
+        "description": "Talisman. The bearer’s unit gains Hard Target (1) and Magic Resistance (1).",
         "cost": "70"
       },
       {
@@ -164,7 +164,7 @@
       },
       {
         "name": "Portal Gem",
-        "description": "Enchanted Item. All friendly units within 12\" of the bearer lose 1 Health Point less from failed Unstable rolls.",
+        "description": "Enchanted Item. All friendly units within 12 of the bearer lose 1 Health Point less from failed Break Tests.",
         "cost": "25"
       },
       {
@@ -174,7 +174,7 @@
       },
       {
         "name": "Blazing Wings",
-        "description": "Enchanted Item. The bearer gains Fly (8”, 16”).",
+        "description": "Enchanted Item. The bearer gains Fly (8, 16)), Light Troops, and Swiftstride.",
         "cost": "35"
       },
       {
@@ -200,7 +200,7 @@
       {
         "name": "Scrolls of the Eigth Pact",
         "description": "Arcane Item. The bearer gains Protean Magic. ",
-        "cost": "15"
+        "cost": "5"
       }
     ]
   },
@@ -215,7 +215,7 @@
           "size": "Gigantic",
           "type": "Infantry",
           "category": "4",
-          "cost": "480",
+          "cost": "450",
           "rules": [
             {
               "specialrules": [
@@ -224,6 +224,9 @@
                 },
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Stubborn"
@@ -297,15 +300,15 @@
                 },
                 {
                   "name": "Lust",
-                  "cost": "20"
+                  "cost": "30"
                 },
                 {
                   "name": "Pestilence",
-                  "cost": "20"
+                  "cost": "30"
                 },
                 {
                   "name": "Wrath",
-                  "cost": "20"
+                  "cost": "30"
                 }
               ]
             },
@@ -359,7 +362,7 @@
           "size": "Gigantic",
           "category": "5",
           "type": "Infantry",
-          "cost": "975",
+          "cost": "1000",
           "rules": [
             {
               "specialrules": [
@@ -370,10 +373,19 @@
                   "specialrule": "Supernal"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
                   "specialrule": "Wizard Master"
                 },
                 {
-                  "specialrule": "Fly  (8\", 16\")"
+                  "specialrule": "Fly  (8, 16)"
                 },
                 {
                   "specialrule": "Aegis  (5+)"
@@ -405,7 +417,7 @@
               "choices": [
                 {
                   "name": "Supreme Aspect - Power Vortex",
-                  "cost": "65"
+                  "cost": "70"
                 },
                 {
                   "globalid": "102",
@@ -468,6 +480,12 @@
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Aegis  (5+)"
@@ -629,6 +647,9 @@
                   "specialrule": "Supernal"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Swiftstride"
                 },
                 {
@@ -751,6 +772,9 @@
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Distracting"
@@ -927,6 +951,9 @@
                   "specialrule": "Supernal"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Daemon of Pestilence"
                 },
                 {
@@ -1049,6 +1076,9 @@
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Daemon of Pestilence"
@@ -1203,7 +1233,7 @@
           "size": "Gigantic",
           "category": "8",
           "type": "Infantry",
-          "cost": "880",
+          "cost": "900",
           "rules": [
             {
               "specialrules": [
@@ -1212,6 +1242,15 @@
                 },
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
                 },
                 {
                   "specialrule": "Fly"
@@ -1305,6 +1344,9 @@
                 },
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Magic Resistance  (1)"
@@ -1436,6 +1478,9 @@
                   "specialrule": "Supernal"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Scoring"
                 },
                 {
@@ -1447,7 +1492,7 @@
               ],
               "equipments": [
                 {
-                  "equipment": "Firebolts"
+                  "equipment": "Firebolts (4+)"
                 }
               ],
               "ADV": "4",
@@ -1529,6 +1574,9 @@
                 },
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Scoring"
@@ -1618,6 +1666,9 @@
                 },
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Parry"
@@ -1711,6 +1762,9 @@
                 },
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Magic Resistance  (1)"
@@ -1814,6 +1868,18 @@
                   "specialrule": "Supernal"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
                   "specialrule": "Fly"
                 },
                 {
@@ -1882,6 +1948,9 @@
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Aegis  (5+)"
@@ -1969,17 +2038,26 @@
           "Base": "1",
           "unitsize": "5",
           "maxmodels": "3",
-          "modelcost": "44",
+          "modelcost": "42",
           "size": "Standard",
           "limitation": 3,
           "category": "4",
           "type": "Infantry",
-          "cost": "225",
+          "cost": "215",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Skirmisher"
@@ -2051,6 +2129,15 @@
                   "specialrule": "Supernal"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Fly"
                 },
                 {
@@ -2100,6 +2187,12 @@
                 },
                 {
                   "specialrule": "Daemon of Change"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
                 },
                 {
                   "specialrule": "Inanimate"
@@ -2187,6 +2280,9 @@
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Elusive"
@@ -2304,12 +2400,15 @@
           "modelcost": "125",
           "size": "Large",
           "type": "Beast",
-          "cost": "215",
+          "cost": "220",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Fear"
@@ -2714,7 +2813,16 @@
                   "specialrule": "Supernal"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Skirmisher"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Scout"
@@ -2765,10 +2873,10 @@
           "unitsize": "3",
           "limitation": 3,
           "maxmodels": "3",
-          "modelcost": "115",
+          "modelcost": "110",
           "size": "Large",
           "type": "Infantry",
-          "cost": "365",
+          "cost": "350",
           "rules": [
             {
               "specialrules": [
@@ -2777,6 +2885,9 @@
                 },
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Fear"
@@ -2839,6 +2950,12 @@
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
                 },
                 {
                   "specialrule": "Fly"
@@ -2954,6 +3071,9 @@
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Scoring"
@@ -3084,6 +3204,9 @@
                   "specialrule": "Supernal"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Magic Resistance  (3)"
                 },
                 {
@@ -3134,7 +3257,7 @@
           "size": "Large",
           "limitation": 1,
           "type": "Construct",
-          "cost": "315",
+          "cost": "305",
           "rules": [
             {
               "specialrules": [
@@ -3143,6 +3266,9 @@
                 },
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Swiftstride"
@@ -3259,12 +3385,15 @@
           "size": "Large",
           "limitation": 2,
           "type": "Construct",
-          "cost": "345",
+          "cost": "350",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Swiftstride"
