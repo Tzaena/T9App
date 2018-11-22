@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -48,7 +48,7 @@
     "armours": [
       {
         "name": "Taurosaur's Vigour",
-        "cost": 65,
+        "cost": 60,
         "description": "Suit of Armour enchantment. The wearer gains +1 Armour, +1 Health Point, and Crush Attack."
       },
       {
@@ -60,12 +60,12 @@
     "artefacts": [
       {
         "name": "Sphere of Shielding",
-        "cost": 90,
+        "cost": 80,
         "description": "Models on Palanquin and Skink Palanquin only. The bearer gains Aegis (2+, against Ranged Attacks). The bearer may not take saves of any kind against Melee Attacks."
       },
       {
         "name": "Ancient Plaque",
-        "cost": 85,
+        "cost": 80,
         "dominant" : 1,
         "description": "Once per friendly Magic Phase, the bearer may reroll one Magic Dice that was used for a Casting Attempt. This ability cannot be used when the bearer is casting with only one Magic Dice, and cannot reroll a dice which is one, of three or more rolling the same value."
       },
@@ -113,7 +113,7 @@
       },
       {
         "name": "Tree Frog Banner",
-        "cost": 40,
+        "cost": 35,
         "description": "Close Combat Attacks from Skink* model parts in the unit gain Poison Attacks."
       }
     ]
@@ -576,7 +576,7 @@
                 },
                 {
                   "mount": "2",
-                  "cost": 280
+                  "cost": 260
                 },
                 {
                   "mount": "3",
@@ -712,7 +712,7 @@
                 },
                 {
                   "mount": "2",
-                  "cost": 290,
+                  "cost": 270,
                   "category": "5"
                 }
               ]
@@ -721,7 +721,7 @@
         },
         {
           "name": "Caimant Ancient",
-          "cost": 225,
+          "cost": 210,
           "type": "1",
           "size" : "2",
           "base": "8",
@@ -1610,9 +1610,9 @@
         },
         {
           "name": "Raptor Riders",
-          "cost": 285,
+          "cost": 270,
           "unitsize": 5,
-          "modelcost": 52,
+          "modelcost": 50,
           "maxmodels": 7,
           "limitation": 4,
           "type": "3",
@@ -1714,7 +1714,7 @@
           "name": "Caimans",
           "cost": 210,
           "unitsize": 3,
-          "modelcost": 85,
+          "modelcost": 80,
           "maxmodels": 7,
           "limitation": 5,
           "type": "1",
@@ -1791,7 +1791,7 @@
         },
         {
           "name": "Snake Swarms",
-          "cost": 135,
+          "cost": 130,
           "unitsize": 2,
           "modelcost": 40,
           "maxmodels": 2,
@@ -1813,7 +1813,7 @@
               "W": "5",
               "I": "1",
               "A": "5",
-              "Ld": "10",
+              "Ld": "7",
               "specialrules": [
                 {
                   "specialrule": "Cold Blooded"
@@ -1823,6 +1823,12 @@
                 },
                 {
                   "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Skirmisher"
@@ -1886,6 +1892,12 @@
                 },
                 {
                   "specialrule": "Cold Blooded"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Skirmisher"
@@ -1961,7 +1973,10 @@
                   "specialrule": "Scout"
                 },
                 {
-                  "specialrule": "Hard Target"
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (2)"
                 }
               ],
               "equipments": [
@@ -2084,6 +2099,12 @@
                   "specialrule": "Feigned Flight"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Vanguard"
                 }
               ],
@@ -2186,7 +2207,13 @@
                   "specialrule": "Cold Blooded"
                 },
                 {
-                  "specialrule": "Hard Target"
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Frenzy"
@@ -2400,6 +2427,9 @@
                 },
                 {
                   "specialrule": "Stomp (D3)"
+                },
+                {
+                  "specialrule": "Fear"
                 },
                 {
                   "specialrule": "Terror"
