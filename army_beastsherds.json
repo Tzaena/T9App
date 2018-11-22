@@ -1370,7 +1370,7 @@
               "W": "1",
               "DEF": "3",
               "T": "3",
-              "ARM": "-",
+              "ARM": "0",
               "name": "Mongrel Herd Offensive",
               "A": "1",
               "OFF": "3",
@@ -2163,7 +2163,7 @@
               ],
               "equipments": [],
               "ADV": "3D6",
-              "MAR": "-",
+              "MAR": "0",
               "Ld": "10",
               "W": "3",
               "DEF": "3",
@@ -2352,7 +2352,7 @@
           ]
         },
         {
-          "name": "Jabberwock​",
+          "name": "Jabberwock",
           "Base": "1",
           "size": "Gigantic",
           "limitation": 2,
@@ -2387,7 +2387,7 @@
               "ADV": "Ground 8, Fly 8",
               "MAR": "Ground 16, Fly 16",
               "Ld": "8",
-              "name": "Jabberwock​ Offensive",
+              "name": "Jabberwock Offensive",
               "A": "4",
               "OFF": "4",
               "S": "5",
@@ -2462,11 +2462,11 @@
                   "cost": "30"
                 },
                 {
-                  "name": "Uprooted​ ​Tree",
+                  "name": "Uprooted Tree",
                   "cost": "10"
                 },
                 {
-                  "name": "Beer​ ​Barrel​",
+                  "name": "Beer Barrel",
                   "cost": "20"
                 }
               ]
