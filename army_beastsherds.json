@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -47,7 +47,7 @@
       {
         "name": "Wild Form",
         "description": "Suits of Armour enchantment. At the start of the Melee Phase the bearer may choose to gain one of the following: +1 Strength, +1 Armour Penetration, -1 Resilience or -1 Strength, -1 Armour Penetration, +1 Resilience. Effects last until the end of the Melee Phase.",
-        "cost": "40"
+        "cost": "35"
       },
       {
         "name": "Obscuring Fog",
@@ -59,7 +59,7 @@
       {
         "name": "Hawthorne Curse",
         "description": "Models without Ambush only. Hand Weapon enchantment. Attacks made with this weapon gain Devastating Charge (+2 Str, +2 AP) and Magical Attacks. The weapon can be used as a Shooting Weapon (3+) and the following profile: Range 18, Shots 1, Str 3 [6], AP 10, Penetrating, Reload!, [Multiple Wounds (D3)]. This Shooting Attack never suffers negative to-hit modifiers.",
-        "cost": "80"
+        "cost": "70"
       },
       {
         "name": "Ancestral Carvings ",
@@ -69,7 +69,7 @@
       {
         "name": "Twin Hungers",
         "description": "Paired Weapons enchantment. Attacks made with this weapon gain Lethal Strike and Magical Attacks. Whenever the wielder rolls a natural ‘6’ to wound with a Close Combat Attack, and this attack successfully causes an unsaved wound, the bearer Recovers 1 Health Point at the end of the Initiative Step. No more than 1 Health Point may be recovered per Phase in this manner.",
-        "cost": "50"
+        "cost": "40"
       },
       {
         "name": "Fatal Folly",
@@ -94,8 +94,8 @@
       },
       {
         "name": "Inscribing Burin",
-        "description": "While the bearer has more than half of its base inside a Forest Terrain Feature, all friendly units with more than half of their Footprint inside any Forest Terrain Feature on the Battlefield gain Magic Resistance (2)",
-        "cost": "35"
+        "description": "While the bearer has the centre of its base inside a Forest Terrain Feature, all friendly units with more than half of their models with the centre of their bases inside any Forest Terrain Feature on the Battlefield gain Magic Resistance (2)",
+        "cost": "30"
       },
       {
         "name": "Eye of Dominance",
@@ -744,6 +744,9 @@
                   "specialrule": "Frenzy"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Primal Instinct"
                 },
                 {
@@ -838,7 +841,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Infantry",
-          "cost": "235",
+          "cost": "220",
           "rules": [
             {
               "specialrules": [
@@ -850,6 +853,9 @@
                 },
                 {
                   "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Impact Hits  (D3)"
@@ -1115,7 +1121,10 @@
                   "specialrule": "Scoring"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Shield"
+                }],
               "ADV": "5",
               "MAR": "10",
               "Ld": "7",
@@ -1169,18 +1178,7 @@
               ]
             },
             {
-              "name": "Throwing Weapons",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Throwing Weapons (5+)",
-                  "cost": "2"
-                }
-              ],
-              "type": "permodel"
-            },
-            {
-              "name": "Equipment",
+              "name": "Replace Shield",
               "onechoice": true,
               "mandatory": false,
               "choices": [
@@ -1189,8 +1187,12 @@
                   "cost": "2"
                 },
                 {
-                  "name": "Shield",
-                  "cost": "1"
+                  "name": "Throwing Weapons (5+)",
+                  "cost": "2"
+                },
+                {
+                  "name": "Paired Weapons + Throwing Weapons (5+)",
+                  "cost": "4"
                 }
               ],
               "type": "permodel"
@@ -1333,8 +1335,8 @@
           "unitsize": "10",
           "maxmodels": "10",
           "limitation": 4,
-          "modelcost": "8",
-          "cost": "100",
+          "modelcost": "7",
+          "cost": "95",
           "rules": [
             {
               "specialrules": [
@@ -1345,6 +1347,12 @@
                   "specialrule": "Scoring"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Primal Instinct"
                 },
                 {
@@ -1353,7 +1361,7 @@
               ],
               "equipments": [
                 {
-                  "equipment": "Bow"
+                  "equipment": "Bow (4+)"
                 }
               ],
               "ADV": "5",
@@ -1597,6 +1605,9 @@
                 },
                 {
                   "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Strider  (Forest)"
@@ -2144,6 +2155,9 @@
                   "specialrule": "Fear"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Strider  (Forest)"
                 }
               ],
@@ -2184,6 +2198,15 @@
                 },
                 {
                   "specialrule": "Strider  (Forest)"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Primal Instinct"
@@ -2291,6 +2314,9 @@
                   "specialrule": "Frenzy"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Stubborn"
                 },
                 {
@@ -2331,7 +2357,7 @@
           "size": "Gigantic",
           "limitation": 2,
           "type": "Beast",
-          "cost": "370",
+          "cost": "340",
           "rules": [
             {
               "specialrules": [
@@ -2343,6 +2369,9 @@
                 },
                 {
                   "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
                 },
                 {
                   "specialrule": "Breath Attack  (Str 3, AP 2)"
@@ -2413,6 +2442,16 @@
             }
           ],
           "options": [
+            {
+              "name": "Big Brother",
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Big Brother",
+                  "cost": "35"
+                }
+              ]
+            },
             {
               "name": "Weapon",
               "onechoice": true,
