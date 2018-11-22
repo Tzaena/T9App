@@ -1501,7 +1501,7 @@
               "W": "1",
               "DEF": "3",
               "T": "3",
-              "ARM": "-",
+              "ARM": "0",
               "name": "Horror ",
               "A": "1",
               "OFF": "3",
@@ -1804,7 +1804,7 @@
             {
               "name": "Weapon",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
                 {
                   "name": "Hell Axe",
