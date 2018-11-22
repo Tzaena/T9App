@@ -1358,21 +1358,24 @@
               "equipments": [
                 {
                   "equipment": "Light Armour"
+                },
+                {
+                  "equipment": "Blood Sword"
                 }
               ],
-              "ADV": "7",
-              "MAR": "14",
-              "Ld": "C",
-              "W": "C",
-              "DEF": "C",
-              "T": "C",
-              "ARM": "C+1",
-              "name": "Crusher ",
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "7",
+              "T": "4",
+              "ARM": "3",
+              "name": "Harbinger of Wrath",
               "A": "3",
-              "OFF": "5",
+              "OFF": "7",
               "S": "5",
               "AP": "2",
-              "I": "2"
+              "I": "6"
             }
           ],
           "options": [
@@ -1439,15 +1442,22 @@
             {
               "name": "Weapon",
               "onechoice": true,
-              "mandatory": true,
+              "mandatory": false,
               "choices": [
-                {
-                  "name": "Blood Sword",
-                  "cost": "0"
-                },
                 {
                   "name": "Axe of Retribution",
                   "cost": "10"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Crusher",
+                  "cost": "115"
                 }
               ]
             }
