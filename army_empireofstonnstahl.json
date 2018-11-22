@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -69,7 +69,7 @@
       },
       {
         "name": "Witchfire Guard",
-        "cost": 45,
+        "cost": 35,
         "description": "Shield enchantment. The bearer gains Aegis (5+, against Magical Attacks). Miscasts suffered by enemy models within 12 of the bearer gain a +1 Miscast Modifier"
       },
       {
@@ -656,7 +656,7 @@
                 },
                 {
                   "mount": "2",
-                  "cost": 90
+                  "cost": 75
                 },
                 {
                   "mount": "3",
@@ -887,7 +887,7 @@
                   "mount": "6",
                   "globalid": "6",
                   "limitation": 1,
-                  "cost": 400,
+                  "cost": 370,
                   "condition": [
                     {
                       "option": "6",
@@ -987,6 +987,22 @@
                 {
                   "name": "Crossbow (3+)",
                   "cost": 10
+                }
+              ]
+            },
+            {
+              "name": "May Take",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Blessed Steel",
+                  "cost": 70
+                },
+                {
+                  "name": "Silver Shots",
+                  "cost": 10,
+				  "limitation": 1,
+				  "category": "4"
                 }
               ]
             },
@@ -1251,11 +1267,11 @@
                 },
                 {
                   "mount": "2",
-                  "cost": 80
+                  "cost": 50
                 },
                 {
                   "mount": "3",
-                  "cost": 150
+                  "cost": 100
                 },
                 {
                   "mount": "7",
@@ -1273,7 +1289,7 @@
       "units": [
         {
           "name": "Heavy Infantry",
-          "cost": 150,
+          "cost": 145,
           "unitsize": 20,
           "modelcost": 10,
           "maxmodels": 30,
@@ -1475,10 +1491,10 @@
         },
         {
           "name": "State Militia",
-          "cost": 80,
+          "cost": 140,
           "unitsize": 10,
-          "modelcost": 6,
-          "maxmodels": 50,
+          "modelcost": 10,
+          "maxmodels": 15,
           "limitation": 4,
           "type": "1",
           "size": "1",
@@ -1510,6 +1526,12 @@
                 {
                   "equipment": "Paired Weapons"
                 }
+                {
+                  "equipment": "Bow (4+)"
+                }
+                {
+                  "equipment": "Pistol (4+)"
+                }
               ]
             }
           ],
@@ -1533,31 +1555,12 @@
               ]
             },
             {
-              "name": "Weapons",
-              "type": "permodel",
-              "onechoice": true,
-              "choices": [
-                {
-                  "globalid": "13",
-                  "category": "4",
-                  "name": "Replace Paired Weapons with Bow (4+)",
-                  "cost": 2
-                },
-                {
-                  "globalid": "13",
-                  "category": "4",
-                  "name": "Replace Paired Weapons with Pistol (4+)",
-                  "cost": 4
-                }
-              ]
-            },
-            {
               "name": "Skirmisher",
               "type": "permodel",
               "onechoice": true,
               "choices": [
                 {
-                  "name": "Gain Skirmisher & lose Scoring (max 15)",
+                  "name": "Irregulars",
                   "cost": 1,
                   "maxmodels" : 15,
                   "condition": [
@@ -1574,9 +1577,9 @@
         },
         {
           "name": "Electoral Cavalry",
-          "cost": 160,
+          "cost": 155,
           "unitsize": 5,
-          "modelcost": 30,
+          "modelcost": 29,
           "maxmodels": 10,
           "limitation": 4,
           "type": "2",
@@ -1694,7 +1697,7 @@
                 },
                 {
                   "name": "Great Weapon",
-                  "cost": 5
+                  "cost": 2
                 }
               ]
             }
@@ -1790,6 +1793,101 @@
                 {
                   "name": "Replace Shield with Great Weapons",
                   "cost": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arcane Engine",
+          "cost": 290,
+          "limitation": 2,
+          "type": "4",
+          "size": "2",
+          "base": "4",
+          "rules": [
+            {
+              "name": "Arcane Engine",
+              "ADV": "8",
+              "MAR": "8",
+              "DEF": "3",
+              "OFF": "0",
+              "ARM": "2",
+              "AP": "2",
+              "S": "5",
+              "T": "5",
+              "W": "5",
+              "I": "0",
+              "A": "0",
+              "Ld": "0",
+              "specialrules": [
+                {
+                  "specialrule": "Channel (1)"
+                },
+                {
+                  "specialrule": "Towering Presence"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Impact Hits (D6)"
+                },
+                {
+                  "specialrule": "Inanimate"
+                }
+              ],
+              "equipments": [
+              ]
+            },
+            {
+              "name": "Crew (2)",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [],
+              "equipments": []
+            },
+            {
+              "name": "Horse (2)",
+              "ADV": "-",
+              "MAR": "-",
+              "DEF": "-",
+              "OFF": "3",
+              "ARM": "-",
+              "AP": "0",
+              "S": "3",
+              "T": "-",
+              "W": "-",
+              "I": "3",
+              "A": "1",
+              "Ld": "-",
+              "specialrules": [],
+              "equipments": []
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": true,
+              "mandatory" : true,
+              "choices": [
+                {
+                  "name": "Arcane Shield",
+                  "cost": 0
+                },
+                {
+                  "name": "Foresight",
+                  "cost": 0
                 }
               ]
             }
@@ -1939,6 +2037,12 @@
                   "specialrule": "Scirmishers"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Scout"
                 },
                 {
@@ -2084,7 +2188,7 @@
                 },
                 {
                   "name": "Replace Pistol with Repeater Gun (4+)",
-                  "cost": 6
+                  "cost": 5
                 }
               ]
             }
@@ -2118,6 +2222,9 @@
               "A": "0",
               "Ld": "7",
               "specialrules": [
+                {
+                  "specialrule": "Move or Fire"
+                },
                 {
                   "specialrule": "War Machine"
                 }],
@@ -2177,105 +2284,10 @@
       "organisation": "6",
       "units": [
         {
-          "name": "Arcane Engine",
-          "cost": 280,
-          "limitation": 2,
-          "type": "4",
-          "size": "2",
-          "base": "4",
-          "rules": [
-            {
-              "name": "Arcane Engine",
-              "ADV": "8",
-              "MAR": "8",
-              "DEF": "3",
-              "OFF": "0",
-              "ARM": "2",
-              "AP": "2",
-              "S": "5",
-              "T": "5",
-              "W": "5",
-              "I": "0",
-              "A": "0",
-              "Ld": "0",
-              "specialrules": [
-                {
-                  "specialrule": "Channel (1)"
-                },
-                {
-                  "specialrule": "Towering Presence"
-                },
-                {
-                  "specialrule": "Swiftstride"
-                },
-                {
-                  "specialrule": "Impact Hits (D6)"
-                },
-                {
-                  "specialrule": "Inanimate"
-                }
-              ],
-              "equipments": [
-              ]
-            },
-            {
-              "name": "Crew (2)",
-              "ADV": "-",
-              "MAR": "-",
-              "DEF": "-",
-              "OFF": "3",
-              "ARM": "-",
-              "AP": "0",
-              "S": "3",
-              "T": "-",
-              "W": "-",
-              "I": "3",
-              "A": "1",
-              "Ld": "-",
-              "specialrules": [],
-              "equipments": []
-            },
-            {
-              "name": "Horse (2)",
-              "ADV": "-",
-              "MAR": "-",
-              "DEF": "-",
-              "OFF": "3",
-              "ARM": "-",
-              "AP": "0",
-              "S": "3",
-              "T": "-",
-              "W": "-",
-              "I": "3",
-              "A": "1",
-              "Ld": "-",
-              "specialrules": [],
-              "equipments": []
-            }
-          ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": true,
-              "mandatory" : true,
-              "choices": [
-                {
-                  "name": "Arcane Shield",
-                  "cost": 0
-                },
-                {
-                  "name": "Foresight",
-                  "cost": 0
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Flagellants",
-          "cost": 160,
-          "unitsize": 10,
-          "modelcost": 20,
+          "cost": 200,
+          "unitsize": 15,
+          "modelcost": 18,
           "maxmodels": 15,
           "limitation": 3,
           "type": "1",
@@ -2299,6 +2311,9 @@
               "specialrules": [
                 {
                   "specialrule": "Zealots"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Fanatical"
@@ -2335,7 +2350,7 @@
         },
         {
           "name": "Steam Tank",
-          "cost": 440,
+          "cost": 475,
           "limitation": 1,
           "type": "4",
           "size": "2",
@@ -2358,6 +2373,9 @@
               "specialrules": [
                 {
                   "specialrule": "Steam Powered"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Random Movement (4D3)"
