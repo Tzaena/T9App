@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -71,13 +71,13 @@
       },
       {
         "name": "Sacred Hourglass",
-        "cost": 80,
+        "cost": 95,
         "dominant" : 1,
         "description": "The bearer may reroll failed Casting Attempts that were rolled using 2 Magic Dice (by rerolling both Magic Dice)."
       },
       {
         "name": "Book of the Dead",
-        "cost": 75,
+        "cost": 60,
         "description": "The bearer can cast Death is Only the Beginning as a Bound Spell with Power Level (4/8) and the following modifications: The spell is considered a Learned Spell (instead of an Attribute Spell) and its Range is changed to 12', Aura."
       },
       {
@@ -112,7 +112,7 @@
       },
       {
         "name": "Scroll of Desiccation",
-        "cost": 25,
+        "cost": 15,
         "description": "After determining Deployment Zones (at the end of step 6 of the Pre-Game Sequence), choose a Field, Forest, or Water Terrain Feature. This Terrain Feature ceases to be the Terrain Feature it used to be and loses all its rules. It is treated as Dangerous Terrain (1) for all enemy units."
       }
     ],
@@ -435,6 +435,9 @@
                   "specialrule": "Fear"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Flammable"
                 },
                 {
@@ -574,7 +577,7 @@
                 },
                 {
                   "mount": "3",
-                  "cost": 385
+                  "cost": 365
                 }
               ]
             }
@@ -610,6 +613,9 @@
                 },
                 {
                   "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Flammable"
@@ -721,7 +727,7 @@
                 },
                 {
                   "mount": "3",
-                  "cost": 375
+                  "cost": 360
                 }
               ]
             }
@@ -757,6 +763,9 @@
                 },
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Wizard Apprentice"
@@ -890,7 +899,7 @@
                 },
                 {
                   "mount": "4",
-                  "cost": 160
+                  "cost": 145
                 }
               ]
             },
@@ -942,6 +951,9 @@
                 },
                 {
                   "specialrule": "Channel (1)"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Divine Light"
@@ -1026,6 +1038,9 @@
                 },
                 {
                   "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Royal Guard"
@@ -1160,7 +1175,7 @@
                 },
                 {
                   "mount": "5",
-                  "cost": 60
+                  "cost": 50
                 }
               ]
             }
@@ -1193,6 +1208,9 @@
                 },
                 {
                   "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Master of Stone"
@@ -1281,7 +1299,7 @@
                 },
                 {
                   "mount": "5",
-                  "cost": 50
+                  "cost": 40
                 }
               ]
             }
@@ -1322,6 +1340,9 @@
                 },
                 {
                   "specialrule": "Dust to Dust"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Undead"
@@ -1460,6 +1481,9 @@
                   "specialrule": "Dust to Dust"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Undead"
                 },
                 {
@@ -1545,9 +1569,9 @@
         },
         {
           "name": "Skeleton Cavalry",
-          "cost": 200,
+          "cost": 190,
           "unitsize": 10,
-          "modelcost": 18,
+          "modelcost": 17,
           "maxmodels": 14,
           "type": "2",
           "size" : "1",
@@ -1571,6 +1595,9 @@
               "specialrules": [
                 {
                   "specialrule": "Rsr (4)"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Dust to Dust"
@@ -1729,6 +1756,9 @@
                   "specialrule": "Rsr (4)"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Dust to Dust"
                 },
                 {
@@ -1854,6 +1884,9 @@
                   "specialrule": "Rsr (3)"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Dust to Dust"
                 },
                 {
@@ -1969,7 +2002,7 @@
               "choices": [
                 {
                   "name": "Legion Charioteers",
-                  "cost": 5
+                  "cost": 15
                 }
               ]
             },
@@ -2043,6 +2076,9 @@
               "specialrules": [
                 {
                   "specialrule": "Rsr (3)"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Scoring"
@@ -2208,6 +2244,9 @@
                   "specialrule": "Fear"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Lethal Strike"
                 }
               ],
@@ -2337,6 +2376,9 @@
                   "specialrule": "Rsr (2)"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Scoring"
                 },
                 {
@@ -2432,6 +2474,15 @@
                   "specialrule": "Rsr (3)"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Dust to Dust"
                 },
                 {
@@ -2497,6 +2548,15 @@
               "specialrules": [
                 {
                   "specialrule": "Rsr (5)"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Dust to Dust"
@@ -2584,7 +2644,7 @@
           "name": "Shabtis Archers",
           "cost": 200,
           "unitsize": 3,
-          "modelcost": 72,
+          "modelcost": 80,
           "limitation": "3",
           "maxmodels": 5,
           "type": "1",
@@ -2608,6 +2668,9 @@
               "specialrules": [
                 {
                   "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Scoring"
@@ -2696,6 +2759,9 @@
                   "specialrule": "Light Troops"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Fear"
                 },
                 {
@@ -2764,6 +2830,12 @@
                   "specialrule": "Rsr (2)"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Move or Fire"
+                },
+                {
                   "specialrule": "Undead"
                 },
                 {
@@ -2808,7 +2880,7 @@
       "units": [
         {
           "name": "Sand Scorpion",
-          "cost": 150,
+          "cost": 160,
           "limitation": "3",
           "type": "3",
           "size" : "2",
@@ -2831,6 +2903,9 @@
               "specialrules": [
                 {
                   "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Ensouled Statue"
@@ -2862,7 +2937,7 @@
       "units": [
         {
           "name": "Battle Sphinx",
-          "cost": 465,
+          "cost": 480,
           "limitation": "3",
           "type": "3",
           "size" : "3",
@@ -2885,6 +2960,9 @@
               "specialrules": [
                 {
                   "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Ensouled Statue"
@@ -2951,7 +3029,7 @@
         },
         {
           "name": "Dread Sphinx",
-          "cost": 490,
+          "cost": 480,
           "limitation": "2",
           "type": "3",
           "size" : "3",
@@ -2974,6 +3052,15 @@
               "specialrules": [
                 {
                   "specialrule": "Rsr (1)"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
                 },
                 {
                   "specialrule": "Ensouled Statue"
@@ -3047,6 +3134,15 @@
               "specialrules": [
                 {
                   "specialrule": "Rsr (2)"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
                 },
                 {
                   "specialrule": "Ensouled Statue"
@@ -3131,6 +3227,9 @@
                   "specialrule": "Rsr (1)"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Ensouled Statue"
                 },
                 {
@@ -3146,21 +3245,14 @@
           ],
           "options": [
             {
-              "name": "Bow",
-              "type": "permodel",
+              "name": "Weapons",
               "onechoice": true,
               "choices": [
                 {
                   "name": "Giant Aspen Bow (5+)",
                   "cost": 20,
                   "limitation": "1"
-                }
-              ]
-            },
-            {
-              "name": "Weapons",
-              "onechoice": true,
-              "choices": [
+                },
                 {
                   "name": "Great Weapon",
                   "cost": 15
