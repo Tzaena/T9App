@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -36,12 +36,12 @@
       {
         "name": "Tristan's Resolve",
         "description": "Hand Weapon Enchantment. When using this weapon, the wielder gains +1 Strength, +1 Armour Penetration, +1 Attack Value, and Magical Attacks. After a successful to-hit roll, the attacker may discard one of the hits with this weapon and choose a Weapon Enchantment carried by the model the attack was allocated towards. The chosen Weapon Enchantment cannot be used for the rest of the battle.​",
-        "cost": "60"
+        "cost": "55"
       },
       {
         "name": "Wyrmwood Core",
         "description": "Lance Enchantment. The wielder gains Breath Attack (Str 5, AP 0, Flaming Attacks). Attacks made with this weapon gain Magical Attacks and Flaming Attacks. ",
-        "cost": "55"
+        "cost": "45"
       }
     ],
     "armours": [
@@ -85,7 +85,7 @@
       {
         "name": "Crystal of the Valiant Charge",
         "description": "Dominant. Wizards only. One use only. May be activated at the start of the opponent's Magic Phase. In this phase, during Siphon the Veil, before converting Veil Tokens into Magic Dice, remove 1 Veil Token from the Active Player’s Veil Token pool for each friendly unit that is Engaged in Combat within 18” of the bearer. Add the tokens removed this way to your Veil Token pool.",
-        "cost": "55"
+        "cost": "30"
       }
     ],
     "standards": [
@@ -1031,7 +1031,7 @@
               "choices": [
                 {
                   "name": "Heavy Armour",
-                  "cost": "10"
+                  "cost": "0"
                 }
               ]
             },
@@ -1042,7 +1042,7 @@
               "choices": [
                 {
                   "name": "Throwing Weapons (4+)",
-                  "cost": "4"
+                  "cost": "5"
                 },
                 {
                   "name": "Longbow (3+)",
@@ -1407,7 +1407,7 @@
 		  "maxarmymodels": 100,
           "size": "Standard",
           "type": "Infantry",
-          "cost": "180",
+          "cost": "170",
           "rules": [
             {
               "specialrules": [
@@ -1838,7 +1838,7 @@
               "choices": [
                 {
                   "name": "Scorpion (4+)",
-                  "cost": "125"
+                  "cost": "120"
                 },
                 {
                   "name": "Trebuchet (4+)",
@@ -1869,6 +1869,12 @@
                 },
                 {
                   "specialrule": "Terror"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Supernal"
@@ -2103,7 +2109,7 @@
           "modelcost": "10",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "160",
+          "cost": "150",
           "rules": [
             {
               "specialrules": [
@@ -2205,7 +2211,7 @@
           "size": "Standard",
           "type": "Infantry",
 		  "limitation": 2,
-          "cost": "160",
+          "cost": "150",
           "rules": [
             {
               "specialrules": [
@@ -2214,6 +2220,9 @@
                 },
                 {
                   "specialrule": "Insignificant"
+                },
+                {
+                  "specialrule": "Not a Leader"
                 },
                 {
                   "specialrule": "War Platform"
@@ -2274,9 +2283,12 @@
           "cost": "340",
           "rules": [
             {
-              "specialrules": [
+              "specialrules": 
                 {
                   "specialrule": "Fly"
+                },
+                {
+                  "specialrule": "Light Troops"
                 },
                 {
                   "specialrule": "The Blessing"
@@ -2341,7 +2353,7 @@
                   "cost": "7"
                 },
                 {
-                  "name": "Skirmisher",
+                  "name": "Loose Formation",
                   "cost": "3"
                 }
               ],
