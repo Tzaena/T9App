@@ -1,6 +1,6 @@
 {
   "generalitems": false,
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -125,7 +125,7 @@
       {
         "name": "Rune of Resistance",
         "description": "Suit of Armour Enchantment. Successful to wound rolls against the wearer of an armour engraved with this Rune must be rerolled. ",
-        "cost": "65"
+        "cost": "55"
       },
       {
         "name": "Rune of Retribution",
@@ -665,6 +665,9 @@
                   "specialrule": "Unbreakable"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Vanguard"
                 },
                 {
@@ -1026,6 +1029,9 @@
                   "specialrule": "Runic Anvil"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Channel  (2)"
                 },
                 {
@@ -1153,12 +1159,12 @@
                   "cost": "0"
                 },
                 {
-                  "name": "Spear",
-                  "cost": "1"
+                  "name": "Spear and Shield",
+                  "cost": "3"
                 },
                 {
                   "name": "Great Weapon",
-                  "cost": "4"
+                  "cost": "3"
                 }
               ],
               "type": "permodel"
@@ -1437,7 +1443,7 @@
           "modelcost": "27",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "330",
+          "cost": "310",
           "rules": [
             {
               "specialrules": [
@@ -1449,9 +1455,6 @@
                 },
                 {
                   "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Shield Wall"
                 },
                 {
                   "specialrule": "Sturdy"
@@ -1519,11 +1522,11 @@
           "Base": "1",
           "unitsize": "15",
           "maxmodels": "15",
-          "modelcost": "28",
+          "modelcost": "27",
           "size": "Standard",
           "type": "Infantry",
           "limitation": 5,
-          "cost": "320",
+          "cost": "310",
           "rules": [
             {
               "specialrules": [
@@ -1668,7 +1671,7 @@
                 },
                 {
                   "name": "Pistol (4+)",
-                  "cost": "5",
+                  "cost": "4",
                   "category": "4"
                 }
               ],
@@ -1699,11 +1702,11 @@
           "Base": "1",
           "unitsize": "8",
           "maxmodels": "12",
-          "modelcost": "17",
+          "modelcost": "16",
           "size": "Standard",
           "limitation": 2,
           "type": "Infantry",
-          "cost": "145",
+          "cost": "140",
           "rules": [
             {
               "specialrules": [
@@ -1756,6 +1759,11 @@
                 {
                   "name": "Shields",
                   "cost": "2"
+                },
+                {
+                  "name": "Crag Warden",
+                  "cost": "2",
+				  "maxmodels": 15
                 }
               ],
               "type": "permodel"
@@ -1837,6 +1845,9 @@
                   "specialrule": "Sturdy"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Weapon Master"
                 },
                 {
@@ -1879,7 +1890,7 @@
                   "cost": "3"
                 },
                 {
-                  "name": "Skirmisher",
+                  "name": "Brothers of Vengeance",
                   "cost": "2",
                   "maxmodels": 15,
                   "limitation" : 1
@@ -1927,10 +1938,13 @@
                   "specialrule": "Aegis  (6+)"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Distracting"
                 },
                 {
-                  "specialrule": "Hard Target"
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Yer comin' with me!"
@@ -2059,6 +2073,12 @@
                   "specialrule": "Harnessed"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
                   "specialrule": "Inanimate"
                 },
                 {
@@ -2118,11 +2138,11 @@
           "Base": "1",
           "unitsize": "10",
           "maxmodels": "20",
-          "modelcost": "24",
+          "modelcost": "22",
           "size": "Standard",
           "type": "Infantry",
           "maxarmymodels": 30,
-          "cost": "240",
+          "cost": "220",
           "rules": [
             {
               "specialrules": [
@@ -2219,6 +2239,12 @@
                   "specialrule": "Fly"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
                   "specialrule": "Tall"
                 },
                 {
@@ -2285,6 +2311,9 @@
                 },
                 {
                   "specialrule": "Stubborn"
+                },
+                {
+                  "specialrule": "Move or Fire"
                 },
                 {
                   "specialrule": "War Machine"
