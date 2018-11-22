@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -79,7 +79,7 @@
       },
       {
         "name": "Drums of Cenyrn",
-        "cost": 45,
+        "cost": 40,
         "description": "Models on foot only. One use only. May be activated when the bearer’s unit Declares a Charge. The target of the charge may only declare Hold as its Charge Reaction unless it is already fleeing. The enemy unit may still declare Charge Reactions as normal if it is subsequently charged by other units."
       },
       {
@@ -107,7 +107,7 @@
       },
       {
         "name": "Predator Pennant ",
-        "cost": 60,
+        "cost": 50,
         "description": "The bearer's unit gains Devastating Charge (Distracting)."
       }
     ]
@@ -443,7 +443,7 @@
                 },
                 {
                   "mount": "5",
-                  "cost": 460
+                  "cost": 440
                 }
               ]
             }
@@ -757,7 +757,7 @@
                 },
                 {
                   "mount": "5",
-                  "cost": 460,
+                  "cost": 440,
                   "condition": [
                     {
                       "option": "12",
@@ -1788,8 +1788,8 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "lose Scoring and gain Skirmishers",
-                  "cost": 6,
+                  "name": "lose Scoring and gain Clearing Spirits",
+                  "cost": 4,
                   "maxmodels": 15
                 }
               ]
@@ -1803,7 +1803,7 @@
       "units": [
         {
           "name": "Forest Rangers",
-          "cost": 220,
+          "cost": 210,
           "unitsize": 10,
           "modelcost": 20,
           "maxmodels": 20,
@@ -1999,6 +1999,9 @@
                   "specialrule": "Strider (Forest)"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
                   "specialrule": "Fly (9, 18)"
                 }
               ],
@@ -2104,7 +2107,7 @@
         },
         {
           "name": "Treefather",
-          "cost": 465,
+          "cost": 450,
           "limitation": 2,
           "type": "1",
           "size": "3",
@@ -2321,6 +2324,9 @@
                   "specialrule": "Forest Walker"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
                   "specialrule": "Lightning Reflexes"
                 },
                 {
@@ -2428,9 +2434,9 @@
       "units": [
         {
           "name": "Briar Maidens",
-          "cost": 205,
+          "cost": 200,
           "unitsize": 5,
-          "modelcost": 38,
+          "modelcost": 35,
           "maxmodels": 5,
           "limitation": 2,
           "type": "3",
@@ -2620,6 +2626,12 @@
                   "specialrule": "Skirmisherds"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Poison Attacks"
                 }
               ],
@@ -2690,6 +2702,12 @@
                 },
                 {
                   "specialrule": "Lightning Reflexes"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Skirmisherds"
