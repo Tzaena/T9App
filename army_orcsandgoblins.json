@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -1508,7 +1508,7 @@
                 },
                 {
                   "mount": "9",
-                  "cost": 440,
+                  "cost": 410,
                   "category": "5",
                   "condition": [
                     {
@@ -1944,7 +1944,7 @@
                 {
                   "mount": "9",
                   "globalid": "11",
-                  "cost": 510,
+                  "cost": 500,
                   "category": "5",
                   "condition": [
                     {
@@ -2711,7 +2711,7 @@
         },
         {
           "name": "Orc Boar Chariot",
-          "cost": 155,
+          "cost": 150,
           "type": "4",
           "size" : "2",
           "limitation": "3",
@@ -3043,6 +3043,17 @@
                   "cost": 2
                 }
               ]
+            },
+            {
+              "name": "Core",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Cre (8+ models)",
+                  "cost": 0,
+				  "category": "2"
+                }
+              ]
             }
           ]
         },{
@@ -3153,6 +3164,17 @@
                 {
                   "name": "Throwing Weapons (5+)",
                   "cost": 2
+                }
+              ]
+            },
+            {
+              "name": "Core",
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Cre (8+ models)",
+                  "cost": 0,
+				  "category": "2"
                 }
               ]
             }
@@ -3286,6 +3308,9 @@
                   "specialrule": "Fearless"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
                   "specialrule": "Fly (6, 12)"
                 },
                 {
@@ -3330,9 +3355,9 @@
           ]
         },{
           "name": "Gnasher Herd",
-          "cost": 130,
+          "cost": 120,
           "unitsize": 10,
-          "modelcost": 13,
+          "modelcost": 12,
           "maxmodels": 30,
           "type": "3",
           "size" : "1",
@@ -3378,7 +3403,7 @@
           ]
         },{
           "name": "Gnasher Wrecking Team",
-          "cost": 150,
+          "cost": 140,
           "type": "3",
           "size" : "2",
           "limitation": "2",
@@ -3423,9 +3448,9 @@
           ]
         },{
           "name": "Trolls",
-          "cost": 190,
+          "cost": 180,
           "unitsize": 3,
-          "modelcost": 72,
+          "modelcost": 70,
           "maxmodels": 7,
           "type": "1",
           "size" : "2",
@@ -3522,6 +3547,15 @@
                   "specialrule": "Scout"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Vanguard"
                 },
                 {
@@ -3542,7 +3576,7 @@
           ]
         },{
           "name": "Scrap Wagon",
-          "cost": 90,
+          "cost": 85,
           "type": "4",
           "size" : "2",
           "limitation": "3",
@@ -3654,6 +3688,9 @@
                   "specialrule": "War Machine"
                 },
                 {
+                  "specialrule": "Move or Fier"
+                },
+                {
                   "specialrule": "Common Goblin"
                 }
               ],
@@ -3694,6 +3731,9 @@
                 },
                 {
                   "specialrule": "War Machine"
+                },
+                {
+                  "specialrule": "Move or Fire"
                 },
                 {
                   "specialrule": "Common Goblin"
@@ -3841,7 +3881,7 @@
         },
         {
           "name": "Great Green Idol",
-          "cost": 385,
+          "cost": 365,
           "type": "1",
           "size" : "3",
           "limitation": "2",
@@ -3938,6 +3978,15 @@
             }
           ],
           "options": [
+            {
+              "name": "Big Brother",
+              "choices": [
+                {
+                  "name": "Big Brother",
+                  "cost": 35
+                }
+              ]
+            },
             {
               "name": "Weapon",
               "onechoice": true,
