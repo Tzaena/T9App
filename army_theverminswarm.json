@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -76,7 +76,7 @@
       {
         "name": "Second Awakening",
         "description": "When the bearer casts a spell of Type Damage for which dice are used to determine the number of hits this spell inflicts, you may choose to reroll these dice. If so, all dice must be rerolled. ",
-        "cost": "45"
+        "cost": "50"
       },
       {
         "name": "Crown of Succession",
@@ -86,7 +86,7 @@
       {
         "name": "Scurrying Veil",
         "description": "Standard Size only. The bearer gains Tiny (see Rat Swarms), and its March Rate is set to 20”.",
-        "cost": "35"
+        "cost": "30"
       },
       {
         "name": "Sceptre of Vermin Valour",
@@ -393,12 +393,15 @@
           "type": "Beast",
           "limitation" : 1,
           "category": 5,
-          "cost": "800",
+          "cost": "820",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "Schemer"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Supernal"
@@ -555,7 +558,7 @@
                 },
                 {
                   "mount": 3,
-                  "cost": "200"
+                  "cost": "185"
                 }
               ]
             }
@@ -702,7 +705,7 @@
                 },
                 {
                   "mount": 1,
-                  "cost": "240"
+                  "cost": "210"
                 }
               ]
             }
@@ -855,7 +858,7 @@
           "size": "Standard",
           "type": "Infantry",
           "limitation": 2,
-          "cost": "185",
+          "cost": "170",
           "rules": [
             {
               "specialrules": [
@@ -950,7 +953,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "300",
+          "cost": "280",
           "rules": [
             {
               "specialrules": [
@@ -1035,7 +1038,7 @@
                 },
                 {
                   "name": "Scout, Ambush, and Vanguard",
-                  "cost": "35"
+                  "cost": "30"
                 }
               ]
             }
@@ -1061,6 +1064,9 @@
                 },
                 {
                   "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Callous"
@@ -1177,7 +1183,7 @@
           "Base": "1",
           "unitsize": "25",
           "maxmodels": "35",
-          "modelcost": "8",
+          "modelcost": "7",
           "size": "Standard",
           "type": "Infantry",
           "cost": "220",
@@ -1269,7 +1275,7 @@
           "Base": "1",
           "unitsize": "20",
           "maxmodels": "30",
-          "modelcost": "17",
+          "modelcost": "16",
           "size": "Standard",
           "type": "Infantry",
           "cost": "250",
@@ -1357,7 +1363,7 @@
           "Base": "1",
           "unitsize": "20",
           "maxmodels": "30",
-          "modelcost": "11",
+          "modelcost": "10",
           "size": "Standard",
           "type": "Infantry",
           "cost": "205",
@@ -1369,6 +1375,9 @@
                 },
                 {
                   "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Frenzy"
@@ -1452,7 +1461,7 @@
           "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
-          "cost": "150",
+          "cost": "145",
           "rules": [
             {
               "specialrules": [
@@ -1500,7 +1509,7 @@
           "Base": "1",
           "unitsize": "10",
           "maxmodels": "20",
-          "modelcost": "10",
+          "modelcost": "9",
           "limitation": 4,
           "size": "Standard",
           "type": "Infantry",
@@ -1619,7 +1628,7 @@
                   "specialrule": "Swiftstride"
                 },
                 {
-                  "specialrule": "Handlers"
+                  "specialrule": "Swift Reform"
                 },
                 {
                   "specialrule": "Fight in Extra Rank"
@@ -1676,6 +1685,9 @@
                 },
                 {
                   "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Brood's Courage  (Plague Brotherhood)"
@@ -1743,7 +1755,7 @@
                   "specialrule": "Fearless"
                 },
                 {
-                  "specialrule": "Handlers"
+                  "specialrule": "Swift Reform"
                 },
                 {
                   "specialrule": "Battle Focus"
@@ -1857,7 +1869,13 @@
                   "specialrule": "Tiny"
                 },
                 {
-                  "specialrule": "Safety in Numbers"
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Insignificant"
@@ -1872,7 +1890,7 @@
               "equipments": [],
               "ADV": "6",
               "MAR": "12",
-              "Ld": "10",
+              "Ld": "7",
               "W": "5",
               "DEF": "3",
               "T": "2",
@@ -1909,6 +1927,9 @@
                 },
                 {
                   "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Not a Leader"
                 },
                 {
                   "specialrule": "War Platform"
@@ -1955,7 +1976,7 @@
           "modelcost": "25",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "155",
+          "cost": "145",
           "rules": [
             {
               "specialrules": [
@@ -1964,6 +1985,12 @@
                 },
                 {
                   "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Skirmisher"
@@ -2085,7 +2112,7 @@
               "choices": [
                 {
                   "name": "Naphtha Launcher (4+)",
-                  "cost": "35"
+                  "cost": "25"
                 },
                 {
                   "name": "Rotary Gun (4+)",
@@ -2145,10 +2172,10 @@
           "unitsize": "8",
           "maxmodels": "7",
           "limitation": 3,
-          "modelcost": "22",
+          "modelcost": "21",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "195",
+          "cost": "185",
           "rules": [
             {
               "specialrules": [
@@ -2157,6 +2184,12 @@
                 },
                 {
                   "specialrule": "Callous"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Skirmisher"
@@ -2200,7 +2233,7 @@
             {
               "specialrules": [
                 {
-                  "specialrule": "Safety in Numbers"
+                  "specialrule": "Move or Fire"
                 },
                 {
                   "specialrule": "War Machine"
@@ -2246,7 +2279,7 @@
           "size": "Large",
           "limitation": 2,
           "type": "Construct",
-          "cost": "290",
+          "cost": "305",
           "rules": [
             {
               "specialrules": [
@@ -2302,13 +2335,10 @@
           "size": "Gigantic",
           "limitation": 2,
           "type": "Beast",
-          "cost": "390",
+          "cost": "375",
           "rules": [
             {
               "specialrules": [
-                {
-                  "specialrule": "Safety in Numbers"
-                },
                 {
                   "specialrule": "Fearless"
                 },
