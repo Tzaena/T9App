@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -87,7 +87,7 @@
       {
         "name": "Beastmaster's Lash",
         "description": "The roll for determining the number of hits from stomp attacks of friendly Gigantic models within 12\" of the bearer is subject to Maximised Roll. The roll for determining the number of hits from Stomp attacks of enemy Gigantic models within 12\" of the bearer is subject to Minimised Roll.",
-        "cost": "50"
+        "cost": "40"
       },
       {
         "name": "Ring of Shadows",
@@ -102,7 +102,7 @@
       {
         "name": "Elixir of Shadows",
         "description": "Assassins only. One use only. May be activated at the start of any Round of Combat. Until the end of the phase, the bearer gains Divine Attacks and must reroll failed to-wound rolls with its Close Combat Attacks. At the end of the phase, the bearer loses 1 Health Point (with no saves of any kind allowed). ",
-        "cost": "35"
+        "cost": "30"
       }
     ],
     "standards": [
@@ -626,7 +626,7 @@
                 },
                 {
                   "name": "Cult of Olaron",
-                  "cost": 70
+                  "cost": 55
                 },
                 {
                   "name": "Cult of Yema",
@@ -634,7 +634,7 @@
                 },
                 {
                   "name": "Beast Master",
-                  "cost": 65
+                  "cost": 50
                 },
                 {
                   "name": "Fleet Commander",
@@ -684,7 +684,7 @@
                 {
                   "globalid": "1",
                   "mount": "6",
-                  "cost": 460
+                  "cost": 440
                 }
               ]
             }
@@ -830,7 +830,7 @@
                 },
                 {
                   "name": "Cult of Olaron",
-                  "cost": 70
+                  "cost": 50
                 },
                 {
                   "name": "Cult of Yema",
@@ -838,7 +838,7 @@
                 },
                 {
                   "name": "Beast Master",
-                  "cost": 65
+                  "cost": 50
                 },
                 {
                   "name": "Fleet Commander",
@@ -890,7 +890,7 @@
         },
         {
           "name": "Cult Priest",
-          "cost": 160,
+          "cost": 120,
           "type": "1",
           "size": "1",
           "base": "1",
@@ -1028,7 +1028,7 @@
                 },
                 {
                   "name": "Cult of Olaron",
-                  "cost": 70
+                  "cost": 55
                 },
                 {
                   "name": "Cult of Yema",
@@ -1070,7 +1070,7 @@
               "choices": [
                 {
                   "mount": "7",
-                  "cost": 380,
+                  "cost": 440,
                   "globalid": "28"
                 }
               ]
@@ -1336,11 +1336,11 @@
                 },
                 {
                   "mount": "4",
-                  "cost": 70
+                  "cost": 60
                 },
                 {
                   "mount": "5",
-                  "cost": 125,
+                  "cost": 110,
                   "condition": [
                     {
                       "option": "12",
@@ -1351,7 +1351,7 @@
                 },
                 {
                   "mount": "6",
-                  "cost": 460,
+                  "cost": 440,
                   "condition": [
                     {
                       "option": "12",
@@ -1476,7 +1476,7 @@
           "Base": "1",
           "unitsize": "10",
           "maxmodels": "25",
-          "modelcost": "18",
+          "modelcost": "17",
           "size": "Standard",
           "type": "Infantry",
           "cost": "160",
@@ -1591,10 +1591,10 @@
           "Base": "1",
           "unitsize": "10",
           "maxmodels": "20",
-          "modelcost": "21",
+          "modelcost": "20",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "220",
+          "cost": "200",
           "rules": [
             {
               "specialrules": [
@@ -1606,6 +1606,9 @@
                 },
                 {
                   "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Poison Attacks"
@@ -1673,7 +1676,7 @@
           "Base": "1",
           "unitsize": "10",
           "maxmodels": "20",
-          "modelcost": "18",
+          "modelcost": "17",
           "size": "Standard",
           "type": "Infantry",
           "category": "4",
@@ -1776,7 +1779,7 @@
           "Base": "1",
           "unitsize": "5",
           "maxmodels": "10",
-          "modelcost": "27",
+          "modelcost": "25",
           "size": "Standard",
           "category": "4",
           "limitation": 4,
@@ -1790,6 +1793,9 @@
                 },
                 {
                   "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Killer Instinct"
                 },
                 {
                   "specialrule": "Vanguard"
@@ -1979,10 +1985,10 @@
           "unitsize": "5",
           "limitation": 4,
           "maxmodels": "7",
-          "modelcost": "50",
+          "modelcost": "48",
           "size": "Standard",
           "type": "Cavalry",
-          "cost": "255",
+          "cost": "245",
           "rules": [
             {
               "specialrules": [
@@ -2188,6 +2194,15 @@
                   "specialrule": "Fly"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Insignificant"
                 },
                 {
@@ -2221,7 +2236,7 @@
           "modelcost": "24",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "240",
+          "cost": "230",
           "rules": [
             {
               "specialrules": [
@@ -2340,7 +2355,7 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Skirmisher",
+                  "name": "Cultist Troupe",
                   "cost": "2",
                   "maxmodels": 15,
                   "limitation": 1
@@ -2387,7 +2402,7 @@
           "size": "Standard",
           "limitation": 3,
           "type": "Beast",
-          "cost": "140",
+          "cost": "125",
           "rules": [
             {
               "specialrules": [
@@ -2401,13 +2416,13 @@
                   "specialrule": "Fear"
                 },
                 {
+                  "specialrule": "Supernal"
+                },
+                {
                   "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Aegis  (5+)"
-                },
-                {
-                  "specialrule": "Magical Attacks"
                 }
               ],
               "equipments": [],
@@ -2461,7 +2476,7 @@
                   "specialrule": "Light Troops"
                 },
                 {
-                  "specialrule": "Wizard Conclave  (Altered Sight, Ice and Fire - Cosmology, Crippling Fatigue - Hereditary Spell)"
+                  "specialrule": "Wizard Conclave"
                 },
                 {
                   "specialrule": "Aegis  (4+)"
@@ -2554,6 +2569,9 @@
                 },
                 {
                   "specialrule": "Towering Presence"
+                },
+                {
+                  "specialrule": "Not a Leader"
                 },
                 {
                   "specialrule": "War Platform"
@@ -2670,6 +2688,12 @@
                   "specialrule": "Scout"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Skirmisher"
                 },
                 {
@@ -2751,7 +2775,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Construct",
-          "cost": "230",
+          "cost": "210",
           "rules": [
             {
               "specialrules": [
@@ -2851,6 +2875,9 @@
                   "specialrule": "Killer Instinct"
                 },
                 {
+                  "specialrule": "Move or Fire"
+                },
+                {
                   "specialrule": "Lightning Reflexes"
                 }
               ],
@@ -2899,7 +2926,7 @@
                   "specialrule": "Distracting"
                 },
                 {
-                  "specialrule": "Hard Target"
+                  "specialrule": "Hard Target (1)"
                 },
                 {
                   "specialrule": "Multiple Wounds  (D3)"
