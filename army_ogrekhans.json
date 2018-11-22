@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -41,7 +41,7 @@
       },
       {
         "name": "Viper’s Curse",
-        "cost": 55,
+        "cost": 40,
         "description": "Brace of Ogre Pistols or Ogre Crossbow enchantment. This weapon has Shots 4, Str 4, and AP 2 (Range is dependent on which weapon is enchanted). This weapon also gains Poison Attacks and Magical Attacks (in case of Brace of Ogre Pistols, both of these also apply for Close Combat Attacks made with it). An enchanted Ogre Crossbow loses Penetrating. Shooting Attacks made with this weapon always hit on 4+."
       },
       {
@@ -51,7 +51,7 @@
       },
       {
         "name": "Ritual Bloodletter ",
-        "cost": 30,
+        "cost": 20,
         "description": "Hand Weapon, Paired Weapons, or Iron Fist enchantment. The wielder gains +1 Offensive Skill and +1 Attack Value while using this weapon. Attacks made with it gain Magical Attacks. For each unsaved wound inflicted with this weapon, the owner gains one Veil Token."
       }
     ],
@@ -80,12 +80,12 @@
     "artefacts": [
       {
         "name": "Lygur’s Tongue",
-        "cost": 60,
+        "cost": 55,
         "description": "All enemy model parts in units in base contact with the bearer suffer -1 Attack Value."
       },
       {
         "name": "Aurochs Charm",
-        "cost": 40,
+        "cost": 35,
         "dominant" : 1,
         "description": "The bearer gains Mountain Hide."
       },
@@ -108,7 +108,7 @@
       },
       {
         "name": "Skull of Qenghet",
-        "cost": 20,
+        "cost": 15,
         "description": "Models in the bearer’s unit gain Fear and automatically pass Panic Tests caused by Terror."
       }
     ]
@@ -211,7 +211,7 @@
           "name": "Great Khan",
           "size": "Large ",
           "type": "Infantry",
-          "cost": "340",
+          "cost": "310",
           "rules": [
             {
               "name": "Great Khan",
@@ -273,7 +273,7 @@
               "choices": [
                 {
                   "name": "Heavy Armour",
-                  "cost": "15"
+                  "cost": "10"
                 }
               ]
             },
@@ -287,7 +287,7 @@
                 },
                 {
                   "name": "Ogre Crossbow (3+)",
-                  "cost": "10"
+                  "cost": "5"
                 }
               ]
             },
@@ -297,15 +297,15 @@
               "choices": [
                 {
                   "name": "Paired Weapons",
-                  "cost": "10"
+                  "cost": "5"
                 },
                 {
                   "name": "Iron Fist",
-                  "cost": "10"
+                  "cost": "15"
                 },
                 {
                   "name": "Great Weapon",
-                  "cost": "30"
+                  "cost": "25"
                 }
               ]
             },
@@ -327,7 +327,7 @@
                 },
                 {
                   "name": "Hoardmaster",
-                  "cost": "60",
+                  "cost": "55",
 				  "globalid": "302",
                   "condition": [
                     {
@@ -339,7 +339,7 @@
                 },
                 {
                   "name": "Headhunter",
-                  "cost": "50",
+                  "cost": "45",
 				  "globalid": "303",
                   "condition": [
                     {
@@ -393,7 +393,7 @@
           "name": "Khan",
           "size": "Large ",
           "type": "Infantry",
-          "cost": "195",
+          "cost": "190",
           "rules": [
             {
               "name": "Khan",
@@ -488,7 +488,7 @@
                 },
                 {
                   "name": "Ogre Crossbow (3+)",
-                  "cost": "10"
+                  "cost": "5"
                 }
               ]
             },
@@ -528,7 +528,7 @@
                 },
                 {
                   "name": "Hoardmaster",
-                  "cost": "60",
+                  "cost": "55",
 				  "globalid": "302",
                   "condition": [
                     {
@@ -540,7 +540,7 @@
                 },
                 {
                   "name": "Headhunter",
-                  "cost": "50",
+                  "cost": "45",
 				  "globalid": "303",
                   "condition": [
                     {
@@ -594,7 +594,7 @@
           "name": "Shaman",
           "size": "Large",
           "type": "Infantry",
-          "cost": "205",
+          "cost": "200",
           "rules": [
             {
               "name": "Shaman",
@@ -743,7 +743,7 @@
                 },
                 {
                   "name": "Headhunter",
-                  "cost": "50",
+                  "cost": "45",
 				  "globalid": "303",
                   "condition": [
                     {
@@ -767,7 +767,7 @@
                 },
                 {
                   "name": "Firebrand (Pyromancy)",
-                  "cost": "60",
+                  "cost": "55",
 				  "globalid": "305",
                   "condition": [
                     {
@@ -930,7 +930,7 @@
                 },
                 {
                   "name": "Great Weapon",
-                  "cost": "25"
+                  "cost": "20"
                 },
                 {
                   "name": "Lance",
@@ -944,11 +944,11 @@
               "choices": [
                 {
                   "name": "Vanguard",
-                  "cost": "20"
+                  "cost": "15"
                 },
                 {
                   "name": "Scout",
-                  "cost": "20"
+                  "cost": "15"
                 }
               ]
             },
@@ -958,12 +958,12 @@
               "choices": [
                 {
                   "mount": "1",
-                  "cost": 100
+                  "cost": 95
                 },
                 {
                   "mount": "2",
                   "category": "5",
-                  "cost": 380,
+                  "cost": 360,
 				  "limitation": 1
                 }
               ]
@@ -986,7 +986,7 @@
                 },
                 {
                   "name": "Headhunter",
-                  "cost": "50",
+                  "cost": "45",
 				  "globalid": "303",
                   "condition": [
                     {
@@ -1010,7 +1010,7 @@
                 },
                 {
                   "name": "Wildheart",
-                  "cost": "45",
+                  "cost": "40",
 				  "globalid": "307",
                   "condition": [
                     {
@@ -1059,9 +1059,9 @@
           "type": "Infantry",
           "unitsize": 3,
 		  "limitation": 4,
-          "modelcost": 55,
+          "modelcost": 52,
           "maxmodels": 10,
-          "cost": "160",
+          "cost": "155",
           "rules": [
             {
               "name": "Tribesmen",
@@ -1149,9 +1149,9 @@
           "type": "Infantry",
           "unitsize": 3,
 		  "limitation": 4,
-          "modelcost": 80,
+          "modelcost": 76,
           "maxmodels": 9,
-          "cost": "190",
+          "cost": "185",
           "rules": [
             {
               "name": "Bruisers",
@@ -1267,7 +1267,7 @@
               "choices": [
                 {
                   "name": "Scrapling Foreman",
-                  "cost": "30",
+                  "cost": "25",
 				  "globalid": "99"
                 },
                 {
@@ -1331,9 +1331,9 @@
         {
           "name": "Mercenary Veterans",
           "unitsize": 3,
-          "modelcost": 105,
+          "modelcost": 100,
           "maxmodels": 8,
-          "cost": "260",
+          "cost": "245",
           "size": "Large ",
           "type": "Infantry",
           "rules": [
@@ -1412,7 +1412,7 @@
                 },
                 {
                   "name": "Brace of Pistols (4+)",
-                  "cost": "25",
+                  "cost": "24",
 				  "maxmodels": 6,
 				  "category": "4"
                 },
@@ -1426,7 +1426,7 @@
                 },
                 {
                   "name": "Iron Fist",
-                  "cost": "12"
+                  "cost": "13"
                 }
               ]
             },
@@ -1476,9 +1476,9 @@
           "type": "Cavalry",
           "unitsize": 3,
 		  "limitation": 3,
-          "modelcost": 140,
+          "modelcost": 130,
           "maxmodels": 5,
-          "cost": "435",
+          "cost": "415",
           "rules": [
             {
               "name": "Tusker Cavalry",
@@ -1569,7 +1569,7 @@
           "size": "Large",
           "type": "Infantry",
           "unitsize": 2,
-          "modelcost": 70,
+          "modelcost": 65,
           "maxmodels": 6,
           "cost": "175",
           "rules": [
@@ -1647,6 +1647,12 @@
                   "specialrule": "Scout"
                 },
                 {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Skirmisher"
                 },
                 {
@@ -1691,7 +1697,7 @@
           "type": "Beast",
 		  "limitation": 3,
           "unitsize": 1,
-          "modelcost": 27,
+          "modelcost": 25,
           "maxmodels": 20,
           "cost": "80",
           "rules": [
@@ -1755,6 +1761,9 @@
               "specialrules": [
                 {
                   "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Ambush"
@@ -1871,9 +1880,9 @@
           "type": "Infantry",
 		  "limitation": 3,
           "unitsize": 3,
-          "modelcost": 78,
+          "modelcost": 82,
           "maxmodels": 8,
-          "cost": "210",
+          "cost": "185",
           "rules": [
             {
               "name": "Bombardiers",
@@ -1975,6 +1984,9 @@
                   "specialrule": "Frenzy"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Stone Skin"
                 },
                 {
@@ -2018,7 +2030,7 @@
           "size": "Gigantic",
           "type": "Beast",
 		  "limitation": 3,
-          "cost": "430",
+          "cost": "405",
           "rules": [
             {
               "name": "Frost Mammoth",
@@ -2075,7 +2087,7 @@
           "size": "Gigantic ",
 		  "limitation": 3,
           "type": "Infantry",
-          "cost": "270",
+          "cost": "265",
           "rules": [
             {
               "name": "Slave Giant",
@@ -2103,6 +2115,16 @@
             }
           ],
           "options": [
+            {
+              "name": "Big Brother",
+              "onechoice": "false",
+              "choices": [
+                {
+                  "name": "Big Brother",
+                  "cost": "35"
+                }
+              ]
+            }
             {
               "name": "Weapon",
               "onechoice": "false",
