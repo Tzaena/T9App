@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -48,7 +48,7 @@
       {
         "name": "Legend of the Black King",
         "description": "Plate Armour and Heavy Armour enchantment. The bearer gains +1 Armour and Aegis (4+).",
-        "cost": "105"
+        "cost": "110"
       }],
     "artefacts": [
       {
@@ -459,6 +459,9 @@
                   "specialrule": "Awaken  (Zombies)  (Zombies, Skeletons)"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Autonomous"
                 },
                 {
@@ -631,7 +634,7 @@
                 },
                 {
                   "name": "Storm Caller",
-                  "cost": "125"
+                  "cost": "110"
                 },
                 {
                   "name": "Commandment",
@@ -655,7 +658,7 @@
                 },
                 {
                   "name": "Flying Horror",
-                  "cost": "70"
+                  "cost": "60"
                 },
                 {
                   "name": "Bestial Bulk",
@@ -670,8 +673,8 @@
                   "cost": "40"
                 },
                 {
-                  "name": "Forbiden Path",
-                  "cost": "25"
+                  "name": "Forbidden Path",
+                  "cost": "20"
                 },
                 {
                   "name": "Arcane Knowledge",
@@ -731,7 +734,7 @@
                 },
                 {
                   "name": "Nosferatu",
-                  "cost": "10",
+                  "cost": "0",
                   "globalid": "53"
                 },
                 {
@@ -741,7 +744,7 @@
                 },
                 {
                   "name": "Von Karnstein",
-                  "cost": "50",
+                  "cost": "40",
                   "globalid": "55"
                 }
               ]
@@ -761,16 +764,16 @@
                 },
                 {
                   "mount": 3,
-                  "cost": "160"
+                  "cost": "150"
                 },
                 {
                   "mount": 4,
-                  "cost": "325",
+                  "cost": "350",
                   "globalid": "21"
                 },
                 {
                   "mount": 5,
-                  "cost": "450"
+                  "cost": "430"
                 },
                 {
                   "mount": 6,
@@ -794,6 +797,9 @@
                 },
                 {
                   "specialrule": "Awaken  (Zombies)  (Zombies, Skeletons)"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Autonomous"
@@ -1013,7 +1019,7 @@
                 },
                 {
                   "name": "Storm Caller",
-                  "cost": "125"
+                  "cost": "110"
                 },
                 {
                   "name": "Commandment",
@@ -1037,7 +1043,7 @@
                 },
                 {
                   "name": "Flying Horror",
-                  "cost": "70"
+                  "cost": "60"
                 },
                 {
                   "name": "Bestial Bulk",
@@ -1053,7 +1059,7 @@
                 },
                 {
                   "name": "Forbiden Path",
-                  "cost": "25"
+                  "cost": "20"
                 },
                 {
                   "name": "Arcane Knowledge",
@@ -1086,7 +1092,7 @@
                 },
                 {
                   "name": "Nosferatu",
-                  "cost": "10",
+                  "cost": "0",
                   "globalid": "53"
                 },
                 {
@@ -1096,7 +1102,7 @@
                 },
                 {
                   "name": "Von Karnstein",
-                  "cost": "50",
+                  "cost": "40",
                   "globalid": "55"
                 }
               ]
@@ -1116,11 +1122,11 @@
                 },
                 {
                   "mount": 3,
-                  "cost": "140"
+                  "cost": "130"
                 },
                 {
                   "mount": 4,
-                  "cost": "325"
+                  "cost": "350"
                 }
               ]
             }
@@ -1137,6 +1143,9 @@
               "specialrules": [
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Gates of the Netherworld"
@@ -1272,7 +1281,7 @@
                 },
                 {
                   "mount": 7,
-                  "cost": "380"
+                  "cost": "340"
                 },
                 {
                   "mount": 3,
@@ -1293,6 +1302,9 @@
               "specialrules": [
                 {
                   "specialrule": "Unliving Shield"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Undead"
@@ -1411,12 +1423,18 @@
           "limitation": 3,
           "organisation": "4",
           "type": "Infantry",
-          "cost": "125",
+          "cost": "120",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Fear"
                 },
                 {
                   "specialrule": "Ashes to Ashes"
@@ -1486,7 +1504,7 @@
                 },
                 {
                   "mount": 3,
-                  "cost": "185",
+                  "cost": "160",
                   "organisation": "5"
                 }
               ]
@@ -1509,6 +1527,12 @@
                 },
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Fear"
                 },
                 {
                   "specialrule": "Ashes to Ashes"
@@ -1576,6 +1600,9 @@
                   "specialrule": "Undead"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Ashes to Ashes"
                 },
                 {
@@ -1633,6 +1660,9 @@
               "specialrules": [
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Ashes to Ashes"
@@ -1740,6 +1770,9 @@
                   "specialrule": "First Raised"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Undead"
                 },
                 {
@@ -1829,6 +1862,15 @@
                   "specialrule": "Ashes to Ashes"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Fly"
                 },
                 {
@@ -1885,6 +1927,9 @@
               "specialrules": [
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Ashes to Ashes"
@@ -1950,6 +1995,9 @@
                 },
                 {
                   "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Reanimated  (D3+4)"
@@ -2062,6 +2110,9 @@
               "specialrules": [
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Ashes to Ashes"
@@ -2188,6 +2239,9 @@
                   "specialrule": "Undead"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Ashes to Ashes"
                 },
                 {
@@ -2252,6 +2306,15 @@
                   "specialrule": "Undead"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
+                },
+                {
                   "specialrule": "Ashes to Ashes"
                 },
                 {
@@ -2294,12 +2357,18 @@
           "size": "Large",
           "limitation": 2,
           "type": "Construct",
-          "cost": "400",
+          "cost": "350",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "No Rest for the Wicked"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Not a Leader"
                 },
                 {
                   "specialrule": "War Platform"
@@ -2387,7 +2456,7 @@
           "size": "Large",
           "limitation": 2,
           "type": "Construct",
-          "cost": "300",
+          "cost": "310",
           "rules": [
             {
               "specialrules": [
@@ -2402,6 +2471,12 @@
                 },
                 {
                   "specialrule": "Autonomous"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Not a Leader"
                 },
                 {
                   "specialrule": "Towering Presence"
@@ -2511,6 +2586,12 @@
               "specialrules": [
                 {
                   "specialrule": "Aura of Undeath"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Fear"
                 },
                 {
                   "specialrule": "Lash of Souls"
@@ -2628,6 +2709,9 @@
                 },
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Swiftstride"
@@ -2790,6 +2874,9 @@
                   "specialrule": "Ashes to Ashes"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Fear"
                 },
                 {
@@ -2841,16 +2928,22 @@
           "Base": "1",
           "unitsize": "5",
           "maxmodels": "5",
-          "modelcost": "37",
+          "modelcost": "40",
           "limitation": 2,
           "size": "Standard",
           "type": "Infantry",
-          "cost": "170",
+          "cost": "180",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Fear"
                 },
                 {
                   "specialrule": "Ashes to Ashes"
@@ -2923,15 +3016,21 @@
           "unitsize": "5",
           "maxmodels": "5",
           "limitation": 2,
-          "modelcost": "37",
+          "modelcost": "38",
           "size": "Standard",
           "type": "Cavalry",
-          "cost": "180",
+          "cost": "190",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Fear"
                 },
                 {
                   "specialrule": "Ashes to Ashes"
@@ -3043,6 +3142,12 @@
                   "specialrule": "Fly"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
                   "specialrule": "Fortitude  (6+)"
                 },
                 {
@@ -3105,6 +3210,9 @@
               "specialrules": [
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Autonomous"
@@ -3250,6 +3358,15 @@
                   "specialrule": "Undead"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
+                },
+                {
                   "specialrule": "Fear"
                 },
                 {
@@ -3317,6 +3434,9 @@
                   "specialrule": "Undead"
                 },
                 {
+                  "specialrule": "Fearless"
+                },
+                {
                   "specialrule": "Fear"
                 },
                 {
@@ -3360,15 +3480,24 @@
           "unitsize": "3",
           "limitation": 3,
           "maxmodels": "5",
-          "modelcost": "78",
+          "modelcost": "80",
           "size": "Large",
           "type": "Infantry",
-          "cost": "220",
+          "cost": "240",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "Undead"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
                 },
                 {
                   "specialrule": "Fear"
