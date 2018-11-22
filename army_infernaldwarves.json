@@ -1,5 +1,5 @@
 {
-  "version": "204.2",
+  "version": "205.0",
   "organisation": [
     {
       "id": "1",
@@ -47,7 +47,7 @@
       },
       {
         "name": "Burning Steel",
-        "cost": 70,
+        "cost": 60,
         "description": "Hand Weapon enchantment. The wielder gains +1 Attack Value. Attacks made with this weapon gain Flaming Attacks, Magical Attacks, have their Armour Penetration set to 10, and always wound on a roll equal to or greater than 7 - the target's Armour. A natural '6' always wounds and a natural '1' always fails to wound"
       }
     ],
@@ -96,7 +96,7 @@
       },
       {
         "name": "Heat Haze",
-        "cost": 50,
+        "cost": 40,
         "description": "The bearer gains Aegis (4+, against Shooting Attacks) and its unit gains Hard Target. The effects last until the end of the Player Turn in which the bearer's unit suffers the first Health Point loss"
       },
       {
@@ -114,7 +114,7 @@
     "standards": [
       {
         "name": "Icon of the Inferno",
-        "cost": 85,
+        "cost": 100,
         "description": "Cannot be taken by Core units. When a non-Attribute non-Bound Spell is successfully cast by a friendly Wizard within 12 of the bearer (and after the corresponding Path Attribute Spell has been resolved if applicable), the bearer may automatically cast Blaze from Pyromancy, which cannot be dispelled. "
       },
       {
@@ -434,7 +434,7 @@
                 {
                   "mount": "2",
                   "category": "6",
-                  "cost": 430
+                  "cost": 410
                 }
               ]
             }
@@ -586,6 +586,9 @@
                 },
                 {
                   "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Unbreakable"
@@ -814,7 +817,7 @@
                 {
                   "mount": "1",
                   "category": "6",
-                  "cost": 230,
+                  "cost": 200,
                   "condition": [
                     {
                       "option": "27",
@@ -826,7 +829,7 @@
                 {
                   "mount": "2",
                   "category": "6",
-                  "cost": 320
+                  "cost": 300
                 }
               ]
             }
@@ -1276,7 +1279,7 @@
           "cost": 185,
           "size": "1",
           "unitsize": 15,
-          "modelcost": 13,
+          "modelcost": 12,
           "maxmodels": 25,
           "type": "1",
           "base": "1",
@@ -1358,7 +1361,7 @@
                   "name": "Blunderbuss (3+)",
                   "limitation": "30",
                   "category": "5",
-                  "cost": 10
+                  "cost": 8
                 }
               ]
             }
@@ -1366,10 +1369,10 @@
         },
         {
           "name": "Citadel Guard",
-          "cost": 190,
+          "cost": 180,
           "size": "1",
           "unitsize": 10,
-          "modelcost": 23,
+          "modelcost": 21,
           "maxmodels": 20,
           "type": "1",
           "base": "1",
@@ -1399,9 +1402,6 @@
               "equipments": [
                 {
                   "equipment": "Infernal Armour"
-                },
-                {
-                  "equipment": "Shield"
                 }
               ]
             }
@@ -1442,16 +1442,17 @@
               "name": "Weapons",
               "type": "permodel",
               "onechoice": true,
+              "mandatory": true,
               "choices": [
+                {
+                  "name": "Shield",
+                  "cost": 1
+                },
                 {
                   "name": "Flintlock Axe (3+)",
                   "category": "5",
-                  "cost": 9
-                },
-                {
-                  "name": "Replace Shield with Flintlock Axe (3+)",
-                  "category": "5",
-                  "cost": 8
+                  "cost": 9,
+				  "maxmodels": 20
                 }
               ]
             }
@@ -1537,7 +1538,7 @@
                 },
                 {
                   "name": "Backstabbers",
-                  "cost": 4
+                  "cost": 3
                 }
               ]
             }
@@ -2071,6 +2072,9 @@
                 },
                 {
                   "specialrule": "War Machine"
+                },
+                {
+                  "specialrule": "Move or Fire"
                 }
               ],
               "equipments": [
@@ -2162,6 +2166,9 @@
                 },
                 {
                   "specialrule": "Ogre Slave"
+                },
+                {
+                  "specialrule": "Move or Fire"
                 }
               ],
               "equipments": [
@@ -2233,6 +2240,9 @@
               "specialrules": [
                 {
                   "specialrule": "War Machine"
+                },
+                {
+                  "specialrule": "Move or Fire"
                 }
               ],
               "equipments": [
@@ -2276,14 +2286,14 @@
                 },
                 {
                   "specialrule": "Quick To Fire"
+                },
+                {
+                  "equipment": "Hard Target (1)"
                 }
               ],
               "equipments": [
                 {
                   "equipment": "Infernal Armour"
-                },
-                {
-                  "equipment": "Hard Target"
                 }
               ]
             }
@@ -2300,7 +2310,7 @@
                 },
                 {
                   "name": "Grenade Launcher (4+)",
-                  "cost": 35
+                  "cost": 20
                 },
                 {
                   "name": "Flamethrower",
@@ -2345,6 +2355,9 @@
                 },
                 {
                   "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Unbreakable"
@@ -2407,7 +2420,7 @@
               "choices": [
                 {
                   "name": "Swap Paired Weapons with Great Weapons",
-                  "cost": 6
+                  "cost": 4
                 }
               ]
             }
@@ -2441,6 +2454,9 @@
                 },
                 {
                   "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Aegis (5+)"
@@ -2494,6 +2510,15 @@
                 },
                 {
                   "specialrule": "Frenzy"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Swiftstride"
                 },
                 {
                   "specialrule": "Supernal"
@@ -2561,6 +2586,9 @@
                 },
                 {
                   "specialrule": "Unbreakable"
+                },
+                {
+                  "specialrule": "Fearless"
                 },
                 {
                   "specialrule": "Towering Presence"
@@ -2633,7 +2661,7 @@
         },
         {
           "name": "Armoured Giant",
-          "cost": 305,
+          "cost": 300,
           "size": "3",
           "limitation": "3",
           "type": "1",
@@ -2670,6 +2698,16 @@
           ],
           "options": [
             {
+              "name": "Big Brother",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Big Brother",
+                  "cost": 35
+                }
+              ]
+            },
+            {
               "name": "Options",
               "onechoice": true,
               "choices": [
@@ -2679,11 +2717,11 @@
                 },
                 {
                   "name": "Slavemaster's Whip",
-                  "cost": 35
+                  "cost": 25
                 },
                 {
                   "name": "Mining Pick",
-                  "cost": 25
+                  "cost": 15
                 }
               ]
             }
