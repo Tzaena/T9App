@@ -2283,7 +2283,7 @@
           "cost": "340",
           "rules": [
             {
-              "specialrules": 
+              "specialrules": [
                 {
                   "specialrule": "Fly"
                 },
