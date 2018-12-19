@@ -1264,7 +1264,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -1352,7 +1352,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -1446,7 +1446,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -1597,7 +1597,7 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 }
               ]
             }
@@ -1791,7 +1791,7 @@
                 {
                   "name": "Champion",
                   "cost": "20",
-				  "globalid": "31"
+                  "globalid": "31"
                 },
                 {
                   "name": "Naphta Launcher (4+)",
@@ -2228,6 +2228,7 @@
           "name": "Verminous Artillery",
           "Base": "1",
           "cost": "0",
+          "type": "Construct",
           "limitation": 2,
           "rules": [
             {
