@@ -1466,9 +1466,24 @@
                       "exist": false
                     },
                     {
+                      "option": "5",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
                       "option": "6",
                       "global": false,
                       "exist": false
+                    }
+                  ]
+                },{
+                  "mount": "1",
+                  "cost": "70",
+                  "condition": [
+                    {
+                      "option": "5",
+                      "global": false,
+                      "exist": true
                     }
                   ]
                 },
@@ -2578,8 +2593,8 @@
                 {
                   "name": "Baleig Highlanders",
                   "cost": "2",
-				  "limitation": 1,
-				  "maxmodels": 15
+                  "limitation": 1,
+                  "maxmodels": 15
                 }
               ],
               "type": "permodel"
@@ -3199,7 +3214,7 @@
                 {
                   "name": "Scout",
                   "cost": "3",
-				  "limitation": 1
+                  "limitation": 1
                 },
                 {
                   "name": "Champion",
