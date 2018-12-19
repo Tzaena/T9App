@@ -2228,6 +2228,7 @@
           "name": "Verminous Artillery",
           "Base": "1",
           "cost": "0",
+          "size": "Large",
           "type": "Construct",
           "limitation": 2,
           "rules": [
