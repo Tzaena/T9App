@@ -1360,7 +1360,7 @@
                 {
                   "name": "Blunderbuss (3+)",
                   "limitation": "30",
-                  "category": "5",
+                  "category": "4",
                   "cost": 8
                 }
               ]
@@ -1450,7 +1450,7 @@
                 },
                 {
                   "name": "Flintlock Axe (3+)",
-                  "category": "5",
+                  "category": "4",
                   "cost": 9,
 				  "maxmodels": 20
                 }
@@ -1525,7 +1525,7 @@
                   "name": "Bow (4+)",
                   "limitation": "3",
                   "amxmodels": "60",
-                  "category": "5",
+                  "category": "4",
                   "cost": 2
                 },
                 {
