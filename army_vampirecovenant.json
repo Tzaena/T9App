@@ -527,6 +527,10 @@
                   "cost": 200
                 },
                 {
+                  "name": "Shield",
+                  "cost": "5"
+                },
+                {
                   "name": "The Dead Arise",
                   "cost": 25,
                   "condition": [
@@ -559,10 +563,6 @@
               "onechoice": true,
               "mandatory": false,
               "choices": [
-                {
-                  "name": "Shield",
-                  "cost": "5"
-                },
                 {
                   "name": "Light Armour",
                   "cost": "5"
@@ -881,6 +881,10 @@
                   "cost": 100
                 },
                 {
+                  "name": "Shield",
+                  "cost": "5"
+                },
+                {
                   "name": "The Dead Arise",
                   "cost": 25,
                   "condition": [
@@ -917,10 +921,6 @@
               "onechoice": true,
               "mandatory": false,
               "choices": [
-                {
-                  "name": "Shield",
-                  "cost": "5"
-                },
                 {
                   "name": "Light Armour",
                   "cost": "5"
