@@ -2379,7 +2379,6 @@
             {
               "name": "Weapons",
               "onechoice": false,
-              "type": "permodel",
               "choices": [
                 {
                   "name": "Replace Blowpipe with Great Bow (4+)",
@@ -2473,7 +2472,7 @@
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Mystuic Traveller",
+                  "name": "Mystic Traveller",
                   "cost": 110
                 }
               ]
