@@ -1,14 +1,16 @@
 {
+  "generalitems": false,
+  "version": "205.2",
   "organisation": [
     {
       "id": "1",
-      "percent": 100,
+      "percent": 40,
       "type": "max",
       "name": "Characters"
     },
     {
       "id": "2",
-      "percent": 100,
+      "percent": 25,
       "type": "max",
       "name": "Core"
     },
@@ -20,30 +22,314 @@
     },
     {
       "id": "4",
-      "percent": 100,
+      "percent": 35,
       "type": "max",
-      "name": ""
+      "name": "Aves"
     }
   ],
   "magicitems": {
-    "category1": [
+    "artefacts": [
       {
-        "name": "Threshing Engine",
-        "cost": "160"
+        "name": "Chaos - Iron husk",
+        "cost": 110,
+        "description": "The model’s Resilience is set to 6."
       },
       {
-        "name": "Threshing Engine Legion",
-        "cost": "300"
+        "name": "Chaos - Kaleidoscopic Flesh",
+        "cost": 45,
+        "description": "The model gains Hard Target (1)"
       },
       {
-        "name": "Threshing Engine Horde",
-        "cost": "235"
+        "name": "Chaos (Guiding) - Kaleidoscopic Flesh",
+        "cost": 65,
+        "description": "Dominant. The model and each R&F model in its unit gains Hard Target (1)"
+      },
+      {
+        "name": "Chaos - Mark of the Eternal Champion",
+        "cost": 45,
+        "description": "If the bearer is not a Wizard, it becomes a Wizard Apprentice that does not select spells as normal but always knows Spear of Infinity (Hereditary Spell). If the bearer is already a Wizard, it knows Spear of Infinity in addition to its other spells and cannot select it during Spell Selection."
+      },
+      {
+        "name": "Chaos - Mirrored Scales",
+        "cost": 45,
+        "description": "Each Close Combat Attack allocated towards the bearer that rolls a natural ‘1’ on its to-hit roll hits the attacking model’s Health Pool instead."
+      },
+      {
+        "name": "Chaos (Guiding) - Mirrored Scales",
+        "cost": 70,
+        "description": "Dominantt. Each Close Combat Attack allocated towards the bearer and R&F models in its unit that rolls a natural ‘1’ on its to-hit roll hits the attacking model’s Health Pool instead."
+      },
+      {
+        "name": "Chaos - Withering Vapour",
+        "cost": 45,
+        "description": "The bearer gains a Breath Attack (Str 3, AP 2)"
+      },
+      {
+        "name": "Chaos - Hammer Hand",
+        "cost": 40,
+        "description": "The model gains +1 Attack Value."
+      },
+      {
+        "name": "Chaos - Sorcerous Antennae",
+        "cost": 40,
+        "description": "At the start of Siphon the Veil in each of your Magic Phases, choose a single model part in each unit with one or more instances of this Manifestation. The chosen model part gains Channel (1) until the end of the Magic Phase."
+      },
+      {
+        "name": "Chaos - Cloven Hooves",
+        "cost": 30,
+        "description": "The model gains Impact Hits (D3). These Impact Hits are resolved with Strength 5 and Armour Penetration 2."
+      },
+      {
+        "name": "Chaos - Brimstone Secretions",
+        "cost": 25,
+        "description": "Attacks made against the model no longer are Divine Attacks (if they were)."
+      },
+      {
+        "name": "Chaos (Guilding) - Brimstone Secretions",
+        "cost": 35,
+        "description": "Dominant. Attacks made against the model and against R&F models in its unit no longer are Divine Attacks (if they were)."
+      },
+      {
+        "name": "Chaos - Centipede Legs",
+        "cost": 25,
+        "description": "The model gains +1″ Advance Rate."
+      },
+      {
+        "name": "Chaos (Guilding)- Centipede Legs",
+        "cost": 40,
+        "description": "Dominant. The model and each R&F model in its unit gains +1″ Advance Rate."
+      },
+      {
+        "name": "Chaos - Charged Tendrils",
+        "cost": 25,
+        "description": "At the end of Siphon the Veil, each unit with one or more instances of this Manifestation allows the owner to store one additional Veil Token, up to a maximum of 6."
+      },
+      {
+        "name": "Chaos - Chitinous Scales",
+        "cost": 25,
+        "description": "The model gains +2 Armour, to a maximum of 3."
+      },
+      {
+        "name": "Chaos - Dark Hide",
+        "cost": 25,
+        "description": "The model gains Scout with the following exception: it must be deployed fully inside the owner’s Deployment Zone, and the owner must have deployed at least one unit normally."
+      },
+      {
+        "name": "Chaos - Living Shield ",
+        "cost": 25,
+        "description": "The model gains Parry."
+      },
+      {
+        "name": "Chaos (Guilding) - Living Shield ",
+        "cost": 55,
+        "description": "The model and each R&F model in its unit gains Parry."
+      },
+      {
+        "name": "Chaos - Unnatural Roots",
+        "cost": 25,
+        "description": "A side with one or more units with one or more instances of Unnatural Roots Engaged in Combat at the end of the Round of Combat adds +1 to its Combat Score"
+      },
+      {
+        "name": "Chaos - Third Eye ",
+        "cost": 20,
+        "description": "At the beginning of each friendly Charge Phase, draw the Flux Card for that Player Turn instead of step 2 of the Magic Phase Sequence."
+      },
+      {
+        "name": "Chaos - Dextrous Tentacles",
+        "cost": 15,
+        "description": "The model gains +1 Agility."
+      },
+      {
+        "name": "Chaos (Guilding) - Dextrous Tentacles",
+        "cost": 35,
+        "description": "Dominant. The model and each R&F model in its unit gains +1 Agility."
+      },
+      {
+        "name": "Envy - Greenfire Eyes",
+        "cost": 40,
+        "description": "One use only. Must be activated when the model’s unit fails its first Charge Range roll. The unit must reroll the Charge Range roll."
+      },
+      {
+        "name": "Envy - Piercing Spike",
+        "cost": 25,
+        "description": "Close Combat Attacks against enemy models with an Armour value of 3 or higher made by the model gain +1 Strength and +1 Armour Penetration."
+      },
+      {
+        "name": "Envy (Guilding) - Piercing Spike",
+        "cost": 60,
+        "description": "Dominant. Close Combat Attacks against enemy models with an Armour value of 3 or higher made by the model and each R&F model in its unit gain +1 Strength and +1 Armour Penetration."
+      },
+      {
+        "name": "Envy - Venom Sacs",
+        "cost": 25,
+        "description": "The model gains Poison Attacks. If the model’s Close Combat Attacks or those of R&F models in its unit already were Poison Attacks from another source than this Manifestation, the attack will automatically wound on successful to-hit rolls of 5+, instead of 6+."
+      },
+      {
+        "name": "Envy (Guilding) - Venom Sacs",
+        "cost": 75,
+        "description": "Dominant. The model and each R&F model in its unit gains Poison Attacks. If the model’s Close Combat Attacks or those of R&F models in its unit already were Poison Attacks from another source than this Manifestation, the attack will automatically wound on successful to-hit rolls of 5+, instead of 6+."
+      },
+      {
+        "name": "Gluttony - Broodmother",
+        "cost": 60,
+        "description": "Dominant. At the end of each Round of Combat during which the model’s unit was Engaged in Combat, and during which the model caused at least three Health Point losses with Close Combat Attacks, the unit Raises D3 Health Points."
+      },
+      {
+        "name": "Gluttony (Guilding) - Broodmother",
+        "cost": 80,
+        "description": "Dominant. At the end of each Round of Combat during which the model’s unit was Engaged in Combat, and during which the model and R&F models in the bearer’s unit caused at least three Health Point losses with Close Combat Attacks, the unit Raises D3 Health Points."
+      },
+      {
+        "name": "Gluttony - Digestive Vomit",
+        "cost": 45,
+        "description": "One use only. Must be activated the first time the bearer’s unit performs a Post-Combat Pivot or a PostCombat Reform. The model gains +1 Strength and +1 Armour Penetration until the end of the game."
+      },
+      {
+        "name": "Gluttony (Guilding) - Digestive Vomit",
+        "cost": 60,
+        "description": "Dominant. One use only. Must be activated the first time the bearer’s unit performs a Post-Combat Pivot or a PostCombat Reform. The model and each R&F model in its unit gains +1 Strength and +1 Armour Penetration until the end of the game."
+      },
+      {
+        "name": "Gluttony - Unhinging Jaw",
+        "cost": 40,
+        "description": "The model must reroll failed to-wound rolls from Close Combat Attacks against Large or Gigantic models."
+      },
+      {
+        "name": "Gluttony (Guilding) - Unhinging Jaw",
+        "cost": 55,
+        "description": "Dominant. The model and each R&F model in its unit must reroll failed to-wound rolls from Close Combat Attacks against Large or Gigantic models."
+      },
+      {
+        "name": "Greed - Grasping Proboscis",
+        "cost": 20,
+        "description": "At the end of each Round of Combat during which the model’s unit was Engaged in Combat, and the model caused at least three Health Point losses by Close Combat Attacks, you gain D3 Veil Token to your Veil Token pool."
+      },
+      {
+        "name": "Greed (Guilding) - Grasping Proboscis",
+        "cost": 25,
+        "description": "Dominant. At the end of each Round of Combat during which the model’s unit was Engaged in Combat, and the model and R&F model in the bearer’s unit caused at least three Health Point losses by Close Combat Attacks, you gain D3 Veil Token to your Veil Token pool."
+      },
+      {
+        "name": "Greed - Smothering Coils",
+        "cost": 20,
+        "description": "The model gains +1 to-wound with Close Combat Attacks against models with Scoring."
+      },
+      {
+        "name": "Greed (Guilding) - Smothering Coils",
+        "cost": 50,
+        "description": "Dominant. The model and each R&F model in its unit gains +1 to-wound with Close Combat Attacks against models with Scoring."
+      },
+      {
+        "name": "Greed - Divining Snout",
+        "cost": 15,
+        "description": "When Charging a unit that contains more than one Special Item, the model must reroll failed Charge Range rolls when rolling for Charge Range and gains +2″ Advance Rate for the Charge Range roll. The effects only apply if all models in the unit are affected by Divining Snout."
+      },
+      {
+        "name": "Greed - Divining Snout",
+        "cost": 30,
+        "description": "Dominant. When Charging a unit that contains more than one Special Item, the model and each R&F model in its unit must reroll failed Charge Range rolls when rolling for Charge Range and gains +2″ Advance Rate for the Charge Range roll. The effects only apply if all models in the unit are affected by Divining Snout."
+      },
+      {
+        "name": "Lust - Mesmerising Plumage",
+        "cost": 40,
+        "description": "Dominant. Enemy units in base contact with one or more models with this Manifestation suffer −1 Offensive Skill and −1 Defensive Skill."
+      },
+      {
+        "name": "Lust - Roaming Hands",
+        "cost": 35,
+        "description": "When the unit is Engaged with an enemy unit’s Flank or Rear Facing, the model gains +1 Strength and +1 Armour Penetration."
+      },
+      {
+        "name": "Lust (Guilding) - Roaming Hands",
+        "cost": 40,
+        "description": "Dominant. When the unit is Engaged with an enemy unit’s Flank or Rear Facing, the model and each R&F model in its unit gains +1 Strength and +1 Armour Penetration."
+      },
+      {
+        "name": "Lust - Hot Blood",
+        "cost": 10,
+        "description": "The model gains Devastating Charge (+2 Agi)."
+      },
+      {
+        "name": "Lust (Guilding) - Hot Blood",
+        "cost": 25,
+        "description": "Dominant. The model and each R&F model in its unit gains Devastating Charge (+2 Agi)."
+      },
+      {
+        "name": "Pride - Stiff Upper Lip",
+        "cost": 35,
+        "description": "Discipline Tests taken by units with at least one model with this Manifestation are subject to Minimised Roll."
+      },
+      {
+        "name": "Pride - Bronze Backbone",
+        "cost": 30,
+        "description": "The model gains Hatred."
+      },
+      {
+        "name": "Pride (Guildding) - Bronze Backbone",
+        "cost": 70,
+        "description": "Dominant. The model and each R&F model in its unit gains Hatred."
+      },
+      {
+        "name": "Pride - Horns of Hubris",
+        "cost": 25,
+        "description": "The model gains Vanguard (6″)."
+      },
+      {
+        "name": "Pride (Guilding) - Horns of Hubris",
+        "cost": 35,
+        "description": "Dominant. The model and each R&F model in its unit gains Vanguard (6″)."
+      },
+      {
+        "name": "Sloth - Chilling Yawn",
+        "cost": 75,
+        "description": "Dominant. Enemy units in base contact with one or more models with this Manifestation suffer −2 Agility."
+      },
+      {
+        "name": "Sloth - Aura of Despair ",
+        "cost": 50,
+        "description": "Dominant. Enemy units suffer −2 Advance Rate to a minimum of 1 when rolling for Charge Range against units with at least one model with this Manifestation."
+      },
+      {
+        "name": "Sloth - Segmented Shell",
+        "cost": 30,
+        "description": "When the model suffers a wound from an attack with Multiple Wounds, the number of wounds that it is multiplied into (due to Multiple Wounds) is reduced by 1, to a minimum of 1. "
+      },
+      {
+        "name": "Sloth (Guildding) - Segmented Shell",
+        "cost": 35,
+        "description": "Dominant. When the model or a R&F model in its unit suffers a wound from an attack with Multiple Wounds, the number of wounds that it is multiplied into (due to Multiple Wounds) is reduced by 1, to a minimum of 1. "
+      },
+      {
+        "name": "Wrath - Whipcrack Tail ",
+        "cost": 50,
+        "description": "The model gains Lightning Reflexes."
+      },
+      {
+        "name": "Wrath (Guilding) - Whipcrack Tail ",
+        "cost": 80,
+        "description": "Dominant. The model and each R&F model in its unit gains Lightning Reflexes."
+      },
+      {
+        "name": "Wrath - Red Haze",
+        "cost": 40,
+        "description": "The model’s Close Combat Attacks gain +1 Strength and +1 Armour Penetration, but each of its Close Combat Attacks with a natural to-hit roll of ‘1’ is distributed onto the bearer’s unit."
+      },
+      {
+        "name": "Wrath (Guiilding) - Red Haze",
+        "cost": 80,
+        "description": "Dominant. The model’s Close Combat Attacks and those of R&F models in its unit gain +1 Strength and +1 Armour Penetration, but each of its Close Combat Attacks with a natural to-hit roll of ‘1’ is distributed onto the bearer’s unit."
+      },
+      {
+        "name": "Wrath - Incendiary Ichor",
+        "cost": 10,
+        "description": "The model gains Aegis (2+, against Flaming Attacks). All Melee Attacks (including Special Attacks) and Shooting Attacks made by the model with Incendiary Ichor become Flaming Attacks. The bearer automatically fails all Fortitude Saves."
+      },
+      {
+        "name": "Wrath (Guilding) - Incendiary Ichor",
+        "cost": 30,
+        "description": "Dominant. The model and each R&F model in its unit gains Aegis (2+, against Flaming Attacks). All Melee Attacks (including Special Attacks) and Shooting Attacks made by the model with Incendiary Ichor and each R&F model in its unit become Flaming Attacks. The bearer and each R&F model in its unit automatically fails all Fortitude Saves."
       }
-    ],
-    "category2": [],
-    "category3": [],
-    "category4": [],
-    "category5": []
+    ]
   },
   "mounts": [
     {
@@ -84,9 +370,167 @@
       "organisation": "1",
       "units": [
         {
+          "name": "Harbinger of Father Chaos",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Beast",
+          "limitation": "4",
+          "cost": "160",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Aegis  (4+, against Magical Attacks)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "3",
+              "DEF": "5",
+              "T": "4",
+              "ARM": "0",
+              "name": "Harbinger",
+              "A": "3",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "5"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "101",
+                  "name": "BSB",
+                  "cost": 50,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "101",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Dark Fire (3+) (foot only)",
+                  "cost": 35
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Father Chaos and General",
+                  "cost": 150
+                }
+              ]
+            },
+            {
+              "name": "Path of Magic",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                },
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "40"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "115"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Dark Pulpit",
+                  "cost": "50"
+                },
+                {
+                  "name": "Pale Horse",
+                  "cost": "75"
+                },
+                {
+                  "name": "Burning Wheel",
+                  "cost": "85",
+                  "category": "4"
+
+                },
+                {
+                  "name": "Great Beast of Prophecy",
+                  "cost": "105"
+                },
+                {
+                  "name": "Great Beast of Prophecy (Fly)",
+                  "cost": "165",
+                  "category": "4"
+
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Omen of Savar",
           "Base": "1",
           "size": "Standard",
+          "limitation": "3",
           "type": "Beast",
           "cost": "490",
           "rules": [
@@ -109,6 +553,9 @@
                 },
                 {
                   "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Wizard Apprentice"
                 }
               ],
               "equipments": [],
@@ -129,10 +576,708 @@
           ],
           "options": [
             {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Father chaos and Pride",
+                  "cost": 150
+                }
+              ]
+            },
+            {
+              "name": "Greater Dominion",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Greater Dominion",
+                  "cost": 40,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "Path of Magic",
               "onechoice": true,
               "mandatory": true,
               "choices": [
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "225"
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Throne of Overwhelming Splendour",
+                  "category": "4",
+                  "cost": "185"
+                }
+              ]
+            }
+          ]
+        },{
+          "name": "Sentinel of Nukuja",
+          "Base": "1",
+          "size": "Standard",
+          "limitation": "3",
+          "type": "Beast",
+          "cost": "620",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Omniscience"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Wizard Master"
+                },
+                {
+                  "specialrule": "Crush Attack"
+                }
+              ],
+              "equipments": [],
+              "W": "5",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "0",
+              "name": "Sentinel of Nukuja",
+              "A": "1",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "1",
+              "ADV": "2",
+              "MAR": "4",
+              "Ld": "9"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Father Chaos and Sloth",
+                  "cost": 150
+                }
+              ]
+            },
+            {
+              "name": "Greater Dominion",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Greater Dominion",
+                  "cost": 30,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mount",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Strixian Spirit",
+                  "cost": "20",
+                  "category": "4",
+                  "limitation": "1"
+                },
+                {
+                  "name": "Throne of the Oracle",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Path of Magic",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                },
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maw of Akaan",
+          "Base": "1",
+          "limitation": "1",
+          "size": "Gigantic",
+          "type": "Beast",
+          "cost": "570",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Devour"
+                },
+                {
+                  "specialrule": "Aegis  (5+, against Magical Attacks)"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Fortitude  (5+)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "7",
+              "MAR": "14",
+              "Ld": "9",
+              "W": "9",
+              "DEF": "5",
+              "T": "5",
+              "ARM": "0",
+              "name": "Maw of Akaan",
+              "A": "6",
+              "OFF": "5",
+              "S": "6",
+              "AP": "1",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Father Chaos and Gluttony",
+                  "cost": 150
+                }
+              ]
+            },
+            {
+              "name": "Greater Dominion",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Greater Dominion",
+                  "cost": 60,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Path of Magic",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "225"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kuulima's Deceiver",
+          "Base": "1",
+          "limitation": "3",
+          "size": "Standard",
+          "type": "Beast",
+          "cost": "335",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Know Thyself"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Protean Magic"
+                },
+                {
+                  "specialrule": "Poison Attacks"
+                }
+              ],
+              "equipments": []
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Father Chaos and Envy",
+                  "cost": 150
+                }
+              ]
+            },
+            {
+              "name": "Greater Dominion",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Greater Dominion",
+                  "cost": 30,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Path of Magic",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "65"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "190"
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Fly (7, 14) and Light Troops",
+                  "cost": "40",
+                  "category": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Courtesan of Cibaresh",
+          "Base": "1",
+          "limitation": "1",
+          "size": "Gigantic",
+          "type": "Beast",
+          "cost": "575",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Avert your Gaze"
+                },
+                {
+                  "specialrule": "Razor Tentacles"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Distracting"
+                },
+                {
+                  "specialrule": "Hard Target  (1)"
+                }
+              ],
+              "equipments": [],
+              "ADV": "9",
+              "MAR": "18",
+              "Ld": "9",
+              "W": "6",
+              "DEF": "7",
+              "T": "5",
+              "ARM": "0",
+              "name": "Courtesan of Cibaresh",
+              "A": "6",
+              "OFF": "7",
+              "S": "5",
+              "AP": "4",
+              "I": "7"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Father Chaos and Lust",
+                  "cost": 150
+                }
+              ]
+            },
+            {
+              "name": "Greater Dominion",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Greater Dominion",
+                  "cost": 35,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Path of Magic",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Witchcraft",
+                  "cost": "0"
+                },
+                {
+                  "name": "Divination",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "0"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "75"
+                },
+                {
+                  "name": "Wizard Master",
+                  "cost": "225"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Miser of Sugulag",
+          "Base": "1",
+          "size": "Gigantic",
+          "type": "Beast",
+          "limitation": "1",
+          "cost": "670",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Half Off"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fearless"
+                }
+              ],
+              "equipments": [],
+              "ADV": "7",
+              "MAR": "14",
+              "Ld": "9",
+              "W": "6",
+              "DEF": "8",
+              "T": "7",
+              "ARM": "0",
+              "name": "Miser of Sugulag",
+              "A": "5",
+              "OFF": "5",
+              "S": "5",
+              "AP": "2",
+              "I": "2"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Father Chaos and Greed",
+                  "cost": 175
+                }
+              ]
+            },
+            {
+              "name": "Greater Dominion",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Greater Dominion",
+                  "cost": 35,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Path of Magic",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Evocation",
+                  "cost": "0"
+                },
                 {
                   "name": "Thaumaturgy",
                   "cost": "0"
@@ -161,15 +1306,132 @@
                   "cost": "225"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "Vanadra’s Scourge",
+          "Base": "1",
+          "limitation": "1",
+          "size": "Gigantic",
+          "category": "4",
+          "type": "Beast",
+          "cost": "725",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Rage"
+                },
+                {
+                  "specialrule": "Battle Focus"
+                },
+                {
+                  "specialrule": "Light Troops"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Fly  (7, 14)"
+                },
+                {
+                  "specialrule": "Aegis  (4+, against Melee Attacks)"
+                },
+                {
+                  "specialrule": "Fearless"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8 (6)",
+              "MAR": "16 (16)",
+              "Ld": "9",
+              "W": "6",
+              "DEF": "4",
+              "T": "6",
+              "ARM": "0",
+              "name": "Vanadra’s Scourge",
+              "A": "5",
+              "OFF": "8",
+              "S": "7",
+              "AP": "4",
+              "I": "0"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "globalid": "102",
+                  "name": "general",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "101",
+                      "global": false,
+                      "exist": false
+                    },
+                    {
+                      "option": "102",
+                      "global": true,
+                      "exist": false
+                    }
+                  ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Father Chaos and Wrath",
+                  "cost": 150
+                }
+              ]
             },
             {
-              "name": "Mount",
+              "name": "Greater Dominion",
+              "onechoice": true,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Greater Dominion",
+                  "cost": 35,
+                  "condition": [
+                    {
+                      "option": "102",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Path of Magic",
               "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Throne of Overwhelming Splendour",
-                  "cost": "185"
+                  "name": "Evocation",
+                  "cost": "0"
+                },
+                {
+                  "name": "Thaumaturgy",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Wizard Level",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Wizard Apprentice",
+                  "cost": "40"
+                },
+                {
+                  "name": "Wizard Adept",
+                  "cost": "115"
                 }
               ]
             }
@@ -186,8 +1448,9 @@
           "size": "Standard",
           "type": "Beast",
           "unitsize": "10",
-          "maxmodels": "30",
+          "maxmodels": "15",
           "modelcost": "15",
+          "maxarmymodels": "40",
           "cost": "215",
           "rules": [
             {
@@ -205,10 +1468,13 @@
                   "specialrule": "Scoring"
                 },
                 {
-                  "specialrule": "Wizard Apprentice  (Champion: Spear of Infinity)"
+                  "specialrule": "Wizard Apprentice  (Spear of Infinity, Hand of Heaven)"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Energy Bolt (4+)"
+                }],
               "ADV": "5",
               "MAR": "10",
               "Ld": "6",
@@ -226,22 +1492,31 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Bound Spell",
               "onechoice": true,
               "mandatory": true,
               "choices": [
                 {
                   "name": "Hand of Heaven",
-                  "cost": "35"
+                  "cost": "35",
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 },
                 {
                   "name": "Spear of Infinity",
-                  "cost": "35"
+                  "cost": "35",
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             },
@@ -259,7 +1534,41 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20"
+                  "globalid": "11",
+                  "cost": "55"
+                }
+              ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Incendiary Ichor",
+                  "cost": "1"
+                },
+                {
+                  "name": "Dark Hide",
+                  "cost": "3"
+                }
+              ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Charged Tendriis",
+                  "cost": "30"
+                },
+                {
+                  "name": "Mark of the Eternal Champion",
+                  "cost": "30"
+                },
+                {
+                  "name": "Sorcerous Antennae",
+                  "cost": "45"
                 }
               ]
             }
@@ -308,11 +1617,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -329,6 +1633,33 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Brimstone Secretions",
+                  "cost": "1"
+                },
+                {
+                  "name": "Stiff Upper Lip",
+                  "cost": "2"
+                },
+                {
+                  "name": "Unnatutal Roots",
+                  "cost": "2"
+                },
+                {
+                  "name": "Venom Sacs",
+                  "cost": "2"
+                },
+                {
+                  "name": "Chilling Yawn",
+                  "cost": "3"
+                }
+              ]
             }
           ]
         },
@@ -339,8 +1670,8 @@
           "type": "Beast",
           "unitsize": "10",
           "maxmodels": "15",
-          "modelcost": "18",
-          "cost": "205",
+          "modelcost": "19",
+          "cost": "210",
           "rules": [
             {
               "specialrules": [
@@ -375,11 +1706,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -396,6 +1722,33 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Dark Hide",
+                  "cost": "1"
+                },
+                {
+                  "name": "Mesmerising Plumage",
+                  "cost": "2"
+                },
+                {
+                  "name": "Chiling Yawn",
+                  "cost": "4"
+                },
+                {
+                  "name": "Bronze Backbone",
+                  "cost": "5"
+                },
+                {
+                  "name": "Smothering Coils",
+                  "cost": "6"
+                }
+              ]
             }
           ]
         },
@@ -403,9 +1756,11 @@
           "name": "Myrmidons",
           "Base": "1",
           "unitsize": "10",
-          "maxmodels": "15",
-          "modelcost": "20",
-          "cost": "205",
+          "size": "Standard",
+          "type": "Beast",
+          "maxmodels": "20",
+          "modelcost": "22",
+          "cost": "215",
           "rules": [
             {
               "specialrules": [
@@ -419,22 +1774,17 @@
                   "specialrule": "Supernal"
                 },
                 {
+                  "specialrule": "Fight in Extra Rank"
+                },
+                {
                   "specialrule": "Devastating Charge  (+2 Str, Battle Focus)"
                 }
               ],
               "equipments": [
-                {
-                  "equipment": "Myrmidon"
-                }
               ]
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
             {
               "name": "Command",
               "onechoice": false,
@@ -452,6 +1802,33 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Hot Blood",
+                  "cost": "1"
+                },
+                {
+                  "name": "Unhinging Jaw",
+                  "cost": "2"
+                },
+                {
+                  "name": "Whipcrack Tail",
+                  "cost": "2"
+                },
+                {
+                  "name": "Bronze Backbone",
+                  "cost": "4"
+                },
+                {
+                  "name": "Piercing Spike",
+                  "cost": "4"
+                }
+              ]
             }
           ]
         }
@@ -461,577 +1838,14 @@
       "organisation": "3",
       "units": [
         {
-          "name": "Sentinel of Nukuja",
-          "Base": "1",
-          "size": "Standard",
-          "type": "Beast",
-          "cost": "620",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Omniscience"
-                },
-                {
-                  "specialrule": "Supernal"
-                },
-                {
-                  "specialrule": "Fearless"
-                },
-                {
-                  "specialrule": "Fear"
-                },
-                {
-                  "specialrule": "Wizard Master"
-                },
-                {
-                  "specialrule": "Crush Attack"
-                }
-              ],
-              "equipments": [],
-              "W": "5",
-              "DEF": "5",
-              "T": "5",
-              "ARM": "0",
-              "name": "Sentinel of Nukuja",
-              "A": "1",
-              "OFF": "5",
-              "S": "5",
-              "AP": "2",
-              "I": "1",
-              "ADV": "2",
-              "MAR": "4",
-              "Ld": "9"
-            }
-          ],
-          "options": [
-            {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Strixian Spirit",
-                  "cost": "20"
-                },
-                {
-                  "name": "Throne of the Oracle",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
-              "name": "Path of Magic",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Thaumaturgy",
-                  "cost": "0"
-                },
-                {
-                  "name": "Divination",
-                  "cost": "0"
-                },
-                {
-                  "name": "Witchcraft",
-                  "cost": "0"
-                },
-                {
-                  "name": "Evocation",
-                  "cost": "0"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Maw of Akaan",
-          "Base": "1",
-          "size": "Gigantic",
-          "type": "Beast",
-          "cost": "570",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Devour"
-                },
-                {
-                  "specialrule": "Aegis  (5+, against Magical Attacks)"
-                },
-                {
-                  "specialrule": "Supernal"
-                },
-                {
-                  "specialrule": "Fearless"
-                },
-                {
-                  "specialrule": "Fortitude  (5+)"
-                }
-              ],
-              "equipments": [],
-              "ADV": "7",
-              "MAR": "14",
-              "Ld": "9",
-              "W": "9",
-              "DEF": "5",
-              "T": "5",
-              "ARM": "0",
-              "name": "Maw of Akaan",
-              "A": "6",
-              "OFF": "5",
-              "S": "6",
-              "AP": "1",
-              "I": "3"
-            }
-          ],
-          "options": [
-            {
-              "name": "Path of Magic",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Evocation",
-                  "cost": "0"
-                },
-                {
-                  "name": "Witchcraft",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
-              "name": "Wizard Level",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
-                {
-                  "name": "Wizard Adept",
-                  "cost": "75"
-                },
-                {
-                  "name": "Wizard Master",
-                  "cost": "225"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Kuulima's Deceiver",
-          "Base": "1",
-          "cost": "335",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Know Thyself"
-                },
-                {
-                  "specialrule": "Supernal"
-                },
-                {
-                  "specialrule": "Fear"
-                },
-                {
-                  "specialrule": "Fearless"
-                },
-                {
-                  "specialrule": "Protean Magic"
-                },
-                {
-                  "specialrule": "Poison Attacks"
-                }
-              ],
-              "equipments": []
-            }
-          ],
-          "options": [
-            {
-              "name": "Path of Magic",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Evocation",
-                  "cost": "0"
-                },
-                {
-                  "name": "Witchcraft",
-                  "cost": "0"
-                },
-                {
-                  "name": "Divination"
-                },
-                {
-                  "name": "Thaumaturgy"
-                }
-              ]
-            },
-            {
-              "name": "Wizard Level",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
-                {
-                  "name": "Wizard Adept",
-                  "cost": "65"
-                },
-                {
-                  "name": "Wizard Master",
-                  "cost": "190"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Kuulima's Deceiver - Fly",
-          "Base": "1",
-          "cost": "375",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Know Thyself"
-                },
-                {
-                  "specialrule": "Fly  (7\", 14\")"
-                },
-                {
-                  "specialrule": "Light Troops"
-                },
-                {
-                  "specialrule": "Fear"
-                },
-                {
-                  "specialrule": "Fearless"
-                },
-                {
-                  "specialrule": "Poison Attacks"
-                },
-                {
-                  "specialrule": "Protean Magic"
-                },
-                {
-                  "specialrule": "Supernal"
-                }
-              ],
-              "equipments": []
-            }
-          ],
-          "options": [
-            {
-              "name": "Path of Magic",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Evocation",
-                  "cost": "0"
-                },
-                {
-                  "name": "Witchcraft",
-                  "cost": "0"
-                },
-                {
-                  "name": "Divination"
-                },
-                {
-                  "name": "Thaumaturgy"
-                }
-              ]
-            },
-            {
-              "name": "Wizard Level",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
-                {
-                  "name": "Wizard Adept",
-                  "cost": "65"
-                },
-                {
-                  "name": "Wizard Master",
-                  "cost": "190"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Courtesan of Cibaresh",
-          "Base": "1",
-          "size": "Gigantic",
-          "type": "Beast",
-          "cost": "575",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Avert your Gaze"
-                },
-                {
-                  "specialrule": "Razor Tentacles"
-                },
-                {
-                  "specialrule": "Supernal"
-                },
-                {
-                  "specialrule": "Fearless"
-                },
-                {
-                  "specialrule": "Distracting"
-                },
-                {
-                  "specialrule": "Hard Target  (1)"
-                }
-              ],
-              "equipments": [],
-              "ADV": "9",
-              "MAR": "18",
-              "Ld": "9",
-              "W": "6",
-              "DEF": "7",
-              "T": "5",
-              "ARM": "0",
-              "name": "Courtesan of Cibaresh",
-              "A": "6",
-              "OFF": "7",
-              "S": "5",
-              "AP": "4",
-              "I": "7"
-            }
-          ],
-          "options": [
-            {
-              "name": "Path of Magic",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Witchcraft",
-                  "cost": "0"
-                },
-                {
-                  "name": "Divination",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
-              "name": "Wizard Level",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
-                {
-                  "name": "Wizard Adept",
-                  "cost": "75"
-                },
-                {
-                  "name": "Wizard Master",
-                  "cost": "225"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Miser of Sugulag",
-          "Base": "1",
-          "size": "Gigantic",
-          "type": "Beast",
-          "cost": "670",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Half Off"
-                },
-                {
-                  "specialrule": "Supernal"
-                },
-                {
-                  "specialrule": "Fearless"
-                }
-              ],
-              "equipments": [],
-              "ADV": "7",
-              "MAR": "14",
-              "Ld": "9",
-              "W": "6",
-              "DEF": "8",
-              "T": "7",
-              "ARM": "0",
-              "name": "Miser of Sugulag",
-              "A": "5",
-              "OFF": "5",
-              "S": "5",
-              "AP": "2",
-              "I": "2"
-            }
-          ],
-          "options": [
-            {
-              "name": "Path of Magic",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Evocation",
-                  "cost": "0"
-                },
-                {
-                  "name": "Thaumaturgy",
-                  "cost": "0"
-                },
-                {
-                  "name": "Divination",
-                  "cost": "0"
-                }
-              ]
-            },
-            {
-              "name": "Wizard Level",
-              "onechoice": true,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Wizard Apprentice",
-                  "cost": "0"
-                },
-                {
-                  "name": "Wizard Adept",
-                  "cost": "75"
-                },
-                {
-                  "name": "Wizard Master",
-                  "cost": "225"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Vanadra’s Scourge",
-          "Base": "1",
-          "size": "Gigantic",
-          "type": "Beast",
-          "cost": "725",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Rage"
-                },
-                {
-                  "specialrule": "Battle Focus"
-                },
-                {
-                  "specialrule": "Light Troops"
-                },
-                {
-                  "specialrule": "Supernal"
-                },
-                {
-                  "specialrule": "Fly  (7\", 14\")"
-                },
-                {
-                  "specialrule": "Aegis  (4+, against Melee Attacks)"
-                },
-                {
-                  "specialrule": "Fearless"
-                }
-              ],
-              "equipments": [],
-              "ADV": "8 (6)",
-              "MAR": "16 (16)",
-              "Ld": "9",
-              "W": "6",
-              "DEF": "4",
-              "T": "6",
-              "ARM": "0",
-              "name": "Vanadra’s Scourge",
-              "A": "5",
-              "OFF": "8",
-              "S": "7",
-              "AP": "4",
-              "I": "0"
-            }
-          ],
-          "options": [
-            {
-              "name": "Wizard Level",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Wizard Apprentice",
-                  "cost": "40"
-                },
-                {
-                  "name": "Wizard Adept",
-                  "cost": "115"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Harbinger of Father Chaos",
-          "Base": "1",
-          "cost": "160",
-          "rules": [
-            {
-              "specialrules": [],
-              "equipments": []
-            }
-          ],
-          "options": []
-        },
-        {
-          "name": "Harbinger of Father Chaos - Fly",
-          "Base": "1",
-          "cost": "160",
-          "rules": [
-            {
-              "specialrules": [],
-              "equipments": []
-            }
-          ],
-          "options": []
-        }
-      ]
-    },
-    {
-      "organisation": "4",
-      "units": [
-        {
           "name": "Eidolons",
           "Base": "1",
           "size": "Standard",
           "type": "Beast",
           "unitsize": "5",
-          "maxmodels": "13",
+          "maxmodels": "5",
           "modelcost": "33",
+          "maxarmymodels": "18",
           "cost": "185",
           "rules": [
             {
@@ -1049,21 +1863,18 @@
                   "specialrule": "Skirmisher"
                 },
                 {
-                  "specialrule": "Hard Target  (1)  (2)"
+                  "specialrule": "Hard Target  (1) "
                 },
                 {
                   "specialrule": "Wizard Conclave"
                 },
                 {
                   "specialrule": "Aegis  (4+, against Magical Attacks)"
-                },
-                {
-                  "specialrule": "Accurate"
                 }
               ],
               "equipments": [
                 {
-                  "equipment": "Dark Fire"
+                  "equipment": "Dark Fire (4+)"
                 }
               ],
               "ADV": "5",
@@ -1083,13 +1894,9 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Scout",
               "onechoice": false,
+              "limitation": "1",
               "choices": [
                 {
                   "name": "Scout",
@@ -1105,7 +1912,88 @@
               "choices": [
                 {
                   "name": "Champion",
+                  "globalid": "15",
                   "cost": "120"
+                }
+              ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Incendiary Ichor",
+                  "cost": "1"
+                },
+                {
+                  "name": "Aura of Despair",
+                  "cost": "4"
+                },
+                {
+                  "name": "Kaleidoscopic Flesh",
+                  "cost": "5"
+                }
+              ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Sorcerous Antennae",
+                  "cost": "35"
+                }
+              ]
+            },
+            {
+              "name": "Spells (2 choices)",
+              "onechoice": false,
+              "mandatory": true,
+              "choices": [
+                {
+                  "name": "Fate's Judgement",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "15",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Hasten the Hour",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "15",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Hand of Heaven",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "15",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Spear off Infinity",
+                  "cost": 0,
+                  "condition": [
+                    {
+                      "option": "15",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
                 }
               ]
             }
@@ -1154,11 +2042,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Command Group",
               "onechoice": true,
               "mandatory": false,
@@ -1168,27 +2051,140 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Grasping Proboscis",
+                  "cost": "1"
+                },
+                {
+                  "name": "Hot Blood",
+                  "cost": "1"
+                },
+                {
+                  "name": "Incendiary Ichor",
+                  "cost": "1"
+                },
+                {
+                  "name": "Digestive Vomit",
+                  "cost": "2"
+                },
+                {
+                  "name": "Horns off Hubris",
+                  "cost": "2"
+                },
+                {
+                  "name": "Centipede Legs",
+                  "cost": "3"
+                }
+              ]
             }
           ]
         },
         {
-          "name": "Threshing Engine - Fly",
+          "name": "Thresing Engine",
           "Base": "1",
-          "cost": "30",
+          "size": "Large",
+          "limitation": "5",
+          "type": "Construct",
+          "cost": "160",
           "rules": [
             {
               "specialrules": [
                 {
-                  "specialrule": "Light Troops"
+                  "specialrule": "Impact Hits  (2D3)"
                 },
                 {
-                  "specialrule": "Fly  (9\",9\")"
+                  "specialrule": "Swiftstride"
+                },
+                {
+                  "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Supernal"
+                },
+                {
+                  "specialrule": "Hard Target (1)"
                 }
               ],
-              "equipments": []
+              "equipments": [
+              ],
+              "ADV": "10",
+              "MAR": "10",
+              "Ld": "7",
+              "W": "4",
+              "DEF": "4",
+              "T": "4",
+              "ARM": "0",
+              "name": "Tillers (2)",
+              "A": "2",
+              "OFF": "4",
+              "S": "3",
+              "AP": "3",
+              "I": "3"
+            },
+            {
+              "name": "Draft Beasts (2)",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "3"
+            },
+            {
+              "name": "Chassis",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "",
+              "OFF": "",
+              "S": "4",
+              "AP": "3",
+              "I": ""
             }
           ],
           "options": [
+            {
+              "name": "Options",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "limitation": "2",
+                  "name": "Fly (9,9) and Light Troops",
+                  "cost": "30"
+                },
+                {
+                  "limitation": "3",
+                  "name": "Horde Thresher",
+                  "cost": "75"
+                },
+                {
+                  "limitation": "2",
+                  "name": "Legion Thresher",
+                  "cost": "140"
+                }
+              ]
+            },
             {
               "name": "Command Group",
               "onechoice": true,
@@ -1199,28 +2195,30 @@
                   "cost": "20"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Threshing Engine",
-          "Base": "1",
-          "cost": "0",
-          "rules": [
+            },
             {
-              "specialrules": [],
-              "equipments": []
-            }
-          ],
-          "options": [
-            {
-              "name": "Command Group",
+              "name": "Manifestation",
               "onechoice": true,
-              "mandatory": false,
               "choices": [
                 {
-                  "name": "Standard Bearer",
+                  "name": "Divining Snout",
+                  "cost": "15"
+                },
+                {
+                  "name": "Horns of Hubris",
                   "cost": "20"
+                },
+                {
+                  "name": "Whipcrrack Tail",
+                  "cost": "30"
+                },
+                {
+                  "name": "Mark of Eternal Champion",
+                  "cost": "35"
+                },
+                {
+                  "name": "Roamning Hands",
+                  "cost": "40"
                 }
               ]
             }
@@ -1230,6 +2228,7 @@
           "name": "Titanslayer Chariot",
           "Base": "1",
           "size": "Large",
+          "limitation": "2",
           "type": "Construct",
           "cost": "205",
           "rules": [
@@ -1258,9 +2257,6 @@
                 }
               ],
               "equipments": [
-                {
-                  "equipment": "Myrmidon"
-                }
               ],
               "ADV": "6",
               "MAR": "6",
@@ -1305,16 +2301,44 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Stifff Upper Lip",
+                  "cost": "10"
+                },
+                {
+                  "name": "Divining Scout",
+                  "cost": "15"
+                },
+                {
+                  "name": "Digestive Vomit",
+                  "cost": "20"
+                },
+                {
+                  "name": "Segmented Shell",
+                  "cost": "20"
+                },
+                {
+                  "name": "Centipede Legs",
+                  "cost": "25"
+                }
+              ]
             }
           ]
         },
         {
           "name": "Clawed Fiends",
-          "Base": "1",
+          "size": "Large",
+          "type": "Beast",
           "unitsize": "3",
+          "limitation": "2",
           "maxmodels": "3",
           "modelcost": "97",
-          "cost": "270",
+          "cost": "280",
           "rules": [
             {
               "specialrules": [
@@ -1336,11 +2360,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1357,6 +2376,33 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Dark Hide",
+                  "cost": "6"
+                },
+                {
+                  "name": "Mesmerising Plumage",
+                  "cost": "8"
+                },
+                {
+                  "name": "Pierrcing Strike",
+                  "cost": "12"
+                },
+                {
+                  "name": "Unhinging Jaw",
+                  "cost": "13"
+                },
+                {
+                  "name": "Broodmother",
+                  "cost": "15"
+                }
+              ]
             }
           ]
         },
@@ -1366,6 +2412,7 @@
           "size": "Standard",
           "type": "Beast",
           "unitsize": "2",
+          "limitation": "3",
           "maxmodels": "2",
           "modelcost": "39",
           "cost": "170",
@@ -1415,9 +2462,31 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Greenfire Eyes",
+                  "cost": "3"
+                },
+                {
+                  "name": "Unnatural Roots",
+                  "cost": "7"
+                },
+                {
+                  "name": "Living Shield",
+                  "cost": "8"
+                },
+                {
+                  "name": "Piercing Spike",
+                  "cost": "9"
+                },
+                {
+                  "name": "Venom Sacs",
+                  "cost": "13"
+                }
+              ]
             }
           ]
         },
@@ -1425,6 +2494,7 @@
           "name": "Hoarders",
           "Base": "1",
           "size": "Large",
+          "limitation": "3",
           "type": "Beast",
           "unitsize": "3",
           "maxmodels": "3",
@@ -1467,11 +2537,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1488,6 +2553,37 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Manifestation (max 2)",
+              "onechoice": false,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Dextrous Tentacles",
+                  "cost": "3"
+                },
+                {
+                  "name": "Grasping Proboscis",
+                  "cost": "3"
+                },
+                {
+                  "name": "Kaleidoscope Flesh",
+                  "cost": "4"
+                },
+                {
+                  "name": "Divining Snout",
+                  "cost": "5"
+                },
+                {
+                  "name": "Unnatural Roots",
+                  "cost": "8"
+                },
+                {
+                  "name": "Smothering Colis",
+                  "cost": "12"
+                }
+              ]
             }
           ]
         },
@@ -1497,6 +2593,7 @@
           "size": "Standard",
           "type": "Cavalry",
           "unitsize": "5",
+          "limitation": "3",
           "maxmodels": "10",
           "modelcost": "28",
           "cost": "195",
@@ -1519,7 +2616,7 @@
                   "specialrule": "Supernal"
                 },
                 {
-                  "specialrule": "Vanguard  (12\")"
+                  "specialrule": "Vanguard  (12)"
                 },
                 {
                   "specialrule": "Hard Target  (1)"
@@ -1563,11 +2660,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1584,6 +2676,33 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Centipede Legs",
+                  "cost": "2"
+                },
+                {
+                  "name": "Hot Blood",
+                  "cost": "2"
+                },
+                {
+                  "name": "Mesmerising Plumage",
+                  "cost": "5"
+                },
+                {
+                  "name": "Roaming Hands",
+                  "cost": "7"
+                },
+                {
+                  "name": "Hammer Hand",
+                  "cost": "8"
+                }
+              ]
             }
           ]
         },
@@ -1592,6 +2711,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Beast",
+          "limitation": "2",
           "cost": "320",
           "rules": [
             {
@@ -1628,55 +2748,50 @@
               "I": "5"
             }
           ],
-          "options": []
-        },
-        {
-          "name": "Blazing Glories - Fly",
-          "Base": "1",
-          "size": "Large",
-          "type": "Beast",
-          "cost": "380",
-          "rules": [
+          "options": [
             {
-              "specialrules": [
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
                 {
-                  "specialrule": "Falling Star"
-                },
-                {
-                  "specialrule": "Fearless"
-                },
-                {
-                  "specialrule": "Supernal"
-                },
-                {
-                  "specialrule": "Towering Presence"
-                },
-                {
-                  "specialrule": "Fear"
+                  "name": "Fly (8, 16) and Lightt Troops",
+                  "cost": "60"
                 }
-              ],
-              "equipments": [],
-              "ADV": "7",
-              "MAR": "14",
-              "Ld": "8",
-              "W": "5",
-              "DEF": "*",
-              "T": "5",
-              "ARM": "0",
-              "name": "Blazing Glories",
-              "A": "5",
-              "OFF": "*",
-              "S": "5",
-              "AP": "5",
-              "I": "5"
+              ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Brimstone Secretions",
+                  "cost": "10"
+                },
+                {
+                  "name": "Cloven Hooves",
+                  "cost": "10"
+                },
+                {
+                  "name": "Horns of Hubris",
+                  "cost": "15"
+                },
+                {
+                  "name": "Stiff Upper Lip",
+                  "cost": "20"
+                },
+                {
+                  "name": "Bronze Backbone",
+                  "cost": "35"
+                }
+              ]
             }
-          ],
-          "options": []
+          ]
         },
         {
           "name": "Hope Harvester",
           "Base": "1",
           "size": "Large",
+          "limitation": "2",
           "type": "Beast",
           "cost": "285",
           "rules": [
@@ -1698,7 +2813,10 @@
                   "specialrule": "War Platform"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Aether Battery (3+)"
+                }],
               "ADV": "5",
               "MAR": "10",
               "Ld": "7",
@@ -1721,7 +2839,33 @@
               "choices": [
                 {
                   "name": "Engine of Damnation",
-                  "cost": "200"
+                  "cost": "120"
+                }
+              ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "choices": [
+                {
+                  "name": "Segmentedd Shell",
+                  "cost": "30"
+                },
+                {
+                  "name": "Aura of Despair",
+                  "cost": "40"
+                },
+                {
+                  "name": "Sorcerous Antennae",
+                  "cost": "40"
+                },
+                {
+                  "name": "Mark of the Eternal Champion",
+                  "cost": "50"
+                },
+                {
+                  "name": "Chilling Yawn",
+                  "cost": "65"
                 }
               ]
             }
@@ -1734,8 +2878,9 @@
           "type": "Cavalry",
           "unitsize": "3",
           "maxmodels": "3",
-          "modelcost": "103",
-          "cost": "345",
+          "limitation": "3",
+          "modelcost": "102",
+          "cost": "350",
           "rules": [
             {
               "specialrules": [
@@ -1799,11 +2944,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -1820,13 +2960,40 @@
                   "cost": "20"
                 }
               ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Incendiary Ichor",
+                  "cost": "3"
+                },
+                {
+                  "name": "Centipede Legs",
+                  "cost": "8"
+                },
+                {
+                  "name": "Chitinous Scales",
+                  "cost": "8"
+                },
+                {
+                  "name": "Whipcrack Tail",
+                  "cost": "12"
+                },
+                {
+                  "name": "Red Haze",
+                  "cost": "21"
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "organisation": "5",
+      "organisation": "4",
       "units": [
         {
           "name": "Furies",
@@ -1834,9 +3001,10 @@
           "size": "Standard",
           "type": "Beast",
           "unitsize": "5",
+          "limitation": "3",
           "maxmodels": "10",
           "modelcost": "13",
-          "cost": "145",
+          "cost": "160",
           "rules": [
             {
               "specialrules": [
@@ -1844,7 +3012,7 @@
                   "specialrule": "Fearless"
                 },
                 {
-                  "specialrule": "Fly  (10\", 20\")"
+                  "specialrule": "Fly  (10, 20)"
                 },
                 {
                   "specialrule": "Supernal"
@@ -1880,9 +3048,31 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Red Haze",
+                  "cost": "1"
+                },
+                {
+                  "name": "Venom Sacs",
+                  "cost": "1"
+                },
+                {
+                  "name": "Dark Hide",
+                  "cost": "2"
+                },
+                {
+                  "name": "Kaleidoscope Flesh",
+                  "cost": "2"
+                },
+                {
+                  "name": "Mesmerising Plumage",
+                  "cost": "3"
+                }
+              ]
             }
           ]
         },
@@ -1891,6 +3081,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Beast",
+          "limitation": "3",
           "unitsize": "3",
           "maxmodels": "3",
           "modelcost": "55",
@@ -1914,19 +3105,10 @@
                   "specialrule": "Fearless"
                 },
                 {
-                  "specialrule": "Fly  (9\", 12\")"
+                  "specialrule": "Fly  (9, 12)"
                 }
               ],
               "equipments": [
-                {
-                  "equipment": "Tarskin - Dominant"
-                },
-                {
-                  "equipment": "Mesmerising Plumage - Dominant"
-                },
-                {
-                  "equipment": "Chilling Yawn - Dominant"
-                }
               ],
               "ADV": "2 (9)",
               "MAR": "4 (12)",
@@ -1985,6 +3167,7 @@
           "size": "Large",
           "type": "Beast",
           "unitsize": "3",
+          "limitation": "3",
           "maxmodels": "3",
           "modelcost": "100",
           "cost": "310",
@@ -2004,7 +3187,7 @@
                   "specialrule": "Fear"
                 },
                 {
-                  "specialrule": "Fly  (8\", 12\")"
+                  "specialrule": "Fly  (8, 12)"
                 },
                 {
                   "specialrule": "Light Troops"
@@ -2028,11 +3211,6 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -2047,6 +3225,33 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20"
+                }
+              ]
+            },
+            {
+              "name": "Manifestation",
+              "onechoice": true,
+              "type": "permodel",
+              "choices": [
+                {
+                  "name": "Dextrous Tentacles",
+                  "cost": "7"
+                },
+                {
+                  "name": "Unhinging Jaw",
+                  "cost": "7"
+                },
+                {
+                  "name": "Digestive Vomit",
+                  "cost": "10"
+                },
+                {
+                  "name": "Kaleidoscope Flesh",
+                  "cost": "11"
+                },
+                {
+                  "name": "Broodmother",
+                  "cost": "15"
                 }
               ]
             }
