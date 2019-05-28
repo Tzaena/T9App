@@ -117,8 +117,6 @@
       "id": "1",
       "name": "Elven Horse",
       "type": "2",
-      "category": "5",
-      "categoryallunit": true,
       "base": "2",
       "rules": [
         {
@@ -147,10 +145,8 @@
     },
     {
       "id": "2",
-      "name": "Forest Eagle",
-      "categoryallunit": true,
-      "type": "3",
-      "category": "5",
+      "name": "Eagle King",
+      "limitation": 2,
       "base": "8",
       "rules": [
         {
@@ -158,14 +154,14 @@
           "ADV": "2 (9)",
           "MAR": "4 (18)",
           "DEF": "C",
-          "OFF": "4",
+          "OFF": "5",
           "ARM": "C+1",
           "AP": "1",
-          "S": "4",
+          "S": "5",
           "T": "4",
           "W": "4",
           "I": "4",
-          "A": "2",
+          "A": "3",
           "Ld": "C",
           "specialrules": [
             {
@@ -173,6 +169,12 @@
             },
             {
               "specialrule": "Strider (Forest)"
+            },
+            {
+              "specialrule": "Light Troops"
+            },
+            {
+              "specialrule": "Hard Target (1)"
             }
           ],
           "equipments": [
@@ -183,8 +185,6 @@
     {
       "id": "3",
       "name": "Great Elk",
-      "category": "5",
-      "categoryallunit": true,
       "type": "3",
       "base": "3",
       "rules": [
@@ -215,8 +215,6 @@
     {
       "id": "4",
       "name": "Unicorn",
-      "category": "5",
-      "categoryallunit": true,
       "type": "5",
       "base": "2",
       "rules": [
@@ -257,7 +255,6 @@
       "id": "5",
       "name": "Dragon",
       "limitation": 1,
-      "category": "6",
       "type": "3",
       "base": "7",
       "rules": [
@@ -434,11 +431,11 @@
                   "cost": 50
                 },
                 {
-                  "mount": "2",
+                  "mount": "3",
                   "cost": 100
                 },
                 {
-                  "mount": "3",
+                  "mount": "2",
                   "cost": 130
                 },
                 {
@@ -606,11 +603,11 @@
                   "cost": 50
                 },
                 {
-                  "mount": "2",
+                  "mount": "3",
                   "cost": 90
                 },
                 {
-                  "mount": "3",
+                  "mount": "2",
                   "cost": 140
                 }
               ]
@@ -776,7 +773,6 @@
           "type": "1",
           "size": "3",
           "limitation": 1,
-          "category": "6",
           "base": "5",
           "rules": [
             {
@@ -975,7 +971,6 @@
           "type": "1",
           "size": "3",
           "limitation": 1,
-          "category": "6",
           "base": "5",
           "rules": [
             {
@@ -1512,7 +1507,6 @@
           "unitsize": 10,
           "modelcost": 24,
           "maxmodels": 20,
-          "category": "4",
           "type": "1",
           "size": "1",
           "base": "1",
@@ -2474,7 +2468,7 @@
                   "specialrule": "Aegis (4+)"
                 },
                 {
-                  "specialrule": "Wizard Conclave(Master of Earth - Druidism, Break the Spirit - Shamanism, Truth of Time - Cosmology, Mist Walker - Hereditary Spell)"
+                  "specialrule": "Wizard Conclave(Master of Earth - Druidism, Break the Spirit - Shamanism, Truth of Time - Cosmology, Forest Embrace - Hereditary Spell)"
                 }
               ],
               "equipments": [
@@ -2530,57 +2524,6 @@
                   "condition": [
                     {
                       "option": "16",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Spells (2 choices)",
-              "onechoice": false,
-              "mandatory": true,
-              "choices": [
-                {
-                  "name": "Truth of Time",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "15",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Master of Earth",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "15",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Break the Spirit",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "15",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Forest Embrace",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "15",
                       "global": false,
                       "exist": true
                     }
