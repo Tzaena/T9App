@@ -1,16 +1,15 @@
 {
-  "version": "204.2",
   "organisation": [
     {
       "id": "1",
-      "percent": 45,
+      "percent": 100,
       "type": "max",
       "name": "Characters"
     },
     {
       "id": "2",
-      "percent": 20,
-      "type": "min",
+      "percent": 100,
+      "type": "max",
       "name": "Core"
     },
     {
@@ -21,84 +20,83 @@
     },
     {
       "id": "4",
-      "percent": 35,
+      "percent": 100,
       "type": "max",
-      "name": "Legendarry Beasts"
+      "name": ""
     }
   ],
   "magicitems": {
+    "category1": [],
     "weapons": [
       {
+        "name": "Titanic Might",
+        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain +3 Strength and Magical Attacks.",
+        "cost": "130"
+      },
+      {
+        "name": "Blessed Inscriptions",
+        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain Divine Attacks and failed to-wound rolls must be rerolled.",
+        "cost": "130"
+      },
+      {
+        "name": "King Slayer",
+        "description": "Melee Weapon EnchantmentThe wielder of the enchanted weapon gains +X Strength, +X Armour Penetration, +X Attack Value and Magical Attacks when attacking with it, where X is equal to the number of enemy Characters in base contact with the wielder's unit. This bonus is calculated and effective at the Initiative Step when such attacks are made.",
+        "cost": "120"
+      },
+      {
+        "name": "Shield Breaker",
+        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain +6 Armour Penetration, Magical Attacks ,and can never wound on to-wound rolls better than 3+.",
+        "cost": "80"
+      },
+      {
+        "name": "Hero's Heart",
+        "description": "Hand Weapon and Paired Weapon EnchantmentThe wielder of this enchanted weapon gains +1 Attack Value when using it. Attacks made with this enchanted weapon gain Magical Attacks and always have at least Strength 5 and at least Armour Penetration 3.",
+        "cost": "120"
+      },
+      {
+        "name": "Touch of Greatness",
+        "description": "Melee Weapon EnchantmentAttacks made with this enchanted weapon gain +1 Strength, +1 Armour Penetration and Magical Attacks. Strength modifiers from this weapon (combining both mundane and Weapon Enchantment modifiers) cannot exceed +2 (but can exceed +2 through modifiers from other sources, such as spells).",
+        "cost": "100"
+      },
+      {
+        "name": "Supernatural Dexterity",
+        "description": "Melee Weapon EnchantmentThe wielder of this enchanted weapon gains +2 Offensive Skill and +2 Agility while using it, and attacks made with it gain Magical Attacks.",
+        "cost": "60"
+      },
+      {
+        "name": "Cleansing Light",
+        "description": "Melee Weapon EnchantmentAt the start of each Round of Combat, the wielder may choose to give attacks made with this enchanted weapon Flaming Attacks and Magical Attacks.",
+        "cost": "40"
+      },
+      {
         "name": "Burning Portent",
-        "description": "Hand Weapon enchantment. Attacks made with this weapon have their Armour Penetration set to 10 and gain Flaming Attacks, Magical Attacks, and Multiple Wounds (D3).",
-        "cost": "125"
+        "description": "Hand Weapon enchantment.Attacks made with this Weapon have their Armour Penetration set to 10 and gain Magical Attacks, Flaming Attacks and Multiple Wounds (D3).",
+        "cost": "240"
       },
       {
         "name": "Symbol of Slaughter",
-        "description": "Hand Weapon and Paired Weapons enchantment. When using this weapon, the wielder gains +2 Attack Value, +2 Agility, and suffers -2 Offensive Skill. Attacks made with this weapon gain Magical Attacks.",
-        "cost": "40"
+        "description": "Hand Weapon and Paired Weapons enchantment.When using this weapon, the wielder gains +2 Attack Value and +2 Agility and suffers -2 Offensive Skill and -2 Defensive Skill. Attacks made with this Weapon have gain Magical Attacks.",
+        "cost": "70"
       }
     ],
-    "armours": [
+    "armours": [],
+    "standards": [],
+    "artefacts": [],
+    "category2": [
       {
-        "name": "Thrice-Forged",
-        "description": "Standard Size models only. Suit of Armour enchantment. The wearer gains +3 Armour.",
-        "cost": "65"
+        "name": "Musician",
+        "cost": "20"
       },
       {
-        "name": "Gladiator’s Spirit",
-        "description": "Suit of Armour enchantment. The wearer gains +1 Armour and Parry.",
-        "cost": "35"
-      }],
-    "standards": [
-      {
-        "name": "Icon of the Infinite",
-        "description": "0-2 per Army. Cannot be taken by units that count towards Core. The bearer can cast Hellfire (Hereditary Spell) as a Bound Spell with Power Level (4/8).",
-        "cost": "50"
-      },
-      {
-        "name": "Zealots’ Banner",
-        "description": "0-3 per Army. The maximum number of Supporting Attacks that models in the second rank of the bearer’s unit can perform is increased by 1.",
-        "cost": "50"
-      },
-      {
-        "name": "Wasteland Torch",
-        "description": "The bearer’s unit gains Strider (Ruins). After determining Deployment Zones (at the end of step 6 of the Pre-Game Sequence), you may choose a single Field, or Forest Terrain Feature that becomes Ruins",
-        "cost": "25"
-      }],
-    "artefacts": [
-      {
-        "name": "Ledger of Souls ",
-        "description": "Dominant. Whenever a friendly model with Hell-Forged Armour or Irredeemable within 12″ of the bearer, or a model in the bearer’s unit is removed as a casualty, you gain one Veil Token for each Health Point the model (that was removed as a casualty) started the game with. In addition, at the end of Siphon the Veil, the army may keep up to 6 Veil Tokens (instead of the normal 3).",
-        "cost": "90"
-      },
-      {
-        "name": "Immortal Gauntlets",
-        "description": "At the start of any Round of Combat you may discard a Veil Token from your Veil Token pool. If so, choose either Divine Attacks, Flaming Attacks, or Magical Attacks. The bearer’s Close Combat Attacks gain the chosen Attack Attribute. The chosen effect lasts until the end of the phase.",
-        "cost": "45"
-      },
-      {
-        "name": "Orb of Foreboding",
-        "description": "At the start of the Deployment Phase, immediately before step 1 (Determine who deploys first), you may choose one of the opponent’s non-Character units. This unit loses Vanguard and Scout. The opponent must immediately deploy this unit. This is done outside the normal Deployment procedure and is ignored when determining the first deployed unit and the number of deployed units.",
-        "cost": "55"
-      },
-      {
-        "name": "Lord of the Damned",
-        "description": "Sorcerers and Doomlords only. Any unit with Irredeemable within 18″ of the bearer may reroll the distance it moves in the Movement Phase with Random Movement.",
-        "cost": "45"
-      },
-      {
-        "name": "Wyrd Stone ",
-        "description": "One use only. Must be activated when the bearer’s model is hit by an attack with at least Strength 5 or at least Armour Penetration 5. The bearer’s model gains Aegis (4+). If the bearer’s model is Standard or Large, this effect is lost at end of the Player Turn. If the bearer’s model is Gigantic, this effect is lost after rolling the Aegis Save once (if the bearer is hit by several simultaneous attacks, the owner chooses which attack to use the Aegis Save against).",
-        "cost": "35"
-      }]
+        "name": "Standard Bearer",
+        "cost": "20"
+      }
+    ]
   },
   "mounts": [
     {
       "id": "1",
       "name": "Chimera",
-      "limitation": 2,
-      "category": "4",
       "rules": [
         {
           "specialrules": [
@@ -110,6 +108,9 @@
             },
             {
               "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Light Troops"
             }
           ],
           "equipments": [],
@@ -134,8 +135,6 @@
     {
       "id": "2",
       "name": "Wasteland Behemoth",
-      "category": "4",
-      "limitation": 2,
       "rules": [
         {
           "specialrules": [
@@ -194,7 +193,6 @@
     {
       "id": "4",
       "name": "Dark Chariot",
-      "limitation": 3,
       "rules": [
         {
           "specialrules": [
@@ -224,7 +222,7 @@
           "W": "4",
           "DEF": "C",
           "T": "5",
-          "ARM": "C+2"
+          "ARM": "C+1"
         },
         {
           "name": "Horse (2)",
@@ -292,7 +290,7 @@
               "specialrule": "Light Troops"
             },
             {
-              "specialrule": "Venguard (6)"
+              "specialrule": "Hard Target"
             }
           ],
           "equipments": [],
@@ -324,13 +322,7 @@
               "specialrule": "Harnessed"
             },
             {
-              "specialrule": "Light Troops"
-            },
-            {
-              "specialrule": "Swistride"
-            },
-            {
-              "specialrule": "Hard Target (1)"
+              "specialrule": "Hard Target"
             },
             {
               "specialrule": "Grind Attacks  (D3+1)"
@@ -343,8 +335,8 @@
             }
           ],
           "equipments": [],
-          "ADV": "C, 6",
-          "MAR": "C, 18",
+          "ADV": "Ground C, Fly 6",
+          "MAR": "Ground C, March 18",
           "Ld": "C",
           "name": "Scythed Skywheel Offensive",
           "A": "-",
@@ -374,9 +366,6 @@
               "specialrule": "Tall"
             },
             {
-              "specialrule": "Throne of Eminence"
-            },
-            {
               "specialrule": "Cannot be Stomped"
             }
           ],
@@ -402,16 +391,11 @@
     {
       "id": "9",
       "name": "Wasteland Dragon",
-      "limitation": 1,
-      "category": "4",
       "rules": [
         {
           "specialrules": [
             {
               "specialrule": "Harnessed"
-            },
-            {
-              "specialrule": "Light Troops"
             },
             {
               "specialrule": "Breath Attack  (Str 4, AP1, Flaming Attacks)"
@@ -439,15 +423,9 @@
     {
       "id": "10",
       "name": "Battleshrine",
-      "limitation": 2,
-      "size": "Large",
-      "type": "Construct",
       "rules": [
         {
           "specialrules": [
-            {
-              "specialrule": "Beacon of the Dark Gods"
-            },
             {
               "specialrule": "Aegis  (5+)"
             },
@@ -455,61 +433,37 @@
               "specialrule": "Harnessed"
             },
             {
-              "specialrule": "Not a Leader"
-            },
-            {
-              "specialrule": "Towering Presence"
-            },
-            {
-              "specialrule": "War Platform"
-            },
-            {
               "specialrule": "Fear"
-            },
-            {
-              "specialrule": "Fearless"
             },
             {
               "specialrule": "Grind Attacks  (D6+1)"
             },
             {
-              "specialrule": "Channel (1)"
+              "specialrule": "Wizard Apprentice"
             },
             {
-              "specialrule": "Wizard Apprentice"
+              "specialrule": "War Platform"
+            },
+            {
+              "specialrule": "Channel  (1)"
+            },
+            {
+              "specialrule": "Battle Fever"
+            },
+            {
+              "specialrule": "Stand Behind"
+            },
+            {
+              "specialrule": "Towering Presence"
             }
           ],
           "equipments": [],
-          "ADV": "5",
-          "MAR": "10",
-          "Ld": "8",
-          "W": "5",
-          "DEF": "4",
-          "T": "4",
-          "ARM": "4",
-          "name": "Wretched One (2)",
+          "name": "Wretched One Offensive",
           "A": "0",
           "OFF": "1",
           "S": "4",
           "AP": "0",
           "I": "1"
-        },
-        {
-          "name": "Shrine Priest",
-          "ADV": "-",
-          "MAR": "-",
-          "W": "-",
-          "DEF": "-",
-          "T": "-",
-          "ARM": "-",
-          "Dis": "-",
-          "specialrules": [],
-          "equipments": [],
-          "A": "1",
-          "OFF": "4",
-          "S": "3",
-          "AP": "0",
-          "I": "3"
         }
       ]
     }
@@ -532,12 +486,6 @@
                 },
                 {
                   "specialrule": "Fear"
-                },
-                {
-                  "specialrule": "Fearless"
-                },
-                {
-                  "specialrule": "Stubborn"
                 },
                 {
                   "specialrule": "Wizard Adept"
@@ -571,21 +519,8 @@
               "onechoice": false,
               "choices": [
                 {
-                  "globalid": "102",
-                  "name": "general",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "101",
-                      "global": false,
-                      "exist": false
-                    },
-                    {
-                      "option": "102",
-                      "global": true,
-                      "exist": false
-                    }
-                  ]
+                  "name": "Army General",
+                  "cost": "0"
                 }
               ]
             }
@@ -596,7 +531,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "330",
+          "cost": "295",
           "rules": [
             {
               "specialrules": [
@@ -631,63 +566,14 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": [{
-                "globalid": "101",
-                "name": "BSB",
-                "cost": 50,
-                "condition": [
-                  {
-                    "option": "102",
-                    "global": false,
-                    "exist": false
-                  },
-                  {
-                    "option": "101",
-                    "global": true,
-                    "exist": false
-                  }
-                ]
-              },
+              "choices": [
                 {
-                  "globalid": "102",
-                  "name": "general",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "101",
-                      "global": false,
-                      "exist": false
-                    },
-                    {
-                      "option": "102",
-                      "global": true,
-                      "exist": false
-                    }
-                  ]
+                  "name": "Army General",
+                  "cost": "0"
                 },
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 150,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": false
-                    }
-                  ]
-                },
-                {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "name": "Special Equipment",
+                  "cost": "0"
                 },
                 {
                   "name": "Replace Shield with Spiked Shield",
@@ -702,15 +588,15 @@
               "choices": [
                 {
                   "name": "Daemonic Wings",
-                  "cost": "105"
+                  "cost": "90"
                 },
                 {
                   "name": "Luck of the Dark Gods",
-                  "cost": "65"
+                  "cost": "60"
                 },
                 {
-                  "name": "Master of Destruction",
-                  "cost": "45"
+                  "name": "Dark Prelate",
+                  "cost": "60"
                 },
                 {
                   "name": "Idol of Spite",
@@ -721,41 +607,6 @@
                   "cost": "60"
                 }
               ]
-            },
-            {
-              "name": "Favour of the Dark Gods",
-              "onechoice": true,
-              "mandatory": false,
-              "type": "permodel",
-              "choices": [
-                {
-                  "name": "Envy",
-                  "cost": "25"
-                },
-                {
-                  "name": "Gluttony",
-                  "cost": "35"
-                },
-                {
-                  "name": "Greed",
-                  "cost": "40"
-                },
-                {
-                  "name": "Lust",
-                  "cost": "0"
-                },
-                {
-                  "name": "Pride",
-                  "cost": "25"
-                },
-                {
-                  "name": "Sloth",
-                  "cost": "60"
-                },
-                {
-                  "name": "Wrath",
-                  "cost": "10"
-                }]
             },
             {
               "name": "Melee Weapon",
@@ -779,44 +630,6 @@
                   "cost": "20"
                 }
               ]
-            },
-            {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "mount": 8,
-                  "cost": "125"
-                },
-                {
-                  "mount": 5,
-                  "cost": "105"
-                },
-                {
-                  "mount": 4,
-                  "cost": "135"
-                },
-                {
-                  "mount": 3,
-                  "cost": "120"
-                },
-                {
-                  "mount": 7,
-                  "cost": "130"
-                },
-                {
-                  "mount": 1,
-                  "cost": "185"
-                },
-                {
-                  "mount": 9,
-                  "cost": "430"
-                },
-                {
-                  "mount": 9,
-                  "cost": "540"
-                }]
             }
           ]
         },
@@ -830,6 +643,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Master of Destruction"
+                },
+                {
                   "specialrule": "Path of the Exiled"
                 }
               ],
@@ -841,9 +657,9 @@
                   "equipment": "Shield"
                 }
               ],
-              "ADV": "6",
-              "MAR": "12",
-              "Ld": "8",
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "9",
               "W": "4",
               "DEF": "6",
               "T": "5",
@@ -853,7 +669,7 @@
               "OFF": "7",
               "S": "5",
               "AP": "2",
-              "I": "5"
+              "I": "4"
             }
           ],
           "options": [
@@ -862,90 +678,14 @@
               "onechoice": false,
               "choices": [
                 {
-                  "globalid": "101",
-                  "name": "BSB",
-                  "cost": 50,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": false
-                    },
-                    {
-                      "option": "101",
-                      "global": true,
-                      "exist": false
-                    }
-                  ]
-                },
-                {
-                  "globalid": "102",
-                  "name": "general",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "101",
-                      "global": false,
-                      "exist": false
-                    },
-                    {
-                      "option": "102",
-                      "global": true,
-                      "exist": false
-                    }
-                  ]
-                },
-                {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 150,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": false
-                    }
-                  ]
-                },
-                {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Additional Limbs",
-                  "cost": 50,
-                  "condition": [
-                    {
-                      "option": "131",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "name": "Special Equipment",
+                  "cost": "0"
                 },
                 {
                   "name": "Replace Shield with Spiked Shield",
-                  "cost": "20"
+                  "cost": "25"
                 }
               ]
-            },
-            {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "mount": 2,
-                  "cost": "260",
-                  "globalid":"131"
-                }]
             },
             {
               "name": "Melee Weapon",
@@ -958,11 +698,11 @@
                 },
                 {
                   "name": "Great Weapon",
-                  "cost": "25"
+                  "cost": "40"
                 },
                 {
                   "name": "Halberd",
-                  "cost": "15"
+                  "cost": "30"
                 }
               ]
             }
@@ -971,14 +711,14 @@
         {
           "name": "Sorcerer",
           "Base": "1",
-          "size": "Standard",
-          "type": "Infantry",
+          "size": "Large",
+          "type": "Construct",
           "cost": "145",
           "rules": [
             {
               "specialrules": [
                 {
-                  "specialrule": "Fearless"
+                  "specialrule": "Battle Fever"
                 }
               ],
               "equipments": [
@@ -986,13 +726,13 @@
                   "equipment": "Light Armour"
                 }
               ],
-              "ADV": "4",
-              "MAR": "8",
-              "Ld": "8",
-              "W": "3",
-              "DEF": "4",
-              "T": "4",
-              "ARM": "0",
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "C",
+              "W": "5",
+              "DEF": "C",
+              "T": "5",
+              "ARM": "C+1",
               "name": "Sorcerer Offensive",
               "A": "2",
               "OFF": "4",
@@ -1007,45 +747,12 @@
               "onechoice": false,
               "choices": [
                 {
-                  "globalid": "102",
-                  "name": "general",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "101",
-                      "global": false,
-                      "exist": false
-                    },
-                    {
-                      "option": "102",
-                      "global": true,
-                      "exist": false
-                    }
-                  ]
+                  "name": "Army General",
+                  "cost": "0"
                 },
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 150,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": false
-                    }
-                  ]
-                },
-                {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "name": "Special Equipment",
+                  "cost": "0"
                 },
                 {
                   "name": "Plate Armour",
@@ -1056,19 +763,8 @@
                   "cost": "5"
                 },
                 {
-                  "name": "Additional Limbs",
-                  "cost": 50,
-                  "condition": [
-                    {
-                      "option": "131",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
                   "name": "Veil Walker",
-                  "cost": "125"
+                  "cost": "100"
                 }
               ]
             },
@@ -1109,37 +805,6 @@
                   "cost": "0"
                 }
               ]
-            },
-            {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "mount": 3,
-                  "cost": "50"
-                },
-                {
-                  "mount": 4,
-                  "cost": "65"
-                },
-                {
-                  "mount": 7,
-                  "cost": "80"
-                },
-                {
-                  "mount": 10,
-                  "cost": "310"
-                },
-                {
-                  "mount": 2,
-                  "cost": "405",
-                  "globalid": "131"
-                },
-                {
-                  "mount": 9,
-                  "cost": "425"
-                }]
             }
           ]
         },
@@ -1148,7 +813,7 @@
           "Base": "1",
           "size": "Standard",
           "type": "Infantry",
-          "cost": "135",
+          "cost": "115",
           "rules": [
             {
               "specialrules": [
@@ -1169,7 +834,7 @@
               ],
               "ADV": "4",
               "MAR": "8",
-              "Ld": "8",
+              "Ld": "9",
               "W": "3",
               "DEF": "5",
               "T": "4",
@@ -1186,74 +851,14 @@
             {
               "name": "Options",
               "onechoice": false,
-              "choices": [{
-                "globalid": "101",
-                "name": "BSB",
-                "cost": 50,
-                "condition": [
-                  {
-                    "option": "102",
-                    "global": false,
-                    "exist": false
-                  },
-                  {
-                    "option": "101",
-                    "global": true,
-                    "exist": false
-                  }
-                ]
-              },
+              "choices": [
                 {
-                  "globalid": "102",
-                  "name": "general",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "101",
-                      "global": false,
-                      "exist": false
-                    },
-                    {
-                      "option": "102",
-                      "global": true,
-                      "exist": false
-                    }
-                  ]
+                  "name": "Army General",
+                  "cost": "0"
                 },
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 100,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": false
-                    }
-                  ]
-                },
-                {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 150,
-                  "condition": [
-                    {
-                      "option": "102",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Additional Limbs",
-                  "cost": 50,
-                  "condition": [
-                    {
-                      "option": "131",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "name": "Special Equipment",
+                  "cost": "0"
                 },
                 {
                   "name": "Shield",
@@ -1264,37 +869,6 @@
                   "cost": "5"
                 }
               ]
-            },
-            {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "mount": 6,
-                  "cost": "75"
-                },
-                {
-                  "mount": 8,
-                  "cost": "125"
-                },
-                {
-                  "mount": 3,
-                  "cost": "85"
-                },
-                {
-                  "mount": 4,
-                  "cost": "115"
-                },
-                {
-                  "mount": 1,
-                  "cost": "175"
-                },
-                {
-                  "mount": 2,
-                  "cost": "400",
-                  "globalid": "131"
-                }]
             },
             {
               "name": "Melee Weapon",
@@ -1326,8 +900,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Beast",
-          "category": "4",
-          "cost": "720",
+          "cost": "685",
           "rules": [
             {
               "specialrules": [
@@ -1338,13 +911,13 @@
                   "specialrule": "Dying Embers"
                 },
                 {
-                  "specialrule": "Unburnt"
-                },
-                {
                   "specialrule": "Hatred  (against Fly)"
                 },
                 {
                   "specialrule": "Breath Attack  (Str 4 , AP 1, Flaming Attacks, Dying Embers)"
+                },
+                {
+                  "specialrule": "Unburnt"
                 }
               ],
               "equipments": [
@@ -1373,21 +946,8 @@
               "onechoice": false,
               "choices": [
                 {
-                  "globalid": "102",
-                  "name": "general",
-                  "cost": 0,
-                  "condition": [
-                    {
-                      "option": "101",
-                      "global": false,
-                      "exist": false
-                    },
-                    {
-                      "option": "102",
-                      "global": true,
-                      "exist": false
-                    }
-                  ]
+                  "name": "Army General",
+                  "cost": "0"
                 }
               ]
             },
@@ -1398,15 +958,15 @@
               "choices": [
                 {
                   "name": "Paired Weapons",
-                  "cost": "65"
+                  "cost": "90"
                 },
                 {
                   "name": "Great Weapon",
-                  "cost": "35"
+                  "cost": "30"
                 },
                 {
                   "name": "Halberd",
-                  "cost": "55"
+                  "cost": "50"
                 }
               ]
             }
@@ -1423,9 +983,9 @@
           "size": "Standard",
           "type": "Infantry",
           "unitsize": "10",
-          "maxmodels": "20",
-          "modelcost": "22",
-          "cost": "250",
+          "maxmodels": "15",
+          "modelcost": "24",
+          "cost": "210",
           "rules": [
             {
               "specialrules": [
@@ -1465,29 +1025,12 @@
               "onechoice": false,
               "choices": [
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "31",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "name": "Banner Enchantment",
+                  "cost": "0"
                 },
                 {
                   "name": "Favoured Champion",
-                  "cost": "25",
-                  "globalid": "33",
-                  "maxmodels": 20,
-                  "condition": [
-                    {
-                      "option": "32",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "cost": "30"
                 }
               ]
             },
@@ -1502,7 +1045,7 @@
                 },
                 {
                   "name": "Great Weapon",
-                  "cost": "4"
+                  "cost": "5"
                 },
                 {
                   "name": "Halberd",
@@ -1512,97 +1055,12 @@
               "type": "permodel"
             },
             {
-              "name": "Favour of the Dark Gods",
-              "onechoice": true,
-              "mandatory": false,
-              "type": "permodel",
-              "choices": [
-                {
-                  "name": "Envy",
-                  "cost": "5",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Gluttony",
-                  "cost": "4",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Greed",
-                  "cost": "8",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Lust",
-                  "cost": "4",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Pride",
-                  "cost": "2",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Sloth",
-                  "cost": "9",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Wrath",
-                  "cost": "8",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                }]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20",
-                  "globalid": "32"
+                  "cost": "20"
                 },
                 {
                   "name": "Musician",
@@ -1610,8 +1068,7 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20",
-                  "globalid": "31"
+                  "cost": "20"
                 }
               ]
             }
@@ -1623,9 +1080,9 @@
           "size": "Standard",
           "type": "Infantry",
           "unitsize": "5",
-          "maxmodels": "5",
-          "modelcost": "23",
-          "cost": "160",
+          "maxmodels": "10",
+          "modelcost": "18",
+          "cost": "150",
           "rules": [
             {
               "specialrules": [
@@ -1660,6 +1117,11 @@
             }
           ],
           "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            }
           ]
         },
         {
@@ -1669,7 +1131,7 @@
           "type": "Infantry",
           "unitsize": "15",
           "maxmodels": "25",
-          "modelcost": "9",
+          "modelcost": "7",
           "cost": "135",
           "rules": [
             {
@@ -1688,7 +1150,7 @@
               ],
               "ADV": "4",
               "MAR": "8",
-              "Ld": "8",
+              "Ld": "7",
               "W": "1",
               "DEF": "4",
               "T": "3",
@@ -1707,51 +1169,23 @@
               "onechoice": false,
               "choices": [
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "31",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "name": "Banner Enchantment",
+                  "cost": "0"
                 }
               ]
             },
             {
-              "name": "Weapons",
-              "onechoice": false,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Shield",
-                  "cost": "1"
-                },
-                {
-                  "name": "Throwing Weapons (5+)",
-                  "cost": "3"
-                }
-              ],
-              "type": "permodel"
-            },
-            {
-              "name": "Weapons",
+              "name": "Equipment",
               "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Paired Weapons",
+                  "name": "Throwing Weapons (5+)",
+                  "cost": "2"
+                },
+                {
+                  "name": "Shield",
                   "cost": "1"
-                },
-                {
-                  "name": "Spear and Shield",
-                  "cost": "3"
-                },
-                {
-                  "name": "Great Weapon",
-                  "cost": "4"
                 }
               ],
               "type": "permodel"
@@ -1770,10 +1204,173 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20",
-                  "globalid": "31"
+                  "cost": "20"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "Barbarian Horsemen (Core)",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Cavalry",
+          "cost": "45",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Scoring"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Battle Fever"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Heavy Armour"
+                }
+              ],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "8",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "1",
+              "name": "Barbarian Horseman Offensive",
+              "A": "1",
+              "OFF": "4",
+              "S": "4",
+              "AP": "1",
+              "I": "3"
+            },
+            {
+              "name": "Black Steed Offensive",
+              "ADV": "-",
+              "MAR": "-",
+              "W": "-",
+              "DEF": "-",
+              "T": "-",
+              "ARM": "-",
+              "Dis": "-",
+              "specialrules": [],
+              "equipments": [],
+              "A": "1",
+              "OFF": "3",
+              "S": "4",
+              "AP": "0",
+              "I": "3"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Barbarian Horseman",
+                  "cost": "18"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Shield",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Great Weapon",
+                  "cost": "1"
+                },
+                {
+                  "name": "Paired Weapons"
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": "2"
+                }
+              ],
+              "type": "permodel"
+            },
+            {
+              "name": "Command",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Champion",
+                  "cost": "20"
+                },
+                {
+                  "name": "Musician",
+                  "cost": "20"
+                },
+                {
+                  "name": "Standard Bearer",
+                  "cost": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Warhounds (Core)",
+          "Base": "1",
+          "size": "Standard",
+          "type": "Beast",
+          "unitsize": "8",
+          "maxmodels": "7",
+          "modelcost": "10",
+          "cost": "120",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Release the Hounds"
+                },
+                {
+                  "specialrule": "Insignificant"
+                }
+              ],
+              "equipments": [],
+              "ADV": "8",
+              "MAR": "16",
+              "Ld": "5",
+              "W": "1",
+              "DEF": "4",
+              "T": "3",
+              "ARM": "0",
+              "name": "Warhounds Offensive",
+              "A": "1",
+              "OFF": "3",
+              "S": "3",
+              "AP": "0",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
             }
           ]
         }
@@ -1789,8 +1386,8 @@
           "type": "Cavalry",
           "unitsize": "5",
           "maxmodels": "5",
-          "modelcost": "46",
-          "cost": "255",
+          "modelcost": "44",
+          "cost": "250",
           "rules": [
             {
               "specialrules": [
@@ -1809,7 +1406,7 @@
                   "equipment": "Hell-Forged Armour"
                 },
                 {
-                  "equipment": "Shield"
+                  "equipment": "Spiked Shield"
                 }
               ],
               "ADV": "8",
@@ -1819,7 +1416,7 @@
               "DEF": "5",
               "T": "4",
               "ARM": "2",
-              "name": "Warrior Knights Offensive",
+              "name": "Warrior Rider Offensive",
               "A": "2",
               "OFF": "5",
               "S": "4",
@@ -1850,28 +1447,12 @@
               "onechoice": false,
               "choices": [
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "31",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "name": "Banner Enchantment",
+                  "cost": "0"
                 },
                 {
                   "name": "Favoured Champion",
-                  "cost": "40",
-                  "globalid": "33",
-                  "condition": [
-                    {
-                      "option": "32",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "cost": "35"
                 }
               ]
             },
@@ -1886,94 +1467,10 @@
                 },
                 {
                   "name": "Lance",
-                  "cost": "10"
+                  "cost": "8"
                 }
               ],
               "type": "permodel"
-            },
-            {
-              "name": "Favour of the Dark Gods",
-              "onechoice": true,
-              "mandatory": false,
-              "type": "permodel",
-              "choices": [
-                {
-                  "name": "Envy",
-                  "cost": "8",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Gluttony",
-                  "cost": "7",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Greed",
-                  "cost": "6",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Lust",
-                  "cost": "10",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Pride",
-                  "cost": "3",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Sloth",
-                  "cost": "10",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
-                  "name": "Wrath",
-                  "cost": "8",
-                  "condition": [
-                    {
-                      "option": "33",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                }]
             },
             {
               "name": "Command",
@@ -1981,8 +1478,7 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20",
-                  "globalid": "32"
+                  "cost": "20"
                 },
                 {
                   "name": "Musician",
@@ -1990,8 +1486,7 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20",
-                  "globalid": "31"
+                  "cost": "20"
                 }
               ]
             }
@@ -2001,9 +1496,8 @@
           "name": "Warrior Chariot",
           "Base": "1",
           "size": "Large",
-          "limitation": 4,
           "type": "Construct",
-          "cost": "220",
+          "cost": "225",
           "rules": [
             {
               "specialrules": [
@@ -2080,8 +1574,7 @@
               "I": "4"
             }
           ],
-          "options": [
-          ]
+          "options": []
         },
         {
           "name": "Chosen",
@@ -2090,9 +1583,8 @@
           "type": "Infantry",
           "unitsize": "5",
           "maxmodels": "5",
-          "limitation": 4,
-          "modelcost": "64",
-          "cost": "270",
+          "modelcost": "60",
+          "cost": "265",
           "rules": [
             {
               "specialrules": [
@@ -2135,16 +1627,12 @@
               "onechoice": false,
               "choices": [
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "31",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Favoured Champion",
+                  "cost": "30"
                 }
               ]
             },
@@ -2169,41 +1657,6 @@
               "type": "permodel"
             },
             {
-              "name": "Favour of the Dark Gods",
-              "onechoice": true,
-              "mandatory": true,
-              "type": "permodel",
-              "choices": [
-                {
-                  "name": "Envy",
-                  "cost": "7"
-                },
-                {
-                  "name": "Gluttony",
-                  "cost": "5"
-                },
-                {
-                  "name": "Greed",
-                  "cost": "9"
-                },
-                {
-                  "name": "Lust",
-                  "cost": "1"
-                },
-                {
-                  "name": "Pride",
-                  "cost": "0"
-                },
-                {
-                  "name": "Sloth",
-                  "cost": "11"
-                },
-                {
-                  "name": "Wrath",
-                  "cost": "14"
-                }]
-            },
-            {
               "name": "Command",
               "onechoice": false,
               "choices": [
@@ -2217,8 +1670,7 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20",
-                  "globalid": "31"
+                  "cost": "20"
                 }
               ]
             }
@@ -2230,10 +1682,9 @@
           "size": "Large",
           "type": "Cavalry",
           "unitsize": "3",
-          "maxmodels": "2",
-          "modelcost": "425",
-          "maxarmymodels": 12,
-          "cost": "430",
+          "maxmodels": "9",
+          "modelcost": "125",
+          "cost": "435",
           "rules": [
             {
               "specialrules": [
@@ -2265,7 +1716,7 @@
               "DEF": "6",
               "T": "4",
               "ARM": "2",
-              "name": "Chosen Knights Offensive",
+              "name": "Chosen Rider Offensive",
               "A": "3",
               "OFF": "6",
               "S": "4",
@@ -2296,53 +1747,14 @@
               "onechoice": false,
               "choices": [
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "31",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Favour of the Dark Gods",
-              "onechoice": true,
-              "mandatory": true,
-              "type": "permodel",
-              "choices": [
-                {
-                  "name": "Envy",
-                  "cost": "9"
-                },
-                {
-                  "name": "Gluttony",
-                  "cost": "4"
-                },
-                {
-                  "name": "Greed",
-                  "cost": "5"
-                },
-                {
-                  "name": "Lust",
-                  "cost": "8"
-                },
-                {
-                  "name": "Pride",
+                  "name": "Banner Enchantment",
                   "cost": "0"
                 },
                 {
-                  "name": "Sloth",
-                  "cost": "20"
-                },
-                {
-                  "name": "Wrath",
-                  "cost": "3"
-                }]
+                  "name": "Favoured Champion",
+                  "cost": "25"
+                }
+              ]
             },
             {
               "name": "Command",
@@ -2358,8 +1770,7 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20",
-                  "globalid": "31"
+                  "cost": "20"
                 }
               ]
             }
@@ -2370,8 +1781,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Construct",
-          "cost": "340",
-          "limitation": 2,
+          "cost": "345",
           "rules": [
             {
               "specialrules": [
@@ -2451,43 +1861,7 @@
               "I": "5"
             }
           ],
-          "options": [
-            {
-              "name": "Favour of the Dark Gods",
-              "onechoice": true,
-              "mandatory": true,
-              "type": "permodel",
-              "choices": [
-                {
-                  "name": "Envy",
-                  "cost": "15"
-                },
-                {
-                  "name": "Gluttony",
-                  "cost": "25"
-                },
-                {
-                  "name": "Greed",
-                  "cost": "10"
-                },
-                {
-                  "name": "Lust",
-                  "cost": "15"
-                },
-                {
-                  "name": "Pride",
-                  "cost": "10"
-                },
-                {
-                  "name": "Sloth",
-                  "cost": "60"
-                },
-                {
-                  "name": "Wrath",
-                  "cost": "0"
-                }]
-            }
-          ]
+          "options": []
         },
         {
           "name": "Forsworn",
@@ -2495,9 +1869,9 @@
           "size": "Large",
           "type": "Infantry",
           "unitsize": "3",
-          "maxmodels": "7",
+          "maxmodels": "6",
           "modelcost": "60",
-          "cost": "180",
+          "cost": "190",
           "rules": [
             {
               "specialrules": [
@@ -2508,7 +1882,7 @@
                   "specialrule": "Scoring"
                 },
                 {
-                  "specialrule": "Bodyguard (Doomlord)"
+                  "specialrule": "Bodyguard  (Doomlord)"
                 }
               ],
               "equipments": [
@@ -2516,16 +1890,16 @@
                   "equipment": "Hell-Forged Armour"
                 }
               ],
-              "ADV": "6",
-              "MAR": "12",
+              "ADV": "5",
+              "MAR": "10",
               "Ld": "8",
-              "W": "3",
-              "DEF": "4",
-              "T": "4",
+              "W": "2",
+              "DEF": "3",
+              "T": "5",
               "ARM": "1",
               "name": "Forsworn Offensive",
               "A": "3",
-              "OFF": "5",
+              "OFF": "4",
               "S": "4",
               "AP": "1",
               "I": "3"
@@ -2537,32 +1911,22 @@
               "onechoice": false,
               "choices": [
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200,
-                  "condition": [
-                    {
-                      "option": "31",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "name": "Banner Enchantment",
+                  "cost": "0"
                 }
               ]
             },
             {
-              "name": "Options",
+              "name": "Spiked Shield",
               "onechoice": false,
               "choices": [
                 {
                   "name": "Spiked Shield",
-                  "cost": "12"
+                  "cost": "13"
                 },
                 {
                   "name": "Damnation",
-                  "cost": "25",
-                  "limitation": 2,
-                  "maxmodels": 6
+                  "cost": "10"
                 }
               ],
               "type": "permodel"
@@ -2578,7 +1942,7 @@
                 },
                 {
                   "name": "Paired Weapons",
-                  "cost": "3"
+                  "cost": "1"
                 },
                 {
                   "name": "Halberd",
@@ -2601,23 +1965,21 @@
                 },
                 {
                   "name": "Standard Bearer",
-                  "cost": "20",
-                  "globalid": "31"
+                  "cost": "20"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Wretched Ones",
+          "name": "Wretched One",
           "Base": "1",
           "size": "Large",
           "type": "Infantry",
           "unitsize": "1",
           "maxmodels": "5",
-          "limitation": 2,
-          "modelcost": "91",
-          "cost": "115",
+          "modelcost": "92",
+          "cost": "95",
           "rules": [
             {
               "specialrules": [
@@ -2628,7 +1990,7 @@
                   "specialrule": "Irredeemable"
                 },
                 {
-                  "specialrule": "Regeneration  (5+)"
+                  "specialrule": "Fortitude  (5+)"
                 },
                 {
                   "specialrule": "Grind Attacks  (D6+1)"
@@ -2647,7 +2009,7 @@
               "W": "3",
               "DEF": "2",
               "T": "4",
-              "ARM": "-",
+              "ARM": "0",
               "name": "Wretched One Offensive",
               "A": "0",
               "OFF": "2",
@@ -2657,100 +2019,10 @@
             }
           ],
           "options": [
-          ]
-        },
-        {
-          "name": "Battleshrine",
-          "Base": "1",
-          "limitation": 2,
-          "size": "Large",
-          "type": "Construct",
-          "cost": "340",
-          "rules": [
-            {
-              "specialrules": [
-                {
-                  "specialrule": "Beacon of the Dark Gods"
-                },
-                {
-                  "specialrule": "Aegis  (5+)"
-                },
-                {
-                  "specialrule": "Harnessed"
-                },
-                {
-                  "specialrule": "Not a Leader"
-                },
-                {
-                  "specialrule": "Towering Presence"
-                },
-                {
-                  "specialrule": "War Platform"
-                },
-                {
-                  "specialrule": "Fear"
-                },
-                {
-                  "specialrule": "Fearless"
-                },
-                {
-                  "specialrule": "Grind Attacks  (D6+1)"
-                },
-                {
-                  "specialrule": "Channel (1)"
-                },
-                {
-                  "specialrule": "Wizard Apprentice"
-                }
-              ],
-              "equipments": [],
-              "ADV": "5",
-              "MAR": "10",
-              "Ld": "8",
-              "W": "5",
-              "DEF": "4",
-              "T": "4",
-              "ARM": "4",
-              "name": "Wretched One (2)",
-              "A": "0",
-              "OFF": "1",
-              "S": "4",
-              "AP": "0",
-              "I": "1"
-            },
-            {
-              "name": "Shrine Priest",
-              "ADV": "-",
-              "MAR": "-",
-              "W": "-",
-              "DEF": "-",
-              "T": "-",
-              "ARM": "-",
-              "Dis": "-",
-              "specialrules": [],
-              "equipments": [],
-              "A": "1",
-              "OFF": "4",
-              "S": "3",
-              "AP": "0",
-              "I": "3"
-            }
-          ],
-          "options": [
             {
               "name": "Options",
-              "onechoice": true,
-              "choices": [
-                {
-                  "name": "Ledger of Souls",
-                  "cost": "90"
-                },
-                {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200
-                }
-              ]
+              "onechoice": false,
+              "choices": []
             }
           ]
         },
@@ -2760,10 +2032,9 @@
           "size": "Standard",
           "type": "Cavalry",
           "unitsize": "5",
-          "maxmodels": "10",
-          "limitation": 4,
-          "modelcost": "25",
-          "cost": "130",
+          "maxmodels": "2",
+          "modelcost": "18",
+          "cost": "135",
           "rules": [
             {
               "specialrules": [
@@ -2820,9 +2091,8 @@
               "onechoice": false,
               "choices": [
                 {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200
+                  "name": "Banner Enchantment",
+                  "cost": "0"
                 }
               ]
             },
@@ -2873,17 +2143,6 @@
                   "cost": "20"
                 }
               ]
-            },
-            {
-              "name": "Category",
-              "onechoice": false,
-              "choices": [
-                {
-                  "name": "Core (8+ models)",
-                  "category": "2",
-                  "cost": "0"
-                }
-              ]
             }
           ]
         },
@@ -2894,9 +2153,8 @@
           "type": "Cavalry",
           "unitsize": "5",
           "maxmodels": "5",
-          "limitation": 4,
-          "modelcost": "24",
-          "cost": "150",
+          "modelcost": "19",
+          "cost": "145",
           "rules": [
             {
               "specialrules": [
@@ -2916,10 +2174,14 @@
                   "specialrule": "Feigned Flight"
                 },
                 {
-                  "specialrule": "Vanguard (6)"
+                  "specialrule": "Hard Target  (1)"
                 }
               ],
-              "equipments": [],
+              "equipments": [
+                {
+                  "equipment": "Light Armour"
+                }
+              ],
               "ADV": "10",
               "MAR": "50",
               "Ld": "8",
@@ -2954,18 +2216,27 @@
           ],
           "options": [
             {
+              "name": "Options",
+              "onechoice": false,
+              "choices": []
+            },
+            {
               "name": "Shield",
               "onechoice": false,
               "choices": [
                 {
                   "name": "Shield",
                   "cost": "2"
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": "2"
                 }
               ],
               "type": "permodel"
             },
             {
-              "name": "Weapon",
+              "name": "Ranged Weapon",
               "onechoice": true,
               "mandatory": false,
               "choices": [
@@ -2975,8 +2246,7 @@
                 },
                 {
                   "name": "Skinning Lash",
-                  "cost": "6",
-                  "maxarmymodels": 15
+                  "cost": "5"
                 },
                 {
                   "name": "Throwing Weapons (5+)",
@@ -3008,10 +2278,9 @@
           "size": "Standard",
           "type": "Beast",
           "unitsize": "5",
-          "maxmodels": "10",
-          "limitation": 4,
+          "maxmodels": "2",
           "modelcost": "10",
-          "cost": "100",
+          "cost": "90",
           "rules": [
             {
               "specialrules": [
@@ -3040,16 +2309,9 @@
           ],
           "options": [
             {
-              "name": "Category",
+              "name": "Options",
               "onechoice": false,
-              "choices": [
-                {
-                  "name": "Core (8+ models)",
-                  "category": "2",
-                  "cost": "0"
-                }
-              ],
-              "type": "permodel"
+              "choices": []
             }
           ]
         },
@@ -3058,10 +2320,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Beast",
-          "unitsize": "3",
-          "maxmodels": "3",
-          "modelcost": "115",
-          "cost": "360",
+          "cost": "25",
           "rules": [
             {
               "specialrules": [
@@ -3072,10 +2331,10 @@
                   "specialrule": "Scoring"
                 },
                 {
-                  "specialrule": "Unburnt"
+                  "specialrule": "Fear"
                 },
                 {
-                  "specialrule": "Fear"
+                  "specialrule": "Unburnt"
                 }
               ],
               "equipments": [
@@ -3085,7 +2344,7 @@
               ],
               "ADV": "8",
               "MAR": "16",
-              "Ld": "8",
+              "Ld": "9",
               "W": "4",
               "DEF": "4",
               "T": "5",
@@ -3099,6 +2358,20 @@
             }
           ],
           "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Feldrak",
+                  "cost": "105"
+                },
+                {
+                  "name": "Banner Enchantment",
+                  "cost": "0"
+                }
+              ]
+            },
             {
               "name": "Melee Weapon",
               "onechoice": true,
@@ -3134,11 +2407,6 @@
                 {
                   "name": "Standard Bearer",
                   "cost": "20"
-                },
-                {
-                  "type": "magicitems",
-                  "name": "Magic items",
-                  "cost": 200
                 }
               ]
             }
@@ -3148,9 +2416,8 @@
           "name": "Chimera",
           "Base": "1",
           "size": "Large",
-          "limitation": 3,
           "type": "Beast",
-          "cost": "265",
+          "cost": "200",
           "rules": [
             {
               "specialrules": [
@@ -3180,17 +2447,84 @@
               "I": "4"
             }
           ],
+          "options": []
+        },
+        {
+          "name": "Chimera (Wings)",
+          "Base": "1",
+          "size": "Large",
+          "type": "Beast",
+          "cost": "245",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Fear"
+                },
+                {
+                  "specialrule": "Harnessed"
+                },
+                {
+                  "specialrule": "Towering Presence"
+                }
+              ],
+              "equipments": [],
+              "ADV": "Ground 8, Fly 8",
+              "MAR": "Ground 16, Fly 16",
+              "Ld": "8",
+              "W": "4",
+              "DEF": "3",
+              "T": "5",
+              "ARM": "3",
+              "name": "Chimera Offensive",
+              "A": "5",
+              "OFF": "4",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": []
+        },
+        {
+          "name": "Battleshrine",
+          "Base": "1",
+          "size": "Large",
+          "type": "Construct",
+          "cost": "0",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Not a Leader"
+                }
+              ],
+              "equipments": [],
+              "name": "Shrine Priest Offensive",
+              "A": "1",
+              "OFF": "4",
+              "S": "3",
+              "AP": "0",
+              "I": "3",
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "8",
+              "W": "5",
+              "DEF": "4",
+              "T": "5",
+              "ARM": "4"
+            }
+          ],
           "options": [
             {
               "name": "Options",
               "onechoice": false,
               "choices": [
                 {
-                  "name": "Wings",
-                  "cost": "55",
-                  "maxmodels": 2,
-                  "category": "4"
-                }]
+                  "name": "Special Equipment",
+                  "cost": "0"
+                }
+              ]
             }
           ]
         }
@@ -3204,8 +2538,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Beast",
-          "limitation": 2,
-          "cost": "385",
+          "cost": "400",
           "rules": [
             {
               "specialrules": [
@@ -3241,21 +2574,14 @@
               "I": "1"
             }
           ],
-          "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
-          ]
+          "options": []
         },
         {
           "name": "Marauding Giant",
           "Base": "1",
           "size": "Gigantic",
           "type": "Infantry",
-          "limitation": 3,
-          "cost": "270",
+          "cost": "260",
           "rules": [
             {
               "specialrules": [
@@ -3287,8 +2613,8 @@
           ],
           "options": [
             {
-              "name": "Big Brother",
-              "onechoice": true,
+              "name": "Options",
+              "onechoice": false,
               "choices": [
                 {
                   "name": "Big Brother",
@@ -3307,11 +2633,11 @@
                 },
                 {
                   "name": "Monstrous Familiar",
-                  "cost": "55"
+                  "cost": "50"
                 },
                 {
                   "name": "Tribal Warspear",
-                  "cost": "65"
+                  "cost": "40"
                 }
               ]
             }
@@ -3322,16 +2648,12 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Beast",
-          "limitation": 2,
-          "cost": "480",
+          "cost": "430",
           "rules": [
             {
               "specialrules": [
                 {
                   "specialrule": "Hatred  (against Fly)"
-                },
-                {
-                  "specialrule": "Unburnt"
                 }
               ],
               "equipments": [
@@ -3381,8 +2703,7 @@
           "Base": "1",
           "size": "Gigantic",
           "type": "Construct",
-          "limitation": 2,
-          "cost": "280",
+          "cost": "270",
           "rules": [
             {
               "specialrules": [
@@ -3393,19 +2714,16 @@
                   "specialrule": "Supernal"
                 },
                 {
-                  "specialrule": "Fearless"
-                },
-                {
                   "specialrule": "Aegis  (5+)"
                 }
               ],
               "equipments": [],
               "ADV": "5",
               "MAR": "10",
-              "Ld": "5",
-              "W": "5",
+              "Ld": "2",
+              "W": "2",
               "DEF": "3",
-              "T": "5",
+              "T": "2",
               "ARM": "2",
               "name": "Hell Maw Offensive",
               "A": "5",
@@ -3417,24 +2735,97 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Ominous Gateways",
-              "onechoice": false,
+              "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Ominous Gateway",
-                  "cost": "50",
-                  "limitation": 2
+                  "name": "1 Ominous Gateway",
+                  "cost": "75"
                 },
                 {
-                  "name": "Ominous Gateways",
-                  "cost": "150",
-                  "limitation": 1
+                  "name": "2 Ominous Gateways",
+                  "cost": "175"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "organisation": "5",
+      "units": [
+        {
+          "name": "Doomlord (General)",
+          "Base": "1",
+          "size": "Large",
+          "type": "Infantry",
+          "cost": "360",
+          "rules": [
+            {
+              "specialrules": [
+                {
+                  "specialrule": "Master of Destruction"
+                },
+                {
+                  "specialrule": "Path of the Exiled"
+                }
+              ],
+              "equipments": [
+                {
+                  "equipment": "Hell-Forged Armour"
+                },
+                {
+                  "equipment": "Shield"
+                }
+              ],
+              "ADV": "5",
+              "MAR": "10",
+              "Ld": "9",
+              "W": "4",
+              "DEF": "6",
+              "T": "5",
+              "ARM": "1",
+              "name": "Doomlord Offensive",
+              "A": "5",
+              "OFF": "7",
+              "S": "5",
+              "AP": "2",
+              "I": "4"
+            }
+          ],
+          "options": [
+            {
+              "name": "Options",
+              "onechoice": false,
+              "choices": [
+                {
+                  "name": "Special Equipment",
+                  "cost": "0"
+                },
+                {
+                  "name": "Replace Shield with Spiked Shield",
+                  "cost": "25"
+                }
+              ]
+            },
+            {
+              "name": "Melee Weapon",
+              "onechoice": true,
+              "mandatory": false,
+              "choices": [
+                {
+                  "name": "Paired Weapons",
+                  "cost": "10"
+                },
+                {
+                  "name": "Great Weapon",
+                  "cost": "40"
+                },
+                {
+                  "name": "Halberd",
+                  "cost": "30"
                 }
               ]
             }
