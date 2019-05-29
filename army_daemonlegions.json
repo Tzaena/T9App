@@ -334,31 +334,238 @@
   "mounts": [
     {
       "id": "1",
-      "name": "Harbinger of Father Chaos",
+      "name": "Great Beast of Prophecy ",
       "rules": [
         {
           "specialrules": [
             {
-              "specialrule": "Supernal"
+              "specialrule": "Fear"
+            }
+          ],
+          "equipments": [],
+          "ADV": "7",
+          "MAR": "14",
+          "Ld": "C",
+          "name": "Great Beast of Prophecy ",
+          "A": "3",
+          "OFF": "5",
+          "S": "5",
+          "AP": "2",
+          "I": "2",
+          "W": "C",
+          "DEF": "C",
+          "T": "5",
+          "ARM": "C"
+        }
+      ],
+      "size": "Large",
+      "type": "Cavalry"
+    },
+    {
+      "id": "2",
+      "name": "Pale Horse",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Elusive"
             },
             {
-              "specialrule": "Fearless"
+              "specialrule": "Feigned flight"
+            },
+            {
+              "specialrule": "Light Troops"
+            },
+            {
+              "specialrule": "Strider"
+            },
+            {
+              "specialrule": "Vanguard (12)"
+            },
+            {
+              "specialrule": "Hard Target (1)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "9",
+          "MAR": "18",
+          "Ld": "C",
+          "name": "Pale Horse",
+          "A": "1",
+          "OFF": "3",
+          "S": "3",
+          "AP": "0",
+          "I": "3",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C"
+        }
+      ],
+      "size": "Standard",
+      "type": "Cavalry"
+    },
+    {
+      "id": "3",
+      "name": "Burning Wheel",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly (9, 18)"
+            },
+            {
+              "specialrule": "Tall"
+            },
+            {
+              "specialrule": "Light Troops"
+            },
+            {
+              "specialrule": "Hard Target (1)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "2 (9)",
+          "MAR": "4 (18)",
+          "Ld": "C",
+          "name": "Burning Wheel",
+          "A": "2",
+          "OFF": "4",
+          "S": "4"
+          "AP": "1",
+          "I": "4",
+          "W": "4",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C"
+        }
+      ],
+      "size": "Large",
+      "type": "Beast"
+    },
+    {
+      "id": "4",
+      "name": "Dark Pulpit",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Tall"
             }
           ],
           "equipments": [],
           "ADV": "5",
           "MAR": "10",
-          "Ld": "8",
-          "name": "Harbinger",
-          "A": "3",
-          "OFF": "5",
-          "S": "5",
+          "Ld": "C",
+          "name": "Dark Pulpit",
+          "A": "4",
+          "OFF": "3",
+          "S": "3"
+          "AP": "0",
+          "I": "4",
+          "W": "4",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "1"
+        }
+      ],
+      "size": "Standard",
+      "type": "Beast"
+    },
+    {
+      "id": "5",
+      "name": "Throne of Overwhelming Splendour",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Fly (9, 9)"
+            },
+            {
+              "specialrule": "Tall"
+            },
+            {
+              "specialrule": "Rising Star"
+            },
+            {
+              "specialrule": "Towering Presence"
+            },
+            {
+              "specialrule": "Swiftstride"
+            },
+            {
+              "specialrule": "Light Troops"
+            },
+            {
+              "specialrule": "Impact Hits (D6)"
+            },
+            {
+              "specialrule": "Inanimate"
+            },
+            {
+              "specialrule": "Aegis (4+)"
+            }
+          ],
+          "equipments": [],
+          "ADV": "9 (9)",
+          "MAR": "9 (9)",
+          "Ld": "C",
+          "name": "Writhing Majesties",
+          "A": "4",
+          "OFF": "4",
+          "S": "4"
+          "AP": "1",
+          "I": "4",
+          "W": "5",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C"
+        },{
+          "specialrules": [
+          ],
+          "equipments": [],
+          "ADV": "-",
+          "MAR": "-",
+          "Ld": "-",
+          "name": "Throne",
+          "A": "-",
+          "OFF": "-",
+          "S": "5"
           "AP": "2",
-          "I": "5",
-          "W": "3",
-          "DEF": "5",
-          "T": "4",
-          "ARM": "0"
+          "I": "-",
+          "W": "-",
+          "DEF": "-",
+          "T": "-",
+          "ARM": "-"
+        }
+      ],
+      "size": "Large",
+      "type": "Construct"
+    },
+    {
+      "id": "6",
+      "name": "Throne of the Oracle",
+      "rules": [
+        {
+          "specialrules": [
+            {
+              "specialrule": "Tall"
+            }
+          ],
+          "equipments": [],
+          "ADV": "5",
+          "MAR": "10",
+          "Ld": "C",
+          "name": "Throne of the Oracle",
+          "A": "4",
+          "OFF": "3",
+          "S": "3"
+          "AP": "0",
+          "I": "2",
+          "W": "C",
+          "DEF": "C",
+          "T": "C",
+          "ARM": "C"
         }
       ],
       "size": "Standard",
@@ -386,7 +593,7 @@
                   "specialrule": "Fearless"
                 },
                 {
-                  "specialrule": "Aegis  (4+, against Magical Attacks)"
+                  "specialrule": "Aegis  (4+)"
                 }
               ],
               "equipments": [],
@@ -449,6 +656,18 @@
                   "cost": 35
                 },
                 {
+                  "name": "Fly",
+                  "cost": 60,
+                  "category": "4",
+                  "condition": [
+                    {
+                      "option": "11",
+                      "global": false,
+                      "exist": true
+                    }
+                  ]
+                },
+                {
                   "type": "magicitems",
                   "name": "Father Chaos and General",
                   "cost": 150
@@ -494,33 +713,26 @@
               ]
             },
             {
-              "name": "Mount",
+              "name": "Mounts",
               "onechoice": true,
-              "mandatory": false,
               "choices": [
                 {
-                  "name": "Dark Pulpit",
-                  "cost": "50"
+                  "mount": "4",
+                  "cost": 50
                 },
                 {
-                  "name": "Pale Horse",
-                  "cost": "75"
+                  "mount": "2",
+                  "cost": 75
                 },
                 {
-                  "name": "Burning Wheel",
-                  "cost": "85",
+                  "mount": "3",
+                  "cost": 85
                   "category": "4"
-
                 },
                 {
-                  "name": "Great Beast of Prophecy",
-                  "cost": "105"
-                },
-                {
-                  "name": "Great Beast of Prophecy (Fly)",
-                  "cost": "165",
-                  "category": "4"
-
+                  "mount": "1",
+                  "globalid": "11",
+                  "cost": 105
                 }
               ]
             }
@@ -543,7 +755,7 @@
                   "specialrule": "Dominion of Pride"
                 },
                 {
-                  "specialrule": "Aegis  (4+, against Magical Attacks)"
+                  "specialrule": "Aegis  (4+)"
                 },
                 {
                   "specialrule": "Supernal"
@@ -662,6 +874,17 @@
                   "cost": "185"
                 }
               ]
+            },
+            {
+              "name": "Mounts",
+              "onechoice": true,
+              "choices": [
+                {
+                  "mount": "5",
+                  "category": "4",
+                  "cost": 185
+                }
+              ]
             }
           ]
         },{
@@ -674,6 +897,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (4+)"
+                },
                 {
                   "specialrule": "Omniscience"
                 },
@@ -768,8 +994,8 @@
                   "limitation": "1"
                 },
                 {
-                  "name": "Throne of the Oracle",
-                  "cost": "0"
+                  "mount": "6",
+                  "cost": 0
                 }
               ]
             },
@@ -934,6 +1160,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Know Thyself"
                 },
                 {
@@ -1069,6 +1298,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Avert your Gaze"
                 },
                 {
@@ -1197,6 +1429,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Half Off"
                 },
                 {
@@ -1204,6 +1439,12 @@
                 },
                 {
                   "specialrule": "Fearless"
+                },
+                {
+                  "specialrule": "Dominion of Greed"
+                },
+                {
+                  "specialrule": "Abyssal Armour"
                 }
               ],
               "equipments": [],
@@ -1336,6 +1577,9 @@
                   "specialrule": "Fly  (7, 14)"
                 },
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Aegis  (4+, against Melee Attacks)"
                 },
                 {
@@ -1455,6 +1699,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
                 {
                   "specialrule": "Firestarter"
                 },
@@ -1587,6 +1834,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Supernal"
                 },
                 {
@@ -1675,6 +1925,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
                 {
                   "specialrule": "Talon Scythes"
                 },
@@ -1765,6 +2018,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Fearless"
                 },
                 {
@@ -1850,6 +2106,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (6+)"
+                },
                 {
                   "specialrule": "Supernal"
                 },
@@ -2012,6 +2271,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Hellish Growl"
                 },
                 {
@@ -2095,6 +2357,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
                 {
                   "specialrule": "Impact Hits  (2D3)"
                 },
@@ -2235,6 +2500,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Mountain Breaker"
                 },
                 {
@@ -2343,6 +2611,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Smother"
                 },
                 {
@@ -2419,6 +2690,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
                 {
                   "specialrule": "Spell Craving"
                 },
@@ -2503,6 +2777,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
                 {
                   "specialrule": "Tightening Grasp"
                 },
@@ -2600,6 +2877,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
                 {
                   "specialrule": "Fearless"
                 },
@@ -2717,6 +2997,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
                   "specialrule": "Falling Star"
                 },
                 {
@@ -2797,6 +3080,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
                 {
                   "specialrule": "Fear"
                 },
@@ -2884,6 +3170,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
                 {
                   "specialrule": "Fear"
                 },
@@ -3009,6 +3298,9 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (6+)"
+                },
+                {
                   "specialrule": "Fearless"
                 },
                 {
@@ -3089,6 +3381,9 @@
           "rules": [
             {
               "specialrules": [
+                {
+                  "specialrule": "Aegis  (5+)"
+                },
                 {
                   "specialrule": "Morphlings"
                 },
@@ -3175,6 +3470,12 @@
             {
               "specialrules": [
                 {
+                  "specialrule": "Aegis  (5+)"
+                },
+                {
+                  "specialrule": "Fortitude  (5+)"
+                },
+                {
                   "specialrule": "Acid Blood"
                 },
                 {
@@ -3187,7 +3488,7 @@
                   "specialrule": "Fear"
                 },
                 {
-                  "specialrule": "Fly  (8, 12)"
+                  "specialrule": "Fly  (6, 12)"
                 },
                 {
                   "specialrule": "Light Troops"
