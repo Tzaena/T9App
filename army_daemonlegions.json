@@ -550,6 +550,9 @@
           "specialrules": [
             {
               "specialrule": "Tall"
+            },
+            {
+              "specialrule": "Aegis (4+)"
             }
           ],
           "equipments": [],
