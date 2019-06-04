@@ -11,7 +11,7 @@
     {
       "id": "2",
       "percent": 25,
-      "type": "max",
+      "type": "min",
       "name": "Core"
     },
     {
