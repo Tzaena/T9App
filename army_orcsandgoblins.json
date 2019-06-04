@@ -3798,7 +3798,7 @@
       "units": [
         {
           "name": "Gargantula",
-          "cost": 210,
+          "cost": 510,
           "type": "3",
           "size" : "3",
           "limitation": "2",
