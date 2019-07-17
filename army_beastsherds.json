@@ -909,7 +909,7 @@
                 {
                   "globalid": "101",
                   "name": "BSB",
-                  "cost": 100,
+                  "cost": 50,
                   "condition": [
                     {
                       "option": "101",
@@ -1031,7 +1031,7 @@
                 {
                   "globalid": "101",
                   "name": "BSB",
-                  "cost": 100,
+                  "cost": 50,
                   "condition": [
                     {
                       "option": "101",
