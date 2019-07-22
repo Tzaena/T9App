@@ -23,7 +23,7 @@
       "id": "4",
       "percent": 35,
       "type": "max",
-      "name": "Legendarry Beasts"
+      "name": "Legendary Beasts"
     }
   ],
   "magicitems": {
@@ -31,19 +31,19 @@
       {
         "name": "Burning Portent",
         "description": "Hand Weapon enchantment. Attacks made with this weapon have their Armour Penetration set to 10 and gain Flaming Attacks, Magical Attacks, and Multiple Wounds (D3).",
-        "cost": "125"
+        "cost": "130"
       },
       {
         "name": "Symbol of Slaughter",
-        "description": "Hand Weapon and Paired Weapons enchantment. When using this weapon, the wielder gains +2 Attack Value, +2 Agility, and suffers -2 Offensive Skill. Attacks made with this weapon gain Magical Attacks.",
-        "cost": "40"
+        "description": "Enchantment: Hand Weapon and Paired Weapons. When using this weapon, the wielder gains +2 Attack Value, +2 Agility, and Magical Attacks. Close Combat Attacks made against the wielder’s model gain +1 to hit.",
+        "cost": "35"
       }
     ],
     "armours": [
       {
         "name": "Thrice-Forged",
-        "description": "Standard Size models only. Suit of Armour enchantment. The wearer gains +3 Armour.",
-        "cost": "65"
+        "description": "Enchantment: Suit of Armour. The wearer gains +3 Armour. If the bearer’s model has Towering Presence, its Armour cannot be improved beyond 5.",
+        "cost": "60"
       },
       {
         "name": "Gladiator’s Spirit",
@@ -54,23 +54,23 @@
       {
         "name": "Icon of the Infinite",
         "description": "0-2 per Army. Cannot be taken by units that count towards Core. The bearer can cast Hellfire (Hereditary Spell) as a Bound Spell with Power Level (4/8).",
-        "cost": "50"
+        "cost": "40"
       },
       {
         "name": "Zealots’ Banner",
         "description": "0-3 per Army. The maximum number of Supporting Attacks that models in the second rank of the bearer’s unit can perform is increased by 1.",
-        "cost": "50"
+        "cost": "60"
       },
       {
         "name": "Wasteland Torch",
-        "description": "The bearer’s unit gains Strider (Ruins). After determining Deployment Zones (at the end of step 6 of the Pre-Game Sequence), you may choose a single Field, or Forest Terrain Feature that becomes Ruins",
-        "cost": "25"
+        "description": "The bearer’s unit gains Strider (Ruins). After determining Deployment Zones (at the end of step 6 of the Pre-Game Sequence), you may choose a single Field, or Forest Terrain Feature that becomes Ruins.The bearer’s unit gains Flaming Attacks in the First Round of Combat.",
+        "cost": "30"
       }],
     "artefacts": [
       {
         "name": "Ledger of Souls ",
-        "description": "Dominant. Whenever a friendly model with Hell-Forged Armour or Irredeemable within 12″ of the bearer, or a model in the bearer’s unit is removed as a casualty, you gain one Veil Token for each Health Point the model (that was removed as a casualty) started the game with. In addition, at the end of Siphon the Veil, the army may keep up to 6 Veil Tokens (instead of the normal 3).",
-        "cost": "90"
+        "description": "Dominant. Whenever a friendly model without Insignificant in a unit within 9″ of the bearer’s model loses its last Health Point due to enemy attacks, you gain one Veil Token for each Health Point that model started the game with immediately before removing the model as a casualty",
+        "cost": "75"
       },
       {
         "name": "Immortal Gauntlets",
@@ -78,9 +78,9 @@
         "cost": "45"
       },
       {
-        "name": "Orb of Foreboding",
-        "description": "At the start of the Deployment Phase, immediately before step 1 (Determine who deploys first), you may choose one of the opponent’s non-Character units. This unit loses Vanguard and Scout. The opponent must immediately deploy this unit. This is done outside the normal Deployment procedure and is ignored when determining the first deployed unit and the number of deployed units.",
-        "cost": "55"
+        "name": "Veilgate Orb",
+        "description": "At the end of Siphon the Veil, the army may keep up to 6 Veil Tokens instead of the normal 3.",
+        "cost": "15"
       },
       {
         "name": "Lord of the Damned",
@@ -89,8 +89,8 @@
       },
       {
         "name": "Wyrd Stone ",
-        "description": "One use only. Must be activated when the bearer’s model is hit by an attack with at least Strength 5 or at least Armour Penetration 5. The bearer’s model gains Aegis (4+). If the bearer’s model is Standard or Large, this effect is lost at end of the Player Turn. If the bearer’s model is Gigantic, this effect is lost after rolling the Aegis Save once (if the bearer is hit by several simultaneous attacks, the owner chooses which attack to use the Aegis Save against).",
-        "cost": "35"
+        "description": "One use only. Must be activated when the bearer’s model suffers the first hit in the game. This hit is ignored. If the bearer is hit by several simultaneous attacks, the bearer chooses which attack to ignore.",
+        "cost": "15"
       }]
   },
   "mounts": [
@@ -1254,17 +1254,6 @@
                   ]
                 },
                 {
-                  "name": "Additional Limbs",
-                  "cost": 50,
-                  "condition": [
-                    {
-                      "option": "131",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
-                },
-                {
                   "name": "Shield",
                   "cost": "5"
                 },
@@ -1401,6 +1390,11 @@
                       "exist": false
                     }
                   ]
+                },
+                {
+                  "type": "magicitems",
+                  "name": "Magic items (!!twice the price!!)",
+                  "cost": 200
                 }
               ]
             },
@@ -1525,7 +1519,7 @@
                   "cost": "4",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1536,7 +1530,7 @@
                   "cost": "3",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1544,10 +1538,10 @@
                 },
                 {
                   "name": "Greed",
-                  "cost": 78",
+                  "cost": "7",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1558,7 +1552,7 @@
                   "cost": "2",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1569,7 +1563,7 @@
                   "cost": "4",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1580,7 +1574,7 @@
                   "cost": "9",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1591,7 +1585,7 @@
                   "cost": "8",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1604,7 +1598,7 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20",
+                  "cost": "30",
                   "globalid": "32"
                 },
                 {
@@ -1675,7 +1669,7 @@
           "type": "Infantry",
           "unitsize": "15",
           "maxmodels": "25",
-          "modelcost": "9",
+          "modelcost": "7",
           "cost": "135",
           "rules": [
             {
@@ -1795,8 +1789,8 @@
           "type": "Cavalry",
           "unitsize": "5",
           "maxmodels": "5",
-          "modelcost": "46",
-          "cost": "255",
+          "modelcost": "44",
+          "cost": "250",
           "rules": [
             {
               "specialrules": [
@@ -1866,18 +1860,6 @@
                       "exist": true
                     }
                   ]
-                },
-                {
-                  "name": "Favoured Champion",
-                  "cost": "40",
-                  "globalid": "33",
-                  "condition": [
-                    {
-                      "option": "32",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
                 }
               ]
             },
@@ -1892,7 +1874,7 @@
                 },
                 {
                   "name": "Lance",
-                  "cost": "10"
+                  "cost": "8"
                 }
               ],
               "type": "permodel"
@@ -1905,10 +1887,10 @@
               "choices": [
                 {
                   "name": "Envy",
-                  "cost": "8",
+                  "cost": "5",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1919,7 +1901,7 @@
                   "cost": "7",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1927,10 +1909,10 @@
                 },
                 {
                   "name": "Greed",
-                  "cost": "6",
+                  "cost": "5",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1938,10 +1920,10 @@
                 },
                 {
                   "name": "Lust",
-                  "cost": "10",
+                  "cost": "11",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1952,7 +1934,7 @@
                   "cost": "3",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1960,10 +1942,10 @@
                 },
                 {
                   "name": "Sloth",
-                  "cost": "10",
+                  "cost": "8",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1974,7 +1956,7 @@
                   "cost": "8",
                   "condition": [
                     {
-                      "option": "33",
+                      "option": "32",
                       "global": false,
                       "exist": true
                     }
@@ -1987,7 +1969,7 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20",
+                  "cost": "35",
                   "globalid": "32"
                 },
                 {
@@ -2009,7 +1991,7 @@
           "size": "Large",
           "limitation": 4,
           "type": "Construct",
-          "cost": "220",
+          "cost": "225",
           "rules": [
             {
               "specialrules": [
@@ -2097,8 +2079,8 @@
           "unitsize": "5",
           "maxmodels": "5",
           "limitation": 4,
-          "modelcost": "64",
-          "cost": "270",
+          "modelcost": "60",
+          "cost": "265",
           "rules": [
             {
               "specialrules": [
@@ -2126,7 +2108,7 @@
               "W": "2",
               "DEF": "6",
               "T": "4",
-              "ARM": "3+",
+              "ARM": "0",
               "name": "Chosen Offensive",
               "A": "3",
               "OFF": "6",
@@ -2186,15 +2168,15 @@
                 },
                 {
                   "name": "Gluttony",
-                  "cost": "5"
+                  "cost": "4"
                 },
                 {
                   "name": "Greed",
-                  "cost": "9"
+                  "cost": "10"
                 },
                 {
                   "name": "Lust",
-                  "cost": "1"
+                  "cost": "0"
                 },
                 {
                   "name": "Pride",
@@ -2206,7 +2188,7 @@
                 },
                 {
                   "name": "Wrath",
-                  "cost": "14"
+                  "cost": "17"
                 }]
             },
             {
@@ -2215,7 +2197,7 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20"
+                  "cost": "30"
                 },
                 {
                   "name": "Musician",
@@ -2237,9 +2219,9 @@
           "type": "Cavalry",
           "unitsize": "3",
           "maxmodels": "2",
-          "modelcost": "425",
+          "modelcost": "125",
           "maxarmymodels": 12,
-          "cost": "430",
+          "cost": "425",
           "rules": [
             {
               "specialrules": [
@@ -2323,31 +2305,31 @@
               "choices": [
                 {
                   "name": "Envy",
-                  "cost": "9"
+                  "cost": "6"
                 },
                 {
                   "name": "Gluttony",
-                  "cost": "4"
-                },
-                {
-                  "name": "Greed",
-                  "cost": "5"
-                },
-                {
-                  "name": "Lust",
-                  "cost": "8"
-                },
-                {
-                  "name": "Pride",
                   "cost": "0"
                 },
                 {
+                  "name": "Greed",
+                  "cost": "3"
+                },
+                {
+                  "name": "Lust",
+                  "cost": "6"
+                },
+                {
+                  "name": "Pride",
+                  "cost": "3"
+                },
+                {
                   "name": "Sloth",
-                  "cost": "20"
+                  "cost": "12"
                 },
                 {
                   "name": "Wrath",
-                  "cost": "3"
+                  "cost": "1"
                 }]
             },
             {
@@ -2356,7 +2338,7 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "20"
+                  "cost": "25"
                 },
                 {
                   "name": "Musician",
@@ -2376,7 +2358,7 @@
           "Base": "1",
           "size": "Large",
           "type": "Construct",
-          "cost": "340",
+          "cost": "345",
           "limitation": 2,
           "rules": [
             {
@@ -2470,7 +2452,7 @@
                 },
                 {
                   "name": "Gluttony",
-                  "cost": "25"
+                  "cost": "10"
                 },
                 {
                   "name": "Greed",
@@ -2482,7 +2464,7 @@
                 },
                 {
                   "name": "Pride",
-                  "cost": "10"
+                  "cost": "15"
                 },
                 {
                   "name": "Sloth",
@@ -2501,9 +2483,10 @@
           "size": "Large",
           "type": "Infantry",
           "unitsize": "3",
-          "maxmodels": "7",
+          "limitation": 3,
+          "maxmodels": "6",
           "modelcost": "60",
-          "cost": "180",
+          "cost": "190",
           "rules": [
             {
               "specialrules": [
@@ -2562,11 +2545,11 @@
               "choices": [
                 {
                   "name": "Spiked Shield",
-                  "cost": "12"
+                  "cost": "13"
                 },
                 {
                   "name": "Damnation",
-                  "cost": "25",
+                  "cost": "10",
                   "limitation": 2,
                   "maxmodels": 6
                 }
@@ -2584,7 +2567,7 @@
                 },
                 {
                   "name": "Paired Weapons",
-                  "cost": "3"
+                  "cost": "1"
                 },
                 {
                   "name": "Halberd",
@@ -2622,8 +2605,8 @@
           "unitsize": "1",
           "maxmodels": "5",
           "limitation": 2,
-          "modelcost": "91",
-          "cost": "115",
+          "modelcost": "92",
+          "cost": "95",
           "rules": [
             {
               "specialrules": [
@@ -2671,7 +2654,7 @@
           "limitation": 2,
           "size": "Large",
           "type": "Construct",
-          "cost": "340",
+          "cost": "260",
           "rules": [
             {
               "specialrules": [
@@ -2748,10 +2731,6 @@
               "onechoice": true,
               "choices": [
                 {
-                  "name": "Ledger of Souls",
-                  "cost": "90"
-                },
-                {
                   "type": "magicitems",
                   "name": "Magic items",
                   "cost": 200
@@ -2768,8 +2747,8 @@
           "unitsize": "5",
           "maxmodels": "10",
           "limitation": 4,
-          "modelcost": "25",
-          "cost": "130",
+          "modelcost": "18",
+          "cost": "135",
           "rules": [
             {
               "specialrules": [
@@ -2853,7 +2832,8 @@
                   "cost": "1"
                 },
                 {
-                  "name": "Paired Weapons"
+                  "name": "Paired Weapons",
+                  "cost": "0"
                 },
                 {
                   "name": "Light Lance",
@@ -2901,8 +2881,8 @@
           "unitsize": "5",
           "maxmodels": "5",
           "limitation": 4,
-          "modelcost": "24",
-          "cost": "150",
+          "modelcost": "19",
+          "cost": "145",
           "rules": [
             {
               "specialrules": [
@@ -2966,6 +2946,10 @@
                 {
                   "name": "Shield",
                   "cost": "2"
+                },
+                {
+                  "name": "Light Lance",
+                  "cost": "2"
                 }
               ],
               "type": "permodel"
@@ -2981,7 +2965,7 @@
                 },
                 {
                   "name": "Skinning Lash",
-                  "cost": "6",
+                  "cost": "5",
                   "maxarmymodels": 15
                 },
                 {
@@ -3017,7 +3001,7 @@
           "maxmodels": "10",
           "limitation": 4,
           "modelcost": "10",
-          "cost": "100",
+          "cost": "90",
           "rules": [
             {
               "specialrules": [
@@ -3066,8 +3050,8 @@
           "type": "Beast",
           "unitsize": "3",
           "maxmodels": "3",
-          "modelcost": "115",
-          "cost": "360",
+          "modelcost": "105",
+          "cost": "340",
           "rules": [
             {
               "specialrules": [
@@ -3156,7 +3140,7 @@
           "size": "Large",
           "limitation": 3,
           "type": "Beast",
-          "cost": "265",
+          "cost": "200",
           "rules": [
             {
               "specialrules": [
@@ -3193,7 +3177,7 @@
               "choices": [
                 {
                   "name": "Wings",
-                  "cost": "55",
+                  "cost": "45",
                   "maxmodels": 2,
                   "category": "4"
                 }]
@@ -3211,7 +3195,7 @@
           "size": "Gigantic",
           "type": "Beast",
           "limitation": 2,
-          "cost": "385",
+          "cost": "400",
           "rules": [
             {
               "specialrules": [
@@ -3261,7 +3245,7 @@
           "size": "Gigantic",
           "type": "Infantry",
           "limitation": 3,
-          "cost": "270",
+          "cost": "260",
           "rules": [
             {
               "specialrules": [
@@ -3313,11 +3297,11 @@
                 },
                 {
                   "name": "Monstrous Familiar",
-                  "cost": "55"
+                  "cost": "50"
                 },
                 {
                   "name": "Tribal Warspear",
-                  "cost": "65"
+                  "cost": "40"
                 }
               ]
             }
@@ -3329,7 +3313,7 @@
           "size": "Gigantic",
           "type": "Beast",
           "limitation": 2,
-          "cost": "480",
+          "cost": "430",
           "rules": [
             {
               "specialrules": [
@@ -3388,7 +3372,7 @@
           "size": "Gigantic",
           "type": "Construct",
           "limitation": 2,
-          "cost": "280",
+          "cost": "270",
           "rules": [
             {
               "specialrules": [
@@ -3423,23 +3407,18 @@
           ],
           "options": [
             {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            },
-            {
               "name": "Ominous Gateways",
-              "onechoice": false,
+              "onechoice": true,
               "mandatory": false,
               "choices": [
                 {
-                  "name": "Ominous Gateway",
-                  "cost": "50",
+                  "name": "One Ominous Gateway",
+                  "cost": "75",
                   "limitation": 2
                 },
                 {
-                  "name": "Ominous Gateways",
-                  "cost": "150",
+                  "name": "Two Ominous Gateways",
+                  "cost": "175",
                   "limitation": 1
                 }
               ]
