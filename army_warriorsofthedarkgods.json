@@ -2636,7 +2636,7 @@
               "W": "3",
               "DEF": "2",
               "T": "4",
-              "ARM": "-",
+              "ARM": "0",
               "name": "Wretched One Offensive",
               "A": "0",
               "OFF": "2",
@@ -3222,7 +3222,7 @@
               "W": "6",
               "DEF": "2",
               "T": "6",
-              "ARM": "-",
+              "ARM": "0",
               "name": "Forsaken One Offensive",
               "A": "0",
               "OFF": "2",
@@ -3232,11 +3232,6 @@
             }
           ],
           "options": [
-            {
-              "name": "Options",
-              "onechoice": false,
-              "choices": []
-            }
           ]
         },
         {
