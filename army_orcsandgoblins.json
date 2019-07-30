@@ -3930,7 +3930,7 @@
                 {
                   "globalid": "101",
                   "name": "BSB",
-                  "cost": 50,
+                  "cost": 100,
                   "condition": [
                     {
                       "option": "101",
