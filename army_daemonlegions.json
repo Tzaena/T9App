@@ -41,6 +41,7 @@
       },
       {
         "name": "Chaos (Guiding) - Kaleidoscopic Flesh",
+        "dominant" : 1,
         "cost": 65,
         "description": "Dominant. The model and each R&F model in its unit gains Hard Target (1)"
       },
@@ -56,11 +57,13 @@
       },
       {
         "name": "Chaos (Guiding) - Mirrored Scales",
+        "dominant" : 1,
         "cost": 70,
         "description": "Dominantt. Each Close Combat Attack allocated towards the bearer and R&F models in its unit that rolls a natural ‘1’ on its to-hit roll hits the attacking model’s Health Pool instead."
       },
       {
         "name": "Chaos - Withering Vapour",
+		"limitation": 2,
         "cost": 45,
         "description": "The bearer gains a Breath Attack (Str 3, AP 2)"
       },
@@ -72,12 +75,13 @@
       {
         "name": "Chaos - Sorcerous Antennae",
         "cost": 40,
+		"limitation": 2,
         "description": "At the start of Siphon the Veil in each of your Magic Phases, choose a single model part in each unit with one or more instances of this Manifestation. The chosen model part gains Channel (1) until the end of the Magic Phase."
       },
       {
         "name": "Chaos - Cloven Hooves",
-        "cost": 30,
-        "description": "The model gains Impact Hits (D3). These Impact Hits are resolved with Strength 5 and Armour Penetration 2."
+        "cost": 35,
+        "description": "The model gains Impact Hits (D3+1). These Impact Hits are resolved with Strength 5 and Armour Penetration 2."
       },
       {
         "name": "Chaos - Brimstone Secretions",
@@ -86,6 +90,7 @@
       },
       {
         "name": "Chaos (Guilding) - Brimstone Secretions",
+        "dominant" : 1,
         "cost": 35,
         "description": "Dominant. Attacks made against the model and against R&F models in its unit no longer are Divine Attacks (if they were)."
       },
@@ -96,12 +101,13 @@
       },
       {
         "name": "Chaos (Guilding)- Centipede Legs",
+        "dominant" : 1,
         "cost": 40,
         "description": "Dominant. The model and each R&F model in its unit gains +1″ Advance Rate."
       },
       {
         "name": "Chaos - Charged Tendrils",
-        "cost": 25,
+        "cost": 15,
         "description": "At the end of Siphon the Veil, each unit with one or more instances of this Manifestation allows the owner to store one additional Veil Token, up to a maximum of 6."
       },
       {
@@ -121,7 +127,8 @@
       },
       {
         "name": "Chaos (Guilding) - Living Shield ",
-        "cost": 55,
+        "dominant" : 1,
+        "cost": 50,
         "description": "The model and each R&F model in its unit gains Parry."
       },
       {
@@ -130,17 +137,13 @@
         "description": "A side with one or more units with one or more instances of Unnatural Roots Engaged in Combat at the end of the Round of Combat adds +1 to its Combat Score"
       },
       {
-        "name": "Chaos - Third Eye ",
-        "cost": 20,
-        "description": "At the beginning of each friendly Charge Phase, draw the Flux Card for that Player Turn instead of step 2 of the Magic Phase Sequence."
-      },
-      {
         "name": "Chaos - Dextrous Tentacles",
         "cost": 15,
         "description": "The model gains +1 Agility."
       },
       {
         "name": "Chaos (Guilding) - Dextrous Tentacles",
+        "dominant" : 1,
         "cost": 35,
         "description": "Dominant. The model and each R&F model in its unit gains +1 Agility."
       },
@@ -152,12 +155,13 @@
       {
         "name": "Envy - Piercing Spike",
         "cost": 25,
-        "description": "Close Combat Attacks against enemy models with an Armour value of 3 or higher made by the model gain +1 Strength and +1 Armour Penetration."
+        "description": "Close Combat Attacks against enemy models with an Armour value of 3 or higher made by the model gain +1 Armour Penetration."
       },
       {
         "name": "Envy (Guilding) - Piercing Spike",
+        "dominant" : 1,
         "cost": 60,
-        "description": "Dominant. Close Combat Attacks against enemy models with an Armour value of 3 or higher made by the model and each R&F model in its unit gain +1 Strength and +1 Armour Penetration."
+        "description": "Dominant. Close Combat Attacks against enemy models with an Armour value of 3 or higher made by the model and each R&F model in its unit gain +1 Armour Penetration."
       },
       {
         "name": "Envy - Venom Sacs",
@@ -166,17 +170,20 @@
       },
       {
         "name": "Envy (Guilding) - Venom Sacs",
-        "cost": 75,
+        "dominant" : 1,
+        "cost": 80,
         "description": "Dominant. The model and each R&F model in its unit gains Poison Attacks. If the model’s Close Combat Attacks or those of R&F models in its unit already were Poison Attacks from another source than this Manifestation, the attack will automatically wound on successful to-hit rolls of 5+, instead of 6+."
       },
       {
         "name": "Gluttony - Broodmother",
         "cost": 60,
+        "dominant" : 1,
         "description": "Dominant. At the end of each Round of Combat during which the model’s unit was Engaged in Combat, and during which the model caused at least three Health Point losses with Close Combat Attacks, the unit Raises D3 Health Points."
       },
       {
         "name": "Gluttony (Guilding) - Broodmother",
         "cost": 80,
+        "dominant" : 1,
         "description": "Dominant. At the end of each Round of Combat during which the model’s unit was Engaged in Combat, and during which the model and R&F models in the bearer’s unit caused at least three Health Point losses with Close Combat Attacks, the unit Raises D3 Health Points."
       },
       {
@@ -186,6 +193,7 @@
       },
       {
         "name": "Gluttony (Guilding) - Digestive Vomit",
+        "dominant" : 1,
         "cost": 60,
         "description": "Dominant. One use only. Must be activated the first time the bearer’s unit performs a Post-Combat Pivot or a PostCombat Reform. The model and each R&F model in its unit gains +1 Strength and +1 Armour Penetration until the end of the game."
       },
@@ -196,6 +204,7 @@
       },
       {
         "name": "Gluttony (Guilding) - Unhinging Jaw",
+        "dominant" : 1,
         "cost": 55,
         "description": "Dominant. The model and each R&F model in its unit must reroll failed to-wound rolls from Close Combat Attacks against Large or Gigantic models."
       },
@@ -206,6 +215,7 @@
       },
       {
         "name": "Greed (Guilding) - Grasping Proboscis",
+        "dominant" : 1,
         "cost": 25,
         "description": "Dominant. At the end of each Round of Combat during which the model’s unit was Engaged in Combat, and the model and R&F model in the bearer’s unit caused at least three Health Point losses by Close Combat Attacks, you gain D3 Veil Token to your Veil Token pool."
       },
@@ -216,22 +226,24 @@
       },
       {
         "name": "Greed (Guilding) - Smothering Coils",
+        "dominant" : 1,
         "cost": 50,
         "description": "Dominant. The model and each R&F model in its unit gains +1 to-wound with Close Combat Attacks against models with Scoring."
       },
       {
         "name": "Greed - Divining Snout",
-        "cost": 15,
-        "description": "When Charging a unit that contains more than one Special Item, the model must reroll failed Charge Range rolls when rolling for Charge Range and gains +2″ Advance Rate for the Charge Range roll. The effects only apply if all models in the unit are affected by Divining Snout."
+        "cost": 20,
+        "description": "When Charging a unit that contains one or more Special Item, the model gains +2″ Advance Rate for the Charge Range roll. The effects only apply if all models in the unit are affected by Divining Snout."
       },
       {
         "name": "Greed - Divining Snout",
-        "cost": 30,
-        "description": "Dominant. When Charging a unit that contains more than one Special Item, the model and each R&F model in its unit must reroll failed Charge Range rolls when rolling for Charge Range and gains +2″ Advance Rate for the Charge Range roll. The effects only apply if all models in the unit are affected by Divining Snout."
+        "cost": 40,
+        "description": "Dominant. When Charging a unit that contains one or more Special Item, the model and each R&F model in its unit gains +2″ Advance Rate for the Charge Range roll. The effects only apply if all models in the unit are affected by Divining Snout."
       },
       {
         "name": "Lust - Mesmerising Plumage",
         "cost": 40,
+        "dominant" : 1,
         "description": "Dominant. Enemy units in base contact with one or more models with this Manifestation suffer −1 Offensive Skill and −1 Defensive Skill."
       },
       {
@@ -242,6 +254,7 @@
       {
         "name": "Lust (Guilding) - Roaming Hands",
         "cost": 40,
+        "dominant" : 1,
         "description": "Dominant. When the unit is Engaged with an enemy unit’s Flank or Rear Facing, the model and each R&F model in its unit gains +1 Strength and +1 Armour Penetration."
       },
       {
@@ -252,6 +265,7 @@
       {
         "name": "Lust (Guilding) - Hot Blood",
         "cost": 25,
+        "dominant" : 1,
         "description": "Dominant. The model and each R&F model in its unit gains Devastating Charge (+2 Agi)."
       },
       {
@@ -267,6 +281,7 @@
       {
         "name": "Pride (Guildding) - Bronze Backbone",
         "cost": 70,
+        "dominant" : 1,
         "description": "Dominant. The model and each R&F model in its unit gains Hatred."
       },
       {
@@ -277,16 +292,19 @@
       {
         "name": "Pride (Guilding) - Horns of Hubris",
         "cost": 35,
+        "dominant" : 1,
         "description": "Dominant. The model and each R&F model in its unit gains Vanguard (6″)."
       },
       {
         "name": "Sloth - Chilling Yawn",
         "cost": 75,
+        "dominant" : 1,
         "description": "Dominant. Enemy units in base contact with one or more models with this Manifestation suffer −2 Agility."
       },
       {
         "name": "Sloth - Aura of Despair ",
         "cost": 50,
+        "dominant" : 1,
         "description": "Dominant. Enemy units suffer −2 Advance Rate to a minimum of 1 when rolling for Charge Range against units with at least one model with this Manifestation."
       },
       {
@@ -296,7 +314,8 @@
       },
       {
         "name": "Sloth (Guildding) - Segmented Shell",
-        "cost": 35,
+        "cost": 30,
+        "dominant" : 1,
         "description": "Dominant. When the model or a R&F model in its unit suffers a wound from an attack with Multiple Wounds, the number of wounds that it is multiplied into (due to Multiple Wounds) is reduced by 1, to a minimum of 1. "
       },
       {
@@ -306,7 +325,8 @@
       },
       {
         "name": "Wrath (Guilding) - Whipcrack Tail ",
-        "cost": 80,
+        "cost": 75,
+        "dominant" : 1,
         "description": "Dominant. The model and each R&F model in its unit gains Lightning Reflexes."
       },
       {
@@ -316,7 +336,8 @@
       },
       {
         "name": "Wrath (Guiilding) - Red Haze",
-        "cost": 80,
+        "cost": 75,
+        "dominant" : 1,
         "description": "Dominant. The model’s Close Combat Attacks and those of R&F models in its unit gain +1 Strength and +1 Armour Penetration, but each of its Close Combat Attacks with a natural to-hit roll of ‘1’ is distributed onto the bearer’s unit."
       },
       {
@@ -327,6 +348,7 @@
       {
         "name": "Wrath (Guilding) - Incendiary Ichor",
         "cost": 30,
+        "dominant" : 1,
         "description": "Dominant. The model and each R&F model in its unit gains Aegis (2+, against Flaming Attacks). All Melee Attacks (including Special Attacks) and Shooting Attacks made by the model with Incendiary Ichor and each R&F model in its unit become Flaming Attacks. The bearer and each R&F model in its unit automatically fails all Fortitude Saves."
       }
     ]
@@ -656,19 +678,7 @@
                 },
                 {
                   "name": "Dark Fire (3+) (foot only)",
-                  "cost": 35
-                },
-                {
-                  "name": "Fly",
-                  "cost": 60,
-                  "category": "4",
-                  "condition": [
-                    {
-                      "option": "11",
-                      "global": false,
-                      "exist": true
-                    }
-                  ]
+                  "cost": 10
                 },
                 {
                   "type": "magicitems",
@@ -721,21 +731,21 @@
               "choices": [
                 {
                   "mount": "4",
-                  "cost": 50
+                  "cost": 110
                 },
                 {
                   "mount": "2",
-                  "cost": 75
+                  "cost": 70
                 },
                 {
                   "mount": "3",
-                  "cost": 85,
+                  "cost": 80,
                   "category": "4"
                 },
                 {
                   "mount": "1",
                   "globalid": "11",
-                  "cost": 105
+                  "cost": 100
                 }
               ]
             }
@@ -867,18 +877,6 @@
               ]
             },
             {
-              "name": "Mount",
-              "onechoice": true,
-              "mandatory": false,
-              "choices": [
-                {
-                  "name": "Throne of Overwhelming Splendour",
-                  "category": "4",
-                  "cost": "185"
-                }
-              ]
-            },
-            {
               "name": "Mounts",
               "onechoice": true,
               "choices": [
@@ -896,7 +894,7 @@
           "size": "Standard",
           "limitation": "3",
           "type": "Beast",
-          "cost": "620",
+          "cost": "660",
           "rules": [
             {
               "specialrules": [
@@ -1033,7 +1031,7 @@
           "limitation": "1",
           "size": "Gigantic",
           "type": "Beast",
-          "cost": "570",
+          "cost": "555",
           "rules": [
             {
               "specialrules": [
@@ -1158,7 +1156,7 @@
           "limitation": "3",
           "size": "Standard",
           "type": "Beast",
-          "cost": "335",
+          "cost": "345",
           "rules": [
             {
               "specialrules": [
@@ -1213,6 +1211,10 @@
                   "type": "magicitems",
                   "name": "Father Chaos and Envy",
                   "cost": 150
+                },
+                {
+                  "name": "Fly (7, 14)",
+                  "cost": 35
                 }
               ]
             },
@@ -1296,7 +1298,7 @@
           "limitation": "1",
           "size": "Gigantic",
           "type": "Beast",
-          "cost": "575",
+          "cost": "550",
           "rules": [
             {
               "specialrules": [
@@ -1427,7 +1429,7 @@
           "size": "Gigantic",
           "type": "Beast",
           "limitation": "1",
-          "cost": "670",
+          "cost": "630",
           "rules": [
             {
               "specialrules": [
@@ -1560,7 +1562,7 @@
           "size": "Gigantic",
           "category": "4",
           "type": "Beast",
-          "cost": "725",
+          "cost": "710",
           "rules": [
             {
               "specialrules": [
@@ -1696,9 +1698,9 @@
           "type": "Beast",
           "unitsize": "10",
           "maxmodels": "15",
-          "modelcost": "15",
+          "modelcost": "14",
           "maxarmymodels": "40",
-          "cost": "215",
+          "cost": "205",
           "rules": [
             {
               "specialrules": [
@@ -1716,9 +1718,6 @@
                 },
                 {
                   "specialrule": "Scoring"
-                },
-                {
-                  "specialrule": "Wizard Apprentice  (Spear of Infinity, Hand of Heaven)"
                 }
               ],
               "equipments": [
@@ -1748,7 +1747,7 @@
               "choices": [
                 {
                   "name": "Hand of Heaven",
-                  "cost": "35",
+                  "cost": "60",
                   "condition": [
                     {
                       "option": "11",
@@ -1759,7 +1758,7 @@
                 },
                 {
                   "name": "Spear of Infinity",
-                  "cost": "35",
+                  "cost": "45",
                   "condition": [
                     {
                       "option": "11",
@@ -1810,15 +1809,15 @@
               "choices": [
                 {
                   "name": "Charged Tendriis",
-                  "cost": "30"
+                  "cost": "20"
                 },
                 {
                   "name": "Mark of the Eternal Champion",
-                  "cost": "30"
+                  "cost": "25"
                 },
                 {
                   "name": "Sorcerous Antennae",
-                  "cost": "45"
+                  "cost": "50"
                 }
               ]
             }
@@ -1831,8 +1830,8 @@
           "type": "Beast",
           "unitsize": "10",
           "maxmodels": "15",
-          "modelcost": "27",
-          "cost": "200",
+          "modelcost": "25",
+          "cost": "210",
           "rules": [
             {
               "specialrules": [
@@ -1898,7 +1897,7 @@
                 },
                 {
                   "name": "Stiff Upper Lip",
-                  "cost": "2"
+                  "cost": "1"
                 },
                 {
                   "name": "Unnatutal Roots",
@@ -1923,8 +1922,8 @@
           "type": "Beast",
           "unitsize": "10",
           "maxmodels": "15",
-          "modelcost": "19",
-          "cost": "210",
+          "modelcost": "20",
+          "cost": "205",
           "rules": [
             {
               "specialrules": [
@@ -2002,7 +2001,7 @@
                 },
                 {
                   "name": "Smothering Coils",
-                  "cost": "6"
+                  "cost": "7"
                 }
               ]
             }
@@ -2015,7 +2014,7 @@
           "size": "Standard",
           "type": "Beast",
           "maxmodels": "20",
-          "modelcost": "22",
+          "modelcost": "23",
           "cost": "215",
           "rules": [
             {
@@ -2077,15 +2076,15 @@
                 },
                 {
                   "name": "Whipcrack Tail",
-                  "cost": "2"
-                },
-                {
-                  "name": "Bronze Backbone",
-                  "cost": "4"
+                  "cost": "3"
                 },
                 {
                   "name": "Piercing Spike",
                   "cost": "4"
+                },
+                {
+                  "name": "Bronze Backbone",
+                  "cost": "5"
                 }
               ]
             }
@@ -2103,14 +2102,14 @@
           "type": "Beast",
           "unitsize": "5",
           "maxmodels": "5",
-          "modelcost": "33",
+          "modelcost": "28",
           "maxarmymodels": "18",
-          "cost": "185",
+          "cost": "165",
           "rules": [
             {
               "specialrules": [
                 {
-                  "specialrule": "Aegis  (6+)"
+                  "specialrule": "Aegis  (5+)"
                 },
                 {
                   "specialrule": "Supernal"
@@ -2129,9 +2128,6 @@
                 },
                 {
                   "specialrule": "Wizard Conclave"
-                },
-                {
-                  "specialrule": "Aegis  (4+, against Magical Attacks)"
                 }
               ],
               "equipments": [
@@ -2162,7 +2158,7 @@
               "choices": [
                 {
                   "name": "Scout",
-                  "cost": "4"
+                  "cost": "5"
                 }
               ],
               "type": "permodel"
@@ -2190,11 +2186,11 @@
                 },
                 {
                   "name": "Aura of Despair",
-                  "cost": "4"
+                  "cost": "5"
                 },
                 {
                   "name": "Kaleidoscopic Flesh",
-                  "cost": "5"
+                  "cost": "6"
                 }
               ]
             },
@@ -2204,7 +2200,7 @@
               "choices": [
                 {
                   "name": "Sorcerous Antennae",
-                  "cost": "35"
+                  "cost": "30"
                 }
               ]
             },
@@ -2344,19 +2340,19 @@
                 },
                 {
                   "name": "Centipede Legs",
-                  "cost": "3"
+                  "cost": "2"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Thresing Engine",
+          "name": "Threshing Engine",
           "Base": "1",
           "size": "Large",
           "limitation": "5",
           "type": "Construct",
-          "cost": "160",
+          "cost": "155",
           "rules": [
             {
               "specialrules": [
@@ -2439,17 +2435,17 @@
                 {
                   "limitation": "2",
                   "name": "Fly (9,9) and Light Troops",
-                  "cost": "30"
+                  "cost": "25"
                 },
                 {
                   "limitation": "3",
                   "name": "Horde Thresher",
-                  "cost": "75"
+                  "cost": "80"
                 },
                 {
                   "limitation": "2",
                   "name": "Legion Thresher",
-                  "cost": "140"
+                  "cost": "145"
                 }
               ]
             },
@@ -2474,19 +2470,19 @@
                 },
                 {
                   "name": "Horns of Hubris",
-                  "cost": "20"
+                  "cost": "15"
                 },
                 {
                   "name": "Whipcrrack Tail",
-                  "cost": "30"
+                  "cost": "25"
                 },
                 {
                   "name": "Mark of Eternal Champion",
-                  "cost": "35"
+                  "cost": "40"
                 },
                 {
                   "name": "Roamning Hands",
-                  "cost": "40"
+                  "cost": "45"
                 }
               ]
             }
@@ -2579,23 +2575,23 @@
               "choices": [
                 {
                   "name": "Stifff Upper Lip",
-                  "cost": "10"
+                  "cost": "5"
                 },
                 {
                   "name": "Divining Scout",
-                  "cost": "15"
+                  "cost": "5"
                 },
                 {
                   "name": "Digestive Vomit",
-                  "cost": "20"
+                  "cost": "10"
                 },
                 {
                   "name": "Segmented Shell",
-                  "cost": "20"
+                  "cost": "5"
                 },
                 {
                   "name": "Centipede Legs",
-                  "cost": "25"
+                  "cost": "20"
                 }
               ]
             }
@@ -2608,8 +2604,8 @@
           "unitsize": "3",
           "limitation": "2",
           "maxmodels": "3",
-          "modelcost": "97",
-          "cost": "280",
+          "modelcost": "100",
+          "cost": "270",
           "rules": [
             {
               "specialrules": [
@@ -2658,7 +2654,7 @@
               "choices": [
                 {
                   "name": "Dark Hide",
-                  "cost": "6"
+                  "cost": "4"
                 },
                 {
                   "name": "Mesmerising Plumage",
@@ -2670,11 +2666,11 @@
                 },
                 {
                   "name": "Unhinging Jaw",
-                  "cost": "13"
+                  "cost": "15"
                 },
                 {
                   "name": "Broodmother",
-                  "cost": "15"
+                  "cost": "17"
                 }
               ]
             }
@@ -2688,8 +2684,8 @@
           "unitsize": "2",
           "limitation": "3",
           "maxmodels": "2",
-          "modelcost": "39",
-          "cost": "170",
+          "modelcost": "33",
+          "cost": "175",
           "rules": [
             {
               "specialrules": [
@@ -2745,23 +2741,23 @@
               "choices": [
                 {
                   "name": "Greenfire Eyes",
-                  "cost": "3"
+                  "cost": "5"
                 },
                 {
                   "name": "Unnatural Roots",
-                  "cost": "7"
+                  "cost": "5"
                 },
                 {
                   "name": "Living Shield",
-                  "cost": "8"
+                  "cost": "10"
                 },
                 {
                   "name": "Piercing Spike",
-                  "cost": "9"
+                  "cost": "10"
                 },
                 {
                   "name": "Venom Sacs",
-                  "cost": "13"
+                  "cost": "15"
                 }
               ]
             }
@@ -2775,8 +2771,8 @@
           "type": "Beast",
           "unitsize": "3",
           "maxmodels": "3",
-          "modelcost": "118",
-          "cost": "295",
+          "modelcost": "110",
+          "cost": "280",
           "rules": [
             {
               "specialrules": [
@@ -2845,11 +2841,7 @@
                 },
                 {
                   "name": "Grasping Proboscis",
-                  "cost": "3"
-                },
-                {
-                  "name": "Kaleidoscope Flesh",
-                  "cost": "4"
+                  "cost": "5"
                 },
                 {
                   "name": "Divining Snout",
@@ -2860,8 +2852,12 @@
                   "cost": "8"
                 },
                 {
-                  "name": "Smothering Colis",
-                  "cost": "12"
+                  "name": "Smothering Coils",
+                  "cost": "10"
+                },
+                {
+                  "name": "Mirrored Scales",
+                  "cost": "15"
                 }
               ]
             }
@@ -2875,7 +2871,7 @@
           "unitsize": "5",
           "limitation": "3",
           "maxmodels": "10",
-          "modelcost": "28",
+          "modelcost": "25",
           "cost": "195",
           "rules": [
             {
@@ -2967,11 +2963,11 @@
               "choices": [
                 {
                   "name": "Centipede Legs",
-                  "cost": "2"
+                  "cost": "1"
                 },
                 {
                   "name": "Hot Blood",
-                  "cost": "2"
+                  "cost": "1"
                 },
                 {
                   "name": "Mesmerising Plumage",
@@ -2979,11 +2975,11 @@
                 },
                 {
                   "name": "Roaming Hands",
-                  "cost": "7"
+                  "cost": "6"
                 },
                 {
                   "name": "Hammer Hand",
-                  "cost": "8"
+                  "cost": "9"
                 }
               ]
             }
@@ -2995,7 +2991,7 @@
           "size": "Large",
           "type": "Beast",
           "limitation": "2",
-          "cost": "320",
+          "cost": "290",
           "rules": [
             {
               "specialrules": [
@@ -3142,11 +3138,11 @@
                 },
                 {
                   "name": "Aura of Despair",
-                  "cost": "40"
+                  "cost": "50"
                 },
                 {
                   "name": "Sorcerous Antennae",
-                  "cost": "40"
+                  "cost": "30"
                 },
                 {
                   "name": "Mark of the Eternal Champion",
@@ -3168,7 +3164,7 @@
           "unitsize": "3",
           "maxmodels": "3",
           "limitation": "3",
-          "modelcost": "102",
+          "modelcost": "95",
           "cost": "350",
           "rules": [
             {
@@ -3260,7 +3256,7 @@
               "choices": [
                 {
                   "name": "Incendiary Ichor",
-                  "cost": "3"
+                  "cost": "1"
                 },
                 {
                   "name": "Centipede Legs",
@@ -3268,7 +3264,7 @@
                 },
                 {
                   "name": "Chitinous Scales",
-                  "cost": "8"
+                  "cost": "5"
                 },
                 {
                   "name": "Whipcrack Tail",
@@ -3276,7 +3272,7 @@
                 },
                 {
                   "name": "Red Haze",
-                  "cost": "21"
+                  "cost": "24"
                 }
               ]
             }
@@ -3295,8 +3291,8 @@
           "unitsize": "5",
           "limitation": "3",
           "maxmodels": "10",
-          "modelcost": "13",
-          "cost": "160",
+          "modelcost": "10",
+          "cost": "165",
           "rules": [
             {
               "specialrules": [
@@ -3357,7 +3353,7 @@
                 },
                 {
                   "name": "Dark Hide",
-                  "cost": "2"
+                  "cost": 12"
                 },
                 {
                   "name": "Kaleidoscope Flesh",
@@ -3365,7 +3361,7 @@
                 },
                 {
                   "name": "Mesmerising Plumage",
-                  "cost": "3"
+                  "cost": "5"
                 }
               ]
             }
@@ -3379,8 +3375,8 @@
           "limitation": "3",
           "unitsize": "3",
           "maxmodels": "3",
-          "modelcost": "55",
-          "cost": "250",
+          "modelcost": "50",
+          "cost": "245",
           "rules": [
             {
               "specialrules": [
@@ -3430,7 +3426,7 @@
               "choices": [
                 {
                   "name": "Champion",
-                  "cost": "120"
+                  "cost": "130"
                 }
               ]
             },
@@ -3467,8 +3463,8 @@
           "unitsize": "3",
           "limitation": "3",
           "maxmodels": "3",
-          "modelcost": "100",
-          "cost": "310",
+          "modelcost": "95",
+          "cost": "295",
           "rules": [
             {
               "specialrules": [
@@ -3539,23 +3535,23 @@
               "choices": [
                 {
                   "name": "Dextrous Tentacles",
-                  "cost": "7"
+                  "cost": "5"
                 },
                 {
                   "name": "Unhinging Jaw",
-                  "cost": "7"
+                  "cost": "6"
                 },
                 {
                   "name": "Digestive Vomit",
-                  "cost": "10"
+                  "cost": "12"
                 },
                 {
                   "name": "Kaleidoscope Flesh",
-                  "cost": "11"
+                  "cost": "6"
                 },
                 {
                   "name": "Broodmother",
-                  "cost": "15"
+                  "cost": "18"
                 }
               ]
             }
